@@ -73,13 +73,8 @@ export function DetailCard({ item, parents, index, keyword }: DetailCardProps) {
                 level !== 0 && (isMatch ? "text-foreground" : "text-muted-foreground")
               )}
             >
-              {isMatch ? highlightText(rowItem.description, keyword) : rowItem.description}
+            {isMatch ? highlightText(rowItem.description, keyword) : rowItem.description}
             </span>
-            {rowItem.standard && (
-              <span className="text-xs font-mono text-muted-foreground bg-muted px-2 py-0.5 rounded">
-                {rowItem.standard}%
-              </span>
-            )}
           </div>
         );
       })}
