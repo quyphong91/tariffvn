@@ -1,24 +1,67 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { SearchBox } from "@/components/SearchBox";
 import { ResultsSection } from "@/components/ResultsSection";
-import { searchHSData, HSItem } from "@/data/hsData";
-import { Package, ArrowRight, Globe, Shield, Zap } from "lucide-react";
+import { loadHSData, searchHSData, HSItem } from "@/data/hsData";
+import { Package, ArrowRight, Globe, Shield, Zap, Loader2 } from "lucide-react";
 
 const Index = () => {
+  const [hsData, setHsData] = useState<HSItem[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const [loadError, setLoadError] = useState<string | null>(null);
   const [searchResults, setSearchResults] = useState<{
     headings: HSItem[];
     detailed: { item: HSItem; parents: HSItem[] }[];
     keyword: string;
   } | null>(null);
 
+  useEffect(() => {
+    loadHSData()
+      .then(data => {
+        setHsData(data);
+        setIsLoading(false);
+      })
+      .catch(err => {
+        setLoadError("Failed to load HS data. Please refresh the page.");
+        setIsLoading(false);
+        console.error(err);
+      });
+  }, []);
+
   const handleSearch = (keyword: string) => {
-    const results = searchHSData(keyword);
+    const results = searchHSData(hsData, keyword);
     setSearchResults({ ...results, keyword });
   };
 
   const handleReset = () => {
     setSearchResults(null);
   };
+
+  if (isLoading) {
+    return (
+      <div className="min-h-screen bg-gradient-hero flex items-center justify-center">
+        <div className="text-center">
+          <Loader2 className="w-12 h-12 text-primary animate-spin mx-auto mb-4" />
+          <p className="text-muted-foreground">Loading HS nomenclature data...</p>
+        </div>
+      </div>
+    );
+  }
+
+  if (loadError) {
+    return (
+      <div className="min-h-screen bg-gradient-hero flex items-center justify-center">
+        <div className="text-center">
+          <p className="text-destructive mb-4">{loadError}</p>
+          <button
+            onClick={() => window.location.reload()}
+            className="text-primary hover:underline"
+          >
+            Refresh page
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-gradient-hero">
@@ -40,7 +83,7 @@ const Index = () => {
           <div className="flex items-center gap-4 text-sm text-muted-foreground">
             <span className="hidden sm:inline-flex items-center gap-1">
               <Globe className="w-4 h-4" />
-              Vietnam Tariff
+              {hsData.length.toLocaleString()} items
             </span>
           </div>
         </div>
@@ -114,7 +157,7 @@ const Index = () => {
             >
               <p className="text-sm text-muted-foreground mb-4">Try searching for:</p>
               <div className="flex flex-wrap justify-center gap-2">
-                {["0101", "gà", "cá hồi", "điện thoại", "ô tô", "thịt"].map((term) => (
+                {["0101", "gà", "cá hồi", "điện thoại", "ô tô", "thịt", "giày", "máy tính"].map((term) => (
                   <button
                     key={term}
                     onClick={() => handleSearch(term)}
