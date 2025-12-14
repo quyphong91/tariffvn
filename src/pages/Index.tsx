@@ -128,39 +128,6 @@ const Index = () => {
               <SearchBox onSearch={handleSearch} />
             </div>
 
-            {/* Features */}
-            <div
-              className="grid md:grid-cols-3 gap-6 animate-fade-up"
-              style={{ animationDelay: "200ms" }}
-            >
-              <div className="bg-gradient-card rounded-xl border border-border p-6 shadow-card">
-                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
-                  <Package className="w-6 h-6 text-primary" />
-                </div>
-                <h3 className="font-semibold text-foreground mb-2">HS Code Classification</h3>
-                <p className="text-sm text-muted-foreground">
-                  4-8 digit hierarchical codes for precise product identification.
-                </p>
-              </div>
-              <div className="bg-gradient-card rounded-xl border border-border p-6 shadow-card">
-                <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center mb-4">
-                  <Shield className="w-6 h-6 text-accent" />
-                </div>
-                <h3 className="font-semibold text-foreground mb-2">Tariff Information</h3>
-                <p className="text-sm text-muted-foreground">
-                  View standard rates, MFN duties, and preferential trade agreements.
-                </p>
-              </div>
-              <div className="bg-gradient-card rounded-xl border border-border p-6 shadow-card">
-                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
-                  <Globe className="w-6 h-6 text-primary" />
-                </div>
-                <h3 className="font-semibold text-foreground mb-2">International Trade</h3>
-                <p className="text-sm text-muted-foreground">
-                  Standardized system used globally for customs and trade.
-                </p>
-              </div>
-            </div>
 
             {/* Example Searches */}
             <div
