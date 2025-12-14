@@ -2,7 +2,8 @@ import { useState, useEffect } from "react";
 import { SearchBox } from "@/components/SearchBox";
 import { ResultsSection } from "@/components/ResultsSection";
 import { loadHSData, searchHSData, HSItem } from "@/data/hsData";
-import { Package, ArrowRight, Globe, Shield, Zap, Loader2 } from "lucide-react";
+import { Package, ArrowRight, Globe, Shield, Zap, Loader2, Coffee } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const Index = () => {
   const [hsData, setHsData] = useState<HSItem[]>([]);
@@ -85,6 +86,17 @@ const Index = () => {
               <Globe className="w-4 h-4" />
               {hsData.length.toLocaleString()} items
             </span>
+            <Button
+              asChild
+              variant="outline"
+              size="sm"
+              className="gap-2 border-amber-500/50 text-amber-600 hover:bg-amber-50 hover:text-amber-700 dark:text-amber-400 dark:hover:bg-amber-950 dark:hover:text-amber-300"
+            >
+              <a href="https://buymeacoffee.com" target="_blank" rel="noopener noreferrer">
+                <Coffee className="w-4 h-4" />
+                <span className="hidden sm:inline">Buy me a coffee</span>
+              </a>
+            </Button>
           </div>
         </div>
       </header>
