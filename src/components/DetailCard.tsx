@@ -63,14 +63,14 @@ export function DetailCard({ item, parents, index, keyword }: DetailCardProps) {
             style={{ paddingLeft: `${1 + indent * 1.25}rem` }}
           >
             {idx > 0 && (
-              <ChevronRight className="w-4 h-4 text-muted-foreground flex-shrink-0" />
+              <ChevronRight className={cn("w-4 h-4 flex-shrink-0", level === 0 ? "text-primary-foreground/70" : "text-muted-foreground")} />
             )}
             <HSCodeBadge code={rowItem.hsCode} level={level} />
             <span
               className={cn(
                 "flex-1 text-sm",
-                level === 0 ? "font-semibold" : "font-normal",
-                isMatch ? "text-foreground" : "text-muted-foreground"
+                level === 0 ? "font-semibold text-primary-foreground" : "font-normal",
+                level !== 0 && (isMatch ? "text-foreground" : "text-muted-foreground")
               )}
             >
               {isMatch ? highlightText(rowItem.description, keyword) : rowItem.description}
