@@ -5,7 +5,7 @@ import { LanguageToggle } from "@/components/LanguageToggle";
 import { loadHSData, searchHSData, HSItem, SearchLanguage } from "@/data/hsData";
 import { Package, ArrowRight, Globe, Loader2, Coffee, QrCode, ExternalLink } from "lucide-react";
 import dongHoPainting from "@/assets/dong-ho-painting.jfif";
-import donationQr from "@/assets/donation-qr.jfif";
+import donationQr from "@/assets/donation-qr.jpg";
 import { Button } from "@/components/ui/button";
 import {
   Dialog,
