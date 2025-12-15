@@ -1,4 +1,4 @@
-import { HSItem } from "@/data/hsData";
+import { HSItem, SearchLanguage, getDescription } from "@/data/hsData";
 import { HSCodeBadge } from "./HSCodeBadge";
 import { ChevronRight } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -8,6 +8,7 @@ interface DetailCardProps {
   parents: HSItem[];
   index: number;
   keyword: string;
+  language: SearchLanguage;
 }
 
 function highlightText(text: string, keyword: string) {
@@ -39,7 +40,7 @@ function getLevelStyles(level: number) {
   }
 }
 
-export function DetailCard({ item, parents, index, keyword }: DetailCardProps) {
+export function DetailCard({ item, parents, index, keyword, language }: DetailCardProps) {
   const allItems = [...parents, item];
 
   return (
@@ -51,6 +52,7 @@ export function DetailCard({ item, parents, index, keyword }: DetailCardProps) {
         const isMatch = rowItem === item;
         const level = rowItem.level;
         const indent = Math.min(level, 4);
+        const description = getDescription(rowItem, language);
 
         return (
           <div
@@ -73,7 +75,7 @@ export function DetailCard({ item, parents, index, keyword }: DetailCardProps) {
                 level !== 0 && (isMatch ? "text-foreground" : "text-muted-foreground")
               )}
             >
-            {isMatch ? highlightText(rowItem.description, keyword) : rowItem.description}
+            {isMatch ? highlightText(description, keyword) : description}
             </span>
           </div>
         );

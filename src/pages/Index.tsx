@@ -1,14 +1,16 @@
 import { useState, useEffect } from "react";
 import { SearchBox } from "@/components/SearchBox";
 import { ResultsSection } from "@/components/ResultsSection";
-import { loadHSData, searchHSData, HSItem } from "@/data/hsData";
-import { Package, ArrowRight, Globe, Shield, Zap, Loader2, Coffee } from "lucide-react";
+import { LanguageToggle } from "@/components/LanguageToggle";
+import { loadHSData, searchHSData, HSItem, SearchLanguage } from "@/data/hsData";
+import { Package, ArrowRight, Globe, Zap, Loader2, Coffee } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Index = () => {
   const [hsData, setHsData] = useState<HSItem[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [loadError, setLoadError] = useState<string | null>(null);
+  const [language, setLanguage] = useState<SearchLanguage>('vi');
   const [searchResults, setSearchResults] = useState<{
     headings: HSItem[];
     detailed: { item: HSItem; parents: HSItem[] }[];
@@ -29,8 +31,17 @@ const Index = () => {
   }, []);
 
   const handleSearch = (keyword: string) => {
-    const results = searchHSData(hsData, keyword);
+    const results = searchHSData(hsData, keyword, language);
     setSearchResults({ ...results, keyword });
+  };
+
+  const handleLanguageChange = (newLanguage: SearchLanguage) => {
+    setLanguage(newLanguage);
+    // Re-run search with new language if there are existing results
+    if (searchResults) {
+      const results = searchHSData(hsData, searchResults.keyword, newLanguage);
+      setSearchResults({ ...results, keyword: searchResults.keyword });
+    }
   };
 
   const handleReset = () => {
@@ -123,8 +134,9 @@ const Index = () => {
               </p>
             </div>
 
-            {/* Search Box */}
+            {/* Language Toggle & Search Box */}
             <div className="mb-16 animate-fade-up" style={{ animationDelay: "100ms" }}>
+              <LanguageToggle language={language} onLanguageChange={handleLanguageChange} />
               <SearchBox onSearch={handleSearch} />
             </div>
 
@@ -136,7 +148,10 @@ const Index = () => {
             >
               <p className="text-sm text-muted-foreground mb-4">Try searching for:</p>
               <div className="flex flex-wrap justify-center gap-2">
-                {["0101", "gà", "cá hồi", "điện thoại", "ô tô", "thịt", "giày", "máy tính"].map((term) => (
+                {(language === 'vi' 
+                  ? ["0101", "gà", "cá hồi", "điện thoại", "ô tô", "thịt", "giày", "máy tính"]
+                  : ["0101", "chicken", "salmon", "phone", "car", "meat", "shoes", "computer"]
+                ).map((term) => (
                   <button
                     key={term}
                     onClick={() => handleSearch(term)}
@@ -152,8 +167,9 @@ const Index = () => {
         ) : (
           /* Results View */
           <div>
-            {/* Search Box - Compact */}
+            {/* Language Toggle & Search Box - Compact */}
             <div className="mb-8">
+              <LanguageToggle language={language} onLanguageChange={handleLanguageChange} />
               <SearchBox onSearch={handleSearch} initialValue={searchResults.keyword} />
             </div>
 
@@ -162,6 +178,7 @@ const Index = () => {
               <p className="text-muted-foreground">
                 Showing results for{" "}
                 <span className="font-semibold text-foreground">"{searchResults.keyword}"</span>
+                <span className="text-sm ml-2">({language === 'vi' ? 'Vietnamese' : 'English'})</span>
               </p>
               <button
                 onClick={handleReset}
@@ -176,6 +193,7 @@ const Index = () => {
               headings={searchResults.headings}
               detailed={searchResults.detailed}
               keyword={searchResults.keyword}
+              language={language}
             />
           </div>
         )}
