@@ -9,9 +9,17 @@ interface HeadingCardProps {
 }
 
 export function HeadingCard({ item, index, language }: HeadingCardProps) {
+  const handleClick = () => {
+    const element = document.getElementById(`detail-${item.hsCode}`);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
   return (
-    <div
-      className="group bg-gradient-card rounded-xl border border-border p-5 shadow-card hover:shadow-soft transition-all duration-300 animate-fade-up"
+    <button
+      onClick={handleClick}
+      className="group bg-gradient-card rounded-xl border border-border p-5 shadow-card hover:shadow-soft hover:border-primary/50 transition-all duration-300 animate-fade-up text-left w-full cursor-pointer"
       style={{ animationDelay: `${index * 50}ms` }}
     >
       <div className="flex items-start gap-4">
@@ -27,6 +35,6 @@ export function HeadingCard({ item, index, language }: HeadingCardProps) {
           </p>
         </div>
       </div>
-    </div>
+    </button>
   );
 }
