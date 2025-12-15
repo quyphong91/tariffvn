@@ -9,7 +9,7 @@ interface LanguageToggleProps {
 export function LanguageToggle({ language, onLanguageChange }: LanguageToggleProps) {
   return (
     <div className="flex items-center justify-center gap-2 mb-4">
-      <span className="text-sm text-muted-foreground">Search by:</span>
+      <span className="text-sm text-muted-foreground">Tìm kiếm bằng từ khóa theo:</span>
       <div className="inline-flex rounded-lg border border-border bg-card p-1 shadow-sm">
         <button
           type="button"
