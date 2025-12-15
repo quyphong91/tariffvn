@@ -42,10 +42,12 @@ function getLevelStyles(level: number) {
 
 export function DetailCard({ item, parents, index, keyword, language }: DetailCardProps) {
   const allItems = [...parents, item];
+  const headingCode = parents.length > 0 ? parents[0].hsCode : item.hsCode;
 
   return (
     <div
-      className="bg-gradient-card rounded-xl border border-border shadow-card overflow-hidden animate-fade-up"
+      id={`detail-${headingCode}`}
+      className="bg-gradient-card rounded-xl border border-border shadow-card overflow-hidden animate-fade-up scroll-mt-4"
       style={{ animationDelay: `${index * 50}ms` }}
     >
       {allItems.map((rowItem, idx) => {
