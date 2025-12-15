@@ -3,9 +3,18 @@ import { SearchBox } from "@/components/SearchBox";
 import { ResultsSection } from "@/components/ResultsSection";
 import { LanguageToggle } from "@/components/LanguageToggle";
 import { loadHSData, searchHSData, HSItem, SearchLanguage } from "@/data/hsData";
-import { Package, ArrowRight, Globe, Loader2, Coffee } from "lucide-react";
+import { Package, ArrowRight, Globe, Loader2, Coffee, QrCode, ExternalLink } from "lucide-react";
 import dongHoPainting from "@/assets/dong-ho-painting.jfif";
+import donationQr from "@/assets/donation-qr.jfif";
 import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
 
 const Index = () => {
   const [hsData, setHsData] = useState<HSItem[]>([]);
@@ -98,17 +107,63 @@ const Index = () => {
               <Globe className="w-4 h-4" />
               {hsData.length.toLocaleString()} items
             </span>
-            <Button
-              asChild
-              variant="outline"
-              size="sm"
-              className="gap-2 border-amber-500/50 text-amber-600 hover:bg-amber-50 hover:text-amber-700 dark:text-amber-400 dark:hover:bg-amber-950 dark:hover:text-amber-300"
-            >
-              <a href="https://buymeacoffee.com" target="_blank" rel="noopener noreferrer">
-                <Coffee className="w-4 h-4" />
-                <span className="hidden sm:inline">Buy me a coffee</span>
-              </a>
-            </Button>
+            <Dialog>
+              <DialogTrigger asChild>
+                <Button
+                  variant="outline"
+                  size="sm"
+                  className="gap-2 border-amber-500/50 text-amber-600 hover:bg-amber-50 hover:text-amber-700 dark:text-amber-400 dark:hover:bg-amber-950 dark:hover:text-amber-300"
+                >
+                  <Coffee className="w-4 h-4" />
+                  <span className="hidden sm:inline">Buy me a coffee</span>
+                </Button>
+              </DialogTrigger>
+              <DialogContent className="sm:max-w-md">
+                <DialogHeader>
+                  <DialogTitle className="flex items-center gap-2">
+                    <Coffee className="w-5 h-5 text-amber-600" />
+                    Support This Project
+                  </DialogTitle>
+                  <DialogDescription>
+                    Thank you for considering a donation! Choose your preferred method:
+                  </DialogDescription>
+                </DialogHeader>
+                <div className="grid gap-4 py-4">
+                  {/* Buy Me a Coffee Link */}
+                  <a
+                    href="https://buymeacoffee.com/pes91"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-4 p-4 rounded-lg border border-border bg-secondary/50 hover:bg-secondary transition-colors"
+                  >
+                    <div className="w-12 h-12 rounded-lg bg-amber-100 dark:bg-amber-900/50 flex items-center justify-center">
+                      <Coffee className="w-6 h-6 text-amber-600" />
+                    </div>
+                    <div className="flex-1">
+                      <p className="font-medium text-foreground">Buy Me a Coffee</p>
+                      <p className="text-sm text-muted-foreground">Support via buymeacoffee.com</p>
+                    </div>
+                    <ExternalLink className="w-4 h-4 text-muted-foreground" />
+                  </a>
+
+                  {/* QR Code */}
+                  <div className="flex flex-col items-center gap-3 p-4 rounded-lg border border-border bg-secondary/50">
+                    <div className="flex items-center gap-2">
+                      <QrCode className="w-5 h-5 text-amber-600" />
+                      <p className="font-medium text-foreground">Bank Transfer</p>
+                    </div>
+                    <img
+                      src={donationQr}
+                      alt="Donation QR Code"
+                      className="w-48 h-48 rounded-lg border border-border"
+                    />
+                    <p className="text-sm text-muted-foreground text-center">
+                      Scan QR code to transfer
+                    </p>
+                  </div>
+                </div>
+              </DialogContent>
+            </Dialog>
           </div>
         </div>
       </header>
