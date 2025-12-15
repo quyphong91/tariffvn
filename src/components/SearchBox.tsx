@@ -27,7 +27,7 @@ export function SearchBox({ onSearch, initialValue = "" }: SearchBoxProps) {
             type="text"
             value={keyword}
             onChange={(e) => setKeyword(e.target.value)}
-            placeholder="Enter HS Code or description keyword..."
+            placeholder="Nhập từ khóa mô tả hàng hóa..."
             className="pl-12 h-14 text-base bg-card border-border shadow-card rounded-xl focus-visible:ring-2 focus-visible:ring-primary transition-shadow"
           />
         </div>
@@ -36,7 +36,7 @@ export function SearchBox({ onSearch, initialValue = "" }: SearchBoxProps) {
           size="lg"
           className="h-14 px-8 rounded-xl font-semibold shadow-soft hover:shadow-glow transition-all duration-300"
         >
-          Search
+          Tìm kiếm
         </Button>
       </div>
     </form>
