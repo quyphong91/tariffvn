@@ -1,4 +1,4 @@
-import { HSItem } from "@/data/hsData";
+import { HSItem, SearchLanguage, getDescription } from "@/data/hsData";
 import { HeadingCard } from "./HeadingCard";
 import { DetailCard } from "./DetailCard";
 import { FileStack, ListTree } from "lucide-react";
@@ -7,9 +7,10 @@ interface ResultsSectionProps {
   headings: HSItem[];
   detailed: { item: HSItem; parents: HSItem[] }[];
   keyword: string;
+  language: SearchLanguage;
 }
 
-export function ResultsSection({ headings, detailed, keyword }: ResultsSectionProps) {
+export function ResultsSection({ headings, detailed, keyword, language }: ResultsSectionProps) {
   if (headings.length === 0 && detailed.length === 0) {
     return (
       <div className="text-center py-20">
@@ -41,7 +42,7 @@ export function ResultsSection({ headings, detailed, keyword }: ResultsSectionPr
         </div>
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {headings.map((heading, index) => (
-            <HeadingCard key={heading.hsCode} item={heading} index={index} />
+            <HeadingCard key={heading.hsCode} item={heading} index={index} language={language} />
           ))}
         </div>
       </section>
@@ -67,6 +68,7 @@ export function ResultsSection({ headings, detailed, keyword }: ResultsSectionPr
               parents={result.parents}
               index={index}
               keyword={keyword}
+              language={language}
             />
           ))}
         </div>

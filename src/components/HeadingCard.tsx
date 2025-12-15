@@ -1,13 +1,14 @@
-import { HSItem } from "@/data/hsData";
+import { HSItem, SearchLanguage, getDescription } from "@/data/hsData";
 import { HSCodeBadge } from "./HSCodeBadge";
 import { FileText } from "lucide-react";
 
 interface HeadingCardProps {
   item: HSItem;
   index: number;
+  language: SearchLanguage;
 }
 
-export function HeadingCard({ item, index }: HeadingCardProps) {
+export function HeadingCard({ item, index, language }: HeadingCardProps) {
   return (
     <div
       className="group bg-gradient-card rounded-xl border border-border p-5 shadow-card hover:shadow-soft transition-all duration-300 animate-fade-up"
@@ -22,7 +23,7 @@ export function HeadingCard({ item, index }: HeadingCardProps) {
             <HSCodeBadge code={item.hsCode} level={item.level} />
           </div>
           <p className="text-foreground font-medium leading-relaxed">
-            {item.description}
+            {getDescription(item, language)}
           </p>
         </div>
       </div>

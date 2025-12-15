@@ -1,9 +1,12 @@
 import * as XLSX from 'xlsx';
 
+export type SearchLanguage = 'vi' | 'en';
+
 export interface HSItem {
   level: number;
   hsCode: string;
   description: string;
+  descriptionEN?: string;
   standard?: string;
   mfn?: string;
   vat?: string;
@@ -39,16 +42,18 @@ export async function loadHSData(): Promise<HSItem[]> {
           const level = typeof row[0] === 'number' ? row[0] : parseInt(String(row[0] || '0'), 10);
           const hsCode = String(row[1] || '').trim();
           const description = String(row[2] || '').trim();
+          const descriptionEN = row[3] ? String(row[3]).trim() : undefined;
 
           if (hsCode && description) {
             items.push({
               level: isNaN(level) ? 0 : level,
               hsCode,
               description,
-              standard: row[3] ? String(row[3]) : undefined,
-              mfn: row[4] ? String(row[4]) : undefined,
-              vat: row[5] ? String(row[5]) : undefined,
-              note: row[29] ? String(row[29]) : undefined,
+              descriptionEN,
+              standard: row[4] ? String(row[4]) : undefined,
+              mfn: row[5] ? String(row[5]) : undefined,
+              vat: row[6] ? String(row[6]) : undefined,
+              note: row[30] ? String(row[30]) : undefined,
             });
           }
         }
@@ -99,10 +104,19 @@ export function getParentChain(item: HSItem, allItems: HSItem[]): HSItem[] {
   return result;
 }
 
+// Helper to get description based on language
+export function getDescription(item: HSItem, language: SearchLanguage): string {
+  if (language === 'en' && item.descriptionEN) {
+    return item.descriptionEN;
+  }
+  return item.description;
+}
+
 // Filter function for search
 export function searchHSData(
   hsData: HSItem[],
-  keyword: string
+  keyword: string,
+  language: SearchLanguage = 'vi'
 ): {
   headings: HSItem[];
   detailed: { item: HSItem; parents: HSItem[] }[];
@@ -112,11 +126,12 @@ export function searchHSData(
     return { headings: [], detailed: [] };
   }
 
-  const matchingItems = hsData.filter(
-    item =>
-      item.hsCode.toLowerCase().includes(lowerKeyword) ||
-      item.description.toLowerCase().includes(lowerKeyword)
-  );
+  const matchingItems = hsData.filter(item => {
+    const desc = language === 'en' && item.descriptionEN 
+      ? item.descriptionEN.toLowerCase() 
+      : item.description.toLowerCase();
+    return item.hsCode.toLowerCase().includes(lowerKeyword) || desc.includes(lowerKeyword);
+  });
 
   // Get unique headings for matching items
   const headingsSet = new Set<HSItem>();
