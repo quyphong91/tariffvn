@@ -203,7 +203,7 @@ const Index = () => {
                   className="gap-2 border-amber-500/50 text-amber-600 hover:bg-amber-50 hover:text-amber-700 dark:text-amber-400 dark:hover:bg-amber-950 dark:hover:text-amber-300"
                 >
                   <Coffee className="w-4 h-4" />
-                  Buy me a coffee
+                  Tặng cà phê cho page
                 </Button>
               </DialogTrigger>
               <DialogContent className="sm:max-w-md">
