@@ -3,7 +3,7 @@ import { SearchBox } from "@/components/SearchBox";
 import { ResultsSection } from "@/components/ResultsSection";
 import { LanguageToggle } from "@/components/LanguageToggle";
 import { loadHSData, searchHSData, HSItem, SearchLanguage } from "@/data/hsData";
-import { Package, ArrowRight, Globe, Loader2, Coffee, QrCode, ExternalLink } from "lucide-react";
+import { Package, ArrowRight, Loader2, Coffee, QrCode, ExternalLink } from "lucide-react";
 import dongHoPainting from "@/assets/dong-ho-painting.jfif";
 import donationQr from "@/assets/donation-qr.jpg";
 import { Button } from "@/components/ui/button";
@@ -103,10 +103,6 @@ const Index = () => {
             </div>
           </button>
           <div className="flex items-center gap-4 text-sm text-muted-foreground">
-            <span className="hidden sm:inline-flex items-center gap-1">
-              <Globe className="w-4 h-4" />
-              {hsData.length.toLocaleString()} items
-            </span>
             <Dialog>
               <DialogTrigger asChild>
                 <Button
