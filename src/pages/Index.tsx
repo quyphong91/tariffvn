@@ -167,15 +167,15 @@ const Index = () => {
             {/* Results Info */}
             <div className="flex items-center justify-between mb-6">
               <p className="text-muted-foreground">
-                Showing results for{" "}
+                Kết quả tìm kiếm cho{" "}
                 <span className="font-semibold text-foreground">"{searchResults.keyword}"</span>
-                <span className="text-sm ml-2">({language === 'vi' ? 'Vietnamese' : 'English'})</span>
+                <span className="text-sm ml-2">({language === 'vi' ? 'Tiếng Việt' : 'Tiếng Anh'})</span>
               </p>
               <button
                 onClick={handleReset}
                 className="text-sm text-primary hover:underline"
               >
-                Clear search
+                Xóa kết quả tìm kiếm
               </button>
             </div>
 

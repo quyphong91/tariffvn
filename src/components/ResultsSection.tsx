@@ -17,9 +17,9 @@ export function ResultsSection({ headings, detailed, keyword, language }: Result
         <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-muted mb-4">
           <FileStack className="w-8 h-8 text-muted-foreground" />
         </div>
-        <h3 className="text-lg font-semibold text-foreground mb-2">No results found</h3>
+        <h3 className="text-lg font-semibold text-foreground mb-2">Không tìm thấy kết quả</h3>
         <p className="text-muted-foreground">
-          Try searching with a different keyword or HS code.
+          Thử tìm kiếm với từ khóa hoặc mã HS khác.
         </p>
       </div>
     );
@@ -36,7 +36,7 @@ export function ResultsSection({ headings, detailed, keyword, language }: Result
           <div>
             <h2 className="text-xl font-bold text-foreground">Headings</h2>
             <p className="text-sm text-muted-foreground">
-              {headings.length} heading{headings.length !== 1 ? "s" : ""} found
+              Tìm thấy {headings.length} Headings
             </p>
           </div>
         </div>
@@ -54,9 +54,9 @@ export function ResultsSection({ headings, detailed, keyword, language }: Result
             <ListTree className="w-5 h-5 text-accent" />
           </div>
           <div>
-            <h2 className="text-xl font-bold text-foreground">Detailed Results</h2>
+            <h2 className="text-xl font-bold text-foreground">Kết quả chi tiết</h2>
             <p className="text-sm text-muted-foreground">
-              {detailed.length} item{detailed.length !== 1 ? "s" : ""} with hierarchy
+              Có {detailed.length} kết quả được phân theo Nhóm
             </p>
           </div>
         </div>
