@@ -154,6 +154,18 @@ const Index = () => {
                 ))}
               </div>
             </div>
+
+            {/* Description Text Box */}
+            <div
+              className="mt-8 max-w-2xl mx-auto animate-fade-up"
+              style={{ animationDelay: "400ms" }}
+            >
+              <div className="p-4 rounded-xl bg-muted/50 border border-border text-center">
+                <p className="text-sm text-muted-foreground leading-relaxed">
+                  Đây là công cụ hỗ trợ khoanh vùng các Nhóm (Heading) và mã HS liên quan đến từ khóa mô tả của hàng hóa để các bạn tìm đọc Chú giải chi tiết tương ứng để xác định mã HS phù hợp. Chúc may mắn và bình an.
+                </p>
+              </div>
+            </div>
           </div>
         ) : (
           /* Results View */
