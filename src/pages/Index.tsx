@@ -137,7 +137,7 @@ const Index = () => {
               className="mt-12 text-center animate-fade-up"
               style={{ animationDelay: "300ms" }}
             >
-              <p className="text-sm text-muted-foreground mb-4">Try searching for:</p>
+              <p className="text-sm text-muted-foreground mb-4">Thử tìm với:</p>
               <div className="flex flex-wrap justify-center gap-2">
                 {(language === 'vi' 
                   ? ["0101", "gà", "cá hồi", "điện thoại", "ô tô", "thịt", "giày", "máy tính"]
