@@ -222,10 +222,10 @@ const Index = () => {
                 <DialogHeader>
                   <DialogTitle className="flex items-center gap-2">
                     <Coffee className="w-5 h-5 text-amber-600" />
-                    Support This Project
+                    Cảm ơn quý phú ông, phú bà
                   </DialogTitle>
                   <DialogDescription>
-                    Thank you for considering a donation! Choose your preferred method:
+                    Xin hãy chọn cách tặng cà phê cho page. Của ít hay nhiều không quan trọng. Quan trọng ở tấm lòng. Cảm ơn quý ân nhân.
                   </DialogDescription>
                 </DialogHeader>
                 <div className="grid gap-4 py-4">
@@ -250,7 +250,7 @@ const Index = () => {
                   <div className="flex flex-col items-center gap-3 p-4 rounded-lg border border-border bg-secondary/50">
                     <div className="flex items-center gap-2">
                       <QrCode className="w-5 h-5 text-amber-600" />
-                      <p className="font-medium text-foreground">Bank Transfer</p>
+                      <p className="font-medium text-foreground">Chuyển khoản</p>
                     </div>
                     <img
                       src={donationQr}
@@ -258,7 +258,7 @@ const Index = () => {
                       className="w-auto h-auto max-w-64 rounded-lg border border-border"
                     />
                     <p className="text-sm text-muted-foreground text-center">
-                      Scan QR code to transfer
+                      Quét QR để chuyển khoản
                     </p>
                   </div>
                 </div>
