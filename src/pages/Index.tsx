@@ -99,7 +99,7 @@ const Index = () => {
             </div>
             <div>
               <h1 className="text-lg font-bold text-foreground leading-none">HS Code</h1>
-              <span className="text-xs text-muted-foreground">Nomenclature Search</span>
+              <span className="text-xs text-muted-foreground">Nào ta cùng mò</span>
             </div>
           </button>
         </div>
