@@ -1,7 +1,8 @@
 import { HSItem, SearchLanguage, getDescription } from "@/data/hsData";
 import { HeadingCard } from "./HeadingCard";
 import { DetailCard } from "./DetailCard";
-import { FileStack, ListTree } from "lucide-react";
+import { FileStack, ListTree, ArrowUp } from "lucide-react";
+import { Button } from "./ui/button";
 
 interface ResultsSectionProps {
   headings: HSItem[];
@@ -11,6 +12,13 @@ interface ResultsSectionProps {
 }
 
 export function ResultsSection({ headings, detailed, keyword, language }: ResultsSectionProps) {
+  const scrollToHeadings = () => {
+    const headingsSection = document.getElementById('headings-section');
+    if (headingsSection) {
+      headingsSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   if (headings.length === 0 && detailed.length === 0) {
     return (
       <div className="text-center py-20">
@@ -28,7 +36,7 @@ export function ResultsSection({ headings, detailed, keyword, language }: Result
   return (
     <div className="space-y-12">
       {/* Section 1: Headings Only */}
-      <section>
+      <section id="headings-section">
         <div className="flex items-center gap-3 mb-6">
           <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-primary/10">
             <FileStack className="w-5 h-5 text-primary" />
@@ -49,16 +57,27 @@ export function ResultsSection({ headings, detailed, keyword, language }: Result
 
       {/* Section 2: Detailed Results */}
       <section>
-        <div className="flex items-center gap-3 mb-6">
-          <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-accent/10">
-            <ListTree className="w-5 h-5 text-accent" />
+        <div className="flex items-center justify-between mb-6">
+          <div className="flex items-center gap-3">
+            <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-accent/10">
+              <ListTree className="w-5 h-5 text-accent" />
+            </div>
+            <div>
+              <h2 className="text-xl font-bold text-foreground">Kết quả chi tiết</h2>
+              <p className="text-sm text-muted-foreground">
+                Có {detailed.length} kết quả được phân theo Nhóm
+              </p>
+            </div>
           </div>
-          <div>
-            <h2 className="text-xl font-bold text-foreground">Kết quả chi tiết</h2>
-            <p className="text-sm text-muted-foreground">
-              Có {detailed.length} kết quả được phân theo Nhóm
-            </p>
-          </div>
+          <Button
+            variant="outline"
+            size="sm"
+            onClick={scrollToHeadings}
+            className="gap-2"
+          >
+            <ArrowUp className="w-4 h-4" />
+            Về Headings
+          </Button>
         </div>
         <div className="space-y-4">
           {detailed.map((result, index) => (
