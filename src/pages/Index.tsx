@@ -255,7 +255,7 @@ const Index = () => {
                     <img
                       src={donationQr}
                       alt="Donation QR Code"
-                      className="w-48 h-48 rounded-lg border border-border"
+                      className="w-auto h-auto max-w-64 rounded-lg border border-border"
                     />
                     <p className="text-sm text-muted-foreground text-center">
                       Scan QR code to transfer
