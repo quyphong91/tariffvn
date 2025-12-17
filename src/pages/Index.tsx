@@ -206,7 +206,7 @@ const Index = () => {
       <footer className="border-t border-border/50 mt-20">
         <div className="container mx-auto px-4 py-8 text-center text-sm text-muted-foreground">
           <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3">
-            <p>Nếu thấy hữu ích bạn có thể ủng hộ page bằng cách donate</p>
+            <p>Nếu thấy hữu ích, thỉnh thoảng nhớ ủng hộ page bằng cách donate nhé. Một ly cà phê cũng đủ thấy vui. Click vào đây để donate</p>
             <Dialog>
               <DialogTrigger asChild>
                 <Button
