@@ -36,6 +36,18 @@ export function ResultsSection({ headings, detailed, keyword, language }: Result
     }
   };
 
+  // Group headings by first 2 digits (Chapter)
+  const groupedHeadings = headings.reduce((acc, heading) => {
+    const chapter = heading.hsCode.substring(0, 2);
+    if (!acc[chapter]) {
+      acc[chapter] = [];
+    }
+    acc[chapter].push(heading);
+    return acc;
+  }, {} as Record<string, HSItem[]>);
+
+  const sortedChapters = Object.keys(groupedHeadings).sort();
+
   if (headings.length === 0 && detailed.length === 0) {
     return (
       <div className="text-center py-20">
@@ -65,7 +77,7 @@ export function ResultsSection({ headings, detailed, keyword, language }: Result
         </Button>
       )}
 
-      {/* Section 1: Headings Only */}
+      {/* Section 1: Headings Only - Grouped by Chapter */}
       <section id="headings-section">
         <div className="flex items-center gap-3 mb-6">
           <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-primary/10">
@@ -74,13 +86,28 @@ export function ResultsSection({ headings, detailed, keyword, language }: Result
           <div>
             <h2 className="text-xl font-bold text-foreground">Headings</h2>
             <p className="text-sm text-muted-foreground">
-              Tìm thấy {headings.length} Headings
+              Tìm thấy {headings.length} Headings trong {sortedChapters.length} Chương
             </p>
           </div>
         </div>
-        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-          {headings.map((heading, index) => (
-            <HeadingCard key={heading.hsCode} item={heading} index={index} language={language} />
+        
+        <div className="space-y-6">
+          {sortedChapters.map((chapter) => (
+            <div key={chapter} className="space-y-3">
+              <div className="flex items-center gap-2 px-1">
+                <span className="text-sm font-semibold text-primary bg-primary/10 px-3 py-1 rounded-full">
+                  Chương {chapter}
+                </span>
+                <span className="text-xs text-muted-foreground">
+                  ({groupedHeadings[chapter].length} headings)
+                </span>
+              </div>
+              <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+                {groupedHeadings[chapter].map((heading, index) => (
+                  <HeadingCard key={heading.hsCode} item={heading} index={index} language={language} />
+                ))}
+              </div>
+            </div>
           ))}
         </div>
       </section>
