@@ -2,8 +2,9 @@ import { HSItem, SearchLanguage, getDescription } from "@/data/hsData";
 import { chapterNames } from "@/data/chapterNames";
 import { HeadingCard } from "./HeadingCard";
 import { DetailCard } from "./DetailCard";
-import { FileStack, ListTree, ArrowUp } from "lucide-react";
+import { FileStack, ListTree, ArrowUp, ChevronDown } from "lucide-react";
 import { Button } from "./ui/button";
+import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "./ui/collapsible";
 import { useEffect, useState } from "react";
 
 interface ResultsSectionProps {
@@ -94,28 +95,33 @@ export function ResultsSection({ headings, detailed, keyword, language }: Result
         
         <div className="space-y-6">
           {sortedChapters.map((chapter) => (
-            <div key={chapter} className="space-y-3">
-              <div className="flex flex-col gap-1 px-1 mb-2">
-                <div className="flex items-center gap-2">
-                  <span className="text-sm font-semibold text-primary bg-primary/10 px-3 py-1 rounded-full">
-                    Chương {chapter}
-                  </span>
-                  <span className="text-xs text-muted-foreground">
-                    ({groupedHeadings[chapter].length} headings)
-                  </span>
+            <Collapsible key={chapter} defaultOpen className="group space-y-3">
+              <CollapsibleTrigger className="w-full">
+                <div className="flex flex-col gap-1 px-1 mb-2 text-left">
+                  <div className="flex items-center gap-2">
+                    <ChevronDown className="h-4 w-4 text-muted-foreground transition-transform duration-200 group-data-[state=closed]:rotate-[-90deg]" />
+                    <span className="text-sm font-semibold text-primary bg-primary/10 px-3 py-1 rounded-full">
+                      Chương {chapter}
+                    </span>
+                    <span className="text-xs text-muted-foreground">
+                      ({groupedHeadings[chapter].length} headings)
+                    </span>
+                  </div>
+                  {chapterNames[chapter] && (
+                    <p className="text-sm text-muted-foreground pl-6 line-clamp-2">
+                      {chapterNames[chapter]}
+                    </p>
+                  )}
                 </div>
-                {chapterNames[chapter] && (
-                  <p className="text-sm text-muted-foreground pl-1 line-clamp-2">
-                    {chapterNames[chapter]}
-                  </p>
-                )}
-              </div>
-              <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-                {groupedHeadings[chapter].map((heading, index) => (
-                  <HeadingCard key={heading.hsCode} item={heading} index={index} language={language} />
-                ))}
-              </div>
-            </div>
+              </CollapsibleTrigger>
+              <CollapsibleContent>
+                <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+                  {groupedHeadings[chapter].map((heading, index) => (
+                    <HeadingCard key={heading.hsCode} item={heading} index={index} language={language} />
+                  ))}
+                </div>
+              </CollapsibleContent>
+            </Collapsible>
           ))}
         </div>
       </section>
