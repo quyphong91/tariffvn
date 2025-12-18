@@ -180,9 +180,9 @@ export function ResultsSection({ headings, detailed, keyword, language }: Result
         
         <div className="space-y-6">
           {sortedChapters.map((chapter) => (
-            <Collapsible key={chapter} open={openChapters[chapter] ?? true} onOpenChange={() => toggleChapter(chapter)} className="group space-y-3">
+            <Collapsible key={chapter} open={openChapters[chapter] ?? true} onOpenChange={() => toggleChapter(chapter)} className="group space-y-3 border border-border rounded-lg p-4 bg-card/50">
               <CollapsibleTrigger className="w-full">
-                <div className="flex items-center gap-2 px-1 mb-2 text-left">
+                <div className="flex items-center gap-2 text-left">
                   <ChevronDown className="h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200 group-data-[state=closed]:rotate-[-90deg]" />
                   <span className="text-sm font-semibold text-primary bg-primary/10 px-3 py-1 rounded-full shrink-0">
                     Chương {chapter}
