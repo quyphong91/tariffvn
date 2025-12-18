@@ -2,10 +2,10 @@ import { HSItem, SearchLanguage, getDescription } from "@/data/hsData";
 import { chapterNames } from "@/data/chapterNames";
 import { HeadingCard } from "./HeadingCard";
 import { DetailCard } from "./DetailCard";
-import { FileStack, ListTree, ArrowUp, ChevronDown } from "lucide-react";
+import { FileStack, ListTree, ArrowUp, ChevronDown, ChevronsUpDown } from "lucide-react";
 import { Button } from "./ui/button";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "./ui/collapsible";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo } from "react";
 
 interface ResultsSectionProps {
   headings: HSItem[];
@@ -16,6 +16,8 @@ interface ResultsSectionProps {
 
 export function ResultsSection({ headings, detailed, keyword, language }: ResultsSectionProps) {
   const [showFloatingButton, setShowFloatingButton] = useState(false);
+  const [allExpanded, setAllExpanded] = useState(true);
+  const [openChapters, setOpenChapters] = useState<Record<string, boolean>>({});
 
   useEffect(() => {
     const handleScroll = () => {
@@ -50,6 +52,35 @@ export function ResultsSection({ headings, detailed, keyword, language }: Result
 
   const sortedChapters = Object.keys(groupedHeadings).sort();
 
+  // Initialize openChapters when chapters change
+  useEffect(() => {
+    const initialState: Record<string, boolean> = {};
+    sortedChapters.forEach(chapter => {
+      initialState[chapter] = true;
+    });
+    setOpenChapters(initialState);
+    setAllExpanded(true);
+  }, [headings]);
+
+  const toggleAllChapters = () => {
+    const newState = !allExpanded;
+    const newOpenChapters: Record<string, boolean> = {};
+    sortedChapters.forEach(chapter => {
+      newOpenChapters[chapter] = newState;
+    });
+    setOpenChapters(newOpenChapters);
+    setAllExpanded(newState);
+  };
+
+  const toggleChapter = (chapter: string) => {
+    setOpenChapters(prev => {
+      const newState = { ...prev, [chapter]: !prev[chapter] };
+      const allOpen = Object.values(newState).every(v => v);
+      setAllExpanded(allOpen);
+      return newState;
+    });
+  };
+
   if (headings.length === 0 && detailed.length === 0) {
     return (
       <div className="text-center py-20">
@@ -81,21 +112,32 @@ export function ResultsSection({ headings, detailed, keyword, language }: Result
 
       {/* Section 1: Headings Only - Grouped by Chapter */}
       <section id="headings-section">
-        <div className="flex items-center gap-3 mb-6">
-          <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-primary/10">
-            <FileStack className="w-5 h-5 text-primary" />
+        <div className="flex items-center justify-between mb-6">
+          <div className="flex items-center gap-3">
+            <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-primary/10">
+              <FileStack className="w-5 h-5 text-primary" />
+            </div>
+            <div>
+              <h2 className="text-xl font-bold text-foreground">Headings</h2>
+              <p className="text-sm text-muted-foreground">
+                Tìm thấy {headings.length} Headings trong {sortedChapters.length} Chương
+              </p>
+            </div>
           </div>
-          <div>
-            <h2 className="text-xl font-bold text-foreground">Headings</h2>
-            <p className="text-sm text-muted-foreground">
-              Tìm thấy {headings.length} Headings trong {sortedChapters.length} Chương
-            </p>
-          </div>
+          <Button
+            variant="outline"
+            size="sm"
+            onClick={toggleAllChapters}
+            className="gap-2"
+          >
+            <ChevronsUpDown className="w-4 h-4" />
+            {allExpanded ? "Thu gọn" : "Mở rộng"}
+          </Button>
         </div>
         
         <div className="space-y-6">
           {sortedChapters.map((chapter) => (
-            <Collapsible key={chapter} defaultOpen className="group space-y-3">
+            <Collapsible key={chapter} open={openChapters[chapter] ?? true} onOpenChange={() => toggleChapter(chapter)} className="group space-y-3">
               <CollapsibleTrigger className="w-full">
                 <div className="flex items-center gap-2 px-1 mb-2 text-left">
                   <ChevronDown className="h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200 group-data-[state=closed]:rotate-[-90deg]" />
