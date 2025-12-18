@@ -97,21 +97,19 @@ export function ResultsSection({ headings, detailed, keyword, language }: Result
           {sortedChapters.map((chapter) => (
             <Collapsible key={chapter} defaultOpen className="group space-y-3">
               <CollapsibleTrigger className="w-full">
-                <div className="flex flex-col gap-1 px-1 mb-2 text-left">
-                  <div className="flex items-center gap-2">
-                    <ChevronDown className="h-4 w-4 text-muted-foreground transition-transform duration-200 group-data-[state=closed]:rotate-[-90deg]" />
-                    <span className="text-sm font-semibold text-primary bg-primary/10 px-3 py-1 rounded-full">
-                      Chương {chapter}
-                    </span>
-                    <span className="text-xs text-muted-foreground">
-                      ({groupedHeadings[chapter].length} headings)
-                    </span>
-                  </div>
+                <div className="flex items-center gap-2 px-1 mb-2 text-left">
+                  <ChevronDown className="h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200 group-data-[state=closed]:rotate-[-90deg]" />
+                  <span className="text-sm font-semibold text-primary bg-primary/10 px-3 py-1 rounded-full shrink-0">
+                    Chương {chapter}
+                  </span>
                   {chapterNames[chapter] && (
-                    <p className="text-sm font-semibold text-muted-foreground pl-6 line-clamp-2">
+                    <span className="text-sm font-semibold text-muted-foreground line-clamp-1">
                       {chapterNames[chapter]}
-                    </p>
+                    </span>
                   )}
+                  <span className="text-xs text-muted-foreground shrink-0">
+                    ({groupedHeadings[chapter].length} headings)
+                  </span>
                 </div>
               </CollapsibleTrigger>
               <CollapsibleContent>
