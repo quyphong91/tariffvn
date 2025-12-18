@@ -1,4 +1,5 @@
 import { HSItem, SearchLanguage, getDescription } from "@/data/hsData";
+import { chapterNames } from "@/data/chapterNames";
 import { HeadingCard } from "./HeadingCard";
 import { DetailCard } from "./DetailCard";
 import { FileStack, ListTree, ArrowUp } from "lucide-react";
@@ -94,13 +95,20 @@ export function ResultsSection({ headings, detailed, keyword, language }: Result
         <div className="space-y-6">
           {sortedChapters.map((chapter) => (
             <div key={chapter} className="space-y-3">
-              <div className="flex items-center gap-2 px-1">
-                <span className="text-sm font-semibold text-primary bg-primary/10 px-3 py-1 rounded-full">
-                  Chương {chapter}
-                </span>
-                <span className="text-xs text-muted-foreground">
-                  ({groupedHeadings[chapter].length} headings)
-                </span>
+              <div className="flex flex-col gap-1 px-1 mb-2">
+                <div className="flex items-center gap-2">
+                  <span className="text-sm font-semibold text-primary bg-primary/10 px-3 py-1 rounded-full">
+                    Chương {chapter}
+                  </span>
+                  <span className="text-xs text-muted-foreground">
+                    ({groupedHeadings[chapter].length} headings)
+                  </span>
+                </div>
+                {chapterNames[chapter] && (
+                  <p className="text-sm text-muted-foreground pl-1 line-clamp-2">
+                    {chapterNames[chapter]}
+                  </p>
+                )}
               </div>
               <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
                 {groupedHeadings[chapter].map((heading, index) => (
