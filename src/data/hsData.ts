@@ -44,7 +44,7 @@ export async function loadHSData(): Promise<HSItem[]> {
           const description = String(row[2] || '').trim();
           const descriptionEN = row[3] ? String(row[3]).trim() : undefined;
 
-          if (hsCode && description) {
+          if (description) {
             items.push({
               level: isNaN(level) ? 0 : level,
               hsCode,
