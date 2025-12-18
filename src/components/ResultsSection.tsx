@@ -18,6 +18,8 @@ export function ResultsSection({ headings, detailed, keyword, language }: Result
   const [showFloatingButton, setShowFloatingButton] = useState(false);
   const [allExpanded, setAllExpanded] = useState(true);
   const [openChapters, setOpenChapters] = useState<Record<string, boolean>>({});
+  const [allDetailedExpanded, setAllDetailedExpanded] = useState(true);
+  const [openDetailedGroups, setOpenDetailedGroups] = useState<Record<string, boolean>>({});
 
   useEffect(() => {
     const handleScroll = () => {
@@ -77,6 +79,47 @@ export function ResultsSection({ headings, detailed, keyword, language }: Result
       const newState = { ...prev, [chapter]: !prev[chapter] };
       const allOpen = Object.values(newState).every(v => v);
       setAllExpanded(allOpen);
+      return newState;
+    });
+  };
+
+  // Group detailed results by first 4 digits (Heading)
+  const groupedDetailed = detailed.reduce((acc, result) => {
+    const headingCode = result.item.hsCode?.substring(0, 4) || result.parents[0]?.hsCode?.substring(0, 4) || 'other';
+    if (!acc[headingCode]) {
+      acc[headingCode] = [];
+    }
+    acc[headingCode].push(result);
+    return acc;
+  }, {} as Record<string, typeof detailed>);
+
+  const sortedDetailedHeadings = Object.keys(groupedDetailed).sort();
+
+  // Initialize openDetailedGroups when detailed results change
+  useEffect(() => {
+    const initialState: Record<string, boolean> = {};
+    sortedDetailedHeadings.forEach(heading => {
+      initialState[heading] = true;
+    });
+    setOpenDetailedGroups(initialState);
+    setAllDetailedExpanded(true);
+  }, [detailed]);
+
+  const toggleAllDetailedGroups = () => {
+    const newState = !allDetailedExpanded;
+    const newOpenGroups: Record<string, boolean> = {};
+    sortedDetailedHeadings.forEach(heading => {
+      newOpenGroups[heading] = newState;
+    });
+    setOpenDetailedGroups(newOpenGroups);
+    setAllDetailedExpanded(newState);
+  };
+
+  const toggleDetailedGroup = (heading: string) => {
+    setOpenDetailedGroups(prev => {
+      const newState = { ...prev, [heading]: !prev[heading] };
+      const allOpen = Object.values(newState).every(v => v);
+      setAllDetailedExpanded(allOpen);
       return newState;
     });
   };
@@ -166,30 +209,76 @@ export function ResultsSection({ headings, detailed, keyword, language }: Result
         </div>
       </section>
 
-      {/* Section 2: Detailed Results */}
+      {/* Section 2: Detailed Results - Grouped by Heading */}
       <section>
-        <div className="flex items-center gap-3 mb-6">
-          <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-accent/10">
-            <ListTree className="w-5 h-5 text-accent" />
+        <div className="flex items-center justify-between mb-6">
+          <div className="flex items-center gap-3">
+            <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-accent/10">
+              <ListTree className="w-5 h-5 text-accent" />
+            </div>
+            <div>
+              <h2 className="text-xl font-bold text-foreground">Kết quả chi tiết</h2>
+              <p className="text-sm text-muted-foreground">
+                Có {detailed.length} kết quả trong {sortedDetailedHeadings.length} Nhóm
+              </p>
+            </div>
           </div>
-          <div>
-            <h2 className="text-xl font-bold text-foreground">Kết quả chi tiết</h2>
-            <p className="text-sm text-muted-foreground">
-              Có {detailed.length} kết quả được phân theo Nhóm
-            </p>
-          </div>
+          <Button
+            variant="outline"
+            size="sm"
+            onClick={toggleAllDetailedGroups}
+            className="gap-2"
+          >
+            <ChevronsUpDown className="w-4 h-4" />
+            {allDetailedExpanded ? "Thu gọn" : "Mở rộng"}
+          </Button>
         </div>
-        <div className="space-y-4">
-          {detailed.map((result, index) => (
-            <DetailCard
-              key={result.item.hsCode + index}
-              item={result.item}
-              parents={result.parents}
-              index={index}
-              keyword={keyword}
-              language={language}
-            />
-          ))}
+        <div className="space-y-6">
+          {sortedDetailedHeadings.map((headingCode) => {
+            const headingItem = headings.find(h => h.hsCode === headingCode) || 
+                               groupedDetailed[headingCode][0]?.parents?.find(p => p.hsCode === headingCode);
+            const headingDescription = headingItem ? getDescription(headingItem, language) : '';
+            
+            return (
+              <Collapsible 
+                key={headingCode} 
+                open={openDetailedGroups[headingCode] ?? true} 
+                onOpenChange={() => toggleDetailedGroup(headingCode)} 
+                className="group space-y-3"
+              >
+                <CollapsibleTrigger className="w-full">
+                  <div className="flex items-center gap-2 px-1 mb-2 text-left">
+                    <ChevronDown className="h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200 group-data-[state=closed]:rotate-[-90deg]" />
+                    <span className="text-sm font-semibold text-accent bg-accent/10 px-3 py-1 rounded-full shrink-0">
+                      Nhóm {headingCode}
+                    </span>
+                    {headingDescription && (
+                      <span className="text-sm font-semibold text-muted-foreground line-clamp-1">
+                        {headingDescription}
+                      </span>
+                    )}
+                    <span className="text-xs text-muted-foreground shrink-0">
+                      ({groupedDetailed[headingCode].length} kết quả)
+                    </span>
+                  </div>
+                </CollapsibleTrigger>
+                <CollapsibleContent>
+                  <div className="space-y-4">
+                    {groupedDetailed[headingCode].map((result, index) => (
+                      <DetailCard
+                        key={result.item.hsCode + index}
+                        item={result.item}
+                        parents={result.parents}
+                        index={index}
+                        keyword={keyword}
+                        language={language}
+                      />
+                    ))}
+                  </div>
+                </CollapsibleContent>
+              </Collapsible>
+            );
+          })}
         </div>
       </section>
     </div>
