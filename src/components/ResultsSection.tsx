@@ -108,7 +108,7 @@ export function ResultsSection({ headings, detailed, keyword, language }: Result
                     </span>
                   </div>
                   {chapterNames[chapter] && (
-                    <p className="text-sm text-muted-foreground pl-6 line-clamp-2">
+                    <p className="text-sm font-semibold text-muted-foreground pl-6 line-clamp-2">
                       {chapterNames[chapter]}
                     </p>
                   )}
