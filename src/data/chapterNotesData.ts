@@ -1611,6 +1611,578 @@ export const chapterNotesData: ChapterNote[] = [
         contentEn: "This heading covers sterile surgical suture materials, tissue adhesives, absorbable haemostatics, diagnostic reagent kits, contraceptives, lubricating gels for surgical use."
       }
     ]
+  },
+  {
+    chapter: 31,
+    section: 6,
+    sectionTitleVi: "SẢN PHẨM CỦA NGÀNH CÔNG NGHIỆP HÓA CHẤT HOẶC CÁC NGÀNH CÔNG NGHIỆP LIÊN QUAN",
+    sectionTitleEn: "PRODUCTS OF THE CHEMICAL OR ALLIED INDUSTRIES",
+    titleVi: "Phân bón",
+    titleEn: "Fertilisers",
+    notesVi: [
+      "Chương này không bao gồm: (a) Máu động vật thuộc nhóm 05.11; (b) Các hợp chất đã được xác định về mặt hóa học riêng biệt; (c) Các tinh thể kali clorua nuôi cấy mỗi tinh thể nặng từ 2,5g trở lên thuộc nhóm 38.24.",
+      "Nhóm 31.02 chỉ áp dụng cho natri nitrat, amoni nitrat, amoni sulphat, urê và các phân bón nitơ khác.",
+      "Nhóm 31.05 chỉ áp dụng cho phân bón có chứa ít nhất hai trong ba nguyên tố: nitơ, phospho, kali."
+    ],
+    notesEn: [
+      "This Chapter does not cover: (a) Animal blood of heading 05.11; (b) Separate chemically defined compounds; (c) Cultured potassium chloride crystals weighing not less than 2.5g each of heading 38.24.",
+      "Heading 31.02 applies only to sodium nitrate, ammonium nitrate, ammonium sulphate, urea and other nitrogenous fertilisers.",
+      "Heading 31.05 applies only to fertilisers containing at least two of the three fertilising elements: nitrogen, phosphorus, potassium."
+    ],
+    generalVi: "Chương này bao gồm phân bón và các sản phẩm liên quan được sử dụng trong nông nghiệp để cung cấp dinh dưỡng cho cây trồng. Phân bón cung cấp ít nhất một trong các nguyên tố: nitơ, phospho hoặc kali.",
+    generalEn: "This Chapter covers fertilisers and related products used in agriculture to provide nutrients for plants. Fertilisers provide at least one of the elements: nitrogen, phosphorus or potassium.",
+    headings: [
+      {
+        code: "31.01",
+        titleVi: "Phân bón động vật hoặc thực vật, đã hoặc chưa pha trộn với nhau hoặc xử lý về mặt hóa học; phân bón sản xuất từ việc pha trộn hoặc xử lý hóa học các sản phẩm động vật hoặc thực vật",
+        titleEn: "Animal or vegetable fertilisers, whether or not mixed together or chemically treated; fertilisers produced by mixing or chemical treatment of animal or vegetable products",
+        contentVi: "Nhóm này bao gồm phân bón có nguồn gốc động vật hoặc thực vật như phân chuồng, phân chim biển (guano), bột xương, bột máu, bột cá làm phân bón.",
+        contentEn: "This heading covers fertilisers of animal or vegetable origin such as farmyard manure, guano, bone meal, blood meal, fish fertiliser."
+      },
+      {
+        code: "31.02",
+        titleVi: "Phân bón khoáng hoặc phân bón hóa học, có chứa nitơ",
+        titleEn: "Mineral or chemical fertilisers, nitrogenous",
+        contentVi: "Nhóm này bao gồm phân bón có chứa nitơ như natri nitrat, amoni nitrat, amoni sulphat, urê, canxi xyanamit.",
+        contentEn: "This heading covers nitrogenous fertilisers such as sodium nitrate, ammonium nitrate, ammonium sulphate, urea, calcium cyanamide."
+      },
+      {
+        code: "31.03",
+        titleVi: "Phân bón khoáng hoặc phân bón hóa học, có chứa phosphat",
+        titleEn: "Mineral or chemical fertilisers, phosphatic",
+        contentVi: "Nhóm này bao gồm phân bón có chứa phosphat như xỉ bazơ (Thomas slag), supephosphat đơn, kép và ba.",
+        contentEn: "This heading covers phosphatic fertilisers such as basic slag (Thomas slag), single, double and triple superphosphates."
+      },
+      {
+        code: "31.04",
+        titleVi: "Phân bón khoáng hoặc phân bón hóa học, có chứa kali",
+        titleEn: "Mineral or chemical fertilisers, potassic",
+        contentVi: "Nhóm này bao gồm phân bón có chứa kali như muối kali tự nhiên (carnallite, kainite, sylvite), kali clorua, kali sulphat.",
+        contentEn: "This heading covers potassic fertilisers such as natural potassium salts (carnallite, kainite, sylvite), potassium chloride, potassium sulphate."
+      },
+      {
+        code: "31.05",
+        titleVi: "Phân bón khoáng hoặc phân bón hóa học chứa hai hoặc ba nguyên tố phân bón nitơ, phospho và kali; phân bón khác",
+        titleEn: "Mineral or chemical fertilisers containing two or three of the fertilising elements nitrogen, phosphorus and potassium; other fertilisers",
+        contentVi: "Nhóm này bao gồm phân bón hỗn hợp như NPK (có chứa nitơ, phospho và kali), phân bón NP, NK, PK.",
+        contentEn: "This heading covers compound fertilisers such as NPK (containing nitrogen, phosphorus and potassium), NP, NK, PK fertilisers."
+      }
+    ]
+  },
+  {
+    chapter: 32,
+    section: 6,
+    sectionTitleVi: "SẢN PHẨM CỦA NGÀNH CÔNG NGHIỆP HÓA CHẤT HOẶC CÁC NGÀNH CÔNG NGHIỆP LIÊN QUAN",
+    sectionTitleEn: "PRODUCTS OF THE CHEMICAL OR ALLIED INDUSTRIES",
+    titleVi: "Các chất chiết xuất làm thuốc nhuộm hoặc thuộc da; ta nanh và các chất dẫn xuất của chúng; thuốc nhuộm, thuốc màu và các chất màu khác; sơn và véc ni; chất gắn và các loại ma tít khác; các loại mực",
+    titleEn: "Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints and varnishes; putty and other mastics; inks",
+    notesVi: [
+      "Chương này không bao gồm: (a) Các nguyên tố hoặc hợp chất đã được xác định về mặt hóa học riêng biệt; (b) Tanat hoặc các chất dẫn xuất tananh khác của các sản phẩm thuộc các nhóm từ 29.36 đến 29.39; (c) Matit của asphalt hoặc matit có chứa bi-tum khác (nhóm 27.15).",
+      "Nhóm 32.04 kể cả các hỗn hợp của muối diazoni ổn định và các chất tiếp hợp để sản xuất các thuốc nhuộm azo."
+    ],
+    notesEn: [
+      "This Chapter does not cover: (a) Separate chemically defined elements or compounds; (b) Tannates or other tannin derivatives of products of headings 29.36 to 29.39; (c) Mastics of asphalt or other bituminous mastics (heading 27.15).",
+      "Heading 32.04 includes mixtures of stabilised diazonium salts and couplers for the production of azo dyes."
+    ],
+    generalVi: "Chương này bao gồm các chế phẩm sử dụng trong thuộc da và ngâm mềm da, chất màu có nguồn gốc từ thực vật, động vật hoặc khoáng và chất màu hữu cơ tổng hợp, sơn, vecni, chất gắn và mực.",
+    generalEn: "This Chapter covers preparations used in tanning and bating of hides and skins, colouring matter of vegetable, animal or mineral origin and synthetic organic colouring matter, paints, varnishes, mastics and inks.",
+    headings: [
+      {
+        code: "32.03",
+        titleVi: "Chất màu có nguồn gốc thực vật hoặc động vật, đã hoặc chưa được xác định về mặt hóa học; các chế phẩm dựa trên chất màu có nguồn gốc thực vật hoặc động vật",
+        titleEn: "Colouring matter of vegetable or animal origin, whether or not chemically defined; preparations based thereon",
+        contentVi: "Nhóm này bao gồm chất màu từ thực vật (indigo, chlorophyll, carotenoid) hoặc động vật (carmine, sepia), và các chế phẩm từ chúng.",
+        contentEn: "This heading covers colouring matter from vegetables (indigo, chlorophyll, carotenoid) or animals (carmine, sepia), and preparations based thereon."
+      },
+      {
+        code: "32.04",
+        titleVi: "Chất màu hữu cơ tổng hợp; các chế phẩm dựa trên chất màu hữu cơ tổng hợp; các sản phẩm hữu cơ tổng hợp dùng làm chất làm sáng huỳnh quang hoặc chất phát quang",
+        titleEn: "Synthetic organic colouring matter; preparations based thereon; synthetic organic products used as fluorescent brightening agents or as luminophores",
+        contentVi: "Nhóm này bao gồm thuốc nhuộm hữu cơ tổng hợp (thuốc nhuộm azo, thuốc nhuộm hoạt tính, thuốc nhuộm phân tán), chất làm sáng huỳnh quang.",
+        contentEn: "This heading covers synthetic organic dyestuffs (azo dyes, reactive dyes, disperse dyes), fluorescent brightening agents."
+      },
+      {
+        code: "32.08",
+        titleVi: "Sơn và véc ni có thành phần cơ bản là các polyme tổng hợp hoặc các polyme tự nhiên đã biến đổi về mặt hóa học; các dung dịch như định nghĩa trong Chú giải 4 của Chương này",
+        titleEn: "Paints and varnishes based on synthetic polymers or chemically modified natural polymers; solutions as defined in Note 4 to this Chapter",
+        contentVi: "Nhóm này bao gồm sơn và vecni có thành phần cơ bản là polyme tổng hợp như alkyd, acrylic, vinyl, epoxy, polyurethane.",
+        contentEn: "This heading covers paints and varnishes based on synthetic polymers such as alkyd, acrylic, vinyl, epoxy, polyurethane."
+      },
+      {
+        code: "32.10",
+        titleVi: "Sơn khác và các loại véc ni khác; các loại thuốc màu nước đã pha chế dùng để hoàn thiện da",
+        titleEn: "Other paints and varnishes; prepared water pigments for finishing leather",
+        contentVi: "Nhóm này bao gồm các loại sơn và vecni khác (sơn dầu, sơn cellulose) và thuốc màu nước dùng để hoàn thiện da.",
+        contentEn: "This heading covers other paints and varnishes (oil paints, cellulose paints) and prepared water pigments for finishing leather."
+      },
+      {
+        code: "32.15",
+        titleVi: "Mực in, mực viết hoặc mực vẽ và các loại mực khác, có hoặc không cô đặc hoặc ở thể rắn",
+        titleEn: "Printing ink, writing or drawing ink and other inks, whether or not concentrated or solid",
+        contentVi: "Nhóm này bao gồm mực in (mực in offset, mực in flexo, mực in kỹ thuật số), mực viết, mực vẽ và các loại mực khác.",
+        contentEn: "This heading covers printing inks (offset, flexographic, digital), writing inks, drawing inks and other inks."
+      }
+    ]
+  },
+  {
+    chapter: 33,
+    section: 6,
+    sectionTitleVi: "SẢN PHẨM CỦA NGÀNH CÔNG NGHIỆP HÓA CHẤT HOẶC CÁC NGÀNH CÔNG NGHIỆP LIÊN QUAN",
+    sectionTitleEn: "PRODUCTS OF THE CHEMICAL OR ALLIED INDUSTRIES",
+    titleVi: "Tinh dầu và các chất tựa nhựa; nước hoa, mỹ phẩm hoặc các chế phẩm dùng cho vệ sinh",
+    titleEn: "Essential oils and resinoids; perfumery, cosmetic or toilet preparations",
+    notesVi: [
+      "Chương này không bao gồm: (a) Dầu thực vật có chứa hương liệu (các nhóm từ 15.01 đến 15.15); (b) Xà phòng và các chế phẩm khác thuộc nhóm 34.01; (c) Tinh dầu thông hoặc các tinh dầu tương tự (nhóm 38.05).",
+      "Nhóm 33.02 chỉ bao gồm các chất tạo mùi trong ngành công nghiệp thực phẩm hoặc đồ uống."
+    ],
+    notesEn: [
+      "This Chapter does not cover: (a) Vegetable oil containing flavouring (headings 15.01 to 15.15); (b) Soaps and other products of heading 34.01; (c) Gum, wood or sulphate turpentine oils (heading 38.05).",
+      "Heading 33.02 covers only odoriferous substances used in the food or drink industries."
+    ],
+    generalVi: "Chương này bao gồm tinh dầu, chất thơm, nước hoa, mỹ phẩm và các chế phẩm dùng cho vệ sinh như xà phòng tắm, dầu gội, kem đánh răng, chất khử mùi.",
+    generalEn: "This Chapter covers essential oils, odoriferous substances, perfumes, cosmetics and toilet preparations such as bath soaps, shampoos, toothpaste, deodorants.",
+    headings: [
+      {
+        code: "33.01",
+        titleVi: "Tinh dầu, có hoặc không đã khử tecpen; các chất tựa nhựa; các chất chiết nhựa oleoresin",
+        titleEn: "Essential oils, whether or not terpeneless; resinoids; extracted oleoresins",
+        contentVi: "Nhóm này bao gồm tinh dầu từ thực vật (tinh dầu cam, chanh, bạc hà, hoa hồng, oải hương), chất tựa nhựa và oleoresin chiết xuất.",
+        contentEn: "This heading covers essential oils from plants (orange, lemon, peppermint, rose, lavender oils), resinoids and extracted oleoresins."
+      },
+      {
+        code: "33.03",
+        titleVi: "Nước hoa và nước thơm dùng cho vệ sinh",
+        titleEn: "Perfumes and toilet waters",
+        contentVi: "Nhóm này bao gồm nước hoa, eau de cologne, nước thơm sau khi cạo râu.",
+        contentEn: "This heading covers perfumes, eau de cologne, aftershave lotions."
+      },
+      {
+        code: "33.04",
+        titleVi: "Mỹ phẩm hoặc các chế phẩm trang điểm và các chế phẩm dưỡng da (trừ dược phẩm), kể cả các chế phẩm chống nắng hoặc bắt nắng; các chế phẩm dùng để làm móng tay hoặc móng chân",
+        titleEn: "Beauty or make-up preparations and preparations for the care of the skin (other than medicaments), including sunscreen or suntan preparations; manicure or pedicure preparations",
+        contentVi: "Nhóm này bao gồm son môi, phấn, kem nền, mascara, kem dưỡng da, kem chống nắng, sơn móng tay.",
+        contentEn: "This heading covers lipsticks, powders, foundation creams, mascara, skin care creams, sunscreens, nail polish."
+      },
+      {
+        code: "33.05",
+        titleVi: "Chế phẩm dùng cho tóc",
+        titleEn: "Preparations for use on the hair",
+        contentVi: "Nhóm này bao gồm dầu gội đầu, dầu xả, thuốc nhuộm tóc, gel vuốt tóc, keo xịt tóc.",
+        contentEn: "This heading covers shampoos, hair conditioners, hair dyes, hair gels, hair sprays."
+      },
+      {
+        code: "33.06",
+        titleVi: "Chế phẩm dùng cho vệ sinh răng miệng hoặc răng, kể cả bột và kem dùng làm chất kết dính răng giả; chỉ nha khoa để làm sạch kẽ răng",
+        titleEn: "Preparations for oral or dental hygiene, including denture fixative pastes and powders; dental floss",
+        contentVi: "Nhóm này bao gồm kem đánh răng, nước súc miệng, bột dính răng giả, chỉ nha khoa.",
+        contentEn: "This heading covers toothpaste, mouthwash, denture fixative, dental floss."
+      },
+      {
+        code: "33.07",
+        titleVi: "Các chế phẩm sử dụng trước, trong hoặc sau khi cạo râu, chất khử mùi cơ thể, các chế phẩm dùng để tắm, các chế phẩm làm rụng lông và các chế phẩm dùng cho mục đích vệ sinh khác chưa được chi tiết hoặc ghi ở nơi khác",
+        titleEn: "Pre-shave, shaving or after-shave preparations, personal deodorants, bath preparations, depilatories and other perfumery, cosmetic or toilet preparations, not elsewhere specified or included",
+        contentVi: "Nhóm này bao gồm kem cạo râu, chất khử mùi, muối tắm, sữa tắm, kem tẩy lông.",
+        contentEn: "This heading covers shaving cream, deodorants, bath salts, shower gel, depilatory creams."
+      }
+    ]
+  },
+  {
+    chapter: 34,
+    section: 6,
+    sectionTitleVi: "SẢN PHẨM CỦA NGÀNH CÔNG NGHIỆP HÓA CHẤT HOẶC CÁC NGÀNH CÔNG NGHIỆP LIÊN QUAN",
+    sectionTitleEn: "PRODUCTS OF THE CHEMICAL OR ALLIED INDUSTRIES",
+    titleVi: "Xà phòng, các chất hữu cơ hoạt động bề mặt, các chế phẩm dùng để giặt, rửa, các chế phẩm bôi trơn, các loại sáp nhân tạo, sáp đã chế biến, các chế phẩm dùng để đánh bóng hoặc tẩy rửa, nến và các sản phẩm tương tự, bột nhão dùng làm hình mẫu, sáp dùng trong nha khoa và các chế phẩm dùng trong nha khoa có thành phần cơ bản là thạch cao",
+    titleEn: "Soap, organic surface-active agents, washing preparations, lubricating preparations, artificial waxes, prepared waxes, polishing or scouring preparations, candles and similar articles, modelling pastes, \"dental waxes\" and dental preparations with a basis of plaster",
+    notesVi: [
+      "Chương này không bao gồm: (a) Hỗn hợp hoặc các chế phẩm từ chất béo hoặc dầu động vật hoặc thực vật dùng để tách khuôn (nhóm 15.17); (b) Các hợp chất đã được xác định riêng biệt về mặt hóa học; (c) Dầu gội đầu, thuốc đánh răng, kem và bọt cạo râu và các chế phẩm để tắm có chứa xà phòng hoặc các chất hữu cơ hoạt động bề mặt khác (nhóm 33.05, 33.06 hoặc 33.07)."
+    ],
+    notesEn: [
+      "This Chapter does not cover: (a) Mixtures or preparations of animal or vegetable fats or oils used as mould release preparations (heading 15.17); (b) Separate chemically defined compounds; (c) Shampoos, dentifrices, shaving creams and foams and bath preparations containing soap or other organic surface-active agents (heading 33.05, 33.06 or 33.07)."
+    ],
+    generalVi: "Chương này bao gồm xà phòng, chất hoạt động bề mặt, chế phẩm giặt rửa, chế phẩm bôi trơn, sáp nhân tạo, chế phẩm đánh bóng, nến và các sản phẩm tương tự.",
+    generalEn: "This Chapter covers soaps, surface-active agents, washing preparations, lubricating preparations, artificial waxes, polishing preparations, candles and similar articles.",
+    headings: [
+      {
+        code: "34.01",
+        titleVi: "Xà phòng; các sản phẩm và chế phẩm hữu cơ hoạt động bề mặt để làm xà phòng, ở dạng thanh, bánh, miếng hoặc hình dạng đã được đúc khuôn",
+        titleEn: "Soap; organic surface-active products and preparations for use as soap, in the form of bars, cakes, moulded pieces or shapes",
+        contentVi: "Nhóm này bao gồm xà phòng dạng thanh, bánh, miếng hoặc hình dạng đã được đúc khuôn, xà phòng giặt, xà phòng tắm, xà phòng y tế.",
+        contentEn: "This heading covers soap in bars, cakes, moulded pieces or shapes, laundry soap, toilet soap, medicated soap."
+      },
+      {
+        code: "34.02",
+        titleVi: "Các chất hữu cơ hoạt động bề mặt; các chế phẩm dùng để giặt, rửa; các chế phẩm phụ trợ giặt, rửa",
+        titleEn: "Organic surface-active agents; washing preparations; auxiliary washing preparations",
+        contentVi: "Nhóm này bao gồm chất hoạt động bề mặt anion, cation, không ion, bột giặt, nước giặt, nước rửa chén.",
+        contentEn: "This heading covers anionic, cationic, non-ionic surface-active agents, washing powders, liquid detergents, dishwashing liquids."
+      },
+      {
+        code: "34.03",
+        titleVi: "Các chế phẩm bôi trơn và các chế phẩm được sử dụng cho việc xử lý dầu hoặc mỡ cho các nguyên liệu dệt, da, da lông hoặc các nguyên liệu khác",
+        titleEn: "Lubricating preparations and preparations for the oil or grease treatment of textile materials, leather, furskins or other materials",
+        contentVi: "Nhóm này bao gồm các chế phẩm bôi trơn, dầu bôi trơn máy khâu, dầu xử lý vải, dầu xử lý da.",
+        contentEn: "This heading covers lubricating preparations, sewing machine oils, textile treatment oils, leather treatment oils."
+      },
+      {
+        code: "34.05",
+        titleVi: "Xi và kem đánh giày, dầu bóng dùng cho đồ nội thất, sàn, thân xe, kính hoặc kim loại, bột nhão và bột đánh bóng và các chế phẩm tương tự, có hoặc không ở dạng giấy, mùn cưa, bông, nỉ, vật liệu không dệt, plastic xốp hoặc cao su xốp, đã được tẩm, tráng hoặc phủ các chế phẩm như trên",
+        titleEn: "Polishes and creams, for footwear, furniture, floors, coachwork, glass or metal, scouring pastes and powders and similar preparations",
+        contentVi: "Nhóm này bao gồm xi đánh giày, dầu bóng đồ nội thất, dầu bóng sàn, chất đánh bóng kim loại, chất đánh bóng kính.",
+        contentEn: "This heading covers shoe polishes, furniture polishes, floor polishes, metal polishes, glass polishes."
+      },
+      {
+        code: "34.06",
+        titleVi: "Nến, nến cây và các sản phẩm tương tự",
+        titleEn: "Candles, tapers and the like",
+        contentVi: "Nhóm này bao gồm nến thường, nến thờ, nến sinh nhật, nến trang trí, nến xua muỗi.",
+        contentEn: "This heading covers ordinary candles, church candles, birthday candles, decorative candles, mosquito-repellent candles."
+      }
+    ]
+  },
+  {
+    chapter: 35,
+    section: 6,
+    sectionTitleVi: "SẢN PHẨM CỦA NGÀNH CÔNG NGHIỆP HÓA CHẤT HOẶC CÁC NGÀNH CÔNG NGHIỆP LIÊN QUAN",
+    sectionTitleEn: "PRODUCTS OF THE CHEMICAL OR ALLIED INDUSTRIES",
+    titleVi: "Các chất chứa albumin; các dạng tinh bột đã biến đổi; các loại keo hồ; các enzyme",
+    titleEn: "Albuminoidal substances; modified starches; glues; enzymes",
+    notesVi: [
+      "Chương này không bao gồm: (a) Men (nhóm 21.02); (b) Albumin huyết đã được pha chế dùng cho mục đích trị liệu hoặc phòng bệnh (nhóm 30.02); (c) Các chế phẩm enzyme dùng trong quá trình xử lý sơ bộ, quá trình nhuộm, quá trình tẩy trắng hoặc các loại tương tự (nhóm 34.07); (d) Các sản phẩm enzyme đã được xử lý để tăng cường độ bền hoặc đã được phối liệu (Chương 38)."
+    ],
+    notesEn: [
+      "This Chapter does not cover: (a) Yeasts (heading 21.02); (b) Blood albumin prepared for therapeutic or prophylactic uses (heading 30.02); (c) Enzyme preparations for pre-tanning, tanning, bleaching or similar processes (heading 34.07); (d) Enzymatic soak agents, enzyme preparations for improved fastness or otherwise compounded (Chapter 38)."
+    ],
+    generalVi: "Chương này bao gồm các chất chứa albumin (casein, albumin trứng, gelatin), tinh bột đã biến đổi, keo hồ và enzyme.",
+    generalEn: "This Chapter covers albuminoidal substances (casein, egg albumin, gelatin), modified starches, glues and enzymes.",
+    headings: [
+      {
+        code: "35.01",
+        titleVi: "Casein, các muối caseinat và các dẫn xuất casein khác; các loại keo casein",
+        titleEn: "Casein, caseinates and other casein derivatives; casein glues",
+        contentVi: "Nhóm này bao gồm casein (protein chính từ sữa), các muối caseinat như natri caseinat, canxi caseinat, và keo casein.",
+        contentEn: "This heading covers casein (main protein from milk), caseinates such as sodium caseinate, calcium caseinate, and casein glues."
+      },
+      {
+        code: "35.02",
+        titleVi: "Albumin (kể cả các chất cô đặc của hai hoặc nhiều protein từ váng sữa, có hàm lượng protein váng sữa trên 80% tính theo trọng lượng khô), các muối albuminat và các dẫn xuất albumin khác",
+        titleEn: "Albumins (including concentrates of two or more whey proteins, containing by weight more than 80% whey proteins), albuminates and other albumin derivatives",
+        contentVi: "Nhóm này bao gồm albumin trứng, albumin sữa, albumin huyết và các chất cô đặc protein váng sữa.",
+        contentEn: "This heading covers egg albumin, milk albumin, blood albumin and whey protein concentrates."
+      },
+      {
+        code: "35.03",
+        titleVi: "Gelatin và các dẫn xuất gelatin; isinglass; các loại keo khác có nguồn gốc từ động vật, trừ các loại keo casein thuộc nhóm 35.01",
+        titleEn: "Gelatin and gelatin derivatives; isinglass; other glues of animal origin, excluding casein glues of heading 35.01",
+        contentVi: "Nhóm này bao gồm gelatin (từ xương, da động vật), isinglass (từ bong bóng cá), keo xương, keo da.",
+        contentEn: "This heading covers gelatin (from bones, animal skins), isinglass (from fish bladders), bone glue, hide glue."
+      },
+      {
+        code: "35.05",
+        titleVi: "Dextrin và các loại tinh bột đã biến đổi khác; các loại keo có thành phần cơ bản là tinh bột, hoặc dextrin hoặc các loại tinh bột đã biến đổi khác",
+        titleEn: "Dextrins and other modified starches; glues based on starches, or on dextrins or other modified starches",
+        contentVi: "Nhóm này bao gồm dextrin, tinh bột tiền gelatin hóa, tinh bột ete hóa, tinh bột este hóa, và keo tinh bột.",
+        contentEn: "This heading covers dextrins, pregelatinised starches, etherified starches, esterified starches, and starch glues."
+      },
+      {
+        code: "35.07",
+        titleVi: "Các enzyme; các enzyme đã chế biến chưa được chi tiết hoặc ghi ở nơi khác",
+        titleEn: "Enzymes; prepared enzymes not elsewhere specified or included",
+        contentVi: "Nhóm này bao gồm rennet, lipase, amylase, protease, cellulase và các enzyme đã chế biến sử dụng trong công nghiệp thực phẩm, dệt, giấy.",
+        contentEn: "This heading covers rennet, lipase, amylase, protease, cellulase and prepared enzymes used in food, textile, paper industries."
+      }
+    ]
+  },
+  {
+    chapter: 36,
+    section: 6,
+    sectionTitleVi: "SẢN PHẨM CỦA NGÀNH CÔNG NGHIỆP HÓA CHẤT HOẶC CÁC NGÀNH CÔNG NGHIỆP LIÊN QUAN",
+    sectionTitleEn: "PRODUCTS OF THE CHEMICAL OR ALLIED INDUSTRIES",
+    titleVi: "Chất nổ; các sản phẩm pháo; diêm; các hợp kim tự cháy; các chế phẩm dễ cháy nào đó",
+    titleEn: "Explosives; pyrotechnic products; matches; pyrophoric alloys; certain combustible preparations",
+    notesVi: [
+      "Chương này không bao gồm các sản phẩm riêng biệt đã được xác định về mặt hóa học trừ những loại đã mô tả trong các chú giải (a) hoặc (b) dưới đây.",
+      "Theo mục đích của nhóm 36.02, \"chất nổ đã được chế biến\" có nghĩa là: (a) Propan đẩy các chất nổ; (b) Chất nổ đã được điều chế."
+    ],
+    notesEn: [
+      "This Chapter does not cover separate chemically defined compounds other than those described in notes (a) or (b) below.",
+      "For the purposes of heading 36.02, \"prepared explosives\" means: (a) Propellent powders; (b) Prepared explosives."
+    ],
+    generalVi: "Chương này bao gồm thuốc nổ, pháo hoa, pháo sáng, diêm, hợp kim tự cháy và các chế phẩm dễ cháy.",
+    generalEn: "This Chapter covers explosives, fireworks, flares, matches, pyrophoric alloys and certain combustible preparations.",
+    headings: [
+      {
+        code: "36.01",
+        titleVi: "Thuốc nổ đẩy",
+        titleEn: "Propellent powders",
+        contentVi: "Nhóm này bao gồm thuốc nổ đẩy như thuốc súng đen, thuốc nổ không khói.",
+        contentEn: "This heading covers propellent powders such as black powder, smokeless powder."
+      },
+      {
+        code: "36.02",
+        titleVi: "Chất nổ đã được chế biến, trừ thuốc nổ đẩy",
+        titleEn: "Prepared explosives, other than propellent powders",
+        contentVi: "Nhóm này bao gồm dynamite, TNT, thuốc nổ nhũ tương, thuốc nổ ANFO.",
+        contentEn: "This heading covers dynamite, TNT, emulsion explosives, ANFO explosives."
+      },
+      {
+        code: "36.04",
+        titleVi: "Pháo hoa, pháo sáng, đạn chỉ thị mưa, sương mù và các loại pháo khác",
+        titleEn: "Fireworks, signalling flares, rain rockets, fog signals and other pyrotechnic articles",
+        contentVi: "Nhóm này bao gồm pháo hoa (pháo bông, pháo hoa dạng cuộn), pháo sáng, đạn chỉ thị sương mù.",
+        contentEn: "This heading covers fireworks (firecrackers, Roman candles), signalling flares, fog signals."
+      },
+      {
+        code: "36.05",
+        titleVi: "Diêm, trừ các loại pháo thuộc nhóm 36.04",
+        titleEn: "Matches, other than pyrotechnic articles of heading 36.04",
+        contentVi: "Nhóm này bao gồm diêm quẹt thông thường, diêm chống gió.",
+        contentEn: "This heading covers ordinary matches, windproof matches."
+      },
+      {
+        code: "36.06",
+        titleVi: "Hợp kim ferocerium và hợp kim tự cháy khác ở tất cả các dạng; các sản phẩm bằng nguyên liệu dễ cháy như đã nêu trong Chú giải 2 của Chương này",
+        titleEn: "Ferro-cerium and other pyrophoric alloys in all forms; articles of combustible materials as specified in Note 2 to this Chapter",
+        contentVi: "Nhóm này bao gồm đá lửa (ferro-cerium), khối chất đốt (nhiên liệu rắn dùng để nấu ăn hoặc sưởi ấm).",
+        contentEn: "This heading covers flints (ferro-cerium), solid fuel blocks (for cooking or heating)."
+      }
+    ]
+  },
+  {
+    chapter: 37,
+    section: 6,
+    sectionTitleVi: "SẢN PHẨM CỦA NGÀNH CÔNG NGHIỆP HÓA CHẤT HOẶC CÁC NGÀNH CÔNG NGHIỆP LIÊN QUAN",
+    sectionTitleEn: "PRODUCTS OF THE CHEMICAL OR ALLIED INDUSTRIES",
+    titleVi: "Các sản phẩm ảnh và điện ảnh",
+    titleEn: "Photographic or cinematographic goods",
+    notesVi: [
+      "Chương này không bao gồm phế liệu hoặc phế thải."
+    ],
+    notesEn: [
+      "This Chapter does not cover waste or scrap."
+    ],
+    generalVi: "Chương này bao gồm các sản phẩm dùng trong nhiếp ảnh và điện ảnh như phim ảnh, giấy ảnh, hóa chất ảnh, phim đã chụp.",
+    generalEn: "This Chapter covers products used in photography and cinematography such as photographic films, photographic paper, photographic chemicals, exposed films.",
+    headings: [
+      {
+        code: "37.01",
+        titleVi: "Các tấm và phim ảnh ở dạng phẳng, đã phủ lớp hoá chất nhạy sáng, chưa phơi sáng, bằng vật liệu bất kỳ trừ giấy, bìa hoặc vật liệu dệt; phim in ngay ở dạng phẳng, đã phủ lớp hoá chất nhạy sáng, chưa phơi sáng",
+        titleEn: "Photographic plates and film in the flat, sensitised, unexposed, of any material other than paper, paperboard or textiles; instant print film in the flat, sensitised, unexposed",
+        contentVi: "Nhóm này bao gồm tấm kính và phim ảnh phẳng dùng trong chụp X-quang, phim in ngay (instant film).",
+        contentEn: "This heading covers photographic glass plates and flat films for X-ray, instant print films."
+      },
+      {
+        code: "37.02",
+        titleVi: "Phim ảnh dạng cuộn, đã phủ lớp hoá chất nhạy sáng, chưa phơi sáng, bằng vật liệu bất kỳ trừ giấy, bìa hoặc vật liệu dệt; phim in ngay dạng cuộn, đã phủ lớp hoá chất nhạy sáng, chưa phơi sáng",
+        titleEn: "Photographic film in rolls, sensitised, unexposed, of any material other than paper, paperboard or textiles; instant print film in rolls, sensitised, unexposed",
+        contentVi: "Nhóm này bao gồm phim cuộn màu, phim cuộn đen trắng, phim cuộn dùng cho máy ảnh 35mm.",
+        contentEn: "This heading covers colour roll film, black and white roll film, 35mm camera film."
+      },
+      {
+        code: "37.05",
+        titleVi: "Các tấm và phim ảnh, đã phơi sáng và đã tráng, trừ phim điện ảnh",
+        titleEn: "Photographic plates and film, exposed and developed, other than cinematograph film",
+        contentVi: "Nhóm này bao gồm phim và tấm ảnh đã chụp và đã tráng, trừ phim điện ảnh.",
+        contentEn: "This heading covers exposed and developed photographic plates and films, other than cinematograph films."
+      },
+      {
+        code: "37.06",
+        titleVi: "Phim điện ảnh, đã phơi sáng và đã tráng, có hoặc không có nhạc kèm theo hoặc chỉ có nhạc kèm theo",
+        titleEn: "Cinematograph film, exposed and developed, whether or not incorporating sound track or consisting only of sound track",
+        contentVi: "Nhóm này bao gồm phim điện ảnh đã chụp và đã tráng, có hoặc không có nhạc nền.",
+        contentEn: "This heading covers exposed and developed cinematograph films, with or without sound track."
+      },
+      {
+        code: "37.07",
+        titleVi: "Các chế phẩm hóa chất dùng trong nhiếp ảnh (trừ vec ni, keo, chất kết dính và các chế phẩm tương tự); các sản phẩm chưa pha trộn dùng trong nhiếp ảnh, được đóng gói theo định lượng hoặc được đóng gói để bán lẻ, ở trạng thái sẵn sàng để sử dụng",
+        titleEn: "Chemical preparations for photographic uses (other than varnishes, glues, adhesives and similar preparations); unmixed products for photographic uses, put up in measured portions or put up for retail sale in a form ready for use",
+        contentVi: "Nhóm này bao gồm thuốc hiện ảnh, thuốc hãm ảnh, thuốc tẩy trắng, thuốc định hình.",
+        contentEn: "This heading covers developers, fixers, bleaching solutions, fixing solutions."
+      }
+    ]
+  },
+  {
+    chapter: 38,
+    section: 6,
+    sectionTitleVi: "SẢN PHẨM CỦA NGÀNH CÔNG NGHIỆP HÓA CHẤT HOẶC CÁC NGÀNH CÔNG NGHIỆP LIÊN QUAN",
+    sectionTitleEn: "PRODUCTS OF THE CHEMICAL OR ALLIED INDUSTRIES",
+    titleVi: "Các sản phẩm hóa chất khác",
+    titleEn: "Miscellaneous chemical products",
+    notesVi: [
+      "Chương này không bao gồm: (a) Các nguyên tố hoặc hợp chất đã được xác định về mặt hóa học riêng biệt; (b) Dược phẩm (nhóm 30.03 hoặc 30.04); (c) Thuốc trừ sâu đóng gói để bán lẻ (nhóm 38.08)."
+    ],
+    notesEn: [
+      "This Chapter does not cover: (a) Separate chemically defined elements or compounds; (b) Medicaments (heading 30.03 or 30.04); (c) Insecticides put up for retail sale (heading 38.08)."
+    ],
+    generalVi: "Chương này bao gồm các sản phẩm hóa chất khác chưa được chi tiết ở nơi khác, bao gồm graphit nhân tạo, than hoạt tính, thuốc trừ sâu, chất chống đông, chất phụ gia, chất đông tụ.",
+    generalEn: "This Chapter covers miscellaneous chemical products not elsewhere specified, including artificial graphite, activated carbon, insecticides, antifreeze, additives, coagulants.",
+    headings: [
+      {
+        code: "38.01",
+        titleVi: "Graphit nhân tạo; graphit dạng keo hoặc dạng bán keo; các chế phẩm có thành phần cơ bản là graphit hoặc carbon khác ở dạng bột nhão, khối, tấm hoặc các dạng bán thành phẩm khác",
+        titleEn: "Artificial graphite; colloidal or semi-colloidal graphite; preparations based on graphite or other carbon in the form of pastes, blocks, plates or other semi-manufactures",
+        contentVi: "Nhóm này bao gồm graphit nhân tạo, graphit keo, bột nhão carbon, điện cực carbon.",
+        contentEn: "This heading covers artificial graphite, colloidal graphite, carbon pastes, carbon electrodes."
+      },
+      {
+        code: "38.02",
+        titleVi: "Than hoạt tính; các sản phẩm khoáng thiên nhiên đã hoạt hóa; than đen có nguồn gốc từ động vật, kể cả than đen đã qua sử dụng",
+        titleEn: "Activated carbon; activated natural mineral products; animal black, including spent animal black",
+        contentVi: "Nhóm này bao gồm than hoạt tính (dùng trong lọc nước, xử lý khí thải), bentonite đã hoạt hóa, đất diatomit đã hoạt hóa.",
+        contentEn: "This heading covers activated carbon (for water filtration, gas treatment), activated bentonite, activated diatomaceous earth."
+      },
+      {
+        code: "38.08",
+        titleVi: "Thuốc diệt côn trùng, thuốc diệt loài gặm nhấm, thuốc diệt nấm, thuốc diệt cỏ, thuốc chống nảy mầm, thuốc điều tiết sinh trưởng của cây, thuốc khử trùng và các sản phẩm tương tự",
+        titleEn: "Insecticides, rodenticides, fungicides, herbicides, anti-sprouting products and plant-growth regulators, disinfectants and similar products",
+        contentVi: "Nhóm này bao gồm thuốc diệt côn trùng, thuốc diệt chuột, thuốc diệt nấm, thuốc diệt cỏ, chất khử trùng.",
+        contentEn: "This heading covers insecticides, rodenticides, fungicides, herbicides, disinfectants."
+      },
+      {
+        code: "38.21",
+        titleVi: "Các môi trường nuôi cấy đã được pha chế để phát triển hoặc duy trì các vi sinh vật hoặc tế bào thực vật, người hoặc động vật",
+        titleEn: "Prepared culture media for the development or maintenance of micro-organisms or of plant, human or animal cells",
+        contentVi: "Nhóm này bao gồm môi trường nuôi cấy vi sinh vật, môi trường nuôi cấy tế bào.",
+        contentEn: "This heading covers culture media for micro-organisms, culture media for cells."
+      },
+      {
+        code: "38.24",
+        titleVi: "Chất gắn đã điều chế dùng cho các loại khuôn đúc hoặc lõi đúc; các sản phẩm hoá chất và các chế phẩm của ngành công nghiệp hoá chất hoặc các ngành có liên quan, chưa được chi tiết hoặc ghi ở nơi khác",
+        titleEn: "Prepared binders for foundry moulds or cores; chemical products and preparations of the chemical or allied industries, not elsewhere specified or included",
+        contentVi: "Nhóm này bao gồm chất gắn đúc, hỗn hợp hóa chất, các sản phẩm hóa chất khác chưa được chi tiết.",
+        contentEn: "This heading covers foundry binders, chemical mixtures, other chemical products not elsewhere specified."
+      }
+    ]
+  },
+  {
+    chapter: 39,
+    section: 7,
+    sectionTitleVi: "PLASTIC VÀ CÁC SẢN PHẨM BẰNG PLASTIC; CAO SU VÀ CÁC SẢN PHẨM BẰNG CAO SU",
+    sectionTitleEn: "PLASTICS AND ARTICLES THEREOF; RUBBER AND ARTICLES THEREOF",
+    titleVi: "Plastic và các sản phẩm bằng plastic",
+    titleEn: "Plastics and articles thereof",
+    notesVi: [
+      "Trong toàn bộ Danh mục này, khái niệm \"plastic\" có nghĩa là những vật liệu thuộc các nhóm từ 39.01 đến 39.14 mà có khả năng, hoặc đã có khả năng vào một thời điểm nào đó trong quá trình polyme hoá hoặc ở giai đoạn chế biến tiếp theo, bị đúc khuôn bằng tác động của lực từ bên ngoài để tạo thành một hình dạng.",
+      "Chương này không bao gồm: (a) Các chế phẩm bôi trơn thuộc nhóm 27.10 hoặc 34.03; (b) Sáp thuộc nhóm 27.12 hoặc 34.04; (c) Các hợp chất hữu cơ được xác định về mặt hoá học riêng biệt (Chương 29)."
+    ],
+    notesEn: [
+      "Throughout the Nomenclature the expression \"plastics\" means those materials of headings 39.01 to 39.14 which are or have been capable, either at the moment of polymerisation or at some subsequent stage, of being formed under external influence into a shape.",
+      "This Chapter does not cover: (a) Lubricating preparations of heading 27.10 or 34.03; (b) Waxes of heading 27.12 or 34.04; (c) Separate chemically defined organic compounds (Chapter 29)."
+    ],
+    generalVi: "Chương này bao gồm các loại polyme và copolyme ở dạng nguyên sinh và các sản phẩm làm từ plastic như tấm, màng, ống, đồ dùng gia đình, bao bì.",
+    generalEn: "This Chapter covers polymers and copolymers in primary forms and articles made from plastics such as sheets, films, tubes, household articles, packaging.",
+    headings: [
+      {
+        code: "39.01",
+        titleVi: "Polyme từ etylen, ở dạng nguyên sinh",
+        titleEn: "Polymers of ethylene, in primary forms",
+        contentVi: "Nhóm này bao gồm polyethylene (PE), bao gồm LDPE, HDPE, LLDPE ở dạng nguyên sinh.",
+        contentEn: "This heading covers polyethylene (PE), including LDPE, HDPE, LLDPE in primary forms."
+      },
+      {
+        code: "39.02",
+        titleVi: "Polyme từ propylen hoặc từ olefin khác, ở dạng nguyên sinh",
+        titleEn: "Polymers of propylene or of other olefins, in primary forms",
+        contentVi: "Nhóm này bao gồm polypropylene (PP) và các polyme olefin khác ở dạng nguyên sinh.",
+        contentEn: "This heading covers polypropylene (PP) and other olefin polymers in primary forms."
+      },
+      {
+        code: "39.04",
+        titleVi: "Polyme từ vinyl clorua hoặc từ olefin halogen hóa khác, ở dạng nguyên sinh",
+        titleEn: "Polymers of vinyl chloride or of other halogenated olefins, in primary forms",
+        contentVi: "Nhóm này bao gồm PVC (polyvinyl chloride), PVDC (polyvinylidene chloride) và các polyme tương tự.",
+        contentEn: "This heading covers PVC (polyvinyl chloride), PVDC (polyvinylidene chloride) and similar polymers."
+      },
+      {
+        code: "39.07",
+        titleVi: "Polyaxetal, polyete khác và nhựa epoxy, ở dạng nguyên sinh; polycarbonat, nhựa alkyt, polyalyl este và polyeste khác, ở dạng nguyên sinh",
+        titleEn: "Polyacetals, other polyethers and epoxide resins, in primary forms; polycarbonates, alkyd resins, polyallyl esters and other polyesters, in primary forms",
+        contentVi: "Nhóm này bao gồm POM (polyacetal), nhựa epoxy, polycarbonate (PC), PET (polyethylene terephthalate), PBT.",
+        contentEn: "This heading covers POM (polyacetal), epoxy resins, polycarbonate (PC), PET (polyethylene terephthalate), PBT."
+      },
+      {
+        code: "39.20",
+        titleVi: "Các tấm, phiến, màng, lá và dải khác, bằng plastic, không xốp và chưa được gia cố, chưa gắn lớp mặt, chưa được bổ trợ hoặc chưa được kết hợp tương tự với các vật liệu khác",
+        titleEn: "Other plates, sheets, film, foil and strip, of plastics, non-cellular and not reinforced, laminated, supported or similarly combined with other materials",
+        contentVi: "Nhóm này bao gồm tấm, màng plastic không xốp từ PE, PP, PVC, PET và các loại khác.",
+        contentEn: "This heading covers non-cellular plastic sheets and films of PE, PP, PVC, PET and others."
+      },
+      {
+        code: "39.23",
+        titleVi: "Các sản phẩm dùng trong vận chuyển hoặc đóng gói hàng hoá, bằng plastic; nút, nắp đậy, vòng có ren và các loại tương tự dùng làm nắp đậy bằng plastic",
+        titleEn: "Articles for the conveyance or packing of goods, of plastics; stoppers, lids, caps and other closures, of plastics",
+        contentVi: "Nhóm này bao gồm hộp, thùng, chai lọ, túi đóng gói, nắp chai, nút đậy bằng plastic.",
+        contentEn: "This heading covers boxes, containers, bottles, packaging bags, bottle caps, closures made of plastics."
+      },
+      {
+        code: "39.26",
+        titleVi: "Các sản phẩm khác bằng plastic và các sản phẩm bằng các vật liệu khác thuộc các nhóm từ 39.01 đến 39.14",
+        titleEn: "Other articles of plastics and articles of other materials of headings 39.01 to 39.14",
+        contentVi: "Nhóm này bao gồm các sản phẩm plastic khác như găng tay, đồ trang trí, phụ kiện văn phòng, phụ kiện xây dựng.",
+        contentEn: "This heading covers other plastic articles such as gloves, decorative articles, office accessories, construction fittings."
+      }
+    ]
+  },
+  {
+    chapter: 40,
+    section: 7,
+    sectionTitleVi: "PLASTIC VÀ CÁC SẢN PHẨM BẰNG PLASTIC; CAO SU VÀ CÁC SẢN PHẨM BẰNG CAO SU",
+    sectionTitleEn: "PLASTICS AND ARTICLES THEREOF; RUBBER AND ARTICLES THEREOF",
+    titleVi: "Cao su và các sản phẩm bằng cao su",
+    titleEn: "Rubber and articles thereof",
+    notesVi: [
+      "Trừ khi có yêu cầu khác, trong toàn bộ Danh mục này khái niệm \"cao su\" có nghĩa là các sản phẩm sau, đã hoặc chưa lưu hóa hoặc đông cứng: cao su tự nhiên, nhựa cây balata, nhựa cây cúc cao su (gutta-percha), nhựa cây guayule, nhựa chicle và các loại gôm tự nhiên tương tự, cao su tổng hợp, factice có nguồn gốc từ dầu, và các sản phẩm tái chế từ các loại sản phẩm trên.",
+      "Chương này không bao gồm: (a) Các mặt hàng thuộc Phần XI (vật liệu dệt và các sản phẩm dệt); (b) Giầy, dép và các bộ phận của giầy, dép thuộc Chương 64; (c) Mũ và các đồ đội đầu khác và các bộ phận của chúng thuộc Chương 65."
+    ],
+    notesEn: [
+      "Except where the context otherwise requires, throughout the Nomenclature the expression \"rubber\" means the following products, whether or not vulcanised or hard: natural rubber, balata, gutta-percha, guayule, chicle and similar natural gums, synthetic rubber, factice derived from oils, and such substances reclaimed.",
+      "This Chapter does not cover: (a) Goods of Section XI (textiles and textile articles); (b) Footwear or parts thereof of Chapter 64; (c) Headgear or parts thereof of Chapter 65."
+    ],
+    generalVi: "Chương này bao gồm cao su tự nhiên và cao su tổng hợp, cao su tái sinh, và các sản phẩm làm từ cao su như lốp xe, ống, băng tải, đệm, gioăng.",
+    generalEn: "This Chapter covers natural rubber and synthetic rubber, reclaimed rubber, and articles made from rubber such as tyres, tubes, conveyor belts, gaskets, seals.",
+    headings: [
+      {
+        code: "40.01",
+        titleVi: "Cao su tự nhiên, nhựa cây balata, nhựa cây cúc cao su (gutta-percha), nhựa cây guayule, nhựa chicle và các loại gôm tự nhiên tương tự, ở dạng nguyên sinh hoặc dạng tấm, lá hoặc dải",
+        titleEn: "Natural rubber, balata, gutta-percha, guayule, chicle and similar natural gums, in primary forms or in plates, sheets or strip",
+        contentVi: "Nhóm này bao gồm mủ cao su (latex), cao su thiên nhiên dạng tấm (RSS, SMR, SVR), crepe cao su.",
+        contentEn: "This heading covers rubber latex, natural rubber sheets (RSS, SMR, SVR), crepe rubber."
+      },
+      {
+        code: "40.02",
+        titleVi: "Cao su tổng hợp và factice có nguồn gốc từ dầu, ở dạng nguyên sinh hoặc dạng tấm, lá hoặc dải; hỗn hợp của sản phẩm bất kỳ thuộc nhóm 40.01 với sản phẩm bất kỳ của nhóm này, ở dạng nguyên sinh hoặc dạng tấm, lá hoặc dải",
+        titleEn: "Synthetic rubber and factice derived from oils, in primary forms or in plates, sheets or strip; mixtures of any product of heading 40.01 with any product of this heading, in primary forms or in plates, sheets or strip",
+        contentVi: "Nhóm này bao gồm cao su tổng hợp như SBR, BR, EPDM, NBR, CR (neoprene).",
+        contentEn: "This heading covers synthetic rubber such as SBR, BR, EPDM, NBR, CR (neoprene)."
+      },
+      {
+        code: "40.11",
+        titleVi: "Lốp hơi mới, bằng cao su",
+        titleEn: "New pneumatic tyres, of rubber",
+        contentVi: "Nhóm này bao gồm lốp xe ô tô, lốp xe tải, lốp xe máy, lốp xe đạp, lốp máy bay.",
+        contentEn: "This heading covers car tyres, truck tyres, motorcycle tyres, bicycle tyres, aircraft tyres."
+      },
+      {
+        code: "40.13",
+        titleVi: "Săm cao su",
+        titleEn: "Inner tubes, of rubber",
+        contentVi: "Nhóm này bao gồm săm xe ô tô, săm xe máy, săm xe đạp.",
+        contentEn: "This heading covers car inner tubes, motorcycle inner tubes, bicycle inner tubes."
+      },
+      {
+        code: "40.16",
+        titleVi: "Các sản phẩm bằng cao su lưu hóa khác trừ cao su cứng",
+        titleEn: "Other articles of vulcanised rubber other than hard rubber",
+        contentVi: "Nhóm này bao gồm gioăng, đệm, vòng đệm, ống cao su, băng tải, đệm chống rung, nút cao su và các sản phẩm cao su khác.",
+        contentEn: "This heading covers gaskets, washers, rubber tubes, conveyor belts, vibration dampers, rubber stoppers and other rubber articles."
+      },
+      {
+        code: "40.17",
+        titleVi: "Cao su cứng (ví dụ, ebonit) ở tất cả các dạng, kể cả phế liệu và phế thải; các sản phẩm bằng cao su cứng",
+        titleEn: "Hard rubber (for example, ebonite) in all forms, including waste and scrap; articles of hard rubber",
+        contentVi: "Nhóm này bao gồm cao su cứng (ebonite, vulcanite) và các sản phẩm từ cao su cứng.",
+        contentEn: "This heading covers hard rubber (ebonite, vulcanite) and articles of hard rubber."
+      }
+    ]
   }
 ];
 
@@ -1644,6 +2216,11 @@ export const getSectionNote = (section: number): { vi: string; en: string } => {
     return {
       vi: "Phần này bao gồm sản phẩm của ngành công nghiệp hóa chất hoặc các ngành công nghiệp liên quan, bao gồm hóa chất vô cơ, hóa chất hữu cơ, dược phẩm, phân bón, sơn, chất dẻo và cao su.",
       en: "This Section covers products of the chemical or allied industries, including inorganic chemicals, organic chemicals, pharmaceutical products, fertilizers, paints, plastics and rubber."
+    };
+  } else if (section === 7) {
+    return {
+      vi: "Phần này bao gồm plastic và các sản phẩm bằng plastic; cao su và các sản phẩm bằng cao su.",
+      en: "This Section covers plastics and articles thereof; rubber and articles thereof."
     };
   }
   return { vi: "", en: "" };
