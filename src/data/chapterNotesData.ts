@@ -3032,6 +3032,73 @@ export const chapterNotesData: ChapterNote[] = [
       { code: "55.15", titleVi: "Các loại vải dệt thoi khác từ xơ staple tổng hợp", titleEn: "Other woven fabrics of synthetic staple fibres", contentVi: "Nhóm này bao gồm các loại vải dệt thoi khác từ xơ staple tổng hợp.", contentEn: "This heading covers other woven fabrics of synthetic staple fibres." },
       { code: "55.16", titleVi: "Vải dệt thoi từ xơ staple tái tạo", titleEn: "Woven fabrics of artificial staple fibres", contentVi: "Nhóm này bao gồm vải dệt thoi từ xơ staple tái tạo.", contentEn: "This heading covers woven fabrics of artificial staple fibres." }
     ]
+  },
+  {
+    chapter: 56,
+    section: 11,
+    sectionTitleVi: "NGUYÊN LIỆU DỆT VÀ CÁC SẢN PHẨM DỆT",
+    sectionTitleEn: "TEXTILES AND TEXTILE ARTICLES",
+    titleVi: "Mền xơ, phớt và các sản phẩm không dệt; các loại sợi đặc biệt; sợi xe, chão bện, thừng và cáp và các sản phẩm của chúng",
+    titleEn: "Wadding, felt and nonwovens; special yarns; twine, cordage, ropes and cables and articles thereof",
+    notesVi: ["Chương này không bao gồm: mền xơ, phớt hoặc sản phẩm không dệt đã ngâm tẩm, tráng hoặc phủ chất hoặc chế phẩm ở đó vật liệu dệt được coi như vật mang.", "Thuật ngữ 'phớt' kể cả phớt xuyên kim và vải được cấu tạo từ một màng bằng xơ dệt được liên kết bởi khâu đính chính xơ của màng đó."],
+    notesEn: ["This Chapter does not cover: wadding, felt or nonwovens, impregnated, coated or covered with substances or preparations where the textile material is present merely as a carrying medium.", "The term 'felt' includes needleloom felt and fabrics consisting of a web of textile fibres the cohesion of which has been enhanced by a stitch-bonding process."],
+    generalVi: "Chương này bao gồm mền xơ, phớt và các sản phẩm không dệt; các loại sợi đặc biệt như sợi sơnin, sợi quấn; sợi xe, chão bện, thừng và cáp; lưới; và các sản phẩm khác từ các vật liệu này.",
+    generalEn: "This Chapter covers wadding, felt and nonwovens; special yarns such as chenille yarn and gimped yarn; twine, cordage, ropes and cables; nets; and other articles of these materials.",
+    headings: [
+      { code: "56.01", titleVi: "Mền xơ bằng vật liệu dệt và các sản phẩm của nó; xơ vụn, bụi xơ và kết xơ", titleEn: "Wadding of textile materials and articles thereof; textile flock, textile dust and mill neps", contentVi: "Nhóm này bao gồm mền xơ và xơ vụn (chiều dài không quá 5 mm), bụi xơ và kết xơ.", contentEn: "This heading covers wadding, textile flock (fibres not exceeding 5 mm in length), textile dust and mill neps." },
+      { code: "56.02", titleVi: "Phớt, đã hoặc chưa ngâm tẩm, tráng, phủ hoặc ép lớp", titleEn: "Felt, whether or not impregnated, coated, covered or laminated", contentVi: "Phớt thu được bởi quá trình ép chồng nhiều lớp xơ dệt. Nhóm này bao gồm phớt xuyên kim và vải khâu đính.", contentEn: "Felt is obtained by superimposing layers of textile fibres. This heading includes needleloom felt and stitch-bonded fabrics." },
+      { code: "56.03", titleVi: "Các sản phẩm không dệt, đã hoặc chưa ngâm tẩm, tráng, phủ hoặc ép lớp", titleEn: "Nonwovens, whether or not impregnated, coated, covered or laminated", contentVi: "Sản phẩm không dệt là các cấu trúc được tạo thành từ xơ hoặc sợi filament được liên kết bằng ma sát, kết dính hoặc liên kết bằng nhiệt hoặc hóa chất.", contentEn: "Nonwovens are structures of fibres or filaments bonded by friction, cohesion, or thermal or chemical bonding." },
+      { code: "56.04", titleVi: "Chỉ và sợi bện cao su, đã bọc bằng vật liệu dệt; sợi dệt đã ngâm tẩm, tráng, phủ hoặc bọc bằng cao su hoặc plastic", titleEn: "Rubber thread and cord, textile covered; textile yarn impregnated, coated, covered or sheathed with rubber or plastics", contentVi: "Nhóm này bao gồm chỉ và sợi bện cao su đã bọc bằng vật liệu dệt.", contentEn: "This heading covers rubber thread and cord, textile covered." },
+      { code: "56.05", titleVi: "Sợi trộn kim loại", titleEn: "Metallised yarn", contentVi: "Nhóm này bao gồm sợi trộn kim loại, kết hợp với kim loại ở dạng chỉ, dải hoặc bột.", contentEn: "This heading covers metallised yarn combined with metal in the form of thread, strip or powder." },
+      { code: "56.06", titleVi: "Sợi quấn; sợi sơnin; sợi vòng", titleEn: "Gimped yarn; chenille yarn; loop wale-yarn", contentVi: "Nhóm này bao gồm sợi quấn, sợi sơnin và sợi vòng.", contentEn: "This heading covers gimped yarn, chenille yarn and loop wale-yarn." },
+      { code: "56.07", titleVi: "Sợi xe, chão bện, thừng và cáp", titleEn: "Twine, cordage, ropes and cables", contentVi: "Nhóm này bao gồm sợi xe, chão bện, thừng và cáp từ các loại xơ dệt khác nhau.", contentEn: "This heading covers twine, cordage, ropes and cables of various textile fibres." },
+      { code: "56.08", titleVi: "Lưới thắt nút từ sợi xe, chão bện hoặc thừng; lưới đánh cá và các loại lưới khác", titleEn: "Knotted netting of twine, cordage or rope; made up fishing nets and other made up nets", contentVi: "Nhóm này bao gồm lưới thắt nút và lưới đánh cá.", contentEn: "This heading covers knotted netting and made up fishing nets." },
+      { code: "56.09", titleVi: "Các sản phẩm bằng sợi, sợi xe, chão bện, thừng hoặc cáp, chưa được ghi ở nơi khác", titleEn: "Articles of yarn, twine, cordage, rope or cables, not elsewhere specified", contentVi: "Nhóm này bao gồm các sản phẩm từ sợi xe, thừng hoặc cáp không được chi tiết ở nơi khác.", contentEn: "This heading covers articles of yarn, twine, cordage, rope or cables not elsewhere specified." }
+    ]
+  },
+  {
+    chapter: 57,
+    section: 11,
+    sectionTitleVi: "NGUYÊN LIỆU DỆT VÀ CÁC SẢN PHẨM DỆT",
+    sectionTitleEn: "TEXTILES AND TEXTILE ARTICLES",
+    titleVi: "Thảm và các loại hàng dệt trải sàn khác",
+    titleEn: "Carpets and other textile floor coverings",
+    notesVi: ["Theo mục đích của Chương này, thuật ngữ 'thảm và các loại hàng dệt trải sàn khác' có nghĩa là các loại hàng dệt trải sàn mà bề mặt tiếp xúc với sàn khi sử dụng là mặt sử dụng của vải."],
+    notesEn: ["For the purposes of this Chapter, the term 'carpets and other textile floor coverings' means floor coverings in which textile materials serve as the exposed surface when in use."],
+    generalVi: "Chương này bao gồm các loại thảm và hàng dệt trải sàn khác. Bao gồm thảm dệt thắt nút, thảm dệt thoi, thảm chần, thảm từ phớt và các loại thảm khác.",
+    generalEn: "This Chapter covers carpets and other textile floor coverings. It includes knotted carpets, woven carpets, tufted carpets, carpets of felt, and other carpets.",
+    headings: [
+      { code: "57.01", titleVi: "Thảm và các loại hàng dệt trải sàn khác, dệt thắt nút", titleEn: "Carpets and other textile floor coverings, knotted", contentVi: "Nhóm này bao gồm các loại thảm dệt thắt nút (thảm 'phương Đông').", contentEn: "This heading covers knotted carpets (Oriental carpets)." },
+      { code: "57.02", titleVi: "Thảm và các loại hàng dệt trải sàn khác, dệt thoi, không chần hoặc không phủ xơ vụn", titleEn: "Carpets and other textile floor coverings, woven, not tufted or flocked", contentVi: "Nhóm này bao gồm thảm dệt thoi như Wilton, Axminster, Kelem, Schumacks.", contentEn: "This heading covers woven carpets such as Wilton, Axminster, Kelem, Schumacks." },
+      { code: "57.03", titleVi: "Thảm và các loại hàng dệt trải sàn khác, đã chần (tufted)", titleEn: "Carpets and other textile floor coverings, tufted", contentVi: "Nhóm này bao gồm thảm chần được làm bằng cách lồng sợi vào vải nền.", contentEn: "This heading covers tufted carpets made by inserting yarn into a ground fabric." },
+      { code: "57.04", titleVi: "Thảm và các loại hàng dệt trải sàn khác, bằng phớt", titleEn: "Carpets and other textile floor coverings, of felt", contentVi: "Nhóm này bao gồm thảm làm từ phớt.", contentEn: "This heading covers carpets of felt." },
+      { code: "57.05", titleVi: "Thảm và các loại hàng dệt trải sàn khác", titleEn: "Other carpets and other textile floor coverings", contentVi: "Nhóm này bao gồm các loại thảm khác không thuộc các nhóm trước.", contentEn: "This heading covers other carpets not classified in the preceding headings." }
+    ]
+  },
+  {
+    chapter: 58,
+    section: 11,
+    sectionTitleVi: "NGUYÊN LIỆU DỆT VÀ CÁC SẢN PHẨM DỆT",
+    sectionTitleEn: "TEXTILES AND TEXTILE ARTICLES",
+    titleVi: "Các loại vải dệt thoi đặc biệt; các loại vải dệt tạo búi; hàng ren; thảm trang trí; hàng trang trí; hàng thêu",
+    titleEn: "Special woven fabrics; tufted textile fabrics; lace; tapestries; trimmings; embroidery",
+    notesVi: ["Chương này không áp dụng cho các loại vải dệt nêu trong Chú giải 1 của Chương 59, đã ngâm tẩm, tráng, phủ hoặc ép lớp.", "Nhóm 58.01 cũng bao gồm các loại vải dệt thoi có sợi ngang nổi vòng, chưa được cắt phần nổi."],
+    notesEn: ["This Chapter does not apply to textile fabrics referred to in Note 1 to Chapter 59, impregnated, coated, covered or laminated.", "Heading 58.01 also includes weft pile fabrics which have not yet had the floats cut."],
+    generalVi: "Chương này bao gồm nhiều loại sản phẩm dệt đặc biệt như vải nổi vòng, vải sơnin, vải khăn lông, vải dệt quấn, vải tuyn, ren, thảm trang trí, vải dệt thoi khổ hẹp, nhãn, dải trang trí và thêu.",
+    generalEn: "This Chapter covers special textile products such as pile fabrics, chenille fabrics, terry towelling, gauze, tulles, lace, tapestries, narrow woven fabrics, labels, ornamental trimmings and embroidery.",
+    headings: [
+      { code: "58.01", titleVi: "Các loại vải dệt nổi vòng và các loại vải sơnin", titleEn: "Woven pile fabrics and chenille fabrics", contentVi: "Nhóm này bao gồm vải dệt nổi vòng và vải sơnin.", contentEn: "This heading covers woven pile fabrics and chenille fabrics." },
+      { code: "58.02", titleVi: "Vải khăn lông và các loại vải dệt thoi tạo vòng lông tương tự; các loại vải dệt chần sợi nổi vòng", titleEn: "Terry towelling and similar woven terry fabrics; tufted textile fabrics", contentVi: "Nhóm này bao gồm vải khăn lông và vải dệt chần sợi nổi vòng.", contentEn: "This heading covers terry towelling and tufted textile fabrics." },
+      { code: "58.03", titleVi: "Vải dệt quấn (gauze)", titleEn: "Gauze", contentVi: "Vải dệt quấn là loại vải có cấu trúc thưa trong đó các sợi dọc xoắn quanh nhau.", contentEn: "Gauze is a fabric of open structure in which warp threads are twisted around each other." },
+      { code: "58.04", titleVi: "Các loại vải tuyn và vải lưới khác; ren", titleEn: "Tulles and other net fabrics; lace", contentVi: "Nhóm này bao gồm vải tuyn, vải lưới và ren.", contentEn: "This heading covers tulles, net fabrics and lace." },
+      { code: "58.05", titleVi: "Thảm trang trí dệt tay kiểu Gobelins, Flanders, Aubusson, Beauvais", titleEn: "Hand-woven tapestries of the type Gobelins, Flanders, Aubusson, Beauvais", contentVi: "Nhóm này bao gồm thảm trang trí dệt tay và thảm trang trí thêu tay.", contentEn: "This heading covers hand-woven tapestries and needle-worked tapestries." },
+      { code: "58.06", titleVi: "Vải dệt thoi khổ hẹp; các loại vải khổ hẹp chỉ có sợi dọc (bolducs)", titleEn: "Narrow woven fabrics; narrow fabrics consisting only of warp (bolducs)", contentVi: "Nhóm này bao gồm vải dệt thoi khổ hẹp (chiều rộng không quá 30 cm).", contentEn: "This heading covers narrow woven fabrics (width not exceeding 30 cm)." },
+      { code: "58.07", titleVi: "Nhãn, phù hiệu và các sản phẩm tương tự bằng vật liệu dệt, chưa thêu", titleEn: "Labels, badges and similar articles of textile materials, not embroidered", contentVi: "Nhóm này bao gồm nhãn, phù hiệu chưa thêu.", contentEn: "This heading covers labels, badges not embroidered." },
+      { code: "58.08", titleVi: "Dây tết bện; các sản phẩm trang trí; quả tua, quả bông", titleEn: "Braids; ornamental trimmings; tassels, pompons", contentVi: "Nhóm này bao gồm dây tết bện, sản phẩm trang trí, quả tua và quả bông.", contentEn: "This heading covers braids, ornamental trimmings, tassels and pompons." },
+      { code: "58.09", titleVi: "Vải dệt thoi từ sợi kim loại và sợi trộn kim loại", titleEn: "Woven fabrics of metal thread and metallised yarn", contentVi: "Nhóm này bao gồm vải dệt thoi từ sợi kim loại.", contentEn: "This heading covers woven fabrics of metal thread." },
+      { code: "58.10", titleVi: "Hàng thêu ở dạng mảnh, dải hoặc mẫu hoa văn", titleEn: "Embroidery in the piece, in strips or in motifs", contentVi: "Nhóm này bao gồm hàng thêu ở dạng mảnh, dải hoặc mẫu hoa văn.", contentEn: "This heading covers embroidery in the piece, in strips or in motifs." },
+      { code: "58.11", titleVi: "Các sản phẩm dệt đã chần dạng tấm", titleEn: "Quilted textile products in the piece", contentVi: "Nhóm này bao gồm các sản phẩm dệt đã chần.", contentEn: "This heading covers quilted textile products." }
+    ]
   }
 ];
 
