@@ -2667,6 +2667,119 @@ export const chapterNotesData: ChapterNote[] = [
         contentEn: "This heading covers woven fabrics of silk or of silk waste. These include many types of fabrics such as satin, taffeta, crêpe, organza, and other silk fabrics used for apparel and furnishing."
       }
     ]
+  },
+  {
+    chapter: 51,
+    section: 11,
+    sectionTitleVi: "NGUYÊN LIỆU DỆT VÀ CÁC SẢN PHẨM DỆT",
+    sectionTitleEn: "TEXTILES AND TEXTILE ARTICLES",
+    titleVi: "Lông cừu, lông động vật loại mịn hoặc loại thô; sợi lông đuôi hoặc bờm ngựa và vải dệt thoi từ các nguyên liệu trên",
+    titleEn: "Wool, fine or coarse animal hair; horsehair yarn and woven fabric",
+    notesVi: [
+      "Trong toàn bộ Danh mục, thuật ngữ 'lông cừu' có nghĩa là sợi lông tự nhiên của cừu hoặc cừu non.",
+      "Trong toàn bộ Danh mục, thuật ngữ 'lông động vật loại mịn' có nghĩa là lông của dê alpaca, lông lạc đà không bướu llama, lông lạc đà không bướu vicuna, lông lạc đà (kể cả lạc đà một bướu), lông bò Tây Tạng, lông dê Angora, lông dê Tibetan, lông dê Ca-sơ-mia hoặc lông của các loại dê tương tự, lông thỏ (kể cả lông thỏ Angora), lông thỏ rừng, lông hải ly, lông chuột hải ly hoặc lông chuột nước.",
+      "Trong toàn bộ Danh mục, thuật ngữ 'lông động vật loại thô' có nghĩa là lông của các động vật không nêu trên, trừ lông dùng làm bàn chải (nhóm 05.02) và lông đuôi hoặc bờm ngựa (nhóm 05.11)."
+    ],
+    notesEn: [
+      "Throughout the Nomenclature, the term 'wool' means the natural fibre grown by sheep or lambs.",
+      "Throughout the Nomenclature, the term 'fine animal hair' means the hair of alpaca, llama, vicuna, camel (including dromedary), yak, Angora, Tibetan, Kashmir or similar goats (but not common goats), rabbit (including Angora rabbit), hare, beaver, nutria or muskrat.",
+      "Throughout the Nomenclature, the term 'coarse animal hair' means the hair of animals not mentioned above, excluding brush-making hair (heading 05.02) and horsehair (heading 05.11)."
+    ],
+    generalVi: "Chương này bao gồm lông cừu, lông động vật loại mịn hoặc loại thô ở các dạng khác nhau, từ dạng thô đến sợi và vải dệt thoi. Lông cừu là sợi lông tự nhiên của cừu, có đặc điểm là có lớp vảy, có khả năng nỉ hóa và co giãn. Lông động vật loại mịn thường mềm và ít quăn hơn lông cừu. Lông động vật loại thô được sử dụng để sản xuất sợi thô, vải dệt thoi, phớt hoặc thảm.",
+    generalEn: "This Chapter covers wool, fine or coarse animal hair in their various forms, from raw materials to yarn and woven fabric. Wool is the natural fibre grown by sheep, characterized by its scales, felting properties and elasticity. Fine animal hair is generally softer and less crimped than wool. Coarse animal hair is used in the manufacture of coarse yarns, woven fabrics, felts or carpets.",
+    headings: [
+      {
+        code: "51.01",
+        titleVi: "Lông cừu, chưa chải thô hoặc chải kỹ",
+        titleEn: "Wool, not carded or combed",
+        contentVi: "Nhóm này bao gồm lông cừu chưa chải thô hoặc chải kỹ ở các dạng: (A) Lông cừu còn dính nhờn, kể cả lông cừu đã rửa sạch trên lưng cừu - là lông cừu chưa được rửa hoặc làm sạch bằng cách khác, vẫn còn dính chất nhờn và chất béo từ bản thân con vật. (B) Lông cừu đã tẩy nhờn, chưa được carbon hoá - bao gồm lông cừu đã rửa bằng nước nóng, lông cừu đã tẩy, lông cừu đã xử lý với các dung môi dễ bay hơi, lông cừu đóng băng. (C) Lông cừu đã được carbon hoá - lông cừu đã loại bỏ những chất có nguồn gốc thực vật bằng quá trình xử lý với axit vô cơ hay muối axit.",
+        contentEn: "This heading covers wool not carded or combed in the following forms: (A) Greasy, including fleece-washed wool - wool not yet washed or otherwise cleaned, still impregnated with wool grease and fatty matter from the animal itself. (B) Degreased wool, not carbonised - including hot-washed wool, scoured wool, wool treated with volatile solvents, and frosted wool. (C) Carbonised wool - wool from which vegetable matter has been removed by treatment with inorganic acids or acid salts."
+      },
+      {
+        code: "51.02",
+        titleVi: "Lông động vật loại mịn hoặc loại thô, chưa chải thô hoặc chải kỹ",
+        titleEn: "Fine or coarse animal hair, not carded or combed",
+        contentVi: "Nhóm này bao gồm: (1) Lông động vật loại mịn - là lông của dê alpaca, lông lạc đà không bướu llama, lông lạc đà không bướu vicuna, lông lạc đà (kể cả lạc đà một bướu), lông bò Tây Tạng, lông dê Angora, lông dê Tibetan, lông dê Ca-sơ-mia hoặc lông của các loại dê tương tự, lông thỏ (kể cả lông thỏ Angora), lông thỏ rừng, lông hải ly, lông chuột hải ly hoặc lông chuột nước. Lông động vật loại mịn thường mềm và ít quăn hơn lông cừu. (2) Lông động vật loại thô - là lông của tất cả các loài không đề cập trong phần (1) ở trên, ngoại trừ lông cừu, lông đuôi hay bờm của các loài ngựa hay động vật họ trâu bò, lông lợn, lông cứng, tóc hoặc lông làm bàn chải khác.",
+        contentEn: "This heading covers: (1) Fine animal hair - the hair of alpaca, llama, vicuna, camel (including dromedary), yak, Angora, Tibetan, Kashmir or similar goats, rabbit (including Angora rabbit), hare, beaver, nutria or muskrat. Fine animal hair is generally softer and less crimped than wool. (2) Coarse animal hair - the hair of all animals not mentioned in (1) above, except wool, hair of the manes or tails of equine or bovine animals, and brush-making bristles or hair."
+      },
+      {
+        code: "51.03",
+        titleVi: "Phế liệu lông cừu hoặc lông động vật loại mịn hoặc loại thô, kể cả phế liệu sợi nhưng trừ lông tái chế",
+        titleEn: "Waste of wool or of fine or coarse animal hair, including yarn waste but excluding garnetted stock",
+        contentVi: "Nhóm này bao gồm tất cả các loại phế liệu (trừ lông tái chế) của lông cừu hay lông động vật loại mịn hay loại thô, thu được trong các quá trình gia công. Những phế liệu chủ yếu bao gồm: (1) Các phế liệu trong quá trình chải thô, chải kỹ hay các quá trình chuẩn bị cho xe sợi như xơ vụn, tấm nối và sợi ở những mẩu thừa của tấm vải. (2) Phế liệu sợi như những sợi bị đứt, sợi rối, sợi bị thắt nút được thu nhặt trong quá trình xe sợi, dệt, đan. (3) Các phế liệu trong quá trình phân loại, giặt. (4) Lông cừu của các đệm cũ.",
+        contentEn: "This heading covers all waste (other than garnetted stock) of wool or of fine or coarse animal hair, recovered during successive treatments. The principal wastes include: (1) Wastes from carding, combing or other processes preparatory to spinning such as noils, lap and sliver ends. (2) Yarn waste such as broken, knotted or tangled yarns collected during spinning, weaving, knitting operations. (3) Sorting wastes and washing wastes. (4) Old mattress hair and wool."
+      },
+      {
+        code: "51.04",
+        titleVi: "Lông cừu hoặc lông động vật loại mịn hoặc thô tái chế",
+        titleEn: "Garnetted stock of wool or of fine or coarse animal hair",
+        contentVi: "Nhóm này bao gồm lông cừu hoặc lông động vật dạng thô hay mịn tái chế, thu được từ vải vụn tái chế của các mặt hàng dệt, đan từ nguyên liệu hay phế liệu của sợi. Lông cừu tái chế bao gồm: (1) Hàng thứ phẩm và hàng len dệt từ len vụn thu được bởi việc tái chế len hay sợi xấu hay vải vụn. (2) Lông cừu bòn, thu được từ việc tái chế lông cừu còn lại khi thu nhận những mẩu vải vụn đã xử lý.",
+        contentEn: "This heading covers garnetted stock of wool or of fine or coarse animal hair, obtained from rags and waste of textile products. Garnetted wool includes: (1) Shoddy and mungo obtained by garnetting old or waste yarns or rags. (2) Extracted wool, obtained by garnetting the wool remaining after treatment of mixed rags."
+      },
+      {
+        code: "51.05",
+        titleVi: "Lông cừu và lông động vật loại mịn hoặc loại thô, đã chải thô hoặc chải kỹ (kể cả lông cừu chải kỹ dạng từng đoạn)",
+        titleEn: "Wool and fine or coarse animal hair, carded or combed (including combed wool in fragments)",
+        contentVi: "Nhóm này bao gồm lông cừu và lông động vật loại mịn hoặc loại thô đã qua quá trình chải thô hoặc chải kỹ. Các sản phẩm chải thô được tạo thành dạng cúi (slivers) hoặc sợi thô (slubbings). Các sản phẩm chải kỹ được tạo thành dạng bấc (tops) hoặc sợi thô (rovings). Nhóm này cũng bao gồm lông cừu chải kỹ dạng từng đoạn (combed wool in fragments), còn gọi là 'combed wool in bulk' hay 'scoured deburred wool' hay 'open tops'. Các quá trình như tẩy trắng và nhuộm màu không ảnh hưởng đến việc phân loại trong nhóm này.",
+        contentEn: "This heading covers wool and fine or coarse animal hair which has been carded or combed. Carded products are in the form of slivers or slubbings. Combed products are in the form of tops or rovings. This heading also covers combed wool in fragments, sometimes known as 'combed wool in bulk', 'scoured deburred wool' or 'open tops'. Processes such as bleaching and dyeing do not affect the classification in this heading."
+      },
+      {
+        code: "51.06",
+        titleVi: "Sợi len lông cừu chải thô, chưa đóng gói để bán lẻ",
+        titleEn: "Yarn of carded wool, not put up for retail sale",
+        contentVi: "Nhóm này bao gồm những sợi len đơn hay những sợi len chập từ nhiều sợi đơn, thu được từ việc xe những sợi thô của lông cừu đã chải thô (nhưng chưa chải kỹ). Nhóm này cũng bao gồm những sợi xe đã chải thô và chải kỹ, thu được từ những sợi riêng lẻ đã chải thô nhưng qua những quá trình xe như đối với sợi đã chải kỹ. Những sợi này thường được quấn trên các cuộn sợi hay những suốt chỉ hình nón. Sợi len chải thô gồm những sợi ngắn hay hỗn hợp cả sợi ngắn và dài mà không được sắp song song nhưng được để lẫn và đan với nhau.",
+        contentEn: "This heading covers woollen yarns whether single or multiple (folded), obtained by spinning the slubbings of carded (but not combed) wool. It also includes yarns known as combed-carded yarns, obtained from carded slivers by spinning operations employed for combed yarns. All these yarns are usually wound on bobbins or cones. Yarns of carded wool consist of short fibres or a mixture of long and short fibres which are not parallel but intermingle and cross each other."
+      },
+      {
+        code: "51.07",
+        titleVi: "Sợi len lông cừu chải kỹ, chưa đóng gói để bán lẻ",
+        titleEn: "Yarn of combed wool, not put up for retail sale",
+        contentVi: "Nhóm này gồm những sợi len xe (worsted yarns) ở dạng sợi đơn hay sợi chập từ nhiều sợi đơn, thu được qua quá trình xe những sợi thô (roving) từ lông cừu đã chải kỹ. Sợi len xe (worsted yarn) khác với sợi len thường là nó nhẵn và đều; các sợi lông trong sợi len xe được sắp song song và những sợi lông vụn hay rối đã bị loại ra bởi quá trình chải kỹ.",
+        contentEn: "This heading covers worsted yarns whether single or multiple (folded), obtained by spinning rovings of combed wool. Worsted yarns differ from woollen yarns in having a smooth appearance and regular section; their fibres are parallel, and short and tangled fibres have been eliminated by combing."
+      },
+      {
+        code: "51.08",
+        titleVi: "Sợi lông động vật loại mịn (chải thô hoặc chải kỹ), chưa đóng gói để bán lẻ",
+        titleEn: "Yarn of fine animal hair (carded or combed), not put up for retail sale",
+        contentVi: "Nhóm này gồm những sợi đơn hoặc sợi xe từ nhiều sợi đơn, thu được bởi quá trình xe những sợi thô (roving) lấy từ lông động vật loại mịn đã chải thô hay chải kỹ. Sợi ở nhóm này phần lớn được sử dụng để sản xuất các mặt hàng dệt kim hay dệt thoi để may quần áo loại nhẹ (lông alpaca), áo khoác ngoài hoặc chăn (lông lạc đà bao gồm cả lạc đà một bướu), làm đồ nhung hoặc đồ giả lông thú.",
+        contentEn: "This heading covers yarns, whether single or multiple (folded), obtained by spinning the rovings of carded or combed fine animal hair. The yarns of this heading are used mainly in the manufacture of knitted goods or woven fabrics for certain light clothing (e.g., alpaca), and for overcoats or blankets (e.g., camel hair), for velvets or for imitation fur."
+      },
+      {
+        code: "51.09",
+        titleVi: "Sợi len lông cừu hoặc lông động vật loại mịn, đã đóng gói để bán lẻ",
+        titleEn: "Yarn of wool or of fine animal hair, put up for retail sale",
+        contentVi: "Nhóm này gồm cả sợi len xe (worsted yarns) hay sợi len thường hay sợi làm từ lông động vật loại mịn, khi đóng gói để bán lẻ ở các dạng và là đối tượng đáp ứng các điều kiện như đã mô tả trong Chú giải tổng quát Phần XI. Những sợi này có thể được quấn trên bìa, guồng gờ, ống tuýp hoặc cuộn có lõi tương tự, với khối lượng (kể cả lõi) không quá 125g.",
+        contentEn: "This heading covers woollen or worsted yarns and yarns of fine animal hair, when put up for retail sale in the forms and subject to the conditions described in the General Explanatory Note to Section XI. These yarns may be wound on cards, reels, tubes or similar supports, with a weight (including support) not exceeding 125g."
+      },
+      {
+        code: "51.10",
+        titleVi: "Sợi làm từ lông động vật loại thô hoặc từ lông đuôi hoặc bờm ngựa (kể cả sợi quấn bọc từ lông đuôi hoặc bờm ngựa), đã hoặc chưa đóng gói để bán lẻ",
+        titleEn: "Yarn of coarse animal hair or of horsehair (including gimped horsehair yarn), whether or not put up for retail sale",
+        contentVi: "Nhóm này bao gồm: (1) Sợi, dù là sợi đơn hay sợi xe thu được từ quá trình xe sợi thô (roving) lấy từ lông động vật loại thô. Những sợi này được dùng để sản xuất vải dệt thoi nhất định, các lớp lót hay những mặt hàng phục vụ kỹ thuật. (2) Sợi xe từ lông đuôi hoặc bờm ngựa, thu được qua quá trình xe sợi, thường là sử dụng lông đuôi hoặc bờm ngựa ngắn hơn. Những sợi lông đuôi hoặc bờm ngựa bao gồm một bó lông được liên kết hoặc được bọc với chỉ bông hoặc với các nguyên liệu dệt khác.",
+        contentEn: "This heading covers: (1) Yarns, whether single or multiple (folded), obtained by spinning the rovings of coarse animal hair. These yarns are used in the manufacture of certain woven fabrics, interlinings or articles for technical uses. (2) Yarns of horsehair, obtained by spinning, generally using the shorter horsehairs. Horsehair yarns consisting of a bundle of horsehairs bound or gimped with yarn of cotton or of another textile material remain classified in this heading."
+      },
+      {
+        code: "51.11",
+        titleVi: "Vải dệt thoi từ sợi len lông cừu chải thô hoặc từ sợi lông động vật loại mịn chải thô",
+        titleEn: "Woven fabrics of carded wool or of carded fine animal hair",
+        contentVi: "Nhóm này bao gồm các mặt hàng dệt thoi làm bằng các sợi xe từ lông cừu đã chải thô hay lông động vật dạng mịn đã chải thô. Những mặt hàng dệt này rất đa dạng và bao gồm vải may complê, vải flannel, vải mềm (molleton) và các loại khác để may quần áo, chăn, hàng dệt làm đồ trang trí nội thất. Nhóm này không bao gồm băng dùng trong y tế đã tẩm thuốc hay đã đóng gói để bán lẻ (nhóm 30.05) và vải dệt thoi phục vụ cho kỹ thuật (nhóm 59.11).",
+        contentEn: "This heading covers woven fabrics made of yarns of carded wool or of yarns of carded fine animal hair. These fabrics exist in great variety and include suitings, flannels, molletons and other fabrics for clothing, blankets, furnishing fabrics. This heading does not cover medicinal bandages impregnated with medicaments or put up for retail sale (heading 30.05), and woven fabrics for technical uses (heading 59.11)."
+      },
+      {
+        code: "51.12",
+        titleVi: "Vải dệt thoi từ sợi len lông cừu chải kỹ hoặc từ sợi lông động vật loại mịn chải kỹ",
+        titleEn: "Woven fabrics of combed wool or of combed fine animal hair",
+        contentVi: "Nhóm này bao gồm những mặt hàng dệt thoi làm từ sợi được xe từ lông cừu đã chải kỹ hay lông động vật dạng mịn đã chải kỹ. Những mặt hàng dệt này rất đa dạng như các mặt hàng dùng để may com-lê và các vải khác dùng để may quần áo, hàng dệt làm đồ trang trí nội thất. Nhóm này không bao gồm băng dùng trong y tế đã tẩm thuốc hay đã đóng gói để bán lẻ (nhóm 30.05) và vải dệt thoi phục vụ cho kỹ thuật (nhóm 59.11).",
+        contentEn: "This heading covers woven fabrics made of yarns of combed wool or of yarns of combed fine animal hair. These fabrics exist in great variety and include suitings and other fabrics for clothing, furnishing fabrics. This heading does not cover medicinal bandages impregnated with medicaments or put up for retail sale (heading 30.05), and woven fabrics for technical uses (heading 59.11)."
+      },
+      {
+        code: "51.13",
+        titleVi: "Vải dệt thoi từ sợi lông động vật loại thô hoặc sợi lông đuôi hoặc bờm ngựa",
+        titleEn: "Woven fabrics of coarse animal hair or of horsehair",
+        contentVi: "Nhóm này gồm cả vải dệt thoi làm từ lông động vật dạng thô hoặc từ lông đuôi hoặc bờm ngựa. Các mặt hàng dệt từ lông động vật loại thô được sử dụng làm lớp bọc trong các đồ nội thất, đồ đạc trong nhà hay kể cả lớp lót áo khoác. Mặc dù vậy, các mặt hàng dệt thoi từ lông đuôi hoặc bờm ngựa có thể dệt từ những sợi lông đơn (nhóm 05.11).",
+        contentEn: "This heading covers woven fabrics made of coarse animal hair or of horsehair. Fabrics of coarse animal hair are used as cover materials for furniture or as interlinings. However, woven fabrics of horsehair may be woven from single horsehairs (heading 05.11)."
+      }
+    ]
   }
 ];
 
