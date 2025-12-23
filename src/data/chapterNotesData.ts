@@ -998,6 +998,619 @@ export const chapterNotesData: ChapterNote[] = [
         contentEn: "This heading covers fruit juices (orange, apple, grape, pineapple, etc.) and vegetable juices (carrot, tomato, etc.), unfermented and not containing added spirit."
       }
     ]
+  },
+  {
+    chapter: 21,
+    section: 4,
+    sectionTitleVi: "THỰC PHẨM CHẾ BIẾN; ĐỒ UỐNG, RƯỢU MẠNH VÀ GIẤM; THUỐC LÁ VÀ NGUYÊN LIỆU THAY THẾ THUỐC LÁ ĐÃ CHẾ BIẾN",
+    sectionTitleEn: "PREPARED FOODSTUFFS; BEVERAGES, SPIRITS AND VINEGAR; TOBACCO AND MANUFACTURED TOBACCO SUBSTITUTES",
+    titleVi: "Các chế phẩm ăn được khác",
+    titleEn: "Miscellaneous edible preparations",
+    notesVi: [
+      "Chương này không bao gồm: (a) Các loại rau hỗn hợp thuộc nhóm 07.12; (b) Các chất thay thế cà phê rang có chứa cà phê theo tỷ lệ bất kỳ (nhóm 09.01); (c) Chè đã pha hương liệu (nhóm 09.02); (d) Các gia vị hoặc các sản phẩm khác thuộc các nhóm từ 09.04 đến 09.10; (e) Các chế phẩm thực phẩm có chứa trên 20% tính theo khối lượng của xúc xích, thịt, phụ phẩm dạng thịt sau giết mổ, tiết, côn trùng, cá (Chương 16); (f) Các sản phẩm của nhóm 24.04; (g) Men được đóng gói như dược phẩm (nhóm 30.03 hay 30.04); (h) Enzyme đã chế biến thuộc nhóm 35.07.",
+      "Theo mục đích của nhóm 21.04, khái niệm \"chế phẩm thực phẩm tổng hợp đồng nhất\" có nghĩa là các loại chế phẩm bao gồm một hỗn hợp đồng nhất mịn của hai hoặc nhiều thành phần cơ bản như thịt, cá, rau, quả hoặc quả hạch (nuts), được đóng gói với khối lượng tịnh không quá 250g để bán lẻ, dùng làm thực phẩm cho trẻ sơ sinh."
+    ],
+    notesEn: [
+      "This Chapter does not cover: (a) Mixed vegetables of heading 07.12; (b) Roasted coffee substitutes containing coffee in any proportion (heading 09.01); (c) Flavoured tea (heading 09.02); (d) Spices or other products of headings 09.04 to 09.10; (e) Food preparations containing more than 20% by weight of sausage, meat, meat offal, blood, insects, fish (Chapter 16); (f) Products of heading 24.04; (g) Yeast put up as a medicament (heading 30.03 or 30.04); (h) Prepared enzymes of heading 35.07.",
+      "For the purposes of heading 21.04, the expression \"homogenised composite food preparations\" means preparations consisting of a finely homogenised mixture of two or more basic ingredients such as meat, fish, vegetables, fruit or nuts, put up for retail sale as food suitable for infants or young children, in containers of a net weight not exceeding 250g."
+    ],
+    generalVi: "Chương này bao gồm các chế phẩm ăn được khác như chiết xuất cà phê, chè, men, nước xốt, gia vị, kem, bột protein và các chế phẩm thực phẩm khác chưa được ghi hoặc chi tiết ở nơi khác.",
+    generalEn: "This Chapter covers miscellaneous edible preparations such as coffee extracts, tea, yeasts, sauces, seasonings, ice cream, protein powders and other food preparations not elsewhere specified.",
+    headings: [
+      {
+        code: "21.01",
+        titleVi: "Chất chiết xuất, tinh chất và chất cô đặc từ cà phê, chè hoặc chè Paragoay",
+        titleEn: "Extracts, essences and concentrates, of coffee, tea or maté",
+        contentVi: "Nhóm này bao gồm các chiết xuất, tinh chất và chất cô đặc của cà phê (bao gồm cả cà phê tan), chè, chè paragoay; các chế phẩm có thành phần cơ bản là các sản phẩm này; rau diếp xoăn rang và các chất thay thế cà phê rang khác.",
+        contentEn: "This heading covers extracts, essences and concentrates of coffee (including instant coffee), tea, maté; preparations with a basis of these products; roasted chicory and other roasted coffee substitutes."
+      },
+      {
+        code: "21.02",
+        titleVi: "Men (sống hoặc ỳ); các vi sinh đơn bào khác, chết; bột nở đã pha chế",
+        titleEn: "Yeasts (active or inactive); other single-cell micro-organisms, dead; prepared baking powders",
+        contentVi: "Nhóm này bao gồm men sống (men bia, men làm bánh, men cấy, men gây giống), men ỳ, các vi sinh đơn bào khác đã chết và bột nở đã pha chế (hỗn hợp các hoá chất sinh ra khí carbon dioxide dùng trong nướng bánh).",
+        contentEn: "This heading covers active yeasts (brewery yeast, bakers' yeast, culture yeast, seed yeast), inactive yeasts, other single-cell micro-organisms (dead), and prepared baking powders (mixtures of chemical products that evolve carbon dioxide for leavening dough)."
+      },
+      {
+        code: "21.03",
+        titleVi: "Nước xốt và các chế phẩm làm nước xốt; đồ gia vị hỗn hợp và bột canh hỗn hợp; bột mịn và bột thô từ hạt mù tạt và mù tạt đã chế biến",
+        titleEn: "Sauces and preparations therefor; mixed condiments and mixed seasonings; mustard flour and meal and prepared mustard",
+        contentVi: "Nhóm này bao gồm nước xốt đậu tương, ketchup cà chua, bột mù tạt và mù tạt đã chế biến, đồ gia vị hỗn hợp, bột canh hỗn hợp. Các chế phẩm này thường có đặc tính gia vị, được dùng để làm dậy mùi của các món ăn.",
+        contentEn: "This heading covers soya sauce, tomato ketchup, mustard flour and prepared mustard, mixed condiments, mixed seasonings. These preparations generally have seasoning characteristics and are used to enhance the flavour of dishes."
+      },
+      {
+        code: "21.04",
+        titleVi: "Súp và nước xuýt và các chế phẩm làm súp và nước xuýt; chế phẩm thực phẩm tổng hợp đồng nhất",
+        titleEn: "Soups and broths and preparations therefor; homogenised composite food preparations",
+        contentVi: "Nhóm này bao gồm súp và nước xuýt dạng lỏng hoặc rắn, các chế phẩm làm súp và nước xuýt; chế phẩm thực phẩm tổng hợp đồng nhất dùng cho trẻ sơ sinh hoặc trẻ nhỏ hoặc ăn kiêng.",
+        contentEn: "This heading covers soups and broths in liquid or solid form, preparations for soups and broths; homogenised composite food preparations for infants or young children or for dietetic purposes."
+      },
+      {
+        code: "21.05",
+        titleVi: "Kem lạnh và sản phẩm ăn được tương tự, có hoặc không chứa ca cao",
+        titleEn: "Ice cream and other edible ice, whether or not containing cocoa",
+        contentVi: "Nhóm này bao gồm kem lạnh và các sản phẩm ăn được tương tự như kem sữa, kem trái cây, kem sorbet, có hoặc không chứa ca cao.",
+        contentEn: "This heading covers ice cream and other edible ice such as dairy ice cream, fruit ice cream, sorbet, whether or not containing cocoa."
+      },
+      {
+        code: "21.06",
+        titleVi: "Các chế phẩm thực phẩm chưa được chi tiết hoặc ghi ở nơi khác",
+        titleEn: "Food preparations not elsewhere specified or included",
+        contentVi: "Nhóm này bao gồm các chế phẩm thực phẩm chưa được chi tiết hoặc ghi ở nơi khác, bao gồm: bột và bột nhão protein, xirô đường có thêm hương liệu, các chế phẩm từ lòng trắng trứng, men tự phân, các chế phẩm dùng để sản xuất đồ uống.",
+        contentEn: "This heading covers food preparations not elsewhere specified or included, including: protein concentrates and powders, flavoured sugar syrups, preparations from egg albumin, autolysed yeast, preparations for making beverages."
+      }
+    ]
+  },
+  {
+    chapter: 22,
+    section: 4,
+    sectionTitleVi: "THỰC PHẨM CHẾ BIẾN; ĐỒ UỐNG, RƯỢU MẠNH VÀ GIẤM; THUỐC LÁ VÀ NGUYÊN LIỆU THAY THẾ THUỐC LÁ ĐÃ CHẾ BIẾN",
+    sectionTitleEn: "PREPARED FOODSTUFFS; BEVERAGES, SPIRITS AND VINEGAR; TOBACCO AND MANUFACTURED TOBACCO SUBSTITUTES",
+    titleVi: "Đồ uống, rượu và giấm",
+    titleEn: "Beverages, spirits and vinegar",
+    notesVi: [
+      "Chương này không bao gồm: (a) Các sản phẩm của Chương này đã được chế biến cho mục đích nấu nướng và không phù hợp để làm đồ uống (thường ở nhóm 21.03); (b) Nước biển (nhóm 25.01); (c) Nước cất hoặc nước khử độ dẫn (nhóm 28.53); (d) Axit axetic có nồng độ trên 10% (nhóm 29.15); (e) Dược phẩm thuộc nhóm 30.03 hay 30.04; (f) Các chế phẩm nước hoa hoặc chế phẩm vệ sinh (Chương 33).",
+      "Theo mục đích của nhóm 22.02, khái niệm \"đồ uống không chứa cồn\" có nghĩa là các loại đồ uống có nồng độ cồn không quá 0,5% tính theo thể tích."
+    ],
+    notesEn: [
+      "This Chapter does not cover: (a) Products of this Chapter prepared for culinary purposes and unsuitable for consumption as beverages (generally heading 21.03); (b) Sea water (heading 25.01); (c) Distilled or conductivity water (heading 28.53); (d) Acetic acid exceeding 10% concentration (heading 29.15); (e) Medicaments of heading 30.03 or 30.04; (f) Perfumery or toilet preparations (Chapter 33).",
+      "For the purposes of heading 22.02, the term \"non-alcoholic beverages\" means beverages of an alcoholic strength by volume not exceeding 0.5% vol."
+    ],
+    generalVi: "Các sản phẩm thuộc Chương này chia thành 4 loại chính: (A) Nước và các đồ uống không chứa cồn khác và nước đá; (B) Đồ uống có cồn đã lên men (bia, rượu vang, rượu táo,...); (C) Đồ uống và chất lỏng có chứa cồn được chưng cất (rượu mùi, rượu mạnh,...) và cồn ethyl; (D) Giấm ăn và các sản phẩm thay thế giấm.",
+    generalEn: "The products of this Chapter fall into four main groups: (A) Water and other non-alcoholic beverages and ice; (B) Fermented alcoholic beverages (beer, wine, cider, etc.); (C) Distilled alcoholic liquids and beverages (liqueurs, spirits, etc.) and ethyl alcohol; (D) Vinegar and substitutes for vinegar.",
+    headings: [
+      {
+        code: "22.01",
+        titleVi: "Nước, kể cả nước khoáng tự nhiên hoặc nhân tạo và nước có ga, chưa pha thêm đường hoặc chất làm ngọt khác hay hương liệu; nước đá và tuyết",
+        titleEn: "Waters, including natural or artificial mineral waters and aerated waters, not containing added sugar or sweetening matter nor flavoured; ice and snow",
+        contentVi: "Nhóm này bao gồm nước tự nhiên thông thường, nước khoáng tự nhiên hoặc nhân tạo, nước có ga (soda), nước đá và tuyết. Nhóm này không bao gồm nước đã được làm ngọt hoặc đã pha hương liệu.",
+        contentEn: "This heading covers ordinary natural water, natural or artificial mineral waters, aerated waters (soda), ice and snow. The heading excludes sweetened or flavoured water."
+      },
+      {
+        code: "22.02",
+        titleVi: "Nước, kể cả nước khoáng và nước có ga, đã pha thêm đường hoặc chất làm ngọt khác hay hương liệu, và đồ uống không chứa cồn khác",
+        titleEn: "Waters, including mineral waters and aerated waters, containing added sugar or other sweetening matter or flavoured, and other non-alcoholic beverages",
+        contentVi: "Nhóm này bao gồm các loại đồ uống không chứa cồn như nước khoáng có hương vị, nước chanh, nước cola, bia không cồn, đồ uống có thành phần cơ bản là sữa và ca cao.",
+        contentEn: "This heading covers non-alcoholic beverages such as flavoured mineral waters, lemonade, cola, non-alcoholic beer, beverages with a basis of milk and cocoa."
+      },
+      {
+        code: "22.03",
+        titleVi: "Bia sản xuất từ malt",
+        titleEn: "Beer made from malt",
+        contentVi: "Bia là một loại đồ uống có chứa cồn thu được từ quá trình lên men của nước hèm (wort) chế biến từ ngũ cốc ủ mạch nha (phổ biến nhất là lúa đại mạch hoặc lúa mì), nước và thường với hoa bia (houblon). Bia có thể có màu nhạt hoặc đậm, ngọt hoặc đắng.",
+        contentEn: "Beer is an alcoholic beverage obtained by fermenting a liquor (wort) prepared from malted cereals (most commonly barley or wheat), water and usually hops. Beer may be pale or dark, sweet or bitter."
+      },
+      {
+        code: "22.04",
+        titleVi: "Rượu vang làm từ nho tươi, kể cả rượu vang cao độ; hèm nho",
+        titleEn: "Wine of fresh grapes, including fortified wines; grape must",
+        contentVi: "Nhóm này bao gồm rượu vang thông thường (vang đỏ, hồng hoặc trắng), rượu vang được làm cao độ với cồn, rượu vang nổ, các loại rượu vang ngọt tráng miệng như madeira, marsala, port, sherry.",
+        contentEn: "This heading covers ordinary wines (red, rosé or white), fortified wines, sparkling wines, sweet dessert wines such as madeira, marsala, port, sherry."
+      },
+      {
+        code: "22.05",
+        titleVi: "Rượu vermouth và rượu vang khác làm từ nho tươi đã pha thêm hương vị từ thảo mộc hoặc chất thơm",
+        titleEn: "Vermouth and other wine of fresh grapes flavoured with plants or aromatic substances",
+        contentVi: "Nhóm này bao gồm rượu vermouth và các loại rượu vang khác từ nho tươi đã được pha thêm hương vị từ thảo mộc hoặc chất thơm.",
+        contentEn: "This heading covers vermouth and other wines of fresh grapes flavoured with plants or aromatic substances."
+      },
+      {
+        code: "22.08",
+        titleVi: "Cồn etylic chưa biến tính có nồng độ cồn dưới 80% tính theo thể tích; rượu mạnh, rượu mùi và đồ uống có chứa rượu khác",
+        titleEn: "Undenatured ethyl alcohol of an alcoholic strength by volume of less than 80% vol; spirits, liqueurs and other spirituous beverages",
+        contentVi: "Nhóm này bao gồm cồn etylic chưa biến tính, rượu mạnh (whisky, rum, gin, vodka, brandy), rượu mùi và các đồ uống có chứa rượu khác.",
+        contentEn: "This heading covers undenatured ethyl alcohol, spirits (whisky, rum, gin, vodka, brandy), liqueurs and other spirituous beverages."
+      },
+      {
+        code: "22.09",
+        titleVi: "Giấm và chất thay thế giấm làm từ axit axetic",
+        titleEn: "Vinegar and substitutes for vinegar obtained from acetic acid",
+        contentVi: "Nhóm này bao gồm giấm tự nhiên thu được từ quá trình lên men của các chất lỏng có cồn và các chất thay thế giấm làm từ axit axetic pha loãng.",
+        contentEn: "This heading covers natural vinegar obtained from fermentation of alcoholic liquids and vinegar substitutes obtained from diluted acetic acid."
+      }
+    ]
+  },
+  {
+    chapter: 23,
+    section: 4,
+    sectionTitleVi: "THỰC PHẨM CHẾ BIẾN; ĐỒ UỐNG, RƯỢU MẠNH VÀ GIẤM; THUỐC LÁ VÀ NGUYÊN LIỆU THAY THẾ THUỐC LÁ ĐÃ CHẾ BIẾN",
+    sectionTitleEn: "PREPARED FOODSTUFFS; BEVERAGES, SPIRITS AND VINEGAR; TOBACCO AND MANUFACTURED TOBACCO SUBSTITUTES",
+    titleVi: "Phế liệu và phế thải từ ngành công nghiệp thực phẩm; thức ăn gia súc đã chế biến",
+    titleEn: "Residues and waste from the food industries; prepared animal fodder",
+    notesVi: [
+      "Nhóm 23.09 kể cả các sản phẩm dùng trong chăn nuôi động vật, chưa được ghi hoặc chi tiết ở nơi khác, thu được từ quá trình chế biến nguyên liệu gốc thực vật hoặc động vật đến mức các nguyên liệu đó mất hết tính chất cơ bản của nguyên liệu ban đầu."
+    ],
+    notesEn: [
+      "Heading 23.09 includes products of a kind used in animal feeding, not elsewhere specified or included, obtained by processing vegetable or animal materials to such an extent that they have lost the essential characteristics of the original material."
+    ],
+    generalVi: "Chương này bao gồm rất nhiều loại phế liệu và phế thải từ quá trình chế biến nguyên liệu thực vật được sử dụng trong công nghiệp thực phẩm và cả một số sản phẩm phế liệu có nguồn gốc động vật. Phần lớn các loại sản phẩm này đều được sử dụng làm thức ăn chăn nuôi.",
+    generalEn: "This Chapter covers the various residues and wastes derived from vegetable materials used by food-preparing industries, and also certain products of animal origin. The main use of most of these products is as animal feeding stuffs.",
+    headings: [
+      {
+        code: "23.01",
+        titleVi: "Bột mịn, bột thô và viên, từ thịt hoặc phụ phẩm dạng thịt sau giết mổ, từ cá hay động vật giáp xác, không thích hợp dùng làm thức ăn cho người; tóp mỡ",
+        titleEn: "Flours, meals and pellets, of meat or meat offal, of fish or crustaceans, unfit for human consumption; greaves",
+        contentVi: "Nhóm này bao gồm bột mịn và bột thô không sử dụng làm thức ăn cho người, thu được từ quá trình chế biến động vật hoặc sản phẩm động vật; tóp mỡ là sản phẩm tạo thành bằng các mô màng còn lại sau quá trình rán mỡ.",
+        contentEn: "This heading covers flours and meals unfit for human consumption, obtained from processing animals or animal products; greaves are the membranous tissues remaining after pig or other animal fats have been rendered."
+      },
+      {
+        code: "23.02",
+        titleVi: "Cám, tấm và phế liệu khác, ở dạng viên hoặc không ở dạng viên, thu được từ quá trình giần, sàng, rây, xay xát hoặc chế biến cách khác từ các loại ngũ cốc hay các loại cây họ đậu",
+        titleEn: "Bran, sharps and other residues, whether or not in the form of pellets, derived from the sifting, milling or other working of cereals or leguminous plants",
+        contentVi: "Nhóm này bao gồm cám (phần vỏ ngoài của hạt ngũ cốc), tấm và phế liệu khác từ quá trình xay xát ngũ cốc như lúa mì, ngô, gạo, đại mạch, và từ cây họ đậu.",
+        contentEn: "This heading covers bran (outer skins of cereal grains), sharps and other residues from the milling of cereals such as wheat, maize, rice, barley, and from leguminous plants."
+      },
+      {
+        code: "23.03",
+        titleVi: "Phế liệu từ quá trình sản xuất tinh bột và phế liệu tương tự, bã ép củ cải đường, bã mía và phế liệu khác từ quá trình sản xuất đường",
+        titleEn: "Residues of starch manufacture and similar residues, beet-pulp, bagasse and other waste of sugar manufacture",
+        contentVi: "Nhóm này bao gồm phế liệu từ quá trình sản xuất tinh bột, bã ép củ cải đường, bã mía, bã và phế liệu từ quá trình ủ hoặc chưng cất (bã ngũ cốc, mầm malt, phế thải hoa bia).",
+        contentEn: "This heading covers residues of starch manufacture, beet-pulp, bagasse, brewing or distilling dregs and waste (dregs of cereals, malt sprouts, spent hops)."
+      },
+      {
+        code: "23.04",
+        titleVi: "Khô dầu và phế liệu rắn khác, đã hoặc chưa xay hoặc ở dạng viên, thu được từ quá trình chiết xuất dầu đậu tương",
+        titleEn: "Oil-cake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of soyabean oil",
+        contentVi: "Nhóm này bao gồm các loại khô dầu và phế liệu rắn khác còn lại sau khi chiết xuất dầu từ hạt đậu tương bằng dung môi hoặc bằng ép.",
+        contentEn: "This heading covers oil-cake and other solid residues remaining after the extraction of oil from soya beans by solvents or by pressing."
+      },
+      {
+        code: "23.06",
+        titleVi: "Khô dầu và phế liệu rắn khác, đã hoặc chưa xay hoặc ở dạng viên, thu được từ quá trình chiết xuất chất béo hoặc dầu thực vật",
+        titleEn: "Oil-cake and other solid residues, whether or not ground or in the form of pellets, resulting from the extraction of vegetable fats or oils",
+        contentVi: "Nhóm này bao gồm khô dầu và phế liệu rắn từ hạt bông, hạt lanh, hạt hướng dương, hạt cải dầu, dừa, hạt cọ và các loại khác.",
+        contentEn: "This heading covers oil-cake and solid residues from cotton seeds, linseed, sunflower seeds, rape or colza seeds, coconut, palm nuts and kernels, and others."
+      },
+      {
+        code: "23.09",
+        titleVi: "Chế phẩm dùng trong chăn nuôi động vật",
+        titleEn: "Preparations of a kind used in animal feeding",
+        contentVi: "Nhóm này bao gồm các chế phẩm dùng trong chăn nuôi động vật như thức ăn hỗn hợp hoàn chỉnh, thức ăn bổ sung, thức ăn cho vật nuôi (chó, mèo, chim, cá cảnh).",
+        contentEn: "This heading covers preparations of a kind used in animal feeding such as complete feeds, supplementary feeds, pet food (for dogs, cats, birds, ornamental fish)."
+      }
+    ]
+  },
+  {
+    chapter: 24,
+    section: 4,
+    sectionTitleVi: "THỰC PHẨM CHẾ BIẾN; ĐỒ UỐNG, RƯỢU MẠNH VÀ GIẤM; THUỐC LÁ VÀ NGUYÊN LIỆU THAY THẾ THUỐC LÁ ĐÃ CHẾ BIẾN",
+    sectionTitleEn: "PREPARED FOODSTUFFS; BEVERAGES, SPIRITS AND VINEGAR; TOBACCO AND MANUFACTURED TOBACCO SUBSTITUTES",
+    titleVi: "Thuốc lá và nguyên liệu thay thế lá thuốc lá đã chế biến; các sản phẩm chứa hoặc không chứa nicotin, dùng để hút mà không cần đốt cháy; các sản phẩm chứa nicotin khác",
+    titleEn: "Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products",
+    notesVi: [
+      "Chương này không bao gồm các loại thuốc lá dược phẩm (Chương 30).",
+      "Bất kì sản phẩm nào có thể phân loại được vào nhóm 24.04 và bất kì nhóm nào khác thuộc Chương này, thì được phân loại vào nhóm 24.04.",
+      "Theo mục đích của nhóm 24.04, thuật ngữ \"hút mà không cần đốt cháy\" có nghĩa việc hút thông qua thiết bị làm nóng hoặc thiết bị khác, không cần đốt cháy."
+    ],
+    notesEn: [
+      "This Chapter does not cover medicinal cigarettes (Chapter 30).",
+      "Any products classifiable in heading 24.04 and any other heading of the Chapter are to be classified in heading 24.04.",
+      "For the purposes of heading 24.04, the expression \"inhalation without combustion\" means inhalation through heated delivery or other means, without combustion."
+    ],
+    generalVi: "Lá thuốc lá thu được từ nhiều loại cây được trồng thuộc giống Nicotiana thuộc họ Solanaceae. Phương pháp thu hoạch và công đoạn sấy tùy thuộc vào loại thuốc lá khác nhau. Chương này không chỉ bao gồm lá thuốc lá chưa được chế biến và đã được chế biến mà còn bao gồm các sản phẩm thay thế lá thuốc lá đã chế biến mà không chứa thuốc lá.",
+    generalEn: "Tobacco is obtained from various cultivated varieties of the genus Nicotiana of the Solanaceae family. The harvesting method and curing process depend on the variety of tobacco. This Chapter covers not only unmanufactured and manufactured tobacco but also manufactured tobacco substitutes which do not contain tobacco.",
+    headings: [
+      {
+        code: "24.01",
+        titleVi: "Lá thuốc lá chưa chế biến; phế liệu lá thuốc lá",
+        titleEn: "Unmanufactured tobacco; tobacco refuse",
+        contentVi: "Nhóm này bao gồm lá thuốc lá chưa chế biến dưới dạng cả cây hay dạng lá ở dạng tự nhiên hoặc đã sấy hoặc đã ủ men, còn nguyên hoặc được tước cọng; phế liệu lá thuốc lá (cọng, cuống, vụn, bụi).",
+        contentEn: "This heading covers unmanufactured tobacco in the form of whole plants or leaves in the natural state or as cured or fermented leaves, whole or stemmed/stripped; tobacco refuse (stalks, stems, trimmings, dust)."
+      },
+      {
+        code: "24.02",
+        titleVi: "Xì gà, xì gà xén hai đầu, xì gà nhỏ và thuốc lá điếu, từ lá thuốc lá hoặc từ các nguyên liệu thay thế lá thuốc lá",
+        titleEn: "Cigars, cheroots, cigarillos and cigarettes, of tobacco or of tobacco substitutes",
+        contentVi: "Nhóm này chỉ bao gồm xì gà, xì gà xén hai đầu, xì gà nhỏ và thuốc lá điếu, được làm từ lá thuốc lá hoặc từ các chất thay thế lá thuốc lá.",
+        contentEn: "This heading is restricted to cigars, cheroots, cigarillos and cigarettes, made of tobacco or of tobacco substitutes."
+      },
+      {
+        code: "24.03",
+        titleVi: "Lá thuốc lá đã chế biến và các nguyên liệu thay thế lá thuốc lá đã chế biến khác; thuốc lá \"thuần nhất\" hoặc thuốc lá \"hoàn nguyên\"; chiết xuất và tinh chất lá thuốc lá",
+        titleEn: "Other manufactured tobacco and manufactured tobacco substitutes; \"homogenised\" or \"reconstituted\" tobacco; tobacco extracts and essences",
+        contentVi: "Nhóm này bao gồm lá thuốc lá để hút (thuốc lá tẩu, thuốc lá sử dụng tẩu nước), lá thuốc lá để nhai, lá thuốc lá để hít (hít bột), thuốc lá thuần nhất hoặc hoàn nguyên, chiết xuất và tinh chất thuốc lá.",
+        contentEn: "This heading covers smoking tobacco (pipe tobacco, water pipe tobacco), chewing tobacco, snuff, homogenised or reconstituted tobacco, tobacco extracts and essences."
+      },
+      {
+        code: "24.04",
+        titleVi: "Sản phẩm chứa lá thuốc lá, thuốc lá hoàn nguyên, nicotin, hoặc các nguyên liệu thay thế, dùng để hút mà không cần đốt cháy; các sản phẩm chứa nicotin khác",
+        titleEn: "Products containing tobacco, reconstituted tobacco, nicotine, or substitutes, intended for inhalation without combustion; other nicotine containing products",
+        contentVi: "Nhóm này bao gồm dung dịch chứa nicotin dùng cho thuốc lá điện tử, các sản phẩm có chứa lá thuốc lá hoặc thuốc lá hoàn nguyên dùng cho hệ thống làm nóng thuốc lá (thuốc lá nung nóng điện tử), thuốc lá điện tử dùng một lần.",
+        contentEn: "This heading covers nicotine solutions for e-cigarettes, products containing tobacco or reconstituted tobacco for tobacco heating systems (electronically heated tobacco), disposable e-cigarettes."
+      }
+    ]
+  },
+  {
+    chapter: 25,
+    section: 5,
+    sectionTitleVi: "KHOÁNG SẢN",
+    sectionTitleEn: "MINERAL PRODUCTS",
+    titleVi: "Muối; lưu huỳnh; đất và đá; thạch cao, vôi và xi măng",
+    titleEn: "Salt; sulphur; earths and stone; plastering materials, lime and cement",
+    notesVi: [
+      "Trừ khi có yêu cầu khác, các nhóm của Chương này chỉ bao gồm các sản phẩm ở trạng thái thô hoặc đã được làm sạch, tán, nghiền, nghiền thành bột, nghiền mịn, sàng hoặc tuyển bằng các quy trình tuyển nổi, tách bằng từ tính hoặc bằng các quy trình cơ học và lý học khác (không bao gồm sự kết tinh).",
+      "Chương này không bao gồm: (a) Lưu huỳnh thăng hoa, lưu huỳnh kết tủa hoặc lưu huỳnh dạng keo (nhóm 28.02); (b) Đất màu có chứa 70% hoặc hơn tính theo trọng lượng là sắt oxit (nhóm 28.21); (c) Dược phẩm (Chương 30); (d) Chế phẩm nước hoa, mỹ phẩm (Chương 33)."
+    ],
+    notesEn: [
+      "Except where their context otherwise requires, the headings of this Chapter cover only products which are in the crude state or which have been washed, crushed, ground, powdered, levigated, sifted, screened, concentrated by flotation, magnetic separation or other mechanical or physical processes (except crystallisation).",
+      "This Chapter does not cover: (a) Sublimed sulphur, precipitated sulphur or colloidal sulphur (heading 28.02); (b) Earth colours containing 70% or more by weight of combined iron (heading 28.21); (c) Medicaments (Chapter 30); (d) Perfumery, cosmetic preparations (Chapter 33)."
+    ],
+    generalVi: "Chương này chỉ gồm các sản phẩm khoáng ở trạng thái thô, hoặc đã được làm sạch (bao gồm cả việc làm sạch bằng các chất hoá học để loại trừ tạp chất). Các sản phẩm có thể được nung để loại bỏ độ ẩm hoặc các tạp chất, miễn là việc xử lý nhiệt này không làm thay đổi các cấu trúc tinh thể hoặc hoá học của chúng.",
+    generalEn: "This Chapter covers only products in the crude state or which have been washed (including cleaning with chemical substances to eliminate impurities). Products may be heated to remove moisture or impurities, provided the heat treatment does not change their crystalline or chemical structure.",
+    headings: [
+      {
+        code: "25.01",
+        titleVi: "Muối (kể cả muối ăn và muối đã bị làm biến tính) và natri clorua tinh khiết; nước biển",
+        titleEn: "Salt (including table salt and denatured salt) and pure sodium chloride; sea water",
+        contentVi: "Nhóm này bao gồm muối được tách chiết từ lòng đất (muối mỏ), muối được tạo bằng phương pháp bay hơi, nước biển, nước muối. Cũng bao gồm muối đã được iốt hóa, muối đã được làm biến chất.",
+        contentEn: "This heading covers salt extracted from underground (rock salt), evaporated salt, sea water, brine. Also includes iodised salt, denatured salt."
+      },
+      {
+        code: "25.02",
+        titleVi: "Pirít sắt chưa nung",
+        titleEn: "Unroasted iron pyrites",
+        contentVi: "Nhóm này bao gồm tất cả các dạng pirít sắt chưa nung, bao gồm cả quặng pirít sắt có chứa đồng hoá trị 1 chưa nung. Các pirít chủ yếu được sử dụng để tách chiết lưu huỳnh.",
+        contentEn: "This heading covers all unroasted iron pyrites, including unroasted cupreous iron pyrites. Pyrites are mainly used for the extraction of sulphur."
+      },
+      {
+        code: "25.03",
+        titleVi: "Lưu huỳnh các loại, trừ lưu huỳnh thăng hoa, lưu huỳnh kết tủa và lưu huỳnh dạng keo",
+        titleEn: "Sulphur of all kinds, other than sublimed sulphur, precipitated sulphur and colloidal sulphur",
+        contentVi: "Nhóm này bao gồm khoáng lưu huỳnh dạng thô, lưu huỳnh chưa tinh chế, lưu huỳnh tinh chế, lưu huỳnh đã nghiền. Được sử dụng trong ngành công nghiệp hoá chất, lưu hoá cao su, thuốc diệt nấm.",
+        contentEn: "This heading covers crude mineral sulphur, unrefined sulphur, refined sulphur, triturated sulphur. Used in chemical industry, rubber vulcanisation, fungicides."
+      },
+      {
+        code: "25.04",
+        titleVi: "Graphite tự nhiên",
+        titleEn: "Natural graphite",
+        contentVi: "Graphit tự nhiên (còn được biết như than chì hoặc chì đen) là một loại carbon được dùng làm bút chì, đánh bóng, sản xuất nồi luyện kim và các sản phẩm chịu lửa, điện cực.",
+        contentEn: "Natural graphite (also known as black lead or plumbago) is a form of carbon used for pencils, polishing, manufacture of crucibles and refractory products, electrodes."
+      },
+      {
+        code: "25.05",
+        titleVi: "Các loại cát tự nhiên, đã hoặc chưa nhuộm màu",
+        titleEn: "Natural sands of all kinds, whether or not coloured",
+        contentVi: "Nhóm này bao gồm cát oxit silic, cát thạch anh và các loại cát tự nhiên khác, trừ cát chứa kim loại thuộc Chương 26.",
+        contentEn: "This heading covers silica sands, quartz sands and other natural sands, excluding metal-bearing sands of Chapter 26."
+      },
+      {
+        code: "25.15",
+        titleVi: "Đá hoa (marble), đá vôi kết tủa (travertine), đá vôi hình thành do sự nén ép hoặc cát (ecaussine) và đá vôi khác dùng làm tượng đài hoặc đá xây dựng",
+        titleEn: "Marble, travertine, ecaussine and other calcareous monumental or building stone",
+        contentVi: "Nhóm này bao gồm đá hoa, đá vôi kết tủa (travertine) và các loại đá vôi khác dùng làm tượng đài hoặc đá xây dựng, đã hoặc chưa được đẽo thô hoặc mới chỉ cắt thành dạng khối hoặc tấm hình chữ nhật.",
+        contentEn: "This heading covers marble, travertine and other calcareous monumental or building stone, roughly trimmed or merely cut into blocks or slabs of a rectangular shape."
+      },
+      {
+        code: "25.20",
+        titleVi: "Thite vôi; thạch cao; thạch cao đã nung hoặc canxi sulphat",
+        titleEn: "Gypsum; anhydrite; plasters",
+        contentVi: "Nhóm này bao gồm đá thạch cao thô hoặc đã nung, thạch cao vữa, thạch cao xây dựng, thạch cao nha khoa.",
+        contentEn: "This heading covers crude or calcined gypsum, plaster of Paris, building plasters, dental plasters."
+      },
+      {
+        code: "25.23",
+        titleVi: "Xi măng Portland, xi măng alumin, xi măng xỉ (xite), xi măng supersulphate và xi măng thuỷ lực tương tự",
+        titleEn: "Portland cement, aluminous cement, slag cement, supersulphate cement and similar hydraulic cements",
+        contentVi: "Nhóm này bao gồm xi măng Portland (loại phổ biến nhất), xi măng alumin, xi măng xỉ, xi măng supersulphate và các loại xi măng thuỷ lực tương tự khác.",
+        contentEn: "This heading covers Portland cement (the most common type), aluminous cement, slag cement, supersulphate cement and other similar hydraulic cements."
+      }
+    ]
+  },
+  {
+    chapter: 26,
+    section: 5,
+    sectionTitleVi: "KHOÁNG SẢN",
+    sectionTitleEn: "MINERAL PRODUCTS",
+    titleVi: "Quặng, xỉ và tro",
+    titleEn: "Ores, slag and ash",
+    notesVi: [
+      "Chương này không bao gồm: (a) Xỉ hoặc phế liệu công nghiệp tương tự đã được gia công như đá dăm (nhóm 25.17); (b) Magiê carbonat tự nhiên (magnesite) (nhóm 25.19); (c) Xỉ bazơ thuộc Chương 31; (d) Sợi xỉ, bông len đá hoặc các loại sợi khoáng tương tự (nhóm 68.06); (e) Phế liệu hoặc mảnh vụn của kim loại quý (nhóm 71.12 hoặc 85.49).",
+      "Theo mục đích của các nhóm từ 26.01 đến 26.17, thuật ngữ \"quặng\" là khoáng sản thường được dùng trong công nghiệp luyện kim để tách kim loại."
+    ],
+    notesEn: [
+      "This Chapter does not cover: (a) Slag or similar industrial waste prepared as macadam (heading 25.17); (b) Natural magnesium carbonate (magnesite) (heading 25.19); (c) Basic slag of Chapter 31; (d) Slag wool, rock wool or similar mineral wools (heading 68.06); (e) Waste or scrap of precious metal (heading 71.12 or 85.49).",
+      "For the purposes of headings 26.01 to 26.17, the term \"ores\" means minerals actually used in the metallurgical industry for the extraction of metals."
+    ],
+    generalVi: "Chương này bao gồm quặng của nhiều kim loại, xỉ, tro và cặn từ quá trình luyện kim và công nghiệp khác. Quặng là khoáng sản được dùng trong công nghiệp luyện kim để tách kim loại.",
+    generalEn: "This Chapter covers ores of various metals, slag, ash and residues from metallurgical and other industrial processes. Ores are minerals used in the metallurgical industry for the extraction of metals.",
+    headings: [
+      {
+        code: "26.01",
+        titleVi: "Quặng sắt và tinh quặng sắt, kể cả pirit sắt đã nung",
+        titleEn: "Iron ores and concentrates, including roasted iron pyrites",
+        contentVi: "Nhóm này bao gồm quặng sắt và tinh quặng sắt (hematit, magnetit, limonit, siderit) và pirit sắt đã nung (tro pirit).",
+        contentEn: "This heading covers iron ores and concentrates (hematite, magnetite, limonite, siderite) and roasted iron pyrites (pyrite cinders)."
+      },
+      {
+        code: "26.02",
+        titleVi: "Quặng mangan và tinh quặng mangan",
+        titleEn: "Manganese ores and concentrates",
+        contentVi: "Nhóm này bao gồm quặng mangan và tinh quặng mangan, kể cả quặng mangan có chứa sắt và tinh quặng của nó.",
+        contentEn: "This heading covers manganese ores and concentrates, including ferruginous manganese ores and their concentrates."
+      },
+      {
+        code: "26.03",
+        titleVi: "Quặng đồng và tinh quặng đồng",
+        titleEn: "Copper ores and concentrates",
+        contentVi: "Nhóm này bao gồm quặng đồng và tinh quặng đồng (chalcopyrit, cuprit, malachit, azurit, bornit).",
+        contentEn: "This heading covers copper ores and concentrates (chalcopyrite, cuprite, malachite, azurite, bornite)."
+      },
+      {
+        code: "26.07",
+        titleVi: "Quặng chì và tinh quặng chì",
+        titleEn: "Lead ores and concentrates",
+        contentVi: "Nhóm này bao gồm quặng chì và tinh quặng chì (galenit/sulphua chì, cerussit/carbonate chì, anglesite/sulphate chì).",
+        contentEn: "This heading covers lead ores and concentrates (galena/lead sulphide, cerussite/lead carbonate, anglesite/lead sulphate)."
+      },
+      {
+        code: "26.08",
+        titleVi: "Quặng kẽm và tinh quặng kẽm",
+        titleEn: "Zinc ores and concentrates",
+        contentVi: "Nhóm này bao gồm quặng kẽm và tinh quặng kẽm (sphalerit/blende, smithsonit/calamine, hemimorphit, willemit, zincit).",
+        contentEn: "This heading covers zinc ores and concentrates (sphalerite/blende, smithsonite/calamine, hemimorphite, willemite, zincite)."
+      },
+      {
+        code: "26.20",
+        titleVi: "Xỉ, tro và cặn (trừ loại từ quá trình sản xuất sắt hoặc thép) có chứa kim loại, arsen hoặc các hợp chất của chúng",
+        titleEn: "Slag, ash and residues (other than from the manufacture of iron or steel) containing metals, arsenic or their compounds",
+        contentVi: "Nhóm này bao gồm xỉ, tro và cặn dùng trong công nghiệp tách kim loại hay dùng để sản xuất các hợp chất hoá học, trừ tro từ quá trình đốt rác thải đô thị.",
+        contentEn: "This heading covers slag, ash and residues used in industry for the extraction of metals or as a basis for the manufacture of chemical compounds, excluding ash from incineration of municipal waste."
+      }
+    ]
+  },
+  {
+    chapter: 27,
+    section: 5,
+    sectionTitleVi: "KHOÁNG SẢN",
+    sectionTitleEn: "MINERAL PRODUCTS",
+    titleVi: "Nhiên liệu khoáng, dầu khoáng và các sản phẩm chưng cất từ chúng; các chất chứa bitum; các loại sáp khoáng chất",
+    titleEn: "Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",
+    notesVi: [
+      "Chương này không bao gồm: (a) Các hợp chất hữu cơ đã được xác định về mặt hoá học riêng biệt, trừ metan và propan tinh khiết (nhóm 27.11); (b) Dược phẩm thuộc nhóm 30.03 hoặc 30.04; (c) Hỗn hợp hydrocarbon chưa no thuộc nhóm 33.01, 33.02 hoặc 38.05.",
+      "Trong nhóm 27.10, khái niệm \"dầu có nguồn gốc từ dầu mỏ và các loại dầu thu được từ khoáng bi-tum\" không chỉ bao gồm dầu có nguồn gốc từ dầu mỏ mà còn bao gồm các loại dầu tương tự."
+    ],
+    notesEn: [
+      "This Chapter does not cover: (a) Separate chemically defined organic compounds, other than pure methane and propane (heading 27.11); (b) Medicaments of heading 30.03 or 30.04; (c) Mixed unsaturated hydrocarbons of heading 33.01, 33.02 or 38.05.",
+      "References in heading 27.10 to \"petroleum oils and oils obtained from bituminous minerals\" include not only petroleum oils but also similar oils."
+    ],
+    generalVi: "Chương này bao gồm than đá, than non, than bùn, dầu mỏ và các sản phẩm chưng cất từ chúng, khí thiên nhiên, khí hóa lỏng, các chất chứa bitum và sáp khoáng chất. Các sản phẩm này chủ yếu được dùng làm nhiên liệu.",
+    generalEn: "This Chapter covers coal, lignite, peat, petroleum and products of their distillation, natural gas, liquefied petroleum gases, bituminous substances and mineral waxes. These products are mainly used as fuels.",
+    headings: [
+      {
+        code: "27.01",
+        titleVi: "Than đá; than bánh, than quả bàng và nhiên liệu rắn tương tự sản xuất từ than đá",
+        titleEn: "Coal; briquettes, ovoids and similar solid fuels manufactured from coal",
+        contentVi: "Nhóm này bao gồm than đá (anthracite, than bitum, than mỡ) và nhiên liệu rắn tương tự sản xuất từ than đá (than bánh, than quả bàng).",
+        contentEn: "This heading covers coal (anthracite, bituminous coal, coking coal) and similar solid fuels manufactured from coal (briquettes, ovoids)."
+      },
+      {
+        code: "27.09",
+        titleVi: "Dầu mỏ và các loại dầu thu được từ khoáng bi-tum, ở dạng thô",
+        titleEn: "Petroleum oils and oils obtained from bituminous minerals, crude",
+        contentVi: "Nhóm này bao gồm dầu thô từ dầu mỏ (dầu thô là hỗn hợp của các hydrocarbon được khai thác từ các mỏ dầu) và dầu thô từ khoáng bi-tum.",
+        contentEn: "This heading covers crude petroleum oils (crude oil is a mixture of hydrocarbons extracted from oil wells) and crude oils from bituminous minerals."
+      },
+      {
+        code: "27.10",
+        titleVi: "Dầu có nguồn gốc từ dầu mỏ và các loại dầu thu được từ khoáng bi-tum, trừ dầu thô; các chế phẩm chưa được chi tiết hoặc ghi ở nơi khác, có chứa từ 70% trở lên tính theo trọng lượng là dầu có nguồn gốc từ dầu mỏ",
+        titleEn: "Petroleum oils and oils obtained from bituminous minerals, other than crude; preparations not elsewhere specified, containing by weight 70% or more of petroleum oils",
+        contentVi: "Nhóm này bao gồm dầu nhẹ (xăng, naphtha), dầu trung bình (kerosene, dầu diesel), dầu nặng (dầu nhiên liệu, dầu bôi trơn), dầu thải.",
+        contentEn: "This heading covers light oils (petrol, naphtha), medium oils (kerosene, diesel oil), heavy oils (fuel oil, lubricating oils), waste oils."
+      },
+      {
+        code: "27.11",
+        titleVi: "Khí dầu mỏ và các loại khí hydrocarbon khác",
+        titleEn: "Petroleum gases and other gaseous hydrocarbons",
+        contentVi: "Nhóm này bao gồm khí dầu mỏ hóa lỏng (LPG) như propan, butan, khí thiên nhiên hóa lỏng (LNG), và các khí hydrocarbon khác ở thể khí.",
+        contentEn: "This heading covers liquefied petroleum gases (LPG) such as propane, butane, liquefied natural gas (LNG), and other gaseous hydrocarbons."
+      },
+      {
+        code: "27.13",
+        titleVi: "Cốc dầu mỏ, bi-tum dầu mỏ và các cặn khác từ dầu có nguồn gốc dầu mỏ hoặc từ dầu thu được từ khoáng bi-tum",
+        titleEn: "Petroleum coke, petroleum bitumen and other residues of petroleum oils or of oils obtained from bituminous minerals",
+        contentVi: "Nhóm này bao gồm cốc dầu mỏ, bi-tum dầu mỏ (nhựa đường) và các cặn khác từ quá trình lọc dầu.",
+        contentEn: "This heading covers petroleum coke, petroleum bitumen (asphalt) and other residues of petroleum refining."
+      }
+    ]
+  },
+  {
+    chapter: 28,
+    section: 6,
+    sectionTitleVi: "SẢN PHẨM CỦA NGÀNH CÔNG NGHIỆP HÓA CHẤT HOẶC CÁC NGÀNH CÔNG NGHIỆP LIÊN QUAN",
+    sectionTitleEn: "PRODUCTS OF THE CHEMICAL OR ALLIED INDUSTRIES",
+    titleVi: "Hóa chất vô cơ; các hợp chất vô cơ hoặc hữu cơ của kim loại quý, kim loại đất hiếm, các nguyên tố phóng xạ hoặc các chất đồng vị",
+    titleEn: "Inorganic chemicals; organic or inorganic compounds of precious metals, of rare-earth metals, of radioactive elements or of isotopes",
+    notesVi: [
+      "Các mặt hàng (trừ quặng phóng xạ) đáp ứng các mô tả trong nhóm 28.44 hoặc 28.45 phải được xếp vào các nhóm đó và không được đưa vào nhóm nào khác của Danh mục.",
+      "Các mặt hàng đóng gói theo liều lượng hoặc đóng gói để bán lẻ được xếp vào các nhóm tương ứng của Danh mục."
+    ],
+    notesEn: [
+      "Goods (other than radioactive ores) answering to a description in heading 28.44 or 28.45 are to be classified in those headings and in no other heading of the Nomenclature.",
+      "Goods put up in measured doses or for retail sale are to be classified in the appropriate headings of the Nomenclature."
+    ],
+    generalVi: "Chương này bao gồm các hóa chất vô cơ, các hợp chất của kim loại quý, kim loại đất hiếm, các nguyên tố phóng xạ và đồng vị. Tất cả các nguyên tố hóa học phóng xạ và các đồng vị phóng xạ được phân loại ở nhóm 28.44.",
+    generalEn: "This Chapter covers inorganic chemicals, compounds of precious metals, rare-earth metals, radioactive elements and isotopes. All radioactive chemical elements and radioactive isotopes are classified under heading 28.44.",
+    headings: [
+      {
+        code: "28.01",
+        titleVi: "Flo, clo, brom và iot",
+        titleEn: "Fluorine, chlorine, bromine and iodine",
+        contentVi: "Nhóm này bao gồm các nguyên tố halogen: flo (khí màu vàng nhạt), clo (khí màu vàng lục), brom (chất lỏng màu đỏ nâu), iot (tinh thể màu xám).",
+        contentEn: "This heading covers halogen elements: fluorine (pale yellow gas), chlorine (yellow-green gas), bromine (reddish-brown liquid), iodine (greyish crystals)."
+      },
+      {
+        code: "28.02",
+        titleVi: "Lưu huỳnh thăng hoa hoặc kết tủa; lưu huỳnh dạng keo",
+        titleEn: "Sulphur, sublimed or precipitated; colloidal sulphur",
+        contentVi: "Nhóm này bao gồm lưu huỳnh thăng hoa (bột lưu huỳnh), lưu huỳnh kết tủa và lưu huỳnh dạng keo. Được sử dụng trong y tế, dược phẩm, thuốc trừ sâu.",
+        contentEn: "This heading covers sublimed sulphur (flowers of sulphur), precipitated sulphur and colloidal sulphur. Used in medicine, pharmaceuticals, insecticides."
+      },
+      {
+        code: "28.04",
+        titleVi: "Hydro, khí hiếm và các phi kim loại khác",
+        titleEn: "Hydrogen, rare gases and other non-metals",
+        contentVi: "Nhóm này bao gồm hydro, khí hiếm (heli, neon, argon, krypton, xenon), nitơ, oxy, bo, silic, photpho, asen, selen, telua.",
+        contentEn: "This heading covers hydrogen, rare gases (helium, neon, argon, krypton, xenon), nitrogen, oxygen, boron, silicon, phosphorus, arsenic, selenium, tellurium."
+      },
+      {
+        code: "28.06",
+        titleVi: "Hydro clorua (axit hydrocloric); axit clorosulphuric",
+        titleEn: "Hydrogen chloride (hydrochloric acid); chlorosulphuric acid",
+        contentVi: "Nhóm này bao gồm axit hydrocloric (HCl) và axit clorosulphuric. Axit hydrocloric được sử dụng rộng rãi trong công nghiệp hóa chất, luyện kim, xử lý nước.",
+        contentEn: "This heading covers hydrochloric acid (HCl) and chlorosulphuric acid. Hydrochloric acid is widely used in chemical industry, metallurgy, water treatment."
+      },
+      {
+        code: "28.44",
+        titleVi: "Các nguyên tố hóa học phóng xạ và các đồng vị phóng xạ và các hợp chất của chúng; hỗn hợp và cặn có chứa các sản phẩm này",
+        titleEn: "Radioactive chemical elements and radioactive isotopes and their compounds; mixtures and residues containing these products",
+        contentVi: "Nhóm này bao gồm uranium làm giàu, uranium nghèo, plutonium, các nguyên tố phóng xạ và đồng vị phóng xạ khác và hợp chất của chúng.",
+        contentEn: "This heading covers enriched uranium, depleted uranium, plutonium, other radioactive elements and radioactive isotopes and their compounds."
+      }
+    ]
+  },
+  {
+    chapter: 29,
+    section: 6,
+    sectionTitleVi: "SẢN PHẨM CỦA NGÀNH CÔNG NGHIỆP HÓA CHẤT HOẶC CÁC NGÀNH CÔNG NGHIỆP LIÊN QUAN",
+    sectionTitleEn: "PRODUCTS OF THE CHEMICAL OR ALLIED INDUSTRIES",
+    titleVi: "Hóa chất hữu cơ",
+    titleEn: "Organic chemicals",
+    notesVi: [
+      "Trừ khi có yêu cầu khác, các nhóm của Chương này chỉ bao gồm: (a) Các hợp chất hữu cơ được xác định về mặt hoá học riêng biệt, có hoặc không chứa tạp chất; (b) Hỗn hợp của hai hoặc nhiều đồng phân của cùng một hợp chất hữu cơ.",
+      "Chương này không bao gồm: (a) Các mặt hàng thuộc nhóm 15.04 hoặc glyxerin thô (nhóm 15.20); (b) Cồn etylic (nhóm 22.07 hoặc 22.08); (c) Metan hoặc propan (nhóm 27.11)."
+    ],
+    notesEn: [
+      "Except where the context otherwise requires, the headings of this Chapter apply only to: (a) Separate chemically defined organic compounds, whether or not containing impurities; (b) Mixtures of two or more isomers of the same organic compound.",
+      "This Chapter does not cover: (a) Goods of heading 15.04 or crude glycerol (heading 15.20); (b) Ethyl alcohol (heading 22.07 or 22.08); (c) Methane or propane (heading 27.11)."
+    ],
+    generalVi: "Chương này bao gồm các hợp chất hữu cơ được xác định về mặt hóa học như hydrocarbon, ancol, axit, ester, aldehyde, ketone, amine, hợp chất dị vòng, vitamin, hormone, alkaloid và các hợp chất hữu cơ khác.",
+    generalEn: "This Chapter covers separate chemically defined organic compounds such as hydrocarbons, alcohols, acids, esters, aldehydes, ketones, amines, heterocyclic compounds, vitamins, hormones, alkaloids and other organic compounds.",
+    headings: [
+      {
+        code: "29.01",
+        titleVi: "Hydrocarbon mạch hở",
+        titleEn: "Acyclic hydrocarbons",
+        contentVi: "Nhóm này bao gồm hydrocarbon mạch hở no (metan, etan, propan, butan, pentan, hexan) và hydrocarbon mạch hở chưa no (etylen, propylen, butylen, acetylene).",
+        contentEn: "This heading covers saturated acyclic hydrocarbons (methane, ethane, propane, butane, pentane, hexane) and unsaturated acyclic hydrocarbons (ethylene, propylene, butylene, acetylene)."
+      },
+      {
+        code: "29.02",
+        titleVi: "Hydrocarbon mạch vòng",
+        titleEn: "Cyclic hydrocarbons",
+        contentVi: "Nhóm này bao gồm hydrocarbon vòng no (cyclohexane), hydrocarbon vòng chưa no (cyclohexene), hydrocarbon thơm (benzene, toluene, xylene, styrene, naphthalene).",
+        contentEn: "This heading covers cyclanes (cyclohexane), cyclenes (cyclohexene), aromatic hydrocarbons (benzene, toluene, xylene, styrene, naphthalene)."
+      },
+      {
+        code: "29.05",
+        titleVi: "Ancol mạch hở và các dẫn xuất halogen hóa, sulfo hóa, nitro hóa hoặc nitroso hóa của chúng",
+        titleEn: "Acyclic alcohols and their halogenated, sulphonated, nitrated or nitrosated derivatives",
+        contentVi: "Nhóm này bao gồm methanol, ethanol, propanol, butanol, pentanol, glycerol, các polyol khác và dẫn xuất của chúng.",
+        contentEn: "This heading covers methanol, ethanol, propanol, butanol, pentanol, glycerol, other polyols and their derivatives."
+      },
+      {
+        code: "29.15",
+        titleVi: "Axit monocarboxylic mạch hở no và các anhydrit, halogenua, peroxit và peroxyaxit của chúng; các dẫn xuất của chúng",
+        titleEn: "Saturated acyclic monocarboxylic acids and their anhydrides, halides, peroxides and peroxyacids; their derivatives",
+        contentVi: "Nhóm này bao gồm axit formic, axit axetic, anhydrit axetic, axit propionic, axit butyric và các dẫn xuất của chúng.",
+        contentEn: "This heading covers formic acid, acetic acid, acetic anhydride, propionic acid, butyric acid and their derivatives."
+      },
+      {
+        code: "29.36",
+        titleVi: "Provitamin và vitamin, tự nhiên hoặc tổng hợp, và các dẫn xuất của chúng",
+        titleEn: "Provitamins and vitamins, natural or reproduced by synthesis, and derivatives thereof",
+        contentVi: "Nhóm này bao gồm các provitamin và vitamin (vitamin A, B1, B2, B6, B12, C, D, E, K) và các dẫn xuất của chúng, tự nhiên hoặc tổng hợp.",
+        contentEn: "This heading covers provitamins and vitamins (vitamins A, B1, B2, B6, B12, C, D, E, K) and their derivatives, natural or synthesised."
+      },
+      {
+        code: "29.39",
+        titleVi: "Alkaloit, tự nhiên hoặc tổng hợp, và muối, ete, este và các dẫn xuất khác của chúng",
+        titleEn: "Alkaloids, natural or reproduced by synthesis, and their salts, ethers, esters and other derivatives",
+        contentVi: "Nhóm này bao gồm alkaloid thuộc nhóm thuốc phiện (morphine, codeine), nhóm cinchona (quinine), caffeine, nicotine, cocaine, và các alkaloid tổng hợp.",
+        contentEn: "This heading covers opium alkaloids (morphine, codeine), cinchona alkaloids (quinine), caffeine, nicotine, cocaine, and synthetic alkaloids."
+      }
+    ]
+  },
+  {
+    chapter: 30,
+    section: 6,
+    sectionTitleVi: "SẢN PHẨM CỦA NGÀNH CÔNG NGHIỆP HÓA CHẤT HOẶC CÁC NGÀNH CÔNG NGHIỆP LIÊN QUAN",
+    sectionTitleEn: "PRODUCTS OF THE CHEMICAL OR ALLIED INDUSTRIES",
+    titleVi: "Dược phẩm",
+    titleEn: "Pharmaceutical products",
+    notesVi: [
+      "Chương này không bao gồm: (a) Thực phẩm hoặc đồ uống (như thực phẩm cho ăn kiêng, thực phẩm dành cho người bị tiểu đường, thực phẩm bổ sung, đồ uống bổ dưỡng, đồ uống có cồn), trừ các chế phẩm dinh dưỡng để truyền tĩnh mạch (Phần IV); (b) Thạch cao được chế biến đặc biệt dùng trong nha khoa (nhóm 25.20).",
+      "Theo mục đích của nhóm 30.02, \"các sản phẩm miễn dịch\" bao gồm peptides và proteins trực tiếp tham gia vào điều chỉnh các quá trình miễn dịch."
+    ],
+    notesEn: [
+      "This Chapter does not cover: (a) Foods or beverages (such as dietetic, diabetic or fortified foods, food supplements, tonic beverages, alcoholic beverages), other than nutritional preparations for intravenous administration (Section IV); (b) Plasters specially calcined or finely ground for use in dentistry (heading 25.20).",
+      "For the purposes of heading 30.02, \"immunological products\" include peptides and proteins directly involved in the regulation of immunological processes."
+    ],
+    generalVi: "Chương này bao gồm dược phẩm dùng trong y tế và thú y, bao gồm tuyến và các cơ quan khác, máu và các sản phẩm máu, vắc-xin, các sản phẩm miễn dịch, dược phẩm đã hoặc chưa đóng gói theo liều lượng hoặc để bán lẻ.",
+    generalEn: "This Chapter covers pharmaceutical products for human and veterinary medicine, including glands and other organs, blood and blood products, vaccines, immunological products, medicaments whether or not put up in measured doses or for retail sale.",
+    headings: [
+      {
+        code: "30.01",
+        titleVi: "Tuyến và các cơ quan khác dùng cho mục đích cơ quan trị liệu, đã làm khô hoặc chưa làm khô, đã hoặc chưa nghiền thành bột; các chiết xuất của tuyến hoặc của các cơ quan khác",
+        titleEn: "Glands and other organs for organo-therapeutic uses, dried, whether or not powdered; extracts of glands or other organs",
+        contentVi: "Nhóm này bao gồm tuyến và các cơ quan khác (tuyến giáp, tuyến thượng thận, tụy, tuyến yên) dùng cho mục đích cơ quan trị liệu, và các chiết xuất của chúng.",
+        contentEn: "This heading covers glands and other organs (thyroid, adrenal, pancreas, pituitary) for organo-therapeutic uses, and their extracts."
+      },
+      {
+        code: "30.02",
+        titleVi: "Máu người; máu động vật đã chế biến; các sản phẩm miễn dịch; vắc-xin, các chất độc tố, nuôi cấy các vi sinh vật",
+        titleEn: "Human blood; animal blood prepared for therapeutic uses; immunological products; vaccines, toxins, cultures of micro-organisms",
+        contentVi: "Nhóm này bao gồm máu người và máu động vật đã chế biến, các sản phẩm miễn dịch (antisera, globulin miễn dịch, interferon, interleukin), vắc-xin, chất độc tố, nuôi cấy vi sinh vật.",
+        contentEn: "This heading covers human blood, animal blood prepared for therapeutic uses, immunological products (antisera, immunoglobulins, interferon, interleukin), vaccines, toxins, cultures of micro-organisms."
+      },
+      {
+        code: "30.03",
+        titleVi: "Dược phẩm (trừ các mặt hàng thuộc nhóm 30.02, 30.05 hoặc 30.06) gồm hai hoặc nhiều thành phần đã pha trộn để dùng cho mục đích trị bệnh hoặc phòng bệnh, chưa đóng gói theo liều lượng hoặc chưa đóng gói để bán lẻ",
+        titleEn: "Medicaments (excluding goods of heading 30.02, 30.05 or 30.06) consisting of two or more constituents mixed together for therapeutic or prophylactic uses, not put up in measured doses or for retail sale",
+        contentVi: "Nhóm này bao gồm dược phẩm gồm hai hoặc nhiều thành phần đã pha trộn, chưa đóng gói theo liều lượng hoặc để bán lẻ.",
+        contentEn: "This heading covers medicaments consisting of two or more constituents mixed together, not put up in measured doses or for retail sale."
+      },
+      {
+        code: "30.04",
+        titleVi: "Dược phẩm (trừ các mặt hàng thuộc nhóm 30.02, 30.05 hoặc 30.06) gồm các sản phẩm đã pha trộn hoặc chưa pha trộn, đã đóng gói theo liều lượng hoặc đóng gói để bán lẻ",
+        titleEn: "Medicaments (excluding goods of heading 30.02, 30.05 or 30.06) consisting of mixed or unmixed products, put up in measured doses or for retail sale",
+        contentVi: "Nhóm này bao gồm dược phẩm đã đóng gói theo liều lượng hoặc đóng gói để bán lẻ, bao gồm thuốc viên, thuốc con nhộng, thuốc nước, kem bôi, thuốc xịt.",
+        contentEn: "This heading covers medicaments put up in measured doses or for retail sale, including tablets, capsules, liquid medicines, creams, sprays."
+      },
+      {
+        code: "30.05",
+        titleVi: "Bông, gạc, băng và các sản phẩm tương tự đã được tẩm hoặc tráng các chất dược phẩm hoặc đóng gói để bán lẻ dùng trong y tế",
+        titleEn: "Wadding, gauze, bandages and similar articles, impregnated or coated with pharmaceutical substances or put up for retail sale for medical purposes",
+        contentVi: "Nhóm này bao gồm bông, gạc, băng và các sản phẩm tương tự (băng dính, thạch cao y tế) đã được tẩm hoặc tráng các chất dược phẩm hoặc đóng gói để bán lẻ dùng trong y tế.",
+        contentEn: "This heading covers wadding, gauze, bandages and similar articles (adhesive dressings, medical plasters) impregnated or coated with pharmaceutical substances or put up for retail sale for medical purposes."
+      },
+      {
+        code: "30.06",
+        titleVi: "Các mặt hàng dược phẩm khác như chỉ phẫu thuật vô trùng, keo dán mô dùng trong phẫu thuật vô trùng, bộ thuốc thử dùng trong chẩn đoán",
+        titleEn: "Other pharmaceutical goods such as sterile surgical suture materials, tissue adhesives for surgical wound closure, diagnostic reagent kits",
+        contentVi: "Nhóm này bao gồm chỉ phẫu thuật vô trùng, keo dán mô, vật liệu cầm máu có thể hấp thụ, bộ thuốc thử dùng trong chẩn đoán, thuốc tránh thai, gel bôi trơn cho phẫu thuật.",
+        contentEn: "This heading covers sterile surgical suture materials, tissue adhesives, absorbable haemostatics, diagnostic reagent kits, contraceptives, lubricating gels for surgical use."
+      }
+    ]
   }
 ];
 
@@ -1021,6 +1634,16 @@ export const getSectionNote = (section: number): { vi: string; en: string } => {
     return {
       vi: "Trong Phần này khái niệm \"viên\" chỉ các sản phẩm được liên kết bằng phương pháp ép trực tiếp hay bằng cách pha thêm chất kết dính theo tỷ lệ không quá 3% tính theo trọng lượng.",
       en: "In this Section the term \"pellets\" means products which have been agglomerated either directly by compression or by the addition of a binder in a proportion not exceeding 3% by weight."
+    };
+  } else if (section === 5) {
+    return {
+      vi: "Phần này bao gồm khoáng sản: muối, lưu huỳnh, đất và đá, thạch cao, vôi và xi măng; quặng, xỉ và tro; nhiên liệu khoáng, dầu khoáng và các sản phẩm chưng cất từ chúng.",
+      en: "This Section covers mineral products: salt, sulphur, earths and stone, plastering materials, lime and cement; ores, slag and ash; mineral fuels, mineral oils and products of their distillation."
+    };
+  } else if (section === 6) {
+    return {
+      vi: "Phần này bao gồm sản phẩm của ngành công nghiệp hóa chất hoặc các ngành công nghiệp liên quan, bao gồm hóa chất vô cơ, hóa chất hữu cơ, dược phẩm, phân bón, sơn, chất dẻo và cao su.",
+      en: "This Section covers products of the chemical or allied industries, including inorganic chemicals, organic chemicals, pharmaceutical products, fertilizers, paints, plastics and rubber."
     };
   }
   return { vi: "", en: "" };
