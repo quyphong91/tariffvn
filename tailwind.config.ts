@@ -73,6 +73,13 @@ export default {
           bg: "hsl(var(--code-bg))",
           foreground: "hsl(var(--code-foreground))",
         },
+        ocean: {
+          light: "hsl(var(--ocean-light))",
+          DEFAULT: "hsl(var(--ocean))",
+        },
+        navy: "hsl(var(--navy))",
+        amber: "hsl(var(--amber))",
+        orange: "hsl(var(--orange))",
       },
       borderRadius: {
         lg: "var(--radius)",
