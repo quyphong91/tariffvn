@@ -525,6 +525,479 @@ export const chapterNotesData: ChapterNote[] = [
         contentEn: "This heading covers rice in the following forms: paddy (rice in the husk), husked rice (brown rice), milled rice (white rice), parboiled rice and broken rice. Rice is the most important food crop in Asia."
       }
     ]
+  },
+  {
+    chapter: 11,
+    section: 2,
+    sectionTitleVi: "CÁC SẢN PHẨM THỰC VẬT",
+    sectionTitleEn: "VEGETABLE PRODUCTS",
+    titleVi: "Các sản phẩm xay xát; malt; tinh bột; inulin; gluten lúa mì",
+    titleEn: "Products of the milling industry; malt; starches; inulin; wheat gluten",
+    notesVi: [
+      "Chương này không bao gồm: (a) Malt đã rang dùng như chất thay thế cà phê (nhóm 09.01 hoặc nhóm 21.01); (b) Bột mịn, tấm, bột thô hoặc tinh bột đã chế biến thuộc nhóm 19.01; (c) Mảnh ngô chế biến từ bột ngô (corn flakes) hoặc các sản phẩm khác thuộc nhóm 19.04; (d) Các loại rau, đã chế biến hay bảo quản, thuộc nhóm 20.01, 20.04 hoặc 20.05; (e) Dược phẩm (Chương 30); hoặc (f) Tinh bột có đặc tính của nước hoa, mỹ phẩm hay chế phẩm vệ sinh (Chương 33)."
+    ],
+    notesEn: [
+      "This Chapter does not cover: (a) Roasted malt put up as coffee substitutes (heading 09.01 or 21.01); (b) Prepared flours, groats, meals or starches of heading 19.01; (c) Corn flakes or other products of heading 19.04; (d) Vegetables, prepared or preserved, of heading 20.01, 20.04 or 20.05; (e) Pharmaceutical products (Chapter 30); or (f) Starches having the character of perfumery, cosmetic or toilet preparations (Chapter 33)."
+    ],
+    generalVi: "Chương này bao gồm các sản phẩm thu được từ quá trình xay xát ngũ cốc, malt, tinh bột từ các nguồn khác nhau (ngũ cốc, khoai tây, sắn, v.v.), inulin và gluten lúa mì. Các sản phẩm xay xát bao gồm bột, tấm, bột thô và các sản phẩm khác thu được từ việc xay xát lúa mì, ngô, gạo và các loại ngũ cốc khác.",
+    generalEn: "This Chapter covers products obtained from the milling of cereals, malt, starches from various sources (cereals, potatoes, cassava, etc.), inulin and wheat gluten. Milling products include flour, groats, meal and other products obtained from milling wheat, maize, rice and other cereals.",
+    headings: [
+      {
+        code: "11.01",
+        titleVi: "Bột mì hoặc bột meslin",
+        titleEn: "Wheat or meslin flour",
+        contentVi: "Nhóm này bao gồm bột mì hoặc bột meslin (hỗn hợp của lúa mì và lúa mạch đen). Bột mì là sản phẩm thu được từ việc xay xát hạt lúa mì.",
+        contentEn: "This heading covers wheat or meslin flour (mixture of wheat and rye). Wheat flour is the product obtained from milling wheat grains."
+      },
+      {
+        code: "11.02",
+        titleVi: "Bột ngũ cốc, trừ bột mì hoặc bột meslin",
+        titleEn: "Cereal flours other than of wheat or meslin",
+        contentVi: "Nhóm này bao gồm bột ngũ cốc khác ngoài bột mì hoặc bột meslin, bao gồm bột ngô, bột gạo, bột lúa mạch, bột yến mạch và các loại bột ngũ cốc khác.",
+        contentEn: "This heading covers cereal flours other than wheat or meslin flour, including maize (corn) flour, rice flour, barley flour, oat flour and other cereal flours."
+      },
+      {
+        code: "11.03",
+        titleVi: "Tấm, bột thô và viên của ngũ cốc",
+        titleEn: "Cereal groats, meal and pellets",
+        contentVi: "Nhóm này bao gồm tấm, bột thô và viên của ngũ cốc. Tấm là sản phẩm thu được từ việc nghiền thô hạt ngũ cốc. Bột thô có độ mịn trung bình giữa tấm và bột.",
+        contentEn: "This heading covers cereal groats, meal and pellets. Groats are products obtained from the coarse grinding of cereal grains. Meal has a fineness intermediate between groats and flour."
+      },
+      {
+        code: "11.04",
+        titleVi: "Hạt ngũ cốc được chế biến theo cách khác",
+        titleEn: "Cereal grains otherwise worked",
+        contentVi: "Nhóm này bao gồm hạt ngũ cốc được chế biến theo cách khác như: xay vỡ, vỡ mảnh, rang hoặc dạng mảnh lát. Bao gồm mầm ngũ cốc nguyên dạng, xay vỡ, vỡ mảnh hoặc nghiền.",
+        contentEn: "This heading covers cereal grains otherwise worked such as: hulled, pearled, sliced, kibbled, flaked or rolled. Also includes germ of cereals, whole, rolled, flaked or ground."
+      },
+      {
+        code: "11.05",
+        titleVi: "Bột, bột mịn, bột thô, mảnh lát, hạt và viên của khoai tây",
+        titleEn: "Flour, meal, powder, flakes, granules and pellets of potatoes",
+        contentVi: "Nhóm này bao gồm bột, bột mịn, bột thô, mảnh lát, hạt và viên của khoai tây. Các sản phẩm này được làm từ khoai tây đã được nấu chín và nghiền hoặc sấy khô.",
+        contentEn: "This heading covers flour, meal, powder, flakes, granules and pellets of potatoes. These products are made from potatoes that have been cooked and mashed or dried."
+      },
+      {
+        code: "11.07",
+        titleVi: "Malt, đã hoặc chưa rang",
+        titleEn: "Malt, whether or not roasted",
+        contentVi: "Nhóm này bao gồm malt, đã hoặc chưa rang. Malt là hạt ngũ cốc (thường là lúa đại mạch) đã được ngâm nước và để nảy mầm, sau đó sấy khô. Malt được sử dụng chủ yếu trong sản xuất bia và whisky.",
+        contentEn: "This heading covers malt, whether or not roasted. Malt is cereal grain (usually barley) that has been soaked in water and allowed to germinate, then dried. Malt is mainly used in beer and whisky production."
+      },
+      {
+        code: "11.08",
+        titleVi: "Tinh bột; inulin",
+        titleEn: "Starches; inulin",
+        contentVi: "Nhóm này bao gồm tinh bột từ các nguồn khác nhau (lúa mì, ngô, khoai tây, sắn, gạo) và inulin. Tinh bột là một carbohydrate phức tạp được chiết xuất từ nhiều loại thực vật khác nhau.",
+        contentEn: "This heading covers starches from various sources (wheat, maize, potatoes, cassava, rice) and inulin. Starch is a complex carbohydrate extracted from various plants."
+      }
+    ]
+  },
+  {
+    chapter: 12,
+    section: 2,
+    sectionTitleVi: "CÁC SẢN PHẨM THỰC VẬT",
+    sectionTitleEn: "VEGETABLE PRODUCTS",
+    titleVi: "Hạt dầu và quả có dầu; các loại hạt, hạt giống và quả khác; cây công nghiệp hoặc cây dược liệu; rơm, rạ và cỏ khô",
+    titleEn: "Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit; industrial or medicinal plants; straw and fodder",
+    notesVi: [
+      "Nhóm 12.07 áp dụng cho hạt và nhân hạt cọ, hạt bông, hạt thầu dầu, hạt vừng, hạt mù tạt, hạt rum, hạt thuốc phiện và hạt mỡ (hạt karite). Không áp dụng đối với các sản phẩm thuộc nhóm 08.01 hoặc 08.02 hoặc ôliu.",
+      "Nhóm 12.09 áp dụng cho hạt củ cải đường, hạt cây cỏ, hạt cây hoa trang trí, hạt rau, hạt cây rừng, hạt cây ăn quả được coi là \"hạt để gieo trồng\".",
+      "Nhóm 12.11 áp dụng với các loại cây hoặc các phần của các loại cây: húng quế, cây borage, cây nhân sâm, cây bài hương, cây cam thảo, các loại cây bạc hà, cây hương thảo, cây cửu ly hương, cây xả thơm và cây ngải tây."
+    ],
+    notesEn: [
+      "Heading 12.07 applies to palm nuts and kernels, cotton seeds, castor oil seeds, sesamum seeds, mustard seeds, safflower seeds, poppy seeds and shea nuts (karite nuts). It does not apply to products of heading 08.01 or 08.02 or to olives.",
+      "Heading 12.09 applies to beet seeds, grass and other herbage seeds, seeds of ornamental flowers, vegetable seeds, seeds of forest trees, seeds of fruit trees are to be regarded as \"seeds of a kind used for sowing\".",
+      "Heading 12.11 applies to the following plants or parts thereof: basil, borage, ginseng, hyssop, liquorice, all species of mint, rosemary, rue, sage and wormwood."
+    ],
+    generalVi: "Chương này bao gồm các loại hạt dầu và quả có dầu (đậu tương, lạc, hạt hướng dương, hạt cải dầu, v.v.), các loại hạt và quả khác, cây công nghiệp hoặc cây dược liệu (cây cam thảo, nhân sâm, bạc hà, v.v.), rơm, rạ và cỏ khô làm thức ăn gia súc.",
+    generalEn: "This Chapter covers oil seeds and oleaginous fruits (soybeans, groundnuts, sunflower seeds, rape seeds, etc.), miscellaneous grains, seeds and fruit, industrial or medicinal plants (liquorice, ginseng, mint, etc.), straw and fodder.",
+    headings: [
+      {
+        code: "12.01",
+        titleVi: "Đậu tương, đã hoặc chưa vỡ mảnh",
+        titleEn: "Soya beans, whether or not broken",
+        contentVi: "Nhóm này bao gồm đậu tương, đã hoặc chưa vỡ mảnh. Đậu tương là một trong những cây trồng quan trọng nhất thế giới, được sử dụng để sản xuất dầu ăn, đậu phụ, sữa đậu nành và thức ăn chăn nuôi.",
+        contentEn: "This heading covers soya beans, whether or not broken. Soybeans are one of the world's most important crops, used to produce cooking oil, tofu, soy milk and animal feed."
+      },
+      {
+        code: "12.02",
+        titleVi: "Lạc chưa rang hoặc chưa chế biến cách khác, đã hoặc chưa bóc vỏ hoặc vỡ mảnh",
+        titleEn: "Groundnuts, not roasted or otherwise cooked, whether or not shelled or broken",
+        contentVi: "Nhóm này bao gồm lạc (đậu phộng) chưa rang hoặc chưa chế biến cách khác, đã hoặc chưa bóc vỏ hoặc vỡ mảnh. Lạc được sử dụng để sản xuất dầu lạc và làm thực phẩm.",
+        contentEn: "This heading covers groundnuts (peanuts), not roasted or otherwise cooked, whether or not shelled or broken. Groundnuts are used to produce groundnut oil and as food."
+      },
+      {
+        code: "12.07",
+        titleVi: "Quả và hạt có dầu khác, đã hoặc chưa vỡ mảnh",
+        titleEn: "Other oil seeds and oleaginous fruits, whether or not broken",
+        contentVi: "Nhóm này bao gồm hạt và nhân hạt cọ, hạt bông, hạt thầu dầu, hạt vừng, hạt mù tạt, hạt rum, hạt thuốc phiện và hạt mỡ (hạt karite), đã hoặc chưa vỡ mảnh.",
+        contentEn: "This heading covers palm nuts and kernels, cotton seeds, castor oil seeds, sesamum seeds, mustard seeds, safflower seeds, poppy seeds and shea nuts (karite nuts), whether or not broken."
+      },
+      {
+        code: "12.11",
+        titleVi: "Cây và các bộ phận của cây dùng trong ngành nước hoa, dược phẩm hoặc thuốc trừ sâu",
+        titleEn: "Plants and parts of plants used primarily in perfumery, in pharmacy or for insecticidal purposes",
+        contentVi: "Nhóm này bao gồm cây và các bộ phận của cây dùng trong ngành nước hoa, dược phẩm hoặc thuốc trừ sâu, bao gồm: húng quế, cây nhân sâm, cây cam thảo, các loại cây bạc hà, cây hương thảo.",
+        contentEn: "This heading covers plants and parts of plants used primarily in perfumery, in pharmacy or for insecticidal purposes, including: basil, ginseng, liquorice, mint species, rosemary."
+      }
+    ]
+  },
+  {
+    chapter: 13,
+    section: 2,
+    sectionTitleVi: "CÁC SẢN PHẨM THỰC VẬT",
+    sectionTitleEn: "VEGETABLE PRODUCTS",
+    titleVi: "Nhựa cánh kiến đỏ; gôm, nhựa cây, các chất nhựa và các chất chiết xuất từ thực vật khác",
+    titleEn: "Lac; gums, resins and other vegetable saps and extracts",
+    notesVi: [
+      "Nhóm 13.02 áp dụng cho các chất chiết xuất từ cây cam thảo và cây kim cúc, cây hublong (hoa bia), cây lô hội và cây thuốc phiện.",
+      "Nhóm này không áp dụng cho: Chất chiết xuất từ cây cam thảo có hàm lượng trên 10% là đường sucroza hoặc được đóng gói như kẹo (nhóm 17.04); Chất chiết xuất từ malt (nhóm 19.01); Chất chiết xuất từ cà phê, chè hay chè paragoay (nhóm 21.01)."
+    ],
+    notesEn: [
+      "Heading 13.02 applies to liquorice extract and extract of pyrethrum, extract of hops, extract of aloes and opium.",
+      "The heading does not apply to: Liquorice extract containing more than 10% by weight of sucrose or put up as confectionery (heading 17.04); Malt extract (heading 19.01); Extracts of coffee, tea or maté (heading 21.01)."
+    ],
+    generalVi: "Chương này bao gồm nhựa cánh kiến đỏ (là chất nhựa do loại côn trùng tạo ra trên một số cây ở vùng nhiệt đới), gôm (gôm Ả rập, gôm adragant, v.v.), nhựa cây, nhựa gôm, nhựa dầu tự nhiên và các chất chiết xuất từ thực vật khác.",
+    generalEn: "This Chapter covers lac (a resinous substance secreted by insects on certain tropical trees), gums (gum arabic, tragacanth, etc.), resins, gum-resins, natural oleoresins and other vegetable saps and extracts.",
+    headings: [
+      {
+        code: "13.01",
+        titleVi: "Nhựa cánh kiến đỏ; gôm, nhựa cây, nhựa gôm và nhựa dầu tự nhiên",
+        titleEn: "Lac; natural gums, resins, gum-resins and oleoresins",
+        contentVi: "Nhóm này bao gồm nhựa cánh kiến đỏ (lac) và các sản phẩm gôm tự nhiên như gôm Ả rập, gôm adragant, cũng như nhựa cây, nhựa gôm và nhựa dầu tự nhiên (ví dụ, nhựa thông, nhựa dammar).",
+        contentEn: "This heading covers lac and natural gum products such as gum arabic, tragacanth, as well as resins, gum-resins and natural oleoresins (e.g., rosin, dammar)."
+      },
+      {
+        code: "13.02",
+        titleVi: "Nhựa và các chất chiết xuất từ thực vật; chất pectic, muối và este của axit pectic; agar-agar và các chất nhầy khác",
+        titleEn: "Vegetable saps and extracts; pectic substances, pectinates and pectates; agar-agar and other mucilages",
+        contentVi: "Nhóm này bao gồm nhựa và các chất chiết xuất từ thực vật (ví dụ: chiết xuất cam thảo, chiết xuất hoa bia, chiết xuất lô hội), chất pectic và các muối và este của chúng, agar-agar và các chất nhầy thực vật khác.",
+        contentEn: "This heading covers vegetable saps and extracts (e.g., liquorice extract, hop extract, aloe extract), pectic substances and their salts and esters, agar-agar and other vegetable mucilages."
+      }
+    ]
+  },
+  {
+    chapter: 14,
+    section: 2,
+    sectionTitleVi: "CÁC SẢN PHẨM THỰC VẬT",
+    sectionTitleEn: "VEGETABLE PRODUCTS",
+    titleVi: "Vật liệu thực vật dùng để tết bện; các sản phẩm thực vật chưa được chi tiết hoặc ghi ở nơi khác",
+    titleEn: "Vegetable plaiting materials; vegetable products not elsewhere specified or included",
+    notesVi: [
+      "Chương này không bao gồm: vật liệu thực vật hoặc xơ từ nguyên liệu thực vật đã chế biến chủ yếu dùng cho ngành dệt, hoặc các vật liệu thực vật khác, đã xử lý thích hợp chỉ để dùng làm vật liệu dệt (Phần XI).",
+      "Nhóm 14.01 áp dụng cho các loại tre, liễu gai, sậy và các loại tương tự, lõi song mây hoặc song mây chẻ. Nhóm này không áp dụng cho nan gỗ (nhóm 44.04)."
+    ],
+    notesEn: [
+      "This Chapter does not cover: vegetable materials or fibres of vegetable materials of a kind used primarily in the manufacture of textiles, or other vegetable materials which have undergone treatment so as to render them suitable for use only as textile materials (Section XI).",
+      "Heading 14.01 applies to bamboos, split osier, reeds and the like, rattan cores and drawn or split rattans. The heading does not apply to chipwood (heading 44.04)."
+    ],
+    generalVi: "Chương này gồm: Vật liệu thực vật, thô hoặc đã sơ chế, loại chủ yếu dùng để tết bện, làm chổi hoặc bàn chải, hoặc lót hoặc nhồi; Hạt, hạt mềm, vỏ trái cây và quả hạch loại sử dụng để chạm, khắc, để làm khuy hoặc một số đồ trang trí nhỏ khác; Các sản phẩm thực vật khác chưa được chi tiết ở nơi khác.",
+    generalEn: "This Chapter covers: Vegetable materials, raw or simply worked, of a kind used primarily for plaiting, broom or brush making, or as stuffing or padding; Seeds, pips, hulls and nuts of a kind used for carving, for the manufacture of buttons and other small fancy-goods; Other vegetable products not elsewhere specified.",
+    headings: [
+      {
+        code: "14.01",
+        titleVi: "Nguyên liệu thực vật chủ yếu dùng để tết bện",
+        titleEn: "Vegetable materials of a kind used primarily for plaiting",
+        contentVi: "Nhóm này bao gồm tre, song, mây, sậy, liễu gai, cây bấc, cọ sợi, các loại rơm, rạ ngũ cốc đã làm sạch, tẩy trắng hoặc đã nhuộm và vỏ cây đoạn, dùng chủ yếu để tết bện.",
+        contentEn: "This heading covers bamboos, rattans, reeds, rushes, osier, raffia, cleaned, bleached or dyed cereal straw, and lime bark, used primarily for plaiting."
+      },
+      {
+        code: "14.04",
+        titleVi: "Các sản phẩm thực vật chưa được chi tiết hoặc ghi ở nơi khác",
+        titleEn: "Vegetable products not elsewhere specified or included",
+        contentVi: "Nhóm này bao gồm các sản phẩm thực vật khác chưa được chi tiết hoặc ghi ở nơi khác như: bông thô, cây xơ mướp, hạt và quả hạch dùng để chạm khắc.",
+        contentEn: "This heading covers other vegetable products not elsewhere specified or included such as: raw vegetable materials, luffa, seeds and nuts used for carving."
+      }
+    ]
+  },
+  {
+    chapter: 15,
+    section: 3,
+    sectionTitleVi: "CHẤT BÉO VÀ DẦU CÓ NGUỒN GỐC TỪ ĐỘNG VẬT, THỰC VẬT HOẶC VI SINH VẬT VÀ CÁC SẢN PHẨM TÁCH TỪ CHÚNG; CHẤT BÉO ĂN ĐƯỢC ĐÃ CHẾ BIẾN; CÁC LOẠI SÁP ĐỘNG VẬT HOẶC THỰC VẬT",
+    sectionTitleEn: "ANIMAL OR VEGETABLE FATS AND OILS AND THEIR CLEAVAGE PRODUCTS; PREPARED EDIBLE FATS; ANIMAL OR VEGETABLE WAXES",
+    titleVi: "Chất béo và dầu có nguồn gốc từ động vật, thực vật hoặc vi sinh vật và các sản phẩm tách từ chúng; chất béo ăn được đã chế biến; các loại sáp động vật hoặc thực vật",
+    titleEn: "Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",
+    notesVi: [
+      "Chương này không bao gồm: (a) Mỡ lợn hoặc mỡ gia cầm thuộc nhóm 02.09; (b) Bơ ca cao, chất béo hoặc dầu cacao (nhóm 18.04); (c) Các chế phẩm ăn được có chứa hàm lượng trên 15% các sản phẩm của nhóm 04.05 (thường thuộc Chương 21); (d) Tóp mỡ (nhóm 23.01) hoặc phế liệu thuộc các nhóm từ 23.04 đến 23.06.",
+      "Nhóm 15.09 không áp dụng cho các loại dầu ô liu thu được bằng phương pháp tách chiết dung môi (nhóm 15.10)."
+    ],
+    notesEn: [
+      "This Chapter does not cover: (a) Pig fat or poultry fat of heading 02.09; (b) Cocoa butter, fat or oil (heading 18.04); (c) Edible preparations containing by weight more than 15% of the products of heading 04.05 (generally Chapter 21); (d) Greaves (heading 23.01) or residues of headings 23.04 to 23.06.",
+      "Heading 15.09 does not apply to oils obtained from olives by solvent extraction (heading 15.10)."
+    ],
+    generalVi: "Chương này gồm: Chất béo và dầu có nguồn gốc động vật, thực vật hoặc vi sinh vật, dạng thô, làm sạch hoặc tinh lọc hoặc tinh chế hoặc chế biến theo một số cách khác; Các sản phẩm thu được từ quá trình chế biến chất béo hoặc dầu động vật, thực vật hoặc vi sinh vật; Sáp có nguồn gốc động vật hoặc thực vật; Các sản phẩm có chứa chất béo như margarine, shortening.",
+    generalEn: "This Chapter covers: Animal, vegetable or microbial fats and oils, crude, refined or otherwise prepared; Products obtained from the processing of animal, vegetable or microbial fats or oils; Waxes of animal or vegetable origin; Fat-containing products such as margarine, shortening.",
+    headings: [
+      {
+        code: "15.01",
+        titleVi: "Mỡ lợn (kể cả mỡ lá) và mỡ gia cầm, trừ các loại thuộc nhóm 02.09 hoặc 15.03",
+        titleEn: "Pig fat (including lard) and poultry fat, other than that of heading 02.09 or 15.03",
+        contentVi: "Nhóm này bao gồm mỡ lợn (kể cả mỡ lá) và mỡ gia cầm, đã nấu chảy hoặc chiết xuất bằng cách khác. Các loại mỡ này được sử dụng trong nấu ăn và sản xuất thực phẩm.",
+        contentEn: "This heading covers pig fat (including lard) and poultry fat, rendered or otherwise extracted. These fats are used in cooking and food production."
+      },
+      {
+        code: "15.07",
+        titleVi: "Dầu đậu tương và các phần tách của dầu này, đã hoặc chưa tinh chế, nhưng không thay đổi về mặt hoá học",
+        titleEn: "Soya-bean oil and its fractions, whether or not refined, but not chemically modified",
+        contentVi: "Nhóm này bao gồm dầu đậu tương và các phần tách của dầu này, thô hoặc đã tinh chế. Dầu đậu tương là một trong những loại dầu thực vật được sử dụng phổ biến nhất trên thế giới.",
+        contentEn: "This heading covers soya-bean oil and its fractions, crude or refined. Soya-bean oil is one of the most widely used vegetable oils in the world."
+      },
+      {
+        code: "15.09",
+        titleVi: "Dầu ô liu và các phần tách của dầu này, đã hoặc chưa tinh chế, nhưng không thay đổi về mặt hoá học",
+        titleEn: "Olive oil and its fractions, whether or not refined, but not chemically modified",
+        contentVi: "Nhóm này bao gồm dầu ô liu nguyên chất (virgin olive oil) và các loại dầu ô liu khác. Dầu ô liu nguyên chất có chỉ số axit tự do tính theo axit oleic không quá 2,0g/100g.",
+        contentEn: "This heading covers virgin olive oil and other olive oils. Virgin olive oil has a free acidity expressed as oleic acid not exceeding 2.0 g/100 g."
+      },
+      {
+        code: "15.11",
+        titleVi: "Dầu cọ và các phần tách của dầu này, đã hoặc chưa tinh chế, nhưng không thay đổi về mặt hoá học",
+        titleEn: "Palm oil and its fractions, whether or not refined, but not chemically modified",
+        contentVi: "Nhóm này bao gồm dầu cọ và các phần tách của dầu này, thô hoặc đã tinh chế. Dầu cọ là loại dầu thực vật được sản xuất nhiều nhất trên thế giới.",
+        contentEn: "This heading covers palm oil and its fractions, crude or refined. Palm oil is the most produced vegetable oil in the world."
+      },
+      {
+        code: "15.17",
+        titleVi: "Margarine; hỗn hợp hoặc chế phẩm ăn được từ chất béo hoặc dầu động vật, thực vật hoặc vi sinh vật",
+        titleEn: "Margarine; edible mixtures or preparations of animal, vegetable or microbial fats or oils",
+        contentVi: "Nhóm này bao gồm margarine và các hỗn hợp hoặc chế phẩm ăn được từ chất béo hoặc dầu động vật, thực vật hoặc vi sinh vật. Margarine là chất thay thế bơ được sản xuất từ dầu thực vật.",
+        contentEn: "This heading covers margarine and edible mixtures or preparations of animal, vegetable or microbial fats or oils. Margarine is a butter substitute made from vegetable oils."
+      }
+    ]
+  },
+  {
+    chapter: 16,
+    section: 4,
+    sectionTitleVi: "THỰC PHẨM CHẾ BIẾN; ĐỒ UỐNG, RƯỢU MẠNH VÀ GIẤM; THUỐC LÁ VÀ NGUYÊN LIỆU THAY THẾ THUỐC LÁ ĐÃ CHẾ BIẾN",
+    sectionTitleEn: "PREPARED FOODSTUFFS; BEVERAGES, SPIRITS AND VINEGAR; TOBACCO AND MANUFACTURED TOBACCO SUBSTITUTES",
+    titleVi: "Các chế phẩm từ thịt, cá, động vật giáp xác, động vật thân mềm hoặc động vật thuỷ sinh không xương sống khác, hoặc từ côn trùng",
+    titleEn: "Preparations of meat, of fish, of crustaceans, molluscs or other aquatic invertebrates, or of insects",
+    notesVi: [
+      "Chương này không bao gồm các loại thịt, các phụ phẩm dạng thịt sau giết mổ, cá, động vật giáp xác, động vật thân mềm hay động vật thuỷ sinh không xương sống khác, đã chế biến hay bảo quản theo các quy trình đã ghi trong Chương 2 hoặc Chương 3 hoặc nhóm 05.04.",
+      "Chế phẩm thực phẩm được xếp vào Chương này với điều kiện các chế phẩm này chứa trên 20% tính theo khối lượng là xúc xích, thịt, các phụ phẩm dạng thịt sau giết mổ, tiết, côn trùng, cá hoặc động vật giáp xác, động vật thân mềm hay động vật thuỷ sinh không xương sống khác."
+    ],
+    notesEn: [
+      "This Chapter does not cover meat, meat offal, fish, crustaceans, molluscs or other aquatic invertebrates, prepared or preserved by the processes specified in Chapter 2 or 3 or heading 05.04.",
+      "Food preparations fall in this Chapter provided that they contain more than 20% by weight of sausage, meat, meat offal, blood, insects, fish or crustaceans, molluscs or other aquatic invertebrates, or any combination thereof."
+    ],
+    generalVi: "Chương này bao gồm các chế phẩm từ thịt (xúc xích, thịt đóng hộp, pate, v.v.), các chế phẩm từ cá (cá đóng hộp, cá hồi hun khói chế biến, v.v.), các chế phẩm từ động vật giáp xác và động vật thân mềm (tôm đóng hộp, nghêu, sò chế biến, v.v.).",
+    generalEn: "This Chapter covers preparations of meat (sausages, canned meat, pâtés, etc.), preparations of fish (canned fish, prepared smoked salmon, etc.), preparations of crustaceans and molluscs (canned shrimp, prepared clams, mussels, etc.).",
+    headings: [
+      {
+        code: "16.01",
+        titleVi: "Xúc xích và các sản phẩm tương tự, làm từ thịt, từ các phụ phẩm dạng thịt sau giết mổ, tiết hoặc côn trùng; các chế phẩm thực phẩm từ các sản phẩm đó",
+        titleEn: "Sausages and similar products, of meat, meat offal, blood or insects; food preparations based on these products",
+        contentVi: "Nhóm này bao gồm xúc xích và các sản phẩm tương tự làm từ thịt, phụ phẩm thịt, tiết hoặc côn trùng. Xúc xích có thể ở dạng tươi, nấu chín, hun khói hoặc khô.",
+        contentEn: "This heading covers sausages and similar products of meat, meat offal, blood or insects. Sausages may be fresh, cooked, smoked or dried."
+      },
+      {
+        code: "16.02",
+        titleVi: "Thịt, các phụ phẩm dạng thịt sau giết mổ, tiết hoặc côn trùng, đã chế biến hoặc bảo quản khác",
+        titleEn: "Other prepared or preserved meat, meat offal, blood or insects",
+        contentVi: "Nhóm này bao gồm thịt, các phụ phẩm dạng thịt sau giết mổ, tiết hoặc côn trùng, đã chế biến hoặc bảo quản khác ngoài xúc xích. Bao gồm thịt đóng hộp, pate, thịt khô ướp gia vị.",
+        contentEn: "This heading covers other prepared or preserved meat, meat offal, blood or insects, other than sausages. Includes canned meat, pâtés, dried seasoned meat."
+      },
+      {
+        code: "16.04",
+        titleVi: "Cá đã được chế biến hay bảo quản; trứng cá muối và sản phẩm thay thế trứng cá muối chế biến từ trứng cá",
+        titleEn: "Prepared or preserved fish; caviar and caviar substitutes prepared from fish eggs",
+        contentVi: "Nhóm này bao gồm cá đã được chế biến hay bảo quản (cá đóng hộp, cá ngâm dầu, v.v.), trứng cá muối (caviar) và sản phẩm thay thế trứng cá muối.",
+        contentEn: "This heading covers prepared or preserved fish (canned fish, fish in oil, etc.), caviar and caviar substitutes prepared from fish eggs."
+      },
+      {
+        code: "16.05",
+        titleVi: "Động vật giáp xác, động vật thân mềm và động vật thuỷ sinh không xương sống khác, đã được chế biến hoặc bảo quản",
+        titleEn: "Crustaceans, molluscs and other aquatic invertebrates, prepared or preserved",
+        contentVi: "Nhóm này bao gồm động vật giáp xác (tôm, cua, tôm hùm), động vật thân mềm (nghêu, sò, mực) và động vật thuỷ sinh không xương sống khác, đã được chế biến hoặc bảo quản.",
+        contentEn: "This heading covers crustaceans (shrimp, crab, lobster), molluscs (clams, mussels, squid) and other aquatic invertebrates, prepared or preserved."
+      }
+    ]
+  },
+  {
+    chapter: 17,
+    section: 4,
+    sectionTitleVi: "THỰC PHẨM CHẾ BIẾN; ĐỒ UỐNG, RƯỢU MẠNH VÀ GIẤM; THUỐC LÁ VÀ NGUYÊN LIỆU THAY THẾ THUỐC LÁ ĐÃ CHẾ BIẾN",
+    sectionTitleEn: "PREPARED FOODSTUFFS; BEVERAGES, SPIRITS AND VINEGAR; TOBACCO AND MANUFACTURED TOBACCO SUBSTITUTES",
+    titleVi: "Đường và các loại kẹo đường",
+    titleEn: "Sugars and sugar confectionery",
+    notesVi: [
+      "Theo mục đích của các phân nhóm 1701.12, 1701.13 và 1701.14, khái niệm \"đường thô\" có nghĩa là các loại đường có hàm lượng sucroza tính theo khối lượng, ở thể khô, tương ứng với kết quả dưới 99,5° trên phân cực kế.",
+      "Chương này không bao gồm: Kẹo đường có pha cacao hoặc sôcôla (nhóm 18.06); Chế phẩm thực phẩm được làm ngọt (Chương 19, 20, 21, 22); Đường tinh khiết về mặt hoá học trừ sucroza, lactoza, maltose, glucoza và fructoza (nhóm 29.40)."
+    ],
+    notesEn: [
+      "For the purposes of subheadings 1701.12, 1701.13 and 1701.14, \"raw sugar\" means sugar whose content of sucrose by weight, in the dry state, corresponds to a polarimeter reading of less than 99.5°.",
+      "This Chapter does not cover: Sugar confectionery containing cocoa or chocolate (heading 18.06); Sweetened food preparations (Chapter 19, 20, 21, 22); Chemically pure sugars other than sucrose, lactose, maltose, glucose and fructose (heading 29.40)."
+    ],
+    generalVi: "Chương này không chỉ gồm các loại đường (sucroza, lactoza, maltose, glucoza và fructoza), mà còn gồm xirô đường, mật ong nhân tạo, đường caramen, mật đường từ quá trình chiết xuất hoặc tinh chế đường và kẹo đường.",
+    generalEn: "This Chapter covers not only sugars (sucrose, lactose, maltose, glucose and fructose), but also sugar syrups, artificial honey, caramel, molasses resulting from the extraction or refining of sugar and sugar confectionery.",
+    headings: [
+      {
+        code: "17.01",
+        titleVi: "Đường mía hoặc đường củ cải và đường sucroza tinh khiết về mặt hoá học, ở thể rắn",
+        titleEn: "Cane or beet sugar and chemically pure sucrose, in solid form",
+        contentVi: "Đường mía thu được từ nước ép của thân cây mía. Đường củ cải thu được từ nước ép được chiết xuất từ củ cây củ cải đường. Đường thô có dạng kết tinh màu nâu, đường tinh luyện có dạng tinh thể trắng.",
+        contentEn: "Cane sugar is obtained from the juice of sugar cane. Beet sugar is obtained from the juice extracted from sugar beets. Raw sugar is brown crystalline, refined sugar is white crystalline."
+      },
+      {
+        code: "17.02",
+        titleVi: "Đường khác, kể cả đường lactoza, maltose, glucoza và fructoza tinh khiết về mặt hoá học, ở thể rắn; xirô đường chưa pha thêm hương liệu hoặc chất màu; mật ong nhân tạo; đường caramen",
+        titleEn: "Other sugars, including chemically pure lactose, maltose, glucose and fructose, in solid form; sugar syrups; artificial honey; caramel",
+        contentVi: "Nhóm này bao gồm các loại đường khác như lactoza (đường sữa), maltose (đường mạch nha), glucoza (đường nho), fructoza (đường quả), xirô đường, mật ong nhân tạo và đường caramen.",
+        contentEn: "This heading covers other sugars such as lactose (milk sugar), maltose (malt sugar), glucose (grape sugar), fructose (fruit sugar), sugar syrups, artificial honey and caramel."
+      },
+      {
+        code: "17.04",
+        titleVi: "Kẹo đường (kể cả sôcôla trắng), không chứa ca cao",
+        titleEn: "Sugar confectionery (including white chocolate), not containing cocoa",
+        contentVi: "Nhóm này bao gồm kẹo đường không chứa ca cao, bao gồm: kẹo cứng, kẹo mềm, kẹo cao su, kẹo gôm, kẹo cam thảo, sôcôla trắng, hạnh nhân bọc đường.",
+        contentEn: "This heading covers sugar confectionery not containing cocoa, including: hard candy, soft candy, chewing gum, gum drops, liquorice confectionery, white chocolate, sugar-coated almonds."
+      }
+    ]
+  },
+  {
+    chapter: 18,
+    section: 4,
+    sectionTitleVi: "THỰC PHẨM CHẾ BIẾN; ĐỒ UỐNG, RƯỢU MẠNH VÀ GIẤM; THUỐC LÁ VÀ NGUYÊN LIỆU THAY THẾ THUỐC LÁ ĐÃ CHẾ BIẾN",
+    sectionTitleEn: "PREPARED FOODSTUFFS; BEVERAGES, SPIRITS AND VINEGAR; TOBACCO AND MANUFACTURED TOBACCO SUBSTITUTES",
+    titleVi: "Ca cao và các chế phẩm từ ca cao",
+    titleEn: "Cocoa and cocoa preparations",
+    notesVi: [
+      "Chương này không bao gồm: (a) Chế phẩm thực phẩm có hàm lượng trên 20% là xúc xích, thịt, các phụ phẩm dạng thịt sau giết mổ, tiết, côn trùng, cá hoặc động vật giáp xác, động vật thân mềm hoặc động vật thủy sinh không xương sống khác (Chương 16); (b) Các chế phẩm thuộc các nhóm 04.03, 19.01, 19.02, 19.04, 19.05, 21.05, 22.02, 22.08, 30.03 hoặc 30.04.",
+      "Nhóm 18.06 bao gồm các loại kẹo đường có chứa ca cao và các loại chế phẩm thực phẩm khác chứa ca cao."
+    ],
+    notesEn: [
+      "This Chapter does not cover: (a) Food preparations containing more than 20% by weight of sausage, meat, meat offal, blood, insects, fish or crustaceans, molluscs or other aquatic invertebrates (Chapter 16); (b) Preparations of headings 04.03, 19.01, 19.02, 19.04, 19.05, 21.05, 22.02, 22.08, 30.03 or 30.04.",
+      "Heading 18.06 includes sugar confectionery containing cocoa and other food preparations containing cocoa."
+    ],
+    generalVi: "Chương này bao gồm ca cao (kể cả hạt ca cao) ở tất cả các dạng, bơ ca cao, chất béo và dầu ca cao và các chế phẩm có chứa ca cao (với bất cứ tỉ lệ nào), trừ sôcôla trắng (nhóm 17.04) và các chế phẩm khác được liệt kê trong Chú giải.",
+    generalEn: "This Chapter covers cocoa (including cocoa beans) in all forms, cocoa butter, fat and oil and preparations containing cocoa (in any proportion), except white chocolate (heading 17.04) and other preparations listed in the Notes.",
+    headings: [
+      {
+        code: "18.01",
+        titleVi: "Hạt ca cao, đã hoặc chưa vỡ mảnh, sống hoặc đã rang",
+        titleEn: "Cocoa beans, whole or broken, raw or roasted",
+        contentVi: "Nhóm này bao gồm hạt ca cao, đã hoặc chưa vỡ mảnh, sống hoặc đã rang. Hạt ca cao là nguyên liệu chính để sản xuất sôcôla và các sản phẩm từ ca cao.",
+        contentEn: "This heading covers cocoa beans, whole or broken, raw or roasted. Cocoa beans are the main raw material for producing chocolate and cocoa products."
+      },
+      {
+        code: "18.03",
+        titleVi: "Bột ca cao nhão, đã hoặc chưa khử chất béo",
+        titleEn: "Cocoa paste, whether or not defatted",
+        contentVi: "Nhóm này bao gồm bột ca cao nhão (khối ca cao), đã hoặc chưa khử chất béo. Bột ca cao nhão được sản xuất bằng cách nghiền hạt ca cao đã rang.",
+        contentEn: "This heading covers cocoa paste (cocoa mass), whether or not defatted. Cocoa paste is produced by grinding roasted cocoa beans."
+      },
+      {
+        code: "18.04",
+        titleVi: "Bơ ca cao, chất béo và dầu ca cao",
+        titleEn: "Cocoa butter, fat and oil",
+        contentVi: "Nhóm này bao gồm bơ ca cao, chất béo và dầu ca cao. Bơ ca cao được chiết xuất từ bột ca cao nhão và được sử dụng trong sản xuất sôcôla.",
+        contentEn: "This heading covers cocoa butter, fat and oil. Cocoa butter is extracted from cocoa paste and is used in chocolate production."
+      },
+      {
+        code: "18.06",
+        titleVi: "Sôcôla và các chế phẩm thực phẩm khác có chứa ca cao",
+        titleEn: "Chocolate and other food preparations containing cocoa",
+        contentVi: "Nhóm này bao gồm sôcôla và các chế phẩm thực phẩm khác có chứa ca cao, bao gồm: sôcôla dạng thanh, sôcôla viên, kẹo sôcôla, bột sôcôla pha uống.",
+        contentEn: "This heading covers chocolate and other food preparations containing cocoa, including: chocolate bars, chocolate pieces, chocolate confectionery, chocolate drink powder."
+      }
+    ]
+  },
+  {
+    chapter: 19,
+    section: 4,
+    sectionTitleVi: "THỰC PHẨM CHẾ BIẾN; ĐỒ UỐNG, RƯỢU MẠNH VÀ GIẤM; THUỐC LÁ VÀ NGUYÊN LIỆU THAY THẾ THUỐC LÁ ĐÃ CHẾ BIẾN",
+    sectionTitleEn: "PREPARED FOODSTUFFS; BEVERAGES, SPIRITS AND VINEGAR; TOBACCO AND MANUFACTURED TOBACCO SUBSTITUTES",
+    titleVi: "Chế phẩm từ ngũ cốc, bột, tinh bột hoặc sữa; các loại bánh",
+    titleEn: "Preparations of cereals, flour, starch or milk; pastrycooks' products",
+    notesVi: [
+      "Chương này không bao gồm: (a) Các chế phẩm thực phẩm có chứa trên 20% là xúc xích, thịt, phụ phẩm dạng thịt sau giết mổ, tiết, côn trùng, cá hoặc động vật giáp xác, động vật thân mềm hay động vật thuỷ sinh không xương sống khác (Chương 16), trừ các sản phẩm được nhồi thuộc nhóm 19.02; (b) Bánh bích quy hoặc các sản phẩm khác làm từ bột hoặc tinh bột, được chế biến đặc biệt dùng để chăn nuôi động vật (nhóm 23.09).",
+      "Nhóm 19.04 không bao gồm các chế phẩm có chứa trên 6% tính theo khối lượng là ca cao đã được khử toàn bộ chất béo hoặc được phủ sô cô la (nhóm 18.06)."
+    ],
+    notesEn: [
+      "This Chapter does not cover: (a) Food preparations containing more than 20% by weight of sausage, meat, meat offal, blood, insects, fish or crustaceans, molluscs or other aquatic invertebrates (Chapter 16), except stuffed products of heading 19.02; (b) Biscuits or other articles made from flour or from starch, specially prepared for use in animal feeding (heading 23.09).",
+      "Heading 19.04 does not cover preparations containing more than 6% by weight of cocoa calculated on a totally defatted basis or completely coated with chocolate (heading 18.06)."
+    ],
+    generalVi: "Chương này bao gồm các chế phẩm từ ngũ cốc, bột, tinh bột hoặc sữa (bột trẻ em, thực phẩm dạng bột, mì ăn liền, ngũ cốc ăn sáng, v.v.) và các loại bánh (bánh mì, bánh ngọt, bánh quy, bánh ga tô, v.v.).",
+    generalEn: "This Chapter covers preparations of cereals, flour, starch or milk (infant food, food powders, instant noodles, breakfast cereals, etc.) and pastrycooks' products (bread, pastries, biscuits, cakes, etc.).",
+    headings: [
+      {
+        code: "19.01",
+        titleVi: "Chiết xuất malt; chế phẩm thực phẩm từ bột, tấm, bột thô, tinh bột hoặc chiết xuất malt",
+        titleEn: "Malt extract; food preparations of flour, groats, meal, starch or malt extract",
+        contentVi: "Nhóm này bao gồm chiết xuất malt và các chế phẩm thực phẩm từ bột, tấm, bột thô, tinh bột hoặc chiết xuất malt, bao gồm bột trẻ em, thực phẩm dạng bột có chứa bột hoặc tinh bột.",
+        contentEn: "This heading covers malt extract and food preparations of flour, groats, meal, starch or malt extract, including infant food, food powders containing flour or starch."
+      },
+      {
+        code: "19.02",
+        titleVi: "Mì ống, mì sợi, mì dẹt và sản phẩm tương tự, đã hoặc chưa nấu chín hoặc nhồi hoặc chế biến cách khác",
+        titleEn: "Pasta, whether or not cooked or stuffed or otherwise prepared",
+        contentVi: "Nhóm này bao gồm mì ống, mì sợi, mì dẹt và các sản phẩm tương tự như lasagne, ravioli, macaroni, spaghetti, mì ăn liền, đã hoặc chưa nấu chín hoặc nhồi.",
+        contentEn: "This heading covers pasta, noodles, flat pasta and similar products such as lasagne, ravioli, macaroni, spaghetti, instant noodles, whether or not cooked or stuffed."
+      },
+      {
+        code: "19.04",
+        titleVi: "Thực phẩm chế biến thu được từ quá trình rang hoặc nổ ngũ cốc hoặc các sản phẩm từ ngũ cốc; ngũ cốc ở dạng hạt hoặc dạng mảnh lát hoặc dạng khác đã được chế biến",
+        titleEn: "Prepared foods obtained by the swelling or roasting of cereals or cereal products; cereals in grain form or in the form of flakes or other worked grains",
+        contentVi: "Nhóm này bao gồm ngũ cốc ăn sáng như corn flakes, ngũ cốc nổ (puffed cereals), muesli, và các sản phẩm ngũ cốc chế biến sẵn khác.",
+        contentEn: "This heading covers breakfast cereals such as corn flakes, puffed cereals, muesli, and other ready-to-eat cereal products."
+      },
+      {
+        code: "19.05",
+        titleVi: "Bánh mì, bánh bột nhào ngọt, bánh ngọt, bánh quy và các loại bánh khác, có hoặc không chứa ca cao; bánh thánh và các sản phẩm tương tự",
+        titleEn: "Bread, pastry, cakes, biscuits and other bakers' wares, whether or not containing cocoa; communion wafers and similar products",
+        contentVi: "Nhóm này bao gồm bánh mì, bánh bột nhào ngọt, bánh ngọt, bánh quy, bánh ga tô, bánh mì nướng, bánh waffle và các loại bánh nướng khác.",
+        contentEn: "This heading covers bread, pastries, cakes, biscuits, cookies, toast, waffles and other bakers' wares."
+      }
+    ]
+  },
+  {
+    chapter: 20,
+    section: 4,
+    sectionTitleVi: "THỰC PHẨM CHẾ BIẾN; ĐỒ UỐNG, RƯỢU MẠNH VÀ GIẤM; THUỐC LÁ VÀ NGUYÊN LIỆU THAY THẾ THUỐC LÁ ĐÃ CHẾ BIẾN",
+    sectionTitleEn: "PREPARED FOODSTUFFS; BEVERAGES, SPIRITS AND VINEGAR; TOBACCO AND MANUFACTURED TOBACCO SUBSTITUTES",
+    titleVi: "Các chế phẩm từ rau, quả, quả hạch (nut) hoặc các phần khác của cây",
+    titleEn: "Preparations of vegetables, fruit, nuts or other parts of plants",
+    notesVi: [
+      "Chương này không bao gồm: (a) Các loại rau, quả hoặc quả hạch, được chế biến hoặc bảo quản theo quy trình đã ghi trong Chương 7, 8 hoặc 11; (b) Chất béo và dầu thực vật (Chương 15); (c) Các chế phẩm thực phẩm có trên 20% là xúc xích, thịt, phụ phẩm dạng thịt sau giết mổ, tiết, côn trùng, cá hoặc động vật giáp xác, động vật thân mềm hoặc các loại động vật thuỷ sinh không xương sống khác (Chương 16).",
+      "Các nhóm 20.07 và 20.08 không áp dụng cho các loại thạch trái cây, bột nhão từ quả, các loại quả hạnh bọc đường hoặc các sản phẩm tương tự chế biến dưới dạng kẹo đường (nhóm 17.04) hoặc kẹo sôcôla (nhóm 18.06)."
+    ],
+    notesEn: [
+      "This Chapter does not cover: (a) Vegetables, fruit or nuts, prepared or preserved by the processes specified in Chapter 7, 8 or 11; (b) Vegetable fats and oils (Chapter 15); (c) Food preparations containing more than 20% by weight of sausage, meat, meat offal, blood, insects, fish or crustaceans, molluscs or other aquatic invertebrates (Chapter 16).",
+      "Headings 20.07 and 20.08 do not apply to fruit jellies, fruit pastes, sugar-coated almonds or the like in the form of sugar confectionery (heading 17.04) or chocolate confectionery (heading 18.06)."
+    ],
+    generalVi: "Chương này bao gồm các chế phẩm từ rau (rau đóng hộp, dưa chuột muối, khoai tây chiên, v.v.), các chế phẩm từ quả (mứt, thạch, nước quả, quả đóng hộp, v.v.), các chế phẩm từ quả hạch và các phần khác của cây.",
+    generalEn: "This Chapter covers preparations of vegetables (canned vegetables, pickled cucumbers, potato chips, etc.), preparations of fruit (jams, jellies, fruit juices, canned fruits, etc.), preparations of nuts and other parts of plants.",
+    headings: [
+      {
+        code: "20.01",
+        titleVi: "Rau, quả, quả hạch và các phần ăn được khác của cây, đã chế biến hoặc bảo quản bằng giấm hoặc axit axetic",
+        titleEn: "Vegetables, fruit, nuts and other edible parts of plants, prepared or preserved by vinegar or acetic acid",
+        contentVi: "Nhóm này bao gồm rau, quả, quả hạch và các phần ăn được khác của cây, đã chế biến hoặc bảo quản bằng giấm hoặc axit axetic, bao gồm dưa chuột muối, ớt ngâm, hành ngâm.",
+        contentEn: "This heading covers vegetables, fruit, nuts and other edible parts of plants, prepared or preserved by vinegar or acetic acid, including pickled cucumbers, pickled peppers, pickled onions."
+      },
+      {
+        code: "20.02",
+        titleVi: "Cà chua đã chế biến hoặc bảo quản bằng cách khác trừ bảo quản bằng giấm hoặc axit axetic",
+        titleEn: "Tomatoes prepared or preserved otherwise than by vinegar or acetic acid",
+        contentVi: "Nhóm này bao gồm cà chua đã chế biến hoặc bảo quản bằng cách khác như cà chua đóng hộp, nước ép cà chua (có hàm lượng chất khô từ 7% trở lên), sốt cà chua.",
+        contentEn: "This heading covers tomatoes prepared or preserved otherwise than by vinegar, such as canned tomatoes, tomato juice (with dry weight content of 7% or more), tomato sauce."
+      },
+      {
+        code: "20.07",
+        titleVi: "Mứt, thạch trái cây, mứt từ quả họ cam, quýt, chanh, bưởi, quả nghiền hoặc bột nghiền từ quả, thu được từ quá trình đun nấu",
+        titleEn: "Jams, fruit jellies, marmalades, fruit or nut purée and fruit or nut pastes, obtained by cooking",
+        contentVi: "Nhóm này bao gồm mứt, thạch trái cây, mứt từ quả họ cam quýt, quả nghiền hoặc bột nghiền từ quả, thu được từ quá trình đun nấu, có hoặc không thêm đường hoặc chất làm ngọt khác.",
+        contentEn: "This heading covers jams, fruit jellies, marmalades, fruit or nut purée and fruit or nut pastes, obtained by cooking, whether or not containing added sugar or sweetening matter."
+      },
+      {
+        code: "20.09",
+        titleVi: "Nước ép trái cây (kể cả hèm nho) và nước ép rau, chưa lên men và chưa pha thêm rượu, có hoặc không pha thêm đường hoặc chất ngọt khác",
+        titleEn: "Fruit juices (including grape must) and vegetable juices, unfermented and not containing added spirit, whether or not containing added sugar or sweetening matter",
+        contentVi: "Nhóm này bao gồm nước ép trái cây (cam, táo, nho, dứa, v.v.) và nước ép rau (cà rốt, cà chua, v.v.), chưa lên men và chưa pha thêm rượu.",
+        contentEn: "This heading covers fruit juices (orange, apple, grape, pineapple, etc.) and vegetable juices (carrot, tomato, etc.), unfermented and not containing added spirit."
+      }
+    ]
   }
 ];
 
@@ -537,6 +1010,16 @@ export const getSectionNote = (section: number): { vi: string; en: string } => {
   } else if (section === 2) {
     return {
       vi: "Trong Phần này khái niệm \"viên\" có nghĩa là những sản phẩm được liên kết bằng cách nén trực tiếp hoặc thêm chất dính với hàm lượng không quá 3% tính theo trọng lượng.",
+      en: "In this Section the term \"pellets\" means products which have been agglomerated either directly by compression or by the addition of a binder in a proportion not exceeding 3% by weight."
+    };
+  } else if (section === 3) {
+    return {
+      vi: "Phần này bao gồm chất béo và dầu có nguồn gốc từ động vật, thực vật hoặc vi sinh vật và các sản phẩm tách từ chúng; chất béo ăn được đã chế biến; các loại sáp động vật hoặc thực vật.",
+      en: "This Section covers animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes."
+    };
+  } else if (section === 4) {
+    return {
+      vi: "Trong Phần này khái niệm \"viên\" chỉ các sản phẩm được liên kết bằng phương pháp ép trực tiếp hay bằng cách pha thêm chất kết dính theo tỷ lệ không quá 3% tính theo trọng lượng.",
       en: "In this Section the term \"pellets\" means products which have been agglomerated either directly by compression or by the addition of a binder in a proportion not exceeding 3% by weight."
     };
   }

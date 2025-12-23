@@ -261,8 +261,8 @@ const ChapterNotes = () => {
             </h3>
             <p className="text-sm text-muted-foreground max-w-lg mx-auto">
               {language === "vi"
-                ? "Chú giải chi tiết cho các Chương từ 11 trở đi sẽ được bổ sung trong thời gian tới."
-                : "Detailed explanatory notes for Chapters 11 onwards will be added soon."}
+                ? "Chú giải chi tiết cho các Chương từ 21 trở đi sẽ được bổ sung trong thời gian tới."
+                : "Detailed explanatory notes for Chapters 21 onwards will be added soon."}
             </p>
           </div>
         </div>
