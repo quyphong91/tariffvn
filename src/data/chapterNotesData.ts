@@ -2183,6 +2183,490 @@ export const chapterNotesData: ChapterNote[] = [
         contentEn: "This heading covers hard rubber (ebonite, vulcanite) and articles of hard rubber."
       }
     ]
+  },
+  {
+    chapter: 41,
+    section: 8,
+    sectionTitleVi: "DA SỐNG, DA THUỘC, DA LÔNG VÀ CÁC SẢN PHẨM TỪ DA; YÊN CƯƠNG VÀ BỘ ĐỒ YÊN CƯƠNG; HÀNG DU LỊCH, TÚI XÁCH TAY VÀ CÁC LOẠI ĐỒ CHỨA TƯƠNG TỰ; CÁC MẶT HÀNG TỪ RUỘT ĐỘNG VẬT (TRỪ RUỘT CON TẰM)",
+    sectionTitleEn: "RAW HIDES AND SKINS, LEATHER, FURSKINS AND ARTICLES THEREOF; SADDLERY AND HARNESS; TRAVEL GOODS, HANDBAGS AND SIMILAR CONTAINERS; ARTICLES OF ANIMAL GUT (OTHER THAN SILK-WORM GUT)",
+    titleVi: "Da sống (trừ da lông) và da thuộc",
+    titleEn: "Raw hides and skins (other than furskins) and leather",
+    notesVi: [
+      "Chương này không bao gồm: (a) Da vụn hoặc phế liệu tương tự từ da sống (nhóm 05.11); (b) Da chim hoặc các phần da chim, còn lông vũ hoặc lông tơ, thuộc nhóm 05.05 hoặc nhóm 67.01; (c) Da sống, còn lông, đã thuộc hoặc chuội (Chương 43); tuy nhiên, những sản phẩm sau vẫn được xếp vào Chương 41, các loại da sống còn lông, của động vật họ trâu bò (kể cả trâu), động vật họ ngựa, cừu hoặc cừu non, dê hoặc dê non, lợn, sơn dương, linh dương gazen, lạc đà, tuần lộc, nai, hoẵng hoặc chó.",
+      "(A) Các nhóm từ 41.04 đến 41.06 không bao gồm da sống đã qua quy trình thuộc (kể cả chuẩn bị thuộc da) có thể lộn được (các nhóm từ 41.01 đến 41.03). (B) Theo mục đích của các nhóm từ 41.04 đến 41.06, thuật ngữ \"da mộc\" kể cả da sống đã được thuộc lại, tạo màu hoặc được thấm nhũ tương dầu trước khi làm khô.",
+      "Trong toàn bộ Danh mục khái niệm \"da tổng hợp\" chỉ các chất liệu quy định trong nhóm 41.15."
+    ],
+    notesEn: [
+      "This Chapter does not cover: (a) Parings or similar waste, of raw hides or skins (heading 05.11); (b) Birdskins or parts of birdskins, with their feathers or down, of heading 05.05 or 67.01; or (c) Hides or skins, with the hair or wool on, raw, tanned or dressed (Chapter 43); the following are, however, to be classified in Chapter 41, namely, raw hides and skins with the hair or wool on, of bovine animals, equine animals, sheep or lambs, goats or kids, swine, chamois, gazelle, camels, reindeer, elk, deer, roebucks or dogs.",
+      "(A) Headings 41.04 to 41.06 do not cover hides and skins which have undergone a tanning (including pre-tanning) process which is reversible (headings 41.01 to 41.03). (B) For the purposes of headings 41.04 to 41.06, the term \"crust\" includes hides and skins that have been retanned, coloured or fat-liquored prior to drying.",
+      "Throughout the Nomenclature the expression \"composition leather\" means only substances of the kind referred to in heading 41.15."
+    ],
+    generalVi: "Chương này bao gồm: (I) Da sống và da (trừ da của chim còn lông vũ hoặc lông tơ và da lông) (các nhóm từ 41.01 đến 41.03). (II) Da sống đã được thuộc hoặc làm cứng nhưng không xử lý kỹ hơn (các nhóm từ 41.04 đến 41.06). Việc thuộc mang lại khả năng chống lại sự thối rữa cho da sống, và tăng khả năng không thấm nước. (III) Da thuộc được gia công thêm sau khi thuộc hoặc làm mộc (các nhóm 41.07, 41.12 và 41.13). (IV) Da thuộc dầu; da láng và da láng bằng màng mỏng được tạo trước; da nhũ kim loại (nhóm 41.14). (V) Da thuộc tổng hợp với thành phần cơ bản là da thuộc hoặc sợi da thuộc (nhóm 41.15). (VI) Da vụn và phế liệu khác từ da thuộc hoặc da thuộc tổng hợp (nhóm 41.15).",
+    generalEn: "This Chapter covers: (I) Raw hides and skins (other than of birds with feathers or down and furskins) (headings 41.01 to 41.03). (II) Hides and skins which have been tanned or crusted but not further prepared (headings 41.04 to 41.06). Tanning renders the hides and skins resistant to decay, and increases their impermeability to water. (III) Leather further prepared after tanning or crusting (headings 41.07, 41.12 and 41.13). (IV) Chamois leather; patent leather and patent laminated leather; metallised leather (heading 41.14). (V) Composition (bonded) leather with a basis of leather or leather fibre (heading 41.15). (VI) Parings and other waste of leather or of composition leather (heading 41.15).",
+    headings: [
+      {
+        code: "41.01",
+        titleVi: "Da sống của động vật họ trâu bò (kể cả trâu) hoặc động vật họ ngựa (tươi, hoặc muối, khô, ngâm vôi, axit hoá hoặc được bảo quản cách khác, nhưng chưa thuộc, chưa làm thành da giấy hoặc gia công thêm), đã hoặc chưa khử lông hoặc lạng xẻ",
+        titleEn: "Raw hides and skins of bovine (including buffalo) or equine animals (fresh, or salted, dried, limed, pickled or otherwise preserved, but not tanned, parchment-dressed or further prepared), whether or not dehaired or split",
+        contentVi: "Nhóm này bao gồm da sống (đã hoặc chưa loại bỏ lông) của động vật họ trâu bò (kể cả trâu) hoặc của động vật họ ngựa (ngựa, la, lừa, ngựa vằn...). Các da sống này có thể tươi hoặc được bảo quản tạm thời bằng ướp muối, làm khô, ngâm vôi, ngâm axit hoặc các phương pháp khác.",
+        contentEn: "This heading covers raw hides and skins (whether or not dehaired) of bovine animals (including buffalo) or of equine animals (horses, mules, asses, zebras, etc.). These hides and skins may be fresh or temporarily preserved by salting, drying, liming, pickling or other methods."
+      },
+      {
+        code: "41.02",
+        titleVi: "Da sống của cừu hoặc cừu non (tươi, hoặc muối, khô, ngâm vôi, axit hoá hoặc bảo quản cách khác, nhưng chưa thuộc, chưa làm thành da giấy hoặc gia công thêm), có hoặc không có lông, đã hoặc chưa lạng xẻ, trừ loại đã loại trừ theo Chú giải 1(c) của Chương này",
+        titleEn: "Raw skins of sheep or lambs (fresh, or salted, dried, limed, pickled or otherwise preserved, but not tanned, parchment-dressed or further prepared), whether or not with wool on or split, other than those excluded by Note 1 (c) to this Chapter",
+        contentVi: "Nhóm này bao gồm da sống của cừu hoặc cừu non, có hoặc không có lông, trừ các loại da sống còn lông của cừu non Astrakhan, Broadtail, Caracul, Ba Tư hoặc các loại cừu non tương tự, và cừu non Ấn Độ, Trung Quốc, Mông Cổ hoặc Tây Tạng.",
+        contentEn: "This heading covers raw skins of sheep or lambs, with or without wool on, other than raw skins with the hair or wool on of Astrakhan, Broadtail, Caracul, Persian or similar lambs, and Indian, Chinese, Mongolian or Tibetan lambs."
+      },
+      {
+        code: "41.03",
+        titleVi: "Da sống khác (tươi, hoặc muối, khô, ngâm vôi, axit hoá hoặc bảo quản cách khác, nhưng chưa thuộc, chưa làm thành da giấy hoặc gia công thêm), có hoặc không có lông, đã hoặc chưa lạng xẻ, trừ loại đã loại trừ theo Chú giải 1 (b) hoặc 1(c) của Chương này",
+        titleEn: "Other raw hides and skins (fresh, or salted, dried, limed, pickled or otherwise preserved, but not tanned, parchment-dressed or further prepared), whether or not dehaired or split, other than those excluded by Note 1 (b) or 1 (c) to this Chapter",
+        contentVi: "Nhóm này bao gồm da sống của dê hoặc dê non, lợn, bò sát và các loại động vật khác, trừ những loại đã được loại trừ theo Chú giải 1 (b) hoặc 1(c) của Chương này.",
+        contentEn: "This heading covers raw hides and skins of goats or kids, swine, reptiles and other animals, other than those excluded by Note 1 (b) or 1 (c) to this Chapter."
+      }
+    ]
+  },
+  {
+    chapter: 42,
+    section: 8,
+    sectionTitleVi: "DA SỐNG, DA THUỘC, DA LÔNG VÀ CÁC SẢN PHẨM TỪ DA; YÊN CƯƠNG VÀ BỘ ĐỒ YÊN CƯƠNG; HÀNG DU LỊCH, TÚI XÁCH TAY VÀ CÁC LOẠI ĐỒ CHỨA TƯƠNG TỰ; CÁC MẶT HÀNG TỪ RUỘT ĐỘNG VẬT (TRỪ RUỘT CON TẰM)",
+    sectionTitleEn: "RAW HIDES AND SKINS, LEATHER, FURSKINS AND ARTICLES THEREOF; SADDLERY AND HARNESS; TRAVEL GOODS, HANDBAGS AND SIMILAR CONTAINERS; ARTICLES OF ANIMAL GUT (OTHER THAN SILK-WORM GUT)",
+    titleVi: "Các sản phẩm bằng da thuộc; yên cương và bộ yên cương; các mặt hàng du lịch, túi xách và các loại đồ chứa tương tự; các sản phẩm làm từ ruột động vật (trừ ruột con tằm)",
+    titleEn: "Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)",
+    notesVi: [
+      "Theo mục đích của chương này, thuật ngữ \"da thuộc\" gồm cả da thuộc dầu (bao gồm cả da thuộc dầu kết hợp), da láng, da láng bằng màng mỏng được tạo trước và da nhũ kim loại.",
+      "Chương này không bao gồm: Chỉ catgut vô trùng dùng trong phẫu thuật; Hàng may mặc hoặc đồ phụ trợ quần áo được lót bằng da lông hoặc da lông nhân tạo; Các loại lưới hoàn chỉnh; Các mặt hàng thuộc Chương 64, 65, 66, 71, 92, 94, 95, 96."
+    ],
+    notesEn: [
+      "For the purposes of this Chapter, the term \"leather\" includes chamois (including combination chamois) leather, patent leather, patent laminated leather and metallised leather.",
+      "This Chapter does not cover: Sterile surgical catgut; Articles of apparel or clothing accessories lined with furskin or artificial fur; Made up articles of netting; Articles of Chapter 64, 65, 66, 71, 92, 94, 95, 96."
+    ],
+    generalVi: "Chương này chủ yếu bao gồm các mặt hàng bằng da thuộc hoặc da thuộc tổng hợp; tuy nhiên, các nhóm 42.01 và 42.02 cũng bao gồm một số mặt hàng có đặc tính của ngành da nhưng làm từ các chất liệu khác. Ngoài ra, Chương này bao gồm một số mặt hàng làm bằng ruột động vật, màng ruột già, bong bóng hoặc gân.",
+    generalEn: "This Chapter principally covers articles of leather or composition leather; however, headings 42.01 and 42.02 also include certain articles characteristically of the leather trade but made from other materials. It further covers certain articles of gut, goldbeater's skin, bladders or tendons.",
+    headings: [
+      {
+        code: "42.01",
+        titleVi: "Yên cương và bộ yên cương dùng cho các loại động vật (kể cả dây kéo, dây dắt, miếng đệm đầu gối, đai hoặc rọ bịt mõm, vải lót yên, túi yên, áo chó và các loại tương tự), làm bằng vật liệu bất kỳ",
+        titleEn: "Saddlery and harness for any animal (including traces, leads, knee pads, muzzles, saddle cloths, saddle bags, dog coats and the like), of any material",
+        contentVi: "Nhóm này bao gồm đồ dùng cho tất cả các loại động vật, bằng da thuộc, da thuộc tổng hợp, da lông, các mặt hàng dệt hoặc các chất liệu khác. Bao gồm yên cương và bộ yên cương dùng cho yên ngựa, miếng đệm đầu gối, đai bịt mõm cho động vật, đai cổ, dây dắt chó và đồ bên ngoài cho chó hoặc mèo.",
+        contentEn: "This heading covers articles for all kinds of animals, of leather, composition leather, furskin, textile materials or other materials. It includes saddlery and harness for riding or draught animals, knee pads, muzzles for animals, collars, leads and outer garments for dogs or cats."
+      },
+      {
+        code: "42.02",
+        titleVi: "Hòm, vali, xắc đựng đồ nữ trang, cặp tài liệu, cặp sách, túi, cặp đeo vai cho học sinh, bao kính, bao ống nhòm, hộp camera, hộp nhạc cụ, bao súng, bao súng ngắn và các loại đồ chứa tương tự",
+        titleEn: "Trunks, suit-cases, vanity-cases, executive-cases, brief-cases, school satchels, spectacle cases, binocular cases, camera cases, musical instrument cases, gun cases, holsters and similar containers",
+        contentVi: "Nhóm này chỉ bao gồm các mặt hàng đã được nêu tên cụ thể và các loại đồ chứa tương tự. Các loại đồ chứa này có thể thuộc loại cứng hoặc có lớp nền cứng, hoặc mềm và không có lớp nền. Bao gồm túi du lịch, túi đựng đồ ăn hoặc đồ uống có phủ lớp cách, túi đựng đồ vệ sinh cá nhân, ba lô, túi xách tay, túi đi chợ, ví, túi thể thao, hộp đựng đồ trang sức.",
+        contentEn: "This heading covers only the articles specifically named therein and similar containers. These containers may be rigid or with a rigid foundation, or soft and without foundation. Includes travel goods, insulated food or beverages bags, toilet bags, rucksacks, handbags, shopping bags, wallets, sports bags, jewellery boxes."
+      },
+      {
+        code: "42.03",
+        titleVi: "Hàng may mặc và đồ phụ trợ quần áo, bằng da thuộc hoặc da thuộc tổng hợp",
+        titleEn: "Articles of apparel and clothing accessories, of leather or of composition leather",
+        contentVi: "Nhóm này bao gồm các loại găng tay, găng hở ngón và găng bao tay (kể cả các loại găng dùng trong thể thao và bảo hộ), tạp dề và các loại quần áo bảo hộ khác, thắt lưng, dây đeo quần, dây đeo súng và đai da cổ tay, nhưng trừ dây đeo đồng hồ.",
+        contentEn: "This heading covers gloves, mittens and mitts (including those for sport or for protection), aprons and other protective clothing, braces, belts, bandoliers and wrist straps, but excluding watch straps."
+      }
+    ]
+  },
+  {
+    chapter: 43,
+    section: 8,
+    sectionTitleVi: "DA SỐNG, DA THUỘC, DA LÔNG VÀ CÁC SẢN PHẨM TỪ DA; YÊN CƯƠNG VÀ BỘ ĐỒ YÊN CƯƠNG; HÀNG DU LỊCH, TÚI XÁCH TAY VÀ CÁC LOẠI ĐỒ CHỨA TƯƠNG TỰ; CÁC MẶT HÀNG TỪ RUỘT ĐỘNG VẬT (TRỪ RUỘT CON TẰM)",
+    sectionTitleEn: "RAW HIDES AND SKINS, LEATHER, FURSKINS AND ARTICLES THEREOF; SADDLERY AND HARNESS; TRAVEL GOODS, HANDBAGS AND SIMILAR CONTAINERS; ARTICLES OF ANIMAL GUT (OTHER THAN SILK-WORM GUT)",
+    titleVi: "Da lông và da lông nhân tạo; các sản phẩm làm từ da lông và da lông nhân tạo",
+    titleEn: "Furskins and artificial fur; manufactures thereof",
+    notesVi: [
+      "Trong toàn bộ Danh mục những nội dung liên quan đến \"da lông\", trừ da lông sống thuộc nhóm 43.01, áp dụng cho da sống còn lông của các loài động vật, đã thuộc hoặc chuội.",
+      "Chương này không bao gồm: (a) Da chim hoặc các phần của da chim, có lông vũ hoặc lông tơ (nhóm 05.05 hay 67.01); (b) Da sống, còn lông, thuộc Chương 41; (c) Găng tay bằng da thuộc và da lông (nhóm 42.03); (d) Các vật phẩm thuộc Chương 64, 65, 95.",
+      "Nhóm 43.03 kể cả da lông và các phần da lông, được ghép cùng với vật liệu khác, và da lông được may lại với nhau tạo thành quần áo hay các chi tiết quần áo.",
+      "Trong toàn bộ Danh mục cụm từ \"da lông nhân tạo\" là loại giả da lông gồm lông cừu, lông động vật hay các loại sợi khác được gắn hoặc may lên da thuộc, lên vải dệt hoặc lên các loại vật liệu khác."
+    ],
+    notesEn: [
+      "Throughout the Nomenclature references to \"furskins\", other than to raw furskins of heading 43.01, apply to hides or skins of all animals which have been tanned or dressed with the hair or wool on.",
+      "This Chapter does not cover: (a) Birdskins or parts of birdskins, with their feathers or down (heading 05.05 or 67.01); (b) Raw hides or skins, with the hair or wool on, of Chapter 41; (c) Gloves of leather and furskin (heading 42.03); (d) Articles of Chapter 64, 65, 95.",
+      "Heading 43.03 includes furskins and parts thereof, assembled with the addition of other materials, and furskins sewn together in the form of garments or parts or accessories of garments.",
+      "Throughout the Nomenclature the expression \"artificial fur\" means any imitation of furskin consisting of wool, hair or other fibres gummed or sewn on to leather, woven fabric or other materials."
+    ],
+    generalVi: "Chương này bao gồm: (1) Da lông sống trừ da sống thuộc nhóm 41.01, 41.02 hoặc 41.03. (2) Da sống đã thuộc hoặc chuội còn lông, chưa ghép nối hoặc đã ghép nối. (3) Quần áo, đồ phụ trợ quần áo và các mặt hàng sản xuất khác bằng da lông. (4) Da lông nhân tạo và các sản phẩm bằng da lông nhân tạo.",
+    generalEn: "This Chapter covers: (1) Raw furskins other than raw hides and skins of heading 41.01, 41.02 or 41.03. (2) Hides and skins tanned or dressed with the hair or wool on, unassembled or assembled. (3) Apparel, clothing accessories and other manufactured articles of furskin. (4) Artificial fur and articles thereof.",
+    headings: [
+      {
+        code: "43.01",
+        titleVi: "Da lông sống (kể cả đầu, đuôi, bàn chân và các mẩu hoặc các mảnh cắt khác, thích hợp cho việc thuộc da lông), trừ da sống trong nhóm 41.01, 41.02 hoặc 41.03",
+        titleEn: "Raw furskins (including heads, tails, paws and other pieces or cuttings, suitable for furriers' use), other than raw hides and skins of heading 41.01, 41.02 or 41.03",
+        contentVi: "Nhóm này bao gồm da sống (chưa thuộc hoặc chuội) còn lông, của tất cả động vật trừ động vật họ trâu bò, động vật họ ngựa, cừu và cừu non (trừ một số loại đặc biệt), dê và dê non, lợn, sơn dương, lạc đà, tuần lộc, hoẵng và chó.",
+        contentEn: "This heading covers raw (i.e., not tanned or dressed) skins with the hair or wool on, of all animals except bovine animals, equine animals, sheep and lambs (other than certain special types), goats and kids, swine, chamois, camels, reindeer, roebucks and dogs."
+      },
+      {
+        code: "43.02",
+        titleVi: "Da lông đã thuộc hoặc chuội (kể cả đầu, đuôi, bàn chân và các mẩu hoặc các mảnh cắt khác), đã hoặc chưa ghép nối (không có thêm các vật liệu phụ trợ khác) trừ loại thuộc nhóm 43.03",
+        titleEn: "Tanned or dressed furskins (including heads, tails, paws and other pieces or cuttings), unassembled, or assembled (without the addition of other materials) other than those of heading 43.03",
+        contentVi: "Nhóm này bao gồm: (1) Da chưa được ghép nối đã thuộc hoặc chuội còn lông với điều kiện là chúng không bị cắt thành hình dạng cho mục đích sử dụng đặc biệt. (2) Các vật phẩm ghép nối bằng da lông đã thuộc hoặc chuội, được khâu với nhau mà không cần thêm vào các vật liệu khác thường ở dạng hình chữ nhật, hình thang hoặc hình chữ thập.",
+        contentEn: "This heading covers: (1) Unassembled hides or skins tanned or dressed with the hair or wool on provided that they have not been cut to shape for specific uses. (2) Assemblies of tanned or dressed furskins sewn together without the addition of other materials usually in rectangles, trapeziums or crosses."
+      },
+      {
+        code: "43.03",
+        titleVi: "Hàng may mặc, đồ phụ trợ quần áo và các sản phẩm khác bằng da lông",
+        titleEn: "Articles of apparel, clothing accessories and other articles of furskin",
+        contentVi: "Nhóm này bao gồm các sản phẩm da lông đã hoàn thiện như áo choàng, áo khoác, mũ, găng tay, khăn choàng cổ, phụ kiện trang trí quần áo và các mặt hàng khác bằng da lông.",
+        contentEn: "This heading covers finished furskin products such as coats, jackets, hats, gloves, scarves, clothing trimmings and other articles of furskin."
+      },
+      {
+        code: "43.04",
+        titleVi: "Da lông nhân tạo và các sản phẩm làm từ da lông nhân tạo",
+        titleEn: "Artificial fur and articles thereof",
+        contentVi: "Nhóm này bao gồm da lông nhân tạo và các sản phẩm làm từ da lông nhân tạo. Da lông nhân tạo là loại giả da lông gồm lông cừu, lông động vật hay các loại sợi khác được gắn hoặc may lên da thuộc, lên vải dệt hoặc lên các loại vật liệu khác.",
+        contentEn: "This heading covers artificial fur and articles made from artificial fur. Artificial fur is any imitation of furskin consisting of wool, hair or other fibres gummed or sewn on to leather, woven fabric or other materials."
+      }
+    ]
+  },
+  {
+    chapter: 44,
+    section: 9,
+    sectionTitleVi: "GỖ VÀ CÁC MẶT HÀNG BẰNG GỖ; THAN TỪ GỖ; LIE VÀ CÁC SẢN PHẨM BẰNG LIE; CÁC SẢN PHẨM TỪ RƠM, CỎ GIẤY HOẶC CÁC VẬT LIỆU TẾT BỆN KHÁC; CÁC SẢN PHẨM BẰNG LIỄU GAI VÀ SONG MÂY",
+    sectionTitleEn: "WOOD AND ARTICLES OF WOOD; WOOD CHARCOAL; CORK AND ARTICLES OF CORK; MANUFACTURES OF STRAW, OF ESPARTO OR OF OTHER PLAITING MATERIALS; BASKETWARE AND WICKERWORK",
+    titleVi: "Gỗ và các mặt hàng bằng gỗ; than từ gỗ",
+    titleEn: "Wood and articles of wood; wood charcoal",
+    notesVi: [
+      "Chương này không bao gồm: (a) Gỗ dùng chủ yếu trong công nghệ làm nước hoa, dược phẩm, hoặc thuốc diệt côn trùng (nhóm 12.11); (b) Tre hoặc các vật liệu khác có tính chất như gỗ loại chủ yếu dùng để tết bện (nhóm 14.01); (c) Than hoạt tính (nhóm 38.02); và nhiều mặt hàng khác thuộc các Chương 42, 46, 64, 66, 68, 71, Phần XVI, XVII, XVIII, 93, 94, 95, 96, 97.",
+      "Trong Chương này, khái niệm \"gỗ đã được làm tăng độ rắn\" chỉ loại gỗ đã qua xử lý về mặt hoá học hoặc lý học và do đó đã tăng tỷ trọng hoặc độ cứng cũng như tăng sức bền cơ học.",
+      "Các nhóm từ 44.14 đến 44.21 áp dụng đối với các sản phẩm có mô tả tương ứng từ các loại ván dăm hoặc ván tương tự, ván sợi ép, ván ghép hoặc gỗ đã được làm tăng độ rắn.",
+      "Theo Chú giải 1 và trừ khi có yêu cầu khác, khái niệm \"gỗ\" trong một nhóm của Chương này cũng áp dụng đối với các loại tre và các vật liệu khác có tính chất gỗ."
+    ],
+    notesEn: [
+      "This Chapter does not cover: (a) Wood used primarily in perfumery, in pharmacy, or for insecticidal purposes (heading 12.11); (b) Bamboos or other materials of a woody nature used primarily for plaiting (heading 14.01); (c) Activated charcoal (heading 38.02); and many other articles in Chapters 42, 46, 64, 66, 68, 71, Sections XVI, XVII, XVIII, 93, 94, 95, 96, 97.",
+      "In this Chapter, the expression \"densified wood\" means wood which has been subjected to chemical or physical treatment and which has thereby acquired increased density or hardness together with improved mechanical strength.",
+      "Headings 44.14 to 44.21 apply to articles of particle board or similar board, fibreboard, laminated wood or densified wood as they apply to such articles of wood.",
+      "Subject to Note 1 and except where the context otherwise requires, a reference to \"wood\" in a heading of this Chapter also applies to bamboos and other materials of a woody nature."
+    ],
+    generalVi: "Chương này bao gồm gỗ chưa chế biến, các bán thành phẩm từ gỗ và các mặt hàng bằng gỗ nói chung. Các sản phẩm có thể được nhóm lại như sau: (1) Gỗ cây dạng thô, gỗ nhiên liệu, phế liệu gỗ, mùn cưa; (2) Gỗ đã được cưa, bào, lạng, tách lớp; (3) Ván dăm, ván sợi, gỗ ghép và gỗ đã được làm tăng độ rắn; (4) Các mặt hàng bằng gỗ.",
+    generalEn: "This Chapter covers raw wood, semi-finished wood products and articles of wood in general. Products can be grouped as: (1) Rough wood, fuel wood, wood waste, sawdust; (2) Wood sawn, planed, sliced, peeled; (3) Particle board, fibreboard, laminated wood and densified wood; (4) Articles of wood.",
+    headings: [
+      {
+        code: "44.01",
+        titleVi: "Gỗ nhiên liệu, dạng khúc, thanh nhỏ, cành, bó hoặc các dạng tương tự; vỏ bào hoặc dăm gỗ; mùn cưa và phế liệu gỗ, đã hoặc chưa đóng thành khối, bánh, viên hoặc các dạng tương tự",
+        titleEn: "Fuel wood, in logs, in billets, in twigs, in faggots or in similar forms; wood in chips or particles; sawdust and wood waste and scrap, whether or not agglomerated in logs, briquettes, pellets or similar forms",
+        contentVi: "Nhóm này bao gồm: (A) Gỗ nhiên liệu, thường ở dạng các khúc ngắn, gỗ chẻ hoặc thanh củi, cành con, bó, thân dây leo, gốc và rễ cây. (B) Gỗ dưới dạng vỏ bào hay dăm gỗ dùng để sản xuất bột giấy xenlulo hoặc ván sợi, ván dăm. (C) Mùn cưa. (D) Phế liệu và mảnh vụn gỗ.",
+        contentEn: "This heading covers: (A) Fuel wood, generally in the form of short pieces of logs, split logs or billets, twigs, faggots, vine stems, tree stumps and roots. (B) Wood in chips or particles used for producing cellulose pulp or fibreboard, particle board. (C) Sawdust. (D) Wood waste and scrap."
+      },
+      {
+        code: "44.02",
+        titleVi: "Than củi (kể cả than đốt từ vỏ quả hoặc hạt), đã hoặc chưa đóng thành khối",
+        titleEn: "Wood charcoal (including shell or nut charcoal), whether or not agglomerated",
+        contentVi: "Than củi thu được khi gỗ bị carbon hoá và không có tiếp xúc với không khí. Nó được phân loại vào nhóm này dù ở dạng khối, que hay ở dạng hạt hay bột, hoặc được đóng thành khối cùng với nhựa đường hay các chất liệu khác. Các sản phẩm tương tự từ vỏ dừa hay các loại vỏ khác cũng được phân loại vào nhóm này.",
+        contentEn: "Wood charcoal is obtained when wood is carbonised without contact with air. It is classified in this heading whether in blocks, sticks, granules or powder, or agglomerated with tar or other materials. Similar products obtained from coconut shells or other shells are also classified in this heading."
+      },
+      {
+        code: "44.03",
+        titleVi: "Gỗ cây dạng thô, đã hoặc chưa bóc vỏ hoặc dác gỗ hoặc đẽo vuông thô",
+        titleEn: "Wood in the rough, whether or not stripped of bark or sapwood, or roughly squared",
+        contentVi: "Nhóm này bao gồm gỗ cây dạng thô, tức là gỗ không có bất kỳ dạng chế biến nào ngoài những chế biến chỉ ra trong tên nhóm. Gỗ có thể đã bóc vỏ hoặc dác gỗ hoặc đẽo vuông thô để thuận tiện cho việc vận chuyển.",
+        contentEn: "This heading covers wood in the rough, i.e., wood which has not received any treatment other than those indicated in the heading text. The wood may be stripped of bark or sapwood or roughly squared to facilitate transport."
+      }
+    ]
+  },
+  {
+    chapter: 45,
+    section: 9,
+    sectionTitleVi: "GỖ VÀ CÁC MẶT HÀNG BẰNG GỖ; THAN TỪ GỖ; LIE VÀ CÁC SẢN PHẨM BẰNG LIE; CÁC SẢN PHẨM TỪ RƠM, CỎ GIẤY HOẶC CÁC VẬT LIỆU TẾT BỆN KHÁC; CÁC SẢN PHẨM BẰNG LIỄU GAI VÀ SONG MÂY",
+    sectionTitleEn: "WOOD AND ARTICLES OF WOOD; WOOD CHARCOAL; CORK AND ARTICLES OF CORK; MANUFACTURES OF STRAW, OF ESPARTO OR OF OTHER PLAITING MATERIALS; BASKETWARE AND WICKERWORK",
+    titleVi: "Lie và các sản phẩm bằng lie",
+    titleEn: "Cork and articles of cork",
+    notesVi: [
+      "Chương này không bao gồm: (a) Giày dép hoặc các bộ phận của giày dép thuộc Chương 64; (b) Mũ và các vật đội đầu khác hay các bộ phận của chúng thuộc Chương 65; hoặc (c) Các mặt hàng thuộc Chương 95 (ví dụ, đồ chơi, thiết bị trò chơi, dụng cụ, thiết bị thể thao)."
+    ],
+    notesEn: [
+      "This Chapter does not cover: (a) Footwear or parts of footwear of Chapter 64; (b) Headgear or parts of headgear of Chapter 65; or (c) Articles of Chapter 95 (for example, toys, games, sports requisites)."
+    ],
+    generalVi: "Lie thu được hầu như chỉ từ vỏ ngoài của cây sồi-lie (Quercus suber), là loại mọc ở Nam Âu và Bắc Phi. Lie nhẹ, đàn hồi, có thể nén được, mềm, không thấm nước, không mục rữa, và là chất kém dẫn nhiệt và kém dẫn truyền âm. Chương này bao gồm lie tự nhiên và lie kết dính ở mọi dạng (kể cả các mặt hàng từ lie và lie kết dính).",
+    generalEn: "Cork is obtained almost exclusively from the outer bark of the cork-oak (Quercus suber) which is grown in Southern Europe and North Africa. Cork is light, elastic, compressible, flexible, waterproof, rotproof, and a bad conductor of heat and sound. This Chapter covers natural and agglomerated cork in all forms (including articles of cork and agglomerated cork).",
+    headings: [
+      {
+        code: "45.01",
+        titleVi: "Lie tự nhiên, thô hoặc đã sơ chế; lie phế liệu; lie đã ép, nghiền thành hạt hoặc thành bột",
+        titleEn: "Natural cork, raw or simply prepared; waste cork; crushed, granulated or ground cork",
+        contentVi: "Lie thô có trong vỏ bóc hình vòng cung khi được bóc từ cây lie. Lie tự nhiên, sơ chế, gồm lie được bỏ bề mặt hoặc làm sạch cách khác. Phế liệu của lie tự nhiên hoặc lie kết dính thường được dùng trong sản xuất lie đã ép, nghiền thành hạt hoặc thành bột.",
+        contentEn: "Raw cork is in the form of curved bark strips when stripped from the tree. Simply prepared natural cork includes cork from which the surface has been removed or otherwise cleaned. Waste cork of natural or agglomerated cork is usually used in manufacturing crushed, granulated or ground cork."
+      },
+      {
+        code: "45.02",
+        titleVi: "Lie tự nhiên, đã bóc vỏ hoặc đã đẽo thô thành hình vuông hoặc dạng khối, tấm, phiến hình chữ nhật (kể cả hình vuông), hoặc dải",
+        titleEn: "Natural cork, debacked or roughly squared, or in blocks, plates, sheets or strip (including sharp-edged blanks for corks or stoppers)",
+        contentVi: "Nhóm này bao gồm vỏ bóc của lie tự nhiên với toàn bộ vỏ ngoài được cưa hoặc được lấy ra, hoặc với các bề mặt bên ngoài và bên trong đã cưa hoặc cắt để tạo thành các cạnh song song. Nhóm này cũng bao gồm các sản phẩm đã được gia công thêm thành khối, tấm, phiến.",
+        contentEn: "This heading covers natural cork bark strips with the outer bark sawn or otherwise removed, or with outer and inner surfaces sawn or cut to form parallel edges. It also includes products further worked into blocks, plates, sheets."
+      },
+      {
+        code: "45.03",
+        titleVi: "Các sản phẩm bằng lie tự nhiên",
+        titleEn: "Articles of natural cork",
+        contentVi: "Nhóm này bao gồm: (1) Nút và nắp đậy các loại, bằng lie tự nhiên, kể cả phôi có các cạnh đã cắt gọt tròn. (2) Các đĩa, miếng đệm và vòng đệm bằng lie tự nhiên, dùng để lót nút lie. (3) Các khối, phiến, tấm và dải bằng lie tự nhiên, được cắt thành hình trừ hình chữ nhật. (4) Cán cầm tay các loại, vòng đệm và miếng đệm.",
+        contentEn: "This heading covers: (1) Corks and stoppers of all kinds, of natural cork, including blanks with rounded edges. (2) Discs, washers and wafers of natural cork, for lining crown corks. (3) Blocks, plates, sheets and strip of natural cork, cut to shape other than rectangular. (4) Handle grips of various kinds, washers and gaskets."
+      },
+      {
+        code: "45.04",
+        titleVi: "Lie kết dính (có hoặc không có chất gắn) và các sản phẩm bằng lie kết dính",
+        titleEn: "Agglomerated cork (with or without a binding substance) and articles of agglomerated cork",
+        contentVi: "Lie kết dính được sản xuất bằng cách kết dính lie đã ép, nghiền thành hạt hoặc thành bột thường dưới nhiệt độ và áp suất: (1) Với một chất kết dính được thêm vào (ví dụ, cao su không lưu hoá, keo, plastic); hoặc (2) Không có chất dính được thêm vào ở nhiệt độ khoảng 300°C.",
+        contentEn: "Agglomerated cork is manufactured by agglomerating crushed, granulated or ground cork usually under heat and pressure: (1) With a binding substance added (e.g., unvulcanised rubber, glue, plastics); or (2) Without a binding substance at about 300°C."
+      }
+    ]
+  },
+  {
+    chapter: 46,
+    section: 9,
+    sectionTitleVi: "GỖ VÀ CÁC MẶT HÀNG BẰNG GỖ; THAN TỪ GỖ; LIE VÀ CÁC SẢN PHẨM BẰNG LIE; CÁC SẢN PHẨM TỪ RƠM, CỎ GIẤY HOẶC CÁC VẬT LIỆU TẾT BỆN KHÁC; CÁC SẢN PHẨM BẰNG LIỄU GAI VÀ SONG MÂY",
+    sectionTitleEn: "WOOD AND ARTICLES OF WOOD; WOOD CHARCOAL; CORK AND ARTICLES OF CORK; MANUFACTURES OF STRAW, OF ESPARTO OR OF OTHER PLAITING MATERIALS; BASKETWARE AND WICKERWORK",
+    titleVi: "Sản phẩm làm từ rơm, cỏ giấy hoặc từ các loại vật liệu tết bện khác; các sản phẩm bằng liễu gai và song mây",
+    titleEn: "Manufactures of straw, of esparto or of other plaiting materials; basketware and wickerwork",
+    notesVi: [
+      "Trong Chương này khái niệm \"vật liệu tết bện\" dùng để chỉ các loại vật liệu ở trạng thái hoặc hình dạng thích hợp cho việc tết bện hoặc gia công tương tự; kể cả rơm, liễu gai hoặc liễu, tre, song, mây, bấc, sậy, dải gỗ mỏng, các dải vật liệu thực vật khác, sợi dệt tự nhiên chưa xe, sợi monofilament và dải bằng plastic và dải giấy.",
+      "Chương này không bao gồm: Tấm phủ tường thuộc nhóm 48.14; Dây xe, chão bện, thừng hoặc cáp (nhóm 56.07); Giày, dép hoặc mũ thuộc Chương 64 hoặc 65; Xe hoặc thân xe bằng song mây (Chương 87); Các mặt hàng thuộc Chương 94."
+    ],
+    notesEn: [
+      "In this Chapter the expression \"plaiting materials\" means materials in a state or form suitable for plaiting, interlacing or similar processes; it includes straw, osier or willow, bamboos, rattans, rushes, reeds, strips of wood, strips of other vegetable material, unspun natural textile fibres, monofilament and strip of plastics and strips of paper.",
+      "This Chapter does not cover: Wall coverings of heading 48.14; Twine, cordage, ropes or cables (heading 56.07); Footwear or headgear of Chapter 64 or 65; Vehicles or bodies for vehicles of basketware (Chapter 87); Articles of Chapter 94."
+    ],
+    generalVi: "Ngoài các sản phẩm từ cây mướp (loofah), Chương này bao gồm các mặt hàng bán thành phẩm (nhóm 46.01) và một số mặt hàng (các nhóm 46.01 và 46.02) thu được từ việc bện, dệt hoặc bằng các phương pháp lắp ghép các vật liệu không se tương tự, cụ thể là rơm, liễu gai, tre, sậy, song mây, bấc, sợi dệt tự nhiên không se, sợi monofilament và dải bằng plastic, và dải giấy.",
+    generalEn: "In addition to articles of loofah, this Chapter covers semi-manufactured products (heading 46.01) and certain articles (headings 46.01 and 46.02) made by interlacing, weaving or by similar methods of assembling unspun materials, particularly straw, osier or willow, bamboos, rushes, rattans, reeds, unspun natural textile fibres, monofilament and strip of plastics, and strips of paper.",
+    headings: [
+      {
+        code: "46.01",
+        titleVi: "Dây tết bện và các sản phẩm tương tự làm bằng vật liệu tết bện, đã hoặc chưa ghép thành dải; các vật liệu tết bện, các dây bện và các sản phẩm tương tự, đã kết lại với nhau trong các tao dây song song hoặc đã được dệt, ở dạng tấm (ví dụ, chiếu, thảm, mành)",
+        titleEn: "Plaits and similar products of plaiting materials, whether or not assembled into strips; plaiting materials, plaits and similar products of plaiting materials, bound together in parallel strands or woven, in sheet form (for example, mats, matting, screens)",
+        contentVi: "Nhóm này bao gồm: (A) Dây tết bện và các sản phẩm tương tự làm bằng các vật liệu tết bện. Dây tết bện gồm các tao dây bằng vật liệu tết bện được kết lại theo chiều dài chung. (B) Các vật liệu tết bện đã kết lại với nhau thành các tao dây song song hoặc đã được dệt, thành tấm, ví dụ chiếu, thảm, mành.",
+        contentEn: "This heading covers: (A) Plaits and similar products of plaiting materials. Plaits consist of strands of plaiting materials bound together lengthwise. (B) Plaiting materials bound together in parallel strands or woven, in sheet form, e.g., mats, matting, screens."
+      },
+      {
+        code: "46.02",
+        titleVi: "Sản phẩm bằng liễu gai, song mây và sản phẩm bằng các vật liệu tết bện khác, được làm trực tiếp thành hình dạng; các sản phẩm làm từ cây mướp",
+        titleEn: "Basketwork, wickerwork and other articles, made directly to shape from plaiting materials or made up from goods of heading 46.01; articles of loofah",
+        contentVi: "Nhóm này bao gồm các sản phẩm bằng vật liệu tết bện (kể cả sản phẩm bằng những vật liệu được nêu trong Chú giải 1) và sản phẩm bằng cây mướp, trừ các sản phẩm bị loại trừ theo Chú giải 2 và các sản phẩm được phân loại cụ thể hơn trong các Chương khác.",
+        contentEn: "This heading covers articles of plaiting materials (including those of materials mentioned in Note 1) and articles of loofah, other than products excluded by Note 2 and products more specifically classified in other Chapters."
+      }
+    ]
+  },
+  {
+    chapter: 47,
+    section: 10,
+    sectionTitleVi: "BỘT GIẤY TỪ GỖ HOẶC TỪ NGUYÊN LIỆU XƠ SỢI XENLULO KHÁC; GIẤY LOẠI HOẶC BÌA LOẠI THU HỒI (PHẾ LIỆU VÀ VỤN THỪA); GIẤY VÀ BÌA VÀ CÁC SẢN PHẨM CỦA CHÚNG",
+    sectionTitleEn: "PULP OF WOOD OR OF OTHER FIBROUS CELLULOSIC MATERIAL; RECOVERED (WASTE AND SCRAP) PAPER OR PAPERBOARD; PAPER AND PAPERBOARD AND ARTICLES THEREOF",
+    titleVi: "Bột giấy từ gỗ hoặc từ nguyên liệu xơ xenlulo khác; giấy loại hoặc bìa loại thu hồi (phế liệu và vụn thừa)",
+    titleEn: "Pulp of wood or of other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard",
+    notesVi: [
+      "Theo mục đích của nhóm 47.02, khái niệm \"bột giấy hoá học từ gỗ, loại hoà tan\" có nghĩa là bột giấy hoá học từ gỗ có hàm lượng phần không hoà tan từ 92% trở lên đối với bột giấy sản xuất bằng phương pháp sulphat hoặc kiềm hoặc 88% trở lên đối với bột giấy sản xuất bằng phương pháp sulphit sau khi ngâm một giờ trong dung dịch natri hydroxit (NaOH) nồng độ 18% ở nhiệt độ 20°C."
+    ],
+    notesEn: [
+      "For the purposes of heading 47.02, the expression \"chemical wood pulp, dissolving grades\" means chemical wood pulp having by weight an insoluble fraction of 92% or more for soda or sulphate wood pulp or of 88% or more for sulphite wood pulp after one hour in a caustic soda solution containing 18% sodium hydroxide (NaOH) at 20°C."
+    ],
+    generalVi: "Bột giấy thuộc Chương này chứa chủ yếu xơ sợi xenlulo thu được từ các vật liệu thực vật khác nhau, hoặc từ phế liệu dệt có nguồn gốc thực vật. Loại bột giấy quan trọng nhất trong thương mại quốc tế là bột giấy gỗ, được gọi là \"bột giấy cơ học từ gỗ\", \"bột giấy hóa học từ gỗ\", \"bột giấy bán hóa từ gỗ\" hoặc \"bột giấy hóa cơ từ gỗ\", tuỳ theo phương pháp chế biến.",
+    generalEn: "The pulp of this Chapter consists essentially of cellulose fibres obtained from various vegetable materials, or from waste textiles of vegetable origin. The most important pulp in international trade is wood pulp, termed \"mechanical wood pulp\", \"chemical wood pulp\", \"semi-chemical wood pulp\" or \"chemi-mechanical pulp\", according to its method of preparation.",
+    headings: [
+      {
+        code: "47.01",
+        titleVi: "Bột giấy cơ học từ gỗ",
+        titleEn: "Mechanical wood pulp",
+        contentVi: "Bột giấy cơ học từ gỗ thu được bằng quá trình cơ học, tức là bằng cách nghiền hoặc mài gỗ thành xơ sợi bằng máy nghiền cơ khí dưới dòng chảy của nước. Các loại chính gồm: Bột gỗ mài đá (SGW), Bột gỗ mài đá áp lực (PGW), Bột giấy cơ học tinh chế (RMP), Bột giấy cơ học nhiệt (TMP).",
+        contentEn: "Mechanical wood pulp is obtained solely by a mechanical process, i.e., by grinding or milling wood into fibres using mechanical grinders under a flow of water. Main types include: Stone groundwood (SGW), Pressurised stone groundwood (PGW), Refiner mechanical pulp (RMP), Thermo-mechanical pulp (TMP)."
+      },
+      {
+        code: "47.02",
+        titleVi: "Bột giấy hóa học từ gỗ, loại hòa tan",
+        titleEn: "Chemical wood pulp, dissolving grades",
+        contentVi: "Nhóm này chỉ bao gồm bột giấy hóa học từ gỗ, loại hòa tan. Bột giấy này được tinh chế hoặc thanh lọc đặc biệt để sử dụng trong sản xuất xenlulo tái sinh, các ete và este của xenlulo và các sản phẩm bằng các vật liệu này, như tấm, phiến, màng, lá, xơ sợi dệt và một số loại giấy.",
+        contentEn: "This heading covers chemical wood pulp of dissolving grades only. This pulp is specially refined or purified for use in making regenerated cellulose, cellulose ethers and esters and products of these materials, such as plates, sheets, film, foil, textile fibres and certain papers."
+      },
+      {
+        code: "47.03",
+        titleVi: "Bột giấy hoá học từ gỗ, sản xuất bằng phương pháp sulphat hoặc kiềm, trừ loại hòa tan",
+        titleEn: "Chemical wood pulp, soda or sulphate, other than dissolving grades",
+        contentVi: "Bột giấy sản xuất bằng phương pháp kiềm hoặc sulphate được sản xuất bằng cách nấu sôi gỗ, thông thường ở dạng dăm mảnh, trong các dung dịch kiềm mạnh. Các loại bột giấy này được dùng trong việc sản xuất các sản phẩm hút nước cũng như trong sản xuất giấy và bìa cần độ bền cao.",
+        contentEn: "Soda or sulphate pulp is produced by boiling wood, usually in chip form, in strong alkaline solutions. These pulps are used in manufacturing absorbent products as well as in producing paper and paperboard requiring high strength."
+      },
+      {
+        code: "47.04",
+        titleVi: "Bột giấy hoá học từ gỗ, sản xuất bằng phương pháp sulphite, trừ loại hòa tan",
+        titleEn: "Chemical wood pulp, sulphite, other than dissolving grades",
+        contentVi: "Quy trình sulphite thông thường sử dụng một dung dịch axit và có tên từ các chất hóa học \"sulphite\" khác nhau. Bột giấy sản xuất bằng phương pháp sulphite được sử dụng, một mình hoặc trộn lẫn với các bột giấy khác, cho giấy viết hoặc giấy in khác nhau.",
+        contentEn: "The sulphite process usually employs an acid solution and takes its name from the various \"sulphite\" chemicals. Sulphite pulp is used, alone or mixed with other pulps, for various writing or printing papers."
+      },
+      {
+        code: "47.05",
+        titleVi: "Bột giấy từ gỗ thu được bằng việc kết hợp các phương pháp nghiền cơ học và hoá học",
+        titleEn: "Wood pulp obtained by a combination of mechanical and chemical pulping processes",
+        contentVi: "Nhóm này bao gồm các loại bột giấy từ gỗ thu được bằng cách phối hợp phương pháp cơ học và phương pháp hoá học. Các loại bột giấy này được mô tả khác nhau như là bột giấy bán hoá học, bột giấy hoá cơ.",
+        contentEn: "This heading covers wood pulps obtained by a combination of mechanical and chemical processes. These pulps are variously described as semi-chemical pulp, chemi-mechanical pulp."
+      }
+    ]
+  },
+  {
+    chapter: 48,
+    section: 10,
+    sectionTitleVi: "BỘT GIẤY TỪ GỖ HOẶC TỪ NGUYÊN LIỆU XƠ SỢI XENLULO KHÁC; GIẤY LOẠI HOẶC BÌA LOẠI THU HỒI (PHẾ LIỆU VÀ VỤN THỪA); GIẤY VÀ BÌA VÀ CÁC SẢN PHẨM CỦA CHÚNG",
+    sectionTitleEn: "PULP OF WOOD OR OF OTHER FIBROUS CELLULOSIC MATERIAL; RECOVERED (WASTE AND SCRAP) PAPER OR PAPERBOARD; PAPER AND PAPERBOARD AND ARTICLES THEREOF",
+    titleVi: "Giấy và bìa; các sản phẩm làm bằng bột giấy, bằng giấy hoặc bằng bìa",
+    titleEn: "Paper and paperboard; articles of paper pulp, of paper or of paperboard",
+    notesVi: [
+      "Theo mục đích của Chương này, trừ khi có yêu cầu khác, khi đề cập đến \"giấy\" đều kể đến bìa (bất kể độ dày hoặc định lượng tính trên m²).",
+      "Chương này không bao gồm: Các sản phẩm thuộc Chương 30; Lá phôi dập của nhóm 32.12; Các loại giấy thơm hoặc các loại giấy đã thấm tẩm hoặc tráng bằng các loại mỹ phẩm (Chương 33); Giấy hoặc tấm lót xenlulo đã thấm tẩm, tráng hoặc phủ bằng xà phòng hoặc chất tẩy (nhóm 34.01); và nhiều mặt hàng khác.",
+      "Trong Chương này \"giấy in báo\" có nghĩa là loại giấy không tráng sử dụng để in báo, có hàm lượng bột giấy từ gỗ thu được từ quá trình cơ học hoặc quá trình hoá cơ-hóa học không nhỏ hơn 50%, định lượng từ 40 g/m² đến 65 g/m².",
+      "Trong Chương này \"giấy và bìa kraft\" có nghĩa là loại giấy và bìa có hàm lượng bột giấy sản xuất bằng quá trình sulphat hoặc kiềm hóa học không dưới 80% so với tổng lượng bột giấy."
+    ],
+    notesEn: [
+      "For the purposes of this Chapter, except where the context otherwise requires, a reference to \"paper\" includes references to paperboard (irrespective of thickness or weight per m²).",
+      "This Chapter does not cover: Articles of Chapter 30; Stamping foils of heading 32.12; Perfumed papers or papers impregnated or coated with cosmetics (Chapter 33); Paper or cellulose wadding impregnated, coated or covered with soap or detergent (heading 34.01); and many other articles.",
+      "In this Chapter the expression \"newsprint\" means uncoated paper of a kind used for the printing of newspapers, of which not less than 50% by weight of the total fibre content consists of wood fibres obtained by a mechanical or chemi-mechanical process, weighing not less than 40 g/m² and not more than 65 g/m².",
+      "In this Chapter \"kraft paper and paperboard\" means paper and paperboard of which not less than 80% by weight of the total fibre content consists of fibres obtained by the chemical sulphate or soda processes."
+    ],
+    generalVi: "Chương này bao gồm giấy và bìa, tấm xenlulo và màng xơ sợi xenlulo, và các sản phẩm làm bằng bột giấy, bằng giấy hoặc bằng bìa. Các nhóm 48.01 đến 48.05 kể cả giấy và bìa được cán láng, làm bóng hoặc hoàn thiện bằng các phương pháp tương tự, làm giả hình bóng nước hoặc gia keo bề mặt.",
+    generalEn: "This Chapter covers paper and paperboard, cellulose wadding and webs of cellulose fibres, and articles of paper pulp, paper or paperboard. Headings 48.01 to 48.05 include paper and paperboard which have been subjected to calendering, glazing or similar finishing, false water-marking or surface sizing.",
+    headings: [
+      {
+        code: "48.01",
+        titleVi: "Giấy in báo, dạng cuộn hoặc tờ",
+        titleEn: "Newsprint, in rolls or sheets",
+        contentVi: "Nhóm này bao gồm giấy in báo như đã được định nghĩa trong Chú giải 4 của Chương này: giấy không tráng sử dụng để in báo, có hàm lượng bột giấy từ gỗ thu được từ quá trình cơ học hoặc hóa cơ không nhỏ hơn 50%, định lượng từ 40 g/m² đến 65 g/m².",
+        contentEn: "This heading covers newsprint as defined in Note 4 to this Chapter: uncoated paper used for printing newspapers, of which not less than 50% by weight of the total fibre content consists of wood fibres obtained by a mechanical or chemi-mechanical process, weighing not less than 40 g/m² and not more than 65 g/m²."
+      },
+      {
+        code: "48.02",
+        titleVi: "Giấy và bìa không tráng, loại dùng để viết, in hoặc các mục đích đồ bản khác, và giấy và bìa làm thẻ và giấy làm băng chưa đục lỗ, dạng cuộn hoặc dạng tờ hình chữ nhật (kể cả hình vuông)",
+        titleEn: "Uncoated paper and paperboard, of a kind used for writing, printing or other graphic purposes, and non perforated punch-cards and punch tape paper, in rolls or rectangular (including square) sheets",
+        contentVi: "Nhóm này bao gồm giấy và bìa, loại dùng để viết, in hoặc các mục đích đồ bản khác, như được định nghĩa trong Chú giải 5 của Chương này. Giấy này được làm chủ yếu từ bột giấy tẩy trắng hoặc bột giấy thu được từ quá trình cơ học hoặc quá trình hoá học-cơ học.",
+        contentEn: "This heading covers paper and paperboard, of a kind used for writing, printing or other graphic purposes, as defined in Note 5 to this Chapter. This paper is made mainly from bleached pulp or from pulp obtained by a mechanical or chemi-mechanical process."
+      },
+      {
+        code: "48.03",
+        titleVi: "Giấy dùng làm giấy vệ sinh hoặc giấy ăn, khăn giấy lau hoặc các loại giấy tương tự sử dụng trong gia đình hoặc vệ sinh, tấm xenlulo và màng xơ xenlulo",
+        titleEn: "Toilet or facial tissue stock, towel or napkin stock and similar paper of a kind used for household or sanitary purposes, cellulose wadding and webs of cellulose fibres",
+        contentVi: "Nhóm này bao gồm các loại giấy dùng làm giấy vệ sinh, giấy ăn, khăn giấy lau hoặc các loại giấy tương tự sử dụng trong gia đình hoặc vệ sinh. Các sản phẩm này thường được làm từ bột giấy tẩy trắng và có đặc tính mềm mại, thấm hút.",
+        contentEn: "This heading covers toilet or facial tissue stock, towel or napkin stock and similar paper of a kind used for household or sanitary purposes. These products are usually made from bleached pulp and have softness and absorbent properties."
+      }
+    ]
+  },
+  {
+    chapter: 49,
+    section: 10,
+    sectionTitleVi: "BỘT GIẤY TỪ GỖ HOẶC TỪ NGUYÊN LIỆU XƠ SỢI XENLULO KHÁC; GIẤY LOẠI HOẶC BÌA LOẠI THU HỒI (PHẾ LIỆU VÀ VỤN THỪA); GIẤY VÀ BÌA VÀ CÁC SẢN PHẨM CỦA CHÚNG",
+    sectionTitleEn: "PULP OF WOOD OR OF OTHER FIBROUS CELLULOSIC MATERIAL; RECOVERED (WASTE AND SCRAP) PAPER OR PAPERBOARD; PAPER AND PAPERBOARD AND ARTICLES THEREOF",
+    titleVi: "Sách, báo, tranh ảnh và các sản phẩm khác của công nghiệp in; các loại bản thảo viết bằng tay, đánh máy và sơ đồ",
+    titleEn: "Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",
+    notesVi: [
+      "Chương này không bao gồm: (a) Phim tạo ảnh âm bản hoặc dương bản (Chương 37); (b) Bản đồ, sơ đồ hoặc quả địa cầu, dạng nổi (nhóm 90.23); (c) Bộ bài để chơi hoặc hàng hoá khác thuộc Chương 95; hoặc (d) Bản khắc, bản in gốc, tem bưu chính hoặc tem thuế, đồ cổ có tuổi trên 100 năm hoặc các loại hàng hoá khác thuộc Chương 97.",
+      "Theo mục đích của Chương 49, khái niệm \"đã in\" cũng có nghĩa là đã được tái bản bằng máy nhân bản, được tạo ra nhờ một máy xử lý dữ liệu tự động, được rập nổi, được chụp lại, được photocopy, được copy nhiệt hoặc được đánh máy.",
+      "Các loại báo, tạp chí chuyên ngành và các xuất bản phẩm định kỳ được đóng bìa không phải bìa giấy mềm được phân loại vào nhóm 49.01.",
+      "Nhóm 49.01 cũng bao gồm: Bộ sưu tập các tái bản của các tác phẩm nghệ thuật; Tập tranh ảnh minh họa, và phụ lục cho một cuốn sách; Các phần đã in của sách hoặc sách nhỏ."
+    ],
+    notesEn: [
+      "This Chapter does not cover: (a) Photographic negatives or positives on transparent bases (Chapter 37); (b) Maps, plans or globes, in relief (heading 90.23); (c) Playing cards or other goods of Chapter 95; or (d) Original engravings, prints or lithographs, postage or revenue stamps, antiques of an age exceeding one hundred years or other articles of Chapter 97.",
+      "For the purposes of Chapter 49, the term \"printed\" also means reproduced by means of a duplicating machine, produced under the control of an automatic data processing machine, embossed, photographed, photocopied, thermocopied or typewritten.",
+      "Newspapers, journals and periodicals which are bound otherwise than in paper are to be classified in heading 49.01.",
+      "Heading 49.01 also covers: A collection of printed reproductions of works of art; A pictorial supplement accompanying a bound volume; Printed parts of books or booklets."
+    ],
+    generalVi: "Trừ một số ít ngoại lệ, Chương này bao gồm tất cả các ấn phẩm mà bản chất và công dụng chủ yếu của chúng được quyết định bởi thực tế là chúng được in với các motip, các ký tự hoặc biểu tượng tranh ảnh. Theo mục đích Chương này, thuật ngữ \"đã in\" không chỉ bao gồm việc sao chép bằng các biện pháp in thủ công hoặc in cơ học, mà còn bao gồm việc sao chép bằng các máy nhân bản, chụp ảnh, photocopy, copy nhiệt hoặc đánh máy.",
+    generalEn: "With a few exceptions, this Chapter covers all publications and printed matter in which the essential nature and use is determined by the fact that they are printed with motifs, characters or pictorial representations. For the purposes of this Chapter, the term \"printed\" includes not only reproduction by manual printing processes or mechanical printing, but also reproduction by duplicating machines, photography, photocopying, thermocopying or typewriting.",
+    headings: [
+      {
+        code: "49.01",
+        titleVi: "Các loại sách in, sách gấp, sách mỏng và các ấn phẩm in tương tự, dạng tờ đơn hoặc không phải dạng tờ đơn",
+        titleEn: "Printed books, brochures, leaflets and similar printed matter, whether or not in single sheets",
+        contentVi: "Nhóm này bao gồm hầu như tất cả các xuất bản phẩm và ấn phẩm đọc, có hoặc không có minh hoạ, trừ các ấn phẩm quảng cáo và sản phẩm được chi tiết cụ thể hơn ở các nhóm khác. Bao gồm: (A) Sách và sách nhỏ; (B) Sách gấp, sách chuyên đề và tờ rơi; (C) Văn bản in trên các tờ đóng bằng kẹp cơ động.",
+        contentEn: "This heading covers virtually all publications and printed reading matter, illustrated or not, with the exception of publicity matter and products more specifically covered by other headings. It includes: (A) Books and booklets; (B) Brochures, pamphlets and leaflets; (C) Textual matter in the form of sheets for binding in loose-leaf binders."
+      },
+      {
+        code: "49.02",
+        titleVi: "Báo, tạp chí chuyên ngành và xuất bản phẩm định kỳ, có hoặc không có minh họa, có hoặc không chứa tư liệu quảng cáo",
+        titleEn: "Newspapers, journals and periodicals, whether or not illustrated or containing advertising material",
+        contentVi: "Nhóm này bao gồm các loại báo, tạp chí chuyên ngành và xuất bản phẩm định kỳ được xuất bản đều đặn theo những khoảng thời gian xác định. Để được phân loại vào nhóm này, các xuất bản phẩm phải được đóng bìa bằng giấy mềm.",
+        contentEn: "This heading covers newspapers, journals and periodicals that are published regularly at fixed intervals. To be classified in this heading, the publications must be bound in soft paper covers."
+      },
+      {
+        code: "49.03",
+        titleVi: "Sách tranh ảnh cho trẻ em, sách để vẽ hoặc tô màu",
+        titleEn: "Children's picture, drawing or colouring books",
+        contentVi: "Theo Chú giải 6 của Chương này, \"sách tranh ảnh cho trẻ em\" có nghĩa là loại sách dành cho trẻ em trong đó chủ yếu là tranh ảnh và lời chỉ là phụ. Nhóm này cũng bao gồm các loại sách để vẽ hoặc tô màu dành cho trẻ em.",
+        contentEn: "For the purposes of this heading, \"children's picture books\" means books for children in which the pictures are the main feature and the text is subsidiary. The heading also covers drawing or colouring books for children."
+      },
+      {
+        code: "49.04",
+        titleVi: "Nhạc, đã in hoặc viết tay, có hoặc không đóng bìa hoặc minh họa",
+        titleEn: "Music, printed or in manuscript, whether or not bound or illustrated",
+        contentVi: "Nhóm này bao gồm các bản nhạc, đã in hoặc viết tay, dù được đóng bìa hay không và dù có minh họa hay không. Bao gồm các loại nhạc phổ, tổng phổ, và các phần riêng biệt của các tác phẩm âm nhạc.",
+        contentEn: "This heading covers printed or manuscript music, whether bound or not and whether illustrated or not. It includes musical scores, full orchestral scores, and individual parts of musical works."
+      }
+    ]
+  },
+  {
+    chapter: 50,
+    section: 11,
+    sectionTitleVi: "NGUYÊN LIỆU DỆT VÀ CÁC SẢN PHẨM DỆT",
+    sectionTitleEn: "TEXTILES AND TEXTILE ARTICLES",
+    titleVi: "Tơ tằm",
+    titleEn: "Silk",
+    notesVi: [
+      "Phần này không bao gồm: Lông cứng hoặc lông động vật dùng làm bàn chải (nhóm 05.02); Tóc người hoặc các sản phẩm bằng tóc người (nhóm 05.01, 67.03 hoặc 67.04); Xơ của cây bông hoặc các vật liệu thực vật khác thuộc Chương 14; Amiăng thuộc nhóm 25.24; và nhiều mặt hàng khác.",
+      "Hàng hóa có thể phân loại vào các Chương từ 50 đến 55 và được làm từ hỗn hợp của hai hoặc nhiều loại vật liệu dệt được phân loại như sản phẩm đó làm từ vật liệu dệt nào chiếm khối lượng trội hơn.",
+      "Theo mục đích của Phần này, khái niệm \"sợi có độ bền cao\" có nghĩa là loại sợi có độ bền tương đối đo bằng cN/tex lớn hơn các tiêu chuẩn nhất định.",
+      "Theo mục đích của Phần này, khái niệm \"hoàn thiện\" nghĩa là: đã cắt thành hình trừ hình vuông hoặc hình chữ nhật; được tạo ra trong công đoạn hoàn thiện sẵn sàng để sử dụng; cắt theo cỡ và có cạnh được làm kín bằng nhiệt; đã viền lại hoặc cuộn mép; được ghép bằng cách khâu, may, dán dính."
+    ],
+    notesEn: [
+      "This Section does not cover: Animal brush-making bristles or hair (heading 05.02); Human hair or articles of human hair (heading 05.01, 67.03 or 67.04); Cotton linters or other vegetable materials of Chapter 14; Asbestos of heading 25.24; and many other articles.",
+      "Goods classifiable in Chapters 50 to 55 and made of mixtures of two or more textile materials are to be classified as if consisting wholly of that textile material which predominates by weight.",
+      "For the purposes of this Section, the expression \"high tenacity yarn\" means yarn having a tenacity measured in cN/tex exceeding certain standards.",
+      "For the purposes of this Section, the expression \"made up\" means: cut otherwise than into rectangles; produced in the finished state ready for use; cut to size and with at least one heat-sealed edge; hemmed or with rolled edges; assembled by sewing, glueing or otherwise."
+    ],
+    generalVi: "Chương này bao gồm tơ tằm ở các dạng khác nhau, từ kén tằm đến sợi tơ tằm, phế liệu tơ tằm và sợi từ phế liệu tơ tằm, vải dệt thoi từ tơ tằm hoặc từ phế liệu tơ tằm. Tơ tằm là sợi xơ liên tục được sản xuất bởi con tằm khi nhả kén. Tơ tằm có độ bóng tự nhiên, mềm mại và bền.",
+    generalEn: "This Chapter covers silk in its various forms, from silkworm cocoons to silk yarn, silk waste and yarn spun from silk waste, woven fabrics of silk or of silk waste. Silk is the continuous fibre produced by the silkworm when spinning its cocoon. Silk has natural lustre, softness and strength.",
+    headings: [
+      {
+        code: "50.01",
+        titleVi: "Kén tằm thích hợp cho việc kéo sợi",
+        titleEn: "Silk-worm cocoons suitable for reeling",
+        contentVi: "Nhóm này bao gồm kén tằm thích hợp cho việc kéo sợi. Kén tằm là lớp vỏ bằng tơ do con tằm nhả ra để bao bọc nhộng trong quá trình biến đổi. Chỉ những kén nguyên vẹn, không bị hư hỏng mới phù hợp cho việc kéo sợi.",
+        contentEn: "This heading covers silkworm cocoons suitable for reeling. A cocoon is the silk casing spun by the silkworm to envelop the chrysalis during its transformation. Only intact, undamaged cocoons are suitable for reeling."
+      },
+      {
+        code: "50.02",
+        titleVi: "Tơ tằm sống (chưa xe)",
+        titleEn: "Raw silk (not thrown)",
+        contentVi: "Nhóm này bao gồm tơ tằm sống, tức là tơ tằm ở dạng mà nó đã được kéo từ kén nhưng chưa được xe hoặc gia công thêm. Tơ tằm sống bao gồm một số sợi filament được rút ra đồng thời từ nhiều kén và kết dính với nhau bởi keo tơ (sericin).",
+        contentEn: "This heading covers raw silk, i.e., silk in the form in which it has been reeled from the cocoons but has not yet been thrown or further processed. Raw silk consists of a number of filaments drawn simultaneously from several cocoons and held together by the silk gum (sericin)."
+      },
+      {
+        code: "50.03",
+        titleVi: "Phế liệu tơ tằm (kể cả kén không thích hợp cho việc kéo sợi, phế liệu sợi và sợi tái chế từ nguyên liệu rời)",
+        titleEn: "Silk waste (including cocoons unsuitable for reeling, yarn waste and garnetted stock)",
+        contentVi: "Nhóm này bao gồm phế liệu tơ tằm các loại, bao gồm: kén không thích hợp cho việc kéo sợi (kén bị hư hỏng, kén đôi, kén chết); phế liệu sợi tơ tằm; sợi tái chế từ nguyên liệu rời (sợi được làm từ giẻ rách hoặc vải vụn bằng tơ tằm).",
+        contentEn: "This heading covers silk waste of all kinds, including: cocoons unsuitable for reeling (damaged cocoons, double cocoons, dead cocoons); silk yarn waste; garnetted stock (yarn made from silk rags or fabric waste)."
+      },
+      {
+        code: "50.04",
+        titleVi: "Sợi tơ tằm (trừ sợi xe từ phế liệu tơ tằm), chưa đóng gói để bán lẻ",
+        titleEn: "Silk yarn (other than yarn spun from silk waste) not put up for retail sale",
+        contentVi: "Nhóm này bao gồm sợi tơ tằm (trừ sợi xe từ phế liệu tơ tằm) chưa đóng gói để bán lẻ. Sợi tơ tằm được sản xuất bằng cách xe một hoặc nhiều sợi tơ tằm sống với nhau.",
+        contentEn: "This heading covers silk yarn (other than yarn spun from silk waste) not put up for retail sale. Silk yarn is made by throwing one or more strands of raw silk together."
+      },
+      {
+        code: "50.05",
+        titleVi: "Sợi xe từ phế liệu tơ tằm, chưa đóng gói để bán lẻ",
+        titleEn: "Yarn spun from silk waste, not put up for retail sale",
+        contentVi: "Nhóm này bao gồm sợi xe từ phế liệu tơ tằm (chải thô hoặc chải kỹ) chưa đóng gói để bán lẻ. Loại sợi này được sản xuất từ phế liệu tơ tằm bằng phương pháp xe thông thường như đối với các xơ staple khác.",
+        contentEn: "This heading covers yarn spun from silk waste (carded or combed) not put up for retail sale. This yarn is produced from silk waste by the ordinary spinning methods used for other staple fibres."
+      },
+      {
+        code: "50.06",
+        titleVi: "Sợi tơ tằm và sợi xe từ phế liệu tơ tằm, đã đóng gói để bán lẻ; ruột con tằm",
+        titleEn: "Silk yarn and yarn spun from silk waste, put up for retail sale; silk-worm gut",
+        contentVi: "Nhóm này bao gồm sợi tơ tằm và sợi xe từ phế liệu tơ tằm, đã đóng gói để bán lẻ. Nhóm này cũng bao gồm ruột con tằm, là sợi monofilament thu được từ tuyến tơ của con tằm, được sử dụng làm dây câu cá.",
+        contentEn: "This heading covers silk yarn and yarn spun from silk waste, put up for retail sale. It also includes silk-worm gut, which is monofilament obtained from the silk glands of silkworms, used for fishing lines."
+      },
+      {
+        code: "50.07",
+        titleVi: "Vải dệt thoi từ sợi tơ tằm hoặc từ phế liệu tơ tằm",
+        titleEn: "Woven fabrics of silk or of silk waste",
+        contentVi: "Nhóm này bao gồm vải dệt thoi từ sợi tơ tằm hoặc từ phế liệu tơ tằm. Các loại vải này bao gồm nhiều loại vải như satin, taffeta, crêpe, organza, và các loại vải tơ tằm khác được sử dụng trong may mặc và trang trí.",
+        contentEn: "This heading covers woven fabrics of silk or of silk waste. These include many types of fabrics such as satin, taffeta, crêpe, organza, and other silk fabrics used for apparel and furnishing."
+      }
+    ]
   }
 ];
 
@@ -2221,6 +2705,26 @@ export const getSectionNote = (section: number): { vi: string; en: string } => {
     return {
       vi: "Phần này bao gồm plastic và các sản phẩm bằng plastic; cao su và các sản phẩm bằng cao su.",
       en: "This Section covers plastics and articles thereof; rubber and articles thereof."
+    };
+  } else if (section === 8) {
+    return {
+      vi: "Phần này bao gồm da sống, da thuộc, da lông và các sản phẩm từ da; yên cương và bộ đồ yên cương; hàng du lịch, túi xách tay và các loại đồ chứa tương tự; các mặt hàng từ ruột động vật (trừ ruột con tằm).",
+      en: "This Section covers raw hides and skins, leather, furskins and articles thereof; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)."
+    };
+  } else if (section === 9) {
+    return {
+      vi: "Phần này bao gồm gỗ và các mặt hàng bằng gỗ; than từ gỗ; lie và các sản phẩm bằng lie; các sản phẩm từ rơm, cỏ giấy hoặc các vật liệu tết bện khác; các sản phẩm bằng liễu gai và song mây.",
+      en: "This Section covers wood and articles of wood; wood charcoal; cork and articles of cork; manufactures of straw, of esparto or of other plaiting materials; basketware and wickerwork."
+    };
+  } else if (section === 10) {
+    return {
+      vi: "Phần này bao gồm bột giấy từ gỗ hoặc từ nguyên liệu xơ sợi xenlulo khác; giấy loại hoặc bìa loại thu hồi (phế liệu và vụn thừa); giấy và bìa và các sản phẩm của chúng.",
+      en: "This Section covers pulp of wood or of other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard; paper and paperboard and articles thereof."
+    };
+  } else if (section === 11) {
+    return {
+      vi: "Phần này bao gồm nguyên liệu dệt và các sản phẩm dệt, bao gồm tơ tằm, lông cừu, bông, các loại xơ dệt thực vật và nhân tạo khác, vải dệt, hàng may mặc và các sản phẩm dệt khác.",
+      en: "This Section covers textiles and textile articles, including silk, wool, cotton, other vegetable and man-made textile fibres, woven fabrics, apparel and other textile products."
     };
   }
   return { vi: "", en: "" };
