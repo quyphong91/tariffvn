@@ -2780,6 +2780,108 @@ export const chapterNotesData: ChapterNote[] = [
         contentEn: "This heading covers woven fabrics made of coarse animal hair or of horsehair. Fabrics of coarse animal hair are used as cover materials for furniture or as interlinings. However, woven fabrics of horsehair may be woven from single horsehairs (heading 05.11)."
       }
     ]
+  },
+  {
+    chapter: 52,
+    section: 11,
+    sectionTitleVi: "NGUYÊN LIỆU DỆT VÀ CÁC SẢN PHẨM DỆT",
+    sectionTitleEn: "TEXTILES AND TEXTILE ARTICLES",
+    titleVi: "Bông",
+    titleEn: "Cotton",
+    notesVi: [
+      "Theo mục đích của các phân nhóm 5209.42 và 5211.42, khái niệm \"denim\" là vải dệt từ các sợi có các màu khác nhau, kiểu dệt là vân chéo 3 sợi hoặc vân chéo 4 sợi, kể cả vân chéo gãy, mặt phải của vải có hiệu ứng dọc, các sợi dọc được nhuộm cùng một màu và sợi ngang là sợi không tẩy trắng, đã tẩy trắng, nhuộm màu xám hoặc nhuộm màu nhạt hơn so với màu sợi dọc."
+    ],
+    notesEn: [
+      "For the purposes of subheadings 5209.42 and 5211.42, the expression \"denim\" means fabrics of yarns of different colours, of 3-thread or 4-thread twill, including broken twill, warp faced, the warp yarns of which are of one and the same colour and the weft yarns of which are unbleached, bleached, dyed grey or coloured a lighter shade of the colour of the warp yarns."
+    ],
+    generalVi: "Khi đọc Chú giải chi tiết Chương này cần phải kết hợp xem xét với Chú giải tổng quát của Phần XI. Nói chung, Chương này đề cập tới các loại sợi bông (xơ bông, phế liệu bông, bông đã chải thô hoặc chải kỹ), chỉ khâu làm từ bông, sợi bông, và các loại vải dệt thoi từ bông.",
+    generalEn: "The Explanatory Notes to this Chapter should be read in conjunction with the General Explanatory Note to Section XI. In general, this Chapter deals with cotton yarns (cotton fibres, cotton waste, carded or combed cotton), cotton sewing thread, cotton yarn, and woven fabrics of cotton.",
+    headings: [
+      {
+        code: "52.01",
+        titleVi: "Xơ bông, chưa chải thô hoặc chưa chải kỹ",
+        titleEn: "Cotton, not carded or combed",
+        contentVi: "Những hạt của quả bông (quả có vỏ dạng quả đậu, quả) của cây bông (Gossypium) được bao phủ bởi những xơ bông. Thành phần cơ bản của những xơ này là xenlulo, và được bọc ngoài bởi chất sáp. Bề mặt ngoài của chúng là trơn nhẵn và có màu trắng, vàng nhạt hay thậm chí là nâu nhạt hoặc hơi đỏ tự nhiên. Nhóm này bao gồm những xơ bông chưa được chải thô hoặc chải kỹ, vừa thu hoạch (bông hạt), hay đơn thuần chỉ là vừa được tỉa; nhóm này cũng bao gồm cả xơ bông (trừ xơ và phế liệu) đã được làm sạch, tẩy trắng, nhuộm màu hay làm khô. Nhóm này không bao gồm: Mền xơ, bông (nhóm 30.05 hay 56.01); Phế liệu bông (nhóm 52.02); Bông đã được chải thô hay chải kỹ (nhóm 52.03).",
+        contentEn: "The seeds contained in the bolls (pods, fruit) of the cotton plant (Gossypium) are covered with cotton fibres. The essential constituent of these fibres is cellulose, and they are covered with a waxy substance. Their outer surface is smooth, and their natural colour white, yellowish or even brownish or reddish. This heading covers uncarded and uncombed cotton fibres as harvested (seed cotton), or merely ginned; it also includes cotton fibres (other than linters and waste) which have been cleaned, bleached, dyed or rendered absorbent. The heading excludes: Wadding (heading 30.05 or 56.01); Cotton waste (heading 52.02); Carded or combed cotton (heading 52.03)."
+      },
+      {
+        code: "52.02",
+        titleVi: "Phế liệu bông (kể cả phế liệu sợi và bông tái chế)",
+        titleEn: "Cotton waste (including yarn waste and garnetted stock)",
+        contentVi: "Nhìn chung, nhóm này bao gồm bông phế liệu thu được khi chuẩn bị cho việc kéo sợi hay trong các hoạt động kéo sợi, dệt, đan, v.v... hay được tái chế từ những mặt hàng làm từ bông. Do vậy mà nhóm này bao gồm: Phế liệu thu được từ quá trình chải kỹ (thường là những xơ vụn chải kỹ); sợi thu từ trục cán của quá trình chải thô hay chải kỹ; những sợi đứt tách ra từ quá trình kéo sợi; xơ vụn từ con cúi hoặc sợi thô; xơ bay thu từ quá trình chải thô; sợi rối hoặc các sợi phế liệu khác; sợi và xơ thu được từ quá trình tái chế vải vụn. Nhóm này không bao gồm: Xơ của cây bông (nhóm 14.04); Mền xơ, bông (nhóm 30.05 hay 56.01); Phế liệu bông, đã chải thô hay chải kỹ (nhóm 52.03).",
+        contentEn: "In general, this heading covers waste cotton obtained when cotton is prepared for spinning, or during spinning operations, weaving, knitting, etc., or from the garnetting of cotton goods. It thus includes: Combing waste (usually referred to as comber noils); strippings recovered from carding or combing cylinders; broken fibres detached during the drawing process; fragments of slivers or rovings; carding fly; tangled yarn and other yarn waste; yarn and fibres resulting from the garnetting of rags. The heading excludes: Cotton linters (heading 14.04); Wadding (heading 30.05 or 56.01); Carded or combed cotton waste (heading 52.03)."
+      },
+      {
+        code: "52.03",
+        titleVi: "Xơ bông, chải thô hoặc chải kỹ",
+        titleEn: "Cotton, carded or combed",
+        contentVi: "Nhóm này bao gồm xơ bông (kể cả nguyên liệu bông tái chế hay phế liệu bông khác) mà đã được chải thô hay chải kỹ, đã được hay chưa được chuẩn bị cho kéo sợi. Mục đích chính của quá trình chải thô là để gỡ các xơ bông rối, sắp xếp chúng ít nhiều song song và loại bỏ toàn bộ hay phần lớn các xơ này khỏi những chất bên ngoài. Những xơ sau đó ở dạng màng rộng (lớp bông) thường được kết chặt lại tạo thành cúi chải. Chải kỹ là quá trình chủ yếu cho việc kéo sợi từ bông xơ dài, qua quá trình này thì những tạp chất lạ của xơ và xơ ngắn sẽ được loại bỏ dưới dạng phế liệu của quá trình chải kỹ; chỉ có những xơ dài, được xếp song song được giữ lại. Những sản phẩm của nhóm này có thể được tẩy trắng hoặc nhuộm màu.",
+        contentEn: "This heading covers cotton (including garnetted stock and other cotton waste) which has been carded or combed, whether or not further prepared for spinning. The main purpose of carding is to disentangle the cotton fibres, lay them more or less parallel, and entirely or largely free them from any extraneous matter they may still contain. The fibres are then in the form of wide webs (laps) which are generally condensed into slivers. Combing, which is chiefly practised for the spinning of long staple cotton, removes the last traces of extraneous matter clinging to the fibres and eliminates the shorter fibres in the form of combing waste; only the longer fibres, lying parallel, remain. The products of this heading may be bleached or dyed."
+      },
+      {
+        code: "52.04",
+        titleVi: "Chỉ khâu làm từ bông đã hoặc chưa đóng gói để bán lẻ",
+        titleEn: "Cotton sewing thread, whether or not put up for retail sale",
+        contentVi: "Nhóm này bao gồm chỉ khâu làm từ bông ở các dạng và phù hợp với điều kiện đã được mô tả trong Phần (I) (B) (4) của Chú giải Tổng quát Phần XI. Tuy nhiên, nếu sợi chỉ nằm trong phạm vi định nghĩa của sợi xe, v.v... (xem Phần (1) (B) (2) của Chú giải Tổng quát thuộc Phần XI) thì bị loại khỏi nhóm này (nhóm 56.07). Chỉ khâu vẫn thuộc nhóm này dù đã được hay chưa được đóng gói để bán lẻ hay đã được gia công như nêu tại Phần (I) (B) (1) của Chú giải Tổng quát Phần XI.",
+        contentEn: "This heading covers cotton sewing thread in the forms and subject to the conditions described in Part (I) (B) (4) of the General Explanatory Note to Section XI. However, if such thread is within the definition of twine, etc. (see Part (I) (B) (2) of the General Explanatory Note to Section XI) it is excluded (heading 56.07). Sewing thread remains in this heading whether or not put up for retail sale or processed as indicated in Part (I) (B) (1) of the General Explanatory Note to Section XI."
+      },
+      {
+        code: "52.05",
+        titleVi: "Sợi bông (trừ chỉ khâu), có hàm lượng bông chiếm từ 85% trở lên tính theo khối lượng, chưa đóng gói để bán lẻ",
+        titleEn: "Cotton yarn (other than sewing thread), containing 85 % or more by weight of cotton, not put up for retail sale",
+        contentVi: "Nhóm này bao gồm sợi bông (trừ chỉ khâu), có thể là sợi đơn hoặc sợi xe, thu được sau quá trình kéo sợi thô thuộc nhóm 52.03, miễn là có tỷ trọng bông từ 85% trở lên. Tuy nhiên, những sợi như vậy không thuộc nhóm này nếu chúng thuộc phạm vi định nghĩa của dây xe, chão bện, dây thừng, v.v... (nhóm 56.07) hay đã được đóng gói để bán lẻ (xem mục (I) (B) (2) và (3) của Chú giải Tổng quát Phần XI). Sợi vẫn thuộc nhóm này dù đã qua hoặc không qua quá trình xử lý nêu tại mục (I) (B) (1) của Chú giải Tổng quát Phần XI.",
+        contentEn: "This heading covers cotton yarn (other than sewing thread), whether single or multiple (folded), obtained by spinning the rovings of heading 52.03, provided that they contain 85 % or more by weight of cotton. However, such yarn is excluded if it is within the definition of twine, cordage, rope, etc. (heading 56.07) or put up for retail sale (see Parts (I) (B) (2) and (3) of the General Explanatory Note to Section XI). The yarns remain in this heading whether or not processed as indicated in Part (I) (B) (1) of the General Explanatory Note to Section XI."
+      },
+      {
+        code: "52.06",
+        titleVi: "Sợi bông (trừ chỉ khâu), có hàm lượng bông chiếm dưới 85% tính theo khối lượng, chưa đóng gói để bán lẻ",
+        titleEn: "Cotton yarn (other than sewing thread), containing less than 85 % by weight of cotton, not put up for retail sale",
+        contentVi: "Chú giải Chi tiết của nhóm 52.05 được áp dụng tương tự với sợi của nhóm này. Nhóm này bao gồm sợi bông (trừ chỉ khâu) có tỷ trọng bông dưới 85%, chưa đóng gói để bán lẻ.",
+        contentEn: "The Explanatory Note to heading 52.05 applies, mutatis mutandis, to the yarns of this heading. This heading covers cotton yarn (other than sewing thread) containing less than 85% by weight of cotton, not put up for retail sale."
+      },
+      {
+        code: "52.07",
+        titleVi: "Sợi bông (trừ chỉ khâu), đã đóng gói để bán lẻ",
+        titleEn: "Cotton yarn (other than sewing thread), put up for retail sale",
+        contentVi: "Nhóm này bao gồm cả sợi bông (trừ chỉ khâu) khi đóng gói để bán lẻ, ở các dạng và phù hợp với các điều kiện được mô tả trong Phần (I) (B) (3) của Chú giải Tổng quát Phần XI.",
+        contentEn: "This heading covers cotton yarn (other than sewing thread) when put up for retail sale, in the forms and subject to the conditions described in Part (I) (B) (3) of the General Explanatory Note to Section XI."
+      },
+      {
+        code: "52.08",
+        titleVi: "Vải dệt thoi từ bông, có hàm lượng bông chiếm từ 85% trở lên tính theo khối lượng, định lượng không quá 200 g/m²",
+        titleEn: "Woven fabrics of cotton, containing 85 % or more by weight of cotton, weighing not more than 200 g/m²",
+        contentVi: "Nhóm này bao gồm các loại vải dệt thoi (như đã định nghĩa trong Phần (I) (C) của Chú giải tổng quát Phần XI) làm từ sợi bông có tỷ trọng bông từ 85% trở lên và có định lượng không quá 200 g/m². Các loại vải dệt thoi ở các Chương từ 50 đến 55 có thể chưa được tẩy, đã giặt, đã tẩy, đã nhuộm, dệt từ các sợi có màu khác nhau, đã in, đã phủ màng, đã kiềm bóng, đã chuốt bóng, đã tạo nhiễu, đã chải tuyết, đã xếp nếp, đã chuội và hồ, đã đốt lông v.v... Nhóm này không bao gồm: Băng dùng trong y tế, đã tẩm thuốc hay đã đóng gói để bán lẻ (nhóm 30.05); Các loại vải dệt nhóm 58.01; Vải khăn lông và các loại vải dệt thoi tạo vòng lông tương tự (nhóm 58.02); Vải dệt quấn (nhóm 58.03); Vải dệt thoi phục vụ cho mục đích kỹ thuật, thuộc nhóm 59.11.",
+        contentEn: "This heading covers woven fabrics (as defined in Part (I) (C) of the General Explanatory Note to Section XI) made of cotton yarn containing 85% or more by weight of cotton and weighing not more than 200 g/m². The woven fabrics of Chapters 50 to 55 may be unbleached, scoured, bleached, dyed, made from yarns of different colours, printed, clouded, mercerised, glazed, moiré, raised (napped), goffered, fulled, gassed (singed), etc. The heading excludes: Bandages, medicated or put up for retail sale (heading 30.05); Fabrics of heading 58.01; Terry towelling and similar terry fabrics (heading 58.02); Gauze (heading 58.03); Woven fabrics for technical uses, of heading 59.11."
+      },
+      {
+        code: "52.09",
+        titleVi: "Vải dệt thoi từ bông, có hàm lượng bông chiếm từ 85% trở lên tính theo khối lượng, định lượng trên 200 g/m²",
+        titleEn: "Woven fabrics of cotton, containing 85 % or more by weight of cotton, weighing more than 200 g/m²",
+        contentVi: "Chú giải chi tiết của nhóm 52.08 được áp dụng tương tự với các mặt hàng của nhóm này. Nhóm này bao gồm các loại vải dệt thoi làm từ sợi bông có tỷ trọng bông từ 85% trở lên và có định lượng trên 200 g/m².",
+        contentEn: "The Explanatory Note to heading 52.08 applies, mutatis mutandis, to the products of this heading. This heading covers woven fabrics of cotton containing 85% or more by weight of cotton, weighing more than 200 g/m²."
+      },
+      {
+        code: "52.10",
+        titleVi: "Vải dệt thoi từ bông, có hàm lượng bông chiếm dưới 85% tính theo khối lượng, pha chủ yếu hoặc pha duy nhất với xơ sợi nhân tạo, có định lượng không quá 200 g/m²",
+        titleEn: "Woven fabrics of cotton, containing less than 85 % by weight of cotton, mixed mainly or solely with man-made fibres, weighing not more than 200 g/m²",
+        contentVi: "Nhóm này bao gồm các loại vải dệt như đã định nghĩa trong Phần (I) (C) của Chú giải tổng quát Phần XI. Nhóm này cũng bao gồm các loại vải được phân loại như là vải bông theo Chú giải 2 Phần XI và với điều kiện chúng phải đáp ứng những tiêu chuẩn sau: (a) Có tỷ trọng bông dưới 85%; (b) Được pha chủ yếu hay chỉ pha duy nhất với xơ nhân tạo; (c) Trọng lượng không quá 200g/m². Khi tính toán thành phần, phải nhớ rằng tổng trọng lượng của sợi nhân tạo phải được xem xét, không có sự phân biệt giữa sợi filament và xơ staple. Nhóm này không bao gồm: Băng dùng trong y tế, đã tẩm thuốc hay đã đóng gói để bán lẻ (nhóm 30.05); Các loại vải dệt nhóm 58.01; Vải khăn lông và các loại vải dệt thoi tạo vòng lông tương tự (nhóm 58.02); Vải dệt quấn (nhóm 58.03); Vải dệt thoi phục vụ cho mục đích kỹ thuật, thuộc nhóm 59.11.",
+        contentEn: "This heading covers woven fabrics as defined in Part (I) (C) of the General Explanatory Note to Section XI. It covers these fabrics provided they are classified as cotton fabrics by the application of Note 2 to Section XI and provided they meet the following specification: (a) Contain less than 85% by weight of cotton; (b) Are mixed mainly or solely with man-made fibres; (c) Weigh not more than 200 g/m². In calculating the proportions it must be remembered that the total weight of man-made fibres is to be taken into consideration, no distinction being made between filaments and staple fibres. The heading does not include: Bandages, medicated or put up for retail sale (heading 30.05); Fabrics of heading 58.01; Terry towelling and similar terry fabrics (heading 58.02); Gauze (heading 58.03); Woven fabrics for technical uses, of heading 59.11."
+      },
+      {
+        code: "52.11",
+        titleVi: "Vải dệt thoi từ bông, có hàm lượng bông chiếm dưới 85% tính theo khối lượng, pha chủ yếu hoặc pha duy nhất với xơ sợi nhân tạo, có định lượng trên 200 g/m²",
+        titleEn: "Woven fabrics of cotton, containing less than 85 % by weight of cotton, mixed mainly or solely with man-made fibres, weighing more than 200 g/m²",
+        contentVi: "Chú giải chi tiết nhóm 52.10 được áp dụng tương tự với các mặt hàng của nhóm này. Nhóm này bao gồm các loại vải dệt thoi từ bông có tỷ trọng bông dưới 85%, pha chủ yếu hoặc pha duy nhất với xơ sợi nhân tạo, có định lượng trên 200 g/m².",
+        contentEn: "The Explanatory Note to heading 52.10 applies, mutatis mutandis, to the products of this heading. This heading covers woven fabrics of cotton containing less than 85% by weight of cotton, mixed mainly or solely with man-made fibres, weighing more than 200 g/m²."
+      },
+      {
+        code: "52.12",
+        titleVi: "Vải dệt thoi khác từ sợi bông",
+        titleEn: "Other woven fabrics of cotton",
+        contentVi: "Nhóm này bao gồm các loại vải dệt thoi (như đã định nghĩa trong Phần (I) (C) của Chú giải tổng quát Phần XI) làm từ sợi bông. Tuy nhiên, cần chú ý rằng nhóm này chỉ bao gồm các loại vải dệt từ sợi đã được pha, không bao gồm các vải thuộc nhóm trước của Chương này hoặc được chỉ rõ hay nằm trong mục thứ hai của Phần XI (thông thường ở Chương 58 hoặc 59). Băng dùng trong y tế, đã tẩm thuốc hay đã đóng gói để bán lẻ thì bị loại khỏi nhóm này (nhóm 30.05).",
+        contentEn: "This heading covers woven fabrics (as defined in Part (I) (C) of the General Explanatory Note to Section XI) made of cotton yarns. However, it should be noted that it covers only mixed woven fabrics, other than those of the preceding headings of this Chapter or specified or included in the second part of this Section (Chapter 58 or 59, usually). Bandages, medicated or put up for retail sale, are excluded (heading 30.05)."
+      }
+    ]
   }
 ];
 
