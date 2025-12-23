@@ -3638,6 +3638,128 @@ export const chapterNotesData: ChapterNote[] = [
       { code: "76.15", titleVi: "Bộ đồ ăn, đồ nhà bếp hoặc các loại đồ gia dụng khác và các bộ phận của chúng, bằng nhôm; bàn chải, miếng đánh bóng và đồ tương tự bằng nhôm; đồ trang bị vệ sinh và các bộ phận của chúng, bằng nhôm", titleEn: "Table, kitchen or other household articles and parts thereof, of aluminium; pot scourers and scouring or polishing pads, gloves and the like, of aluminium; sanitary ware and parts thereof, of aluminium", contentVi: "Nhóm này bao gồm bộ đồ ăn, đồ nhà bếp, đồ gia dụng và đồ trang bị vệ sinh bằng nhôm.", contentEn: "This heading covers table, kitchen, household articles and sanitary ware of aluminium." },
       { code: "76.16", titleVi: "Các sản phẩm khác bằng nhôm", titleEn: "Other articles of aluminium", contentVi: "Nhóm này bao gồm các sản phẩm khác bằng nhôm không được phân loại ở nơi khác, bao gồm sản phẩm dạng lưới được tạo hình bằng phương pháp đột dập và kéo giãn thành lưới.", contentEn: "This heading covers other articles of aluminium not elsewhere classified, including expanded metal." }
     ]
+  },
+  {
+    chapter: 77,
+    section: 15,
+    sectionTitleVi: "KIM LOẠI CƠ BẢN VÀ CÁC SẢN PHẨM BẰNG KIM LOẠI CƠ BẢN",
+    sectionTitleEn: "BASE METALS AND ARTICLES OF BASE METAL",
+    titleVi: "(Dự phòng cho việc sử dụng trong tương lai trong Hệ thống hài hòa)",
+    titleEn: "(Reserved for possible future use in the Harmonized System)",
+    notesVi: [
+      "Chương này được dự phòng cho việc sử dụng trong tương lai trong Hệ thống hài hòa."
+    ],
+    notesEn: [
+      "This Chapter is reserved for possible future use in the Harmonized System."
+    ],
+    generalVi: "Chương 77 được dự phòng cho việc sử dụng trong tương lai trong Hệ thống hài hòa (HS). Hiện tại không có mã HS nào được phân loại trong chương này.",
+    generalEn: "Chapter 77 is reserved for possible future use in the Harmonized System (HS). Currently no HS codes are classified in this chapter.",
+    headings: []
+  },
+  {
+    chapter: 78,
+    section: 15,
+    sectionTitleVi: "KIM LOẠI CƠ BẢN VÀ CÁC SẢN PHẨM BẰNG KIM LOẠI CƠ BẢN",
+    sectionTitleEn: "BASE METALS AND ARTICLES OF BASE METAL",
+    titleVi: "Chì và các sản phẩm bằng chì",
+    titleEn: "Lead and articles thereof",
+    notesVi: [
+      "Trong Chương này khái niệm \"chì tinh luyện\" có nghĩa: Là kim loại có hàm lượng chì chiếm ít nhất 99,9% tính theo khối lượng, với điều kiện hàm lượng của mỗi nguyên tố khác trong thành phần không vượt quá giới hạn nêu trong bảng (Ag: 0,02%; As: 0,005%; Bi: 0,05%; Ca: 0,002%; Cd: 0,002%; Cu: 0,08%; Fe: 0,002%; S: 0,002%; Sb: 0,005%; Sn: 0,005%; Zn: 0,002%; các nguyên tố khác: 0,001%)."
+    ],
+    notesEn: [
+      "In this Chapter the expression \"refined lead\" means: Metal containing by weight at least 99.9% of lead, provided that the content by weight of any other element does not exceed the limit specified in the table (Ag: 0.02%; As: 0.005%; Bi: 0.05%; Ca: 0.002%; Cd: 0.002%; Cu: 0.08%; Fe: 0.002%; S: 0.002%; Sb: 0.005%; Sn: 0.005%; Zn: 0.002%; other elements: 0.001% each)."
+    ],
+    generalVi: "Chương này gồm chì, các hợp kim của chì và các hàng hóa từ chì. Chì chủ yếu thu được từ Galena, là một loại quặng chì sunfua tự nhiên thường có chứa bạc. Sau khi làm giàu bằng phương pháp tuyển nổi, quặng nghiền vụn thường được nung hoặc thiêu kết và sau đó được khử bằng nấu chảy. Chì là kim loại nặng có màu xanh xám, nó rất dễ dát mỏng, dễ nấu chảy và rất mềm. Chì chống lại tác dụng của hầu hết các axit và được sử dụng trong việc xây dựng nhà máy hoá chất.",
+    generalEn: "This Chapter covers lead and its alloys, and certain articles thereof. Lead is mainly extracted from galena, a natural lead sulphide ore often containing silver. The crushed ore, after concentration by flotation, is generally roasted or sintered, and is then reduced by smelting. Lead is a heavy, bluish-grey metal; it is very malleable, easily melted and very soft. It resists the action of most acids and is therefore used in the construction of chemical plant.",
+    headings: [
+      { code: "78.01", titleVi: "Chì chưa gia công", titleEn: "Unwrought lead", contentVi: "Nhóm này bao gồm chì tinh luyện, chì chưa tinh luyện và các sản phẩm trung gian khác của quá trình luyện kim chì. Chì chưa gia công thường ở dạng thỏi, phôi, viên hoặc các dạng thô khác.", contentEn: "This heading covers refined lead, unrefined lead and other intermediate products of lead metallurgy. Unwrought lead is usually in the form of ingots, billets, pellets or other primary forms." },
+      { code: "78.02", titleVi: "Phế liệu và mảnh vụn chì", titleEn: "Lead waste and scrap", contentVi: "Nhóm này bao gồm phế liệu và mảnh vụn chì, bao gồm phế liệu từ sản xuất hoặc gia công cơ khí chì.", contentEn: "This heading covers lead waste and scrap, including waste from the manufacture or mechanical working of lead." },
+      { code: "78.04", titleVi: "Chì ở dạng tấm, lá, dải và lá mỏng; bột và vảy chì", titleEn: "Lead plates, sheets, strip and foil; lead powders and flakes", contentVi: "Nhóm này bao gồm các sản phẩm thu được bằng việc cán hoặc ép đùn chì chưa gia công. Tấm chì được sử dụng để lợp mái, ốp tường và bảo vệ khỏi bức xạ.", contentEn: "This heading covers products obtained by rolling or extruding unwrought lead. Lead sheets are used for roofing, wall cladding and radiation shielding." },
+      { code: "78.06", titleVi: "Sản phẩm khác bằng chì", titleEn: "Other articles of lead", contentVi: "Nhóm này bao gồm các ống, ống dẫn và phụ kiện bằng chì, và các sản phẩm chì khác không được phân loại ở nơi khác. Các ống chì được sử dụng cho các mục đích công nghiệp như ống dẫn axit.", contentEn: "This heading covers tubes, pipes and fittings of lead, and other articles of lead not elsewhere classified. Lead pipes are used for industrial purposes such as acid conduits." }
+    ]
+  },
+  {
+    chapter: 79,
+    section: 15,
+    sectionTitleVi: "KIM LOẠI CƠ BẢN VÀ CÁC SẢN PHẨM BẰNG KIM LOẠI CƠ BẢN",
+    sectionTitleEn: "BASE METALS AND ARTICLES OF BASE METAL",
+    titleVi: "Kẽm và các sản phẩm bằng kẽm",
+    titleEn: "Zinc and articles thereof",
+    notesVi: [
+      "(a) Kẽm, không hợp kim: Là kim loại có hàm lượng kẽm ít nhất 97,5% tính theo khối lượng.",
+      "(b) Hợp kim kẽm: Vật liệu kim loại mà trong đó hàm lượng của kẽm lớn hơn so với hàm lượng của mỗi nguyên tố khác, với điều kiện tổng hàm lượng của các nguyên tố khác trên 2,5%.",
+      "(c) Bụi kẽm: Bụi thu được từ quá trình ngưng tụ hơi kẽm, bao gồm những hạt hình cầu nhỏ hơn bột kẽm. Có tối thiểu 80% tính theo khối lượng các hạt lọt qua mắt sàng 63 micromét. Hàm lượng của kẽm ít nhất là 85% tính theo khối lượng."
+    ],
+    notesEn: [
+      "(a) Zinc, not alloyed: Metal containing by weight at least 97.5% of zinc.",
+      "(b) Zinc alloys: Metallic substances in which zinc predominates by weight over each of the other elements, provided that the total content by weight of such other elements exceeds 2.5%.",
+      "(c) Zinc dust: Dust obtained by condensation of zinc vapour, consisting of spherical particles which are finer than zinc powders. At least 80% by weight of the particles pass through a sieve with 63 micrometres mesh. It must contain at least 85% by weight of metallic zinc."
+    ],
+    generalVi: "Chương này bao gồm kẽm và các hợp kim của kẽm, và một số sản phẩm của nó. Kẽm chủ yếu thu được từ quặng sunfua (hỗn hợp kẽm hoặc các Sphalerit). Kẽm là một kim loại có màu trắng xanh có thể được cán, kéo, dập, ép... ở những nhiệt độ thích hợp. Kẽm là chất có khả năng chống lại sự ăn mòn trong bầu khí quyển và được sử dụng trong công trình xây dựng và để tạo nên các lớp vỏ bọc bảo vệ những kim loại khác, đặc biệt là sắt và thép.",
+    generalEn: "This Chapter covers zinc and zinc alloys, and certain articles thereof. Zinc is mainly extracted from the sulphide ore (zinc blende or sphalerite). Zinc is a bluish-white metal which can be rolled, drawn, stamped, extruded, etc., at suitable temperatures. Zinc has good resistance to atmospheric corrosion and is used in construction and to provide protective coatings for other metals, especially iron and steel.",
+    headings: [
+      { code: "79.01", titleVi: "Kẽm chưa gia công", titleEn: "Unwrought zinc", contentVi: "Nhóm này bao gồm kẽm không hợp kim và hợp kim kẽm ở dạng chưa gia công, thường ở dạng thỏi, phôi, viên hoặc các dạng thô khác.", contentEn: "This heading covers unwrought zinc, not alloyed and zinc alloys, usually in the form of ingots, billets, pellets or other primary forms." },
+      { code: "79.02", titleVi: "Phế liệu và mảnh vụn kẽm", titleEn: "Zinc waste and scrap", contentVi: "Nhóm này bao gồm phế liệu và mảnh vụn kẽm, bao gồm phế liệu từ sản xuất hoặc gia công cơ khí kẽm.", contentEn: "This heading covers zinc waste and scrap, including waste from the manufacture or mechanical working of zinc." },
+      { code: "79.03", titleVi: "Bụi, bột và vảy kẽm", titleEn: "Zinc dust, powders and flakes", contentVi: "Nhóm này bao gồm bụi, bột và vảy kẽm. Bụi kẽm được sử dụng trong luyện kim (ví dụ: để kết tủa vàng và bạc), trong sản xuất sơn và trong tổng hợp hóa học.", contentEn: "This heading covers zinc dust, powders and flakes. Zinc dust is used in metallurgy (e.g., to precipitate gold and silver), in paint manufacture and in chemical synthesis." },
+      { code: "79.04", titleVi: "Kẽm ở dạng thanh, que, hình và dây", titleEn: "Zinc bars, rods, profiles and wire", contentVi: "Nhóm này bao gồm kẽm ở dạng thanh, que, hình và dây, được sản xuất bằng cán, ép đùn hoặc kéo.", contentEn: "This heading covers zinc bars, rods, profiles and wire, manufactured by rolling, extruding or drawing." },
+      { code: "79.05", titleVi: "Kẽm ở dạng tấm, lá, dải và lá mỏng", titleEn: "Zinc plates, sheets, strip and foil", contentVi: "Nhóm này bao gồm kẽm ở dạng tấm, lá, dải và lá mỏng. Chúng được sử dụng để lợp mái, làm mạ, trong sản xuất pin khô và các ứng dụng khác.", contentEn: "This heading covers zinc plates, sheets, strip and foil. They are used for roofing, plating, in the manufacture of dry batteries and other applications." },
+      { code: "79.07", titleVi: "Sản phẩm khác bằng kẽm", titleEn: "Other articles of zinc", contentVi: "Nhóm này bao gồm các ống, ống dẫn và phụ kiện bằng kẽm, và các sản phẩm kẽm khác không được phân loại ở nơi khác.", contentEn: "This heading covers tubes, pipes and fittings of zinc, and other articles of zinc not elsewhere classified." }
+    ]
+  },
+  {
+    chapter: 80,
+    section: 15,
+    sectionTitleVi: "KIM LOẠI CƠ BẢN VÀ CÁC SẢN PHẨM BẰNG KIM LOẠI CƠ BẢN",
+    sectionTitleEn: "BASE METALS AND ARTICLES OF BASE METAL",
+    titleVi: "Thiếc và các sản phẩm bằng thiếc",
+    titleEn: "Tin and articles thereof",
+    notesVi: [
+      "(a) Thiếc, không hợp kim: Là kim loại có hàm lượng thiếc chiếm ít nhất 99% tính theo khối lượng, với điều kiện hàm lượng của bismut hoặc đồng phải thấp hơn giới hạn (Bi: 0,1%; Cu: 0,4%).",
+      "(b) Hợp kim thiếc: Vật liệu kim loại mà trong đó hàm lượng thiếc lớn hơn so với hàm lượng của mỗi nguyên tố khác tính theo khối lượng, với điều kiện tổng hàm lượng các nguyên tố khác trên 1% hoặc hàm lượng của bismut hoặc đồng bằng hoặc lớn hơn giới hạn nêu trên."
+    ],
+    notesEn: [
+      "(a) Tin, not alloyed: Metal containing by weight at least 99% of tin, provided that the content by weight of any bismuth or copper is less than the limit specified (Bi: 0.1%; Cu: 0.4%).",
+      "(b) Tin alloys: Metallic substances in which tin predominates by weight over each of the other elements, provided that the total content by weight of such other elements exceeds 1%, or the content by weight of bismuth or copper is equal to or greater than the limit specified above."
+    ],
+    generalVi: "Chương này bao gồm thiếc và các hợp kim của thiếc, và một số sản phẩm làm bằng thiếc. Thiếc chiết xuất từ các quặng ôxit Cassiterite (hoặc đá thiếc). Thiếc tinh khiết có màu trắng bạc và rất bóng, không thật dẻo, nhưng có thể rèn được, dễ dàng bị nấu chảy và mềm. Thiếc có thể dễ dàng được tạo hình qua đúc khuôn dập, cán hoặc ép đùn. Thiếc chủ yếu được dùng trong quá trình mạ thiếc cho các kim loại cơ bản khác và trong việc tạo ra các hợp kim.",
+    generalEn: "This Chapter covers tin and its alloys, and certain articles thereof. Tin is extracted from the oxide ore cassiterite (or tinstone). Pure tin is silvery white and very bright, not very ductile but malleable, easily melted and soft. Tin can easily be shaped by die-casting, rolling or extruding. Tin is mainly used for tinplating other base metals and for making alloys.",
+    headings: [
+      { code: "80.01", titleVi: "Thiếc chưa gia công", titleEn: "Unwrought tin", contentVi: "Nhóm này bao gồm thiếc không hợp kim và hợp kim thiếc ở dạng chưa gia công, thường ở dạng thỏi, phôi, viên hoặc các dạng thô khác.", contentEn: "This heading covers unwrought tin, not alloyed and tin alloys, usually in the form of ingots, billets, pellets or other primary forms." },
+      { code: "80.02", titleVi: "Phế liệu và mảnh vụn thiếc", titleEn: "Tin waste and scrap", contentVi: "Nhóm này bao gồm phế liệu và mảnh vụn thiếc, bao gồm phế liệu từ sản xuất hoặc gia công cơ khí thiếc.", contentEn: "This heading covers tin waste and scrap, including waste from the manufacture or mechanical working of tin." },
+      { code: "80.03", titleVi: "Thiếc ở dạng thanh, que, hình và dây", titleEn: "Tin bars, rods, profiles and wire", contentVi: "Nhóm này bao gồm thiếc ở dạng thanh, que, hình và dây, được sản xuất bằng cán, ép đùn hoặc kéo.", contentEn: "This heading covers tin bars, rods, profiles and wire, manufactured by rolling, extruding or drawing." },
+      { code: "80.07", titleVi: "Sản phẩm khác bằng thiếc", titleEn: "Other articles of tin", contentVi: "Nhóm này bao gồm các tấm, lá, dải; ống, ống dẫn và phụ kiện; và các sản phẩm thiếc khác không được phân loại ở nơi khác. Thiếc được sử dụng trong sản xuất các thiết bị, đường ống cho ngành công nghiệp thực phẩm, các sản phẩm trang trí và bộ đồ ăn.", contentEn: "This heading covers plates, sheets, strip; tubes, pipes and fittings; and other articles of tin not elsewhere classified. Tin is used in the manufacture of equipment, pipelines for the food industry, decorative articles and tableware." }
+    ]
+  },
+  {
+    chapter: 81,
+    section: 15,
+    sectionTitleVi: "KIM LOẠI CƠ BẢN VÀ CÁC SẢN PHẨM BẰNG KIM LOẠI CƠ BẢN",
+    sectionTitleEn: "BASE METALS AND ARTICLES OF BASE METAL",
+    titleVi: "Kim loại cơ bản khác; gốm kim loại; các sản phẩm của chúng",
+    titleEn: "Other base metals; cermets; articles thereof",
+    notesVi: [
+      "Chương này chỉ giới hạn bao gồm các kim loại cơ bản sau, các hợp kim của chúng, và các sản phẩm của chúng mà không được đề cập riêng ở bất cứ phần nào trong Danh mục."
+    ],
+    notesEn: [
+      "This Chapter is limited to the following base metals, their alloys, and articles thereof which are not more specifically covered elsewhere in the Nomenclature."
+    ],
+    generalVi: "Chương này bao gồm: (A) Vôn-fram (nhóm 81.01), Molybden (nhóm 81.02), Tantan (nhóm 81.03), Magie (nhóm 81.04), Coban (nhóm 81.05), Bitmut (nhóm 81.06), Cađimi (nhóm 81.07), Titan (nhóm 81.08), Zirconi (nhóm 81.09), Antimon (nhóm 81.10) và Mangan (nhóm 81.11). (B) Berili, crôm, hafini, reni, tali, gecmani, vanadi, gali, indi và niobi (columbi) (nhóm 81.12). Chương này cũng bao gồm gốm kim loại (nhóm 81.13).",
+    generalEn: "This Chapter covers: (A) Tungsten (heading 81.01), Molybdenum (heading 81.02), Tantalum (heading 81.03), Magnesium (heading 81.04), Cobalt (heading 81.05), Bismuth (heading 81.06), Cadmium (heading 81.07), Titanium (heading 81.08), Zirconium (heading 81.09), Antimony (heading 81.10) and Manganese (heading 81.11). (B) Beryllium, chromium, hafnium, rhenium, thallium, germanium, vanadium, gallium, indium and niobium (columbium) (heading 81.12). This Chapter also covers cermets (heading 81.13).",
+    headings: [
+      { code: "81.01", titleVi: "Vonfram và các sản phẩm làm từ vonfram, kể cả phế liệu và mảnh vụn", titleEn: "Tungsten (wolfram) and articles thereof, including waste and scrap", contentVi: "Volfram chủ yếu thu được từ các quặng Volframit và Sêêlit. Volfram là kim loại có màu xám thép, mật độ cao, điểm nóng chảy cao, giòn, cứng và có khả năng chống lại sự ăn mòn kim loại cao. Volfram được sử dụng làm sợi dây tóc của các bóng đèn, điện cực cho hàn hồ quang, và trong chế luyện các loại thép đặc biệt.", contentEn: "Tungsten is mainly extracted from wolframite and scheelite ores. Tungsten is a dense, steel-grey metal, with a high melting point. It is brittle, hard and has a high resistance to corrosion. Tungsten is used for filaments of electric lamps, electrodes for arc welding, and in making special steels." },
+      { code: "81.02", titleVi: "Molypđen và các sản phẩm làm từ molypđen, kể cả phế liệu và mảnh vụn", titleEn: "Molybdenum and articles thereof, including waste and scrap", contentVi: "Molypđen chủ yếu thu được từ quặng Molypđenit. Molypđen là kim loại có màu xám sáng, cứng, có điểm nóng chảy cao và chống lại sự ăn mòn tốt. Nó được sử dụng trong sản xuất thép hợp kim và trong các ứng dụng điện tử.", contentEn: "Molybdenum is mainly extracted from molybdenite ore. Molybdenum is a light grey metal, hard, with a high melting point and good corrosion resistance. It is used in the production of alloy steels and in electronic applications." },
+      { code: "81.03", titleVi: "Tantan và các sản phẩm làm từ tantan, kể cả phế liệu và mảnh vụn", titleEn: "Tantalum and articles thereof, including waste and scrap", contentVi: "Tantan là kim loại có màu xám xanh, có độ dẻo cao và chống lại hầu hết các axit. Tantan được sử dụng trong sản xuất tụ điện, thiết bị phẫu thuật và trong công nghiệp hóa chất.", contentEn: "Tantalum is a bluish-grey metal, highly ductile and resistant to most acids. Tantalum is used in the manufacture of capacitors, surgical equipment and in the chemical industry." },
+      { code: "81.04", titleVi: "Magie và các sản phẩm làm từ magie, kể cả phế liệu và mảnh vụn", titleEn: "Magnesium and articles thereof, including waste and scrap", contentVi: "Magie là kim loại có màu trắng bạc, nhẹ nhất trong các kim loại kết cấu. Magie và các hợp kim của nó được sử dụng rộng rãi trong ngành hàng không, sản xuất ô tô và các ứng dụng yêu cầu trọng lượng nhẹ.", contentEn: "Magnesium is a silvery white metal, the lightest of the structural metals. Magnesium and its alloys are widely used in aerospace, automobile manufacture and applications requiring light weight." },
+      { code: "81.05", titleVi: "Coban mát và các sản phẩm trung gian khác trong quá trình luyện kim coban; coban và các sản phẩm làm từ coban, kể cả phế liệu và mảnh vụn", titleEn: "Cobalt mattes and other intermediate products of cobalt metallurgy; cobalt and articles thereof, including waste and scrap", contentVi: "Coban là kim loại có màu xám thép với ánh xanh. Coban được sử dụng trong sản xuất hợp kim chịu nhiệt, nam châm vĩnh cửu, và làm chất xúc tác trong công nghiệp hóa chất.", contentEn: "Cobalt is a steel-grey metal with a bluish tinge. Cobalt is used in the production of heat-resistant alloys, permanent magnets, and as a catalyst in the chemical industry." },
+      { code: "81.06", titleVi: "Bitmut và các sản phẩm làm từ bitmut, kể cả phế liệu và mảnh vụn", titleEn: "Bismuth and articles thereof, including waste and scrap", contentVi: "Bitmut là kim loại có màu trắng ánh hồng với vẻ ngoài sáng bóng. Bitmut được sử dụng trong sản xuất hợp kim có điểm nóng chảy thấp, trong dược phẩm và trong mỹ phẩm.", contentEn: "Bismuth is a pinkish-white metal with a bright lustre. Bismuth is used in the manufacture of low-melting alloys, in pharmaceuticals and in cosmetics." },
+      { code: "81.07", titleVi: "Cađimi và các sản phẩm làm từ cađimi, kể cả phế liệu và mảnh vụn", titleEn: "Cadmium and articles thereof, including waste and scrap", contentVi: "Cađimi là kim loại có màu trắng bạc mềm. Cađimi được sử dụng trong mạ điện, trong sản xuất pin và trong các hợp kim có điểm nóng chảy thấp.", contentEn: "Cadmium is a soft silvery-white metal. Cadmium is used in electroplating, in the manufacture of batteries and in low-melting alloys." },
+      { code: "81.08", titleVi: "Titan và các sản phẩm làm từ titan, kể cả phế liệu và mảnh vụn", titleEn: "Titanium and articles thereof, including waste and scrap", contentVi: "Titan là kim loại có màu xám sáng, nhẹ, bền và có khả năng chống ăn mòn cao. Titan được sử dụng rộng rãi trong ngành hàng không vũ trụ, y tế và công nghiệp hóa chất.", contentEn: "Titanium is a light grey metal, lightweight, strong and highly corrosion-resistant. Titanium is widely used in aerospace, medical and chemical industries." },
+      { code: "81.09", titleVi: "Zirconi và các sản phẩm làm từ zirconi, kể cả phế liệu và mảnh vụn", titleEn: "Zirconium and articles thereof, including waste and scrap", contentVi: "Zirconi là kim loại có màu xám sáng với khả năng chống ăn mòn cao. Zirconi được sử dụng trong lò phản ứng hạt nhân, trong ngành hóa chất và trong sản xuất đồ gốm sứ.", contentEn: "Zirconium is a greyish-white metal with high corrosion resistance. Zirconium is used in nuclear reactors, in the chemical industry and in ceramics production." },
+      { code: "81.10", titleVi: "Antimon và các sản phẩm làm từ antimon, kể cả phế liệu và mảnh vụn", titleEn: "Antimony and articles thereof, including waste and scrap", contentVi: "Antimon là kim loại có màu trắng bạc ánh xanh, giòn và dễ nghiền thành bột. Antimon được sử dụng trong sản xuất hợp kim (đặc biệt với chì), trong chất chống cháy và trong sản xuất bán dẫn.", contentEn: "Antimony is a silvery-white metal with a bluish tinge, brittle and easily powdered. Antimony is used in alloys (especially with lead), in flame retardants and in semiconductor production." },
+      { code: "81.11", titleVi: "Mangan và các sản phẩm làm từ mangan, kể cả phế liệu và mảnh vụn", titleEn: "Manganese and articles thereof, including waste and scrap", contentVi: "Mangan là kim loại có màu xám thép, cứng và giòn. Mangan chủ yếu được sử dụng trong sản xuất thép và hợp kim, cũng như trong sản xuất pin.", contentEn: "Manganese is a steel-grey metal, hard and brittle. Manganese is mainly used in steel and alloy production, as well as in battery manufacture." },
+      { code: "81.12", titleVi: "Berili, crôm, hafini (celtium), rheni, tali, cađimi, gecmani, vanadi, gali, indi và niobi (columbi), và các sản phẩm làm từ các kim loại này, kể cả phế liệu và mảnh vụn", titleEn: "Beryllium, chromium, hafnium (celtium), rhenium, thallium, cadmium, germanium, vanadium, gallium, indium and niobium (columbium), and articles of these metals, including waste and scrap", contentVi: "Nhóm này bao gồm các kim loại cơ bản khác và các sản phẩm của chúng. Các kim loại này được sử dụng trong nhiều ứng dụng công nghệ cao như điện tử, hàng không vũ trụ, năng lượng hạt nhân và công nghiệp bán dẫn.", contentEn: "This heading covers other base metals and their articles. These metals are used in many high-tech applications such as electronics, aerospace, nuclear energy and semiconductor industry." },
+      { code: "81.13", titleVi: "Gốm kim loại và các sản phẩm làm từ gốm kim loại, kể cả phế liệu và mảnh vụn", titleEn: "Cermets and articles thereof, including waste and scrap", contentVi: "Gốm kim loại là vật liệu kết hợp giữa thành phần kim loại và thành phần gốm trong cấu trúc vi mô. Chúng được sử dụng trong các ứng dụng yêu cầu khả năng chịu nhiệt cao và độ cứng, như công cụ cắt và các bộ phận chịu mài mòn.", contentEn: "Cermets are materials combining metallic and ceramic components in their microstructure. They are used in applications requiring high heat resistance and hardness, such as cutting tools and wear-resistant parts." }
+    ]
   }
 ];
 
