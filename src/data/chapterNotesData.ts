@@ -2970,6 +2970,68 @@ export const chapterNotesData: ChapterNote[] = [
         contentEn: "This heading covers woven fabrics (as defined in Part (I) (C) of the General Explanatory Note to Section XI) made of yarn of other vegetable textile fibres (e.g., true hemp, coir, abaca, ramie, etc.) and woven fabrics of paper yarn. The heading does not cover woven fabrics of Chapters 57 to 59 (e.g., bolting cloth of heading 59.11)."
       }
     ]
+  },
+  {
+    chapter: 54,
+    section: 11,
+    sectionTitleVi: "NGUYÊN LIỆU DỆT VÀ CÁC SẢN PHẨM DỆT",
+    sectionTitleEn: "TEXTILES AND TEXTILE ARTICLES",
+    titleVi: "Sợi filament nhân tạo; dải và các dạng tương tự từ nguyên liệu dệt nhân tạo",
+    titleEn: "Man-made filaments; strip and the like of man-made textile materials",
+    notesVi: [
+      "Trong toàn bộ Danh mục, thuật ngữ 'sợi nhân tạo' có nghĩa là những loại sợi staple và sợi filament bằng polyme hữu cơ được sản xuất từ quá trình polyme hoá hoặc xử lý hoá học.",
+      "Các nhóm 54.02 và 54.03 không áp dụng cho sợi tô (tow) filament tổng hợp hoặc tái tạo của Chương 55."
+    ],
+    notesEn: [
+      "Throughout the Nomenclature, the term 'man-made fibres' means staple fibres and filaments of organic polymers produced by manufacturing processes.",
+      "Headings 54.02 and 54.03 do not apply to synthetic or artificial filament tow of Chapter 55."
+    ],
+    generalVi: "Chương này bao gồm các loại sợi nhân tạo ở dạng filament (sợi liên tục). Xơ sợi nhân tạo được chia thành hai loại chính: xơ sợi tổng hợp và xơ sợi tái tạo.",
+    generalEn: "This Chapter covers man-made fibres in the form of filaments (continuous fibres). Man-made fibres fall into two main categories: synthetic fibres and artificial fibres.",
+    headings: [
+      { code: "54.01", titleVi: "Chỉ khâu làm từ sợi filament nhân tạo, đã hoặc chưa đóng gói để bán lẻ", titleEn: "Sewing thread of man-made filaments, whether or not put up for retail sale", contentVi: "Nhóm này bao gồm chỉ khâu làm từ sợi filament nhân tạo (tổng hợp hoặc tái tạo).", contentEn: "This heading covers sewing thread made of man-made filaments (synthetic or artificial)." },
+      { code: "54.02", titleVi: "Sợi filament tổng hợp (trừ chỉ khâu), chưa đóng gói để bán lẻ", titleEn: "Synthetic filament yarn (other than sewing thread), not put up for retail sale", contentVi: "Nhóm này bao gồm sợi filament tổng hợp như sợi có độ bền cao từ nylon, polyeste và các loại sợi filament tổng hợp khác.", contentEn: "This heading covers synthetic filament yarn including high tenacity yarn of nylon, polyester and other synthetic filament yarns." },
+      { code: "54.03", titleVi: "Sợi filament tái tạo (trừ chỉ khâu), chưa đóng gói để bán lẻ", titleEn: "Artificial filament yarn (other than sewing thread), not put up for retail sale", contentVi: "Nhóm này bao gồm sợi filament tái tạo như sợi viscose rayon, sợi cupram rayon và sợi acetate.", contentEn: "This heading covers artificial filament yarn such as viscose rayon, cuprammonium rayon and acetate yarn." },
+      { code: "54.04", titleVi: "Sợi monofilament tổng hợp có độ mảnh từ 67 decitex trở lên; dải và các dạng tương tự từ nguyên liệu dệt tổng hợp", titleEn: "Synthetic monofilament of 67 decitex or more; strip and the like of synthetic textile materials", contentVi: "Nhóm này bao gồm sợi monofilament tổng hợp và dải từ nguyên liệu dệt tổng hợp.", contentEn: "This heading covers synthetic monofilament and strip of synthetic textile materials." },
+      { code: "54.05", titleVi: "Sợi monofilament tái tạo có độ mảnh từ 67 decitex trở lên; dải và các dạng tương tự từ nguyên liệu dệt tái tạo", titleEn: "Artificial monofilament of 67 decitex or more; strip and the like of artificial textile materials", contentVi: "Nhóm này bao gồm sợi monofilament tái tạo và dải từ nguyên liệu dệt tái tạo.", contentEn: "This heading covers artificial monofilament and strip of artificial textile materials." },
+      { code: "54.06", titleVi: "Sợi filament nhân tạo (trừ chỉ khâu), đã đóng gói để bán lẻ", titleEn: "Man-made filament yarn (other than sewing thread), put up for retail sale", contentVi: "Nhóm này bao gồm sợi filament nhân tạo đã đóng gói để bán lẻ.", contentEn: "This heading covers man-made filament yarn put up for retail sale." },
+      { code: "54.07", titleVi: "Vải dệt thoi bằng sợi filament tổng hợp", titleEn: "Woven fabrics of synthetic filament yarn", contentVi: "Nhóm này bao gồm vải dệt thoi làm từ sợi filament tổng hợp.", contentEn: "This heading covers woven fabrics of synthetic filament yarn." },
+      { code: "54.08", titleVi: "Vải dệt thoi bằng sợi filament tái tạo", titleEn: "Woven fabrics of artificial filament yarn", contentVi: "Nhóm này bao gồm vải dệt thoi làm từ sợi filament tái tạo.", contentEn: "This heading covers woven fabrics of artificial filament yarn." }
+    ]
+  },
+  {
+    chapter: 55,
+    section: 11,
+    sectionTitleVi: "NGUYÊN LIỆU DỆT VÀ CÁC SẢN PHẨM DỆT",
+    sectionTitleEn: "TEXTILES AND TEXTILE ARTICLES",
+    titleVi: "Xơ staple nhân tạo",
+    titleEn: "Man-made staple fibres",
+    notesVi: [
+      "Các nhóm 55.01 và 55.02 chỉ áp dụng đối với tô filament nhân tạo có chiều dài vượt quá 2 m và đáp ứng các tiêu chí kỹ thuật về độ xoắn và độ mảnh."
+    ],
+    notesEn: [
+      "Headings 55.01 and 55.02 apply only to man-made filament tow exceeding 2 m in length and meeting technical specifications for twist and measurement."
+    ],
+    generalVi: "Chương này bao gồm xơ sợi nhân tạo ở dạng xơ staple (xơ không liên tục) hoặc tô filament, cùng với các sản phẩm làm từ xơ này.",
+    generalEn: "This Chapter covers man-made fibres in the form of staple fibres (discontinuous fibres) or filament tow, together with products manufactured from these fibres.",
+    headings: [
+      { code: "55.01", titleVi: "Tô (tow) filament tổng hợp", titleEn: "Synthetic filament tow", contentVi: "Nhóm này bao gồm tô filament tổng hợp dùng để sản xuất xơ staple tổng hợp.", contentEn: "This heading covers synthetic filament tow used for manufacturing synthetic staple fibres." },
+      { code: "55.02", titleVi: "Tô (tow) filament tái tạo", titleEn: "Artificial filament tow", contentVi: "Nhóm này bao gồm tô filament tái tạo như tô từ axetat xenlulo.", contentEn: "This heading covers artificial filament tow such as cellulose acetate tow." },
+      { code: "55.03", titleVi: "Xơ staple tổng hợp, chưa chải thô, chưa chải kỹ hoặc chưa gia công cách khác để kéo sợi", titleEn: "Synthetic staple fibres, not carded, combed or otherwise processed for spinning", contentVi: "Nhóm này bao gồm xơ staple tổng hợp chưa qua xử lý để kéo sợi.", contentEn: "This heading covers synthetic staple fibres not yet processed for spinning." },
+      { code: "55.04", titleVi: "Xơ staple tái tạo, chưa chải thô, chưa chải kỹ hoặc chưa gia công cách khác để kéo sợi", titleEn: "Artificial staple fibres, not carded, combed or otherwise processed for spinning", contentVi: "Nhóm này bao gồm xơ staple tái tạo chưa qua xử lý để kéo sợi.", contentEn: "This heading covers artificial staple fibres not yet processed for spinning." },
+      { code: "55.05", titleVi: "Phế liệu từ xơ nhân tạo", titleEn: "Waste of man-made fibres", contentVi: "Nhóm này bao gồm phế liệu xơ nhân tạo bao gồm phế liệu xơ, phế liệu sợi và nguyên liệu tái chế.", contentEn: "This heading covers waste of man-made fibres including fibre waste, yarn waste and garnetted stock." },
+      { code: "55.06", titleVi: "Xơ staple tổng hợp, đã chải thô, chải kỹ hoặc gia công cách khác để kéo sợi", titleEn: "Synthetic staple fibres, carded, combed or otherwise processed for spinning", contentVi: "Nhóm này bao gồm xơ staple tổng hợp đã qua xử lý để kéo sợi.", contentEn: "This heading covers synthetic staple fibres processed for spinning." },
+      { code: "55.07", titleVi: "Xơ staple tái tạo, đã chải thô, chải kỹ hoặc gia công cách khác để kéo sợi", titleEn: "Artificial staple fibres, carded, combed or otherwise processed for spinning", contentVi: "Nhóm này bao gồm xơ staple tái tạo đã qua xử lý để kéo sợi.", contentEn: "This heading covers artificial staple fibres processed for spinning." },
+      { code: "55.08", titleVi: "Chỉ khâu làm từ xơ staple nhân tạo", titleEn: "Sewing thread of man-made staple fibres", contentVi: "Nhóm này bao gồm chỉ khâu làm từ xơ staple nhân tạo.", contentEn: "This heading covers sewing thread of man-made staple fibres." },
+      { code: "55.09", titleVi: "Sợi từ xơ staple tổng hợp, chưa đóng gói để bán lẻ", titleEn: "Yarn of synthetic staple fibres, not put up for retail sale", contentVi: "Nhóm này bao gồm sợi từ xơ staple tổng hợp chưa đóng gói để bán lẻ.", contentEn: "This heading covers yarn of synthetic staple fibres not put up for retail sale." },
+      { code: "55.10", titleVi: "Sợi từ xơ staple tái tạo, chưa đóng gói để bán lẻ", titleEn: "Yarn of artificial staple fibres, not put up for retail sale", contentVi: "Nhóm này bao gồm sợi từ xơ staple tái tạo chưa đóng gói để bán lẻ.", contentEn: "This heading covers yarn of artificial staple fibres not put up for retail sale." },
+      { code: "55.11", titleVi: "Sợi từ xơ staple nhân tạo, đã đóng gói để bán lẻ", titleEn: "Yarn of man-made staple fibres, put up for retail sale", contentVi: "Nhóm này bao gồm sợi từ xơ staple nhân tạo đã đóng gói để bán lẻ.", contentEn: "This heading covers yarn of man-made staple fibres put up for retail sale." },
+      { code: "55.12", titleVi: "Vải dệt thoi từ xơ staple tổng hợp, có tỷ trọng từ 85% trở lên", titleEn: "Woven fabrics of synthetic staple fibres, containing 85% or more", contentVi: "Nhóm này bao gồm vải dệt thoi có tỷ trọng xơ staple tổng hợp từ 85% trở lên.", contentEn: "This heading covers woven fabrics containing 85% or more of synthetic staple fibres." },
+      { code: "55.13", titleVi: "Vải dệt thoi từ xơ staple tổng hợp pha bông, định lượng không quá 170 g/m²", titleEn: "Woven fabrics of synthetic staple fibres mixed with cotton, weight not exceeding 170 g/m²", contentVi: "Nhóm này bao gồm vải dệt thoi từ xơ staple tổng hợp pha bông, định lượng không quá 170 g/m².", contentEn: "This heading covers woven fabrics of synthetic staple fibres mixed with cotton, weighing not more than 170 g/m²." },
+      { code: "55.14", titleVi: "Vải dệt thoi từ xơ staple tổng hợp pha bông, định lượng trên 170 g/m²", titleEn: "Woven fabrics of synthetic staple fibres mixed with cotton, weight exceeding 170 g/m²", contentVi: "Nhóm này bao gồm vải dệt thoi từ xơ staple tổng hợp pha bông, định lượng trên 170 g/m².", contentEn: "This heading covers woven fabrics of synthetic staple fibres mixed with cotton, weighing more than 170 g/m²." },
+      { code: "55.15", titleVi: "Các loại vải dệt thoi khác từ xơ staple tổng hợp", titleEn: "Other woven fabrics of synthetic staple fibres", contentVi: "Nhóm này bao gồm các loại vải dệt thoi khác từ xơ staple tổng hợp.", contentEn: "This heading covers other woven fabrics of synthetic staple fibres." },
+      { code: "55.16", titleVi: "Vải dệt thoi từ xơ staple tái tạo", titleEn: "Woven fabrics of artificial staple fibres", contentVi: "Nhóm này bao gồm vải dệt thoi từ xơ staple tái tạo.", contentEn: "This heading covers woven fabrics of artificial staple fibres." }
+    ]
   }
 ];
 
