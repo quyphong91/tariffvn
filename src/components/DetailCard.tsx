@@ -18,7 +18,7 @@ function highlightText(text: string, keyword: string) {
 
   return parts.map((part, i) =>
     regex.test(part) ? (
-      <mark key={i} className="bg-accent/30 text-foreground px-0.5 rounded">
+      <mark key={i} className="bg-amber/50 text-foreground px-0.5 rounded font-medium">
         {part}
       </mark>
     ) : (
