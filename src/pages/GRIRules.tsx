@@ -15,31 +15,31 @@ const GRIRules = () => {
       id: "2a",
       title: "Quy tắc 2(a)",
       summary: "Hàng hoá chưa hoàn chỉnh hoặc chưa lắp ráp",
-      content: "Một mặt hàng được đề cập trong một nhóm cũng bao gồm mặt hàng đó ở dạng chưa hoàn chỉnh hoặc chưa hoàn thiện, miễn là đã có đặc trưng cơ bản của mặt hàng hoàn chỉnh hoặc hoàn thiện. Cũng bao gồm mặt hàng hoàn chỉnh hoặc hoàn thiện ở dạng chưa lắp ráp hoặc tháo rời."
+      content: "Một mặt hàng được phân loại vào một nhóm hàng thì mặt hàng đó ở dạng chưa hoàn chỉnh hoặc chưa hoàn thiện cũng thuộc nhóm đó, nếu đã có đặc trưng cơ bản của hàng hóa đó khi đã hoàn chỉnh hoặc hoàn thiện. Cũng phân loại như vậy đối với hàng hóa ở dạng hoàn chỉnh hay hoàn thiện hoặc đã có đặc trưng cơ bản của hàng hóa ở dạng hoàn chỉnh hay hoàn thiện (hoặc được phân loại vào dạng hàng hóa đã hoàn chỉnh hay hoàn thiện theo nội dung Quy tắc này), nhưng chưa lắp ráp hoặc tháo rời."
     },
     {
       id: "2b",
       title: "Quy tắc 2(b)",
       summary: "Hỗn hợp hoặc kết hợp vật liệu/chất",
-      content: "Một vật liệu hoặc chất được đề cập trong một nhóm cũng bao gồm vật liệu hoặc chất đó khi hỗn hợp hoặc kết hợp với các vật liệu hoặc chất khác. Hàng hoá làm từ một vật liệu hoặc chất cũng bao gồm hàng hoá làm từ toàn bộ hoặc một phần vật liệu hoặc chất đó."
+      content: "Một nguyên liệu, một chất được phân loại trong một nhóm nào đó thì hỗn hợp hay hợp chất của nguyên liệu hoặc chất đó với những nguyên liệu hoặc chất khác cũng thuộc nhóm đó. Hàng hóa làm toàn bộ bằng một loại nguyên liệu hay một chất, hoặc làm một phần bằng nguyên liệu hay chất đó được phân loại trong cùng nhóm. Việc phân loại những hàng hóa làm bằng hai loại nguyên liệu hay hai chất trở lên phải tuân theo Quy tắc 3."
     },
     {
       id: "3a",
       title: "Quy tắc 3(a)",
       summary: "Nhóm mô tả cụ thể nhất",
-      content: "Khi có thể phân loại hàng hoá vào hai hoặc nhiều nhóm theo quy tắc 2(b) hoặc vì bất kỳ lý do nào khác, nhóm mô tả cụ thể nhất sẽ được ưu tiên hơn các nhóm mô tả chung hơn."
+      content: "Nhóm có mô tả cụ thể nhất sẽ được ưu tiên hơn các nhóm có mô tả khái quát khi thực hiện việc phân loại hàng hóa. Tuy nhiên, khi hai hay nhiều nhóm mà mỗi nhóm chỉ liên quan đến một phần của nguyên liệu hoặc chất chứa trong hàng hóa là hỗn hợp hay hợp chất, hoặc chỉ liên quan đến một phần của hàng hóa trong trường hợp hàng hóa đó ở dạng bộ được đóng gói để bán lẻ, thì những nhóm này được coi như thể hiện đặc trưng ngang nhau về những hàng hóa nói trên, ngay cả khi một trong số các nhóm đó có mô tả đầy đủ hơn hoặc chính xác hơn về những hàng hóa đó."
     },
     {
       id: "3b",
       title: "Quy tắc 3(b)",
       summary: "Hàng hoá hỗn hợp, bộ hàng - đặc trưng cơ bản",
-      content: "Hàng hoá hỗn hợp, hàng hoá bao gồm các vật liệu khác nhau hoặc được làm từ các thành phần khác nhau, và hàng hoá đóng gói thành bộ để bán lẻ, nếu không thể phân loại theo quy tắc 3(a), sẽ được phân loại theo vật liệu hoặc thành phần tạo nên đặc trưng cơ bản của chúng."
+      content: "Những hàng hóa hỗn hợp bao gồm nhiều nguyên liệu khác nhau hoặc những hàng hóa được làm từ nhiều bộ phận cấu thành khác nhau, và những hàng hóa ở dạng bộ để bán lẻ, nếu không phân loại được theo Quy tắc 3(a), thì phân loại theo nguyên liệu hoặc bộ phận cấu thành tạo ra đặc tính cơ bản của chúng, trong chừng mực tiêu chí này được áp dụng."
     },
     {
       id: "3c",
       title: "Quy tắc 3(c)",
       summary: "Nhóm có số thứ tự cuối cùng",
-      content: "Khi không thể phân loại hàng hoá theo quy tắc 3(a) hoặc 3(b), hàng hoá sẽ được phân loại vào nhóm có số thứ tự cuối cùng trong số các nhóm tương đương được xem xét."
+      content: "Khi hàng hóa không thể phân loại theo Quy tắc 3 (a) hoặc 3(b) nêu trên thì phân loại vào nhóm cuối cùng theo thứ tự đánh số trong số các nhóm tương đương được xem xét."
     },
     {
       id: "4",
@@ -88,7 +88,7 @@ const GRIRules = () => {
             Quy tắc tổng quát giải thích việc phân loại hàng hoá
           </h1>
           <p className="text-lg text-muted-foreground">
-            6 Quy tắc tổng quát (General Rules of Interpretation - GRI) là nền tảng pháp lý để phân loại hàng hoá theo Hệ thống hài hoà HS.
+            6 Quy tắc tổng quát (General Rules of Interpretation - GRI) giải thích việc phân loại hàng hóa theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam dựa trên Hệ thống hài hòa mô tả và mã hóa hàng hóa của Tổ chức Hải quan thế giới (WCO) được ban hành kèm theo Thông tư 31/2022/TT-BTC.
           </p>
         </div>
 
@@ -123,7 +123,7 @@ const GRIRules = () => {
         <div className="max-w-4xl mx-auto mt-12">
           <div className="p-6 rounded-xl bg-muted/50 border border-border">
             <p className="text-sm text-muted-foreground">
-              <strong>Lưu ý:</strong> Đây là bản dịch tham khảo. Để có giá trị pháp lý, vui lòng tham khảo văn bản chính thức từ Tổ chức Hải quan Thế giới (WCO) hoặc các quy định của cơ quan hải quan Việt Nam.
+              <strong>Lưu ý:</strong> Đây là bản tóm tắt nội dung chính. Để có giá trị pháp lý, vui lòng tham khảo văn bản chi tiết ban hành kèm theo Thông tư 31/2022/TT-BTC.
             </p>
           </div>
         </div>
