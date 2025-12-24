@@ -43,13 +43,13 @@ const SENNotes = () => {
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
-                href="https://www.wcoomd.org/en/topics/nomenclature/instrument-and-tools/tools-to-assist-with-the-classification-in-the-hs.aspx"
+                href="https://thuvienphapluat.vn/cong-van/Xuat-nhap-khau/Cong-van-3866-TCHQ-TXNK-2023-Chu-giai-bo-sung-SEN-2022-574151.aspx"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-secondary text-secondary-foreground hover:bg-secondary/80 transition-colors"
               >
                 <ExternalLink className="w-4 h-4" />
-                Tài liệu WCO
+                Tải văn bản pháp lý về Chú giải SEN
               </a>
               <Link
                 to="/search"
