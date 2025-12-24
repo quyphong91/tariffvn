@@ -33,7 +33,7 @@ export const Header = () => {
               className="gap-2 border-amber/50 text-amber hover:bg-amber/10 hover:text-orange"
             >
               <Coffee className="w-4 h-4" />
-              <span className="hidden sm:inline">Buy me a coffee</span>
+              <span className="hidden sm:inline">Tặng cafe cho page</span>
             </Button>
           </a>
         </div>
