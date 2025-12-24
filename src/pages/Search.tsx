@@ -7,7 +7,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { loadHSData, searchHSData, HSItem, SearchLanguage } from "@/data/hsData";
 import { ArrowRight, Loader2, Home } from "lucide-react";
-import dongHoPainting from "@/assets/dong-ho-painting.jfif";
+
 import { Button } from "@/components/ui/button";
 
 const Search = () => {
@@ -96,24 +96,8 @@ const Search = () => {
         {!searchResults ? (
           /* Landing View */
           <div className="max-w-4xl mx-auto pt-4 md:pt-8">
-            {/* Hero Image */}
-            <div className="text-center mb-8 animate-fade-up">
-              <div className="relative inline-block">
-                <img 
-                  src={dongHoPainting} 
-                  alt="Tranh Đông Hồ - Vietnamese Folk Painting" 
-                  className="w-full max-w-md mx-auto rounded-2xl shadow-lg border-4 border-ocean-light/50"
-                />
-                <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 px-6 py-2 bg-card rounded-full border border-border shadow-sm">
-                  <p className="text-sm font-medium text-foreground">
-                    Nào cùng mò HS code
-                  </p>
-                </div>
-              </div>
-            </div>
-
             {/* Language Toggle & Search Box */}
-            <div className="mb-12 animate-fade-up" style={{ animationDelay: "100ms" }}>
+            <div className="mb-12 animate-fade-up">
               <LanguageToggle language={language} onLanguageChange={handleLanguageChange} />
               <SearchBox onSearch={handleSearch} />
             </div>
@@ -121,7 +105,7 @@ const Search = () => {
             {/* Example Searches */}
             <div
               className="mt-12 text-center animate-fade-up"
-              style={{ animationDelay: "300ms" }}
+              style={{ animationDelay: "100ms" }}
             >
               <p className="text-sm text-muted-foreground mb-4">Thử tìm với:</p>
               <div className="flex flex-wrap justify-center gap-2">
@@ -144,11 +128,11 @@ const Search = () => {
             {/* Description Text Box */}
             <div
               className="mt-8 max-w-2xl mx-auto animate-fade-up"
-              style={{ animationDelay: "400ms" }}
+              style={{ animationDelay: "200ms" }}
             >
               <div className="p-4 rounded-xl bg-muted/50 border border-border text-center">
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  Đây là công cụ hỗ trợ khoanh vùng các Nhóm (Heading) và mã HS liên quan đến từ khóa mô tả của hàng hóa để các bạn tìm đọc Chú giải chi tiết tương ứng để xác định mã HS phù hợp. Chúc may mắn và bình an.
+                  Bạn nên tham khảo thêm các Chú giải và tuyển tập ý kiến phân loại sau khi lọc các mã HS code dựa trên mô tả để xác định mã HS code phù hợp nhất với hàng hoá.
                 </p>
               </div>
             </div>
