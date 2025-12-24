@@ -20,7 +20,7 @@ const Home = () => {
               Tra cứu mã HS code <span className="text-gradient"> tiện lợi và nhanh chóng</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto animate-fade-up" style={{ animationDelay: "100ms" }}>
-              Trang này cung cấp công cụ giúp tra cứu mã số HS code dựa trên mô tả của hàng hoá
+              Trang này hỗ trợ bạn tra cứu mã số HS code dựa trên mô tả của hàng hoá
             </p>
 
             {/* CTA Button */}
@@ -38,7 +38,7 @@ const Home = () => {
             <div className="mt-8 max-w-2xl mx-auto animate-fade-up" style={{ animationDelay: "300ms" }}>
               <div className="p-4 rounded-xl bg-muted/50 border border-border">
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  Bạn nên tham khảo thêm các Chú giải và tuyển tập ý kiến phân loại sau khi lọc các mã HS code dựa trên mô tả để xác định mã HS code phù hợp nhất với hàng hoá.
+                  Bạn nên tham khảo thêm các Chú giải và Tuyển tập ý kiến phân loại sau khi lọc các mã HS code dựa trên mô tả để xác định mã HS code phù hợp nhất với hàng hoá.
                 </p>
               </div>
             </div>
@@ -52,14 +52,14 @@ const Home = () => {
               Tài liệu tham khảo
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Các nguồn tài liệu hỗ trợ việc phân loại hàng hoá theo danh mục HS
+              Các nguồn tài liệu hỗ trợ việc phân loại hàng hoá theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
             <FeatureCard
               title="Quy tắc phân loại"
-              description="6 Quy tắc tổng quát giải thích cách phân loại hàng hoá theo danh mục HS (GRI 1-6)"
+              description="6 Quy tắc tổng quát giải thích cách phân loại hàng hoá theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam"
               icon={Scale}
               to="/gri-rules"
               iconBgClass="bg-primary/10"
@@ -73,14 +73,14 @@ const Home = () => {
             />
             <FeatureCard
               title="Chú giải SEN"
-              description="Chú giải bổ sung (Selective Explanatory Notes) cho các hàng hoá khó phân loại"
+              description="Chú giải bổ sung (Selective Explanatory Notes) cho một số loại hàng hoá"
               icon={FileText}
               to="/sen-notes"
               iconBgClass="bg-amber/20"
             />
             <FeatureCard
               title="Tuyển tập ý kiến phân loại của WCO"
-              description="Các quyết định phân loại của Tổ chức Hải quan Thế giới cho hàng hoá gây tranh cãi"
+              description="Các quyết định phân loại của Tổ chức Hải quan Thế giới cho các hàng hoá mới hoặc phức tạp"
               icon={Globe}
               to="/wco-compendium"
               iconBgClass="bg-orange/20"
@@ -100,10 +100,10 @@ const Home = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-navy/90 via-navy/50 to-transparent" />
               <div className="absolute bottom-0 left-0 right-0 p-6 md:p-8 text-center">
                 <h3 className="text-xl md:text-2xl font-bold text-primary-foreground mb-2">
-                  Hỗ trợ nghiệp vụ khai báo hải quan
+                  Hỗ trợ nghiệp vụ phân loại HS code
                 </h3>
                 <p className="text-sm md:text-base text-primary-foreground/80">
-                  Công cụ tra cứu dành cho các chuyên viên hải quan, môi giới hải quan và doanh nghiệp xuất nhập khẩu
+                  Công cụ hỗ trợ tra cứu HS code dành cho các bạn đang làm việc trong ngành xuất nhập khẩu
                 </p>
               </div>
             </div>
