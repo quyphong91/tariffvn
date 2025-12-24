@@ -13,9 +13,18 @@ import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const ChapterNotes = () => {
+  const [expandedSections, setExpandedSections] = useState<number[]>([]);
   const [expandedChapters, setExpandedChapters] = useState<number[]>([]);
   const [expandedHeadings, setExpandedHeadings] = useState<string[]>([]);
   const [language, setLanguage] = useState<"vi" | "en">("vi");
+
+  const toggleSection = (section: number) => {
+    setExpandedSections(prev =>
+      prev.includes(section)
+        ? prev.filter(s => s !== section)
+        : [...prev, section]
+    );
+  };
 
   const toggleChapter = (chapter: number) => {
     setExpandedChapters(prev =>
@@ -33,16 +42,6 @@ const ChapterNotes = () => {
     );
   };
 
-  const expandAll = () => {
-    setExpandedChapters(chapterNotesData.map(c => c.chapter));
-    setExpandedHeadings(chapterNotesData.flatMap(c => c.headings.map(h => h.code)));
-  };
-
-  const collapseAll = () => {
-    setExpandedChapters([]);
-    setExpandedHeadings([]);
-  };
-
   // Group chapters by section
   const groupedBySection = chapterNotesData.reduce((acc, chapter) => {
     const section = chapter.section;
@@ -52,6 +51,21 @@ const ChapterNotes = () => {
     acc[section].push(chapter);
     return acc;
   }, {} as Record<number, ChapterNote[]>);
+
+  const allSections = Object.keys(groupedBySection).map(Number);
+
+  const expandAll = () => {
+    setExpandedSections(allSections);
+    setExpandedChapters(chapterNotesData.map(c => c.chapter));
+    setExpandedHeadings(chapterNotesData.flatMap(c => c.headings.map(h => h.code)));
+  };
+
+  const collapseAll = () => {
+    setExpandedSections([]);
+    setExpandedChapters([]);
+    setExpandedHeadings([]);
+  };
+
 
   return (
     <div className="min-h-screen bg-gradient-hero">
@@ -129,125 +143,144 @@ const ChapterNotes = () => {
         </div>
 
         {/* Chapter Notes Content */}
-        <div className="max-w-5xl mx-auto space-y-8">
+        <div className="max-w-5xl mx-auto space-y-6">
           {Object.entries(groupedBySection).map(([sectionNum, chapters]) => {
             const section = parseInt(sectionNum);
             const sectionNote = getSectionNote(section);
             const firstChapter = chapters[0];
+            const romanNumeral = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII", "XIII", "XIV", "XV", "XVI", "XVII", "XVIII", "XIX", "XX", "XXI"][section - 1] || section.toString();
 
             return (
-              <div key={section} className="space-y-4">
-                {/* Section Header */}
-                <div className="p-4 rounded-xl border border-primary/20 bg-primary/5">
-                  <div className="flex items-center gap-3 mb-2">
-                    <Badge variant="outline" className="bg-primary/10 text-primary border-primary/30">
-                      {language === "vi" ? `Phần ${section === 1 ? "I" : "II"}` : `Section ${section === 1 ? "I" : "II"}`}
-                    </Badge>
+              <Collapsible
+                key={section}
+                open={expandedSections.includes(section)}
+                onOpenChange={() => toggleSection(section)}
+              >
+                <CollapsibleTrigger className="w-full">
+                  <div className="p-4 rounded-xl border border-primary/20 bg-primary/5 hover:bg-primary/10 transition-colors text-left">
+                    <div className="flex items-center gap-3">
+                      {expandedSections.includes(section) ? (
+                        <ChevronDown className="w-5 h-5 text-primary flex-shrink-0" />
+                      ) : (
+                        <ChevronRight className="w-5 h-5 text-primary flex-shrink-0" />
+                      )}
+                      <Badge variant="outline" className="bg-primary/10 text-primary border-primary/30">
+                        {language === "vi" ? `Phần ${romanNumeral}` : `Section ${romanNumeral}`}
+                      </Badge>
+                      <h2 className="text-lg font-bold text-foreground">
+                        {language === "vi" ? firstChapter.sectionTitleVi : firstChapter.sectionTitleEn}
+                      </h2>
+                    </div>
                   </div>
-                  <h2 className="text-xl font-bold text-foreground mb-2">
-                    {language === "vi" ? firstChapter.sectionTitleVi : firstChapter.sectionTitleEn}
-                  </h2>
-                  <p className="text-sm text-muted-foreground leading-relaxed">
-                    {language === "vi" ? sectionNote.vi : sectionNote.en}
-                  </p>
-                </div>
+                </CollapsibleTrigger>
 
-                {/* Chapters in this Section */}
-                <div className="space-y-3">
-                  {chapters.map((chapter) => (
-                    <Collapsible
-                      key={chapter.chapter}
-                      open={expandedChapters.includes(chapter.chapter)}
-                      onOpenChange={() => toggleChapter(chapter.chapter)}
-                    >
-                      <CollapsibleTrigger className="w-full">
-                        <div className="flex items-center gap-3 p-4 rounded-lg border border-border bg-card hover:bg-muted/50 transition-colors text-left">
-                          {expandedChapters.includes(chapter.chapter) ? (
-                            <ChevronDown className="w-5 h-5 text-primary flex-shrink-0" />
-                          ) : (
-                            <ChevronRight className="w-5 h-5 text-muted-foreground flex-shrink-0" />
-                          )}
-                          <Badge variant="secondary" className="flex-shrink-0">
-                            {language === "vi" ? `Chương ${chapter.chapter}` : `Chapter ${chapter.chapter}`}
-                          </Badge>
-                          <span className="font-medium text-foreground">
-                            {language === "vi" ? chapter.titleVi : chapter.titleEn}
-                          </span>
-                        </div>
-                      </CollapsibleTrigger>
+                <CollapsibleContent>
+                  <div className="mt-3 space-y-4 ml-2">
+                    {/* Section Note */}
+                    <div className="p-3 rounded-lg bg-muted/30 border-l-2 border-primary/30">
+                      <p className="text-sm text-muted-foreground leading-relaxed">
+                        {language === "vi" ? sectionNote.vi : sectionNote.en}
+                      </p>
+                    </div>
 
-                      <CollapsibleContent>
-                        <div className="mt-2 ml-4 space-y-4 border-l-2 border-primary/20 pl-4">
-                          {/* Chapter Notes */}
-                          {(language === "vi" ? chapter.notesVi : chapter.notesEn).length > 0 && (
-                            <div className="p-4 rounded-lg bg-muted/30 border border-border/50">
-                              <h4 className="text-sm font-semibold text-foreground mb-2 flex items-center gap-2">
-                                <FileText className="w-4 h-4 text-primary" />
-                                {language === "vi" ? "Chú giải" : "Notes"}
-                              </h4>
-                              <ul className="space-y-2 text-sm text-muted-foreground">
-                                {(language === "vi" ? chapter.notesVi : chapter.notesEn).map((note, idx) => (
-                                  <li key={idx} className="leading-relaxed">
-                                    {note}
-                                  </li>
-                                ))}
-                              </ul>
+                    {/* Chapters in this Section */}
+                    <div className="space-y-3">
+                      {chapters.map((chapter) => (
+                        <Collapsible
+                          key={chapter.chapter}
+                          open={expandedChapters.includes(chapter.chapter)}
+                          onOpenChange={() => toggleChapter(chapter.chapter)}
+                        >
+                          <CollapsibleTrigger className="w-full">
+                            <div className="flex items-center gap-3 p-4 rounded-lg border border-border bg-card hover:bg-muted/50 transition-colors text-left">
+                              {expandedChapters.includes(chapter.chapter) ? (
+                                <ChevronDown className="w-5 h-5 text-primary flex-shrink-0" />
+                              ) : (
+                                <ChevronRight className="w-5 h-5 text-muted-foreground flex-shrink-0" />
+                              )}
+                              <Badge variant="secondary" className="flex-shrink-0">
+                                {language === "vi" ? `Chương ${chapter.chapter}` : `Chapter ${chapter.chapter}`}
+                              </Badge>
+                              <span className="font-medium text-foreground">
+                                {language === "vi" ? chapter.titleVi : chapter.titleEn}
+                              </span>
                             </div>
-                          )}
+                          </CollapsibleTrigger>
 
-                          {/* General Description */}
-                          <div className="p-4 rounded-lg bg-ocean-light/10 border border-ocean/20">
-                            <h4 className="text-sm font-semibold text-foreground mb-2">
-                              {language === "vi" ? "Tổng quát" : "General"}
-                            </h4>
-                            <p className="text-sm text-muted-foreground leading-relaxed">
-                              {language === "vi" ? chapter.generalVi : chapter.generalEn}
-                            </p>
-                          </div>
+                          <CollapsibleContent>
+                            <div className="mt-2 ml-4 space-y-4 border-l-2 border-primary/20 pl-4">
+                              {/* Chapter Notes */}
+                              {(language === "vi" ? chapter.notesVi : chapter.notesEn).length > 0 && (
+                                <div className="p-4 rounded-lg bg-muted/30 border border-border/50">
+                                  <h4 className="text-sm font-semibold text-foreground mb-2 flex items-center gap-2">
+                                    <FileText className="w-4 h-4 text-primary" />
+                                    {language === "vi" ? "Chú giải" : "Notes"}
+                                  </h4>
+                                  <ul className="space-y-2 text-sm text-muted-foreground">
+                                    {(language === "vi" ? chapter.notesVi : chapter.notesEn).map((note, idx) => (
+                                      <li key={idx} className="leading-relaxed">
+                                        {note}
+                                      </li>
+                                    ))}
+                                  </ul>
+                                </div>
+                              )}
 
-                          {/* Headings */}
-                          <div className="space-y-2">
-                            <h4 className="text-sm font-semibold text-foreground mb-2">
-                              {language === "vi" ? "Các nhóm trong chương" : "Headings in this chapter"}
-                            </h4>
-                            {chapter.headings.map((heading) => (
-                              <Collapsible
-                                key={heading.code}
-                                open={expandedHeadings.includes(heading.code)}
-                                onOpenChange={() => toggleHeading(heading.code)}
-                              >
-                                <CollapsibleTrigger className="w-full">
-                                  <div className="flex items-center gap-3 p-3 rounded-md border border-border/50 bg-card/50 hover:bg-muted/30 transition-colors text-left">
-                                    {expandedHeadings.includes(heading.code) ? (
-                                      <ChevronDown className="w-4 h-4 text-primary flex-shrink-0" />
-                                    ) : (
-                                      <ChevronRight className="w-4 h-4 text-muted-foreground flex-shrink-0" />
-                                    )}
-                                    <Badge variant="outline" className="flex-shrink-0 font-mono text-xs">
-                                      {heading.code}
-                                    </Badge>
-                                    <span className="text-sm text-foreground">
-                                      {language === "vi" ? heading.titleVi : heading.titleEn}
-                                    </span>
-                                  </div>
-                                </CollapsibleTrigger>
+                              {/* General Description */}
+                              <div className="p-4 rounded-lg bg-ocean-light/10 border border-ocean/20">
+                                <h4 className="text-sm font-semibold text-foreground mb-2">
+                                  {language === "vi" ? "Tổng quát" : "General"}
+                                </h4>
+                                <p className="text-sm text-muted-foreground leading-relaxed">
+                                  {language === "vi" ? chapter.generalVi : chapter.generalEn}
+                                </p>
+                              </div>
 
-                                <CollapsibleContent>
-                                  <div className="mt-1 ml-7 p-3 rounded-md bg-muted/20 border-l-2 border-amber/30">
-                                    <p className="text-sm text-muted-foreground leading-relaxed">
-                                      {language === "vi" ? heading.contentVi : heading.contentEn}
-                                    </p>
-                                  </div>
-                                </CollapsibleContent>
-                              </Collapsible>
-                            ))}
-                          </div>
-                        </div>
-                      </CollapsibleContent>
-                    </Collapsible>
-                  ))}
-                </div>
-              </div>
+                              {/* Headings */}
+                              <div className="space-y-2">
+                                <h4 className="text-sm font-semibold text-foreground mb-2">
+                                  {language === "vi" ? "Các nhóm trong chương" : "Headings in this chapter"}
+                                </h4>
+                                {chapter.headings.map((heading) => (
+                                  <Collapsible
+                                    key={heading.code}
+                                    open={expandedHeadings.includes(heading.code)}
+                                    onOpenChange={() => toggleHeading(heading.code)}
+                                  >
+                                    <CollapsibleTrigger className="w-full">
+                                      <div className="flex items-center gap-3 p-3 rounded-md border border-border/50 bg-card/50 hover:bg-muted/30 transition-colors text-left">
+                                        {expandedHeadings.includes(heading.code) ? (
+                                          <ChevronDown className="w-4 h-4 text-primary flex-shrink-0" />
+                                        ) : (
+                                          <ChevronRight className="w-4 h-4 text-muted-foreground flex-shrink-0" />
+                                        )}
+                                        <Badge variant="outline" className="flex-shrink-0 font-mono text-xs">
+                                          {heading.code}
+                                        </Badge>
+                                        <span className="text-sm text-foreground">
+                                          {language === "vi" ? heading.titleVi : heading.titleEn}
+                                        </span>
+                                      </div>
+                                    </CollapsibleTrigger>
+
+                                    <CollapsibleContent>
+                                      <div className="mt-1 ml-7 p-3 rounded-md bg-muted/20 border-l-2 border-amber/30">
+                                        <p className="text-sm text-muted-foreground leading-relaxed">
+                                          {language === "vi" ? heading.contentVi : heading.contentEn}
+                                        </p>
+                                      </div>
+                                    </CollapsibleContent>
+                                  </Collapsible>
+                                ))}
+                              </div>
+                            </div>
+                          </CollapsibleContent>
+                        </Collapsible>
+                      ))}
+                    </div>
+                  </div>
+                </CollapsibleContent>
+              </Collapsible>
             );
           })}
         </div>
