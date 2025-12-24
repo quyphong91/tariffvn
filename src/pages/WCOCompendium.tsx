@@ -39,17 +39,17 @@ const WCOCompendium = () => {
               Nội dung đang được cập nhật
             </h2>
             <p className="text-muted-foreground mb-6 max-w-lg mx-auto">
-              Các ý kiến phân loại (Classification Opinions) của WCO sẽ được cập nhật trong thời gian tới. Đây là nguồn tham khảo quan trọng cho các hàng hoá gây tranh cãi.
+              Các ý kiến phân loại (Classification Opinions) của WCO sẽ được cập nhật trong thời gian tới. Đây là nguồn tham khảo quan trọng cho các hàng hoá mới, phức tạp khi phân loại.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
-                href="https://www.wcoomd.org/en/topics/nomenclature/instrument-and-tools/hs_classification_decisions.aspx"
+                href="https://www.wcoomd.org/en/topics/nomenclature/instrument-and-tools/tools-to-assist-with-the-classification-in-the-hs/compendium.aspx"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-secondary text-secondary-foreground hover:bg-secondary/80 transition-colors"
               >
                 <ExternalLink className="w-4 h-4" />
-                Tra cứu trên WCO
+                Tuyển tập tại trang web chính thức của WCO
               </a>
               <Link
                 to="/search"
@@ -62,15 +62,15 @@ const WCOCompendium = () => {
 
           {/* Info Box */}
           <div className="mt-12 p-6 rounded-xl bg-orange/10 border border-orange/30">
-            <h3 className="font-semibold text-foreground mb-3">Về Compendium of Classification Opinions</h3>
+            <h3 className="font-semibold text-foreground mb-3">Về Tuyển tập ý kiến phân loại của WCO</h3>
             <ul className="space-y-2 text-muted-foreground text-sm">
               <li className="flex items-start gap-2">
                 <span className="text-orange">•</span>
-                Được ban hành bởi Ủy ban HS (HS Committee) của WCO
+                Được ban hành bởi Ủy ban HS của WCO
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-orange">•</span>
-                Cung cấp quyết định phân loại cho các hàng hoá cụ thể gây tranh cãi giữa các quốc gia thành viên
+                Cung cấp quyết định phân loại cho các hàng hoá cụ thể nhằm thống nhất việc phân loại giữa các quốc gia thành viên
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-orange">•</span>
@@ -85,7 +85,7 @@ const WCOCompendium = () => {
 
           {/* Example Categories */}
           <div className="mt-12">
-            <h3 className="text-lg font-semibold text-foreground mb-4">Một số nhóm hàng thường gặp trong Compendium</h3>
+            <h3 className="text-lg font-semibold text-foreground mb-4">Một số nhóm hàng thường gặp trong Tuyển tập ý kiến phân loại</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {[
                 "Thiết bị điện tử, máy tính và linh kiện",
