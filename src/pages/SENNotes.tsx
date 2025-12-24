@@ -39,11 +39,11 @@ const SENNotes = () => {
               Nội dung đang được cập nhật
             </h2>
             <p className="text-muted-foreground mb-6 max-w-lg mx-auto">
-              Các Chú giải SEN sẽ được bổ sung trong thời gian tới.
+              Các Chú giải SEN sẽ được bổ sung vào trang web trong thời gian tới. Tạm thời vui lòng tải tài liệu chú giải SEN tại đường dẫn dưới đây.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
-                href="https://thuvienphapluat.vn/cong-van/Xuat-nhap-khau/Cong-van-3866-TCHQ-TXNK-2023-Chu-giai-bo-sung-SEN-2022-574151.aspx"
+                href="https://drive.google.com/drive/folders/1Rht9vq4N0n4FkopMyEZlGzOTAFcKLaEC?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-secondary text-secondary-foreground hover:bg-secondary/80 transition-colors"
