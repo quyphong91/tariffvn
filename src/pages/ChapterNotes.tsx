@@ -252,20 +252,6 @@ const ChapterNotes = () => {
           })}
         </div>
 
-        {/* More chapters coming soon notice */}
-        <div className="max-w-5xl mx-auto mt-12">
-          <div className="p-6 rounded-xl border border-amber/30 bg-amber/5 text-center">
-            <BookOpen className="w-8 h-8 text-amber mx-auto mb-3" />
-            <h3 className="text-lg font-semibold text-foreground mb-2">
-              {language === "vi" ? "Các chương tiếp theo đang được cập nhật" : "More chapters are being updated"}
-            </h3>
-            <p className="text-sm text-muted-foreground max-w-lg mx-auto">
-              {language === "vi"
-                ? "Chú giải chi tiết cho các Chương từ 21 trở đi sẽ được bổ sung trong thời gian tới."
-                : "Detailed explanatory notes for Chapters 21 onwards will be added soon."}
-            </p>
-          </div>
-        </div>
       </main>
 
       <Footer />
