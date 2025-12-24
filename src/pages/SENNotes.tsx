@@ -25,7 +25,7 @@ const SENNotes = () => {
             Chú giải bổ sung SEN
           </h1>
           <p className="text-lg text-muted-foreground">
-            Selective Explanatory Notes (SEN) - Chú giải bổ sung dành cho các hàng hoá đặc biệt, khó phân loại hoặc gây tranh cãi trong thực tiễn.
+            Selective Explanatory Notes (SEN) - Chú giải SEN.
           </p>
         </div>
 
@@ -39,7 +39,7 @@ const SENNotes = () => {
               Nội dung đang được cập nhật
             </h2>
             <p className="text-muted-foreground mb-6 max-w-lg mx-auto">
-              Các Chú giải SEN cho những hàng hoá đặc biệt sẽ được bổ sung trong thời gian tới. SEN giúp làm rõ phạm vi của các nhóm HS trong những trường hợp phức tạp.
+              Các Chú giải SEN sẽ được bổ sung trong thời gian tới.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
@@ -66,7 +66,7 @@ const SENNotes = () => {
             <ul className="space-y-2 text-muted-foreground text-sm">
               <li className="flex items-start gap-2">
                 <span className="text-amber">•</span>
-                SEN được ban hành bởi Tổ chức Hải quan Thế giới (WCO) để bổ sung cho Chú giải chính thức
+                Chú giải SEN được xây dựng như một công cụ hỗ trợ các nước thành viên ASEAN để phân loại hàng hóa một số mặt hàng cụ thể được chi tiết ở cấp độ 8 số trong Danh mục AHTN
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-amber">•</span>
