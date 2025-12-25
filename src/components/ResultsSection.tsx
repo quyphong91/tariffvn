@@ -268,7 +268,7 @@ export function ResultsSection({ headings, detailed, keyword, language }: Result
                 key={headingCode} 
                 open={openDetailedGroups[headingCode] ?? true} 
                 onOpenChange={() => toggleDetailedGroup(headingCode)} 
-                className="group space-y-3"
+                className="group space-y-3 border border-border rounded-lg p-4 bg-card/50"
               >
                 <CollapsibleTrigger className="w-full">
                   <div className="flex items-center gap-2 px-1 mb-2 text-left">
