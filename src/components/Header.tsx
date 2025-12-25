@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
-import { Package, Coffee } from "lucide-react";
+import { Coffee } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/logo.jpg";
 
 export const Header = () => {
   return (
@@ -8,9 +9,7 @@ export const Header = () => {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo and Site Name */}
         <Link to="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-          <div className="w-10 h-10 rounded-lg bg-navy flex items-center justify-center">
-            <Package className="w-5 h-5 text-primary-foreground" />
-          </div>
+          <img src={logo} alt="Logo" className="w-10 h-10 rounded-lg object-cover" />
           <div>
             <h1 className="text-lg font-bold text-foreground leading-none">Tra cứu HS code</h1>
             <span className="text-xs text-muted-foreground">Công cụ hỗ trợ phân loại hàng hoá</span>
