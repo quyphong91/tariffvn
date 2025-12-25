@@ -32,7 +32,7 @@ export const chapterNotesData: ChapterNote[] = [
     titleVi: "Động vật sống",
     titleEn: "Live animals",
     notesVi: [
-      "Chương này bao gồm tất cả các loại động vật sống trừ: (a) Cá và động vật giáp xác, động vật thân mềm và động vật thủy sinh không xương sống khác (nhóm 03.01, 03.06, 03.07 hoặc 03.08); (b) Vi sinh vật nuôi cấy và các sản phẩm khác thuộc nhóm 30.02; (c) Động vật thuộc nhóm 95.08."
+      "Chương này bao gồm tất cả các loại động vật sống trừ: <br />(a) Cá và động vật giáp xác, động vật thân mềm và động vật thủy sinh không xương sống khác (nhóm 03.01, 03.06, 03.07 hoặc 03.08); (b) Vi sinh vật nuôi cấy và các sản phẩm khác thuộc nhóm 30.02; (c) Động vật thuộc nhóm 95.08."
     ],
     notesEn: [
       "This Chapter covers all live animals except: (a) Fish and crustaceans, molluscs and other aquatic invertebrates, of heading 03.01, 03.06, 03.07 or 03.08; (b) Cultures of micro-organisms and other products of heading 30.02; (c) Animals of heading 95.08."
