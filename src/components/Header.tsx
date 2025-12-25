@@ -19,7 +19,7 @@ export const Header = () => {
         {/* Buy Me a Coffee */}
         <div className="flex items-center gap-3">
           <span className="hidden md:inline text-sm text-muted-foreground">
-            Nếu thấy hữu ích thì thỉnh thoảng mua cafe cho page nhé
+            Nếu thấy hữu ích thì thỉnh thoảng mua cà phê cho page nhé
           </span>
           <a
             href="https://buymeacoffee.com/pes91"
@@ -32,7 +32,7 @@ export const Header = () => {
               className="gap-2 border-amber/50 text-amber hover:bg-amber/10 hover:text-orange"
             >
               <Coffee className="w-4 h-4" />
-              <span className="hidden sm:inline">Tặng cafe cho page</span>
+              <span className="hidden sm:inline">Tặng cà phê cho page</span>
             </Button>
           </a>
         </div>
