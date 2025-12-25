@@ -4,16 +4,16 @@ import { Footer } from "@/components/Footer";
 import { FeatureCard } from "@/components/FeatureCard";
 import { Button } from "@/components/ui/button";
 import { Search, BookOpen, FileText, Scale, Globe, ArrowRight } from "lucide-react";
-import containerImg from "@/assets/container.jpg";
+
 
 const Home = () => {
   return (
-    <div className="min-h-screen bg-gradient-hero">
+    <div className="h-screen flex flex-col bg-gradient-hero overflow-hidden">
       <Header />
 
-      <main>
+      <main className="flex-1 flex flex-col overflow-auto">
         {/* Hero / Middle Section */}
-        <section className="container mx-auto px-4 py-16 md:py-24">
+        <section className="container mx-auto px-4 py-8 md:py-12">
           <div className="max-w-4xl mx-auto text-center">
             {/* Main Description */}
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 animate-fade-up">
@@ -46,7 +46,7 @@ const Home = () => {
         </section>
 
         {/* Features / Bottom Section */}
-        <section className="container mx-auto px-4 py-16 border-t border-border/50">
+        <section className="container mx-auto px-4 py-8 border-t border-border/50">
           <div className="text-center mb-12">
             <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
               Tài liệu tham khảo
@@ -88,27 +88,6 @@ const Home = () => {
           </div>
         </section>
 
-        {/* Visual Banner */}
-        <section className="container mx-auto px-4 py-16">
-          <div className="max-w-4xl mx-auto">
-            <div className="relative rounded-2xl overflow-hidden shadow-card">
-              <img 
-                src={containerImg} 
-                alt="Container logistics" 
-                className="w-full h-64 md:h-80 object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-navy/90 via-navy/50 to-transparent" />
-              <div className="absolute bottom-0 left-0 right-0 p-6 md:p-8 text-center">
-                <h3 className="text-xl md:text-2xl font-bold text-primary-foreground mb-2">
-                  Hỗ trợ nghiệp vụ phân loại HS code
-                </h3>
-                <p className="text-sm md:text-base text-primary-foreground/80">
-                  Công cụ hỗ trợ tra cứu HS code dành cho các bạn đang làm việc trong ngành xuất nhập khẩu
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
       </main>
 
       <Footer />
