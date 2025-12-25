@@ -2,10 +2,11 @@ import { HSItem, SearchLanguage, getDescription } from "@/data/hsData";
 import { chapterNames } from "@/data/chapterNames";
 import { HeadingCard } from "./HeadingCard";
 import { DetailCard } from "./DetailCard";
-import { FileStack, ListTree, ArrowUp, ChevronDown, ChevronsUpDown } from "lucide-react";
+import { FileStack, ListTree, ArrowUp, ChevronDown, ChevronsUpDown, BookOpen, FileText, Globe } from "lucide-react";
 import { Button } from "./ui/button";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "./ui/collapsible";
 import { useEffect, useState, useMemo } from "react";
+import { Link } from "react-router-dom";
 
 interface ResultsSectionProps {
   headings: HSItem[];
@@ -140,6 +141,29 @@ export function ResultsSection({ headings, detailed, keyword, language }: Result
 
   return (
     <div className="space-y-12">
+      {/* Quick Access Buttons */}
+      <div className="flex flex-wrap gap-3 p-4 bg-muted/30 rounded-lg border border-border">
+        <span className="text-sm font-medium text-muted-foreground self-center mr-2">Tham khảo thêm:</span>
+        <Link to="/chapter-notes" target="_blank">
+          <Button variant="outline" size="sm" className="gap-2">
+            <BookOpen className="w-4 h-4" />
+            Chú giải HS
+          </Button>
+        </Link>
+        <Link to="/sen-notes" target="_blank">
+          <Button variant="outline" size="sm" className="gap-2">
+            <FileText className="w-4 h-4" />
+            Chú giải SEN
+          </Button>
+        </Link>
+        <Link to="/wco-compendium" target="_blank">
+          <Button variant="outline" size="sm" className="gap-2">
+            <Globe className="w-4 h-4" />
+            Tuyển tập WCO
+          </Button>
+        </Link>
+      </div>
+
       {/* Floating Button */}
       {showFloatingButton && (
         <Button
