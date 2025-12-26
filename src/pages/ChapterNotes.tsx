@@ -165,7 +165,7 @@ const ChapterNotes = () => {
                       ) : (
                         <ChevronRight className="w-5 h-5 text-primary flex-shrink-0" />
                       )}
-                      <Badge variant="outline" className="bg-primary/10 text-primary border-primary/30">
+                      <Badge variant="outline" className="bg-primary/10 text-primary border-primary/30 whitespace-nowrap flex-shrink-0">
                         {language === "vi" ? `Phần ${romanNumeral}` : `Section ${romanNumeral}`}
                       </Badge>
                       <h2 className="text-lg font-bold text-foreground">
