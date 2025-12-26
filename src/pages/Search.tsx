@@ -102,7 +102,7 @@ const Search = () => {
             Trang chủ
           </Link>
           <span className="mx-2 text-muted-foreground">/</span>
-          <span className="text-sm text-foreground">Công cụ tra cứu</span>
+          <span className="text-sm text-foreground">Công cụ tra cứu HS code</span>
         </div>
 
         {!searchResults ? (
