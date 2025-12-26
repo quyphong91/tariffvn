@@ -52,35 +52,35 @@ const Home = () => {
               Tài liệu tham khảo
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Các nguồn tài liệu hỗ trợ việc phân loại hàng hoá theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam
+              Các nguồn tài liệu hỗ trợ việc tra cứu HS code và phân loại hàng hoá theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
             <FeatureCard
-              title="Quy tắc phân loại"
-              description="6 Quy tắc tổng quát giải thích cách phân loại hàng hoá theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam"
+              title="Quy tắc phân loại hàng hóa và xác định HS code"
+              description="6 Quy tắc tổng quát giải thích cách xác định HS code và phân loại hàng hoá theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam"
               icon={Scale}
               to="/gri-rules"
               iconBgClass="bg-primary/10"
             />
             <FeatureCard
-              title="Chú giải phân loại"
+              title="Chú giải phân loại và xác định HS code"
               description="Chú giải chi tiết theo Chương và Nhóm hàng trong Biểu thuế"
               icon={BookOpen}
               to="/chapter-notes"
               iconBgClass="bg-ocean-light/30"
             />
             <FeatureCard
-              title="Chú giải SEN"
+              title="Chú giải bổ sung SEN"
               description="Chú giải bổ sung (Selective Explanatory Notes) cho một số loại hàng hoá"
               icon={FileText}
               to="/sen-notes"
               iconBgClass="bg-amber/20"
             />
             <FeatureCard
-              title="Tuyển tập ý kiến phân loại của WCO"
-              description="Các quyết định phân loại của Tổ chức Hải quan Thế giới cho các hàng hoá mới hoặc phức tạp"
+              title="Tuyển tập ý kiến phân loại hàng hóa của WCO"
+              description="Các quyết định phân loại HS code của Tổ chức Hải quan Thế giới cho các hàng hoá mới hoặc phức tạp"
               icon={Globe}
               to="/wco-compendium"
               iconBgClass="bg-orange/20"
