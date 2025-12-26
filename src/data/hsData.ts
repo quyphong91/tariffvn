@@ -1,6 +1,7 @@
 import * as XLSX from 'xlsx';
 
 export type SearchLanguage = 'vi' | 'en';
+export type SearchMatchType = 'contains' | 'exact' | 'phrase';
 
 export interface HSItem {
   level: number;
@@ -116,21 +117,40 @@ export function getDescription(item: HSItem, language: SearchLanguage): string {
 export function searchHSData(
   hsData: HSItem[],
   keyword: string,
-  language: SearchLanguage = 'vi'
+  language: SearchLanguage = 'vi',
+  matchType: SearchMatchType = 'contains'
 ): {
   headings: HSItem[];
   detailed: { item: HSItem; parents: HSItem[] }[];
 } {
-  const lowerKeyword = keyword.toLowerCase().trim();
-  if (!lowerKeyword) {
+  const trimmedKeyword = keyword.trim();
+  if (!trimmedKeyword) {
     return { headings: [], detailed: [] };
   }
+
+  const lowerKeyword = trimmedKeyword.toLowerCase();
 
   const matchingItems = hsData.filter(item => {
     const desc = language === 'en' && item.descriptionEN 
       ? item.descriptionEN.toLowerCase() 
       : item.description.toLowerCase();
-    return item.hsCode.toLowerCase().includes(lowerKeyword) || desc.includes(lowerKeyword);
+    const hsCode = item.hsCode.toLowerCase();
+
+    switch (matchType) {
+      case 'exact':
+        // Exact match: keyword matches a complete word
+        const wordPattern = new RegExp(`\\b${escapeRegex(lowerKeyword)}\\b`, 'i');
+        return wordPattern.test(hsCode) || wordPattern.test(desc);
+      
+      case 'phrase':
+        // Phrase match: all words in keyword must appear in order
+        return hsCode.includes(lowerKeyword) || desc.includes(lowerKeyword);
+      
+      case 'contains':
+      default:
+        // Contains: keyword appears anywhere (default behavior)
+        return hsCode.includes(lowerKeyword) || desc.includes(lowerKeyword);
+    }
   });
 
   // Get unique headings for matching items
@@ -152,4 +172,9 @@ export function searchHSData(
     headings: Array.from(headingsSet),
     detailed,
   };
+}
+
+// Helper to escape special regex characters
+function escapeRegex(str: string): string {
+  return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }

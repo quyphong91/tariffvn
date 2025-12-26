@@ -5,20 +5,23 @@ import { ResultsSection } from "@/components/ResultsSection";
 import { LanguageToggle } from "@/components/LanguageToggle";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { loadHSData, searchHSData, HSItem, SearchLanguage } from "@/data/hsData";
+import { loadHSData, searchHSData, HSItem, SearchLanguage, SearchMatchType } from "@/data/hsData";
 import { ArrowRight, Loader2, Home } from "lucide-react";
-
 import { Button } from "@/components/ui/button";
+import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
+import { Label } from "@/components/ui/label";
 
 const Search = () => {
   const [hsData, setHsData] = useState<HSItem[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [loadError, setLoadError] = useState<string | null>(null);
   const [language, setLanguage] = useState<SearchLanguage>('vi');
+  const [matchType, setMatchType] = useState<SearchMatchType>('contains');
   const [searchResults, setSearchResults] = useState<{
     headings: HSItem[];
     detailed: { item: HSItem; parents: HSItem[] }[];
     keyword: string;
+    matchType: SearchMatchType;
   } | null>(null);
 
   useEffect(() => {
@@ -35,20 +38,29 @@ const Search = () => {
   }, []);
 
   const handleSearch = (keyword: string) => {
-    const results = searchHSData(hsData, keyword, language);
-    setSearchResults({ ...results, keyword });
+    const results = searchHSData(hsData, keyword, language, matchType);
+    setSearchResults({ ...results, keyword, matchType });
   };
 
   const handleLanguageChange = (newLanguage: SearchLanguage) => {
     setLanguage(newLanguage);
     if (searchResults) {
-      const results = searchHSData(hsData, searchResults.keyword, newLanguage);
-      setSearchResults({ ...results, keyword: searchResults.keyword });
+      const results = searchHSData(hsData, searchResults.keyword, newLanguage, matchType);
+      setSearchResults({ ...results, keyword: searchResults.keyword, matchType });
+    }
+  };
+
+  const handleMatchTypeChange = (newMatchType: SearchMatchType) => {
+    setMatchType(newMatchType);
+    if (searchResults) {
+      const results = searchHSData(hsData, searchResults.keyword, language, newMatchType);
+      setSearchResults({ ...results, keyword: searchResults.keyword, matchType: newMatchType });
     }
   };
 
   const handleReset = () => {
     setSearchResults(null);
+    setMatchType('contains');
   };
 
   if (isLoading) {
@@ -96,9 +108,33 @@ const Search = () => {
         {!searchResults ? (
           /* Landing View */
           <div className="max-w-4xl mx-auto pt-4 md:pt-8">
-            {/* Language Toggle & Search Box */}
+            {/* Language Toggle & Match Options & Search Box */}
             <div className="mb-12 animate-fade-up">
               <LanguageToggle language={language} onLanguageChange={handleLanguageChange} />
+              
+              {/* Match Type Options */}
+              <div className="flex items-center justify-center gap-6 mb-4">
+                <span className="text-sm text-muted-foreground">Kiểu tìm kiếm:</span>
+                <RadioGroup
+                  value={matchType}
+                  onValueChange={(value) => handleMatchTypeChange(value as SearchMatchType)}
+                  className="flex items-center gap-4"
+                >
+                  <div className="flex items-center space-x-2">
+                    <RadioGroupItem value="contains" id="contains" />
+                    <Label htmlFor="contains" className="text-sm cursor-pointer">Chứa từ khoá</Label>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <RadioGroupItem value="phrase" id="phrase" />
+                    <Label htmlFor="phrase" className="text-sm cursor-pointer">Cụm từ chính xác</Label>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <RadioGroupItem value="exact" id="exact" />
+                    <Label htmlFor="exact" className="text-sm cursor-pointer">Từ chính xác</Label>
+                  </div>
+                </RadioGroup>
+              </div>
+
               <SearchBox onSearch={handleSearch} />
             </div>
 
@@ -140,9 +176,33 @@ const Search = () => {
         ) : (
           /* Results View */
           <div>
-            {/* Language Toggle & Search Box - Compact */}
+            {/* Language Toggle & Match Options & Search Box - Compact */}
             <div className="mb-8">
               <LanguageToggle language={language} onLanguageChange={handleLanguageChange} />
+              
+              {/* Match Type Options */}
+              <div className="flex items-center justify-center gap-6 mb-4">
+                <span className="text-sm text-muted-foreground">Kiểu tìm kiếm:</span>
+                <RadioGroup
+                  value={matchType}
+                  onValueChange={(value) => handleMatchTypeChange(value as SearchMatchType)}
+                  className="flex items-center gap-4"
+                >
+                  <div className="flex items-center space-x-2">
+                    <RadioGroupItem value="contains" id="contains-results" />
+                    <Label htmlFor="contains-results" className="text-sm cursor-pointer">Chứa từ khoá</Label>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <RadioGroupItem value="phrase" id="phrase-results" />
+                    <Label htmlFor="phrase-results" className="text-sm cursor-pointer">Cụm từ chính xác</Label>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <RadioGroupItem value="exact" id="exact-results" />
+                    <Label htmlFor="exact-results" className="text-sm cursor-pointer">Từ chính xác</Label>
+                  </div>
+                </RadioGroup>
+              </div>
+
               <SearchBox onSearch={handleSearch} initialValue={searchResults.keyword} />
             </div>
 
