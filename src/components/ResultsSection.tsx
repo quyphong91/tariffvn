@@ -273,7 +273,7 @@ export function ResultsSection({ headings, detailed, keyword, language }: Result
                 <CollapsibleTrigger className="w-full">
                   <div className="flex items-center gap-2 px-1 mb-2 text-left">
                     <ChevronDown className="h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200 group-data-[state=closed]:rotate-[-90deg]" />
-                    <span className="text-sm font-semibold text-accent bg-accent/10 px-3 py-1 rounded-full shrink-0">
+                    <span className="text-sm font-semibold text-primary-foreground bg-navy px-3 py-1 rounded-full shrink-0">
                       Nhóm {headingCode}
                     </span>
                     {headingDescription && (
