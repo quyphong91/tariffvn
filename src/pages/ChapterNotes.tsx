@@ -2,7 +2,8 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { Home, BookOpen, ChevronDown, ChevronRight, Globe, FileText } from "lucide-react";
+import { Home, BookOpen, ChevronDown, ChevronRight, Globe, FileText, ExternalLink } from "lucide-react";
+import { Button } from "@/components/ui/button";
 import { chapterNotesData, getSectionNote, ChapterNote, HeadingNote } from "@/data/chapterNotesData";
 import {
   Collapsible,
@@ -272,6 +273,20 @@ const ChapterNotes = () => {
                                     </CollapsibleContent>
                                   </Collapsible>
                                 ))}
+                              </div>
+
+                              {/* Full Notes Button */}
+                              <div className="pt-4 border-t border-border/50">
+                                <Link
+                                  to={`/chapter-notes/full/${chapter.chapter}`}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                >
+                                  <Button variant="outline" size="sm" className="gap-2">
+                                    <ExternalLink className="w-4 h-4" />
+                                    Xem chú giải đầy đủ
+                                  </Button>
+                                </Link>
                               </div>
                             </div>
                           </CollapsibleContent>
