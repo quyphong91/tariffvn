@@ -22,7 +22,7 @@ export const Header = () => {
             Nếu thấy hữu ích thì thỉnh thoảng mua cà phê cho page nhé
           </span>
           <a
-            href="https://buymeacoffee.com/pes91"
+            href="https://buymeacoffee.com/zephr"
             target="_blank"
             rel="noopener noreferrer"
           >
