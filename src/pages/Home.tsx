@@ -3,7 +3,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { FeatureCard } from "@/components/FeatureCard";
 import { Button } from "@/components/ui/button";
-import { Search, BookOpen, FileText, Scale, Globe, ArrowRight } from "lucide-react";
+import { Search, BookOpen, FileText, Scale, Globe, ArrowRight, Calculator } from "lucide-react";
 
 
 const Home = () => {
@@ -56,7 +56,14 @@ const Home = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 max-w-7xl mx-auto">
+            <FeatureCard
+              title="Tra cứu thuế nhập khẩu"
+              description="Tra cứu thuế suất nhập khẩu theo mã HS, bao gồm MFN và các FTA: EVFTA, CPTPP, RCEP, ACFTA..."
+              icon={Calculator}
+              to="/tariff-lookup"
+              iconBgClass="bg-amber/20"
+            />
             <FeatureCard
               title="Quy tắc phân loại hàng hóa và xác định HS code"
               description="6 Quy tắc tổng quát giải thích cách xác định HS code và phân loại hàng hoá theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam"
