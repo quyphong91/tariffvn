@@ -84,7 +84,7 @@ const ChapterNoteFull = () => {
       );
     }
     
-    if (row.type === 'list-item') {
+    if (row.type === 'list') {
       return (
         <div key={`${lang}-${index}`} className={cn(baseClasses, "pl-8")}>
           {text}
