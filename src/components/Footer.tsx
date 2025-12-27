@@ -40,7 +40,7 @@ export const Footer = () => {
               <div className="grid gap-4 py-4">
                 {/* Buy Me a Coffee Link */}
                 <a
-                  href="https://buymeacoffee.com/pes91"
+                  href="https://buymeacoffee.com/zephr"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 rounded-lg border border-border bg-secondary/50 hover:bg-secondary transition-colors"
