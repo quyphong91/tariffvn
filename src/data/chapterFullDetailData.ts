@@ -485,25 +485,113 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
         vi: '0106.14 - - Thỏ và thỏ rừng', 
         en: '0106.14 - - Rabbits and hares' 
       },
-      
-      { type: 'list', vi: '0106.19 - - Loại khác', en: '0106.19 - - Other' },
-      { type: 'list', vi: '0106.20 - Loài bò sát (kể cả rắn và rùa)', en: '0106.20 - Reptiles (including snakes and turtles)' },
-      { type: 'paragraph', vi: '- Chim:', en: '- Birds:' },
-      { type: 'list', vi: '0106.31 - - Chim săn mồi', en: '0106.31 - - Birds of prey' },
-      { type: 'list', vi: '0106.32 - - Bộ Vẹt (Psittaciformes) (kể cả vẹt lớn châu Mỹ (parrots), vẹt nhỏ đuôi dài (parakeets), vẹt đuôi dài và vẹt có mào)', en: '0106.32 - - Psittaciformes (including parrots, parakeets, macaws and cockatoos)' },
-      { type: 'list', vi: '0106.33 - - Chim đà điểu; chim đà điểu Nam Mỹ (Rhea americana)', en: '0106.33 - - Ostriches; emus (Dromaius novaehollandiae)' },
-      { type: 'list', vi: '0106.39 - - Loại khác', en: '0106.39 - - Other' },
-      { type: 'paragraph', vi: '- Côn trùng:', en: '- Insects:' },
-      { type: 'list', vi: '0106.41 - - Các loại ong', en: '0106.41 - - Bees' },
-      { type: 'list', vi: '0106.49 - - Loại khác', en: '0106.49 - - Other' },
-      { type: 'list', vi: '0106.90 - Loại khác', en: '0106.90 - Other' },
-      { type: 'paragraph', vi: 'Nhóm này bao gồm, giữa các loại khác:', en: 'This heading includes, inter alia:' },
-      { type: 'list', vi: '(A) Động vật có vú: (1) Linh trưởng. (2) Cá voi, cá heo... (3) Lạc đà và các loài họ Lạc đà. (4) Thỏ và thỏ rừng. (5) Loại khác (ví dụ: hươu nai, linh dương, lạc đà không bướu, thú túi, voi, chó, mèo, thú nuôi làm nông nghiệp như cáo, chồn mink...).', en: '(A) Mammals: (1) Primates. (2) Whales, dolphins... (3) Camels and other camelids. (4) Rabbits and hares. (5) Other (e.g., deer, antelopes, llamas, kangaroos, elephants, dogs, cats, animals for fur farms like foxes, minks...).' },
-      { type: 'list', vi: '(B) Loài bò sát (kể cả rắn và rùa).', en: '(B) Reptiles (including snakes and turtles).' },
-      { type: 'list', vi: '(C) Chim: (1) Chim săn mồi. (2) Vẹt... (3) Loại khác (ví dụ: gà gô, gà lôi, bồ câu, vịt trời, ngỗng trời, chim sẻ rừng, thiên nga và các loại chim khác không thuộc nhóm 01.05).', en: '(C) Birds: (1) Birds of prey. (2) Psittaciformes... (3) Other (e.g., partridges, pheasants, pigeons, wild ducks, wild geese, finches, swans and other birds not in 01.05).' },
-      { type: 'list', vi: '(D) Côn trùng, ví dụ các loại ong (có hay không ở trong lồng hoặc tổ ong lưu động).', en: '(D) Insects, for example, bees (whether or not in hives or boxes).' },
-      { type: 'list', vi: '(E) Các loại động vật sống khác (ví dụ: ếch).', en: '(E) Other live animals (e.g., frogs).' },
-      { type: 'paragraph', vi: 'Nhóm này không bao gồm bầy thú rạp xiếc, bầy thú hoặc động vật làm trò lưu động tương tự khác (nhóm 95.08).', en: 'This heading excludes animals forming part of circuses, menageries or other similar travelling animal shows (heading 95.08).' }
+
+      { 
+        type: 'list', 
+        vi: '0106.19 - - Loại khác', 
+        en: '0106.19 - - Other' 
+      },
+
+      { 
+        type: 'list', 
+        vi: '0106.20 - Loài bò sát (kể cả rắn và rùa)', 
+        en: '0106.20 - Reptiles (including snakes and turtles)' 
+      },
+
+      { 
+        type: 'paragraph', 
+        vi: '- Chim:', 
+        en: '- Birds:' 
+      },
+
+      { 
+        type: 'list', 
+        vi: '0106.31 - - Chim săn mồi', 
+        en: '0106.31 - - Birds of prey' 
+      },
+
+      { 
+        type: 'list', 
+        vi: '0106.32 - - Bộ Vẹt (Psittaciformes) (kể cả vẹt lớn châu Mỹ (parrots), vẹt nhỏ đuôi dài (parakeets), vẹt đuôi dài và vẹt có mào)', 
+        en: '0106.32 - - Psittaciformes (including parrots, parakeets, macaws and cockatoos)' 
+      },
+
+      { 
+        type: 'list', 
+        vi: '0106.33 - - Chim đà điểu; chim đà điểu Nam Mỹ (Rhea americana)', 
+        en: '0106.33 - - Ostriches; emus (Dromaius novaehollandiae)' 
+      },
+
+      { 
+        type: 'list', 
+        vi: '0106.39 - - Loại khác', 
+        en: '0106.39 - - Other' 
+      },
+
+      { 
+        type: 'paragraph', 
+        vi: '- Côn trùng:', 
+        en: '- Insects:' 
+      },
+
+      { 
+        type: 'list', 
+        vi: '0106.41 - - Các loại ong', 
+        en: '0106.41 - - Bees' 
+      },
+
+      { 
+        type: 'list', 
+        vi: '0106.49 - - Loại khác', 
+        en: '0106.49 - - Other' 
+      },
+
+      { 
+        type: 'list', 
+        vi: '0106.90 - Loại khác', 
+        en: '0106.90 - Other' 
+      },
+
+      { 
+        type: 'paragraph', 
+        vi: 'Nhóm này bao gồm, giữa các loại khác:', 
+        en: 'This heading includes, inter alia:' 
+      },
+
+      { 
+        type: 'list', 
+        vi: '(A) Động vật có vú: (1) Linh trưởng. (2) Cá voi, cá heo... (3) Lạc đà và các loài họ Lạc đà. (4) Thỏ và thỏ rừng. (5) Loại khác (ví dụ: hươu nai, linh dương, lạc đà không bướu, thú túi, voi, chó, mèo, thú nuôi làm nông nghiệp như cáo, chồn mink...).', 
+        en: '(A) Mammals: (1) Primates. (2) Whales, dolphins... (3) Camels and other camelids. (4) Rabbits and hares. (5) Other (e.g., deer, antelopes, llamas, kangaroos, elephants, dogs, cats, animals for fur farms like foxes, minks...).' 
+      },
+
+      { type: 'list', 
+        vi: '(B) Loài bò sát (kể cả rắn và rùa).', 
+        en: '(B) Reptiles (including snakes and turtles).' 
+      },
+
+      { 
+        type: 'list', 
+        vi: '(C) Chim: (1) Chim săn mồi. (2) Vẹt... (3) Loại khác (ví dụ: gà gô, gà lôi, bồ câu, vịt trời, ngỗng trời, chim sẻ rừng, thiên nga và các loại chim khác không thuộc nhóm 01.05).', 
+        en: '(C) Birds: (1) Birds of prey. (2) Psittaciformes... (3) Other (e.g., partridges, pheasants, pigeons, wild ducks, wild geese, finches, swans and other birds not in 01.05).' 
+      },
+
+      { 
+        type: 'list', 
+        vi: '(D) Côn trùng, ví dụ các loại ong (có hay không ở trong lồng hoặc tổ ong lưu động).', 
+        en: '(D) Insects, for example, bees (whether or not in hives or boxes).' 
+      },
+
+      { 
+        type: 'list', 
+        vi: '(E) Các loại động vật sống khác (ví dụ: ếch).', 
+        en: '(E) Other live animals (e.g., frogs).' 
+      },
+
+      { 
+        type: 'paragraph', 
+        vi: 'Nhóm này không bao gồm bầy thú rạp xiếc, bầy thú hoặc động vật làm trò lưu động tương tự khác (nhóm 95.08).', 
+        en: 'This heading excludes animals forming part of circuses, menageries or other similar travelling animal shows (heading 95.08).' 
+      }
     ]
   },
 
