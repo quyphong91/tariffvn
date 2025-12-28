@@ -59,7 +59,7 @@ export interface MarketFilter {
 }
 
 export const MARKET_FILTERS: MarketFilter[] = [
-  { id: 'default', label: 'Mặc định', columns: ['mfn', 'standard'] },
+  { id: 'default', label: 'Mặc định', columns: ['mfn'] },
   { id: 'europe', label: 'Châu Âu', columns: ['mfn', 'evfta', 'ukvfta'] },
   { id: 'asean', label: 'ASEAN', columns: ['mfn', 'atiga', 'rcepAF'] },
   { id: 'china', label: 'Trung Quốc', columns: ['mfn', 'acfta', 'rcepAF'] },
@@ -148,10 +148,48 @@ export function searchTariffData(
   const trimmed = keyword.trim().toLowerCase();
   if (!trimmed) return [];
 
-  return data.filter(item => {
+  // Find matching items first
+  const matchedItems = data.filter(item => {
     const hsMatch = item.hsCode.toLowerCase().includes(trimmed);
     const vnMatch = item.descriptionVN.toLowerCase().includes(trimmed);
     const enMatch = item.descriptionEN.toLowerCase().includes(trimmed);
     return hsMatch || vnMatch || enMatch;
   });
+
+  // For each matched item, find and include parent rows
+  const resultsWithParents: TariffItem[] = [];
+  const addedIndices = new Set<number>();
+
+  matchedItems.forEach(matchedItem => {
+    const matchedIndex = data.indexOf(matchedItem);
+    
+    // Find parent rows by looking backwards for items with lower levels
+    const parents: TariffItem[] = [];
+    let currentLevel = matchedItem.level;
+    
+    for (let i = matchedIndex - 1; i >= 0 && currentLevel > 0; i--) {
+      const item = data[i];
+      if (item.level < currentLevel) {
+        parents.unshift(item);
+        currentLevel = item.level;
+      }
+    }
+
+    // Add parents first (if not already added)
+    parents.forEach(parent => {
+      const parentIndex = data.indexOf(parent);
+      if (!addedIndices.has(parentIndex)) {
+        addedIndices.add(parentIndex);
+        resultsWithParents.push(parent);
+      }
+    });
+
+    // Add the matched item (if not already added)
+    if (!addedIndices.has(matchedIndex)) {
+      addedIndices.add(matchedIndex);
+      resultsWithParents.push(matchedItem);
+    }
+  });
+
+  return resultsWithParents;
 }

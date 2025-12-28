@@ -53,7 +53,7 @@ const TariffLookup = () => {
   const [searchResults, setSearchResults] = useState<TariffItem[]>([]);
   const [hasSearched, setHasSearched] = useState(false);
   const [selectedColumns, setSelectedColumns] = useState<Set<keyof TariffItem>>(
-    new Set(["mfn", "standard"])
+    new Set(["mfn"])
   );
   const [activeMarket, setActiveMarket] = useState("default");
   const [copiedCode, setCopiedCode] = useState<string | null>(null);
