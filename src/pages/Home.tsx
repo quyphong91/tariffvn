@@ -3,7 +3,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { FeatureCard } from "@/components/FeatureCard";
 import { Button } from "@/components/ui/button";
-import { Search, BookOpen, FileText, Scale, Globe, ArrowRight, Calculator } from "lucide-react";
+import { Search, BookOpen, FileText, Scale, Globe, ArrowRight, Calculator, Newspaper } from "lucide-react";
 
 
 const Home = () => {
@@ -56,7 +56,7 @@ const Home = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
             <FeatureCard
               title="Tra cứu thuế nhập khẩu"
               description="Tra cứu thuế suất nhập khẩu theo mã HS, bao gồm MFN và các FTA: EVFTA, CPTPP, RCEP, ACFTA..."
@@ -91,6 +91,13 @@ const Home = () => {
               icon={Globe}
               to="/wco-compendium"
               iconBgClass="bg-orange/20"
+            />
+            <FeatureCard
+              title="Tin tức & Bài viết"
+              description="Cập nhật thông tin mới nhất về HS Code, biểu thuế và chính sách hải quan"
+              icon={Newspaper}
+              to="/news"
+              iconBgClass="bg-primary/15"
             />
           </div>
         </section>

@@ -12,6 +12,8 @@ import ChapterNoteFull from "./pages/ChapterNoteFull";
 import SENNotes from "./pages/SENNotes";
 import WCOCompendium from "./pages/WCOCompendium";
 import TariffLookup from "./pages/TariffLookup";
+import NewsList from "./pages/NewsList";
+import NewsDetail from "./pages/NewsDetail";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -32,6 +34,8 @@ const App = () => (
             <Route path="/sen-notes" element={<SENNotes />} />
             <Route path="/wco-compendium" element={<WCOCompendium />} />
             <Route path="/tariff-lookup" element={<TariffLookup />} />
+            <Route path="/news" element={<NewsList />} />
+            <Route path="/news/:slug" element={<NewsDetail />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
