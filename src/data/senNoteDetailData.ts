@@ -31,21 +31,55 @@ export const senNoteDetailData: SENChapterDetail[] = [
   // ------------------------------------------------------------
   {
     chapterNumber: 1,
-    titleVi: 'CHƯƠNG 1: ĐỘNG VẬT SỐNG',
-    titleEn: 'CHAPTER 1: LIVE ANIMALS',
+    titleVi: 'CHƯƠNG 1',
+    titleEn: 'CHAPTER 1',
     content: [
-      // Placeholder content - to be filled later
-      { 
-        type: 'heading', 
-        vi: 'Chú giải SEN - Chương 1', 
-        en: 'SEN Notes - Chapter 1' 
+      {
+        type: 'heading',
+        vi: '0102.29.11',
+        en: '0102.29.11'
       },
-      { 
-        type: 'paragraph', 
-        vi: 'Nội dung đang được cập nhật...', 
-        en: 'Content is being updated...' 
+      {
+        type: 'paragraph',
+        vi: 'BÒ THIẾN',
+        en: 'OXEN'
       },
-    ],
+      {
+        type: 'paragraph',
+        vi: 'Bò thiến là động vật đực họ trâu bò giống Bos loài Bos Taurus trưởng thành, đã bị thiến.',
+        en: 'Oxen are castrated adult male bovine animals of the genus Bos of the species Bos Taurus.'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Chúng được huấn luyện làm động vật kéo (kéo xe cart, xe kéo bốn bánh (wagons), cày…) vì chúng có đặc trưng là to lớn, vạm vỡ và mạnh mẽ. Hầu hết bò thiến có trọng lượng tương đương với các con bò đực trưởng thành của cùng một giống, nhưng bò thiến thường cao hơn và gọn hơn ở cổ và ngực.',
+        en: 'They are trained as draft animals (pulling carts, wagons, plows etc) because of they are characteristically more massive, muscular, and sturdy. Most oxen weigh about the same as a mature bull of the same breed, but oxen often grow taller and leaner in the neck and chest.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: In-đô-nê-xi-a)',
+        en: '(Source: Indonesia)'
+      },
+      {
+        type: 'heading',
+        vi: '0105.11.10 0105.12.10 0105.13.10 0105.14.10 0105.15.10 0105.94.10 0105.99.10 0105.99.30',
+        en: '0105.11.10 0105.12.10 0105.13.10 0105.14.10 0105.15.10 0105.94.10 0105.99.10 0105.99.30'
+      },
+      {
+        type: 'paragraph',
+        vi: 'ĐỂ NHÂN GIỐNG',
+        en: 'BREEDING'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Theo mục đích của các phân nhóm của ASEAN thuộc nhóm 01.05, thuật ngữ “để nhân giống” để chỉ gia cầm sống, được nuôi lớn để trở thành động vật để nhân giống.',
+        en: 'For the purpose of the ASEAN subheadings under heading 01.05, the term “breeding” refers to live poultry of a kind presented for raising as a breeding animal.'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Động vật để nhân giống được kèm theo chứng nhận của các cơ quan có thẩm quyền theo quy định của luật quốc gia.',
+        en: 'Breeding animals are accompanied by certification from the competent authorities as provided for under the national law.'
+      }
+    ]
   },
   // ------------------------------------------------------------
   // CHAPTER 2
