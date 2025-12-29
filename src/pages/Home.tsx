@@ -8,10 +8,10 @@ import { Search, BookOpen, FileText, Scale, Globe, ArrowRight, Calculator, Newsp
 
 const Home = () => {
   return (
-    <div className="h-screen flex flex-col bg-gradient-hero overflow-hidden">
+    <div className="min-h-screen flex flex-col bg-gradient-hero">
       <Header />
 
-      <main className="flex-1 flex flex-col overflow-auto">
+      <main className="flex-1 flex flex-col">
         {/* Hero / Middle Section */}
         <section className="container mx-auto px-4 py-8 md:py-12">
           <div className="max-w-4xl mx-auto text-center">
