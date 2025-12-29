@@ -16693,9 +16693,65 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
   // ------------------------------------------------------------
   // CHAPTER 97
   // ------------------------------------------------------------
-  
+  {
+    chapterNumber: 97,
+    titleVi: 'CHƯƠNG 97: CÁC TÁC PHẨM NGHỆ THUẬT, ĐỒ SƯU TẦM VÀ ĐỒ CỔ',
+    titleEn: 'CHAPTER 97: WORKS OF ART, COLLECTORS’ PIECES AND ANTIQUES',
+    content: [
+      { type: 'heading', vi: 'PHẦN XXI: CÁC TÁC PHẨM NGHỆ THUẬT, ĐỒ SƯU TẦM VÀ ĐỒ CỔ', en: 'SECTION XXI: WORKS OF ART, COLLECTORS’ PIECES AND ANTIQUES' },
+      { type: 'heading', vi: 'Chương 97: Các tác phẩm nghệ thuật, đồ sưu tầm và đồ cổ', en: 'Chapter 97: Works of art, collectors’ pieces and antiques' },
+      { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
+      { type: 'paragraph', vi: '1. Chương này không bao gồm:', en: '1.- This Chapter does not cover:' },
+      { type: 'list', vi: '(a) Tem bưu chính hoặc tem thuế chưa sử dụng, bưu thiếp (đã đóng sẵn tem) hoặc loại tương tự, thuộc nhóm 49.07;', en: '(a) Unused postage or revenue stamps, postal stationery (stamped paper) or the like, of heading 49.07;' },
+      { type: 'list', vi: '(b) Phông sân khấu, phông trường quay hoặc loại tương tự, bằng vải bạt đã sơn vẽ (nhóm 59.07) trừ khi chúng có thể phân loại được vào nhóm 97.06; hoặc', en: '(b) Theatrical scenery, studio back-cloths or the like, of painted canvas (heading 59.07) except if they may be classified in heading 97.06; or' },
+      { type: 'list', vi: '(c) Ngọc trai, tự nhiên hoặc nuôi cấy, hoặc đá quý hoặc đá bán quý (thuộc các nhóm từ 71.01 đến 71.03).', en: '(c) Pearls, natural or cultured, or precious or semi-precious stones (headings 71.01 to 71.03).' },
+      { type: 'paragraph', vi: '2. Nhóm 97.01 không áp dụng cho các bản vẽ thiết kế mỹ thuật hoặc sơ đồ kỹ thuật cho các mục đích công nghiệp, thương mại, bản vẽ cho các mục đích tương tự, các mặt hàng được trang trí bằng tay, vải bạt đã sơn vẽ cho phông sân khấu, phông trường quay hoặc các loại tương tự (nhóm 59.07).', en: '2.- Heading 97.01 does not apply to plans and drawings, for industrial, architectural, engineering, commercial or similar purposes, or to hand-decorated manufactured articles, or to painted canvas for theatrical scenery, studio back-cloths or the like (heading 59.07).' },
+      { type: 'paragraph', vi: '3. Theo mục đích của nhóm 97.02, khái niệm "bản khắc tranh, bản in tranh và bản in đá nguyên bản" có nghĩa là các bản in đen trắng hoặc in màu được in trực tiếp từ một hay nhiều bản in được nghệ sỹ khắc hoàn toàn bằng tay, bất kể nghệ sỹ đó sử dụng quy trình hay vật liệu nào, nhưng không bao gồm quy trình cơ học hoặc quang cơ học.', en: '3.- For the purposes of heading 97.02, the expression “ original engravings, prints and lithographs ” means impressions produced directly, in black and white or in colour, of one or of several plates wholly executed by hand by the artist, irrespective of the process or of the material employed by him, but not including any mechanical or photomechanical process.' },
+      { type: 'paragraph', vi: '4. Nhóm 97.03 không áp dụng cho các sản phẩm đúc được sản xuất hàng loạt hoặc các tác phẩm thủ công mang tính chất thương mại, cho dù các mặt hàng này được thiết kế hoặc tạo ra bởi các nghệ sỹ.', en: '4.- Heading 97.03 does not apply to mass-produced reproductions or works of conventional craftsmanship of a commercial character, even if these articles are designed or created by artists.' },
+      { type: 'paragraph', vi: '5. (A) Theo các Chú giải từ 1 đến 4 ở trên, các mặt hàng của Chương này sẽ được phân loại vào Chương này mà không phân loại vào bất kỳ Chương nào khác của Danh mục.', en: '5.- (A) Subject to Notes 1 to 4 above, articles of this Chapter are to be classified in this Chapter and not in any other Chapter of the Nomenclature.' },
+      { type: 'paragraph', vi: '(B) Nhóm 97.06 không áp dụng cho các mặt hàng thuộc các nhóm trước của Chương này.', en: '(B) Heading 97.06 does not apply to articles of the preceding headings of this Chapter.' },
+      { type: 'paragraph', vi: '6. Khung của các tranh vẽ, bản vẽ, tranh thêu (pastels), tranh cắt dán (collages) hoặc các tấm trang trí tương tự, các bản khắc tranh, bản in tranh hoặc bản in đá được phân loại cùng với các mặt hàng đó, với điều kiện chúng phù hợp về loại và giá trị với các mặt hàng đó. Các loại khung không phù hợp về loại hoặc giá trị với các mặt hàng nêu trong Chú giải này được phân loại riêng.', en: '6.- Frames around paintings, drawings, pastels, collages or similar decorative plaques, engravings, prints or lithographs are to be classified with those articles, provided they are of a kind and of a value normal to those articles. Frames which are not of a kind or of a value normal to the articles referred to in this Note are to be classified separately.' },
 
+      { type: 'heading', vi: 'TỔNG QUÁT', en: 'GENERAL' },
+      { type: 'paragraph', vi: 'Chương này bao gồm: (1) Những tác phẩm nghệ thuật nhất định: tranh vẽ, bản vẽ và tranh thêu (pastels), được thực hiện hoàn toàn bằng tay, tranh cắt dán (collages) và các tấm trang trí tương tự (nhóm 97.01); các bản in tranh, bản khắc tranh và bản in đá nguyên bản (nhóm 97.02); các tác phẩm điêu khắc và tượng tạc nguyên bản (nhóm 97.03). (2) Tem bưu chính, tem thuế, các dấu bưu chính, phong bì có in sẵn tem (postal stationery), các tờ kỷ niệm ngày phát hành (first-day covers) và các loại tương tự, đã hoặc chưa sử dụng, trừ loại thuộc nhóm 49.07 (nhóm 97.04). (3) Các bộ sưu tập và các vật phẩm sưu tập có ý nghĩa về thực vật học, động vật học, khoáng vật học, giải phẫu học, lịch sử, khảo cổ học, cổ sinh vật học, dân tộc học hoặc tiền tệ (nhóm 97.05). (4) Đồ cổ có tuổi trên 100 năm (nhóm 97.06).', en: 'This Chapter covers : (1) Certain works of art: paintings, drawings and pastels, executed entirely by hand, collages and similar decorative plaques (heading 97.01); original engravings, prints and lithographs (heading 97.02); original sculptures and statuary (heading 97.03). (2) Postage or revenue stamps, stamp-postmarks, first-day covers, postal stationery (stamped paper), and the like, used or unused, other than those of heading 49.07 (heading 97.04). (3) Collections and collectors’ pieces of zoological, botanical, mineralogical, anatomical, historical, archaeological, palaeontological, ethnographic or numismatic interest (heading 97.05). (4) Antiques of an age exceeding 100 years (heading 97.06).' },
 
+      { type: 'heading', vi: '97.01 - Tranh vẽ, bản vẽ và tranh thêu (pastels), được thực hiện hoàn toàn bằng tay, trừ các bản vẽ thuộc nhóm 49.06 và các sản phẩm thủ công đã được trang trí bằng tay; tranh cắt dán (collages), khảm và các tấm trang trí tương tự (+).', en: '97.01 - Paintings, drawings and pastels, executed entirely by hand, other than drawings of heading 49.06 and other than hand-painted or hand-decorated manufactured articles; collages, mosaics and similar decorative plaques (+).' },
+      { type: 'paragraph', vi: '- Tranh vẽ, bản vẽ và tranh thêu (pastels):', en: '- Paintings, drawings and pastels :' },
+      { type: 'list', vi: '9701.21 - - Có tuổi trên 100 năm', en: '9701.21 - - Of an age exceeding 100 years' },
+      { type: 'list', vi: '9701.22 - - Loại khác', en: '9701.22 - - Other' },
+      { type: 'paragraph', vi: '- Khảm:', en: '- Mosaics :' },
+      { type: 'list', vi: '9701.31 - - Có tuổi trên 100 năm', en: '9701.31 - - Of an age exceeding 100 years' },
+      { type: 'list', vi: '9701.32 - - Loại khác', en: '9701.32 - - Other' },
+      { type: 'paragraph', vi: '- Loại khác:', en: '- Other :' },
+      { type: 'list', vi: '9701.91 - - Có tuổi trên 100 năm', en: '9701.91 - - Of an age exceeding 100 years' },
+      { type: 'list', vi: '9701.92 - - Loại khác', en: '9701.92 - - Other' },
+
+      { type: 'heading', vi: '97.02 - Bản khắc tranh, bản in tranh và bản in đá nguyên bản.', en: '97.02 - Original engravings, prints and lithographs.' },
+      { type: 'list', vi: '9702.10 - Có tuổi trên 100 năm', en: '9702.10 - Of an age exceeding 100 years' },
+      { type: 'list', vi: '9702.90 - Loại khác', en: '9702.90 - Other' },
+
+      { type: 'heading', vi: '97.03 - Các tác phẩm điêu khắc và tượng tạc nguyên bản, bằng mọi loại vật liệu.', en: '97.03 - Original sculptures and statuary, in any material.' },
+      { type: 'list', vi: '9703.10 - Có tuổi trên 100 năm', en: '9703.10 - Of an age exceeding 100 years' },
+      { type: 'list', vi: '9703.90 - Loại khác', en: '9703.90 - Other' },
+
+      { type: 'heading', vi: '97.04 - Tem bưu chính hoặc tem thuế, các dấu bưu chính, phong bì có in sẵn tem (postal stationery), các tờ kỷ niệm ngày phát hành (first-day covers) và các loại tương tự, đã hoặc chưa sử dụng, trừ loại thuộc nhóm 49.07.', en: '97.04 - Postage or revenue stamps, stamp-postmarks, first-day covers, postal stationery (stamped paper), and the like, used or unused, other than those of heading 49.07.' },
+
+      { type: 'heading', vi: '97.05 - Bộ sưu tập và vật phẩm sưu tập có ý nghĩa về thực vật học, động vật học, khoáng vật học, giải phẫu học, lịch sử, khảo cổ học, cổ sinh vật học, dân tộc học hoặc tiền tệ (+).', en: '97.05 - Collections and collectors’ pieces of archaeological, ethnographic, historical, zoological, botanical, mineralogical, anatomical, palaeontological or numismatic interest (+).' },
+      { type: 'list', vi: '9705.10 - Bộ sưu tập và vật phẩm sưu tập có ý nghĩa về khảo cổ học, dân tộc học hoặc lịch sử', en: '9705.10 - Collections and collectors’ pieces of archaeological, ethnographic or historical interest' },
+      { type: 'paragraph', vi: '- Bộ sưu tập và vật phẩm sưu tập có ý nghĩa về động vật học, thực vật học, khoáng vật học, giải phẫu học hoặc cổ sinh vật học:', en: '- Collections and collectors’ pieces of zoological, botanical, mineralogical, anatomical or palaeontological interest :' },
+      { type: 'list', vi: '9705.21 - - Động vật hoang dã thuộc các loài có nguy cơ bị tuyệt chủng và các bộ phận của chúng', en: '9705.21 - - Extinct or endangered species and parts thereof' },
+      { type: 'list', vi: '9705.22 - - Loài khác đã tuyệt chủng hoặc có nguy cơ bị tuyệt chủng', en: '9705.22 - - Other extinct or endangered species' },
+      { type: 'list', vi: '9705.29 - - Loại khác', en: '9705.29 - - Other' },
+      { type: 'paragraph', vi: '- Bộ sưu tập và vật phẩm sưu tập có ý nghĩa về tiền tệ:', en: '- Collections and collectors’ pieces of numismatic interest :' },
+      { type: 'list', vi: '9705.31 - - Có tuổi trên 100 năm', en: '9705.31 - - Of an age exceeding 100 years' },
+      { type: 'list', vi: '9705.39 - - Loại khác', en: '9705.39 - - Other' },
+
+      { type: 'heading', vi: '97.06 - Đồ cổ có tuổi trên 100 năm (+).', en: '97.06 - Antiques of an age exceeding one hundred years (+).' },
+      { type: 'list', vi: '9706.10 - Có tuổi trên 250 năm', en: '9706.10 - Of an age exceeding 250 years' },
+      { type: 'list', vi: '9706.90 - Loại khác', en: '9706.90 - Other' },
+      { type: 'paragraph', vi: 'Nhóm này bao gồm các đồ vật cổ có tuổi trên 100 năm, với điều kiện chúng không thuộc các nhóm từ 97.01 đến 97.05 của Chương này. [cite_start]Ví dụ như: Đồ nội thất, thảm, nhạc cụ, đồng hồ, đồ trang sức... [cite: 1, 3]' }
+    ]
+  },
 ];
 
 // ============================================================
