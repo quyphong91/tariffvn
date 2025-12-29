@@ -10,6 +10,7 @@ import GRIRules from "./pages/GRIRules";
 import ChapterNotes from "./pages/ChapterNotes";
 import ChapterNoteFull from "./pages/ChapterNoteFull";
 import SENNotes from "./pages/SENNotes";
+import SENNoteFull from "./pages/SENNoteFull";
 import WCOCompendium from "./pages/WCOCompendium";
 import TariffLookup from "./pages/TariffLookup";
 import NewsList from "./pages/NewsList";
@@ -32,6 +33,7 @@ const App = () => (
             <Route path="/chapter-notes" element={<ChapterNotes />} />
             <Route path="/chapter-notes/full/:chapterNumber" element={<ChapterNoteFull />} />
             <Route path="/sen-notes" element={<SENNotes />} />
+            <Route path="/sen-notes/full/:chapterNumber" element={<SENNoteFull />} />
             <Route path="/wco-compendium" element={<WCOCompendium />} />
             <Route path="/tariff-lookup" element={<TariffLookup />} />
             <Route path="/news" element={<NewsList />} />

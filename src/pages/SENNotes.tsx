@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { Home, FileText, ExternalLink, ChevronDown } from "lucide-react";
+import { Home, FileText, ExternalLink, Eye } from "lucide-react";
+import { Button } from "@/components/ui/button";
 import {
   Accordion,
   AccordionContent,
@@ -292,22 +293,29 @@ const SENNotes = () => {
                 </AccordionTrigger>
                 <AccordionContent className="px-6 pb-4">
                   <div className="space-y-2 pt-2">
-                    {section.chapters.map((chapter) => (
-                      <Accordion key={chapter.id} type="single" collapsible>
-                        <AccordionItem value={chapter.id} className="border border-border/50 rounded-lg bg-background/50">
-                          <AccordionTrigger className="px-4 py-3 hover:no-underline hover:bg-muted/30 transition-colors text-sm">
-                            <span className="text-left text-muted-foreground hover:text-foreground transition-colors">
+                    {section.chapters.map((chapter) => {
+                      // Extract chapter number from id (e.g., "ch-01" -> 1)
+                      const chapterNum = parseInt(chapter.id.replace('ch-', ''));
+                      
+                      return (
+                        <div key={chapter.id} className="border border-border/50 rounded-lg bg-background/50 p-4">
+                          <div className="flex items-center justify-between gap-4">
+                            <span className="text-left text-muted-foreground text-sm flex-1">
                               {chapter.title}
                             </span>
-                          </AccordionTrigger>
-                          <AccordionContent className="px-4 pb-3">
-                            <div className="text-sm text-muted-foreground italic">
-                              {chapter.content || "Nội dung đang được cập nhật..."}
-                            </div>
-                          </AccordionContent>
-                        </AccordionItem>
-                      </Accordion>
-                    ))}
+                            <Button
+                              variant="outline"
+                              size="sm"
+                              className="gap-2 shrink-0"
+                              onClick={() => window.open(`/#/sen-notes/full/${chapterNum}`, '_blank')}
+                            >
+                              <Eye className="w-4 h-4" />
+                              Xem chi tiết
+                            </Button>
+                          </div>
+                        </div>
+                      );
+                    })}
                   </div>
                 </AccordionContent>
               </AccordionItem>
