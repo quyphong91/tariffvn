@@ -341,9 +341,9 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
       },
 
       { 
-        type: 'paragrpah', 
+        type: 'paragraph', 
         vi: '- Loại khác:', 
-        en: '- Other:' 
+        en: '- Other:'
       },
 
       { 
@@ -664,9 +664,9 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
       },
 
       { 
-        type: 'paragrpah', 
+        type: 'paragraph', 
         vi: '(D) Côn trùng, ví dụ các loại ong (có hay không ở trong các thùng hoặc lồng hoặc tổ ong lưu động).', 
-        en: '(D) Insects, e.g., bees (whether or not in travelling boxes or cages or hives).' 
+        en: '(D) Insects, e.g., bees (whether or not in travelling boxes or cages or hives).'
       },
 
       { 
