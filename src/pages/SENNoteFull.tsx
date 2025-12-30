@@ -1,6 +1,5 @@
 import { useParams, Link } from "react-router-dom";
 import { Header } from "@/components/Header";
-import { Footer } from "@/components/Footer";
 import { Home, ChevronLeft, Search, ToggleLeft, ToggleRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -103,7 +102,7 @@ const SENNoteFull = () => {
     <div className="min-h-screen bg-gradient-hero">
       <Header />
 
-      <main className="container mx-auto px-4 py-8">
+      <main className="flex-1 px-2 md:px-4 py-8">
         {/* Breadcrumb */}
         <div className="mb-6">
           <Link to="/" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
@@ -129,7 +128,7 @@ const SENNoteFull = () => {
         </div>
 
         {/* Page Header */}
-        <div className="max-w-7xl mx-auto mb-6">
+        <div className="mb-6">
           <h1 className="text-2xl md:text-3xl font-bold text-foreground mb-2">
             Chú giải SEN đầy đủ - Chương {chapter}
           </h1>
@@ -139,7 +138,7 @@ const SENNoteFull = () => {
         </div>
 
         {/* Controls */}
-        <div className="max-w-7xl mx-auto mb-6 flex flex-col sm:flex-row gap-4 items-start sm:items-center justify-between">
+        <div className="mb-6 flex flex-col sm:flex-row gap-4 items-start sm:items-center justify-between">
           {/* Search Bar */}
           <div className="relative w-full sm:w-80">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
@@ -196,7 +195,7 @@ const SENNoteFull = () => {
 
         {/* Content Area */}
         {chapterData ? (
-          <div className="max-w-7xl mx-auto">
+          <div>
             {/* Desktop/Tablet: Side by Side */}
             <div className="hidden md:grid md:grid-cols-2 gap-0 rounded-xl border border-border overflow-hidden bg-card">
               {/* Vietnamese Column Header */}
@@ -211,7 +210,7 @@ const SENNoteFull = () => {
               {/* Vietnamese Column Content */}
               <div 
                 ref={viColumnRef}
-                className="max-h-[60vh] overflow-y-auto border-r border-border"
+                className="max-h-[80vh] overflow-y-auto border-r border-border"
               >
                 {filteredContent.map((row, index) => renderRow(row, index, 'vi'))}
                 {filteredContent.length === 0 && (
@@ -224,7 +223,7 @@ const SENNoteFull = () => {
               {/* English Column Content */}
               <div 
                 ref={enColumnRef}
-                className="max-h-[60vh] overflow-y-auto"
+                className="max-h-[80vh] overflow-y-auto"
               >
                 {filteredContent.map((row, index) => renderRow(row, index, 'en'))}
                 {filteredContent.length === 0 && (
@@ -243,7 +242,7 @@ const SENNoteFull = () => {
               </div>
               
               {/* Column Content */}
-              <div className="max-h-[60vh] overflow-y-auto">
+              <div className="max-h-[70vh] overflow-y-auto">
                 {filteredContent.map((row, index) => renderRow(row, index, mobileView))}
                 {filteredContent.length === 0 && (
                   <div className="p-8 text-center text-muted-foreground">
@@ -263,7 +262,7 @@ const SENNoteFull = () => {
             )}
           </div>
         ) : (
-          <div className="max-w-5xl mx-auto">
+          <div>
             <div className="p-8 rounded-xl border border-border bg-card text-center">
               <p className="text-muted-foreground">
                 Nội dung chú giải SEN đầy đủ cho Chương {chapter} đang được cập nhật...
@@ -275,8 +274,6 @@ const SENNoteFull = () => {
           </div>
         )}
       </main>
-
-      <Footer />
     </div>
   );
 };
