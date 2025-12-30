@@ -300,6 +300,25 @@ const ChapterNotes = () => {
           })}
         </div>
 
+        {/* View All Chapters Full Detail Button */}
+        <div className="max-w-5xl mx-auto mt-8 pt-6 border-t border-border">
+          <div className="flex justify-center">
+            <Link
+              to="/chapter-notes/full-all"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="default" size="lg" className="gap-2">
+                <ExternalLink className="w-5 h-5" />
+                Xem chú giải đầy đủ toàn bộ các Chương
+              </Button>
+            </Link>
+          </div>
+          <p className="text-center text-sm text-muted-foreground mt-3">
+            Mở trang chú giải song ngữ đầy đủ của tất cả 97 Chương để tìm kiếm nội dung xuyên suốt các Chương
+          </p>
+        </div>
+
       </main>
 
       <Footer />
