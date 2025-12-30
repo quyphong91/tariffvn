@@ -17,10 +17,10 @@ const Home = () => {
           <div className="max-w-4xl mx-auto text-center">
             {/* Main Description */}
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 animate-fade-up">
-              Tra cứu mã HS code <span className="text-gradient"> nhanh chóng </span>
+              Tra cứu HS code <span className="text-gradient"> nhanh chóng </span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto animate-fade-up" style={{ animationDelay: "100ms" }}>
-              Trang này hỗ trợ bạn tra cứu mã số HS code dựa trên mô tả của hàng hoá
+              HSTC là công cụ hỗ trợ bạn tra cứu mã số HS code dựa trên mô tả của hàng hoá
             </p>
 
             {/* CTA Button */}
