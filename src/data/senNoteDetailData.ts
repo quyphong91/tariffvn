@@ -9408,24 +9408,296 @@ export const senNoteDetailData: SENChapterDetail[] = [
   // ------------------------------------------------------------
   // CHAPTER 94
   // ------------------------------------------------------------
-  
+  {
+    chapterNumber: 94,
+    titleVi: 'CHƯƠNG 94',
+    titleEn: 'CHAPTER 94',
+    content: [
+      {
+        type: 'heading',
+        vi: '9401.69.10  9401.79.10',
+        en: '9401.69.10  9401.79.10'
+      },
+      {
+        type: 'paragraph',
+        vi: 'GHẾ CÓ TỰA LƯNG VÀ/HOẶC PHẦN ĐỂ NGỒI LÀM BẰNG SONG, MÂY',
+        en: 'SEATS WITH BACKREST AND/OR THE SEAT MADE OF RATTAN'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Ghế kết hợp với song, mây là các ghế với khung bằng gỗ hoặc kim loại kết hợp với song, mây như phần để ngồi và / hoặc tựa lưng, không chỉ đơn thuần cho mục đích trang trí.',
+        en: 'Seats combined with rattan are seats with wooden or metal frame combined with rattan as their base and/or backrest but not merely for ornamental use.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: In-đô-nê-xi-a)',
+        en: '(Source: Indonesia)'
+      },
+      {
+        type: 'heading',
+        vi: '9402.90.11',
+        en: '9402.90.11'
+      },
+      {
+        type: 'paragraph',
+        vi: 'GHẾ VỆ SINH DÀNH CHO NGƯỜI BỆNH (COMMODES)',
+        en: 'COMMODES'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Ghế vệ sinh dành cho người bệnh (Commode) là loại đồ nội thất có hình dáng tương tự ghế nhưng có một hộc ngồi cho người ốm hoặc già để sử dụng như một thiết bị vệ sinh.',
+        en: 'Commode is a piece of furniture that looks like a chair but has a container in the seat that people who are ill or old can use as a toilet.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Việt Nam)',
+        en: '(Source: Viet Nam)'
+      },
+      {
+        type: 'heading',
+        vi: '9402.90.12',
+        en: '9402.90.12'
+      },
+      {
+        type: 'paragraph',
+        vi: 'BÀN MỔ, HOẠT ĐỘNG BẰNG ĐIỆN',
+        en: 'OPERATING TABLES - ELECTRICALLY OPERATED'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Bàn mổ là bàn mà bệnh nhân nằm trong quá trình phẫu thuật. Đôi khi được gọi là bàn phẫu thuật hoặc bàn mổ. Bàn mổ thường được sử dụng trong phòng mổ hoặc phòng phẫu thuật của bệnh viện, trung tâm phẫu thuật cấp cứu hoặc các cơ sở chăm sóc sức khỏe khác nơi phẫu thuật được thực hiện. Bàn mổ có thể cố định hoặc di động để di chuyển từ phòng này sang phòng khác. Bàn mổ được sử dụng trong nhiều loại thủ thuật khác nhau như phẫu thuật: tim mạch, chỉnh hình, giảm cân, rô bốt, tiết niệu, v.v.',
+        en: 'An operating table is a table on which a patient lies during a surgical procedure. Sometimes known as a surgical table or operation table, operating tables are typically used within an operating room or surgical suite of a hospital, ambulatory surgery center, or other healthcare facilities where surgeries are performed. Operating tables may be either stationary or mobile to move room to room. Operating tables are used in various types of procedures such as cardiothoracic, orthopaedic, bariatric, robotic, urologic, and more.'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Bàn mổ chạy bằng điện được điều khiển bằng hệ thống điện tử (sử dụng điều khiển từ xa để thay đổi vị trí của bệnh nhân đang phẫu thuật). Bàn mổ được điều khiển bằng điện, điện thủy lực hoặc cơ điện, với bất kỳ phụ kiện nào cho các mục đích vận hành.',
+        en: 'Electrically operating table is electrically driven that are regulated by an electronic system (it uses remote control to make changes to the position of the patient who is undergoing surgery). Operating table that is electrically, electro-hydraulically or electro-mechanical driven, with any accessories for operational purposes.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: In-đô-nê-xi-a)',
+        en: '(Source: Indonesia)'
+      },
+      {
+        type: 'heading',
+        vi: '9402.90.13',
+        en: '9402.90.13'
+      },
+      {
+        type: 'paragraph',
+        vi: 'BÀN MỔ, KHÔNG HOẠT ĐỘNG BẰNG ĐIỆN',
+        en: 'OPERATING TABLES - NOT ELECTRICALLY OPERATED'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Bàn mổ không hoạt động bằng điện không có bất kỳ chức năng điện nào và phụ thuộc vào thiết bị vận hành bằng tay hoặc bằng thủy lực (thường là đòn bẩy) để điều chỉnh vị trí của bàn về vị trí cần thiết. Bàn mổ được điều khiển bằng tay hoặc bằng thủy lực, với bất kỳ phụ kiện nào cho các mục đích vận hành.',
+        en: 'Not electrically operating table does not have any electric function and depends on manually or hydraulically driven device (usually a lever) to make necessary adjustment on the position of the table. Operating table that is manually or hydraulically driven, with any accessories for operational purposes.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: In-đô-nê-xi-a)',
+        en: '(Source: Indonesia)'
+      },
+      {
+        type: 'heading',
+        vi: '9402.90.14',
+        en: '9402.90.14'
+      },
+      {
+        type: 'paragraph',
+        vi: 'BÀN KHÁM',
+        en: 'EXAMINATION TABLES'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Bàn khám được sử dụng ở nơi chăm sóc y tế, khám bệnh cho bệnh nhân. Nói chung, những loại bàn này có thể có chiều cao cố định hoặc điều chỉnh được.',
+        en: 'These are tables used in a place of medical care, for examination of patients. Generally, these tables may be with fixed height or adjustable.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: In-đô-nê-xi-a)',
+        en: '(Source: Indonesia)'
+      },
+      {
+        type: 'heading',
+        vi: '9402.90.15',
+        en: '9402.90.15'
+      },
+      {
+        type: 'paragraph',
+        vi: 'GIƯỜNG BỆNH',
+        en: 'HOSPITAL BEDS'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Giường bệnh là loại giường được thiết kế đặc biệt dành cho những bệnh nhân nằm viện hoặc các trường hợp khác cần được chăm sóc sức khỏe. Những chiếc giường này có những tính năng đặc biệt mang lại sự dễ chịu và thoải mái cho bệnh nhân, tạo thuận tiện cho nhân viên y tế chăm sóc bệnh nhân. Giường có các thanh ray bên hông để nâng hoặc hạ nhằm bảo vệ người bệnh.',
+        en: 'A hospital bed is a bed specially designed for hospitalized patients or others in need of some form of health care. These beds have special features both for the comfort and well-being of the patient and for the convenience of health care workers. Beds have side rails that can be raised or lowered, which serve as protection for the patient.'
+      },
+      {
+        type: 'paragraph',
+        vi: 'WHO định nghĩa giường bệnh là giường được duy trì thường xuyên và cung cấp chỗ ở, chăm sóc y tế toàn thời gian cho bệnh nhân nội trú, được đặt tại các khu vực hoặc một phần của bệnh viện.',
+        en: 'WHO defines a hospital bed as a bed that is regularly maintained and staffed for the accommodation and full-time care of a succession of inpatients and is situated in wards or a part of the hospital where continuous medical care for inpatients is provided.'
+      },
+      {
+        type: 'list',
+        vi: '- Giường bệnh, chiều cao cố định, với bất kỳ loại thanh ray bên nào, không có nệm.',
+        en: '- Hospital bed, fixed height, with any type side rails, without mattress.'
+      },
+      {
+        type: 'list',
+        vi: '- Giường bệnh, chiều cao có thể thay đổi, điều khiển bằng tay hoặc bằng điện với bất kỳ loại thanh ray bên nào, không có nệm.',
+        en: '- Hospital bed, variable height, manually or electrically driven, With any type side rails, without mattress.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: In-đô-nê-xi-a)',
+        en: '(Source: Indonesia)'
+      },
+      {
+        type: 'heading',
+        vi: '9403.20.10  9403.60.10  9403.70.20  9403.89.10',
+        en: '9403.20.10  9403.60.10  9403.70.20  9403.89.10'
+      },
+      {
+        type: 'paragraph',
+        vi: 'TỦ HÚT HƠI ĐỘC',
+        en: 'FUME CUPBOARDS'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Tủ hút hơi độc là một thiết bị thông gió cục bộ, được thiết kế để hạn chế khí, hơi, bụi độc hoặc nguy hiểm. Một tủ hút hơi độc điển hình là thiết bị lớn mà khu vực làm việc của nó có 5 mặt, có đáy thường được đặt ở độ cao khi đứng làm việc.',
+        en: 'A fume cupboard or fume hood is a type of local ventilation device that is designed to limit exposure to hazardous or noxious fumes, vapors or dusts. A fume cupboard is typically a large piece of equipment enclosing five sides of a work area, the bottom of which is most commonly located at a standing work height.'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Có hai loại chính là loại được gắn ống dẫn và loại tái tuần hoàn. Nguyên lý hoạt động của hai loại là như nhau: không khí được hút vào từ mặt trước (mặt mở) của cabin, và được đưa ra ngoài tòa nhà hoặc khử độc bằng cách lọc khí và đưa khí đã lọc trở lại phòng.',
+        en: 'Two main types exist, ducted and recirculating. The principle is the same for both types: air is drawn in from the front (open) side of the cabinet, and either expelled outside the building or made safe through filtration and fed back into the room.'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Tủ hút hơi độc không chỉ để bảo vệ người sử dụng mà còn được dùng trong phòng thí nghiệm nơi mà các hóa chất độc và nguy hại được thải ra trong quá trình kiểm tra, nghiên cứu, phát triển hay giảng dạy. Chúng cũng được sử dụng trong các ứng dụng công nghiệp hay các hoạt động khác nơi mà các chất khí, hơi và bụi độc hoặc nguy hiểm được tạo ra hoặc giải phóng ra ngoài.',
+        en: 'Fume cupboards typically protect only the user, and are most commonly used in laboratories where hazardous or noxious chemicals are released during testing, research, development or teaching. They are also used in industrial applications or other activities where hazardous or noxious vapors, gases or dusts are generated or released.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Wikipedia)',
+        en: '(Source: Wikipedia)'
+      },
+      {
+        type: 'heading',
+        vi: '9404.29.20',
+        en: '9404.29.20'
+      },
+      {
+        type: 'paragraph',
+        vi: 'ĐỆM, LOẠI LÀM NÓNG/LÀM MÁT',
+        en: 'MATTRESSES, HYPERTHERMIA / HYPOTHERMIA TYPE'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Loại đệm này thường được đổ đầy chất lỏng trộn với dung dịch chống tảo và gắn với một bộ điều khiển nhiệt độ. Chúng thường được sử dụng cho trẻ sinh non trong các trường hợp chăm sóc đặc biệt sau sinh.',
+        en: 'These mattresses are generally filled with a liquid mixed with anti-algae solution and attached to a temperature controller. They are normally used for premature babies in neonatal intensive care units.'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Loại làm mát: đệm được thiết kế đặc biệt để làm mát cho bệnh nhân mắc chứng thân nhiệt cao, là người có triệu chứng nhiệt độ cơ thể cao bất thường.',
+        en: 'Hyperthermia type: Mattresses specially designed for cooling a patient with hyperthermia, a condition of having an abnormally high body temperature.'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Loại làm nóng: đệm thiết kế đặc biệt để làm nóng một bệnh nhân mắc chứng thân nhiệt thấp, là người có triệu chứng nhiệt độ cơ thể thấp bất thường.',
+        en: 'Hypothermia type: Mattresses specially designed for heating a patient with hypothermia, a condition of having an abnormally low body temperature.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Ma-lai-xi-a)',
+        en: '(Source: Malaysia)'
+      }
+    ]
+  },
 
   // ------------------------------------------------------------
   // CHAPTER 95
   // ------------------------------------------------------------
-
+  {
+    chapterNumber: 95,
+    titleVi: 'CHƯƠNG 95',
+    titleEn: 'CHAPTER 95',
+    content: [
+      {
+        type: 'heading',
+        vi: '9503.00.80',
+        en: '9503.00.80'
+      },
+      {
+        type: 'paragraph',
+        vi: 'THIẾT BỊ GIÁO DỤC ĐIỆN TỬ TƯƠNG TÁC CẦM TAY ĐƯỢC THIẾT KẾ CHỦ YẾU CHO TRẺ EM',
+        en: 'PORTABLE INTERACTIVE ELECTRONIC EDUCATIONAL DEVICES PRIMARILY DESIGNED FOR CHILDREN'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Các thiết bị cầm tay hoạt động bằng pin (trọng lượng không quá 10kg) thường được thiết kế với hình dáng giống như máy tính xách tay, máy tính bảng, điện thoại thông minh và các sản phẩm tương tự. Đặc biệt, chúng được thiết kế vận hành giản đơn để trẻ em dễ dàng sử dụng phục vụ cho các hoạt động vui chơi, học tập.',
+        en: 'These portable battery operated devices (weighing not more than 10kg) are designed usually with the appearance of so-called laptops, tablets, smartphones and similar articles. They are, in particular, intended to be used by children for playful learning activities due to their design and simple operation.'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Các thiết bị này hỗ trợ học tập bằng cách tương tác giữa trẻ với thiết bị. Chúng giúp trẻ lựa chọn đa dạng các đề mục chức năng, dựa trên một hoặc nhiều chủ đề, v.v. Các thiết bị có thể phản hồi các tín hiệu đầu vào và cung cấp phản hồi dựa trên thông tin được lập trình trước. Do đó, trẻ có thể tự đánh giá mức độ hoàn thành của mình và học hỏi từ trải nghiệm.',
+        en: 'These devices support learning by means of interaction between the child and the device. They enable the child to make a choice between various input options, based on one or more subjects, themes, etc. The devices are able to respond to these inputs and to provide feedback based on pre-programmed information. The child can consequently assess the level of its own success and learn from the experience.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Phi-líp-pin)',
+        en: '(Source: Philippines)'
+      }
+    ]
+  },
 
   // ------------------------------------------------------------
   // CHAPTER 96
   // ------------------------------------------------------------
-
+  {
+    chapterNumber: 96,
+    titleVi: 'CHƯƠNG 96',
+    titleEn: 'CHAPTER 96',
+    content: [
+      {
+        type: 'heading',
+        vi: '9601.90.12',
+        en: '9601.90.12'
+      },
+      {
+        type: 'paragraph',
+        vi: 'NHÂN NUÔI CẤY NGỌC TRAI',
+        en: 'PEARL NUCLEUS'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Nhân nuôi cấy ngọc trai là một hạt hình cầu cắt từ xà cừ, vỏ của một con trai hoặc con hàu, được cấy vào những con hàu để sản xuất ngọc trai nuôi cấy.',
+        en: 'Pearl Nucleus is a spherical shell bead cut from mother of pearl, shell of a mussel or oyster, to be implanted in the oysters for producing cultured pearls.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: In-đô-nê-xi-a)',
+        en: '(Source: Indonesia)'
+      }
+    ]
+  }, 
 
   // ------------------------------------------------------------
   // CHAPTER 97
   // ------------------------------------------------------------
-
-
-
+  {
+    chapterNumber: 97,
+    titleVi: 'CHƯƠNG 97',
+    titleEn: 'CHAPTER 97',
+    content: [
+      {
+        type: 'paragraph',
+        vi: 'Hiện chưa có Chú giải bổ sung cho Chương này.',
+        en: 'There are no Supplementary Explanatory Notes for this Chapter.'
+      }
+    ]
+  },
   
 ];
 
