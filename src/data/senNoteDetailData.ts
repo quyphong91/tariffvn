@@ -8024,52 +8024,1391 @@ export const senNoteDetailData: SENChapterDetail[] = [
   // ------------------------------------------------------------
   // CHAPTER 85
   // ------------------------------------------------------------
-  
+  {
+    chapterNumber: 85,
+    titleVi: 'CHƯƠNG 85',
+    titleEn: 'CHAPTER 85',
+    content: [
+      {
+        type: 'heading',
+        vi: '8501.10.30  8501.10.60',
+        en: '8501.10.30  8501.10.60'
+      },
+      {
+        type: 'paragraph',
+        vi: 'ĐỘNG CƠ HƯỚNG TRỤC',
+        en: 'SPINDLE MOTORS'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Động cơ hướng trục là động cơ một pha cỡ nhỏ, có độ chính xác cao được dùng cho các loại ổ đĩa cứng (HD), ổ đĩa mềm (FD), ổ đĩa compact (CD), ổ đĩa kỹ thuật số đa dụng (DVD), v.v.... Động cơ hướng trục quay đĩa với tốc độ từ 3.000 đến 10.000 vòng/phút. Đầu ghi-đọc di chuyển trên mặt đĩa, đọc hoặc ghi các dữ liệu dạng bit nhị phân tạo nên các khối thông tin và chỉ thị cho máy tính.',
+        en: 'Spindle motors are small size, single phase motors, with high precision used for hard disk (HD) drives, floppy disk (FD) drives, compact disc (CD) drives, digital versatile disc (DVD) drives, etc. Spindle motors rotate disks at 3,000 to 10,000 revolutions per minute. A read-write head moves above the disk, reading or writing the binary bits of data that are the building blocks of instructions and information for all computers.'
+      },
+      {
+        type: 'heading',
+        vi: '8504.21.11  8504.21.19  8504.22.11  8504.22.19',
+        en: '8504.21.11  8504.21.19  8504.22.11  8504.22.19'
+      },
+      {
+        type: 'paragraph',
+        vi: 'MÁY ỔN ÁP TỪNG NẤC (BIẾN ÁP TỰ NGẪU)',
+        en: 'STEP-VOLTAGE REGULATORS (AUTO TRANSFORMERS)'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Đây là các biến áp tự ngẫu loại ngâm dầu được dùng để điều chỉnh điện áp theo từng nấc. Các đặc điểm tiêu chuẩn bao gồm: bể chứa dầu kín, thiết bị xả áp, ống cách điện, trục đấu nối khối thiết bị, bộ chỉ thị mức dầu, van xả,...',
+        en: 'These are oil-filled auto transformers used to regulate line voltages into steps. Standard features include sealed-tank construction, pressure relief device, bushings, terminals, oil sight gauge, drain valve, etc.'
+      },
+      {
+        type: 'list',
+        vi: '1. Sơn polyeste chịu ăn mòn trong các điều kiện môi trường khắc nghiệt.',
+        en: '1. Polyester paint gives greater resistance to corrosion in harsh environments.'
+      },
+      {
+        type: 'list',
+        vi: '2. Vỏ thép không gỉ',
+        en: '2. Stainless steel casing.'
+      },
+      {
+        type: 'list',
+        vi: '3. Thùng chứa dầu kín có thiết bị xả áp để thoát các loại khí sinh ra trong quá trình hoạt động.',
+        en: '3. Sealed tank with pressure relief device to vent gases produced during tap changes.'
+      },
+      {
+        type: 'list',
+        vi: '4. Thiết bị chống sét bằng biến trở oxít kim loại (MOV).',
+        en: '4. External metal oxide varistor (MOV) by-pass arrester.'
+      },
+      {
+        type: 'list',
+        vi: '5. Bộ chỉ thị mức dầu để xác định mức dầu so với mức nền.',
+        en: '5. Oil sight gauge allows oil level to be determined from ground level.'
+      },
+      {
+        type: 'list',
+        vi: '6. Tụ điện động cơ của hộp điều khiển',
+        en: '6. Motor capacitor in the control cabinet.'
+      },
+      {
+        type: 'list',
+        vi: '7. Phích cắm phân cực đơn',
+        en: '7. Single polarized jack plug.'
+      },
+      {
+        type: 'list',
+        vi: '8. Khối đầu nối có nắp che',
+        en: '8. Cover-mounted terminal block.'
+      },
+      {
+        type: 'list',
+        vi: '9. Bảng điều khiển',
+        en: '9. Control Panel.'
+      },
+      {
+        type: 'list',
+        vi: '10. Cuộn dây và bộ chuyển đổi đầu nối điện',
+        en: '10. Coil and tap changer.'
+      },
+      {
+        type: 'list',
+        vi: '11. Ống cách điện',
+        en: '11. High creep bushings.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Phi-líp-pin)',
+        en: '(Source: Philippines)'
+      },
+      {
+        type: 'heading',
+        vi: '8504.21.11  8504.21.92  8504.21.93  8504.22.11  8504.22.92  8504.22.93  8504.33.11  8504.33.19  8504.34.11  8504.34.12  8504.34.13  8504.34.22  8504.34.23  8504.34.24',
+        en: '8504.21.11  8504.21.92  8504.21.93  8504.22.11  8504.22.92  8504.22.93  8504.33.11  8504.33.19  8504.34.11  8504.34.12  8504.34.13  8504.34.22  8504.34.23  8504.34.24'
+      },
+      {
+        type: 'paragraph',
+        vi: 'ĐẦU ĐIỆN ÁP CAO',
+        en: 'HIGH SIDE VOLTAGE'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Biến thế là thiết bị thay đổi điện áp. Phần lớn biến thế được thiết kế để tăng hoặc giảm điện áp theo bước. Trong biến thế giảm áp, điện áp vào cao hơn điện áp ra, do vậy điện áp vào là đầu điện áp cao, còn điện áp ra là đầu điện áp thấp. Với biến thế tăng áp, điện áp vào là đầu điện áp thấp và điện áp ra là đầu điện áp cao.',
+        en: 'A transformer is a voltage changer. Most transformers are designed to either step voltage up or step it down. In a step-down transformer, the input voltage is higher than the output voltage so that the input voltage is the high side voltage and the output voltage is the low side voltage. In a step-up transformer, the input voltage is the low side voltage and the output voltage is the high side voltage.'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Vì các phân nhóm này không chia ra biến thế tăng áp hay giảm áp nên đầu nào có điện áp cao luôn luôn được xem là “đầu điện áp cao” của máy biến thế, bất kể đó là điện áp đầu vào hay đầu ra.',
+        en: 'Since these subheadings are not broken down into step-down or step-up transformers the higher voltage will always be considered to be the “high side”, regardless of whether it is the input or the output voltage.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Thái Lan)',
+        en: '(Source: Thailand)'
+      },
+      {
+        type: 'heading',
+        vi: '8504.31.21',
+        en: '8504.31.21'
+      },
+      {
+        type: 'paragraph',
+        vi: 'MÁY BIẾN DÒNG DẠNG VÒNG DÙNG CHO ĐƯỜNG DÂY CÓ ĐIỆN ÁP KHÔNG QUÁ 220 kV',
+        en: 'RING TYPE CURRENT TRANSFORMERS WITH A VOLTAGE RATING NOT EXCEEDING 220 kV'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Trong kỹ thuật điện, máy biến dòng được sử dụng để đo dòng điện. Máy biến dòng cùng với máy biến áp (máy biến thế), được biết đến như là các máy biến điện dùng cho thiết bị đo lường. Khi dòng điện trong mạch quá cao để nối trực tiếp đến thiết bị đo lường, máy biến dòng sẽ cung cấp dòng điện đã giảm với tỷ lệ chính xác cho các thiết bị đo và ghi. Máy biến dòng cũng cách ly các thiết bị đo khỏi điện áp rất cao trong mạch cần kiểm soát. Máy biến dòng cũng được sử dụng phổ biến việc đo và trong các rơle bảo vệ trong công nghiệp điện. Một ví dụ điển hình của máy biến dòng đo dải đơn điện áp thấp là máy biến dòng dạng vòng.',
+        en: 'In electrical engineering, a current transformer is used for measurement of electric currents. Current transformers, together with voltage transformers (potential transformers), are known as instrument transformers. When current in a circuit is too high to directly apply to measuring instruments, a current transformer produces a reduced current accurately proportional to the current in the circuit, which can be conveniently connected to measuring and recording instruments. A current transformer also isolates the measuring instruments from what may be very high voltage in the monitored circuit. Current transformers are commonly used in metering and protective relays in the electrical power industry. A typical example of low voltage single ratio metering current transformers is the ring type transformer.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Việt Nam)',
+        en: '(Source: Viet Nam)'
+      },
+      {
+        type: 'heading',
+        vi: '8504.31.30',
+        en: '8504.31.30'
+      },
+      {
+        type: 'paragraph',
+        vi: 'MÁY BIẾN ÁP QUÉT VỀ (BIẾN ÁP TẦN SỐ QUÉT NGƯỢC)',
+        en: 'FLYBACK TRANSFORMERS'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Biến áp quét về được sử dụng trong thiết bị thu truyền hình để cung cấp điện áp hồi lưu theo chiều ngang, mức điện áp cao hơn cho điện cực dương thứ hai của đèn hình, và điện áp mảnh cho chỉnh lưu cao áp. Biến áp quét về cũng được gọi là biến áp đầu ra ngang hay biến áp quét ngang.',
+        en: 'Flyback transformers are used in television receivers to provide the horizontal reflection voltage, the higher voltage for the second anode power supply of the picture tube, and the filament voltage for the high- voltage rectifier. Flyback transformers are also called horizontal output transformers or horizontal sweep transformers.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Phi-líp-pin)',
+        en: '(Source: Philippines)'
+      },
+      {
+        type: 'heading',
+        vi: '8504.31.93',
+        en: '8504.31.93'
+      },
+      {
+        type: 'paragraph',
+        vi: 'MÁY BIẾN ÁP TĂNG/GIẢM TỪNG NẤC (STEP UP/DOWN TRANSFORMERS); MÁY ĐIỀU CHỈNH ĐIỆN ÁP TRƯỢT (SLIDE REGULATORS)',
+        en: 'STEP UP/DOWN TRANSFORMERS; SLIDE REGULATORS'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Máy biến áp tăng/giảm từng nấc và máy điều chỉnh điện áp trượt là các máy biến áp có đầu vào không ổn định trong các dải điện áp nhất định và có đầu ra là các điện áp nhất định mà có thể được điều chỉnh bằng tay. Máy ổn áp là các máy biến áp có đầu vào không ổn định trong các dải điện áp nhất định và có đầu ra là các điện áp cố định mà có thể được điều chỉnh bằng thiết bị điện tử kết nối với điện áp vào.',
+        en: 'Step up/down transformers and slide regulators are transformers with unstable input in certain voltage ranges and having an output in certain voltages which can be adjusted manually. Stabilisers are transformers with unstable input in certain voltage ranges and having an output in fixed voltages which can be adjusted by electronic devices connected to input voltages.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Indonesia)',
+        en: '(Source: Indonesia)'
+      },
+      {
+        type: 'heading',
+        vi: '8504.31.92  8504.32.11  8504.32.41  8504.32.51  8504.33.11  8504.33.91  8504.34.11  8504.34.14  8504.34.22  8504.34.25',
+        en: '8504.31.92  8504.32.11  8504.32.41  8504.32.51  8504.33.11  8504.33.91  8504.34.11  8504.34.14  8504.34.22  8504.34.25'
+      },
+      {
+        type: 'paragraph',
+        vi: 'MÁY BIẾN ÁP THÍCH ỨNG',
+        en: 'MATCHING TRANSFORMERS'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Máy biến áp đôi khi được sử dụng để phối hợp trở kháng của mạch điện. Máy biến áp biến đổi điện xoay chiều ở một điện áp này sang điện áp khác ở cùng dạng sóng. Công suất vào và công suất ra của máy biến áp là như nhau (trừ các tổn hao chuyển đổi). Đầu điện áp thấp có trở kháng thấp (vì có số vòng dây ít hơn), và đầu điện áp cao hơn có trở kháng cao hơn (vì có nhiều vòng trong cuộn dây hơn).',
+        en: 'Transformers are sometimes used to match the impedances of circuits. A transformer converts alternating current at one voltage to the same waveform at another voltage. The power input to the transformer and output from the transformer is the same (except for conversion losses). The side with the lower voltage is at low impedance (because this has the lower number of turns), and the side with the higher voltage is at a higher impedance (as it has more turns in its coil).'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Một ví dụ về phương pháp này là máy biến áp cân bằng trong ti vi. Máy biến áp này biến đổi tín hiệu đã cân bằng từ ăn ten (qua dây đôi 300 Ω) thành tín hiệu không cân bằng (cáp đồng trục 75 Ω như RG-6). Để phối hợp các trở kháng của cả hai thiết bị, cả hai cáp phải được nối với máy biến áp thích ứng có tỷ số vòng dây là 2 (ví dụ máy biến áp 2:1). Trong ví dụ này, cáp 75 Ω được nối với phía biến áp có ít vòng dây hơn; dây 300 Ω được nối với phía máy biến áp có nhiều vòng dây hơn.',
+        en: 'One example of this method involves a television balun transformer. This transformer converts a balanced signal from the antenna (via 300- ohm twin-lead) into an unbalanced signal (75-ohm coaxial cable such as RG-6). To match the impedances of both devices, both cables must be connected to a matching transformer with a turns ratio of 2 (such as a 2:1 transformer). In this example, the 75-ohm cable is connected to the transformer side with fewer turns; the 300-ohm line is connected to the transformer side with more turns.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Việt Nam)',
+        en: '(Source: Viet Nam)'
+      },
+      {
+        type: 'heading',
+        vi: '8504.40.11',
+        en: '8504.40.11'
+      },
+      {
+        type: 'paragraph',
+        vi: 'BỘ NGUỒN CẤP ĐIỆN LIÊN TỤC (UPS)',
+        en: 'UNINTERUPTIBLE POWER SUPPLIES (UPS)'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Bộ nguồn cấp điện liên tục là bộ biến đổi điện bao gồm các biến điện, các ắc quy chì-axit được gắn kín với đầu ra, hoặc các tấm mạch in lắp cùng với các điện trở, tụ điện, rơ le,... Các thiết bị này bảo vệ nguồn điện, chống sốc điện, lọc nhiễu và nạp ắc quy tức thời. UPS được sử dụng cho các hệ thống máy tính, các thiết bị điện, thiết bị viễn thông, trạm đầu cuối thu thập dữ liệu và các thiết bị điện tử nhạy cảm khác.',
+        en: 'Uninterrupted power supplies are electric power converters consisting of transformers, sealed lead-acid batteries with outlets, or for printed circuit board assemblies equipped with relays, capacitors, resistors, etc. They provide power protection, surge-suppression, noise filtering and instantaneous battery backup. UPS are used for computer systems, electronic devices, telecommunication apparatus, data collection terminals and other sensitive electronic equipment.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Singapore)',
+        en: '(Source: Singapore)'
+      },
+      {
+        type: 'heading',
+        vi: '8504.50.20',
+        en: '8504.50.20'
+      },
+      {
+        type: 'paragraph',
+        vi: 'CUỘN CẢM CỐ ĐỊNH KIỂU CON CHIP',
+        en: 'CHIP TYPE FIXED INDUCTORS'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Các cuộn cảm cố định kiểu con chíp có dạng những con chip nhỏ sử dụng cho đầu ghi băng video (VTRs), tivi, điện thoại di động... dùng cho các mức điện thế và cường độ dòng điện thấp. Chúng được sử dụng trong mạch điện để hạn chế dòng điện khi có hiện tượng đoản mạch.',
+        en: 'Chip type fixed inductors are in the form of small chips used for cellular telephones, televisions, video tape recorders (VTRs), etc., usable for small voltage ampere levels. They are used in power circuit for limiting the flow of current in the event of a short circuit.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Singapore)',
+        en: '(Source: Singapore)'
+      },
+      {
+        type: 'heading',
+        vi: '8516.10.11',
+        en: '8516.10.11'
+      },
+      {
+        type: 'paragraph',
+        vi: 'BÌNH THỦY ĐIỆN (WATER DISPENSER) ĐUN NƯỚC NÓNG, LOẠI GIA DỤNG',
+        en: 'WATER DISPENSER FITTED ONLY WITH WATER HEATER, FOR DOMESTIC USE'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Bình thủy điện đun nước nóng, loại gia dụng là một loại thiết bị dùng để cung cấp nước uống nóng và nước uống ở nhiệt độ bình thường từ bình chứa nước. Thiết bị này không được trang bị bơm hoặc bất kỳ thiết bị cơ khí cung cấp chất lỏng tương tự nào khác, mà chỉ đơn thuần cấp nước bởi trọng lực thông qua 02 van cơ khí riêng biệt.',
+        en: 'Domestic water dispenser of a kind fitted solely with heating device is an apparatus for dispensing hot and normal temperature drinking water from water gallon. The device is not equipped with pump or any other similar mechanical liquid dispensing device, but merely dispense water by gravitation through 2 separate mechanical valves.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Indonesia)',
+        en: '(Source: Indonesia)'
+      },
+      {
+        type: 'heading',
+        vi: '8519.81.71',
+        en: '8519.81.71'
+      },
+      {
+        type: 'paragraph',
+        vi: 'THIẾT BỊ TÁI TẠO ÂM THANH KHÁC, KIỂU CASSETTE, LOẠI DÙNG CHO ĐIỆN ẢNH HOẶC PHÁT THANH',
+        en: 'OTHER SOUND REPRODUCING APPARATUS, CASSETTE TYPE, OF A KIND SUITABLE FOR CINEMATOGRAPHY OR BROADCASTING'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Các sản phẩm này được thiết kế chuyên dụng cho công nghệ phát thanh hoặc điện ảnh, không dùng cho gia dụng. Các sản phẩm này có: Bộ xử lý kỹ thuật số chất lượng cao; Các giao diện vào và ra có thể cân bằng và không cân bằng; Giao diện tín hiệu mã hóa thời gian hoặc giao diện tín hiệu tham chiếu dùng cho việc đồng bộ hóa; và Bộ hiển thị mức tín hiệu ra và vào, dựa vào đó người sử dụng có thể điều chỉnh mỗi tín hiệu vào ra để tạo các hiệu ứng âm thanh như âm thanh nổi, âm thanh vòm,...',
+        en: 'These products are specifically designed for use in cinematography or broadcasting, and are not for domestic use. They have a: High quality digital processor; Input and output interfaces that can be both balanced and unbalanced; Time code signal interface or reference signal interface for synchronization purposes; and Signal lever indicator for input and output, allowing the user to adjust each input or output to create sound effects such as stereo, surround sound, etc.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Việt Nam)',
+        en: '(Source: Viet Nam)'
+      },
+      {
+        type: 'heading',
+        vi: '8521.10.10  8521.90.11  8521.90.91',
+        en: '8521.10.10  8521.90.11  8521.90.91'
+      },
+      {
+        type: 'paragraph',
+        vi: 'THIẾT BỊ GHI HOẶC TÁI TẠO VIDEO, LOẠI DÙNG CHO ĐIỆN ẢNH HOẶC PHÁT THANH TRUYỀN HÌNH',
+        en: 'VIDEO RECORDING OR REPRODUCING APPARATUS, OF A KIND USED IN CINEMATOGRAPHY OR TELEVISION BROADCASTING'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Các sản phẩm này được thiết kế chuyên dụng cho công nghệ phát thanh truyền hình hoặc điện ảnh, không dùng cho gia dụng. Các sản phẩm này có: Bộ xử lý kỹ thuật số chất lượng cao; Giao diện vào và ra như là giao diện trực quan kỹ thuật số (DVI), giao diện kỹ thuật số nối tiếp - độ nét tiêu chuẩn (SDI-SD) và giao diện kỹ thuật số nối tiếp-độ nét cao(SDI-HD); Giao diện tín hiệu mã thời gian hoặc giao diện tín hiện tham chiếu với mục đích đồng bộ hoá; và Khả năng tạo hiệu ứng video.',
+        en: 'These products are specifically designed for use in cinematography or television broadcasting, and are not for domestic use. They have a: High quality digital processor; Input and output interface such as digital visual interface (DVI), serial digital interface - standard definition (SDI-SD) and serial digital interface - high definition (SDI-HD); Time code signal interface or reference signal interface for synchronisation purposes; and the Ability to create video effects.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Việt Nam)',
+        en: '(Source: Viet Nam)'
+      },
+      {
+        type: 'heading',
+        vi: '8535.90.10',
+        en: '8535.90.10'
+      },
+      {
+        type: 'paragraph',
+        vi: 'BỘ CHUYỂN ĐỔI THEO NẤC DÙNG CHO MÁY BIẾN ÁP PHÂN PHỐI HOẶC BIẾN ÁP NGUỒN',
+        en: 'TAP CHANGER ASSEMBLIES FOR ELECTRICITY DISTRIBUTION OR POWER TRANSFORMERS'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Bộ chuyển đổi theo nấc cho phép thay thế rất nhanh và thuận tiện các thiết bị nối ghép điện áp cao mà không cần phải tác động đến các phần bên trong của biến thế. Chúng được thiết kế để sử dụng cho các máy biến điện sử dụng dầu biến thế.',
+        en: 'Tap changer assemblies permit the rapid and convenient changing of the high voltage tap connections without contaminating the internal parts of the transformer. They are designed for use in transformers filled with transformer oil.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Phi-líp-pin)',
+        en: '(Source: Philippines)'
+      },
+      {
+        type: 'heading',
+        vi: '8536.10.13  8536.10.93',
+        en: '8536.10.13  8536.10.93'
+      },
+      {
+        type: 'paragraph',
+        vi: 'KHỐI CẦU CHÌ, LOẠI SỬ DỤNG CHO XE CÓ ĐỘNG CƠ',
+        en: 'FUSE BLOCKS, OF A KIND USED FOR MOTOR VEHICLES'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Khối cầu chì bao gồm nhiều mạch cầu chì riêng lẻ khác nhau với đầu vào và đầu ra ở đáy của khối. Chúng được sử dụng để bảo vệ dây và thiết bị điện của xe. Chúng có nhiều loại dạng khác nhau.',
+        en: 'Fuse blocks contain multiple individual fused circuits with connections that enter and exit from the bottom of the block. They are used to protect the wiring and electrical equipment of vehicles. They are available in different styles.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Phi-líp-pin)',
+        en: '(Source: Philippines)'
+      },
+      {
+        type: 'heading',
+        vi: '8536.50.33  8536.50.39',
+        en: '8536.50.33  8536.50.39'
+      },
+      {
+        type: 'paragraph',
+        vi: 'LOẠI ĐẢO MẠCH DÙNG CHO BẾP VÀ BẾP CÓ LÒ NƯỚNG',
+        en: 'COMMUTATOR FOR STOVES AND RANGES'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Đây là một công tắc điện xoay, bằng cách xoay núm điều khiển, trục xoay bên trong có thể được xoay để đóng và ngắt liên tục, các kết nối điện ở một số vị trí cụ thể, làm tăng dần theo từng mức khi cần thiết (hoặc ngược lại làm giảm dần theo từng mức ) dẫn đến làm tăng (hoặc làm giảm) điện năng đầu vào cho thiết bị. Sản phẩm này không nên nhầm lẫn với loại đảo mạch được tìm thấy trong động cơ điện.',
+        en: 'This is a rotary electrical switch, by turning the control knob of which, the inner spindle can be rotated to consecutively make and break, electrical connections at several specific positions, progressively stepping up as necessary (or stepping down on the reverse) resulting in a corresponding increase (or decrease as applicable) of the electricity input to the machine concerned. This should not be confused with the commutator found in the electric motors.'
+      },
+      {
+        type: 'heading',
+        vi: '8536.50.33  8536.50.39',
+        en: '8536.50.33  8536.50.39'
+      },
+      {
+        type: 'paragraph',
+        vi: 'LOẠI NGẮT MẠCH KHI CÓ SỐC DÒNG ĐIỆN CAO',
+        en: 'HIGH INRUSH SWITCHES'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Loại ngắt mạch này có khả năng xử lý sự tăng cao đột biến của dòng điện. Hệ thống ngắt mạch này bảo đảm cho các mối tiếp xúc được hình thành khi bật công tắc, được ngăn cách bằng ống cần đẩy tác động trực tiếp vào thời điểm tiếp điểm chuyển động.',
+        en: 'High inrush switches are capable of handling an abrupt increase in current. This switching system ensures that the contact welds formed when switching on, are positively separated by the plunger tube acting directly on the step in the moving contact.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Phi-líp-pin)',
+        en: '(Source: Philippines)'
+      },
+      {
+        type: 'heading',
+        vi: '8537.10.12',
+        en: '8537.10.12'
+      },
+      {
+        type: 'paragraph',
+        vi: 'BẢNG ĐIỀU KHIỂN CÓ TRANG BỊ BỘ XỬ LÝ LẬP TRÌNH',
+        en: 'CONTROL PANELS FITTED WITH A PROGRAMMABLE PROCESSOR'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Các bảng điều khiển này được sử dụng cho các bộ điều khiển cơ điện tử tự động, như bộ điều khiển máy trong các dây chuyền lắp ráp của nhà máy, các hệ thống giải trí, hoặc các hệ thống chiếu sáng cố định. Những bảng điều khiển này được thiết kế để bố trí nhiều đầu vào và đầu ra, dải nhiệt độ mở rộng, chịu được nhiễu về điện, rung động và va chạm. Các chương trình để điều khiển sự vận hành máy móc thường được lưu trữ trong các bộ nhớ được duy trì bằng ắc qui hoặc bộ nhớ không xóa.',
+        en: 'These control panels are used for the automation of electromechanical processes, such as the control of machinery on factory assembly lines, amusement rides, or lighting fixtures. These control panels are designed for multiple input and output arrangements, extended temperature ranges, immunity to electrical noise, and resistance to vibration and impact. Programs to control machine operation are typically stored in battery-backed or non-volatile memory.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Việt Nam)',
+        en: '(Source: Viet Nam)'
+      },
+      {
+        type: 'heading',
+        vi: '8537.10.13',
+        en: '8537.10.13'
+      },
+      {
+        type: 'paragraph',
+        vi: 'BẢNG ĐIỀU KHIỂN CỦA LOẠI THÍCH HỢP DÙNG CHO HÀNG HOÁ CỦA NHÓM 84.15, 84.18, 84.50, 85.08, 85.09 HOẶC 85.16',
+        en: 'CONTROL PANELS OF A KIND SUITABLE FOR GOODS OF HEADING 84.15, 84.18, 84.50, 85.08, 85.09 OR 85.16'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Các bảng điều khiển loại này bao gồm các bảng mạch in (PCBs), được lắp đặt trong hàng hóa thuộc các nhóm 84.15, 84.18, 84.50, 85.09 hoặc 85.16. Đó là các bảng điều khiển đã được lập trình sử dụng để điều khiển hoạt động của máy điều hòa không khí, máy giặt, máy hút bụi,...',
+        en: 'These kinds of control panels consist of printed circuit boards (PCBs) which are installed in the goods of heading 84.15, 84.18, 84.50, 85.08, 85.09 or 85.16. They are programmed control panels used to control the operating of air conditioners, washing machines, vacuum cleaners, etc.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Việt Nam)',
+        en: '(Source: Viet Nam)'
+      },
+      {
+        type: 'heading',
+        vi: '8539.31.30',
+        en: '8539.31.30'
+      },
+      {
+        type: 'paragraph',
+        vi: 'BÓNG ĐÈN HUỲNH QUANG COM-PẮC ĐÃ CÓ CHẤN LƯU LẮP LIỀN',
+        en: 'COMPACT FLUORESCENT LAMPS WITH BUILT- IN BALLAST'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Bóng đèn huỳnh quang com-pắc đã có chấn lưu lắp liền là loại đèn huỳnh quang tích hợp trong đó ống đèn và chấn lưu được gắn liền trong một khối duy nhất và không thể thay thế, như là một phần của đui đèn (bulb base). Đèn huỳnh quang com-pắc đã có chấn lưu lắp liền khác với bộ đèn huỳnh quang không tích hợp mà có bóng đèn có thể thay thế được và chấn lưu riêng biệt trong máng đèn hoặc giá đèn.',
+        en: 'Compact fluorescent lamps with built in ballast is an integrated fluorescent lamps which combine the non-replaceable tube and ballast in a single unit as part of the bulb base itself. Compact fluorescent lamps with built in ballast is different with non-integrated fluorescent lamp fixture which has a replaceable bulb and separate ballast in the base or fixture.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Indonesia)',
+        en: '(Source: Indonesia)'
+      },
+      {
+        type: 'heading',
+        vi: '8543.70.50',
+        en: '8543.70.50'
+      },
+      {
+        type: 'paragraph',
+        vi: 'BỘ KHUẾCH ĐẠI VI SÓNG',
+        en: 'MICROWAVE AMPLIFIERS'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Bộ khuếch đại vi sóng là một thiết bị làm tăng cường tín hiệu công suất đầu ra của thiết bị vi sóng, thường bằng cách tăng biên độ hoặc cao độ của sóng liên quan trực tiếp đến mức công suất của nó. Điều này được thực hiện bằng cách chuyển công suất điện đầu vào bổ sung cho thiết bị vi sóng để bức xạ vi sóng của nó mang nhiều năng lượng hơn. Các bộ khuếch đại như vậy thường được hoạt động ở tần số thấp của phổ sóng vô tuyến, nằm trong khoảng 300 megahertz hoặc cao hơn, và chúng được sử dụng cho nhiều mục đích từ thông tin liên lạc băng thông rộng đến hệ thống radar và tác chiến điện tử của quân đội.',
+        en: 'A microwave amplifier is a device for enhancing the output power signal of a microwave device, usually by increasing the amplitude or height of the wave that directly relates to its power level. This is accomplished by channeling additional input power to the microwave device so that its microwave radiation carries more energy. Such amplifiers are usually operated at low frequencies of the radio wave spectrum, which range around 300 megahertz or higher, and they are used for a variety of purposes from broadband communications to radar systems and electronic warfare by the military.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Philippines)',
+        en: '(Source: Philippines)'
+      },
+      {
+        type: 'heading',
+        vi: '8543.70.50',
+        en: '8543.70.50'
+      },
+      {
+        type: 'paragraph',
+        vi: 'MÁY GHI DỮ LIỆU CHUYẾN BAY KỸ THUẬT SỐ',
+        en: 'DIGITAL FLIGHT-DATA RECORDERS'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Máy ghi chuyến bay là thiết bị ghi điện tử được đặt trong phương tiện bay nhằm mục đích hỗ trợ điều tra tai nạn, sự cố hàng không. Do tầm quan trọng của chúng, các thiết bị này do ICAO điều chỉnh được chế tạo và thiết kế cẩn thận để chịu được lực tác động ở tốc độ cao và sức nóng của đám cháy dữ dội. Trái ngược với thuật ngữ phổ biến "hộp đen", bên ngoài của máy ghi chuyến bay được phủ một lớp sơn màu cam sáng chịu nhiệt để có khả năng hiển thị cao trong xác phương tiện bay và bộ phận này thường được gắn ở phần đuôi của phương tiện bay, nơi nó có nhiều khả năng còn nguyên vẹn sau một vụ va chạm nghiêm trọng.',
+        en: 'A flight recorder is an electronic recording device placed in an aircraft for the purpose of facilitating the investigation of aviation accidents and incidents. Due to their importance, these ICAO-regulated devices are carefully engineered and constructed to withstand the force of a high- speed impact and the heat of an intense fire. Contrary to the popular term "black box", the exterior of the flight recorder is coated with heat- resistant bright orange paint for high visibility in wreckage, and the unit is usually mounted in the aircraft\'s tail section, where it is more likely to survive a severe crash.'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Thiết kế kỹ thuật số của máy ghi chuyến bay sử dụng bộ nhớ thể rắn và sử dụng kỹ thuật ghi kỹ thuật số, giúp chúng có khả năng chống sốc, chống rung và chịu độ ẩm cao hơn nhiều. Với việc giảm yêu cầu điện năng của máy ghi thể rắn, giờ đây việc kết hợp pin trong thiết bị là thực tế, để quá trình ghi có thể tiếp tục cho đến khi kết thúc chuyến bay, ngay cả khi hệ thống điện của phương tiện bay bị lỗi.',
+        en: 'The digital design of flight recorder employs solid-state memory and use digital recording techniques, making them much more resistant to shock, vibration and moisture. With the reduced power requirements of solid-state recorders, it is now practical to incorporate a battery in the units, so that recording can continue until flight termination, even if the aircraft electrical system fails.'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Hai thành phần của máy ghi chuyến bay là: 1. Máy ghi dữ liệu chuyến bay (FDR; còn gọi là ADR, dành cho máy ghi dữ liệu tai nạn) là một thiết bị điện tử được sử dụng để ghi lại các chỉ dẫn được gửi đến bất kỳ hệ thống điện tử nào trên phương tiện bay. 2. Máy ghi âm buồng lái (CVR) là máy ghi chuyến bay dùng để ghi lại môi trường âm thanh trong buồng lái của phương tiện bay nhằm mục đích điều tra tai nạn và sự cố.',
+        en: 'The two components of flight recorder are: 1. Flight Data Recorder (FDR; also ADR, for accident data recorder) is an electronic device employed to record instructions sent to any electronic systems on an aircraft. 2. Cockpit Voice Recorder (CVR) is a flight recorder used to record the audio environment in the flight deck of an aircraft for the purpose of investigation of accidents and incidents.'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Với sự ra đời của máy ghi âm kỹ thuật số, máy ghi dữ liệu chuyến bay (FDR) và máy ghi âm buồng lái (CVR) có thể được chế tạo đặt trong một hộp chống cháy, chống va đập và chống thấm nước như một máy kết hợp ghi dữ liệu và giọng nói buồng lái kỹ thuật số (CVDR).',
+        en: 'With the advent of digital recorders, the flight data recorder (FDR) and cockpit voice recorder (CVR) can be manufactured in one fireproof, shock proof, and waterproof container as a combined digital Cockpit Voice and Data Recorder (CVDR).'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Philippines)',
+        en: '(Source: Philippines)'
+      }
+    ]
+  },
 
   // ------------------------------------------------------------
   // CHAPTER 86
   // ------------------------------------------------------------
-
+    {
+    chapterNumber: 86,
+    titleVi: 'CHƯƠNG 86',
+    titleEn: 'CHAPTER 86',
+    content: [
+      {
+        type: 'paragraph',
+        vi: 'Hiện chưa có Chú giải bổ sung cho Chương này.',
+        en: 'There are no Supplementary Explanatory Notes for this Chapter.'
+      }
+    ]
+  },
 
   // ------------------------------------------------------------
   // CHAPTER 87
   // ------------------------------------------------------------
-
+  {
+    chapterNumber: 87,
+    titleVi: 'CHƯƠNG 87',
+    titleEn: 'CHAPTER 87',
+    content: [
+      {
+        type: 'heading',
+        vi: 'DẠNG CKD',
+        en: 'COMPLETELY KNOCKED DOWN'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Theo mục đích của Chương 87, thuật ngữ "Dạng CKD” dùng để chỉ các phương tiện hoàn chỉnh hoặc về cơ bản hoàn chỉnh được trình bày ở dạng chưa lắp ráp, đáp ứng đầy đủ các điều kiện theo quy định của các cơ quan có thẩm quyền của quốc gia.',
+        en: 'For the purposes of Chapter 87, the term “Completely Knocked Down” refers to complete or essentially complete vehicles presented unassembled, fulfilling the condition as defined by the competent national authorities.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Indonesia)',
+        en: '(Source: Indonesia)'
+      },
+      {
+        type: 'heading',
+        vi: 'KHỐI LƯỢNG TOÀN BỘ THEO THIẾT KẾ',
+        en: 'g.v.w.'
+      },
+      {
+        type: 'paragraph',
+        vi: 'G.v.w (khối lượng toàn bộ theo thiết kế) là trọng lượng toàn bộ khi xe chạy trên đường được nhà sản xuất công bố, là tổng trọng lượng lớn nhất của xe theo thiết kế. Trọng lượng này bao gồm cả trọng lượng của bản thân xe, trọng lượng tối đa của hàng hoá có thể vận chuyển được, của người lái xe và của thùng nhiên liệu đầy.',
+        en: 'The g.v.w. (gross vehicle weight) is the road weight specified by the manufacturer as being the maximum design weight capacity of the vehicle. This weight is the combined weight of the vehicle, the maximum specified load, the driver and a tank full of fuel.'
+      },
+      {
+        type: 'heading',
+        vi: '87.02  87.03',
+        en: '87.02  87.03'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Ô TÔ VAN',
+        en: 'VANS'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Theo mục đích của nhóm 87.02 và 87.03, thuật ngữ “ô tô van” có thể được định nghĩa là một loại phương tiện được thiết kế chủ yếu để chở người, với các đặc điểm sau:',
+        en: 'For the purpose of heading 87.02 and 87.03, the term “vans” can be defined as a type of vehicle principally designed for the transport of persons, with the following characteristics:'
+      },
+      {
+        type: 'list',
+        vi: '- có thân hình hộp,',
+        en: '- having a boxy-shape body,'
+      },
+      {
+        type: 'list',
+        vi: '- động cơ chủ yếu được gắn bên dưới ghế lái, ở ghế của hành khách phía trước hoặc ở phía sau,',
+        en: '- the engine is substantially mounted either underneath the driver’s seat, at the front passenger’s seat, or at the rear,'
+      },
+      {
+        type: 'list',
+        vi: '- cửa bản lề cho phía trước và ít nhất một cửa trượt để vào phía sau và một cửa có cửa sổ ở đuôi xe,',
+        en: '- hinged doors for the front and at least one sliding door to enter the rear and a door with window at the rear end of the vehicle,'
+      },
+      {
+        type: 'list',
+        vi: '- chỗ ngồi có điểm H cao,',
+        en: '- seat with high H-point,'
+      },
+      {
+        type: 'list',
+        vi: '- không có tấm ngăn hoặc thanh chắn cố định giữa khu vực hành khách và khu vực hàng hóa.',
+        en: '- not having a permanent panel or barrier between passenger area and cargo area.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Indonesia)',
+        en: '(Source: Indonesia)'
+      },
+      {
+        type: 'heading',
+        vi: '8702.10.71  8702.10.72  8702.10.79  8702.20.61  8702.20.62  8702.20.69  8702.30.61  8702.30.69  8702.40.61  8702.40.69',
+        en: '8702.10.71  8702.10.72  8702.10.79  8702.20.61  8702.20.62  8702.20.69  8702.30.61  8702.30.69  8702.40.61  8702.40.69'
+      },
+      {
+        type: 'paragraph',
+        vi: 'ĐƯỢC THIẾT KẾ ĐẶC BIỆT ĐỂ SỬ DỤNG TRONG SÂN BAY',
+        en: 'SPECIALLY DESIGNED FOR USE IN AIRPORTS'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Xe buýt vận chuyển trong phạm vi sân bay có thể theo các dạng sau: Ở những sân bay không sử dụng cầu dẫn lên máy bay vì khoảng cách quá xa hoặc vì lý do an toàn, hành khách có thể được vận chuyển giữa điểm đến hoặc cửa khởi hành của nhà ga sân bay với máy bay bằng xe buýt vận chuyển trong sân bay hoặc xe buýt điểm đỗ. Các xe buýt hoạt động trên điểm đỗ sân bay giao cắt với các đường lăn của máy bay (đường di chuyển ưu tiên của máy bay) và có thể chở 80 đến 100 hành khách cùng hành lý xách tay của họ.',
+        en: 'Bus transport within an airport may take the following forms: Where airports do not use a passenger boarding, for long distance transfers or for reasons of safety, passengers may be transferred from the airport terminal arrival or departure gate to the aircraft using an airside transfer bus or apron bus. Buses operating on the airport apron cross active taxiways (where aircraft have the right-of-way) and can carry 80 to 100 passengers, including their carry-on baggage.'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Xe buýt sân bay không phải là loại xe dùng cho mục đích chạy trên đường cao tốc công cộng - để có thể chứa số lượng hành khách nhiều nhất có thể nên chúng dài và rộng hơn xe buýt thông thường. Xe buýt sân bay thường được trang bị số lượng ghế ngồi ở mức tối thiểu hoặc không có ghế ngồi, hành khách đứng trong suốt hành trình, có cửa ở cả hai bên sườn và có sàn thấp. Xe buýt sân bay thường được trang bị đèn quay cho hoạt động gần các đường băng. Xe loại này có thể có cabin lái ở cả hai đầu.',
+        en: 'Airside buses are not the type of buses that run on public highways - and they are extra long and wide in order to hold the maximum number of passengers. Airport buses are usually fitted with minimal or no seating, with passengers standing for the journey, have doors on each side with a low floor. Airport buses are usually fitted with flashing beacons for operating airside near runways. They may also feature driving cabs at both ends.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Việt Nam)',
+        en: '(Source: Viet Nam)'
+      },
+      {
+        type: 'heading',
+        vi: '87.03',
+        en: '87.03'
+      },
+      {
+        type: 'paragraph',
+        vi: 'SEDAN',
+        en: 'SEDAN'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Xe sedan, đôi lúc còn được gọi là saloon là một loại xe chở người khoang kín, ba khoang được cấu tạo cách biệt với nhau gồm khoang máy, khoang chở người và khoang chở hành lý. Thông thường xe sedan có hai hàng ghế.',
+        en: 'A ‘sedan’, sometimes called a ‘saloon’ is an enclosed passenger car in a three-box configuration with permanent separate compartments for engine, passengers and cargo. Generally, sedan has two rows of seats.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Indonesia)',
+        en: '(Source: Indonesia)'
+      },
+      {
+        type: 'heading',
+        vi: '87.03',
+        en: '87.03'
+      },
+      {
+        type: 'paragraph',
+        vi: 'XE ĐUA CỠ NHỎ',
+        en: 'GO-KARTS'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Ô tô đua cỡ nhỏ là xe có khung gầm thấp, nhẹ sử dụng cho đua ô tô giải trí. Bánh và lốp xe nhỏ hơn nhiều so với loại sử dụng cho ô tô thông thường, với vành xe được làm bằng hợp kim magiê, nhôm hoặc vật liệu tổng hợp, có thể chịu được gia tốc khi vào cua trên 2 g (20 m/s²), tùy thuộc vào khung gầm, máy và thiết lập của động cơ. Xe có thể được lắp động cơ nhiên liệu với dung tích lên tới 1.500 cc, động cơ điện hoặc động cơ kết hợp.',
+        en: 'A Go-kart is a light, low-framed vehicle used for recreational racing. The wheels and tyres are much smaller than those used on a normal car, with the rims made of magnesium alloy, aluminium, or composite materials, and can support cornering forces in excess of 2 g (20 m/s), depending on chassis, engine, and motor setup. It can be powered by a fuel engine with a capacity of up to 1,500 cc, electric motors or combination thereof.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Singapore)',
+        en: '(Source: Singapore)'
+      },
+      {
+        type: 'heading',
+        vi: '8703.21.31  8703.21.91  8703.31.31  8703.31.91',
+        en: '8703.21.31  8703.21.91  8703.31.31  8703.31.91'
+      },
+      {
+        type: 'paragraph',
+        vi: 'XE BA BÁNH',
+        en: 'THREE-WHEELED VEHICLES'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Những loại xe này có các đặc điểm cơ khí tương tự như các loại ô tô có động cơ thông thường, tức là chúng được lắp động cơ đốt trong kiểu piston cháy do nén (diesel hoặc bán diesel) hoặc động cơ đốt trong kiểu piston đốt cháy bằng tia lửa điện VÀ được lắp với số lùi và một bộ vi sai. Tuy nhiên, chúng không được lắp với bánh lái kiểu ô tô.',
+        en: 'These vehicles have mechanical characteristics similar to that of conventional motor cars, i.e., they are fitted with a compression-ignition internal combustion piston engine (diesel or semi-diesel) or a spark-ignition internal combustion piston engine AND fitted with the reverse gear and a differential. However, they are not fitted with motor car type steering wheels.'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Chúng thường được trang bị ghế kiểu băng ghế dài ở cuối xe và được sử dụng để chở người. Khoang hành khách được tách biệt với khoang của người lái xe.',
+        en: 'They are usually presented with a bench-type seat at the rear-end of the vehicle and are used for transportation of persons. Passengers’ area is separated from that of the driver.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Cambodia)',
+        en: '(Source: Cambodia)'
+      },
+      {
+        type: 'heading',
+        vi: '87.04',
+        en: '87.04'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Ô TÔ CHỞ BÙN CÓ THÙNG RỜI NÂNG HẠ ĐƯỢC (HOOKLIFT LORRIES)',
+        en: 'HOOKLIFT LORRIES (TRUCKS)'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Theo mục đích của các phân nhóm ASEAN trong nhóm 87.04, ô tô chở bùn có thùng rời nâng hạ được (hooklift loories) là ô tô tải được trang bị hệ thống tời móc nâng hạ để có thể thay đổi các toa sàn phẳng, thùng chứa rác và các thùng chứa tương tự. Chúng được sử dụng chủ yếu để nối với một thân khung nghiêng và các thùng chứa chuyên dụng, thường thiết kế đặc biệt để vận chuyển chất thải dạng lỏng như bùn hoặc bùn lỏng.',
+        en: 'For the purpose of the ASEAN subheadings under heading 87.04, hooklift lorries are lorries (trucks) with loader hook-lift hoists which are mounted on the lorries to enable hauliers to change out flatbeds, dumpster bodies and similar containers. These are primarily used in conjunction with tilt frame bodies and specialised containers, generally designed especially for the transportation of waste in liquid form such as mud or sludge.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Việt Nam)',
+        en: '(Source: Viet Nam)'
+      },
+      {
+        type: 'heading',
+        vi: '8705.90.60',
+        en: '8705.90.60'
+      },
+      {
+        type: 'paragraph',
+        vi: 'XE ĐIỀU CHẾ CHẤT NỔ DI ĐỘNG',
+        en: 'MOBILE EXPLOSIVE PRODUCTION VEHICLES'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Loại xe được thiết kế/chế tạo đặc biệt với các biện pháp và thiết bị phòng ngừa cần thiết để đảm bảo an toàn trong quá trình pha trộn, vận chuyển và lưu giữ chất nổ công nghiệp. Chúng cũng được gắn các dấu hiệu/đèn cảnh báo tính chất nguy hiểm cho công chúng.',
+        en: 'These are especially designed/constructed vehicles with precautionary measures and equipment necessary for safe mixing, conveying and keeping of industrial explosives. They are mounted with warning sighs/lights to indicate the dangerous nature to the public.'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Bộ phận chứa và trộn (thùng chứa) được lắp đạt cách xa máy và ống xả. Máy được che phủ phù hợp để giữ nhiệt và ống xả được hướng lên trên. Xe được trang bị ác quy có điện áp danh định dưới 24 vôn, dòng điện một chiều (DC). Tất cả các mạch điện đều được chế tạo để chống tia lửa điện/chống cháy nổ và chống thấm nước.',
+        en: 'The storage and mixing area (tank) is mounted well away from the engine and exhaust pipe. Engine is suitably covered to contain heat and the exhaust pipe is directed upwards. The vehicle is fitted with a battery having a nominal voltage of less than 24 volts, direct current (DC). All electric circuits are made spark/explosive proof and water proof.'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Thùng chứa và pha trộn chất nổ được chế tạo rất chắc chắn để chịu được tác động mạnh, được lắp đặt với một bảng điều khiển và cần gạt, các thiết bị cơ khí bên trong. Máy bơm và băng tải guồng xoáy để trộn/vận chuyển chất nổ được thiết kế đặc biệt để tránh phát sinh nhiệt độ và áp suất cao.',
+        en: 'The tank for keeping and mixing explosives is made very strong to withstand high impacts, and is equipped with a control panel and levers, and mechanical devices inside. The pump and conveyor screw for mixing/moving explosives are of special design to prevent building up of high pressure and temperature.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Việt Nam)',
+        en: '(Source: Viet Nam)'
+      },
+      {
+        type: 'heading',
+        vi: '8706.00.34',
+        en: '8706.00.34'
+      },
+      {
+        type: 'paragraph',
+        vi: 'KHUNG GẦM DÙNG CHO XE ĐƯỢC THIẾT KẾ ĐẶC BIỆT ĐỂ ĐI TRÊN TUYẾT',
+        en: 'CHASSIS FITTED WITH ENGINES FOR VEHICLES SPECIALLY DESIGNED FOR TRAVELLING ON SNOW'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Ví dụ về khung gầm của xe được thiết kế đặc biệt để đi trên tuyết:',
+        en: 'Examples of chassis of vehicles specially designed for travelling on snow:'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Singapore)',
+        en: '(Source: Singapore)'
+      },
+      {
+        type: 'heading',
+        vi: '8708.29.93  8708.29.96',
+        en: '8708.29.93  8708.29.96'
+      },
+      {
+        type: 'paragraph',
+        vi: 'PHỤ KIỆN TRANG TRÍ NỘI THẤT',
+        en: 'INTERIOR TRIM FITTINGS'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Đây là các mặt, tấm, lớp lót và vỏ bên trong một chiếc xe có động cơ.',
+        en: 'These are the facings, panels, linings and covers inside a motor vehicle.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Philippines)',
+        en: '(Source: Philippines)'
+      },
+      {
+        type: 'heading',
+        vi: '8708.50.91  8708.50.94  8708.50.96',
+        en: '8708.50.91  8708.50.94  8708.50.96'
+      },
+      {
+        type: 'paragraph',
+        vi: 'BÁNH RĂNG VÀNH KHĂN VÀ BÁNH RĂNG QUẢ DỨA',
+        en: 'CROWN WHEELS AND PINIONS'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Bánh răng vành khăn và bánh răng quả dứa là một phần của xe ô tô hoặc xe tải truyền động bánh sau “truyền thống”. Bánh răng quả dứa là một bánh nhỏ tròn chuyển động vuông góc với bánh răng vành khăn trong bộ vi sai.',
+        en: 'The crown wheels and pinions of a differential are part of a "traditional" rear-wheel-drive car or truck. A pinion is a round smaller gear that drives in a 90-degree angle towards a crown wheel in a differential drive.'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Lực được truyền từ động cơ thông qua hộp số đến trục dẫn động (từ Anh- Anh: Trục truyền động), rồi từ đó chạy tới trục sau. Bánh răng quả dứa ở phần cuối của trục truyền động nằm trong bộ vi sai, được gắn với bánh răng lớn (từ Anh- Anh: bánh răng vành khăn) nằm trong hộp trục sau của xe ô tô hoặc xe tải truyền động bánh sau.',
+        en: 'Power is supplied from the engine, via the gearbox, to a driveshaft (British term: propeller shaft), which runs to the rear axle. A pinion gear at the end of the propeller shaft is encased within the differential itself, and it engages with the large ring gear (British term: crown wheel), located in the rear axle housing of a rear-wheel drive car or truck.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Malaysia)',
+        en: '(Source: Malaysia)'
+      },
+      {
+        type: 'heading',
+        vi: '8708.91.93  8708.91.94',
+        en: '8708.91.93  8708.91.94'
+      },
+      {
+        type: 'paragraph',
+        vi: 'NÚT XẢ',
+        en: 'RADIATOR DRAIN PLUG'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Nút xả nhỏ, thường gắn ở đáy két nước làm mát, sử dụng để xả dung dịch làm mát và nước. Nó có thể thiết kế để vặn hoặc gắn, được làm bằng plastic hoặc thép.',
+        en: 'A small plug, normally on the bottom of radiator tank, used for draining coolant and water. It can be of the screw-in or push-in design, and are made of plastic or metal.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Phi-líp-pin)',
+        en: '(Source: Philippines)'
+      },
+      {
+        type: 'heading',
+        vi: '8708.99.24  8708.99.25',
+        en: '8708.99.24  8708.99.25'
+      },
+      {
+        type: 'paragraph',
+        vi: 'CÁC BỘ PHẬN CỦA THÙNG NHIÊN LIỆU',
+        en: 'PARTS OF FUEL TANKS'
+      },
+      {
+        type: 'list',
+        vi: 'Ống dẫn của thùng nhiên liệu',
+        en: 'Filler pipe'
+      },
+      {
+        type: 'list',
+        vi: 'Bình nhiên liệu',
+        en: 'Fuel tank'
+      },
+      {
+        type: 'list',
+        vi: 'Nắp đậy thùng nhiên liệu',
+        en: 'Fuel cap'
+      },
+      {
+        type: 'list',
+        vi: 'Gioăng bình nhiên liệu',
+        en: 'Fuel tank band'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Phi-líp-pin)',
+        en: '(Source: Philippines)'
+      },
+      {
+        type: 'heading',
+        vi: '8708.99.50',
+        en: '8708.99.50'
+      },
+      {
+        type: 'paragraph',
+        vi: 'TẤM HƯỚNG LUỒNG KHÍ TẢN NHIỆT',
+        en: 'RADIATOR SHROUDS'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Tấm hướng luồng khi tản nhiệt là cầu nối giữa khung xe và bộ tản nhiệt giúp định hướng luồng khí. Chúng được thiết kế để giữ cho không khí lưu thông qua bộ tản nhiệt thay vì thoát lên trên và đi qua phần đỉnh của nó. Tấm hướng luồng khí tản nhiệt được cấu tạo hoàn toàn bằng sợi carbon hoặc kim loại.',
+        en: 'Radiator shrouds bridge the gap between the car frame and the radiator to help guide air. They are designed to keep air flowing through the radiator instead of up and over the top of it. The shroud is constructed completely of carbon fibre or metal.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Phi-líp-pin)',
+        en: '(Source: Philippines)'
+      },
+      {
+        type: 'heading',
+        vi: '8711.10.14  8711.10.94  8711.20.13  8711.20.93  8711.60.12  8711.60.92',
+        en: '8711.10.14  8711.10.94  8711.20.13  8711.20.93  8711.60.12  8711.60.92'
+      },
+      {
+        type: 'paragraph',
+        vi: 'XE “POCKET MOTORCYCLES”',
+        en: 'POCKET MOTORCYCLES'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Xe "pocket motorcycle" là mô tô loại nhỏ. Nó có chiều cao thông thường dưới 50 cm (20 in), và chiều dài lên đến 1 m (3 ft 3 in). Dung tích xi lanh của nó chủ yếu nằm trong khoảng từ 40 đến 50 cc nhưng có thể lên đến 150 cc.',
+        en: '“Pocket motorcycle” is a miniature motorcycle. It has a usual height of less than 50 cm (20 in), and a length of up to 1 m (3 ft 3 in). Its cylinder capacity typically ranges from 40 to 50 cc but could go up to as high as 150 cc.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Singapore)',
+        en: '(Source: Singapore)'
+      },
+      {
+        type: 'heading',
+        vi: '8711.20.11  8711.20.91  8711.30.11  8711.30.19  8711.40.11  8711.40.19',
+        en: '8711.20.11  8711.20.91  8711.30.11  8711.30.19  8711.40.11  8711.40.19'
+      },
+      {
+        type: 'paragraph',
+        vi: 'XE MÔ TÔ ĐỊA HÌNH',
+        en: 'MOTOCROSS MOTORCYCLES'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Xe mô tô địa hình là một loại hình mô tô thể thao hoặc xe đua mọi địa hình được dùng trong cung đường có địa hình phức tạp. Cái tên “motocross” được bắt nguồn từ chữ “mô tô” và “xuyên quốc gia”. Xe mô tô địa hình có cầu dẫn động sau với tối đa 6 cấp độ. Xe mô tô địa hình sử dụng động cơ đốt trong kiểu piston có dung tích xi - lanh 50-125 cc đối với loại 2 kỳ hoặc 150 - 250 cc đối với loại 4 kỳ (250 Motocross Class) và 150-250 cc đối với loại 2 kỳ hoặc 251- 450 cc đối với loại 4 kỳ (450 Motocross class).',
+        en: 'Motocross is a type of motorcycle sport or all-terrain vehicle racing held on enclosed off-road circuits. The name “motocross” is derived from the words “motorcycle” and “cross-country”. Motocross motorcycles are rear-wheel drive cycles with a maximum number of 6 speeds. The engines are single reciprocating internal combustion piston engine having displacements of 50 - 125 cc 2-stroke or 150 - 250 cc 4-stroke (250 Motocross Class) and 150 - 250 cc 2-stroke or 251 - 450 cc 4-stroke (450 Motocross Class).'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Supermoto bao gồm việc sử dụng một xe mô tô địa hình để đua trên đường đua phức tạp và độ xe để có thể chạy trên các loại địa hình bao gồm cả đường lầy lội và gồ ghề. Các xe được trang bị lốp xe đua đường đặc biệt với hoa lốp để bám cả đường gồ ghề và lầy lội.',
+        en: 'Supermoto involves taking a motocross motorcycle meant to be raced off- road and converting it to be raced on tracks consisting of both dirt and pavement. The motorcycles are fitted with special road racing tires with grooved tread to grip both the pavement and dirt.'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Supercross là một môn đua xe thể thao bao gồm đua địa hình và trình diễn các kỹ thuật đặc biệt gồm nhảy dốc và vượt chướng ngại vật trên đường đất nhân tạo tạo.',
+        en: 'Supercross is a cycle racing sport involving racing specialised high performance off-road motorcycles on artificially-made dirt tracks consisting of steep jumps and obstacles.'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Freestyle Motocross (FMX), một biến thể tương đối mới của môn đua xe thể thao supercross, không liên quan đến đua xe và thay vào đó tập trung vào trình diễn các pha nguy hiểm nhào lộn trong khi nhảy của xe mô tô địa hình.',
+        en: 'Freestyle Motocross (FMX), a relatively new variation of supercross, does not involve racing and instead concentrates on performing acrobatic stunts while jumping motocross motorcycles.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Ma-lai-xi-a)',
+        en: '(Source: Malaysia)'
+      },
+      {
+        type: 'heading',
+        vi: '8712.00.20  8714.91.10  8714.92.10  8714.93.10  8714.94.10 8714.95.10  8714.96.10  8714.99.11  8714.99.12',
+        en: '8712.00.20  8714.91.10  8714.92.10  8714.93.10  8714.94.10 8714.95.10  8714.96.10  8714.99.11  8714.99.12'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Theo mục đích của AHTN 8712.00.20, khái niệm "xe đạp thiết kế dành cho trẻ em" chỉ đề cập đến xe đạp:',
+        en: 'For the purposes of AHTN 8712.00.20, the expression "bicycle designed to be ridden by children" refer only to bicycle:'
+      },
+      {
+        type: 'list',
+        vi: '● có độ dài tối đa giữa chỗ ngồi (ở vị trí thấp nhất) và bàn đạp ở điểm thấp nhất không quá 43 cm; và',
+        en: '● having the maximum length between the seat (at the lowest position) and the pedal at the lowest point not exceeding 43 cm; and'
+      },
+      {
+        type: 'list',
+        vi: '● có đường kính bánh xe không quá 16 inch hoặc 40,64 cm.',
+        en: '● having wheel diameter not exceeding 16 inches or 40.64 cm.'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Các số đo trên và các tiêu chí khác nhận dạng xe đạp dành cho trẻ em có thể thay đổi theo quy định quốc gia.',
+        en: 'The above measurements and other criteria determining the identification of children’s bicycles may vary according to the national regulations.'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Các bộ phận và phụ kiện có thể được sử dụng cho cả xe đạp dành cho người lớn và xe đạp dành cho trẻ em được phân loại như các bộ phận hoặc phụ kiện cho xe đạp dành cho người lớn.',
+        en: 'Parts and accessories that can be used for both adults’ and children’s bicycles are to be classified as parts or accessories for adult’s bicycles.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Ma-lai-xi-a)',
+        en: '(Source: Malaysia)'
+      },
+      {
+        type: 'heading',
+        vi: '8714.99.11  8714.99.12  8714.99.91  8714.99.94',
+        en: '8714.99.11  8714.99.12  8714.99.91  8714.99.94'
+      },
+      {
+        type: 'paragraph',
+        vi: 'CÁC BỘ PHẬN VÀ PHỤ KIỆN XE ĐẠP',
+        en: 'BICYCLE PARTS AND ACCESSORIES'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Các bộ phận và phụ kiện xe đạp có thể được phân biệt với nhau bằng tính năng thực tế, theo đó các bộ phận của xe đạp là thực sự cần thiết và gắn liền với hoạt động của xe đạp, trong khi phụ kiện chỉ đơn thuần là tăng cường các hoạt động của xe đạp.',
+        en: 'Bicycle parts and accessories can be distinguished from each other by virtue of the fact that parts are bicycle components that are essential and integral to the operation of the bicycle, while accessories merely enhance the operation of the bicycle.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Ma-lai-xi-a)',
+        en: '(Source: Malaysia)'
+      }
+    ]
+  },
 
   // ------------------------------------------------------------
   // CHAPTER 88
   // ------------------------------------------------------------
-
+  {
+    chapterNumber: 88,
+    titleVi: 'CHƯƠNG 88',
+    titleEn: 'CHAPTER 88',
+    content: [
+      {
+        type: 'paragraph',
+        vi: 'Hiện chưa có Chú giải bổ sung cho Chương này.',
+        en: 'There are no Supplementary Explanatory Notes for this Chapter.'
+      }
+    ]
+  },
 
   // ------------------------------------------------------------
   // CHAPTER 89
   // ------------------------------------------------------------
-
+  {
+    chapterNumber: 89,
+    titleVi: 'CHƯƠNG 89',
+    titleEn: 'CHAPTER 89',
+    content: [
+      {
+        type: 'paragraph',
+        vi: 'Hiện chưa có Chú giải bổ sung cho Chương này.',
+        en: 'There are no Supplementary Explanatory Notes for this Chapter.'
+      }
+    ]
+  },
 
   // ------------------------------------------------------------
   // CHAPTER 90
   // ------------------------------------------------------------
-
+  {
+    chapterNumber: 90,
+    titleVi: 'CHƯƠNG 90',
+    titleEn: 'CHAPTER 90',
+    content: [
+      {
+        type: 'heading',
+        vi: '9018.39.90',
+        en: '9018.39.90'
+      },
+      {
+        type: 'paragraph',
+        vi: 'ỐNG THÔNG',
+        en: 'CATHETERS'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Ống thông là một ống mỏng được làm từ vật liệu dùng trong y tế phục vụ cho nhiều chức năng. Ống thông là thiết bị y tế có thể được đưa vào trong cơ thể để điều trị bệnh hoặc thực hiện một thủ thuật phẫu thuật. Ống thông được sử dụng cho các mục đích tim mạch, tiết niệu, tiêu hóa, thần kinh và nhãn khoa.',
+        en: 'Catheter is a thin tube extruded from medical grade materials serving a broad range of functions. Catheters are medical devices that can be inserted in the body to treat diseases or perform a surgical procedure. Catheters are used for cardiovascular, urological, gastrointestinal, neurovascular, and ophthalmic applications.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Ma-lai-xi-a)',
+        en: '(Source: Malaysia)'
+      },
+      {
+        type: 'heading',
+        vi: '9018.90.30',
+        en: '9018.90.30'
+      },
+      {
+        type: 'paragraph',
+        vi: 'MÁY CHẠY THẬN NHÂN TẠO',
+        en: 'HAEMODIALYSIS MACHINES (ARTIFICIAL KIDNEYS)'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Máy chạy thận nhân tạo là máy lọc máu của bệnh nhân để loại bỏ chất thải và nước dư thừa khi thận bị hỏng hoặc bị tổn thương. Máy chạy thận nhân tạo hút máu bệnh nhân chuyển qua bộ lọc (thận nhân tạo) để dung dịch thẩm tách làm sạch máu. Dung dịch thẩm tách là chất lỏng, bao gồm nước tinh khiết, gluco và chất điện giải. Một khi được làm sạch, máu được đưa trở lại vào cơ thể bệnh nhân.',
+        en: 'Haemodialysis machine is a machine that filters a patient’s blood to remove excess water and waste products when the kidneys are damaged, dysfunctional, or missing. The dialysis machine pumps blood from the patient through a dialyzer (artificial kidney) where the blood is cleaned by the dialysate. The dialysate is a fluid that consists of purified water, glucose and electrolytes. Once cleaned, the blood is pumped back into the patient’s body.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Ma-lai-xi-a)',
+        en: '(Source: Malaysia)'
+      },
+      {
+        type: 'heading',
+        vi: '9018.90.90',
+        en: '9018.90.90'
+      },
+      {
+        type: 'paragraph',
+        vi: 'THIẾT BỊ PHẪU THUẬT LẠNH',
+        en: 'CRYOSURGICAL EQUIPMENT'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Thiết bị phẫu thuật lạnh là thiết bị sử dụng nitơ lỏng hoặc khí argon để tạo ra nhiệt độ cực lạnh để tiêu diệt các mô bất thường hoặc bị bệnh. Thiết bị phẫu thuật lạnh được sử dụng để điều trị các bệnh về da, một số loại ung thư (bao gồm tuyến tiền liệt, gan và ung thư cổ tử cung), và bệnh trĩ nội/ngoại.',
+        en: 'Cryosurgical equipment is equipment using liquid nitrogen or argon gas to generate extreme cold to freeze and destroy abnormal or diseased tissue. Cryosurgical equipment is used to treat skin conditions, some types of cancer (including prostate, liver and cervical cancer), and internal/external hemorrhoids.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Ma-lai-xi-a)',
+        en: '(Source: Malaysia)'
+      },
+      {
+        type: 'heading',
+        vi: '9019.20.00',
+        en: '9019.20.00'
+      },
+      {
+        type: 'paragraph',
+        vi: 'MÁY TRỢ THỞ',
+        en: 'VENTILATOR'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Máy trợ thở là một loại máy hỗ trợ hoặc giúp việc thở thường rất cần thiết cho những bệnh nhân không thể tự thở do bệnh tật hoặc chấn thương nặng. Mục đích của việc sử dụng máy này là cung cấp oxy đầy đủ cho bệnh nhân.',
+        en: 'Ventilator is a machine that supports or assists breathing often needed by patients who cannot breathe on their own, either because of an illness or because of a severe injury. The purpose of using this machine is to provide adequate oxygen to patients.'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Máy trợ thở xâm lấn sử dụng một ống được đưa vào khí quản của bệnh nhân qua cổ họng, do đó xâm nhập vào đường hô hấp (trong lĩnh vực y tế, quá trình này được gọi là đặt nội khí quản). Máy trợ thở xâm lấn có hai đường cho không khí đi vào và ra khỏi đường hô hấp của bệnh nhân. Máy trợ thở xâm lấn có một số chế độ như:',
+        en: 'Invasive ventilator utilizes a tube which is physically inserted into the patient’s trachea through the throat, thus invading the respiratory airway (in the medical field, this process is called tracheal intubation). Invasive ventilator has two lines for air flowing to the patient and for exhaled air flowing away from the patient. Invasive ventilator has several modes such as:'
+      },
+      {
+        type: 'list',
+        vi: '- Thông khí kiểm soát (CMV kiểm soát thể tích , CMV kiểm soát áp lực, VC- ACV, PC-ACV, VC-SIMV, PC-SIMV)',
+        en: '- Controlled ventilation (volume control CMV, pressure control CMV, VC-ACV, PC-ACV, VC-SIMV, PC-SIMV)'
+      },
+      {
+        type: 'list',
+        vi: '- Thông khí thông minh (MV tự động và PRVC)',
+        en: '- Intelligent ventilation (auto MV and PRVC)'
+      },
+      {
+        type: 'list',
+        vi: '- Thông khí hỗ trợ (SIMV + PS)',
+        en: '- Supported ventilation (SIMV + PS)'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: In-đô-nê-xi-a)',
+        en: '(Source: Indonesia)'
+      },
+      {
+        type: 'heading',
+        vi: '9021.10.00',
+        en: '9021.10.00'
+      },
+      {
+        type: 'paragraph',
+        vi: 'DỤNG CỤ CHỈNH HÌNH',
+        en: 'ORTHOPAEDIC APPLIANCES'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Dụng cụ chỉnh hình được định nghĩa trong Chú giải 6 của Chương 90 là dụng cụ để:',
+        en: 'Orthopaedic appliances are defined in Note 6 to Chapter 90 as appliances for:'
+      },
+      {
+        type: 'list',
+        vi: '- Ngăn ngừa hoặc điều chỉnh biến dạng của cơ thể; hoặc',
+        en: '- Preventing or correcting bodily deformities; or'
+      },
+      {
+        type: 'list',
+        vi: '- Hỗ trợ hoặc giữ các bộ phận của cơ thể sau khi bị bệnh, phẫu thuật hoặc bị thương.',
+        en: '- Supporting or holding parts of the body following an illness, operation or injury.'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Ví dụ:',
+        en: 'Examples:'
+      },
+      {
+        type: 'list',
+        vi: '- Nẹp chỉnh hình đầu gối (được làm bằng một loại vải co giãn được gia cố bằng hai thanh nhựa dẻo dọc theo hai bên và một miếng đệm tròn xung quanh xương bánh chè);',
+        en: '- Knee orthosis (made of an elastic fabric reinforced by two flexible plastic rods along the sides and a round pad around the patella);'
+      },
+      {
+        type: 'list',
+        vi: '- Đai nẹp lưng (được làm bằng vải dệt đàn hồi và có một tấm nhựa cứng và miếng đệm bụng);',
+        en: '- Back brace (made of elastic textile material and features a rigid plastic plate and an abdominal pad);'
+      },
+      {
+        type: 'list',
+        vi: '- Dụng cụ cố định khớp cổ tay (được làm bằng vật liệu dệt bao gồm một thanh nhôm rộng, cứng, viền phía lòng bàn tay, được tạo hình phù hợp về mặt giải phẫu và có thể điều chỉnh được).',
+        en: '- Wrist joint immobiliser (made of textile material including a wide, rigid, anatomically shaped and adjustable aluminium splint on the palm side).'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Nhóm này không bao gồm “dụng cụ bảo vệ” (ví dụ: đai nịt bụng hoặc đai hỗ trợ dùng cho bà bầu, miếng đệm bảo vệ áp lực, miếng đệm ống chân, miếng đệm bảo vệ khuỷu tay hoặc đầu gối, miếng đệm bảo vệ cho người chơi thể thao, v.v.).',
+        en: 'This heading does not cover “protective appliances” (e.g. pregnancy girdles or supports, pressure pads, shin pads, protective pads for the elbows or knees, protective pads for sports players, etc.).'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Ma-lai-xi-a)',
+        en: '(Source: Malaysia)'
+      },
+      {
+        type: 'heading',
+        vi: '9021.39.00',
+        en: '9021.39.00'
+      },
+      {
+        type: 'paragraph',
+        vi: 'HỆ THỐNG CẤY GHÉP ỐC TAI ĐIỆN TỬ ĐA KÊNH',
+        en: 'MULTICHANNEL COCHLEAR IMPLANT SYSTEM'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Hệ thống cấy ghép ốc tai điện tử đa kênh là một thiết bị điện tử để giúp đỡ những người bị giảm thính lực từ mức nặng đến mức sâu. Nó bao gồm hai phần: (1) Bộ phận xử lý lời nói - gồm một micrô, bộ xử lý lời nói và một ăng ten truyền và (2) Bộ phận cấy ghép ốc tai điện tử - bao gồm bộ phận nhận/kích thích và mảng điện cực. Bộ phận cấy ghép ốc tai điện tử được cấy vào trong xương thái dương của người sử dụng bằng phẫu thuật.',
+        en: 'The multichannel cochlear implant system is an electronic device to help people who have severe to profound hearing loss. It consists of two parts: (1) The speech processor - consisting of a microphone, speech processor and a transmitting antenna and (2) The cochlear implant - consisting of a receiver/stimulator and electrode array. The cochlear implant is surgically implanted in the user\'s temporal bone.'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Hệ thống hoạt động bằng cách tiếp nhận âm thanh qua micrô, chuyển nó thành mã kỹ thuật số trong bộ xử lý lời nói và truyền đến thiết bị cấy ghép. Thiết bị cấy ghép chuyển đổi mã kỹ thuật số thành các xung điện và gửi chúng dọc theo mảng điện cực được đặt trong ốc tai (tai trong). Sau đó các điện cực của mảng điện cực kích thích dây thần kinh thính giác của ốc tai, dây thần kinh này sẽ gửi xung đến não để được hiểu là âm thanh.',
+        en: 'The system works by picking up sound via the microphone, converting it into a digital code in the speech processor and transmitting it to the implant. The implant converts the digital code into electrical impulses and sends them along the electrode array which is positioned in the cochlea (the inner ear). The electrodes of the electrode array then stimulate the cochlea\'s hearing nerve which sends the impulses to the brain where they are interpreted as sound.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Phi-líp-pin)',
+        en: '(Source: Philippines)'
+      },
+      {
+        type: 'heading',
+        vi: '9023.00.00',
+        en: '9023.00.00'
+      },
+      {
+        type: 'paragraph',
+        vi: 'MÔ HÌNH DÙNG CHO MỤC ĐÍCH MÔ TẢ',
+        en: 'MODELS, DESIGNED FOR DEMONSTRATIONAL PURPOSES'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Mô hình này là một mô hình ba chiều của một dự án phát triển bất động sản (ví dụ: nhà chung cư, khách sạn, khu nghỉ dưỡng, nhà máy, sân bay, v.v.), có tỷ lệ thu nhỏ chính xác so với kích thước thực tế. Nó có thể được làm bằng nhựa, gỗ, giấy bồi, kim loại, v.v., và được trang bị hệ thống chiếu sáng điện, hệ thống cơ khí (ví dụ: tàu điện di chuyển) và vỏ bảo vệ (thủy tinh hoặc nhựa trong). Mô hình này không thích hợp cho mục đích sử dụng khác.',
+        en: 'This model is a three-dimensional representation of a real estate development project (e.g. condominium, hotel, resort, factory, airport, etc.), accurately scaled down from the actual size. It can be made of plastic, wood, papier mache, metal, etc., and equipped with an electric lighting system, mechanical system (e.g. moving train), and protective cover (glass or clear plastic). This model is unsuitable for other uses.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Phi-líp-pin)',
+        en: '(Source: Philippines)'
+      },
+      {
+        type: 'heading',
+        vi: '9024.80.10',
+        en: '9024.80.10'
+      },
+      {
+        type: 'paragraph',
+        vi: 'MÁY THỬ ĐỘ CỨNG',
+        en: 'HARDNESS TESTING MACHINES'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Máy thử độ cứng là thiết bị cơ điện dùng để kiểm tra độ cứng của các mẫu (kim loại, cao su, nhựa, v.v.) bằng cách ấn một đầu đo vào bề mặt của mẫu và đo lực tác động. Máy thường bao gồm một khung chịu lực, một đầu đo (đầu kim cương hoặc bi thép), một hệ thống tạo lực và một đồng hồ đo hoặc màn hình hiển thị kết quả.',
+        en: 'Hardness testing machines are electromechanical devices used to test the hardness of specimens (metals, rubber, plastics, etc.) by pressing an indenter into the surface of the specimen and measuring the applied force. The machine typically consists of a load-bearing frame, an indenter (diamond cone or steel ball), a force-generating system, and a gauge or display screen for the results.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Việt Nam)',
+        en: '(Source: Viet Nam)'
+      },
+      {
+        type: 'heading',
+        vi: '9026.20.30',
+        en: '9026.20.30'
+      },
+      {
+        type: 'paragraph',
+        vi: 'ÁP KẾ SỬ DỤNG CHO XE CÓ ĐỘNG CƠ',
+        en: 'PRESSURE GAUGES OF A KIND USED FOR MOTOR VEHICLES'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Áp kế, thường là loại lò xo ống (Bourdon tube) hoặc màng ngăn, để đo áp suất chất lỏng hoặc khí (ví dụ: áp suất dầu, áp suất khí nén trong lốp xe, v.v.). Chúng được thiết kế đặc biệt để lắp đặt trên bảng điều khiển hoặc hệ thống của xe có động cơ.',
+        en: 'Pressure gauges, usually of the Bourdon tube or diaphragm type, for measuring liquid or gas pressure (e.g. oil pressure, tyre air pressure, etc.). They are specially designed for installation on the dashboard or systems of motor vehicles.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Phi-líp-pin)',
+        en: '(Source: Philippines)'
+      },
+      {
+        type: 'heading',
+        vi: '9032.89.31  9032.89.39',
+        en: '9032.89.31  9032.89.39'
+      },
+      {
+        type: 'paragraph',
+        vi: 'HỆ THỐNG KIỂM SOÁT TỰ ĐỘNG DÙNG CHO HỆ THỐNG ĐIỀU HÒA KHÔNG KHÍ CỦA XE CÓ ĐỘNG CƠ',
+        en: 'AUTOMATIC CONTROL SYSTEMS FOR MOTOR VEHICLES AIR CONDITIONING MACHINES'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Hệ thống kiểm soát tự động bao gồm các cảm biến (nhiệt độ, độ ẩm, ánh sáng mặt trời), bộ điều khiển điện tử (ECU) và các cơ cấu chấp hành (động cơ cánh gió, van tiết lưu). Hệ thống này tự động điều chỉnh nhiệt độ, tốc độ quạt và hướng gió trong xe dựa trên các thông số cài đặt và điều kiện môi trường để duy trì sự thoải mái cho người ngồi trong xe.',
+        en: 'Automatic control systems consisting of sensors (temperature, humidity, sunlight), an electronic control unit (ECU), and actuators (damper motors, expansion valves). This system automatically adjusts the temperature, fan speed, and air flow direction inside the vehicle based on set parameters and environmental conditions to maintain comfort for the occupants.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Thái Lan)',
+        en: '(Source: Thailand)'
+      }
+    ]
+  },
 
   // ------------------------------------------------------------
   // CHAPTER 91
   // ------------------------------------------------------------
-
+  {
+    chapterNumber: 91,
+    titleVi: 'CHƯƠNG 91',
+    titleEn: 'CHAPTER 91',
+    content: [
+      {
+        type: 'paragraph',
+        vi: 'Hiện chưa có Chú giải bổ sung cho Chương này.',
+        en: 'There are no Supplementary Explanatory Notes for this Chapter.'
+      }
+    ]
+  },
 
   // ------------------------------------------------------------
   // CHAPTER 92
   // ------------------------------------------------------------
-
+  {
+    chapterNumber: 92,
+    titleVi: 'CHƯƠNG 92',
+    titleEn: 'CHAPTER 92',
+    content: [
+      {
+        type: 'paragraph',
+        vi: 'Hiện chưa có Chú giải bổ sung cho Chương này.',
+        en: 'There are no Supplementary Explanatory Notes for this Chapter.'
+      }
+    ]
+  },
 
   // ------------------------------------------------------------
   // CHAPTER 93
   // ------------------------------------------------------------
-
+  {
+    chapterNumber: 93,
+    titleVi: 'CHƯƠNG 93',
+    titleEn: 'CHAPTER 93',
+    content: [
+      {
+        type: 'heading',
+        vi: '9303.20.10',
+        en: '9303.20.10'
+      },
+      {
+        type: 'paragraph',
+        vi: 'SÚNG SHOTGUN SĂN',
+        en: 'HUNTING SHOTGUNS'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Thể thao: Một trong những công dụng chủ yếu của súng shotgun là dùng cho các môn thể thao bắn đĩa hướng chéo, bắn đĩa hướng thẳng và bắn vật thể đất sét. Những môn thể thao này bao gồm bắn các đĩa bằng đất sét, cũng được biết đến với dạng bồ câu đất sét, được ném ra bằng tay hoặc bằng máy.',
+        en: 'Sporting: Some of the most common uses of shotguns are the sports of skeet shooting, trap shooting and sporting clays. These involve shooting clay discs, also known as clay pigeons, thrown in by hand or by machine.'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Săn bắn: Súng shotgun rất thông dụng trong việc săn bắn chim, nó cũng được dùng trong nhiều loại hình săn bắn thông thường khác đặc biệt tại các khu vực có dân cư nơi mà việc sử dụng đạn súng trường có thể gây nguy hiểm. Việc sử dụng một khẩu súng shotgun nòng trơn với đạn súng trường hoặc thay vào đó một loại súng shotgun nòng súng trường với loại đạn xuyên giáp (đạn sabot), cải thiện độ chính xác lên 100m (110yd) hoặc hơn.',
+        en: 'Hunting: The shotgun is popular for bird hunting, it is also used for more general forms of hunting especially in semi-populated areas where the range of rifle bullets may pose a hazard. Use of a smooth bore shotgun with a rifled slug or, alternatively, a rifled barrel shotgun with a sabot slug, improves accuracy to 100 m (110 yd) or more.'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Súng shotgun thường được dùng với nòng súng trường tại các khu vực mà luật pháp không cho phép săn bằng súng trường. Điển hình như một viên đạn xuyên giáp (đạn sabot) được dùng trong các nòng súng này tăng tối đa độ chính xác và hiệu quả.',
+        en: 'Shotguns are often used with rifled barrels in locations where it is not lawful to hunt with a rifle. Typically, a sabot slug is used in these barrels for maximum accuracy and performance.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Việt Nam)',
+        en: '(Source: Viet Nam)'
+      },
+      {
+        type: 'heading',
+        vi: '9305.91.10  9305.99.11  9305.99.91',
+        en: '9305.91.10  9305.99.11  9305.99.91'
+      },
+      {
+        type: 'paragraph',
+        vi: 'BỘ PHẬN VÀ PHỤ KIỆN, BẰNG DA THUỘC HOẶC VẬT LIỆU DỆT',
+        en: 'PARTS AND ACCESSORIES, OF LEATHER OR TEXTILE MATERIAL'
+      },
+      {
+        type: 'paragraph',
+        vi: 'Dây đeo làm từ các vật liệu dệt hoặc da thuộc là phụ kiện cho súng trường hay súng lục được đề cập đến trong chú giải HS.',
+        en: 'Slings of textile materials or leather are accessories for rifles or pistols as mentioned in the HS Explanatory Notes.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(Nguồn: Ma-lai-xi-a)',
+        en: '(Source: Malaysia)'
+      }
+    ]
+  },
 
   // ------------------------------------------------------------
   // CHAPTER 94
   // ------------------------------------------------------------
-
+  
 
   // ------------------------------------------------------------
   // CHAPTER 95
