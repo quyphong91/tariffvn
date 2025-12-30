@@ -187,7 +187,7 @@ export function ResultsSection({ headings, detailed, keyword, language }: Result
             <div>
               <h2 className="text-xl font-bold text-foreground">Headings</h2>
               <p className="text-sm text-muted-foreground">
-                Tìm thấy {headings.length} Headings trong {sortedChapters.length} Chương
+                Tìm thấy {headings.length} Nhóm trong {sortedChapters.length} Chương
               </p>
             </div>
           </div>
