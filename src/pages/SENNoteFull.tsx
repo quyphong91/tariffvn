@@ -204,7 +204,7 @@ const SENNoteFull = () => {
                 Tiếng Việt (VI)
               </div>
               {/* English Column Header */}
-              <div className="bg-amber text-white px-4 py-3 font-semibold text-center">
+              <div className="bg-primary text-primary-foreground px-4 py-3 font-semibold text-center">
                 English (EN)
               </div>
               
@@ -238,10 +238,7 @@ const SENNoteFull = () => {
             {/* Mobile: Single Column with Toggle */}
             <div className="md:hidden rounded-xl border border-border overflow-hidden bg-card">
               {/* Column Header */}
-              <div className={cn(
-                "px-4 py-3 font-semibold text-center text-white",
-                mobileView === 'vi' ? "bg-primary" : "bg-amber"
-              )}>
+              <div className="bg-primary text-primary-foreground px-4 py-3 font-semibold text-center">
                 {mobileView === 'vi' ? 'Tiếng Việt (VI)' : 'English (EN)'}
               </div>
               
