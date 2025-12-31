@@ -1,6 +1,7 @@
 import { HSItem, SearchLanguage, getDescription } from "@/data/hsData";
+import { NoteMatch } from "@/utils/searchNotes";
 import { HSCodeBadge } from "./HSCodeBadge";
-import { ChevronRight } from "lucide-react";
+import { ChevronRight, FileText, BookOpen, Sparkles } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 interface DetailCardProps {
@@ -9,6 +10,8 @@ interface DetailCardProps {
   index: number;
   keyword: string;
   language: SearchLanguage;
+  score?: number;
+  noteMatches?: NoteMatch[];
 }
 
 function highlightText(text: string, keyword: string) {
@@ -40,9 +43,37 @@ function getLevelStyles(level: number) {
   }
 }
 
-export function DetailCard({ item, parents, index, keyword, language }: DetailCardProps) {
+function EvidenceChip({ match, keyword }: { match: NoteMatch; keyword: string }) {
+  const isSEN = match.source === 'sen';
+  const Icon = isSEN ? FileText : BookOpen;
+  
+  return (
+    <div className={cn(
+      "flex items-start gap-2 p-3 rounded-lg text-sm border",
+      isSEN 
+        ? "bg-amber-50 text-amber-800 border-amber-200 dark:bg-amber-950/30 dark:text-amber-200 dark:border-amber-800" 
+        : "bg-indigo-50 text-indigo-800 border-indigo-200 dark:bg-indigo-950/30 dark:text-indigo-200 dark:border-indigo-800"
+    )}>
+      <Icon className="w-4 h-4 mt-0.5 flex-shrink-0" />
+      <div className="flex-1 min-w-0">
+        <div className={cn(
+          "text-xs font-medium mb-1",
+          isSEN ? "text-amber-600 dark:text-amber-400" : "text-indigo-600 dark:text-indigo-400"
+        )}>
+          {isSEN ? 'Chú giải bổ sung (SEN)' : 'Chú giải chi tiết (EN)'}
+        </div>
+        <p className="text-xs leading-relaxed line-clamp-2">
+          {highlightText(match.snippet, keyword)}
+        </p>
+      </div>
+    </div>
+  );
+}
+
+export function DetailCard({ item, parents, index, keyword, language, score, noteMatches }: DetailCardProps) {
   const allItems = [...parents, item];
   const headingCode = parents.length > 0 ? parents[0].hsCode : item.hsCode;
+  const isHighScore = score !== undefined && score > 80;
 
   return (
     <div
@@ -50,6 +81,18 @@ export function DetailCard({ item, parents, index, keyword, language }: DetailCa
       className="bg-gradient-card rounded-xl border border-border shadow-card overflow-hidden animate-fade-up scroll-mt-4"
       style={{ animationDelay: `${index * 50}ms` }}
     >
+      {/* Best Match Badge */}
+      {isHighScore && (
+        <div className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-amber/20 to-ocean/20 border-b border-border">
+          <Sparkles className="w-4 h-4 text-amber" />
+          <span className="text-xs font-medium text-foreground">Kết quả phù hợp nhất</span>
+          {score !== undefined && (
+            <span className="ml-auto text-xs text-muted-foreground">Điểm: {score}</span>
+          )}
+        </div>
+      )}
+
+      {/* Item Rows */}
       {allItems.map((rowItem, idx) => {
         const isMatch = rowItem === item;
         const level = rowItem.level;
@@ -82,6 +125,18 @@ export function DetailCard({ item, parents, index, keyword, language }: DetailCa
           </div>
         );
       })}
+
+      {/* Evidence Chips */}
+      {noteMatches && noteMatches.length > 0 && (
+        <div className="px-4 py-3 bg-muted/30 border-t border-border">
+          <div className="text-xs font-medium text-muted-foreground mb-2">Bằng chứng từ chú giải:</div>
+          <div className="grid gap-2 md:grid-cols-2">
+            {noteMatches.slice(0, 4).map((match, idx) => (
+              <EvidenceChip key={idx} match={match} keyword={keyword} />
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 }
