@@ -4,7 +4,7 @@ import { Home, ChevronLeft, Search, ToggleLeft, ToggleRight } from "lucide-react
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useState, useRef, useEffect, useMemo } from "react";
-import { chapterFullDetailData, NoteRow } from "@/data/chapterFullDetailData";
+import { chapterFullDetailData, NoteRow } from "@/data/AllchapterFullDetailData";
 import { cn } from "@/lib/utils";
 
 const ChapterNoteFullAll = () => {
