@@ -29,13 +29,14 @@ export const blogPosts: BlogPost[] = [
     title: "Mã số HS Code là gì",
     date: "2024-12-28",
     excerpt: "Tìm hiểu thông tin cơ bản về mã HS Code và tầm quan trọng của việc xác định đúng mã số HS Code.",
-    coverImage: "https://www.tonlexing.com/what-is-hs-code/",
+    coverImage: "https://media.westpandi.com/r/w-1366/West/files/97/9771f8f6-3903-4a5b-a734-fc6b82824e4d.637970305993256984.jpg",
     content: `
 ## Giới thiệu về mã HS Code
 
 Hệ thống Mô tả và Mã hóa Hàng hóa Hài hòa, thường được gọi là "Hệ thống Hài hòa" hoặc đơn giản là "HS", là một hệ thống danh pháp sản phẩm quốc tế đa dụng được phát triển bởi Tổ chức Hải quan Thế giới (WCO).
 
 Hệ thống này bao gồm hơn 5.000 nhóm hàng hóa được sắp xếp theo cấu trúc pháp lý và logic, và được hỗ trợ bởi các quy tắc rõ ràng để đạt được sự phân loại thống nhất.
+![Cấu trúc mã HS Code](https://media.westpandi.com/r/w-1366/West/files/97/9771f8f6-3903-4a5b-a734-fc6b82824e4d.637970305993256984.jpg)
 
 Hệ thống này được hơn 200 quốc gia và nền kinh tế sử dụng làm cơ sở cho biểu thuế hải quan và thu thập số liệu thống kê thương mại quốc tế. Việt Nam bắt đầu tham gia Công ước Quốc tế về Hệ thống hài hòa hàng hóa này từ năm 1998 theo Quyết định số 49/QĐ-CTN ngày 06/3/1998 của Chủ tịch nước CHXHCN Việt Nam.
 
