@@ -942,19 +942,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 3: CÁ VÀ ĐỘNG VẬT GIÁP XÁC, ĐỘNG VẬT THÂN MỀM VÀ ĐỘNG VẬT THUỶ SINH KHÔNG XƯƠNG SỐNG KHÁC',
     titleEn: 'CHAPTER 3: FISH AND CRUSTACEANS, MOLLUSCS AND OTHER AQUATIC INVERTEBRATES',
     content: [
-      { type: 'heading', vi: 'PHẦN I: ĐỘNG VẬT SỐNG; CÁC SẢN PHẨM TỪ ĐỘNG VẬT', en: 'SECTION I : LIVE ANIMALS; ANIMAL PRODUCTS' },
-      { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
-      { 
-        type: 'paragraph', 
-        vi: '1. Trong phần này, khi đề cập đến một giống hoặc một loài động vật, trừ khi có yêu cầu khác, cần phải kể đến cả giống hoặc loài động vật đó còn non.', 
-        en: '1. Any reference in this Section to a particular genus or species of an animal, except where the context otherwise requires, includes a reference to the young of that genus or species.' 
-      },
-      { 
-        type: 'paragraph', 
-        vi: '2. Trừ khi có yêu cầu khác, trong toàn bộ Danh mục này bất cứ đề cập nào liên quan đến các sản phẩm "được làm khô" cũng bao gồm các sản phẩm được khử nước, làm bay hơi hoặc làm khô bằng đông lạnh.', 
-        en: '2. Except where the context otherwise requires, throughout the Nomenclature any reference to “dried” products also covers products which have been dehydrated, evaporated or freeze-dried.' 
-      },
-      { type: 'heading', vi: 'Chương 3: Cá và động vật giáp xác, động vật thân mềm và động vật thuỷ sinh không xương sống khác', en: 'Chapter 3 : Fish and crustaceans, molluscs and other aquatic invertebrates' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1.- Chương này không bao gồm:', en: '1.- This Chapter does not cover:' },
       { type: 'list', vi: '(a) Động vật có vú thuộc nhóm 01.06;', en: '(a) Mammals of heading 01.06;' },
@@ -1378,19 +1365,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 4: SẢN PHẨM BƠ SỮA; TRỨNG CHIM VÀ TRỨNG GIA CẦM; MẬT ONG TỰ NHIÊN; SẢN PHẨM ĂN ĐƯỢC GỐC ĐỘNG VẬT, CHƯA ĐƯỢC CHI TIẾT HOẶC GHI Ở NƠI KHÁC',
     titleEn: 'CHAPTER 4: DAIRY PRODUCE; BIRDS\' EGGS; NATURAL HONEY; EDIBLE PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED',
     content: [
-      { type: 'heading', vi: 'PHẦN I: ĐỘNG VẬT SỐNG; CÁC SẢN PHẨM TỪ ĐỘNG VẬT', en: 'SECTION I : LIVE ANIMALS; ANIMAL PRODUCTS' },
-      { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
-      { 
-        type: 'paragraph', 
-        vi: '1. Trong phần này, khi đề cập đến một giống hoặc một loài động vật, trừ khi có yêu cầu khác, cần phải kể đến cả giống hoặc loài động vật đó còn non.', 
-        en: '1. Any reference in this Section to a particular genus or species of an animal, except where the context otherwise requires, includes a reference to the young of that genus or species.' 
-      },
-      { 
-        type: 'paragraph', 
-        vi: '2. Trừ khi có yêu cầu khác, trong toàn bộ Danh mục này bất cứ đề cập nào liên quan đến các sản phẩm "được làm khô" cũng bao gồm các sản phẩm được khử nước, làm bay hơi hoặc làm khô bằng đông lạnh.', 
-        en: '2. Except where the context otherwise requires, throughout the Nomenclature any reference to “dried” products also covers products which have been dehydrated, evaporated or freeze-dried.' 
-      },
-      { type: 'heading', vi: 'Chương 4: Sản phẩm bơ sữa; trứng chim và trứng gia cầm; mật ong tự nhiên; sản phẩm ăn được gốc động vật, chưa được chi tiết hoặc ghi ở nơi khác', en: 'Chapter 4: Dairy produce; birds\' eggs; natural honey; edible products of animal origin, not elsewhere specified or included' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1.- Khái niệm "sữa" được hiểu là sữa còn nguyên kem hoặc sữa đã tách kem một phần hoặc toàn bộ.', en: '1. - The expression “milk" means full cream milk or partially or completely skimmed milk.' },
       { 
@@ -1583,19 +1557,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 5: SẢN PHẨM GỐC ĐỘNG VẬT, CHƯA ĐƯỢC CHI TIẾT HOẶC GHI Ở CÁC NƠI KHÁC',
     titleEn: 'CHAPTER 5: PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED',
     content: [
-      { type: 'heading', vi: 'PHẦN I: ĐỘNG VẬT SỐNG; CÁC SẢN PHẨM TỪ ĐỘNG VẬT', en: 'SECTION I : LIVE ANIMALS; ANIMAL PRODUCTS' },
-      { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
-      { 
-        type: 'paragraph', 
-        vi: '1. Trong phần này, khi đề cập đến một giống hoặc một loài động vật, trừ khi có yêu cầu khác, cần phải kể đến cả giống hoặc loài động vật đó còn non.', 
-        en: '1. Any reference in this Section to a particular genus or species of an animal, except where the context otherwise requires, includes a reference to the young of that genus or species.' 
-      },
-      { 
-        type: 'paragraph', 
-        vi: '2. Trừ khi có yêu cầu khác, trong toàn bộ Danh mục này bất cứ đề cập nào liên quan đến các sản phẩm "được làm khô" cũng bao gồm các sản phẩm được khử nước, làm bay hơi hoặc làm khô bằng đông lạnh.', 
-        en: '2. Except where the context otherwise requires, throughout the Nomenclature any reference to “dried” products also covers products which have been dehydrated, evaporated or freeze-dried.' 
-      },
-      { type: 'heading', vi: 'Chương 5: Sản phẩm gốc động vật, chưa được chi tiết hoặc ghi ở các nơi khác', en: 'Chapter 5: Products of animal origin, not elsewhere specified or included' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1. Chương này không bao gồm:', en: '1.- This Chapter does not cover:' },
       { type: 'list', vi: '(a) Các sản phẩm ăn được (trừ ruột, bong bóng và dạ dày của động vật, nguyên dạng và các mảnh của chúng, và tiết động vật, ở dạng lỏng hoặc khô);', en: '(a) Edible products (other than guts, bladders and stomachs of animals, whole and pieces thereof, and animal blood, liquid or dried);' },
@@ -1880,14 +1841,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 7: RAU VÀ MỘT SỐ LOẠI CỦ, THÂN CỦ VÀ RỄ ĂN ĐƯỢC',
     titleEn: 'CHAPTER 7: EDIBLE VEGETABLES AND CERTAIN ROOTS AND TUBERS',
     content: [
-      { type: 'heading', vi: 'Phần II: CÁC SẢN PHẨM THỰC VẬT', en: 'Section II: VEGETABLE PRODUCTS' },
-      { type: 'heading', vi: 'Chú giải.', en: 'Note.' },
-      { 
-        type: 'paragraph', 
-        vi: '1. - Trong Phần này khái niệm “viên” có nghĩa là những sản phẩm được liên kết bằng cách nén trực tiếp hoặc thêm chất dính với hàm lượng không quá 3% tính theo trọng lượng.', 
-        en: '1.- In this Section the term “pellets” means products which have been agglomerated either directly by compression or by the addition of a binder in a proportion not exceeding 3 % by weight.' 
-      },
-      { type: 'heading', vi: 'Chương 7: Rau và một số loại củ, thân củ và rễ ăn được', en: 'Chapter 7: Edible vegetables and certain roots and tubers' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1.- Chương này không bao gồm các sản phẩm thức ăn cho gia súc thuộc nhóm 12.14.', en: '1.- This Chapter does not cover forage products of heading 12.14.' },
       { 
@@ -2142,14 +2095,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 8: QUẢ VÀ QUẢ HẠCH (NUT) ĂN ĐƯỢC; VỎ QUẢ THUỘC HỌ CAM QUÝT HOẶC CÁC LOẠI DƯA',
     titleEn: 'CHAPTER 8: EDIBLE FRUIT AND NUTS; PEEL OF CITRUS FRUIT OR MELONS',
     content: [
-      { type: 'heading', vi: 'Phần II: CÁC SẢN PHẨM THỰC VẬT', en: 'Section II: VEGETABLE PRODUCTS' },
-      { type: 'heading', vi: 'Chú giải.', en: 'Note.' },
-      { 
-        type: 'paragraph', 
-        vi: '1. - Trong Phần này khái niệm “viên” có nghĩa là những sản phẩm được liên kết bằng cách nén trực tiếp hoặc thêm chất dính với hàm lượng không quá 3% tính theo trọng lượng.', 
-        en: '1.- In this Section the term “pellets” means products which have been agglomerated either directly by compression or by the addition of a binder in a proportion not exceeding 3 % by weight.' 
-      },
-      { type: 'heading', vi: 'Chương 8: Quả và quả hạch (nut) ăn được; vỏ quả thuộc họ cam quýt hoặc các loại dưa', en: 'Chapter 8: Edible fruit and nuts; peel of citrus fruit or melons' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1. Chương này không bao gồm các loại quả hạch (nuts) hoặc quả không ăn được.', en: '1. - This Chapter does not cover inedible nuts or fruits.' },
       { type: 'paragraph', vi: '2. Quả và quả hạch (nuts) ướp lạnh được xếp cùng nhóm với quả và quả hạch (nuts) tươi tương ứng.', en: '2. - Chilled fruits and nuts are to be classified in the same headings as the corresponding fresh fruits and nuts.' },
@@ -2381,14 +2326,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 9: CÀ PHÊ, CHÈ, CHÈ PARAGOAY VÀ CÁC LOẠI GIA VỊ',
     titleEn: 'CHAPTER 9: COFFEE, TEA, MATÉ AND SPICES',
     content: [
-      { type: 'heading', vi: 'Phần II: CÁC SẢN PHẨM THỰC VẬT', en: 'Section II: VEGETABLE PRODUCTS' },
-      { type: 'heading', vi: 'Chú giải.', en: 'Note.' },
-      { 
-        type: 'paragraph', 
-        vi: '1. - Trong Phần này khái niệm “viên” có nghĩa là những sản phẩm được liên kết bằng cách nén trực tiếp hoặc thêm chất dính với hàm lượng không quá 3% tính theo trọng lượng.', 
-        en: '1.- In this Section the term “pellets” means products which have been agglomerated either directly by compression or by the addition of a binder in a proportion not exceeding 3 % by weight.' 
-      },
-      { type: 'heading', vi: 'Chương 9: Cà phê, chè, chè Paragoay và các loại gia vị', en: 'Chapter 9: Coffee, tea, maté and spices' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1. Hỗn hợp của các sản phẩm thuộc các nhóm từ 09.04 đến 09.10 được phân loại như sau:', en: '1. - Mixtures of the products of headings 09.04 to 09.10 are to be classified as follows:' },
       { type: 'list', vi: 'a) Hỗn hợp của hai hay nhiều sản phẩm thuộc cùng một nhóm cũng được xếp trong nhóm đó;', en: '(a) Mixtures of two or more of the products of the same heading are to be classified in that heading:' },
@@ -2580,14 +2517,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 10: NGŨ CỐC',
     titleEn: 'CHAPTER 10: CEREALS',
     content: [
-      { type: 'heading', vi: 'Phần II: CÁC SẢN PHẨM THỰC VẬT', en: 'Section II: VEGETABLE PRODUCTS' },
-      { type: 'heading', vi: 'Chú giải.', en: 'Note.' },
-      { 
-        type: 'paragraph', 
-        vi: '1. - Trong Phần này khái niệm “viên” có nghĩa là những sản phẩm được liên kết bằng cách nén trực tiếp hoặc thêm chất dính với hàm lượng không quá 3% tính theo trọng lượng.', 
-        en: '1.- In this Section the term “pellets” means products which have been agglomerated either directly by compression or by the addition of a binder in a proportion not exceeding 3 % by weight.' 
-      },
-      { type: 'heading', vi: 'Chương 10: Ngũ cốc', en: 'Chapter 10: Cereals' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { 
         type: 'paragraph', 
@@ -2736,14 +2665,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 11: CÁC SẢN PHẨM XAY XÁT; MALT; TINH BỘT; INULIN; GLUTEN LÚA MÌ',
     titleEn: 'CHAPTER 11: PRODUCTS OF THE MILLING INDUSTRY; MALT; STARCHES; INULIN; WHEAT GLUTEN',
     content: [
-      { type: 'heading', vi: 'Phần II: CÁC SẢN PHẨM THỰC VẬT', en: 'Section II: VEGETABLE PRODUCTS' },
-      { type: 'heading', vi: 'Chú giải.', en: 'Note.' },
-      { 
-        type: 'paragraph', 
-        vi: '1. - Trong Phần này khái niệm “viên” có nghĩa là những sản phẩm được liên kết bằng cách nén trực tiếp hoặc thêm chất dính với hàm lượng không quá 3% tính theo trọng lượng.', 
-        en: '1.- In this Section the term “pellets” means products which have been agglomerated either directly by compression or by the addition of a binder in a proportion not exceeding 3 % by weight.' 
-      },
-      { type: 'heading', vi: 'Chương 11: Các sản phẩm xay xát; malt; tinh bột; inulin; gluten lúa mì', en: 'Chapter 11: Products of the milling industry; malt; starches; inulin; wheat gluten' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1. Chương này không bao gồm:', en: '1.-This Chapter does not cover:' },
       { type: 'list', vi: '(a) Malt đã rang dùng như chất thay thế cà phê (nhóm 09.01 hoặc nhóm 21.01);', en: '(a) Roasted malt put up as coffee substitutes (heading 09.01 or 21.01);' },
@@ -2964,14 +2885,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 12: HẠT DẦU VÀ QUẢ CÓ DẦU; CÁC LOẠI HẠT, HẠT GIỐNG VÀ QUẢ KHÁC; CÂY CÔNG NGHIỆP HOẶC CÂY DƯỢC LIỆU; RƠM, RẠ VÀ CỎ KHÔ',
     titleEn: 'CHAPTER 12: OIL SEEDS AND OLEAGINOUS FRUITS; MISCELLANEOUS GRAINS, SEEDS AND FRUIT; INDUSTRIAL OR MEDICINAL PLANTS; STRAW AND FODDER',
     content: [
-      { type: 'heading', vi: 'Phần II: CÁC SẢN PHẨM THỰC VẬT', en: 'Section II: VEGETABLE PRODUCTS' },
-      { type: 'heading', vi: 'Chú giải.', en: 'Note.' },
-      { 
-        type: 'paragraph', 
-        vi: '1. - Trong Phần này khái niệm “viên” có nghĩa là những sản phẩm được liên kết bằng cách nén trực tiếp hoặc thêm chất dính với hàm lượng không quá 3% tính theo trọng lượng.', 
-        en: '1.- In this Section the term “pellets” means products which have been agglomerated either directly by compression or by the addition of a binder in a proportion not exceeding 3 % by weight.' 
-      },
-      { type: 'heading', vi: 'Chương 12: Hạt dầu và quả có dầu; các loại hạt, hạt giống và quả khác; cây công nghiệp hoặc cây dược liệu; rơm, rạ và cỏ khô', en: 'Chapter 12: Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit; industrial or medicinal plants; straw and fodder' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { 
         type: 'paragraph', 
@@ -3390,14 +3303,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 13: NHỰA CÁNH KIẾN ĐỎ; GÔM, NHỰA CÂY, CÁC CHẤT NHỰA VÀ CÁC CHẤT CHIẾT XUẤT TỪ THỰC VẬT KHÁC',
     titleEn: 'CHAPTER 13: LAC; GUMS, RESINS AND OTHER VEGETABLE SAPS AND EXTRACTS',
     content: [
-      { type: 'heading', vi: 'Phần II: CÁC SẢN PHẨM THỰC VẬT', en: 'Section II: VEGETABLE PRODUCTS' },
-      { type: 'heading', vi: 'Chú giải.', en: 'Note.' },
-      { 
-        type: 'paragraph', 
-        vi: '1. - Trong Phần này khái niệm “viên” có nghĩa là những sản phẩm được liên kết bằng cách nén trực tiếp hoặc thêm chất dính với hàm lượng không quá 3% tính theo trọng lượng.', 
-        en: '1.- In this Section the term “pellets” means products which have been agglomerated either directly by compression or by the addition of a binder in a proportion not exceeding 3 % by weight.' 
-      },
-      { type: 'heading', vi: 'Chương 13: Nhựa cánh kiến đỏ; gôm, nhựa cây, các chất nhựa và các chất chiết xuất từ thực vật khác', en: 'Chapter 13: Lac; gums, resins and other vegetable saps and extracts' },
       { type: 'heading', vi: 'Chú giải.', en: 'Note.' },
       { 
         type: 'paragraph', 
@@ -3544,14 +3449,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 14: VẬT LIỆU THỰC VẬT DÙNG ĐỂ TẾT BỆN; CÁC SẢN PHẨM THỰC VẬT CHƯA ĐƯỢC CHI TIẾT HOẶC GHI Ở NƠI KHÁC',
     titleEn: 'CHAPTER 14: VEGETABLE PLAITING MATERIALS; VEGETABLE PRODUCTS NOT ELSEWHERE SPECIFIED OR INCLUDED',
     content: [
-      { type: 'heading', vi: 'Phần II: CÁC SẢN PHẨM THỰC VẬT', en: 'Section II: VEGETABLE PRODUCTS' },
-      { type: 'heading', vi: 'Chú giải.', en: 'Note.' },
-      { 
-        type: 'paragraph', 
-        vi: '1. - Trong Phần này khái niệm “viên” có nghĩa là những sản phẩm được liên kết bằng cách nén trực tiếp hoặc thêm chất dính với hàm lượng không quá 3% tính theo trọng lượng.', 
-        en: '1.- In this Section the term “pellets” means products which have been agglomerated either directly by compression or by the addition of a binder in a proportion not exceeding 3 % by weight.' 
-      },
-      { type: 'heading', vi: 'Chương 14: Vật liệu thực vật dùng để tết bện; các sản phẩm thực vật chưa được chi tiết hoặc ghi ở nơi khác', en: 'Chapter 14: Vegetable plaiting materials; vegetable products not elsewhere specified or included' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { 
         type: 'paragraph', 
@@ -4133,14 +4030,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 17: ĐƯỜNG VÀ CÁC LOẠI KẸO ĐƯỜNG',
     titleEn: 'CHAPTER 17: SUGARS AND SUGAR CONFECTIONERY',
     content: [
-      { type: 'heading', vi: 'PHẦN IV: THỰC PHẨM CHẾ BIẾN; ĐỒ UỐNG, RƯỢU MẠNH VÀ GIẤM; THUỐC LÁ VÀ NGUYÊN LIỆU THAY THẾ THUỐC LÁ ĐÃ CHẾ BIẾN; CÁC SẢN PHẨM CHỨA HOẶC KHÔNG CHỨA NICOTIN, DÙNG ĐỂ HÚT MÀ KHÔNG CẦN ĐỐT CHÁY; CÁC SẢN PHẨM CHỨA NICOTIN KHÁC DÙNG ĐỂ NẠP NICOTIN VÀO CƠ THỂ CON NGƯỜI', en: 'SECTION IV: PREPARED FOODSTUFFS; BEVERAGES, SPIRITS AND VINEGAR; TOBACCO AND MANUFACTURED TOBACCO SUBSTITUTES; PRODUCTS, WHETHER OR NOT CONTAINING NICOTINE, INTENDED FOR INHALATION WITHOUT COMBUSTION; OTHER NICOTINE CONTAINING PRODUCTS INTENDED FOR THE INTAKE OF NICOTINE INTO THE HUMAN BODY' },
-      { type: 'heading', vi: 'Chú giải.', en: 'Note.' },
-      { 
-        type: 'paragraph', 
-        vi: '1. Trong Phần này khái niệm "viên" chỉ các sản phẩm được liên kết bằng phương pháp ép trực tiếp hay bằng cách pha thêm chất kết dính theo tỷ lệ không quá 3% tính theo trọng lượng.', 
-        en: '1. In this Section the term “pellets” means products which have been agglomerated either directly by compression or by the addition of a binder in a proportion not exceeding 3% by weight.' 
-      },
-      { type: 'heading', vi: 'Chương 17: Đường và các loại kẹo đường', en: 'Chapter 17: Sugars and sugar confectionery' },
       { type: 'heading', vi: 'Chú giải.', en: 'Note.' },
       { type: 'paragraph', vi: '1.- Chương này không bao gồm:', en: '1.- This Chapter does not cover :' },
       { type: 'list', vi: '(a) Chất chiết xuất từ cây cam thảo (không được đóng gói như mứt kẹo) chứa không quá 10% hàm lượng đường sucroza tính theo trọng lượng (nhóm 13.02).', en: '(a) Liquorice extract containing more than 10 % by weight of sucrose or put up as confectionery (heading 13.02).' },
@@ -4246,14 +4135,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 18: CA CAO VÀ CÁC CHẾ PHẨM TỪ CA CAO',
     titleEn: 'CHAPTER 18: COCOA AND COCOA PREPARATIONS',
     content: [
-      { type: 'heading', vi: 'PHẦN IV: THỰC PHẨM CHẾ BIẾN; ĐỒ UỐNG, RƯỢU MẠNH VÀ GIẤM; THUỐC LÁ VÀ NGUYÊN LIỆU THAY THẾ THUỐC LÁ ĐÃ CHẾ BIẾN; CÁC SẢN PHẨM CHỨA HOẶC KHÔNG CHỨA NICOTIN, DÙNG ĐỂ HÚT MÀ KHÔNG CẦN ĐỐT CHÁY; CÁC SẢN PHẨM CHỨA NICOTIN KHÁC DÙNG ĐỂ NẠP NICOTIN VÀO CƠ THỂ CON NGƯỜI', en: 'SECTION IV: PREPARED FOODSTUFFS; BEVERAGES, SPIRITS AND VINEGAR; TOBACCO AND MANUFACTURED TOBACCO SUBSTITUTES; PRODUCTS, WHETHER OR NOT CONTAINING NICOTINE, INTENDED FOR INHALATION WITHOUT COMBUSTION; OTHER NICOTINE CONTAINING PRODUCTS INTENDED FOR THE INTAKE OF NICOTINE INTO THE HUMAN BODY' },
-      { type: 'heading', vi: 'Chú giải.', en: 'Note.' },
-      { 
-        type: 'paragraph', 
-        vi: '1. Trong Phần này khái niệm "viên" chỉ các sản phẩm được liên kết bằng phương pháp ép trực tiếp hay bằng cách pha thêm chất kết dính theo tỷ lệ không quá 3% tính theo trọng lượng.', 
-        en: '1. In this Section the term “pellets” means products which have been agglomerated either directly by compression or by the addition of a binder in a proportion not exceeding 3% by weight.' 
-      },
-      { type: 'heading', vi: 'Chương 18: Ca cao và các chế phẩm từ ca cao', en: 'Chapter 18: Cocoa and cocoa preparations' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1.- Chương này không bao gồm:', en: '1.- This Chapter docs not cover:' },
       { type: 'list', vi: '(a) Chế phẩm thực phẩm có hàm lượng trên 20% tính theo khối lượng là xúc xích, thịt, các phụ phẩm dạng thịt sau giết mổ, tiết, côn trùng, cá hoặc động vật giáp xác, động vật thân mềm hoặc động vật thủy sinh không xương sống khác, hoặc hỗn hợp bất kỳ của các loại trên (Chương 16);', en: '(a) Food preparations containing more than 20% by weight of sausage, meat, meat offal, blood, insects, fish or crustaceans, molluscs or other aquatic invertebrates, or any combination thereof (Chapter 16);' },
@@ -4335,14 +4216,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 19: CHẾ PHẨM TỪ NGŨ CỐC, BỘT, TINH BỘT HOẶC SỮA; CÁC LOẠI BÁNH',
     titleEn: 'CHAPTER 19: PREPARATIONS OF CEREALS, FLOUR, STARCH OR MILK; PASTRYCOOKS’ PRODUCTS',
     content: [
-      { type: 'heading', vi: 'PHẦN IV: THỰC PHẨM CHẾ BIẾN; ĐỒ UỐNG, RƯỢU MẠNH VÀ GIẤM; THUỐC LÁ VÀ NGUYÊN LIỆU THAY THẾ THUỐC LÁ ĐÃ CHẾ BIẾN; CÁC SẢN PHẨM CHỨA HOẶC KHÔNG CHỨA NICOTIN, DÙNG ĐỂ HÚT MÀ KHÔNG CẦN ĐỐT CHÁY; CÁC SẢN PHẨM CHỨA NICOTIN KHÁC DÙNG ĐỂ NẠP NICOTIN VÀO CƠ THỂ CON NGƯỜI', en: 'SECTION IV: PREPARED FOODSTUFFS; BEVERAGES, SPIRITS AND VINEGAR; TOBACCO AND MANUFACTURED TOBACCO SUBSTITUTES; PRODUCTS, WHETHER OR NOT CONTAINING NICOTINE, INTENDED FOR INHALATION WITHOUT COMBUSTION; OTHER NICOTINE CONTAINING PRODUCTS INTENDED FOR THE INTAKE OF NICOTINE INTO THE HUMAN BODY' },
-      { type: 'heading', vi: 'Chú giải.', en: 'Note.' },
-      { 
-        type: 'paragraph', 
-        vi: '1. Trong Phần này khái niệm "viên" chỉ các sản phẩm được liên kết bằng phương pháp ép trực tiếp hay bằng cách pha thêm chất kết dính theo tỷ lệ không quá 3% tính theo trọng lượng.', 
-        en: '1. In this Section the term “pellets” means products which have been agglomerated either directly by compression or by the addition of a binder in a proportion not exceeding 3% by weight.' 
-      },
-      { type: 'heading', vi: 'Chương 19: Chế phẩm từ ngũ cốc, bột, tinh bột hoặc sữa; các loại bánh', en: 'Chapter 19: Preparations of cereals, flour, starch or milk; pastrycooks’ products' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1.- Chương này không bao gồm:', en: '1.- This Chapter does not cover:' },
       { type: 'list', vi: '(a) Các chế phẩm thực phẩm có chứa trên 20% tính theo khối lượng là xúc xích, thịt, phụ phẩm dạng thịt sau giết mổ, tiết, côn trùng, cá hoặc động vật giáp xác, động vật thân mềm hay động vật thuỷ sinh không xương sống khác, hoặc hỗn hợp bất kỳ của các loại trên (Chương 16), trừ các sản phẩm được nhồi thuộc nhóm 19.02;', en: '(a) Except in the case of stuffed products of heading 19.02. food preparations containing more than 20 % by weight of sausage, meat, meat offal, blood, insects, fish or crustaceans, molluscs or other aquatic invertebrates, or any combination thereof (Chapter 16);' },
@@ -4519,14 +4392,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 20: CÁC CHẾ PHẨM TỪ RAU, QUẢ, QUẢ HẠCH (NUT) HOẶC CÁC PHẦN KHÁC CỦA CÂY',
     titleEn: 'CHAPTER 20: PREPARATIONS OF VEGETABLES, FRUIT, NUTS OR OTHER PARTS OF PLANTS',
     content: [
-      { type: 'heading', vi: 'PHẦN IV: THỰC PHẨM CHẾ BIẾN; ĐỒ UỐNG, RƯỢU MẠNH VÀ GIẤM; THUỐC LÁ VÀ NGUYÊN LIỆU THAY THẾ THUỐC LÁ ĐÃ CHẾ BIẾN; CÁC SẢN PHẨM CHỨA HOẶC KHÔNG CHỨA NICOTIN, DÙNG ĐỂ HÚT MÀ KHÔNG CẦN ĐỐT CHÁY; CÁC SẢN PHẨM CHỨA NICOTIN KHÁC DÙNG ĐỂ NẠP NICOTIN VÀO CƠ THỂ CON NGƯỜI', en: 'SECTION IV: PREPARED FOODSTUFFS; BEVERAGES, SPIRITS AND VINEGAR; TOBACCO AND MANUFACTURED TOBACCO SUBSTITUTES; PRODUCTS, WHETHER OR NOT CONTAINING NICOTINE, INTENDED FOR INHALATION WITHOUT COMBUSTION; OTHER NICOTINE CONTAINING PRODUCTS INTENDED FOR THE INTAKE OF NICOTINE INTO THE HUMAN BODY' },
-      { type: 'heading', vi: 'Chú giải.', en: 'Note.' },
-      { 
-        type: 'paragraph', 
-        vi: '1. Trong Phần này khái niệm "viên" chỉ các sản phẩm được liên kết bằng phương pháp ép trực tiếp hay bằng cách pha thêm chất kết dính theo tỷ lệ không quá 3% tính theo trọng lượng.', 
-        en: '1. In this Section the term “pellets” means products which have been agglomerated either directly by compression or by the addition of a binder in a proportion not exceeding 3% by weight.' 
-      },
-      { type: 'heading', vi: 'Chương 20: Các chế phẩm từ rau, quả, quả hạch (nut) hoặc các phần khác của cây', en: 'Chapter 20: Preparations of vegetables, fruit, nuts or other parts of plants' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1.- Chương này không bao gồm:', en: '1.- This Chapter does not cover :' },
       { type: 'list', vi: '(a) Các loại rau, quả hoặc quả hạch (nut), được chế biến hoặc bảo quản theo quy trình đã ghi trong Chương 7, 8 hoặc 11;', en: '(a) Vegetables, fruit or nuts, prepared or preserved by the processes specified in Chapter 7, 8 or 11;' },
@@ -4749,14 +4614,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 21: CÁC CHẾ PHẨM ĂN ĐƯỢC KHÁC',
     titleEn: 'CHAPTER 21: MISCELLANEOUS EDIBLE PREPARATIONS',
     content: [
-      { type: 'heading', vi: 'PHẦN IV: THỰC PHẨM CHẾ BIẾN; ĐỒ UỐNG, RƯỢU MẠNH VÀ GIẤM; THUỐC LÁ VÀ NGUYÊN LIỆU THAY THẾ THUỐC LÁ ĐÃ CHẾ BIẾN; CÁC SẢN PHẨM CHỨA HOẶC KHÔNG CHỨA NICOTIN, DÙNG ĐỂ HÚT MÀ KHÔNG CẦN ĐỐT CHÁY; CÁC SẢN PHẨM CHỨA NICOTIN KHÁC DÙNG ĐỂ NẠP NICOTIN VÀO CƠ THỂ CON NGƯỜI', en: 'SECTION IV: PREPARED FOODSTUFFS; BEVERAGES, SPIRITS AND VINEGAR; TOBACCO AND MANUFACTURED TOBACCO SUBSTITUTES; PRODUCTS, WHETHER OR NOT CONTAINING NICOTINE, INTENDED FOR INHALATION WITHOUT COMBUSTION; OTHER NICOTINE CONTAINING PRODUCTS INTENDED FOR THE INTAKE OF NICOTINE INTO THE HUMAN BODY' },
-      { type: 'heading', vi: 'Chú giải.', en: 'Note.' },
-      { 
-        type: 'paragraph', 
-        vi: '1. Trong Phần này khái niệm "viên" chỉ các sản phẩm được liên kết bằng phương pháp ép trực tiếp hay bằng cách pha thêm chất kết dính theo tỷ lệ không quá 3% tính theo trọng lượng.', 
-        en: '1. In this Section the term “pellets” means products which have been agglomerated either directly by compression or by the addition of a binder in a proportion not exceeding 3% by weight.' 
-      },
-      { type: 'heading', vi: 'Chương 21: Các chế phẩm ăn được khác', en: 'Chapter 21: Miscellaneous edible preparations' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1.- Chương này không bao gồm:', en: '1.- This Chapter does not cover:' },
       { type: 'list', vi: '(a) Các loại rau hỗn hợp thuộc nhóm 07.12;', en: '(a) Mixed vegetables of heading 07.12:' },
@@ -4925,14 +4782,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 22: ĐỒ UỐNG, RƯỢU VÀ GIẤM',
     titleEn: 'CHAPTER 22: BEVERAGES, SPIRITS AND VINEGAR',
     content: [
-      { type: 'heading', vi: 'PHẦN IV: THỰC PHẨM CHẾ BIẾN; ĐỒ UỐNG, RƯỢU MẠNH VÀ GIẤM; THUỐC LÁ VÀ NGUYÊN LIỆU THAY THẾ THUỐC LÁ ĐÃ CHẾ BIẾN; CÁC SẢN PHẨM CHỨA HOẶC KHÔNG CHỨA NICOTIN, DÙNG ĐỂ HÚT MÀ KHÔNG CẦN ĐỐT CHÁY; CÁC SẢN PHẨM CHỨA NICOTIN KHÁC DÙNG ĐỂ NẠP NICOTIN VÀO CƠ THỂ CON NGƯỜI', en: 'SECTION IV: PREPARED FOODSTUFFS; BEVERAGES, SPIRITS AND VINEGAR; TOBACCO AND MANUFACTURED TOBACCO SUBSTITUTES; PRODUCTS, WHETHER OR NOT CONTAINING NICOTINE, INTENDED FOR INHALATION WITHOUT COMBUSTION; OTHER NICOTINE CONTAINING PRODUCTS INTENDED FOR THE INTAKE OF NICOTINE INTO THE HUMAN BODY' },
-      { type: 'heading', vi: 'Chú giải.', en: 'Note.' },
-      { 
-        type: 'paragraph', 
-        vi: '1. Trong Phần này khái niệm "viên" chỉ các sản phẩm được liên kết bằng phương pháp ép trực tiếp hay bằng cách pha thêm chất kết dính theo tỷ lệ không quá 3% tính theo trọng lượng.', 
-        en: '1. In this Section the term “pellets” means products which have been agglomerated either directly by compression or by the addition of a binder in a proportion not exceeding 3% by weight.' 
-      },
-      { type: 'heading', vi: 'Chương 22: Đồ uống, rượu và giấm', en: 'Chapter 22: Beverages, spirits and vinegar' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1.- Chương này không bao gồm:', en: '1.- This Chapter does not cover:' },
       { type: 'list', vi: '(a) Các sản phẩm của Chương này (trừ các sản phẩm của nhóm 22.09) được chế biến cho mục đích nấu nướng và không phù hợp để làm đồ uống (thường ở nhóm 21.03);', en: '(a) Products of this Chapter (other than those of heading 22.09) prepared for culinary purposes and thereby rendered unsuitable for consumption as beverages (generally heading 21.03);' },
@@ -5155,14 +5004,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 23: PHẾ LIỆU VÀ PHẾ THẢI TỪ NGÀNH CÔNG NGHIỆP THỰC PHẨM; THỨC ĂN GIA SÚC ĐÃ CHẾ BIẾN',
     titleEn: 'CHAPTER 23: RESIDUES AND WASTE FROM THE FOOD INDUSTRIES; PREPARED ANIMAL FODDER',
     content: [
-      { type: 'heading', vi: 'PHẦN IV: THỰC PHẨM CHẾ BIẾN; ĐỒ UỐNG, RƯỢU MẠNH VÀ GIẤM; THUỐC LÁ VÀ NGUYÊN LIỆU THAY THẾ THUỐC LÁ ĐÃ CHẾ BIẾN; CÁC SẢN PHẨM CHỨA HOẶC KHÔNG CHỨA NICOTIN, DÙNG ĐỂ HÚT MÀ KHÔNG CẦN ĐỐT CHÁY; CÁC SẢN PHẨM CHỨA NICOTIN KHÁC DÙNG ĐỂ NẠP NICOTIN VÀO CƠ THỂ CON NGƯỜI', en: 'SECTION IV: PREPARED FOODSTUFFS; BEVERAGES, SPIRITS AND VINEGAR; TOBACCO AND MANUFACTURED TOBACCO SUBSTITUTES; PRODUCTS, WHETHER OR NOT CONTAINING NICOTINE, INTENDED FOR INHALATION WITHOUT COMBUSTION; OTHER NICOTINE CONTAINING PRODUCTS INTENDED FOR THE INTAKE OF NICOTINE INTO THE HUMAN BODY' },
-      { type: 'heading', vi: 'Chú giải.', en: 'Note.' },
-      { 
-        type: 'paragraph', 
-        vi: '1. Trong Phần này khái niệm "viên" chỉ các sản phẩm được liên kết bằng phương pháp ép trực tiếp hay bằng cách pha thêm chất kết dính theo tỷ lệ không quá 3% tính theo trọng lượng.', 
-        en: '1. In this Section the term “pellets” means products which have been agglomerated either directly by compression or by the addition of a binder in a proportion not exceeding 3% by weight.' 
-      },
-      { type: 'heading', vi: 'Chương 23: Phế liệu và phế thải từ ngành công nghiệp thực phẩm; thức ăn gia súc đã chế biến', en: 'Chapter 23: Residues and waste from the food industries; prepared animal fodder' },
       { type: 'heading', vi: 'Chú giải.', en: 'Note.' },
       { 
         type: 'paragraph', 
@@ -5360,14 +5201,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 24: THUỐC LÁ VÀ NGUYÊN LIỆU THAY THẾ THUỐC LÁ ĐÃ CHẾ BIẾN; CÁC SẢN PHẨM CHỨA HOẶC KHÔNG CHỨA NICOTIN, DÙNG ĐỂ HÚT MÀ KHÔNG CẦN ĐỐT CHÁY; CÁC SẢN PHẨM CHỨA NICOTIN KHÁC DÙNG ĐỂ NẠP NICOTIN VÀO CƠ THỂ CON NGƯỜI',
     titleEn: 'CHAPTER 24: TOBACCO AND MANUFACTURED TOBACCO SUBSTITUTES; PRODUCTS, WHETHER OR NOT CONTAINING NICOTINE, INTENDED FOR INHALATION WITHOUT COMBUSTION; OTHER NICOTINE CONTAINING PRODUCTS INTENDED FOR THE INTAKE OF NICOTINE INTO THE HUMAN BODY',
     content: [
-      { type: 'heading', vi: 'PHẦN IV: THỰC PHẨM CHẾ BIẾN; ĐỒ UỐNG, RƯỢU MẠNH VÀ GIẤM; THUỐC LÁ VÀ NGUYÊN LIỆU THAY THẾ THUỐC LÁ ĐÃ CHẾ BIẾN; CÁC SẢN PHẨM CHỨA HOẶC KHÔNG CHỨA NICOTIN, DÙNG ĐỂ HÚT MÀ KHÔNG CẦN ĐỐT CHÁY; CÁC SẢN PHẨM CHỨA NICOTIN KHÁC DÙNG ĐỂ NẠP NICOTIN VÀO CƠ THỂ CON NGƯỜI', en: 'SECTION IV: PREPARED FOODSTUFFS; BEVERAGES, SPIRITS AND VINEGAR; TOBACCO AND MANUFACTURED TOBACCO SUBSTITUTES; PRODUCTS, WHETHER OR NOT CONTAINING NICOTINE, INTENDED FOR INHALATION WITHOUT COMBUSTION; OTHER NICOTINE CONTAINING PRODUCTS INTENDED FOR THE INTAKE OF NICOTINE INTO THE HUMAN BODY' },
-      { type: 'heading', vi: 'Chú giải.', en: 'Note.' },
-      { 
-        type: 'paragraph', 
-        vi: '1. Trong Phần này khái niệm "viên" chỉ các sản phẩm được liên kết bằng phương pháp ép trực tiếp hay bằng cách pha thêm chất kết dính theo tỷ lệ không quá 3% tính theo trọng lượng.', 
-        en: '1. In this Section the term “pellets” means products which have been agglomerated either directly by compression or by the addition of a binder in a proportion not exceeding 3% by weight.' 
-      },
-      { type: 'heading', vi: 'Chương 24: Thuốc lá và nguyên liệu thay thế lá thuốc lá đã chế biến; các sản phẩm, chứa hoặc không chứa nicotin, dùng để hút mà không cần đốt cháy; các sản phẩm chứa nicotin khác dùng để nạp nicotin vào cơ thể con người', en: 'Chapter 24: Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body' },
       { type: 'heading', vi: 'Chú giải.', en: 'Note.' },
       { type: 'paragraph', vi: '1.- Chương này không bao gồm các loại thuốc lá dược phẩm (Chương 30).', en: '1.- This Chapter does not cover medicinal cigarettes (Chapter 30).' },
       { type: 'paragraph', vi: '2.- Bất kì sản phẩm nào có thể phân loại được vào nhóm 24.04 và bất kì nhóm nào khác thuộc Chương này, thì được phân loại vào nhóm 24.04.', en: '2.- Any products classifiable in heading 24.04 and any other heading of the Chapter are to be classified in heading 24.04.' },
@@ -5914,8 +5747,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 26: QUẶNG, XỈ VÀ TRO',
     titleEn: 'CHAPTER 26: ORES, SLAG AND ASH',
     content: [
-      { type: 'heading', vi: 'PHẦN V: KHOÁNG SẢN', en: 'SECTION V: MINERAL PRODUCTS' },
-      { type: 'heading', vi: 'Chương 26: Quặng, xỉ và tro', en: 'Chapter 26: Ores, slag and ash' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1. Chương này không bao gồm:', en: '1.- This Chapter does not cover:' },
       { type: 'list', vi: '(a) Xỉ hay các phế liệu công nghiệp tương tự đã được gia công như đá dăm (nhóm 25.17);', en: '(a) Slag or similar industrial waste prepared as macadam (heading 25.17);' },
@@ -6239,8 +6070,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 27: NHIÊN LIỆU KHOÁNG, DẦU KHOÁNG VÀ CÁC SẢN PHẨM CHƯNG CẤT TỪ CHÚNG; CÁC CHẤT CHỨA BI-TUM; CÁC LOẠI SÁP KHOÁNG CHẤT',
     titleEn: 'CHAPTER 27: MINERAL FUELS, MINERAL OILS AND PRODUCTS OF THEIR DISTILLATION; BITUMINOUS SUBSTANCES; MINERAL WAXES',
     content: [
-      { type: 'heading', vi: 'PHẦN V: KHOÁNG SẢN', en: 'SECTION V: MINERAL PRODUCTS' },
-      { type: 'heading', vi: 'Chương 27: Nhiên liệu khoáng, dầu khoáng và các sản phẩm chưng cất từ chúng; các chất chứa bi-tum; các loại sáp khoáng chất', en: 'Chapter 27: Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1. Chương này không bao gồm:', en: '1.- This Chapter does not cover:' },
       { type: 'list', vi: '(a) Các hợp chất hữu cơ đã được xác định về mặt hoá học riêng biệt, trừ metan và propan tinh khiết đã được phân loại ở nhóm 27.11;', en: '(a) Separate chemically defined organic compounds, other than pure methane and propane which are to be classified in heading 27.11;' },
@@ -6910,17 +6739,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 29: HÓA CHẤT HỮU CƠ',
     titleEn: 'CHAPTER 29: ORGANIC CHEMICALS',
     content: [
-      { type: 'heading', vi: 'PHẦN VI: SẢN PHẨM CỦA NGÀNH CÔNG NGHIỆP HÓA CHẤT HOẶC CÁC NGÀNH CÔNG NGHIỆP LIÊN QUAN', en: 'SECTION VI: PRODUCTS OF THE CHEMICAL OR ALLIED INDUSTRIES' },
-      { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
-      { type: 'paragraph', vi: '1.- (A) Các mặt hàng (trừ quặng phóng xạ) đáp ứng các mô tả trong nhóm 28.44 hoặc 28.45 phái được xếp vào các nhóm đó và không được đưa vào nhóm nào khác của Danh mục.', en: '1.- (A) Goods (other than radioactive ores) answering to a description in heading 28.44 or 28.45 are to be classified in those headings and in no other heading of the Nomenclature.' },
-      { type: 'paragraph', vi: '(B) Theo Chú giải mục (A) trên, các mặt hàng đáp ứng các mô tả trong nhóm 28.43, 28.46 hoặc 28.52 được xếp vào các nhóm đó và không được đưa vào nhóm nào khác của Phần này.', en: '(B) Subject to paragraph (A) above, goods answering to a description in heading 28.43, 28.46 or 28.52 are to be classified in those headings and in no other heading of this Section.' },
-      { type: 'paragraph', vi: '2.- Theo Chú giải 1 ở trên, các mặt hàng xếp vào các nhóm 30.04, 30.05, 30.06, 32.12, 33.03, 33.04, 33.05, 33.06, 33.07, 35.06, 37.07 hoặc 38.08 vì đã được đóng gói theo liều lượng hoặc đóng gói để bán lẻ được xếp vào các nhóm đó và không xếp vào bất cứ nhóm nào khác của Danh mục.', en: '2.- Subject to Note 1 above, goods classifiable in heading 30.04, 30.05, 30.06, 32.12, 33.03, 33.04, 33.05, 33.06, 33.07, 35.06, 37.07 or 38.08 by reason of being put up in measured doses or for retail sale are to be classified in those headings and in no other heading of the Nomenclature.' },
-      { type: 'paragraph', vi: '3.- Các mặt hàng đóng gói thành bộ gồm từ hai hoặc nhiều phần cấu thành riêng biệt, trong đó một vài hoặc tất cả các phần cấu thành của các mặt hàng đó nằm trong Phần này và chúng được trộn với nhau để tạo ra một sản phẩm của Phần VI hoặc VII, phải được xếp vào nhóm phù hợp với sản phẩm đó, với điều kiện là các phần cấu thành phải:', en: '3.- Goods put up in sets consisting of two or more separate constituents, some or all of which fall in this Section and are intended to be mixed together to obtain a product of Section VI or VII, are to be classified in the heading appropriate to that product, provided that the constituents are:' },
-      { type: 'list', vi: '(a) theo cách thức đóng gói của chúng cho thấy rõ ràng là chúng được sử dụng cùng nhau mà không cần phải đóng gói lại;', en: '(a) having regard to the manner in which they are put up, clearly identifiable as being intended to be used together without first being repacked;' },
-      { type: 'list', vi: '(b) được trình bày cùng nhau; và', en: '(b) presented together; and' },
-      { type: 'list', vi: '(c) có thể nhận biết là chúng nhằm bổ sung cho nhau, thông qua bản chất hoặc tỷ lệ tương ứng của chúng trong sản phẩm.', en: '(c) identifiable, whether by their nature or by the relative proportions in which they are present, as being complementary one to another.' },
-      { type: 'paragraph', vi: '4.- Trường hợp sản phẩm đáp ứng mô tả tại một hoặc nhiều nhóm trong Phần VI do được mô tả theo tên hoặc nhóm chức và đáp ứng nhóm 38.27, thì sản phẩm đó được phân loại vào nhóm tương ứng theo tên hoặc nhóm chức và không phân loại vào nhóm 38.27.', en: '4.- Where a product answers to a description in one or more of the headings in Section VI by virtue of being described by name or function and also to heading 38.27, then it is classifiable in a heading that references the product by name or function and not under heading 38.27.' },
-      { type: 'heading', vi: 'Chương 29: Hóa chất hữu cơ', en: 'Chapter 29: Organic chemicals' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1.- Trừ khi có yêu cầu khác, các nhóm thuộc Chương này chỉ bao gồm:', en: '1.- Except where the context otherwise requires, the headings of this Chapter apply only to:' },
       { type: 'list', vi: '(a) Các hợp chất hữu cơ đã được xác định về mặt hoá học riêng biệt, có hoặc không chứa tạp chất;', en: '(a) Separate chemically defined organic compounds, whether or not containing impurities:' },
@@ -7101,17 +6919,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 30: DƯỢC PHẨM',
     titleEn: 'CHAPTER 30: PHARMACEUTICAL PRODUCTS',
     content: [
-      { type: 'heading', vi: 'PHẦN VI: SẢN PHẨM CỦA NGÀNH CÔNG NGHIỆP HÓA CHẤT HOẶC CÁC NGÀNH CÔNG NGHIỆP LIÊN QUAN', en: 'SECTION VI: PRODUCTS OF THE CHEMICAL OR ALLIED INDUSTRIES' },
-      { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
-      { type: 'paragraph', vi: '1.- (A) Các mặt hàng (trừ quặng phóng xạ) đáp ứng các mô tả trong nhóm 28.44 hoặc 28.45 phái được xếp vào các nhóm đó và không được đưa vào nhóm nào khác của Danh mục.', en: '1.- (A) Goods (other than radioactive ores) answering to a description in heading 28.44 or 28.45 are to be classified in those headings and in no other heading of the Nomenclature.' },
-      { type: 'paragraph', vi: '(B) Theo Chú giải mục (A) trên, các mặt hàng đáp ứng các mô tả trong nhóm 28.43, 28.46 hoặc 28.52 được xếp vào các nhóm đó và không được đưa vào nhóm nào khác của Phần này.', en: '(B) Subject to paragraph (A) above, goods answering to a description in heading 28.43, 28.46 or 28.52 are to be classified in those headings and in no other heading of this Section.' },
-      { type: 'paragraph', vi: '2.- Theo Chú giải 1 ở trên, các mặt hàng xếp vào các nhóm 30.04, 30.05, 30.06, 32.12, 33.03, 33.04, 33.05, 33.06, 33.07, 35.06, 37.07 hoặc 38.08 vì đã được đóng gói theo liều lượng hoặc đóng gói để bán lẻ được xếp vào các nhóm đó và không xếp vào bất cứ nhóm nào khác của Danh mục.', en: '2.- Subject to Note 1 above, goods classifiable in heading 30.04, 30.05, 30.06, 32.12, 33.03, 33.04, 33.05, 33.06, 33.07, 35.06, 37.07 or 38.08 by reason of being put up in measured doses or for retail sale are to be classified in those headings and in no other heading of the Nomenclature.' },
-      { type: 'paragraph', vi: '3.- Các mặt hàng đóng gói thành bộ gồm từ hai hoặc nhiều phần cấu thành riêng biệt, trong đó một vài hoặc tất cả các phần cấu thành của các mặt hàng đó nằm trong Phần này và chúng được trộn với nhau để tạo ra một sản phẩm của Phần VI hoặc VII, phải được xếp vào nhóm phù hợp với sản phẩm đó, với điều kiện là các phần cấu thành phải:', en: '3.- Goods put up in sets consisting of two or more separate constituents, some or all of which fall in this Section and are intended to be mixed together to obtain a product of Section VI or VII, are to be classified in the heading appropriate to that product, provided that the constituents are:' },
-      { type: 'list', vi: '(a) theo cách thức đóng gói của chúng cho thấy rõ ràng là chúng được sử dụng cùng nhau mà không cần phải đóng gói lại;', en: '(a) having regard to the manner in which they are put up, clearly identifiable as being intended to be used together without first being repacked;' },
-      { type: 'list', vi: '(b) được trình bày cùng nhau; và', en: '(b) presented together; and' },
-      { type: 'list', vi: '(c) có thể nhận biết là chúng nhằm bổ sung cho nhau, thông qua bản chất hoặc tỷ lệ tương ứng của chúng trong sản phẩm.', en: '(c) identifiable, whether by their nature or by the relative proportions in which they are present, as being complementary one to another.' },
-      { type: 'paragraph', vi: '4.- Trường hợp sản phẩm đáp ứng mô tả tại một hoặc nhiều nhóm trong Phần VI do được mô tả theo tên hoặc nhóm chức và đáp ứng nhóm 38.27, thì sản phẩm đó được phân loại vào nhóm tương ứng theo tên hoặc nhóm chức và không phân loại vào nhóm 38.27.', en: '4.- Where a product answers to a description in one or more of the headings in Section VI by virtue of being described by name or function and also to heading 38.27, then it is classifiable in a heading that references the product by name or function and not under heading 38.27.' },
-      { type: 'heading', vi: 'Chương 30: Dược phẩm', en: 'Chapter 30: Pharmaceutical products' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1. Chương này không bao gồm:', en: '1.- This Chapter does not cover:' },
       { type: 'list', vi: '(a) Các loại thực phẩm hoặc đồ uống (như các chế phẩm ăn kiêng, thực phẩm cho người bệnh tiểu đường hoặc thực phẩm tăng cường, thực phẩm chức năng, nước khoáng tonic và các loại đồ uống khác, trừ các chế phẩm nuôi dưỡng tiêm tĩnh mạch) (Phần IV);', en: '(a) Foods or beverages (such as dietetic, diabetic or fortified foods, food supplements, tonic beverages and mineral waters), other than nutritional preparations for intravenous administration (Section IV);' },
@@ -7335,17 +7142,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 31: PHÂN BÓN',
     titleEn: 'CHAPTER 31: FERTILISERS',
     content: [
-      { type: 'heading', vi: 'PHẦN VI: SẢN PHẨM CỦA NGÀNH CÔNG NGHIỆP HÓA CHẤT HOẶC CÁC NGÀNH CÔNG NGHIỆP LIÊN QUAN', en: 'SECTION VI: PRODUCTS OF THE CHEMICAL OR ALLIED INDUSTRIES' },
-      { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
-      { type: 'paragraph', vi: '1.- (A) Các mặt hàng (trừ quặng phóng xạ) đáp ứng các mô tả trong nhóm 28.44 hoặc 28.45 phái được xếp vào các nhóm đó và không được đưa vào nhóm nào khác của Danh mục.', en: '1.- (A) Goods (other than radioactive ores) answering to a description in heading 28.44 or 28.45 are to be classified in those headings and in no other heading of the Nomenclature.' },
-      { type: 'paragraph', vi: '(B) Theo Chú giải mục (A) trên, các mặt hàng đáp ứng các mô tả trong nhóm 28.43, 28.46 hoặc 28.52 được xếp vào các nhóm đó và không được đưa vào nhóm nào khác của Phần này.', en: '(B) Subject to paragraph (A) above, goods answering to a description in heading 28.43, 28.46 or 28.52 are to be classified in those headings and in no other heading of this Section.' },
-      { type: 'paragraph', vi: '2.- Theo Chú giải 1 ở trên, các mặt hàng xếp vào các nhóm 30.04, 30.05, 30.06, 32.12, 33.03, 33.04, 33.05, 33.06, 33.07, 35.06, 37.07 hoặc 38.08 vì đã được đóng gói theo liều lượng hoặc đóng gói để bán lẻ được xếp vào các nhóm đó và không xếp vào bất cứ nhóm nào khác của Danh mục.', en: '2.- Subject to Note 1 above, goods classifiable in heading 30.04, 30.05, 30.06, 32.12, 33.03, 33.04, 33.05, 33.06, 33.07, 35.06, 37.07 or 38.08 by reason of being put up in measured doses or for retail sale are to be classified in those headings and in no other heading of the Nomenclature.' },
-      { type: 'paragraph', vi: '3.- Các mặt hàng đóng gói thành bộ gồm từ hai hoặc nhiều phần cấu thành riêng biệt, trong đó một vài hoặc tất cả các phần cấu thành của các mặt hàng đó nằm trong Phần này và chúng được trộn với nhau để tạo ra một sản phẩm của Phần VI hoặc VII, phải được xếp vào nhóm phù hợp với sản phẩm đó, với điều kiện là các phần cấu thành phải:', en: '3.- Goods put up in sets consisting of two or more separate constituents, some or all of which fall in this Section and are intended to be mixed together to obtain a product of Section VI or VII, are to be classified in the heading appropriate to that product, provided that the constituents are:' },
-      { type: 'list', vi: '(a) theo cách thức đóng gói của chúng cho thấy rõ ràng là chúng được sử dụng cùng nhau mà không cần phải đóng gói lại;', en: '(a) having regard to the manner in which they are put up, clearly identifiable as being intended to be used together without first being repacked;' },
-      { type: 'list', vi: '(b) được trình bày cùng nhau; và', en: '(b) presented together; and' },
-      { type: 'list', vi: '(c) có thể nhận biết là chúng nhằm bổ sung cho nhau, thông qua bản chất hoặc tỷ lệ tương ứng của chúng trong sản phẩm.', en: '(c) identifiable, whether by their nature or by the relative proportions in which they are present, as being complementary one to another.' },
-      { type: 'paragraph', vi: '4.- Trường hợp sản phẩm đáp ứng mô tả tại một hoặc nhiều nhóm trong Phần VI do được mô tả theo tên hoặc nhóm chức và đáp ứng nhóm 38.27, thì sản phẩm đó được phân loại vào nhóm tương ứng theo tên hoặc nhóm chức và không phân loại vào nhóm 38.27.', en: '4.- Where a product answers to a description in one or more of the headings in Section VI by virtue of being described by name or function and also to heading 38.27, then it is classifiable in a heading that references the product by name or function and not under heading 38.27.' },
-      { type: 'heading', vi: 'Chương 31: Phân bón', en: 'Chapter 31: Fertilisers' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1.- Chương này không bao gồm:', en: '1.- This Chapter does not cover:' },
       { type: 'list', vi: '(a) Máu động vật thuộc nhóm 05.11;', en: '(a) Animal blood of heading 05.11;' },
@@ -7517,7 +7313,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 32: CÁC CHẤT CHIẾT XUẤT LÀM THUỐC NHUỘM HOẶC THUỘC DA; TA NANH VÀ CÁC CHẤT DẪN XUẤT CỦA CHÚNG; THUỐC NHUỘM, THUỐC MÀU VÀ CÁC CHẤT MÀU KHÁC; SƠN VÀ VÉC NI; CHẤT GẮN VÀ CÁC LOẠI MA TÍT KHÁC; CÁC LOẠI MỰC',
     titleEn: 'CHAPTER 32: TANNING OR DYEING EXTRACTS; TANNINS AND THEIR DERIVATIVES; DYES, PIGMENTS AND OTHER COLOURING MATTER; PAINTS AND VARNISHES; PUTTY AND OTHER MASTICS; INKS',
     content: [
-      { type: 'heading', vi: 'PHẦN VI: SẢN PHẨM CỦA NGÀNH CÔNG NGHIỆP HÓA CHẤT HOẶC CÁC NGÀNH CÔNG NGHIỆP LIÊN QUAN', en: 'SECTION VI: PRODUCTS OF THE CHEMICAL OR ALLIED INDUSTRIES' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1.- Chương này không bao gồm:', en: '1.- This Chapter does not cover:' },
       { type: 'list', vi: '(a) Các nguyên tố hoặc hợp chất đã được xác định về mặt hóa học riêng biệt, (trừ những chất hay hợp chất thuộc nhóm 32.03 hoặc 32.04, các sản phẩm vô cơ của loại được sử dụng như chất phát quang (nhóm 32.06), thuỷ tinh thu được từ thạch anh nấu chảy hoặc silica nấu chảy khác ở các dạng đã nêu trong nhóm 32.07, và kể cả thuốc nhuộm và các loại chất màu khác đã đã làm thành dạng nhất định hay đóng gói để bán lẻ thuộc nhóm 32.12);', en: '(a) Separate chemically defined elements or compounds (except those of heading 32.03 or 32.04, inorganic products of a kind used as luminophores (heading 32.06), glass obtained from fused quartz or other fused silica in the forms provided for in heading 32.07, and also dyes and other colouring matter put up in forms or packings for retail sale, of heading 32.12);' },
@@ -7747,7 +7542,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 33: TINH DẦU VÀ CÁC CHẤT TỰA NHỰA; NƯỚC HOA, MỸ PHẨM HOẶC CÁC CHẾ PHẨM DÙNG CHO VỆ SINH',
     titleEn: 'CHAPTER 33: ESSENTIAL OILS AND RESINOIDS; PERFUMERY, COSMETIC OR TOILET PREPARATIONS',
     content: [
-      { type: 'heading', vi: 'PHẦN VI: SẢN PHẨM CỦA NGÀNH CÔNG NGHIỆP HÓA CHẤT HOẶC CÁC NGÀNH CÔNG NGHIỆP LIÊN QUAN', en: 'SECTION VI: PRODUCTS OF THE CHEMICAL OR ALLIED INDUSTRIES' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1.- Chương này không bao gồm:', en: '1.- This Chapter does not cover:' },
       { type: 'list', vi: '(a) Nhựa dầu tự nhiên hoặc chiết xuất thực vật thuộc nhóm 13.01 hoặc 13.02;', en: '(a) Natural oleoresins or vegetable extracts of heading 13.01 or 13.02;' },
@@ -7933,18 +7727,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 34: XÀ PHÒNG, CÁC CHẤT HỮU CƠ HOẠT ĐỘNG BỀ MẶT, CÁC CHẾ PHẨM DÙNG ĐỂ GIẶT, RỬA, CÁC CHẾ PHẨM BÔI TRƠN, CÁC LOẠI SÁP NHÂN TẠO, SÁP ĐÃ ĐƯỢC CHẾ BIẾN, CÁC CHẾ PHẨM DÙNG ĐỂ ĐÁNH BÓNG HOẶC TẨY SẠCH, NẾN VÀ CÁC SẢN PHẨM TƯƠNG TỰ, BỘT NHÃO DÙNG LÀM HÌNH MẪU, “SÁP DÙNG TRONG NHA KHOA” VÀ CÁC CHẾ PHẨM DÙNG TRONG NHA KHOA CÓ THÀNH PHẦN CƠ BẢN LÀ THẠCH CAO',
     titleEn: 'CHAPTER 34: SOAP, ORGANIC SURFACE-ACTIVE AGENTS, WASHING PREPARATIONS, LUBRICATING PREPARATIONS, ARTIFICIAL WAXES, PREPARED WAXES, POLISHING OR SCOURING PREPARATIONS, CANDLES AND SIMILAR ARTICLES, MODELLING PASTES, “DENTAL WAXES” AND DENTAL PREPARATIONS WITH A BASIS OF PLASTER',
     content: [
-      { type: 'heading', vi: 'PHẦN VI: SẢN PHẨM CỦA NGÀNH CÔNG NGHIỆP HÓA CHẤT HOẶC CÁC NGÀNH CÔNG NGHIỆP LIÊN QUAN', en: 'SECTION VI: PRODUCTS OF THE CHEMICAL OR ALLIED INDUSTRIES' },
-      { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
-      { type: 'paragraph', vi: '1.- (A) Các mặt hàng (trừ quặng phóng xạ) đáp ứng các mô tả trong nhóm 28.44 hoặc 28.45 phái được xếp vào các nhóm đó và không được đưa vào nhóm nào khác của Danh mục.', en: '1.- (A) Goods (other than radioactive ores) answering to a description in heading 28.44 or 28.45 are to be classified in those headings and in no other heading of the Nomenclature.' },
-      { type: 'paragraph', vi: '(B) Theo Chú giải mục (A) trên, các mặt hàng đáp ứng các mô tả trong nhóm 28.43, 28.46 hoặc 28.52 được xếp vào các nhóm đó và không được đưa vào nhóm nào khác của Phần này.', en: '(B) Subject to paragraph (A) above, goods answering to a description in heading 28.43, 28.46 or 28.52 are to be classified in those headings and in no other heading of this Section.' },
-      { type: 'paragraph', vi: '2.- Theo Chú giải 1 ở trên, các mặt hàng xếp vào các nhóm 30.04, 30.05, 30.06, 32.12, 33.03, 33.04, 33.05, 33.06, 33.07, 35.06, 37.07 hoặc 38.08 vì đã được đóng gói theo liều lượng hoặc đóng gói để bán lẻ được xếp vào các nhóm đó và không xếp vào bất cứ nhóm nào khác của Danh mục.', en: '2.- Subject to Note 1 above, goods classifiable in heading 30.04, 30.05, 30.06, 32.12, 33.03, 33.04, 33.05, 33.06, 33.07, 35.06, 37.07 or 38.08 by reason of being put up in measured doses or for retail sale are to be classified in those headings and in no other heading of the Nomenclature.' },
-      { type: 'paragraph', vi: '3.- Các mặt hàng đóng gói thành bộ gồm từ hai hoặc nhiều phần cấu thành riêng biệt, trong đó một vài hoặc tất cả các phần cấu thành của các mặt hàng đó nằm trong Phần này và chúng được trộn với nhau để tạo ra một sản phẩm của Phần VI hoặc VII, phải được xếp vào nhóm phù hợp với sản phẩm đó, với điều kiện là các phần cấu thành phải:', en: '3.- Goods put up in sets consisting of two or more separate constituents, some or all of which fall in this Section and are intended to be mixed together to obtain a product of Section VI or VII, are to be classified in the heading appropriate to that product, provided that the constituents are:' },
-      { type: 'list', vi: '(a) theo cách thức đóng gói của chúng cho thấy rõ ràng là chúng được sử dụng cùng nhau mà không cần phải đóng gói lại;', en: '(a) having regard to the manner in which they are put up, clearly identifiable as being intended to be used together without first being repacked;' },
-      { type: 'list', vi: '(b) được trình bày cùng nhau; và', en: '(b) presented together; and' },
-      { type: 'list', vi: '(c) có thể nhận biết là chúng nhằm bổ sung cho nhau, thông qua bản chất hoặc tỷ lệ tương ứng của chúng trong sản phẩm.', en: '(c) identifiable, whether by their nature or by the relative proportions in which they are present, as being complementary one to another.' },
-      { type: 'paragraph', vi: '4.- Trường hợp sản phẩm đáp ứng mô tả tại một hoặc nhiều nhóm trong Phần VI do được mô tả theo tên hoặc nhóm chức và đáp ứng nhóm 38.27, thì sản phẩm đó được phân loại vào nhóm tương ứng theo tên hoặc nhóm chức và không phân loại vào nhóm 38.27.', en: '4.- Where a product answers to a description in one or more of the headings in Section VI by virtue of being described by name or function and also to heading 38.27, then it is classifiable in a heading that references the product by name or function and not under heading 38.27.' },
-      
-      { type: 'heading', vi: 'Chương 34: Xà phòng, các chất hữu cơ hoạt động bề mặt, các chế phẩm dùng để giặt, rửa, các chế phẩm bôi trơn, các loại sáp nhân tạo, sáp đã được chế biến, các chế phẩm dùng để đánh bóng hoặc tẩy sạch, nến và các sản phẩm tương tự, bột nhão dùng làm hình mẫu, “sáp dùng trong nha khoa” và các chế phẩm dùng trong nha khoa có thành phần cơ bản là thạch cao', en: 'Chapter 34: Soap, organic surface-active agents, washing preparations, lubricating preparations, artificial waxes, prepared waxes, polishing or scouring preparations, candles and similar articles, modelling pastes, “dental waxes” and dental preparations with a basis of plaster' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1. Chương này không bao gồm:', en: '1.- This Chapter does not cover:' },
       { type: 'list', vi: '(a) Hỗn hợp hoặc chế phẩm ăn được từ chất béo hoặc dầu của động vật, thực vật hoặc vi sinh vật được dùng như chế phẩm tách khuôn (nhóm 15.17);', en: '(a) Edible mixtures or preparations of animal, vegetable or microbial fats or oils of a kind used as mould release preparations (heading 15.17);' },
@@ -8133,7 +7915,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 35: CÁC CHẤT CHỨA ALBUMIN; CÁC DẠNG TINH BỘT BIẾN TÍNH; KEO HỒ; ENZYM',
     titleEn: 'CHAPTER 35: ALBUMINOIDAL SUBSTANCES; MODIFIED STARCHES; GLUES; ENZYMES',
     content: [
-      { type: 'heading', vi: 'PHẦN VI: SẢN PHẨM CỦA NGÀNH CÔNG NGHIỆP HÓA CHẤT HOẶC CÁC NGÀNH CÔNG NGHIỆP LIÊN QUAN', en: 'SECTION VI: PRODUCTS OF THE CHEMICAL OR ALLIED INDUSTRIES' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1.- Chương này không bao gồm:', en: '1.- This Chapter does not cover:' },
       { type: 'list', vi: '(a) Men (nhóm 21.02);', en: '(a) Yeasts (heading 21.02);' },
@@ -8357,17 +8138,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 36: CHẤT NỔ; CÁC SẢN PHẨM PHÁO; DIÊM; CÁC HỢP KIM TỰ CHÁY; CÁC CHẾ PHẨM DỄ CHÁY KHÁC',
     titleEn: 'CHAPTER 36: EXPLOSIVES; PYROTECHNIC PRODUCTS; MATCHES; PYROPHORIC ALLOYS; CERTAIN COMBUSTIBLE PREPARATIONS',
     content: [
-      { type: 'heading', vi: 'PHẦN VI: SẢN PHẨM CỦA NGÀNH CÔNG NGHIỆP HÓA CHẤT HOẶC CÁC NGÀNH CÔNG NGHIỆP LIÊN QUAN', en: 'SECTION VI: PRODUCTS OF THE CHEMICAL OR ALLIED INDUSTRIES' },
-      { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
-      { type: 'paragraph', vi: '1.- (A) Các mặt hàng (trừ quặng phóng xạ) đáp ứng các mô tả trong nhóm 28.44 hoặc 28.45 phái được xếp vào các nhóm đó và không được đưa vào nhóm nào khác của Danh mục.', en: '1.- (A) Goods (other than radioactive ores) answering to a description in heading 28.44 or 28.45 are to be classified in those headings and in no other heading of the Nomenclature.' },
-      { type: 'paragraph', vi: '(B) Theo Chú giải mục (A) trên, các mặt hàng đáp ứng các mô tả trong nhóm 28.43, 28.46 hoặc 28.52 được xếp vào các nhóm đó và không được đưa vào nhóm nào khác của Phần này.', en: '(B) Subject to paragraph (A) above, goods answering to a description in heading 28.43, 28.46 or 28.52 are to be classified in those headings and in no other heading of this Section.' },
-      { type: 'paragraph', vi: '2.- Theo Chú giải 1 ở trên, các mặt hàng xếp vào các nhóm 30.04, 30.05, 30.06, 32.12, 33.03, 33.04, 33.05, 33.06, 33.07, 35.06, 37.07 hoặc 38.08 vì đã được đóng gói theo liều lượng hoặc đóng gói để bán lẻ được xếp vào các nhóm đó và không xếp vào bất cứ nhóm nào khác của Danh mục.', en: '2.- Subject to Note 1 above, goods classifiable in heading 30.04, 30.05, 30.06, 32.12, 33.03, 33.04, 33.05, 33.06, 33.07, 35.06, 37.07 or 38.08 by reason of being put up in measured doses or for retail sale are to be classified in those headings and in no other heading of the Nomenclature.' },
-      { type: 'paragraph', vi: '3.- Các mặt hàng đóng gói thành bộ gồm từ hai hoặc nhiều phần cấu thành riêng biệt, trong đó một vài hoặc tất cả các phần cấu thành của các mặt hàng đó nằm trong Phần này và chúng được trộn với nhau để tạo ra một sản phẩm của Phần VI hoặc VII, phải được xếp vào nhóm phù hợp với sản phẩm đó, với điều kiện là các phần cấu thành phải:', en: '3.- Goods put up in sets consisting of two or more separate constituents, some or all of which fall in this Section and are intended to be mixed together to obtain a product of Section VI or VII, are to be classified in the heading appropriate to that product, provided that the constituents are:' },
-      { type: 'list', vi: '(a) theo cách thức đóng gói của chúng cho thấy rõ ràng là chúng được sử dụng cùng nhau mà không cần phải đóng gói lại;', en: '(a) having regard to the manner in which they are put up, clearly identifiable as being intended to be used together without first being repacked;' },
-      { type: 'list', vi: '(b) được trình bày cùng nhau; và', en: '(b) presented together; and' },
-      { type: 'list', vi: '(c) có thể nhận biết là chúng nhằm bổ sung cho nhau, thông qua bản chất hoặc tỷ lệ tương ứng của chúng trong sản phẩm.', en: '(c) identifiable, whether by their nature or by the relative proportions in which they are present, as being complementary one to another.' },
-      { type: 'paragraph', vi: '4.- Trường hợp sản phẩm đáp ứng mô tả tại một hoặc nhiều nhóm trong Phần VI do được mô tả theo tên hoặc nhóm chức và đáp ứng nhóm 38.27, thì sản phẩm đó được phân loại vào nhóm tương ứng theo tên hoặc nhóm chức và không phân loại vào nhóm 38.27.', en: '4.- Where a product answers to a description in one or more of the headings in Section VI by virtue of being described by name or function and also to heading 38.27, then it is classifiable in a heading that references the product by name or function and not under heading 38.27.' },
-      { type: 'heading', vi: 'Chương 36: Chất nổ; các sản phẩm pháo; diêm; các hợp kim tự cháy; các chế phẩm dễ cháy khác', en: 'Chapter 36: Explosives; pyrotechnic products; matches; pyrophoric alloys; certain combustible preparations' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1. Chương này không bao gồm các hợp chất đã được xác định về mặt hóa học riêng biệt trừ những loại được mô tả ở Chú giải 2(a) hoặc 2(b) dưới đây.', en: '1.- This Chapter does not cover separate chemically defined compounds other than those described in Note 2 (a) or (b) below.' },
       { type: 'paragraph', vi: '2. Khái niệm “các sản phẩm làm từ vật liệu dễ cháy” thuộc nhóm 36.06 chỉ áp dụng cho:', en: '2.- The expression “articles of combustible materials ” in heading 36.06 applies only to :' },
@@ -8499,7 +8269,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 37: VẬT LIỆU ẢNH HOẶC ĐIỆN ẢNH',
     titleEn: 'CHAPTER 37: PHOTOGRAPHIC OR CINEMATOGRAPHIC GOODS',
     content: [
-      { type: 'heading', vi: 'PHẦN VI: SẢN PHẨM CỦA NGÀNH CÔNG NGHIỆP HÓA CHẤT HOẶC CÁC NGÀNH CÔNG NGHIỆP LIÊN QUAN', en: 'SECTION VI: PRODUCTS OF THE CHEMICAL OR ALLIED INDUSTRIES' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1. - Chương này không bao gồm các phế liệu hoặc phế thải.', en: '1. - This Chapter does not cover waste or scrap.' },
       { type: 'paragraph', vi: '2. - Trong Chương này từ “tạo ảnh” liên quan đến quá trình tạo các ảnh có thể nhìn thấy được, bằng cách chiếu tia sáng hoặc các dạng tia phát xạ khác lên bề mặt nhạy sáng trực tiếp hay gián tiếp.', en: '2. - In this Chapter the word “photographic" relates to the process by which visible images are formed, directly or indirectly, by the action of light or other forms of radiation on photosensitive, including thermosensitive, surfaces.' },
@@ -9131,8 +8900,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 40: CAO SU VÀ CÁC SẢN PHẨM BẰNG CAO SU',
     titleEn: 'CHAPTER 40: RUBBER AND ARTICLES THEREOF',
     content: [
-      { type: 'heading', vi: 'PHẦN VII: PLASTIC VÀ CÁC SẢN PHẨM BẰNG PLASTIC; CAO SU VÀ CÁC SẢN PHẨM BẰNG CAO SU', en: 'SECTION VII: PLASTICS AND ARTICLES THEREOF; RUBBER AND ARTICLES THEREOF' },
-      { type: 'heading', vi: 'Chương 40: Cao su và các sản phẩm bằng cao su', en: 'Chapter 40: Rubber and articles thereof' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1.- Trừ khi có yêu cầu khác, trong toàn bộ Danh mục, khái niệm “cao su” chỉ những sản phẩm dưới đây, đã hoặc chưa lưu hóa hoặc ở dạng cứng: cao su tự nhiên, nhựa cây balata, nhựa két, nhựa cây cúc cao su, nhựa chicle và các loại nhựa tự nhiên tương tự, cao su tổng hợp, các chất thay thế cao su thu được từ các loại dầu, và những chất như vậy được tái sinh.', en: '1. - Except where the context otherwise requires, throughout the Nomenclature the expression “rubber” means the following products, whether or not vulcanised or hard: natural rubber, balata, gutta-percha, guayule, chicle and similar natural gums, synthetic rubber, factice derived from oils, and such substances reclaimed.' },
       { type: 'paragraph', vi: '2.- Chương này không bao gồm:', en: '2. - This Chapter does not cover :' },
@@ -9496,8 +9263,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 42: CÁC SẢN PHẨM BẰNG DA THUỘC; YÊN CƯƠNG VÀ BỘ ĐỒ YÊN CƯƠNG; CÁC MẶT HÀNG DU LỊCH, TÚI XÁCH VÀ CÁC LOẠI ĐỒ CHỨA TƯƠNG TỰ; CÁC SẢN PHẨM LÀM TỪ RUỘT ĐỘNG VẬT (TRỪ RUỘT CON TẰM)',
     titleEn: 'CHAPTER 42: ARTICLES OF LEATHER; SADDLERY AND HARNESS; TRAVEL GOODS, HANDBAGS AND SIMILAR CONTAINERS; ARTICLES OF ANIMAL GUT (OTHER THAN SILK-WORM GUT)',
     content: [
-      { type: 'heading', vi: 'PHẦN VIII: DA SỐNG, DA THUỘC, DA LÔNG VÀ CÁC SẢN PHẨM TỪ DA; YÊN CƯƠNG VÀ BỘ ĐỒ YÊN CƯƠNG; HÀNG DU LỊCH, TÚI XÁCH TAY VÀ CÁC LOẠI ĐỒ CHỨA TƯƠNG TỰ; CÁC MẶT HÀNG TỪ RUỘT ĐỘNG VẬT (TRỪ RUỘT CON TẰM)', en: 'SECTION VIII: RAW HIDES AND SKINS, LEATHER, FURSKINS AND ARTICLES THEREOF; SADDLERY AND HARNESS; TRAVEL GOODS, HANDBAGS AND SIMILAR CONTAINERS; ARTICLES OF ANIMAL GUT (OTHER THAN SILK-WORM GUT)' },
-      { type: 'heading', vi: 'Chương 42: Các sản phẩm bằng da thuộc; yên cương và bộ yên cương; các mặt hàng du lịch, túi xách và các loại đồ chứa tương tự; các sản phẩm làm từ ruột động vật (trừ ruột con tằm)', en: 'Chapter 42: Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1.- Theo mục đích của chương này, thuật ngữ "da thuộc" gồm cả da thuộc dầu (bao gồm cả da thuộc dầu kết hợp), da láng, da láng bằng màng mỏng được tạo trước và da nhũ kim loại.', en: '1.- For the purposes of this Chapter, the term “leather” includes chamois (including combination chamois) leather, patent leather, patent laminated leather and metallised leather.' },
       { type: 'paragraph', vi: '2.- Chương này không bao gồm:', en: '2.- This Chapter does not cover:' },
@@ -9630,8 +9395,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 43: DA LÔNG VÀ DA LÔNG NHÂN TẠO; CÁC SẢN PHẨM LÀM TỪ DA LÔNG VÀ DA LÔNG NHÂN TẠO',
     titleEn: 'CHAPTER 43: FURSKINS AND ARTIFICIAL FUR; MANUFACTURES THEREOF',
     content: [
-      { type: 'heading', vi: 'PHẦN VIII: DA SỐNG, DA THUỘC, DA LÔNG VÀ CÁC SẢN PHẨM TỪ DA; YÊN CƯƠNG VÀ BỘ ĐỒ YÊN CƯƠNG; HÀNG DU LỊCH, TÚI XÁCH TAY VÀ CÁC LOẠI ĐỒ CHỨA TƯƠNG TỰ; CÁC MẶT HÀNG TỪ RUỘT ĐỘNG VẬT (TRỪ RUỘT CON TẰM)', en: 'SECTION VIII: RAW HIDES AND SKINS, LEATHER, FURSKINS AND ARTICLES THEREOF; SADDLERY AND HARNESS; TRAVEL GOODS, HANDBAGS AND SIMILAR CONTAINERS; ARTICLES OF ANIMAL GUT (OTHER THAN SILK-WORM GUT)' },
-      { type: 'heading', vi: 'Chương 43: Da lông và da lông nhân tạo; các sản phẩm làm từ da lông và da lông nhân tạo', en: 'Chapter 43: Furskins and artificial fur; manufactures thereof' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1.- Trong toàn bộ Danh mục những nội dung liên quan đến “da lông”, trừ da lông sống thuộc nhóm 43.01, áp dụng cho da sống còn lông của các loài động vật, đã thuộc hoặc chuội.', en: '1. - Throughout the Nomenclature references to “furskins”, other than to raw furskins of heading 43.01, apply to hides or skins of all animals which have been tanned or dressed with the hair or wool on.' },
       { type: 'paragraph', vi: '2.- Chương này không bao gồm:', en: '2. - This Chapter does not cover :' },
@@ -10176,8 +9939,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 45: LIE VÀ CÁC SẢN PHẨM BẰNG LIE',
     titleEn: 'CHAPTER 45: CORK AND ARTICLES OF CORK',
     content: [
-      { type: 'heading', vi: 'PHẦN IX: GỖ VÀ CÁC MẶT HÀNG BẰNG GỖ; THAN TỪ GỖ; LIE VÀ CÁC SẢN PHẨM BẰNG LIE; CÁC SẢN PHẨM TỪ RƠM, CỎ GIẤY HOẶC CÁC VẬT LIỆU TẾT BỆN KHÁC; CÁC SẢN PHẨM BẰNG LIỄU GAI VÀ SONG MÂY', en: 'SECTION IX: WOOD AND ARTICLES OF WOOD; WOOD CHARCOAL; CORK AND ARTICLES OF CORK; MANUFACTURES OF STRAW, OF ESPARTO OR OF OTHER PLAITING MATERIALS; BASKETWARE AND WICKERWORK' },
-      { type: 'heading', vi: 'Chương 45: Lie và các sản phẩm bằng lie', en: 'Chapter 45: Cork and articles of cork' },
       { type: 'heading', vi: 'Chú giải.', en: 'Note.' },
       { type: 'paragraph', vi: '1.- Chương này không bao gồm:', en: '1.- This Chapter does not cover:' },
       { type: 'list', vi: '(a) Giày dép hoặc các bộ phận của giày dép thuộc Chương 64;', en: '(a) Footwear or parts of footwear of Chapter 64;' },
@@ -10240,8 +10001,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 46: SẢN PHẨM LÀM TỪ RƠM, CỎ GIẤY HOẶC TỪ CÁC LOẠI VẬT LIỆU TẾT BỆN KHÁC; CÁC SẢN PHẨM BẰNG LIỄU GAI VÀ SONG MÂY',
     titleEn: 'CHAPTER 46: MANUFACTURES OF STRAW, OF ESPARTO OR OF OTHER PLAITING MATERIALS; BASKETWARE AND WICKERWORK',
     content: [
-      { type: 'heading', vi: 'PHẦN IX: GỖ VÀ CÁC MẶT HÀNG BẰNG GỖ; THAN TỪ GỖ; LIE VÀ CÁC SẢN PHẨM BẰNG LIE; CÁC SẢN PHẨM TỪ RƠM, CỎ GIẤY HOẶC CÁC VẬT LIỆU TẾT BỆN KHÁC; CÁC SẢN PHẨM BẰNG LIỄU GAI VÀ SONG MÂY', en: 'SECTION IX: WOOD AND ARTICLES OF WOOD; WOOD CHARCOAL; CORK AND ARTICLES OF CORK; MANUFACTURES OF STRAW, OF ESPARTO OR OF OTHER PLAITING MATERIALS; BASKETWARE AND WICKERWORK' },
-      { type: 'heading', vi: 'Chương 46: Sản phẩm làm từ rơm, cỏ giấy hoặc từ các loại vật liệu tết bện khác; các sản phẩm bằng liễu gai và song mây', en: 'Chapter 46: Manufactures of straw, of esparto or of other plaiting materials; basketware and wickerwork' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { 
         type: 'paragraph', 
@@ -10450,8 +10209,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 48: GIẤY VÀ BÌA; CÁC SẢN PHẨM LÀM BẰNG BỘT GIẤY, BẰNG GIẤY HOẶC BẰNG BÌA',
     titleEn: 'CHAPTER 48: PAPER AND PAPERBOARD; ARTICLES OF PAPER PULP, OF PAPER OR OF PAPERBOARD',
     content: [
-      { type: 'heading', vi: 'PHẦN X: BỘT GIẤY TỪ GỖ HOẶC TỪ NGUYÊN LIỆU XƠ SỢI XENLULO KHÁC; GIẤY LOẠI HOẶC BÌA LOẠI THU HỒI (PHẾ LIỆU VÀ VỤN THỪA); GIẤY VÀ BÌA VÀ CÁC SẢN PHẨM CỦA CHÚNG', en: 'SECTION X: PULP OF WOOD OR OF OTHER FIBROUS CELLULOSIC MATERIAL; RECOVERED (WASTE AND SCRAP) PAPER OR PAPERBOARD; PAPER AND PAPERBOARD AND ARTICLES THEREOF' },
-      { type: 'heading', vi: 'Chương 48: Giấy và bìa; các sản phẩm làm bằng bột giấy, bằng giấy hoặc bằng bìa', en: 'Chapter 48: Paper and paperboard; articles of paper pulp, of paper or of paperboard' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1.- Theo mục đích của Chương này, trừ khi có yêu cầu khác, khi đề cập đến “giấy” đều kể đến bìa (bất kể độ dày hoặc định lượng tính trên m2).', en: '1.- For the purposes of this Chapter, except where the context otherwise requires, a reference to “paper” includes references to paperboard (irrespective of thickness or weight per m2).' },
       { type: 'paragraph', vi: '2.- Chương này không bao gồm:', en: '2.- This Chapter does not cover:' },
@@ -10663,8 +10420,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 49: SÁCH, BÁO, TRANH ẢNH VÀ CÁC SẢN PHẨM KHÁC CỦA CÔNG NGHIỆP IN; CÁC LOẠI BẢN THẢO VIẾT BẰNG TAY, ĐÁNH MÁY VÀ SƠ ĐỒ',
     titleEn: 'CHAPTER 49: PRINTED BOOKS, NEWSPAPERS, PICTURES AND OTHER PRODUCTS OF THE PRINTING INDUSTRY; MANUSCRIPTS, TYPESCRIPTS AND PLANS',
     content: [
-      { type: 'heading', vi: 'PHẦN X: BỘT GIẤY TỪ GỖ HOẶC TỪ NGUYÊN LIỆU XƠ SỢI XENLULO KHÁC; GIẤY LOẠI HOẶC BÌA LOẠI THU HỒI (PHẾ LIỆU VÀ VỤN THỪA); GIẤY VÀ BÌA VÀ CÁC SẢN PHẨM CỦA CHÚNG', en: 'SECTION X: PULP OF WOOD OR OF OTHER FIBROUS CELLULOSIC MATERIAL; RECOVERED (WASTE AND SCRAP) PAPER OR PAPERBOARD; PAPER AND PAPERBOARD AND ARTICLES THEREOF' },
-      { type: 'heading', vi: 'Chương 49: Sách, báo, tranh ảnh và các sản phẩm khác của công nghiệp in; các loại bản thảo viết bằng tay, đánh máy và sơ đồ', en: 'Chapter 49: Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1.- Chương này không bao gồm:', en: '1.- This Chapter does not cover:' },
       { type: 'list', vi: '(a) Phim tạo ảnh âm bản hoặc dương bản (Chương 37);', en: '(a) Photographic negatives or positives on transparent bases (Chapter 37);' },
@@ -11111,8 +10866,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 52: BÔNG',
     titleEn: 'CHAPTER 52: COTTON',
     content: [
-      { type: 'heading', vi: 'PHẦN XI: NGUYÊN LIỆU DỆT VÀ CÁC SẢN PHẨM DỆT', en: 'SECTION XI: TEXTILES AND TEXTILE ARTICLES' },
-      { type: 'heading', vi: 'Chương 52: Bông', en: 'Chapter 52: Cotton' },
       { type: 'heading', vi: 'Chú giải phân nhóm.', en: 'Subheading Note.' },
       { type: 'paragraph', vi: '1. Theo mục đích của các phân nhóm 5209.42 và 5211.42, khái niệm “denim” là vải dệt từ các sợi có các màu khác nhau, kiểu dệt là vân chéo 3 sợi hoặc vân chéo 4 sợi, kể cả vân chéo gãy, mặt phải của vải có hiệu ứng dọc, các sợi dọc được nhuộm cùng một màu và sợi ngang là sợi không tẩy trắng, đã tẩy trắng, nhuộm màu xám hoặc nhuộm màu nhạt hơn so với màu sợi dọc.', en: '1. For the purposes of subheadings 5209.42 and 5211.42, the expression “denim” means fabrics of yarns of different colours, of 3-thread or 4-thread twill, including broken twill, warp faced, the warp yarns of which are of one and the same colour and the weft yarns of which are unbleached, bleached, dyed grey or coloured a lighter shade of the colour of the warp yarns.' },
       
@@ -11314,8 +11067,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 53: XƠ DỆT GỐC THỰC VẬT KHÁC; SỢI GIẤY VÀ VẢI DỆT THOI TỪ SỢI GIẤY',
     titleEn: 'CHAPTER 53: OTHER VEGETABLE TEXTILE FIBRES; PAPER YARN AND WOVEN FABRICS OF PAPER YARN',
     content: [
-      { type: 'heading', vi: 'PHẦN XI: NGUYÊN LIỆU DỆT VÀ CÁC SẢN PHẨM DỆT', en: 'SECTION XI: TEXTILES AND TEXTILE ARTICLES' },
-      { type: 'heading', vi: 'Chương 53: Xơ dệt gốc thực vật khác; sợi giấy và vải dệt thoi từ sợi giấy', en: 'Chapter 53: Other vegetable textile fibres; paper yarn and woven fabrics of paper yarn' },
       { type: 'heading', vi: 'TỔNG QUÁT', en: 'GENERAL' },
       { type: 'paragraph', vi: 'Khi đọc các Chú giải chi tiết của Chương này cần phải kết hợp xem xét với Chú giải tổng quát của Phần XI.', en: 'The General Explanatory Note to Section XI should be taken into account in reading the Explanatory Notes to this Chapter.' },
       { type: 'paragraph', vi: 'Nhìn chung, và một số ngoại lệ đã được đề cập tại Chú giải chi tiết của nhóm 53.05, Chương này đề cập các nguyên liệu dệt gốc thực vật (trừ nguyên liệu bông) ở các cấp độ chế biến khác nhau, từ nguyên liệu thô cho đến khi tạo thành vải dệt thoi.', en: 'In general, and with certain exceptions referred to in the Explanatory Note to heading 53.05, this Chapter deals with vegetable textile materials (other than cotton) at the various stages from the raw materials to their transformation into woven fabrics.' },
@@ -11390,8 +11141,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 54: SỢI FILAMENT NHÂN TẠO; DẢI VÀ CÁC DẠNG TƯƠNG TỰ TỪ NGUYÊN LIỆU DỆT NHÂN TẠO',
     titleEn: 'CHAPTER 54: MAN-MADE FILAMENTS; STRIP AND THE LIKE OF MAN-MADE TEXTILE MATERIALS',
     content: [
-      { type: 'heading', vi: 'PHẦN XI: NGUYÊN LIỆU DỆT VÀ CÁC SẢN PHẨM DỆT', en: 'SECTION XI: TEXTILES AND TEXTILE ARTICLES' },
-      { type: 'heading', vi: 'Chương 54: Sợi filament nhân tạo; dải và các dạng tương tự từ nguyên liệu dệt nhân tạo', en: 'Chapter 54: Man-made filaments; strip and the like of man-made textile materials' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1. Trong toàn bộ Danh mục, thuật ngữ “sợi nhân tạo” có nghĩa là những loại sợi staple và sợi filament bằng polyme hữu cơ được sản xuất từ một trong hai quá trình sản xuất sau:', en: '1.- Throughout the Nomenclature, the term “man-made fibres” means staple fibres and filaments of organic polymers produced by manufacturing processes, either:' },
       { type: 'list', vi: '(a) Bằng quá trình polyme hoá các monome hữu cơ để sản xuất polyme như polyamit, polyeste, polyolefin hoặc polyurethan, hoặc quá trình biến đổi hoá học để sản xuất polyme (ví dụ, poly (vinyl alcohol) được điều chế bởi quá trình thủy phân poly (axetat vinyl)); hoặc', en: '(a) By polymerisation of organic monomers to produce polymers such as polyamides, polyesters, polyolefins or polyurethanes, or by chemical modification of polymers produced by this process (for example, poly(vinyl alcohol) prepared by the hydrolysis of poly(vinyl acetate)); or' },
@@ -11525,8 +11274,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 55: XƠ SỢI STAPLE NHÂN TẠO',
     titleEn: 'CHAPTER 55: MAN-MADE STAPLE FIBRES',
     content: [
-      { type: 'heading', vi: 'PHẦN XI: NGUYÊN LIỆU DỆT VÀ CÁC SẢN PHẨM DỆT', en: 'SECTION XI: TEXTILES AND TEXTILE ARTICLES' },
-      { type: 'heading', vi: 'Chương 55: Xơ sợi staple nhân tạo', en: 'Chapter 55: Man-made staple fibres' },
       { type: 'heading', vi: 'Chú giải.', en: 'Note.' },
       { type: 'paragraph', vi: '1. - Các nhóm 55.01 và 55.02 chỉ áp dụng với tô filament nhân tạo, bao gồm các filament song song có cùng chiều dài tương đương chiều dài của tô (tow), thoả mãn các chỉ tiêu kỹ thuật dưới đây:', en: '1.- Headings 55.01 and 55.02 apply only to man-made filament tow, consisting of parallel filaments of a uniform length equal to the length of the tow, meeting the following specifications:' },
       { type: 'list', vi: '(a) Chiều dài của tô (tow) trên 2 m;', en: '(a) Length of tow exceeding 2 m;' },
@@ -11736,8 +11483,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 56: MỀN XƠ, PHỚT VÀ CÁC SẢN PHẨM KHÔNG DỆT; CÁC LOẠI SỢI ĐẶC BIỆT; SỢI XE, CHÃO BỆN (CORDAGE), THỪNG VÀ CÁP VÀ CÁC SẢN PHẨM CỦA CHÚNG',
     titleEn: 'CHAPTER 56: WADDING, FELT AND NONWOVENS; SPECIAL YARNS; TWINE, CORDAGE, ROPES AND CABLES AND ARTICLES THEREOF',
     content: [
-      { type: 'heading', vi: 'PHẦN XI: NGUYÊN LIỆU DỆT VÀ CÁC SẢN PHẨM DỆT', en: 'SECTION XI: TEXTILES AND TEXTILE ARTICLES' },
-      { type: 'heading', vi: 'Chương 56: Mền xơ, phớt và các sản phẩm không dệt; các loại sợi đặc biệt; sợi xe, chão bện (cordage), thừng và cáp và các sản phẩm của chúng', en: 'Chapter 56: Wadding, felt and nonwovens; special yarns; twine, cordage, ropes and cables and articles thereof' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1.- Chương này không bao gồm:', en: '1.- This Chapter does not cover:' },
       { type: 'list', vi: '(a) Mền xơ, phớt hoặc các sản phẩm không dệt, đã ngâm tẩm, tráng hoặc phủ bằng các chất hoặc các chế phẩm (ví dụ, nước hoa hoặc mỹ phẩm thuộc Chương 33, xà phòng hoặc các chất tẩy thuộc nhóm 34.01, các chất đánh bóng, kem hoặc các chế phẩm tương tự thuộc nhóm 34.05, các chất làm mềm vải thuộc nhóm 38.09) ở đó vật liệu dệt chỉ được xem như là vật mang;', en: '(a) Wadding, felt or nonwovens, impregnated, coated or covered with substances or preparations (for example, perfumes or cosmetics of Chapter 33, soaps or detergents of heading 34.01, polishes, creams or similar preparations of heading 34.05, fabric softeners of heading 38.09) where the textile material is present merely as a carrying medium;' },
@@ -11840,8 +11585,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 57: THẢM VÀ CÁC LOẠI HÀNG DỆT TRẢI SÀN KHÁC',
     titleEn: 'CHAPTER 57: CARPETS AND OTHER TEXTILE FLOOR COVERINGS',
     content: [
-      { type: 'heading', vi: 'PHẦN XI: NGUYÊN LIỆU DỆT VÀ CÁC SẢN PHẨM DỆT', en: 'SECTION XI: TEXTILES AND TEXTILE ARTICLES' },
-      { type: 'heading', vi: 'Chương 57: Thảm và các loại hàng dệt trải sàn khác', en: 'Chapter 57: Carpets and other textile floor coverings' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1.- Theo mục đích của Chương này, thuật ngữ “thảm và các loại hàng dệt trải sàn khác” có nghĩa là các loại trải sàn trong đó vật liệu dệt được dùng làm bề mặt ngoài của sản phẩm khi sử dụng và gồm cả các sản phẩm có các đặc tính của hàng dệt trải sàn nhưng được dự định dùng cho các mục đích khác.', en: '1.- For the purposes of this Chapter, the term “carpets and other textile floor coverings” means floor coverings in which textile materials serve as the exposed surface of the article when in use and includes articles having the characteristics of textile floor coverings but intended for use for other purposes.' },
       { type: 'paragraph', vi: '2.- Chương này không bao gồm các loại lớp lót của hàng dệt trải sàn.', en: '2.- This Chapter does not cover floor covering underlays.' },
@@ -11923,8 +11666,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 58: CÁC LOẠI VẢI DỆT THOI ĐẶC BIỆT; CÁC LOẠI VẢI DỆT KIM; HÀNG REN; THẢM TRANG TRÍ; HÀNG TRANG TRÍ; HÀNG THÊU',
     titleEn: 'CHAPTER 58: SPECIAL WOVEN FABRICS; TUFTED TEXTILE FABRICS; LACE; TAPESTRIES; TRIMMINGS; EMBROIDERY',
     content: [
-      { type: 'heading', vi: 'PHẦN XI: NGUYÊN LIỆU DỆT VÀ CÁC SẢN PHẨM DỆT', en: 'SECTION XI: TEXTILES AND TEXTILE ARTICLES' },
-      { type: 'heading', vi: 'Chương 58: Các loại vải dệt thoi đặc biệt; các loại vải dệt kim; hàng ren; thảm trang trí; hàng trang trí; hàng thêu', en: 'Chapter 58: Special woven fabrics; tufted textile fabrics; lace; tapestries; trimmings; embroidery' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1. Chương này không áp dụng cho:', en: '1. This Chapter does not apply to:' },
       { type: 'list', vi: '(a) Các loại vải dệt thoi đã nêu ở Chú giải 1 của Chương 59, đã ngâm tẩm, tráng, phủ hoặc ép lớp, hoặc các loại hàng hóa khác thuộc Chương 59;', en: '(a) Woven fabrics of a kind covered by Note 1 to Chapter 59, impregnated, coated, covered or laminated, or other goods of Chapter 59;' },
@@ -12029,8 +11770,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 59: CÁC LOẠI VẢI DỆT ĐÃ ĐƯỢC NGÂM TẨM, TRÁNG, PHỦ HOẶC ÉP LỚP; CÁC MẶT HÀNG DỆT THÍCH HỢP DÙNG TRONG CÔNG NGHIỆP',
     titleEn: 'CHAPTER 59: IMPREGNATED, COATED, COVERED OR LAMINATED TEXTILE FABRICS; TEXTILE ARTICLES OF A KIND SUITABLE FOR INDUSTRIAL USE',
     content: [
-      { type: 'heading', vi: 'PHẦN XI: NGUYÊN LIỆU DỆT VÀ CÁC SẢN PHẨM DỆT', en: 'SECTION XI: TEXTILES AND TEXTILE ARTICLES' },
-      { type: 'heading', vi: 'Chương 59: Các loại vải dệt đã được ngâm tẩm, tráng, phủ hoặc ép lớp; các mặt hàng dệt thích hợp dùng trong công nghiệp', en: 'Chapter 59: Impregnated, coated, covered or laminated textile fabrics; textile articles of a kind suitable for industrial use' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1. Trừ khi có yêu cầu khác, theo mục đích của Chương này khái niệm "vải dệt" chỉ áp dụng đối với vải dệt thoi thuộc các Chương từ 50 đến 55 và các nhóm 58.03 và 58.06, dải bện và dải, mảnh trang trí dạng chiếc thuộc nhóm 58.08 và vải dệt kim hoặc móc thuộc nhóm 60.02 đến 60.06.', en: '1.- Except where the context otherwise requires, for the purposes of this Chapter the expression “textile fabrics” applies only to the woven fabrics of Chapters 50 to 55 and headings 58.03 and 58.06, the braids and ornamental trimmings in the piece of heading 58.08 and the knitted or crocheted fabrics of headings 60.02 to 60.06.' },
       { type: 'paragraph', vi: '2. Nhóm 59.03 áp dụng đối với:', en: '2.- Heading 59.03 applies to:' },
@@ -12136,8 +11875,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 60: CÁC LOẠI HÀNG DỆT KIM HOẶC MÓC',
     titleEn: 'CHAPTER 60: KNITTED OR CROCHETED FABRICS',
     content: [
-      { type: 'heading', vi: 'PHẦN XI: NGUYÊN LIỆU DỆT VÀ CÁC SẢN PHẨM DỆT', en: 'SECTION XI: TEXTILES AND TEXTILE ARTICLES' },
-      { type: 'heading', vi: 'Chương 60: Các loại hàng dệt kim hoặc móc', en: 'Chapter 60: Knitted or crocheted fabrics' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1. Chương này không bao gồm:', en: '1. This Chapter does not cover:' },
       { type: 'list', vi: '(a) Hàng ren, móc thuộc nhóm 58.04;', en: '(a) Crochet lace of heading 58.04;' },
@@ -12227,8 +11964,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 61: QUẦN ÁO VÀ HÀNG MAY MẶC PHỤ TRỢ, DỆT KIM HOẶC MÓC',
     titleEn: 'CHAPTER 61: ARTICLES OF APPAREL AND CLOTHING ACCESSORIES, KNITTED OR CROCHETED',
     content: [
-      { type: 'heading', vi: 'PHẦN XI: NGUYÊN LIỆU DỆT VÀ CÁC SẢN PHẨM DỆT', en: 'SECTION XI: TEXTILES AND TEXTILE ARTICLES' },
-      { type: 'heading', vi: 'Chương 61: Quần áo và hàng may mặc phụ trợ, dệt kim hoặc móc', en: 'Chapter 61: Articles of apparel and clothing accessories, knitted or crocheted' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1. Chương này chỉ áp dụng với mặt hàng may mặc sẵn được dệt kim hoặc móc.', en: '1. This Chapter applies only to made up knitted or crocheted articles.' },
       { type: 'paragraph', vi: '2. Chương này không bao gồm:', en: '2. This Chapter does not cover:' },
@@ -12439,8 +12174,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 62: QUẦN ÁO VÀ HÀNG MAY MẶC PHỤ TRỢ, KHÔNG DỆT KIM HOẶC MÓC',
     titleEn: 'CHAPTER 62: ARTICLES OF APPAREL AND CLOTHING ACCESSORIES, NOT KNITTED OR CROCHETED',
     content: [
-      { type: 'heading', vi: 'PHẦN XI: NGUYÊN LIỆU DỆT VÀ CÁC SẢN PHẨM DỆT', en: 'SECTION XI: TEXTILES AND TEXTILE ARTICLES' },
-      { type: 'heading', vi: 'Chương 62: Quần áo và hàng may mặc phụ trợ, không dệt kim hoặc móc', en: 'Chapter 62: Articles of apparel and clothing accessories, not knitted or crocheted' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1. Chương này chỉ áp dụng đối với những mặt hàng may sẵn bằng vải dệt bất kỳ trừ mền xơ, không bao gồm các sản phẩm dệt kim hoặc móc (trừ các mặt hàng thuộc nhóm 62.12).', en: '1. This Chapter applies only to made up articles of any textile fabric other than wadding, excluding knitted or crocheted articles (other than those of heading 62.12).' },
       { type: 'paragraph', vi: '2. Chương này không bao gồm:', en: '2. This Chapter does not cover:' },
@@ -12645,8 +12378,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 63: CÁC MẶT HÀNG DỆT ĐÃ HOÀN THIỆN KHÁC; BỘ VẢI; QUẦN ÁO DỆT CŨ VÀ CÁC LOẠI HÀNG DỆT CŨ KHÁC; VẢI VỤN',
     titleEn: 'CHAPTER 63: OTHER MADE UP TEXTILE ARTICLES; SETS; WORN CLOTHING AND WORN TEXTILE ARTICLES; RAGS',
     content: [
-      { type: 'heading', vi: 'PHẦN XI: NGUYÊN LIỆU DỆT VÀ CÁC SẢN PHẨM DỆT', en: 'SECTION XI: TEXTILES AND TEXTILE ARTICLES' },
-      { type: 'heading', vi: 'Chương 63: Các mặt hàng dệt đã hoàn thiện khác; bộ vải; quần áo dệt cũ và các loại hàng dệt cũ khác; vải vụn', en: 'Chapter 63: Other made up textile articles; sets; worn clothing and worn textile articles; rags' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1.- Phân Chương I chỉ áp dụng đối với các mặt hàng đã hoàn thiện, làm bằng bất kỳ loại vải dệt nào.', en: '1.- Sub-Chapter I applies only to made up articles, of any textile fabric.' },
       { type: 'paragraph', vi: '2.- Phân Chương I không bao gồm:', en: '2.- Sub-Chapter I does not cover:' },
@@ -12885,8 +12616,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 65: MŨ VÀ CÁC VẬT ĐỘI ĐẦU KHÁC VÀ CÁC BỘ PHẬN CỦA CHÚNG',
     titleEn: 'CHAPTER 65: HEADGEAR AND PARTS THEREOF',
     content: [
-      { type: 'heading', vi: 'PHẦN XII: GIÀY, DÉP, MŨ VÀ CÁC VẬT ĐỘI ĐẦU KHÁC, Ô, DÙ, BA TOONG, GẬY TAY CẦM CÓ THỂ CHUYỂN THÀNH GHẾ, ROI, GẬY ĐIỀU KHIỂN, ROI ĐIỀU KHIỂN SÚC VẬT THÔ KÉO VÀ CÁC BỘ PHẬN CỦA CÁC LOẠI HÀNG TRÊN; LÔNG VŨ CHẾ BIẾN VÀ CÁC SẢN PHẨM LÀM TỪ LÔNG VŨ CHẾ BIẾN; HOA NHÂN TẠO; CÁC SẢN PHẨM LÀM TỪ TÓC NGƯỜI', en: 'SECTION XII: FOOTWEAR, HEADGEAR, UMBRELLAS, SUN UMBRELLAS, WALKING-STICKS, SEAT-STICKS, WHIPS, RIDING-CROPS AND PARTS THEREOF; PREPARED FEATHERS AND ARTICLES MADE THEREWITH; ARTIFICIAL FLOWERS; ARTICLES OF HUMAN HAIR' },
-      { type: 'heading', vi: 'Chương 65: Mũ và các vật đội đầu khác và các bộ phận của chúng', en: 'Chapter 65: Headgear and parts thereof' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1.- Chương này không bao gồm:', en: '1.- This Chapter does not cover:' },
       { type: 'list', vi: '(a) Mũ và các vật đội đầu khác đã qua sử dụng thuộc nhóm 63.09;', en: '(a) Worn headgear of heading 63.09;' },
@@ -12975,8 +12704,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 66: Ô, DÙ CHE, BA TOONG, GẬY TAY CẦM CÓ THỂ CHUYỂN THÀNH GHẾ, ROI, GẬY ĐIỀU KHIỂN, ROI ĐIỀU KHIỂN SÚC VẬT THỒ KÉO VÀ CÁC BỘ PHẬN CỦA CÁC SẢN PHẨM TRÊN',
     titleEn: 'CHAPTER 66: UMBRELLAS, SUN UMBRELLAS, WALKING-STICKS, SEAT-STICKS, WHIPS, RIDING-CROPS AND PARTS THEREOF',
     content: [
-      { type: 'heading', vi: 'PHẦN XII: GIÀY, DÉP, MŨ VÀ CÁC VẬT ĐỘI ĐẦU KHÁC, Ô, DÙ, BA TOONG, GẬY TAY CẦM CÓ THỂ CHUYỂN THÀNH GHẾ, ROI, GẬY ĐIỀU KHIỂN, ROI ĐIỀU KHIỂN SÚC VẬT THÔ KÉO VÀ CÁC BỘ PHẬN CỦA CÁC LOẠI HÀNG TRÊN; LÔNG VŨ CHẾ BIẾN VÀ CÁC SẢN PHẨM LÀM TỪ LÔNG VŨ CHẾ BIẾN; HOA NHÂN TẠO; CÁC SẢN PHẨM LÀM TỪ TÓC NGƯỜI', en: 'SECTION XII: FOOTWEAR, HEADGEAR, UMBRELLAS, SUN UMBRELLAS, WALKING-STICKS, SEAT-STICKS, WHIPS, RIDING-CROPS AND PARTS THEREOF; PREPARED FEATHERS AND ARTICLES MADE THEREWITH; ARTIFICIAL FLOWERS; ARTICLES OF HUMAN HAIR' },
-      { type: 'heading', vi: 'Chương 66: Ô, dù che, ba toong, gậy tay cầm có thể chuyển thành ghế, roi, gậy điều khiển, roi điều khiển súc vật thồ kéo và các bộ phận của các sản phẩm trên', en: 'Chapter 66: Umbrellas, sun umbrellas, walking-sticks, seat-sticks, whips, riding-crops, and parts thereof' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1.- Chương này không bao gồm:', en: '1. - This Chapter does not cover:' },
       { type: 'list', vi: '(a) Gậy chống dùng để đo hoặc loại tương tự (nhóm 90.17);', en: '(a) Measure walking-sticks or the like (heading 90.17);' },
@@ -13040,8 +12767,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 67: LÔNG VŨ VÀ LÔNG TƠ CHẾ BIẾN, CÁC SẢN PHẨM BẰNG LÔNG VŨ HOẶC LÔNG TƠ; HOA NHÂN TẠO; CÁC SẢN PHẨM LÀM TỪ TÓC NGƯỜI',
     titleEn: 'CHAPTER 67: PREPARED FEATHERS AND DOWN AND ARTICLES MADE OF FEATHERS OR OF DOWN; ARTIFICIAL FLOWERS; ARTICLES OF HUMAN HAIR',
     content: [
-      { type: 'heading', vi: 'PHẦN XII: GIÀY, DÉP, MŨ VÀ CÁC VẬT ĐỘI ĐẦU KHÁC, Ô, DÙ, BA TOONG, GẬY TAY CẦM CÓ THỂ CHUYỂN THÀNH GHẾ, ROI, GẬY ĐIỀU KHIỂN, ROI ĐIỀU KHIỂN SÚC VẬT THÔ KÉO VÀ CÁC BỘ PHẬN CỦA CÁC LOẠI HÀNG TRÊN; LÔNG VŨ CHẾ BIẾN VÀ CÁC SẢN PHẨM LÀM TỪ LÔNG VŨ CHẾ BIẾN; HOA NHÂN TẠO; CÁC SẢN PHẨM LÀM TỪ TÓC NGƯỜI', en: 'SECTION XII: FOOTWEAR, HEADGEAR, UMBRELLAS, SUN UMBRELLAS, WALKING-STICKS, SEAT-STICKS, WHIPS, RIDING-CROPS AND PARTS THEREOF; PREPARED FEATHERS AND ARTICLES MADE THEREWITH; ARTIFICIAL FLOWERS; ARTICLES OF HUMAN HAIR' },
-      { type: 'heading', vi: 'Chương 67: Lông vũ và lông tơ chế biến, các sản phẩm bằng lông vũ hoặc lông tơ; hoa nhân tạo; các sản phẩm làm từ tóc người', en: 'Chapter 67: Prepared feathers and down and articles made of feathers or of down; artificial flowers; articles of human hair' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1.- Chương này không bao gồm:', en: '1.- This Chapter does not cover:' },
       { type: 'list', vi: '(a) Vải lọc (filtering hoặc straining) loại làm bằng tóc người (nhóm 59.11);', en: '(a) Filtering or straining cloth of human hair (heading 59.11);' },
@@ -13261,8 +12986,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 69: ĐỒ GỐM, SỨ',
     titleEn: 'CHAPTER 69: CERAMIC PRODUCTS',
     content: [
-      { type: 'heading', vi: 'PHẦN XIII: SẢN PHẨM BẰNG ĐÁ, THẠCH CAO, XI MĂNG, AMIĂNG, MICA HOẶC CÁC VẬT LIỆU TƯƠNG TỰ; ĐỒ GỐM; SỨ (CERAMIC); THỦY TINH VÀ CÁC SẢN PHẨM BẰNG THỦY TINH', en: 'SECTION XIII: ARTICLES OF STONE, PLASTER, CEMENT, ASBESTOS, MICA OR SIMILAR MATERIALS; CERAMIC PRODUCTS; GLASS AND GLASSWARE' },
-      { type: 'heading', vi: 'Chương 69: Đồ gốm, sứ', en: 'Chapter 69: Ceramic products' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1.- Chương này chỉ áp dụng đối với những sản phẩm gốm, sứ đã được nung sau khi tạo hình:', en: '1.- This Chapter applies only to ceramic products which have been fired after shaping:' },
       { type: 'list', vi: '(a) Các nhóm từ 69.04 đến 69.14 chỉ áp dụng đối với những sản phẩm như vậy trừ những sản phẩm được phân loại trong các nhóm từ 69.01 đến 69.03;', en: '(a) Headings 69.04 to 69.14 apply only to such products other than those classifiable in headings 69.01 to 69.03.' },
@@ -13380,8 +13103,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 70: THỦY TINH VÀ CÁC SẢN PHẨM BẰNG THỦY TINH',
     titleEn: 'CHAPTER 70: GLASS AND GLASSWARE',
     content: [
-      { type: 'heading', vi: 'PHẦN XIII: SẢN PHẨM BẰNG ĐÁ, THẠCH CAO, XI MĂNG, AMIĂNG, MICA HOẶC CÁC VẬT LIỆU TƯƠNG TỰ; ĐỒ GỐM; SỨ (CERAMIC); THỦY TINH VÀ CÁC SẢN PHẨM BẰNG THỦY TINH', en: 'SECTION XIII: ARTICLES OF STONE, PLASTER, CEMENT, ASBESTOS, MICA OR SIMILAR MATERIALS; CERAMIC PRODUCTS; GLASS AND GLASSWARE' },
-      { type: 'heading', vi: 'Chương 70: Thủy tinh và các sản phẩm bằng thủy tinh', en: 'Chapter 70: Glass and glassware' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1. - Chương này không bao gồm :', en: '1. - This Chapter does not cover :' },
       { type: 'list', vi: '(a) Hàng hóa thuộc nhóm 32.07 (ví dụ, men kính và men sứ, frit thủy tinh, thủy tinh khác ở dạng bột, hạt hoặc vẩy);', en: '(a) Goods of heading 32.07 (for example, verifiable enamels and glazes, glass frit, other glass in the form of powder, granules or flakes);' },
@@ -14139,8 +13860,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 73: CÁC SẢN PHẨM BẰNG SẮT HOẶC THÉP',
     titleEn: 'CHAPTER 73: ARTICLES OF IRON OR STEEL',
     content: [
-      { type: 'heading', vi: 'PHẦN XV: KIM LOẠI CƠ BẢN VÀ CÁC SẢN PHẨM BẰNG KIM LOẠI CƠ BẢN', en: 'SECTION XV: BASE METALS AND ARTICLES OF BASE METAL' },
-      { type: 'heading', vi: 'Chương 73: Các sản phẩm bằng sắt hoặc thép', en: 'Chapter 73: Articles of iron or steel' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1. Trong Chương này khái niệm “gang đúc” áp dụng cho các sản phẩm thu được từ quá trình đúc trong đó hàm lượng sắt tính theo khối lượng lớn hơn hàm lượng của từng nguyên tố khác và thành phần hoá học của nó khác với thành phần hóa học của thép theo định nghĩa của Chú giải 1(d) Chương 72.', en: '1.- In this Chapter the expression “cast iron” applies to products obtained by casting in which iron predominates by weight over each of the other elements and which do not comply with the chemical composition of steel as defined in Note 1 (d) to Chapter 72.' },
       { type: 'paragraph', vi: '2. Trong chương này từ "dây" là các loại sản phẩm được tạo hình nóng hoặc nguội, có hình dạng mặt cắt ngang bất kỳ với kích thước không vượt quá 16 mm.', en: '2.- In this Chapter the word “wire” means hot or cold-formed products of any cross-sectional shape, of which no cross-sectional dimension exceeds 16 mm.' },
@@ -14362,8 +14081,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 74: ĐỒNG VÀ CÁC SẢN PHẨM BẰNG ĐỒNG',
     titleEn: 'CHAPTER 74: COPPER AND ARTICLES THEREOF',
     content: [
-      { type: 'heading', vi: 'PHẦN XV: KIM LOẠI CƠ BẢN VÀ CÁC SẢN PHẨM BẰNG KIM LOẠI CƠ BẢN', en: 'SECTION XV: BASE METALS AND ARTICLES OF BASE METAL' },
-      { type: 'heading', vi: 'Chương 74: Đồng và các sản phẩm bằng đồng', en: 'Chapter 74: Copper and articles thereof' },
       { type: 'heading', vi: 'Chú giải.', en: 'Note.' },
       { type: 'paragraph', vi: '1.- Trong Chương này các khái niệm sau có nghĩa:', en: '1.- In this Chapter the following expressions have the meanings hereby assigned to them:' },
       { type: 'paragraph', vi: '(a) Đồng tinh luyện', en: '(a) Refined copper' },
@@ -14512,8 +14229,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 75: NIKEN VÀ CÁC SẢN PHẨM BẰNG NIKEN',
     titleEn: 'CHAPTER 75: NICKEL AND ARTICLES THEREOF',
     content: [
-      { type: 'heading', vi: 'PHẦN XV: KIM LOẠI CƠ BẢN VÀ CÁC SẢN PHẨM BẰNG KIM LOẠI CƠ BẢN', en: 'SECTION XV: BASE METALS AND ARTICLES OF BASE METAL' },
-      { type: 'heading', vi: 'Chương 75: Niken và các sản phẩm bằng niken', en: 'Chapter 75: Nickel and articles thereof' },
       { type: 'heading', vi: 'Chú giải phân nhóm.', en: 'Subheading Notes.' },
       { type: 'paragraph', vi: '1.- Trong Chương này, các khái niệm sau có nghĩa:', en: '1.- In this Chapter the following expressions have the meanings hereby assigned to them:' },
       { type: 'paragraph', vi: '(a) Niken không hợp kim', en: '(a) Nickel, not alloyed' },
@@ -14588,8 +14303,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 76: NHÔM VÀ CÁC SẢN PHẨM BẰNG NHÔM',
     titleEn: 'CHAPTER 76: ALUMINIUM AND ARTICLES THEREOF',
     content: [
-      { type: 'heading', vi: 'PHẦN XV: KIM LOẠI CƠ BẢN VÀ CÁC SẢN PHẨM BẰNG KIM LOẠI CƠ BẢN', en: 'SECTION XV: BASE METALS AND ARTICLES OF BASE METAL' },
-      { type: 'heading', vi: 'Chương 76: Nhôm và các sản phẩm bằng nhôm', en: 'Chapter 76: Aluminium and articles thereof' },
       { type: 'heading', vi: 'Chú giải phân nhóm.', en: 'Subheading Notes.' },
       { type: 'paragraph', vi: '1. Trong chương này các khái niệm sau có nghĩa:', en: '1.- In this Chapter the following expressions have the meanings hereby assigned to them:' },
       { type: 'paragraph', vi: '(a) Nhôm, không hợp kim', en: '(a) Aluminium, not alloyed' },
@@ -14722,8 +14435,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 78: CHÌ VÀ CÁC SẢN PHẨM BẰNG CHÌ',
     titleEn: 'CHAPTER 78: LEAD AND ARTICLES THEREOF',
     content: [
-      { type: 'heading', vi: 'PHẦN XV: KIM LOẠI CƠ BẢN VÀ CÁC SẢN PHẨM BẰNG KIM LOẠI CƠ BẢN', en: 'SECTION XV: BASE METALS AND ARTICLES OF BASE METAL' },
-      { type: 'heading', vi: 'Chương 78: Chì và các sản phẩm bằng chì', en: 'Chapter 78: Lead and articles thereof' },
       { type: 'heading', vi: 'Chú giải phân nhóm.', en: 'Subheading Note.' },
       { type: 'paragraph', vi: '1. Trong Chương này khái niệm “chì tinh luyện" có nghĩa:', en: '1.- In this Chapter the expression “refined lead” means:' },
       { type: 'paragraph', vi: 'Là kim loại có hàm lượng chì chiếm ít nhất 99,9% tính theo khối lượng, với điều kiện hàm lượng của mỗi nguyên tố khác trong thành phần không vượt quá giới hạn nêu trong bảng sau:', en: 'Metal containing by weight at least 99.9% of lead, provided that the content by weight of any other element does not exceed the limit specified in the following table:' },
@@ -14782,8 +14493,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 79: KẼM VÀ CÁC SẢN PHẨM BẰNG KẼM',
     titleEn: 'CHAPTER 79: ZINC AND ARTICLES THEREOF',
     content: [
-      { type: 'heading', vi: 'PHẦN XV: KIM LOẠI CƠ BẢN VÀ CÁC SẢN PHẨM BẰNG KIM LOẠI CƠ BẢN', en: 'SECTION XV: BASE METALS AND ARTICLES OF BASE METAL' },
-      { type: 'heading', vi: 'Chương 79: Kẽm và các sản phẩm bằng kẽm', en: 'Chapter 79: Zinc and articles thereof' },
       { type: 'heading', vi: 'Chú giải phân nhóm.', en: 'Subheading Note.' },
       { type: 'paragraph', vi: '1.- Trong Chương này các khái niệm sau có nghĩa:', en: '1.- In this Chapter the following expressions have the meanings hereby assigned to them:' },
       { type: 'paragraph', vi: '(a) Kẽm, không hợp kim', en: '(a) Zinc, not alloyed' },
@@ -14833,8 +14542,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 80: THIẾC VÀ CÁC SẢN PHẨM BẰNG THIẾC',
     titleEn: 'CHAPTER 80: TIN AND ARTICLES THEREOF',
     content: [
-      { type: 'heading', vi: 'PHẦN XV: KIM LOẠI CƠ BẢN VÀ CÁC SẢN PHẨM BẰNG KIM LOẠI CƠ BẢN', en: 'SECTION XV: BASE METALS AND ARTICLES OF BASE METAL' },
-      { type: 'heading', vi: 'Chương 80: Thiếc và các sản phẩm bằng thiếc', en: 'Chapter 80: Tin and articles thereof' },
       { type: 'heading', vi: 'Chú giải phân nhóm.', en: 'Subheading Note.' },
       { type: 'paragraph', vi: '1.- Trong Chương này các khái niệm sau có nghĩa:', en: '1.- In this Chapter the following expressions have the meanings hereby assigned to them:' },
       { type: 'paragraph', vi: '(a) Thiếc, không hợp kim', en: '(a) Tin, not alloyed' },
@@ -14885,8 +14592,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 81: KIM LOẠI CƠ BẢN KHÁC; GỐM KIM LOẠI; CÁC SẢN PHẨM CỦA CHÚNG',
     titleEn: 'CHAPTER 81: OTHER BASE METALS; CERMETS; ARTICLES THEREOF',
     content: [
-      { type: 'heading', vi: 'PHẦN XV: KIM LOẠI CƠ BẢN VÀ CÁC SẢN PHẨM BẰNG KIM LOẠI CƠ BẢN', en: 'SECTION XV: BASE METALS AND ARTICLES OF BASE METAL' },
-      { type: 'heading', vi: 'Chương 81: Kim loại cơ bản khác; gốm kim loại; các sản phẩm của chúng', en: 'Chapter 81: Other base metals; cermets; articles thereof' },
       { type: 'heading', vi: 'TỔNG QUÁT', en: 'GENERAL' },
       { type: 'paragraph', vi: 'Chương này chỉ giới hạn bao gồm sau đây: các kim loại cơ bản, các hợp kim của chúng, và các sản phẩm của chúng mà không được đề cập riêng ở bất cứ phần nào trong Danh mục.', en: 'This Chapter is limited to the following base metals, their alloys, and articles thereof which are not more specifically covered elsewhere in the Nomenclature :' },
       { type: 'paragraph', vi: '(A) Vôn-fram (wolfram) (nhóm 81.01), Molybden (Mo) (nhóm 81.02), Tantan(Ta) nhóm 81.03), Magie(Mg) (nhóm 81.04), Coban(Co), bao gồm các phụ phẩm và các sản phẩm trung gian khác của Coban thu được trong quá trình luyện kim Coban (nhóm 81.05), Bitmut(Bi) (nhóm 81.06), Titan(Ti) (nhóm 81.08), Zirconi(Zr) (nhóm 81.09), Antimon(Sb) (nhóm 81.10) và Mangan(Mn) (nhóm 81.11).', en: '(A) Tungsten (wolfram) (heading 81.01), molybdenum (heading 81.02), tantalum (heading 81.03), magnesium (heading 81.04), cobalt, including cobalt mattes and other intermediate products of cobalt metallurgy (heading 81.05), bismuth (heading 81.06), titanium (heading 81.08), zirconium (heading 81.09), antimony (heading 81.10)and manganese (heading 81.11).' },
@@ -15021,8 +14726,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 82: DỤNG CỤ, ĐỒ NGHỀ, DAO, KÉO, BỘ ĐỒ ĂN LÀM TỪ KIM LOẠI CƠ BẢN; CÁC BỘ PHẬN CỦA CHÚNG LÀM TỪ KIM LOẠI CƠ BẢN',
     titleEn: 'CHAPTER 82: TOOLS, IMPLEMENTS, CUTLERY, SPOONS AND FORKS, OF BASE METAL; PARTS THEREOF OF BASE METAL',
     content: [
-      { type: 'heading', vi: 'PHẦN XV: KIM LOẠI CƠ BẢN VÀ CÁC SẢN PHẨM BẰNG KIM LOẠI CƠ BẢN', en: 'SECTION XV: BASE METALS AND ARTICLES OF BASE METAL' },
-      { type: 'heading', vi: 'Chương 82: Dụng cụ, đồ nghề, dao, kéo, bộ đồ ăn làm từ kim loại cơ bản; các bộ phận của chúng làm từ kim loại cơ bản', en: 'Chapter 82: Tools, implements, cutlery, spoons and forks, of base metal; parts thereof of base metal' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1. - Ngoài các mặt hàng như đèn khò, bộ bệ rèn di động, các loại đá mài có lắp gá đỡ, bộ sửa móng tay hoặc móng chân, và các mặt hàng thuộc nhóm 82.09, Chương này chỉ bao gồm các sản phẩm lưỡi dao, lưỡi cắt, bề mặt làm việc hoặc bộ phận làm việc khác bằng:', en: '1.- Apart from blow lamps, portable forges, grinding wheels with frameworks, manicure or pedicure sets, and goods of heading 82.09, this Chapter covers only articles with a blade, working edge, working surface or other working part of:' },
       { type: 'list', vi: '(a) Kim loại cơ bản;', en: '(a) Base metal;' },
@@ -15147,8 +14850,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 83: HÀNG TẠP HÓA LÀM TỪ KIM LOẠI CƠ BẢN',
     titleEn: 'CHAPTER 83: MISCELLANEOUS ARTICLES OF BASE METAL',
     content: [
-      { type: 'heading', vi: 'PHẦN XV: KIM LOẠI CƠ BẢN VÀ CÁC SẢN PHẨM BẰNG KIM LOẠI CƠ BẢN', en: 'SECTION XV: BASE METALS AND ARTICLES OF BASE METAL' },
-      { type: 'heading', vi: 'Chương 83: Hàng tạp hóa làm từ kim loại cơ bản', en: 'Chapter 83: Miscellaneous articles of base metal' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1. Theo mục đích của Chương này, các bộ phận của sản phẩm bằng kim loại cơ bản được phân loại theo sản phẩm gốc. Tuy nhiên, các sản phẩm bằng sắt hoặc thép thuộc nhóm 73.12, 73.15, 73.17, 73.18 hoặc 73.20, hoặc các sản phẩm tương tự bằng kim loại cơ bản khác (Chương 74 đến 76 và 78 đến 81) sẽ không được xem như các bộ phận của các sản phẩm thuộc Chương này.', en: '1. For the purposes of this Chapter, parts of base metal are to be classified with their parent articles. However, articles of iron or steel of heading 73.12, 73.15, 73.17, 73.18 or 73.20, or similar articles of other base metal (Chapters 74 to 76 and 78 to 81) are not to be taken as parts of articles of this Chapter.' },
       { type: 'paragraph', vi: '2. Theo mục đích của nhóm 83.02, thuật ngữ “bánh xe đẩy (castor)" có nghĩa là loại bánh xe có đường kính không quá 75 mm (kể cả lốp, tại các phân nhóm tương ứng) hoặc bánh xe có đường kính trên 75 mm (kể cả lốp, tại các phân nhóm tương ứng) với điều kiện là bánh xe hoặc lốp lắp vào đó có chiều rộng dưới 30 mm.', en: '2. For the purposes of heading 83.02, the word “castors” means those having a diameter (including, where appropriate, tyres) not exceeding 75 mm, or those having a diameter (including, where appropriate, tyres) exceeding 75 mm provided that the width of the wheel or tyre fitted thereto is less than 30 mm.' },
@@ -15402,8 +15103,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 85: MÁY ĐIỆN VÀ THIẾT BỊ ĐIỆN VÀ CÁC BỘ PHẬN CỦA CHÚNG; MÁY GHI VÀ TÁI TẠO ÂM THANH, MÁY GHI VÀ TÁI TẠO HÌNH ẢNH VÀ ÂM THANH TRUYỀN HÌNH, BỘ PHẬN VÀ PHỤ KIỆN CỦA CÁC LOẠI MÁY TRÊN',
     titleEn: 'CHAPTER 85: ELECTRICAL MACHINERY AND EQUIPMENT AND PARTS THEREOF; SOUND RECORDERS AND REPRODUCERS, TELEVISION IMAGE AND SOUND RECORDERS AND REPRODUCERS, AND PARTS AND ACCESSORIES OF SUCH ARTICLES',
     content: [
-      { type: 'heading', vi: 'PHẦN XVI: MÁY VÀ CÁC TRANG THIẾT BỊ CƠ KHÍ; THIẾT BỊ ĐIỆN; CÁC BỘ PHẬN CỦA CHÚNG; THIẾT BỊ GHI VÀ TÁI TẠO ÂM THANH, THIẾT BỊ GHI VÀ TÁI TẠO HÌNH ẢNH, ÂM THANH TRUYỀN HÌNH VÀ CÁC BỘ PHẬN VÀ PHỤ KIỆN CỦA CÁC THIẾT BỊ TRÊN', en: 'SECTION XVI: MACHINERY AND MECHANICAL APPLIANCES; ELECTRICAL EQUIPMENT; PARTS THEREOF; SOUND RECORDERS AND REPRODUCERS, TELEVISION IMAGE AND SOUND RECORDERS AND REPRODUCERS, AND PARTS AND ACCESSORIES OF SUCH ARTICLES' },
-      { type: 'heading', vi: 'Chương 85: Máy điện và thiết bị điện và các bộ phận của chúng; máy ghi và tái tạo âm thanh, máy ghi và tái tạo hình ảnh và âm thanh truyền hình, bộ phận và phụ kiện của các loại máy trên', en: 'Chapter 85: Electrical machinery and equipment and parts thereof; sound recorders and reproducers, television image and sound recorders and reproducers, and parts and accessories of such articles' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1. Chương này không bao gồm:', en: '1. This Chapter does not cover:' },
       { type: 'list', vi: '(a) Chăn, đệm giường, bao ủ chân hoặc các sản phẩm tương tự sưởi ấm bằng điện; quần áo, giày dép hoặc đệm lót tai hoặc các mặt hàng khác sưởi ấm bằng điện để mặc hoặc sử dụng cho người;', en: '(a) Electrically warmed blankets, bed pads, foot-muffs or the like; electrically warmed clothing, footwear or ear pads or other electrically warmed articles worn on or about the person;' },
@@ -15649,8 +15348,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 87: XE TRỪ PHƯƠNG TIỆN CHẠY TRÊN ĐƯỜNG SẮT HOẶC ĐƯỜNG TÀU ĐIỆN, VÀ CÁC BỘ PHẬN VÀ PHỤ KIỆN CỦA CHÚNG',
     titleEn: 'CHAPTER 87: VEHICLES OTHER THAN RAILWAY OR TRAMWAY ROLLING-STOCK, AND PARTS AND ACCESSORIES THEREOF',
     content: [
-      { type: 'heading', vi: 'PHẦN XVII: XE CỘ, PHƯƠNG TIỆN BAY, TÀU THUYỀN VÀ CÁC THIẾT BỊ VẬN TẢI LIÊN HỢP', en: 'SECTION XVII: VEHICLES, AIRCRAFT, VESSELS AND ASSOCIATED TRANSPORT EQUIPMENT' },
-      { type: 'heading', vi: 'Chương 87: Xe trừ phương tiện chạy trên đường sắt hoặc đường tàu điện, và các bộ phận và phụ kiện của chúng', en: 'Chapter 87: Vehicles other than railway or tramway rolling-stock, and parts and accessories thereof' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1. Chương này không bao gồm phương tiện chạy trên đường sắt hoặc đường tàu điện được thiết kế chỉ để chạy trên đường ray.', en: '1.- This Chapter does not cover railway or tramway rolling-stock designed solely for running on rails.' },
       { type: 'paragraph', vi: '2. Theo mục đích của Chương này, "xe kéo" có nghĩa là phương tiện được thiết kế chủ yếu để kéo hoặc đẩy một phương tiện, một thiết bị hoặc một vật nặng khác, có hoặc không bao gồm bộ phận phụ trợ để vận chuyển các loại công cụ, hạt giống (seeds), phân bón hoặc hàng hoá khác, phù hợp với mục đích sử dụng chính của xe kéo.', en: '2.- For the purposes of this Chapter, “tractors” means vehicles constructed essentially for hauling or pushing another vehicle, appliance or load, whether or not they contain subsidiary provision for the transport, in connection with the main use of the tractor, of tools, seeds, fertilisers or other goods.' },
@@ -15823,8 +15520,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 88: PHƯƠNG TIỆN BAY, TÀU VŨ TRỤ VÀ CÁC BỘ PHẬN CỦA CHÚNG',
     titleEn: 'CHAPTER 88: AIRCRAFT, SPACECRAFT, AND PARTS THEREOF',
     content: [
-      { type: 'heading', vi: 'PHẦN XVII: XE CỘ, PHƯƠNG TIỆN BAY, TÀU THUYỀN VÀ CÁC THIẾT BỊ VẬN TẢI LIÊN HỢP', en: 'SECTION XVII: VEHICLES, AIRCRAFT, VESSELS AND ASSOCIATED TRANSPORT EQUIPMENT' },
-      { type: 'heading', vi: 'Chương 88: Phương tiện bay, tàu vũ trụ và các bộ phận của chúng', en: 'Chapter 88: Aircraft, spacecraft, and parts thereof' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1. Theo mục đích của Chương này, khái niệm “phương tiện bay không người lái” có nghĩa là bất kỳ phương tiện bay nào, trừ các phương tiện bay thuộc nhóm 88.01, được thiết kế để bay mà không có người lái trên phương tiện bay. Chúng có thể được thiết kế để mang trọng tải hoặc được trang bị camera kỹ thuật số tích hợp vĩnh viễn hoặc các thiết bị khác cho phép chúng thực hiện các chức năng sử dụng thực tế trong suốt chuyến bay.', en: '1.- For the purposes of this Chapter, the expression “unmanned aircraft” means any aircraft, other than those of heading 88.01, designed to be flown without a pilot on board. They may be designed to carry a payload or equipped with permanently integrated digital cameras or other equipment which would enable them to perform utilitarian functions during their flight.' },
       { type: 'paragraph', vi: 'Tuy nhiên, cụm từ “phương tiện bay không người lái” không bao gồm đồ chơi bay, được thiết kế chỉ cho mục đích giải trí (nhóm 95.03).', en: 'The expression “unmanned aircraft”, however, does not cover flying toys, designed solely for amusement purposes (heading 95.03).' },
@@ -15886,8 +15581,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 89: TÀU THỦY, THUYỀN VÀ CÁC KẾT CẤU NỔI',
     titleEn: 'CHAPTER 89: SHIPS, BOATS AND FLOATING STRUCTURES',
     content: [
-      { type: 'heading', vi: 'PHẦN XVII: XE CỘ, PHƯƠNG TIỆN BAY, TÀU THUYỀN VÀ CÁC THIẾT BỊ VẬN TẢI LIÊN HỢP', en: 'SECTION XVII: VEHICLES, AIRCRAFT, VESSELS AND ASSOCIATED TRANSPORT EQUIPMENT' },
-      { type: 'heading', vi: 'Chương 89: Tàu thủy, thuyền và các kết cấu nổi', en: 'Chapter 89: Ships, boats and floating structures' },
       { type: 'heading', vi: 'Chú giải.', en: 'Note.' },
       { type: 'paragraph', vi: '1. Thân tàu, tàu chưa hoàn chỉnh hoặc chưa hoàn thiện, đã lắp ráp, hoặc chưa lắp ráp hoặc tháo rời, hoặc tàu hoàn chỉnh chưa lắp ráp hoặc tháo rời, được phân loại vào nhóm 89.06 nếu không có đặc trưng cơ bản của một loại tàu cụ thể.', en: '1.- A hull, an unfinished or incomplete vessel, assembled, unassembled or disassembled, or a complete vessel unassembled or disassembled, is to be classified in heading 89.06 if it does not have the essential character of a vessel of a particular kind.' },
 
@@ -16094,8 +15787,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 91: ĐỒNG HỒ THỜI GIAN, ĐỒNG HỒ CÁ NHÂN VÀ CÁC BỘ PHẬN CỦA CHÚNG',
     titleEn: 'CHAPTER 91: CLOCKS AND WATCHES AND PARTS THEREOF',
     content: [
-      { type: 'heading', vi: 'PHẦN XVIII: DỤNG CỤ VÀ THIẾT BỊ QUANG HỌC, NHIẾP ẢNH, ĐIỆN ẢNH, ĐO LƯỜNG, KIỂM TRA, CHÍNH XÁC, Y TẾ HOẶC PHẪU THUẬT; ĐỒNG HỒ THỜI GIAN VÀ ĐỒNG HỒ CÁ NHÂN; NHẠC CỤ; CÁC BỘ PHẬN VÀ PHỤ KIỆN CỦA CHÚNG', en: 'SECTION XVIII: OPTICAL, PHOTOGRAPHIC, CINEMATOGRAPHIC, MEASURING, CHECKING, PRECISION, MEDICAL OR SURGICAL INSTRUMENTS AND APPARATUS; CLOCKS AND WATCHES; MUSICAL INSTRUMENTS; PARTS AND ACCESSORIES THEREOF' },
-      { type: 'heading', vi: 'Chương 91: Đồng hồ thời gian, đồng hồ cá nhân và các bộ phận của chúng', en: 'Chapter 91: Clocks and watches and parts thereof' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1. Chương này không bao gồm:', en: '1. This Chapter does not cover:' },
       { type: 'list', vi: '(a) Mặt kính đồng hồ thời gian hoặc đồng hồ cá nhân hoặc quả lắc đồng hồ (được phân loại theo vật liệu cấu thành);', en: '(a) Clock or watch glasses or weights (classified according to their constituent material);' },
@@ -16207,8 +15898,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 92: NHẠC CỤ; CÁC BỘ PHẬN VÀ PHỤ KIỆN CỦA CHÚNG',
     titleEn: 'CHAPTER 92: MUSICAL INSTRUMENTS; PARTS AND ACCESSORIES OF SUCH ARTICLES',
     content: [
-      { type: 'heading', vi: 'PHẦN XVIII: DỤNG CỤ VÀ THIẾT BỊ QUANG HỌC, NHIẾP ẢNH, ĐIỆN ẢNH, ĐO LƯỜNG, KIỂM TRA, CHÍNH XÁC, Y TẾ HOẶC PHẪU THUẬT; ĐỒNG HỒ THỜI GIAN VÀ ĐỒNG HỒ CÁ NHÂN; NHẠC CỤ; CÁC BỘ PHẬN VÀ PHỤ KIỆN CỦA CHÚNG', en: 'SECTION XVIII: OPTICAL, PHOTOGRAPHIC, CINEMATOGRAPHIC, MEASURING, CHECKING, PRECISION, MEDICAL OR SURGICAL INSTRUMENTS AND APPARATUS; CLOCKS AND WATCHES; MUSICAL INSTRUMENTS; PARTS AND ACCESSORIES THEREOF' },
-      { type: 'heading', vi: 'Chương 92: Nhạc cụ; các bộ phận và phụ kiện của chúng', en: 'Chapter 92: Musical instruments; parts and accessories of such articles' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1. Chương này không bao gồm:', en: '1. This Chapter does not cover:' },
       { type: 'list', vi: '(a) Các bộ phận có công dụng chung, như đã định nghĩa trong Chú giải 2 Phần XV, bằng kim loại cơ bản (Phần XV), hoặc các mặt hàng tương tự bằng plastic (Chương 39);', en: '(a) Parts of general use, as defined in Note 2 to Section XV, of base metal (Section XV), or similar goods of plastics (Chapter 39);' },
@@ -16451,8 +16140,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 95: ĐỒ CHƠI, THIẾT BỊ TRÒ CHƠI VÀ DỤNG CỤ THỂ THAO; CÁC BỘ PHẬN VÀ PHỤ KIỆN CỦA CHÚNG',
     titleEn: 'CHAPTER 95: TOYS, GAMES AND SPORTS REQUISITES; PARTS AND ACCESSORIES THEREOF',
     content: [
-      { type: 'heading', vi: 'PHẦN XX: CÁC MẶT HÀNG KHÁC', en: 'SECTION XX: MISCELLANEOUS MANUFACTURED ARTICLES' },
-      { type: 'heading', vi: 'Chương 95: Đồ chơi, thiết bị trò chơi và dụng cụ thể thao; các bộ phận và phụ kiện của chúng', en: 'Chapter 95: Toys, games and sports requisites; parts and accessories thereof' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1. Chương này không bao gồm:', en: '1.- This Chapter does not cover:' },
       { type: 'list', vi: '(a) Nến (nhóm 34.06);', en: '(a) Candles (heading 34.06);' },
@@ -16564,8 +16251,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 96: CÁC MẶT HÀNG KHÁC',
     titleEn: 'CHAPTER 96: MISCELLANEOUS MANUFACTURED ARTICLES',
     content: [
-      { type: 'heading', vi: 'PHẦN XX: CÁC MẶT HÀNG KHÁC', en: 'SECTION XX: MISCELLANEOUS MANUFACTURED ARTICLES' },
-      { type: 'heading', vi: 'Chương 96: Các mặt hàng khác', en: 'Chapter 96: Miscellaneous manufactured articles' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1. Chương này không bao gồm:', en: '1.- This Chapter does not cover:' },
       { type: 'list', vi: '(a) Bút chì dùng để trang điểm (Chương 33);', en: '(a) Pencils for cosmetic or toilet uses (Chapter 33);' },
