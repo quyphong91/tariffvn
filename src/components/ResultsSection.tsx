@@ -1,4 +1,4 @@
-import { HSItem, SearchLanguage, getDescription } from "@/data/hsData";
+import { HSItem, SearchLanguage, getDescription, SearchResultItem } from "@/data/hsData";
 import { chapterNames } from "@/data/chapterNames";
 import { HeadingCard } from "./HeadingCard";
 import { DetailCard } from "./DetailCard";
@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 interface ResultsSectionProps {
   headings: HSItem[];
-  detailed: { item: HSItem; parents: HSItem[] }[];
+  detailed: SearchResultItem[];
   keyword: string;
   language: SearchLanguage;
 }
@@ -92,7 +92,7 @@ export function ResultsSection({ headings, detailed, keyword, language }: Result
     }
     acc[headingCode].push(result);
     return acc;
-  }, {} as Record<string, typeof detailed>);
+  }, {} as Record<string, SearchResultItem[]>);
 
   const sortedDetailedHeadings = Object.keys(groupedDetailed).sort();
 
@@ -296,6 +296,8 @@ export function ResultsSection({ headings, detailed, keyword, language }: Result
                         index={index}
                         keyword={keyword}
                         language={language}
+                        score={result.score}
+                        noteMatches={result.noteMatches}
                       />
                     ))}
                   </div>
