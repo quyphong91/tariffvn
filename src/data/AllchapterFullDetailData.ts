@@ -691,19 +691,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleVi: 'CHƯƠNG 2: THỊT VÀ PHỤ PHẨM DẠNG THỊT ĂN ĐƯỢC SAU GIẾT MỔ',
     titleEn: 'CHAPTER 2: MEAT AND EDIBLE MEAT OFFAL',
     content: [
-      { type: 'heading', vi: 'PHẦN I: ĐỘNG VẬT SỐNG; CÁC SẢN PHẨM TỪ ĐỘNG VẬT', en: 'SECTION I : LIVE ANIMALS; ANIMAL PRODUCTS' },
-      { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
-      { 
-        type: 'paragraph', 
-        vi: '1. Trong phần này, khi đề cập đến một giống hoặc một loài động vật, trừ khi có yêu cầu khác, cần phải kể đến cả giống hoặc loài động vật đó còn non.', 
-        en: '1. Any reference in this Section to a particular genus or species of an animal, except where the context otherwise requires, includes a reference to the young of that genus or species.' 
-      },
-      { 
-        type: 'paragraph', 
-        vi: '2. Trừ khi có yêu cầu khác, trong toàn bộ Danh mục này bất cứ đề cập nào liên quan đến các sản phẩm "được làm khô" cũng bao gồm các sản phẩm được khử nước, làm bay hơi hoặc làm khô bằng đông lạnh.', 
-        en: '2. Except where the context otherwise requires, throughout the Nomenclature any reference to “dried” products also covers products which have been dehydrated, evaporated or freeze-dried.' 
-      },
-      { type: 'heading', vi: 'Chương 2: Thịt và phụ phẩm dạng thịt ăn được sau giết mổ', en: 'Chapter 2: Meat and edible meat offal' },
       { type: 'heading', vi: 'Chú giải.', en: 'Note.' },
       { type: 'paragraph', vi: '1- Chương này không bao gồm:', en: '1 - This Chapter does not cover :' },
       { type: 'list', vi: '(a) Những sản phẩm thuộc loại đã được mô tả trong các nhóm 02.01 đến 02.08 hoặc 02.10, nhưng không thích hợp làm thức ăn cho người;', en: '(a) Products of the kinds described in headings 02.01 to 02.08 or 02.10, unfit or unsuitable for human consumption:' },
