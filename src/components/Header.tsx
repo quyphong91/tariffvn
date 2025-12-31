@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Coffee } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/logo.jpg";
 
 export const Header = () => {
   return (

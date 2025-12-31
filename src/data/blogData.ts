@@ -25,42 +25,6 @@ export interface BlogPost {
 export const blogPosts: BlogPost[] = [
   {
     id: "1",
-    slug: "ma--so-hs-code-la-gi",
-    title: "Mã số HS Code là gì",
-    date: "2024-12-28",
-    excerpt: "Tìm hiểu thông tin cơ bản về mã HS Code và tầm quan trọng của việc xác định đúng mã số HS Code.",
-    coverImage: "https://media.westpandi.com/r/w-1366/West/files/97/9771f8f6-3903-4a5b-a734-fc6b82824e4d.637970305993256984.jpg",
-    content: `
-## Giới thiệu về mã HS Code
-
-Hệ thống Mô tả và Mã hóa Hàng hóa Hài hòa, thường được gọi là "Hệ thống Hài hòa" hoặc đơn giản là "HS", là một hệ thống danh pháp sản phẩm quốc tế đa dụng được phát triển bởi Tổ chức Hải quan Thế giới (WCO).
-
-Hệ thống này bao gồm hơn 5.000 nhóm hàng hóa được sắp xếp theo cấu trúc pháp lý và logic, và được hỗ trợ bởi các quy tắc rõ ràng để đạt được sự phân loại thống nhất.
-![Cấu trúc mã HS Code](https://media.westpandi.com/r/w-1366/West/files/97/9771f8f6-3903-4a5b-a734-fc6b82824e4d.637970305993256984.jpg)
-
-Hệ thống này được hơn 200 quốc gia và nền kinh tế sử dụng làm cơ sở cho biểu thuế hải quan và thu thập số liệu thống kê thương mại quốc tế. Việt Nam bắt đầu tham gia Công ước Quốc tế về Hệ thống hài hòa hàng hóa này từ năm 1998 theo Quyết định số 49/QĐ-CTN ngày 06/3/1998 của Chủ tịch nước CHXHCN Việt Nam.
-
-Hiện nay, Danh mục hàng hóa xuất nhập khẩu của Việt Nam được quy định tại Thông tư 31/2022/TT-BTC ngày 08/06/2022. Bạn có thể tham khảo cấu trúc của Danh mục tại trang đường dẫn: https://tracuuhs.com/#/chapter-notes.
-
-## Tại sao mã HS code lại quan trọng
-
-Mã HS (Harmonized System) là hệ thống mã số hàng hóa quốc tế được sử dụng để phân loại hàng hóa trong thương mại quốc tế. Việc xác định đúng mã HS Code là **vô cùng quan trọng** vì nó ảnh hưởng trực tiếp đến:
-
-- Thuế suất nhập khẩu/xuất khẩu
-- Các thủ tục hải quan
-- Ưu đãi theo các Hiệp định thương mại tự do (FTA)
-
-## Lưu ý quan trọng
-
-> Việc phân loại sai mã HS có thể dẫn đến phạt hành chính và truy thu thuế. Hãy tham khảo ý kiến chuyên gia khi cần thiết.
-
-## Kết luận
-
-Phân loại hàng hóa theo mã HS Code đòi hỏi kiến thức và kinh nghiệm. Sử dụng các công cụ tra cứu và tài liệu tham khảo để đảm bảo độ chính xác.
-    `.trim()
-  },
-  {
-    id: "2",
     slug: "huong-dan-phan-loai-hang-hoa-theo-hs-code",
     title: "Hướng dẫn phân loại hàng hóa theo mã HS Code",
     date: "2024-12-28",
@@ -106,6 +70,53 @@ Các quy tắc GRI giúp xác định mã HS chính xác khi có nhiều lựa c
 ## Kết luận
 
 Phân loại hàng hóa theo mã HS Code đòi hỏi kiến thức và kinh nghiệm. Sử dụng các công cụ tra cứu và tài liệu tham khảo để đảm bảo độ chính xác.
+    `.trim()
+  },
+  {
+    id: "2",
+    slug: "cap-nhat-bieu-thue-2025",
+    title: "Cập nhật Biểu thuế nhập khẩu năm 2025",
+    date: "2024-12-25",
+    excerpt: "Tổng hợp các thay đổi quan trọng trong Biểu thuế nhập khẩu ưu đãi năm 2025 theo các FTA.",
+    coverImage: "/placeholder.svg",
+    content: `
+## Các thay đổi chính trong Biểu thuế 2025
+
+Năm 2025 đánh dấu nhiều thay đổi quan trọng trong chính sách thuế nhập khẩu của Việt Nam, đặc biệt liên quan đến các Hiệp định thương mại tự do (FTA).
+
+### 1. EVFTA - Hiệp định với EU
+
+Theo lộ trình cam kết, nhiều mặt hàng sẽ được **cắt giảm thuế suất** xuống 0%:
+
+- Máy móc, thiết bị công nghiệp
+- Một số loại nông sản
+- Dược phẩm và thiết bị y tế
+
+### 2. CPTPP - Hiệp định Đối tác Toàn diện và Tiến bộ
+
+Các thay đổi đáng chú ý:
+
+| Nhóm hàng | Thuế suất 2024 | Thuế suất 2025 |
+|-----------|----------------|----------------|
+| Ô tô nguyên chiếc | 50% | 45% |
+| Linh kiện điện tử | 5% | 0% |
+| Thực phẩm chế biến | 15% | 10% |
+
+### 3. RCEP
+
+Hiệp định RCEP tiếp tục có hiệu lực với các đối tác ASEAN, Trung Quốc, Nhật Bản, Hàn Quốc, Úc và New Zealand.
+
+## Lưu ý khi áp dụng
+
+Để được hưởng ưu đãi thuế quan theo FTA, doanh nghiệp cần:
+
+1. Có **Chứng nhận xuất xứ (C/O)** hợp lệ
+2. Đáp ứng quy tắc xuất xứ của từng Hiệp định
+3. Khai báo đúng mã HS Code
+
+## Tham khảo thêm
+
+Sử dụng công cụ [Tra cứu thuế nhập khẩu](/tariff-lookup) để xem chi tiết thuế suất cho từng mã HS.
     `.trim()
   }
 ];
