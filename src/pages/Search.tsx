@@ -385,6 +385,8 @@ const Search = () => {
               detailed={searchResults.detailed}
               keyword={searchResults.keyword}
               language={language}
+              material={material}
+              functionFeature={functionFeature}
             />
           </div>
         )}
