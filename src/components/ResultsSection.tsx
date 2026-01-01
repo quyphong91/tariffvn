@@ -5,7 +5,7 @@ import { DetailCard } from "./DetailCard";
 import { FileStack, ListTree, ArrowUp, ChevronDown, ChevronsUpDown, BookOpen, FileText, Globe } from "lucide-react";
 import { Button } from "./ui/button";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "./ui/collapsible";
-import { useEffect, useState, useMemo } from "react";
+import { useEffect, useState, memo } from "react";
 import { Link } from "react-router-dom";
 
 interface ResultsSectionProps {
@@ -15,7 +15,7 @@ interface ResultsSectionProps {
   language: SearchLanguage;
 }
 
-export function ResultsSection({ headings, detailed, keyword, language }: ResultsSectionProps) {
+export const ResultsSection = memo(function ResultsSection({ headings, detailed, keyword, language }: ResultsSectionProps) {
   const [showFloatingButton, setShowFloatingButton] = useState(false);
   const [allExpanded, setAllExpanded] = useState(true);
   const [openChapters, setOpenChapters] = useState<Record<string, boolean>>({});
@@ -309,4 +309,12 @@ export function ResultsSection({ headings, detailed, keyword, language }: Result
       </section>
     </div>
   );
-}
+}, (prevProps, nextProps) => {
+  // Custom comparison: only re-render if these props change
+  return (
+    prevProps.headings === nextProps.headings &&
+    prevProps.detailed === nextProps.detailed &&
+    prevProps.keyword === nextProps.keyword &&
+    prevProps.language === nextProps.language
+  );
+});
