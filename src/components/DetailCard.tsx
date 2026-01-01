@@ -1,7 +1,7 @@
 import { HSItem, SearchLanguage, getDescription } from "@/data/hsData";
 import { NoteMatch } from "@/utils/searchNotes";
 import { HSCodeBadge } from "./HSCodeBadge";
-import { ChevronRight, FileText, BookOpen, Sparkles } from "lucide-react";
+import { ChevronRight, FileText, BookOpen, Sparkles, ExternalLink } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 interface DetailCardProps {
@@ -43,30 +43,46 @@ function getLevelStyles(level: number) {
   }
 }
 
+function getChapterFromHsCode(hsCode: string): string {
+  // Extract chapter number from HS code (first 2 digits)
+  const cleaned = hsCode.replace(/\./g, '');
+  return cleaned.substring(0, 2);
+}
+
 function EvidenceChip({ match, keyword }: { match: NoteMatch; keyword: string }) {
   const isSEN = match.source === 'sen';
   const Icon = isSEN ? FileText : BookOpen;
+  const chapterNumber = getChapterFromHsCode(match.hsCode);
+  const targetUrl = isSEN 
+    ? `/#/sen-notes/full/${chapterNumber}`
+    : `/#/chapter-notes/full/${chapterNumber}`;
   
   return (
-    <div className={cn(
-      "flex items-start gap-2 p-3 rounded-lg text-sm border",
-      isSEN 
-        ? "bg-amber-50 text-amber-800 border-amber-200 dark:bg-amber-950/30 dark:text-amber-200 dark:border-amber-800" 
-        : "bg-indigo-50 text-indigo-800 border-indigo-200 dark:bg-indigo-950/30 dark:text-indigo-200 dark:border-indigo-800"
-    )}>
+    <a
+      href={targetUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={cn(
+        "flex items-start gap-2 p-3 rounded-lg text-sm border transition-all cursor-pointer group",
+        isSEN 
+          ? "bg-amber-50 text-amber-800 border-amber-200 hover:bg-amber-100 hover:border-amber-300 dark:bg-amber-950/30 dark:text-amber-200 dark:border-amber-800 dark:hover:bg-amber-950/50" 
+          : "bg-indigo-50 text-indigo-800 border-indigo-200 hover:bg-indigo-100 hover:border-indigo-300 dark:bg-indigo-950/30 dark:text-indigo-200 dark:border-indigo-800 dark:hover:bg-indigo-950/50"
+      )}
+    >
       <Icon className="w-4 h-4 mt-0.5 flex-shrink-0" />
       <div className="flex-1 min-w-0">
         <div className={cn(
-          "text-xs font-medium mb-1",
+          "text-xs font-medium mb-1 flex items-center gap-1",
           isSEN ? "text-amber-600 dark:text-amber-400" : "text-indigo-600 dark:text-indigo-400"
         )}>
           {isSEN ? 'Chú giải bổ sung (SEN)' : 'Chú giải chi tiết (EN)'}
+          <ExternalLink className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
         </div>
         <p className="text-xs leading-relaxed line-clamp-2">
           {highlightText(match.snippet, keyword)}
         </p>
       </div>
-    </div>
+    </a>
   );
 }
 
