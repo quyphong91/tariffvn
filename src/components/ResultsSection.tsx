@@ -13,9 +13,11 @@ interface ResultsSectionProps {
   detailed: SearchResultItem[];
   keyword: string;
   language: SearchLanguage;
+  material?: string;
+  functionFeature?: string;
 }
 
-export const ResultsSection = memo(function ResultsSection({ headings, detailed, keyword, language }: ResultsSectionProps) {
+export const ResultsSection = memo(function ResultsSection({ headings, detailed, keyword, language, material, functionFeature }: ResultsSectionProps) {
   const [showFloatingButton, setShowFloatingButton] = useState(false);
   const [allExpanded, setAllExpanded] = useState(true);
   const [openChapters, setOpenChapters] = useState<Record<string, boolean>>({});
@@ -298,6 +300,8 @@ export const ResultsSection = memo(function ResultsSection({ headings, detailed,
                         language={language}
                         score={result.score}
                         noteMatches={result.noteMatches}
+                        material={material}
+                        functionFeature={functionFeature}
                       />
                     ))}
                   </div>
@@ -315,6 +319,8 @@ export const ResultsSection = memo(function ResultsSection({ headings, detailed,
     prevProps.headings === nextProps.headings &&
     prevProps.detailed === nextProps.detailed &&
     prevProps.keyword === nextProps.keyword &&
-    prevProps.language === nextProps.language
+    prevProps.language === nextProps.language &&
+    prevProps.material === nextProps.material &&
+    prevProps.functionFeature === nextProps.functionFeature
   );
 });

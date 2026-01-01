@@ -12,11 +12,17 @@ interface DetailCardProps {
   language: SearchLanguage;
   score?: number;
   noteMatches?: NoteMatch[];
+  material?: string;
+  functionFeature?: string;
 }
 
-function highlightText(text: string, keyword: string) {
-  if (!keyword) return text;
-  const regex = new RegExp(`(${keyword.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")})`, "gi");
+function highlightText(text: string, keywords: string[]) {
+  const validKeywords = keywords.filter(k => k && k.trim());
+  if (validKeywords.length === 0) return text;
+  
+  // Create a regex that matches any of the keywords
+  const escapedKeywords = validKeywords.map(k => k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+  const regex = new RegExp(`(${escapedKeywords.join("|")})`, "gi");
   const parts = text.split(regex);
 
   return parts.map((part, i) =>
@@ -49,7 +55,7 @@ function getChapterFromHsCode(hsCode: string): string {
   return cleaned.substring(0, 2);
 }
 
-function EvidenceChip({ match, keyword }: { match: NoteMatch; keyword: string }) {
+function EvidenceChip({ match, keywords }: { match: NoteMatch; keywords: string[] }) {
   const isSEN = match.source === 'sen';
   const Icon = isSEN ? FileText : BookOpen;
   const chapterNumber = getChapterFromHsCode(match.hsCode);
@@ -79,17 +85,20 @@ function EvidenceChip({ match, keyword }: { match: NoteMatch; keyword: string })
           <ExternalLink className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
         </div>
         <p className="text-xs leading-relaxed line-clamp-2">
-          {highlightText(match.snippet, keyword)}
+          {highlightText(match.snippet, keywords)}
         </p>
       </div>
     </a>
   );
 }
 
-export function DetailCard({ item, parents, index, keyword, language, score, noteMatches }: DetailCardProps) {
+export function DetailCard({ item, parents, index, keyword, language, score, noteMatches, material, functionFeature }: DetailCardProps) {
   const allItems = [...parents, item];
   const headingCode = parents.length > 0 ? parents[0].hsCode : item.hsCode;
   const isHighScore = score !== undefined && score > 80;
+  
+  // Combine all keywords for highlighting
+  const allKeywords = [keyword, material, functionFeature].filter(Boolean) as string[];
 
   return (
     <div
@@ -136,7 +145,7 @@ export function DetailCard({ item, parents, index, keyword, language, score, not
                 level !== 0 && (isMatch ? "text-foreground" : "text-muted-foreground")
               )}
             >
-            {isMatch ? highlightText(description, keyword) : description}
+            {isMatch ? highlightText(description, allKeywords) : description}
             </span>
           </div>
         );
@@ -148,7 +157,7 @@ export function DetailCard({ item, parents, index, keyword, language, score, not
           <div className="text-xs font-medium text-muted-foreground mb-2">Bằng chứng từ chú giải:</div>
           <div className="grid gap-2 md:grid-cols-2">
             {noteMatches.slice(0, 4).map((match, idx) => (
-              <EvidenceChip key={idx} match={match} keyword={keyword} />
+              <EvidenceChip key={idx} match={match} keywords={allKeywords} />
             ))}
           </div>
         </div>
