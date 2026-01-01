@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, memo } from "react";
 import { Link } from "react-router-dom";
 import { SearchBox } from "@/components/SearchBox";
 import { ResultsSection } from "@/components/ResultsSection";
@@ -19,6 +19,65 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { cn } from "@/lib/utils";
+
+// Moved outside Search component to prevent re-creation on every render
+interface AdvancedSearchFieldsProps {
+  compact?: boolean;
+  showAdvanced: boolean;
+  language: SearchLanguage;
+  material: string;
+  setMaterial: (value: string) => void;
+  functionFeature: string;
+  setFunctionFeature: (value: string) => void;
+}
+
+const AdvancedSearchFields = memo(function AdvancedSearchFields({
+  compact = false,
+  showAdvanced,
+  language,
+  material,
+  setMaterial,
+  functionFeature,
+  setFunctionFeature,
+}: AdvancedSearchFieldsProps) {
+  return (
+    <div className={cn("overflow-hidden transition-all duration-300 ease-in-out", 
+      showAdvanced ? "max-h-40 opacity-100" : "max-h-0 opacity-0"
+    )}>
+      <div className={cn(
+        "grid gap-4 pt-4",
+        compact ? "grid-cols-1 md:grid-cols-2" : "grid-cols-1 md:grid-cols-2 max-w-2xl mx-auto"
+      )}>
+        <div className="space-y-2">
+          <Label htmlFor={compact ? "material-compact" : "material"} className="text-sm text-muted-foreground flex items-center gap-2">
+            <span className="w-2 h-2 rounded-full bg-ocean"></span>
+            {language === 'vi' ? 'Thành phần/Chất liệu' : 'Material/Composition'}
+          </Label>
+          <Input
+            id={compact ? "material-compact" : "material"}
+            placeholder={language === 'vi' ? 'VD: nhựa, thép, cotton...' : 'E.g.: plastic, steel, cotton...'}
+            value={material}
+            onChange={(e) => setMaterial(e.target.value)}
+            className="bg-background"
+          />
+        </div>
+        <div className="space-y-2">
+          <Label htmlFor={compact ? "function-compact" : "function"} className="text-sm text-muted-foreground flex items-center gap-2">
+            <span className="w-2 h-2 rounded-full bg-amber"></span>
+            {language === 'vi' ? 'Chức năng/Công dụng' : 'Function/Feature'}
+          </Label>
+          <Input
+            id={compact ? "function-compact" : "function"}
+            placeholder={language === 'vi' ? 'VD: làm mát, vận chuyển...' : 'E.g.: cooling, transport...'}
+            value={functionFeature}
+            onChange={(e) => setFunctionFeature(e.target.value)}
+            className="bg-background"
+          />
+        </div>
+      </div>
+    </div>
+  );
+});
 
 const Search = () => {
   const [hsData, setHsData] = useState<HSItem[]>([]);
@@ -123,43 +182,6 @@ const Search = () => {
     );
   }
 
-  const AdvancedSearchFields = ({ compact = false }: { compact?: boolean }) => (
-    <div className={cn("overflow-hidden transition-all duration-300 ease-in-out", 
-      showAdvanced ? "max-h-40 opacity-100" : "max-h-0 opacity-0"
-    )}>
-      <div className={cn(
-        "grid gap-4 pt-4",
-        compact ? "grid-cols-1 md:grid-cols-2" : "grid-cols-1 md:grid-cols-2 max-w-2xl mx-auto"
-      )}>
-        <div className="space-y-2">
-          <Label htmlFor="material" className="text-sm text-muted-foreground flex items-center gap-2">
-            <span className="w-2 h-2 rounded-full bg-ocean"></span>
-            {language === 'vi' ? 'Thành phần/Chất liệu' : 'Material/Composition'}
-          </Label>
-          <Input
-            id="material"
-            placeholder={language === 'vi' ? 'VD: nhựa, thép, cotton...' : 'E.g.: plastic, steel, cotton...'}
-            value={material}
-            onChange={(e) => setMaterial(e.target.value)}
-            className="bg-background"
-          />
-        </div>
-        <div className="space-y-2">
-          <Label htmlFor="function" className="text-sm text-muted-foreground flex items-center gap-2">
-            <span className="w-2 h-2 rounded-full bg-amber"></span>
-            {language === 'vi' ? 'Chức năng/Công dụng' : 'Function/Feature'}
-          </Label>
-          <Input
-            id="function"
-            placeholder={language === 'vi' ? 'VD: làm mát, vận chuyển...' : 'E.g.: cooling, transport...'}
-            value={functionFeature}
-            onChange={(e) => setFunctionFeature(e.target.value)}
-            className="bg-background"
-          />
-        </div>
-      </div>
-    </div>
-  );
 
   return (
     <div className="min-h-screen bg-gradient-hero">
@@ -228,7 +250,14 @@ const Search = () => {
                 </Button>
               </div>
 
-              <AdvancedSearchFields />
+              <AdvancedSearchFields
+                showAdvanced={showAdvanced}
+                language={language}
+                material={material}
+                setMaterial={setMaterial}
+                functionFeature={functionFeature}
+                setFunctionFeature={setFunctionFeature}
+              />
             </div>
 
             {/* Example Searches */}
@@ -318,7 +347,15 @@ const Search = () => {
                 </Button>
               </div>
 
-              <AdvancedSearchFields compact />
+              <AdvancedSearchFields
+                compact
+                showAdvanced={showAdvanced}
+                language={language}
+                material={material}
+                setMaterial={setMaterial}
+                functionFeature={functionFeature}
+                setFunctionFeature={setFunctionFeature}
+              />
             </div>
 
             {/* Results Info */}
