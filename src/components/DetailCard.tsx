@@ -20,20 +20,22 @@ function highlightText(text: string, keywords: string[]) {
   const validKeywords = keywords.filter(k => k && k.trim());
   if (validKeywords.length === 0) return text;
   
-  // Create a regex that matches any of the keywords
+  // Create a regex that matches any of the keywords (escape special chars)
   const escapedKeywords = validKeywords.map(k => k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
   const regex = new RegExp(`(${escapedKeywords.join("|")})`, "gi");
   const parts = text.split(regex);
 
-  return parts.map((part, i) =>
-    regex.test(part) ? (
+  return parts.map((part, i) => {
+    // Use a fresh regex test for each part (avoid lastIndex issues with global flag)
+    const isMatch = new RegExp(`^(${escapedKeywords.join("|")})$`, "i").test(part);
+    return isMatch ? (
       <mark key={i} className="bg-amber/50 text-foreground px-0.5 rounded font-medium">
         {part}
       </mark>
     ) : (
       part
-    )
-  );
+    );
+  });
 }
 
 function getLevelStyles(level: number) {

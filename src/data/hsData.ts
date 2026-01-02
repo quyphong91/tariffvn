@@ -262,6 +262,8 @@ export function advancedSearchHSData(
   const tokens = tokenize(trimmedKeyword);
   const lowerMaterial = material?.trim().toLowerCase() || '';
   const lowerFunction = functionFeature?.trim().toLowerCase() || '';
+  const materialTokens = lowerMaterial ? tokenize(lowerMaterial) : [];
+  const functionTokens = lowerFunction ? tokenize(lowerFunction) : [];
 
   // Step 1: Search the Tariff
   const tariffMatches = new Map<string, SearchResultItem>();
@@ -311,16 +313,36 @@ export function advancedSearchHSData(
       }
     }
 
-    // Check material filter (+30 points)
-    if (lowerMaterial && desc.includes(lowerMaterial)) {
-      score += 30;
-      matches = true;
+    // Check material filter with token-based matching (+30 points)
+    if (materialTokens.length > 0) {
+      if (matchType === 'exact') {
+        if (desc.includes(lowerMaterial)) {
+          score += 30;
+          matches = true;
+        }
+      } else {
+        // Token-based: all material tokens must match
+        if (matchesAllTokens(desc, materialTokens)) {
+          score += 30;
+          matches = true;
+        }
+      }
     }
 
-    // Check function filter (+30 points)
-    if (lowerFunction && desc.includes(lowerFunction)) {
-      score += 30;
-      matches = true;
+    // Check function filter with token-based matching (+30 points)
+    if (functionTokens.length > 0) {
+      if (matchType === 'exact') {
+        if (desc.includes(lowerFunction)) {
+          score += 30;
+          matches = true;
+        }
+      } else {
+        // Token-based: all function tokens must match
+        if (matchesAllTokens(desc, functionTokens)) {
+          score += 30;
+          matches = true;
+        }
+      }
     }
 
     // Level 0 (headings) get bonus
