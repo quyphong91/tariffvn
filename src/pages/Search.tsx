@@ -84,7 +84,7 @@ const Search = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [loadError, setLoadError] = useState<string | null>(null);
   const [language, setLanguage] = useState<SearchLanguage>('vi');
-  const [matchType, setMatchType] = useState<SearchMatchType>('contains');
+  const [matchType, setMatchType] = useState<SearchMatchType>('tokens');
   const [showAdvanced, setShowAdvanced] = useState(false);
   const [material, setMaterial] = useState('');
   const [functionFeature, setFunctionFeature] = useState('');
@@ -149,7 +149,7 @@ const Search = () => {
 
   const handleReset = () => {
     setSearchResults(null);
-    setMatchType('contains');
+    setMatchType('tokens');
     setMaterial('');
     setFunctionFeature('');
     setShowAdvanced(false);
@@ -214,16 +214,12 @@ const Search = () => {
                   className="flex items-center gap-4"
                 >
                   <div className="flex items-center space-x-2">
-                    <RadioGroupItem value="contains" id="contains" />
-                    <Label htmlFor="contains" className="text-sm cursor-pointer">Chứa từ khoá</Label>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <RadioGroupItem value="phrase" id="phrase" />
-                    <Label htmlFor="phrase" className="text-sm cursor-pointer">Cụm từ chính xác</Label>
+                    <RadioGroupItem value="tokens" id="tokens" />
+                    <Label htmlFor="tokens" className="text-sm cursor-pointer">Chứa từ khoá</Label>
                   </div>
                   <div className="flex items-center space-x-2">
                     <RadioGroupItem value="exact" id="exact" />
-                    <Label htmlFor="exact" className="text-sm cursor-pointer">Từ chính xác</Label>
+                    <Label htmlFor="exact" className="text-sm cursor-pointer">Cụm từ chính xác</Label>
                   </div>
                 </RadioGroup>
               </div>
@@ -311,16 +307,12 @@ const Search = () => {
                   className="flex items-center gap-4"
                 >
                   <div className="flex items-center space-x-2">
-                    <RadioGroupItem value="contains" id="contains-results" />
-                    <Label htmlFor="contains-results" className="text-sm cursor-pointer">Chứa từ khoá</Label>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <RadioGroupItem value="phrase" id="phrase-results" />
-                    <Label htmlFor="phrase-results" className="text-sm cursor-pointer">Cụm từ chính xác</Label>
+                    <RadioGroupItem value="tokens" id="tokens-results" />
+                    <Label htmlFor="tokens-results" className="text-sm cursor-pointer">Chứa từ khoá</Label>
                   </div>
                   <div className="flex items-center space-x-2">
                     <RadioGroupItem value="exact" id="exact-results" />
-                    <Label htmlFor="exact-results" className="text-sm cursor-pointer">Từ chính xác</Label>
+                    <Label htmlFor="exact-results" className="text-sm cursor-pointer">Cụm từ chính xác</Label>
                   </div>
                 </RadioGroup>
               </div>

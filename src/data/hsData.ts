@@ -2,7 +2,8 @@ import * as XLSX from 'xlsx';
 import { searchNotesAdvanced, NoteMatch } from '@/utils/searchNotes';
 
 export type SearchLanguage = 'vi' | 'en';
-export type SearchMatchType = 'contains' | 'exact' | 'phrase';
+// 'tokens' = token-based search (default), 'exact' = strict exact phrase match
+export type SearchMatchType = 'tokens' | 'exact';
 
 export interface HSItem {
   level: number;
@@ -129,12 +130,23 @@ export function getDescription(item: HSItem, language: SearchLanguage): string {
   return item.description;
 }
 
+// Helper to tokenize and normalize a search query
+function tokenize(text: string): string[] {
+  return text.toLowerCase().split(/\s+/).filter(token => token.length > 0);
+}
+
+// Check if all tokens appear in text (token-based matching)
+function matchesAllTokens(text: string, tokens: string[]): boolean {
+  const lowerText = text.toLowerCase();
+  return tokens.every(token => lowerText.includes(token));
+}
+
 // Filter function for search (legacy - still used for basic search)
 export function searchHSData(
   hsData: HSItem[],
   keyword: string,
   language: SearchLanguage = 'vi',
-  matchType: SearchMatchType = 'contains'
+  matchType: SearchMatchType = 'tokens'
 ): {
   headings: HSItem[];
   detailed: SearchResultItem[];
@@ -145,6 +157,7 @@ export function searchHSData(
   }
 
   const lowerKeyword = trimmedKeyword.toLowerCase();
+  const tokens = tokenize(trimmedKeyword);
 
   const matchingItems = hsData.filter(item => {
     const desc = language === 'en' && item.descriptionEN 
@@ -152,20 +165,13 @@ export function searchHSData(
       : item.description.toLowerCase();
     const hsCode = item.hsCode.toLowerCase();
 
-    switch (matchType) {
-      case 'exact':
-        // Exact match: keyword matches a complete word
-        const wordPattern = new RegExp(`\\b${escapeRegex(lowerKeyword)}\\b`, 'i');
-        return wordPattern.test(hsCode) || wordPattern.test(desc);
-      
-      case 'phrase':
-        // Phrase match: all words in keyword must appear in order
-        return hsCode.includes(lowerKeyword) || desc.includes(lowerKeyword);
-      
-      case 'contains':
-      default:
-        // Contains: keyword appears anywhere (default behavior)
-        return hsCode.includes(lowerKeyword) || desc.includes(lowerKeyword);
+    if (matchType === 'exact') {
+      // Exact match: full phrase must appear exactly
+      return hsCode.includes(lowerKeyword) || desc.includes(lowerKeyword);
+    } else {
+      // Token-based: all tokens must appear (in any order)
+      const combinedText = `${hsCode} ${desc}`;
+      return matchesAllTokens(combinedText, tokens);
     }
   });
 
@@ -178,14 +184,14 @@ export function searchHSData(
     }
   });
 
-  // Get detailed results with parent chains and basic scoring
+  // Get detailed results with parent chains and scoring
   const detailed: SearchResultItem[] = matchingItems.map(item => ({
     item,
     parents: getParentChain(item, hsData),
-    score: calculateBasicScore(item, lowerKeyword, language),
+    score: calculateBasicScore(item, lowerKeyword, tokens, language),
   }));
 
-  // Sort by score descending
+  // Sort by score descending (exact phrase matches will have higher scores)
   detailed.sort((a, b) => b.score - a.score);
 
   return {
@@ -194,13 +200,18 @@ export function searchHSData(
   };
 }
 
-// Calculate basic score for tariff matches
-function calculateBasicScore(item: HSItem, lowerKeyword: string, language: SearchLanguage): number {
+// Calculate basic score for tariff matches with exact phrase priority
+function calculateBasicScore(item: HSItem, lowerKeyword: string, tokens: string[], language: SearchLanguage): number {
   let score = 0;
   const hsCode = item.hsCode.toLowerCase();
   const desc = language === 'en' && item.descriptionEN 
     ? item.descriptionEN.toLowerCase() 
     : item.description.toLowerCase();
+
+  // TOP PRIORITY: Exact phrase match (+200 points)
+  if (desc.includes(lowerKeyword) || hsCode.includes(lowerKeyword)) {
+    score += 200;
+  }
 
   // HS Code Match: +100 points if starts with keyword
   if (hsCode.startsWith(lowerKeyword)) {
@@ -209,10 +220,14 @@ function calculateBasicScore(item: HSItem, lowerKeyword: string, language: Searc
     score += 80;
   }
 
-  // Tariff Name Match: +50 points
+  // Tariff Name Match: +50 points for containing the full keyword
   if (desc.includes(lowerKeyword)) {
     score += 50;
   }
+
+  // Token match scoring: bonus for each token matched
+  const matchedTokens = tokens.filter(token => desc.includes(token) || hsCode.includes(token));
+  score += matchedTokens.length * 10;
 
   // Level 0 (headings) get bonus
   if (item.level === 0) {
@@ -222,7 +237,7 @@ function calculateBasicScore(item: HSItem, lowerKeyword: string, language: Searc
   return score;
 }
 
-// Advanced search with weighted scoring system
+// Advanced search with weighted scoring system (token-based by default)
 export function advancedSearchHSData(
   hsData: HSItem[],
   params: AdvancedSearchParams
@@ -235,7 +250,7 @@ export function advancedSearchHSData(
     material, 
     functionFeature, 
     language = 'vi', 
-    matchType = 'contains' 
+    matchType = 'tokens' 
   } = params;
 
   const trimmedKeyword = keyword.trim();
@@ -244,6 +259,7 @@ export function advancedSearchHSData(
   }
 
   const lowerKeyword = trimmedKeyword.toLowerCase();
+  const tokens = tokenize(trimmedKeyword);
   const lowerMaterial = material?.trim().toLowerCase() || '';
   const lowerFunction = functionFeature?.trim().toLowerCase() || '';
 
@@ -255,36 +271,44 @@ export function advancedSearchHSData(
       ? item.descriptionEN.toLowerCase() 
       : item.description.toLowerCase();
     const hsCode = item.hsCode.toLowerCase();
+    const combinedText = `${hsCode} ${desc}`;
 
     let matches = false;
     let score = 0;
 
-    // Check main keyword
-    switch (matchType) {
-      case 'exact':
-        const wordPattern = new RegExp(`\\b${escapeRegex(lowerKeyword)}\\b`, 'i');
-        if (wordPattern.test(hsCode)) {
-          matches = true;
-          score += 100;
-        } else if (wordPattern.test(desc)) {
-          matches = true;
-          score += 50;
+    // Check main keyword based on match type
+    if (matchType === 'exact') {
+      // Exact match: full phrase must appear exactly
+      if (hsCode.includes(lowerKeyword) || desc.includes(lowerKeyword)) {
+        matches = true;
+        score += 200;
+      }
+    } else {
+      // Token-based search (default): all tokens must appear
+      if (matchesAllTokens(combinedText, tokens)) {
+        matches = true;
+        
+        // TOP PRIORITY: Exact phrase match gets highest score (+200)
+        if (desc.includes(lowerKeyword) || hsCode.includes(lowerKeyword)) {
+          score += 200;
         }
-        break;
-      
-      case 'phrase':
-      case 'contains':
-      default:
+        
+        // HS Code bonus
         if (hsCode.startsWith(lowerKeyword)) {
-          matches = true;
           score += 100;
         } else if (hsCode.includes(lowerKeyword)) {
-          matches = true;
           score += 80;
-        } else if (desc.includes(lowerKeyword)) {
-          matches = true;
+        }
+        
+        // Description contains full phrase bonus
+        if (desc.includes(lowerKeyword)) {
           score += 50;
         }
+        
+        // Token match scoring: bonus for each token matched
+        const matchedTokens = tokens.filter(token => combinedText.includes(token));
+        score += matchedTokens.length * 10;
+      }
     }
 
     // Check material filter (+30 points)
