@@ -7,6 +7,7 @@ import { Button } from "./ui/button";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "./ui/collapsible";
 import { useEffect, useState, memo } from "react";
 import { Link } from "react-router-dom";
+import { highlightText } from "@/utils/highlight";
 
 interface ResultsSectionProps {
   headings: HSItem[];
@@ -203,7 +204,7 @@ export const ResultsSection = memo(function ResultsSection({ headings, detailed,
             {allExpanded ? "Thu gọn" : "Mở rộng"}
           </Button>
         </div>
-        
+
         <div className="space-y-6">
           {sortedChapters.map((chapter) => (
             <Collapsible key={chapter} open={openChapters[chapter] ?? true} onOpenChange={() => toggleChapter(chapter)} className="group space-y-3 border border-border rounded-lg p-4 bg-card/50">
@@ -226,7 +227,15 @@ export const ResultsSection = memo(function ResultsSection({ headings, detailed,
               <CollapsibleContent>
                 <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
                   {groupedHeadings[chapter].map((heading, index) => (
-                    <HeadingCard key={heading.hsCode} item={heading} index={index} language={language} />
+                    <HeadingCard
+                      key={heading.hsCode}
+                      item={heading}
+                      index={index}
+                      language={language}
+                      keyword={keyword}
+                      material={material}
+                      functionFeature={functionFeature}
+                    />
                   ))}
                 </div>
               </CollapsibleContent>
@@ -261,15 +270,15 @@ export const ResultsSection = memo(function ResultsSection({ headings, detailed,
         </div>
         <div className="space-y-6">
           {sortedDetailedHeadings.map((headingCode) => {
-            const headingItem = headings.find(h => h.hsCode === headingCode) || 
-                               groupedDetailed[headingCode][0]?.parents?.find(p => p.hsCode === headingCode);
+            const headingItem = headings.find(h => h.hsCode === headingCode) ||
+              groupedDetailed[headingCode][0]?.parents?.find(p => p.hsCode === headingCode);
             const headingDescription = headingItem ? getDescription(headingItem, language) : '';
-            
+
             return (
-              <Collapsible 
-                key={headingCode} 
-                open={openDetailedGroups[headingCode] ?? true} 
-                onOpenChange={() => toggleDetailedGroup(headingCode)} 
+              <Collapsible
+                key={headingCode}
+                open={openDetailedGroups[headingCode] ?? true}
+                onOpenChange={() => toggleDetailedGroup(headingCode)}
                 className="group space-y-3 border border-border rounded-lg p-4 bg-card/50"
               >
                 <CollapsibleTrigger className="w-full">
@@ -280,7 +289,7 @@ export const ResultsSection = memo(function ResultsSection({ headings, detailed,
                     </span>
                     {headingDescription && (
                       <span className="text-sm font-semibold text-muted-foreground line-clamp-1">
-                        {headingDescription}
+                        {highlightText(headingDescription, [keyword, material, functionFeature])}
                       </span>
                     )}
                     <span className="text-xs text-muted-foreground shrink-0">
@@ -324,3 +333,4 @@ export const ResultsSection = memo(function ResultsSection({ headings, detailed,
     prevProps.functionFeature === nextProps.functionFeature
   );
 });
+
