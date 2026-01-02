@@ -360,7 +360,7 @@ export function advancedSearchHSData(
   }
 
   // Step 2: Search Notes (EN and SEN)
-  const noteMatches = searchNotesAdvanced(trimmedKeyword, language, material, functionFeature);
+  const noteMatches = searchNotesAdvanced(trimmedKeyword, language, material, functionFeature, matchType);
 
   // Step 3: Group note matches by heading code
   const noteMatchesByHeading = new Map<string, NoteMatch[]>();

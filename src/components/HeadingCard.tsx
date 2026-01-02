@@ -1,20 +1,26 @@
 import { HSItem, SearchLanguage, getDescription } from "@/data/hsData";
 import { HSCodeBadge } from "./HSCodeBadge";
 import { FileText } from "lucide-react";
+import { highlightText } from "@/utils/highlight";
 
 interface HeadingCardProps {
   item: HSItem;
   index: number;
   language: SearchLanguage;
+  keyword: string;
+  material?: string;
+  functionFeature?: string;
 }
 
-export function HeadingCard({ item, index, language }: HeadingCardProps) {
+export function HeadingCard({ item, index, language, keyword, material, functionFeature }: HeadingCardProps) {
   const handleClick = () => {
     const element = document.getElementById(`detail-${item.hsCode}`);
     if (element) {
       element.scrollIntoView({ behavior: "smooth", block: "start" });
     }
   };
+
+  const description = getDescription(item, language);
 
   return (
     <button
@@ -31,10 +37,11 @@ export function HeadingCard({ item, index, language }: HeadingCardProps) {
             <HSCodeBadge code={item.hsCode} level={item.level} />
           </div>
           <p className="text-foreground font-medium leading-relaxed">
-            {getDescription(item, language)}
+            {highlightText(description, [keyword, material, functionFeature])}
           </p>
         </div>
       </div>
     </button>
   );
 }
+
