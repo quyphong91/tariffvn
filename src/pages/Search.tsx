@@ -1,6 +1,5 @@
 import { useState, useEffect, memo } from "react";
 import { Link } from "react-router-dom";
-import { SearchBox } from "@/components/SearchBox";
 import { ResultsSection } from "@/components/ResultsSection";
 import { LanguageToggle } from "@/components/LanguageToggle";
 import { Header } from "@/components/Header";
@@ -13,69 +12,97 @@ import {
   SearchMatchType,
   SearchResultItem 
 } from "@/data/hsData";
-import { ArrowRight, Loader2, Home, ChevronDown, Sparkles } from "lucide-react";
+import { ArrowRight, Loader2, Home } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
-import { cn } from "@/lib/utils";
 
-// Moved outside Search component to prevent re-creation on every render
-interface AdvancedSearchFieldsProps {
-  compact?: boolean;
-  showAdvanced: boolean;
+// Search fields component - now always visible
+interface SearchFieldsProps {
   language: SearchLanguage;
+  keyword: string;
+  setKeyword: (value: string) => void;
   material: string;
   setMaterial: (value: string) => void;
   functionFeature: string;
   setFunctionFeature: (value: string) => void;
+  onSearch: () => void;
 }
 
-const AdvancedSearchFields = memo(function AdvancedSearchFields({
-  compact = false,
-  showAdvanced,
+const SearchFields = memo(function SearchFields({
   language,
+  keyword,
+  setKeyword,
   material,
   setMaterial,
   functionFeature,
   setFunctionFeature,
-}: AdvancedSearchFieldsProps) {
+  onSearch,
+}: SearchFieldsProps) {
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (keyword.trim()) {
+      onSearch();
+    }
+  };
+
   return (
-    <div className={cn("overflow-hidden transition-all duration-300 ease-in-out", 
-      showAdvanced ? "max-h-40 opacity-100" : "max-h-0 opacity-0"
-    )}>
-      <div className={cn(
-        "grid gap-4 pt-4",
-        compact ? "grid-cols-1 md:grid-cols-2" : "grid-cols-1 md:grid-cols-2 max-w-2xl mx-auto"
-      )}>
-        <div className="space-y-2">
-          <Label htmlFor={compact ? "material-compact" : "material"} className="text-sm text-muted-foreground flex items-center gap-2">
-            <span className="w-2 h-2 rounded-full bg-ocean"></span>
-            {language === 'vi' ? 'Thành phần/Chất liệu' : 'Material/Composition'}
-          </Label>
-          <Input
-            id={compact ? "material-compact" : "material"}
-            placeholder={language === 'vi' ? 'VD: nhựa, thép, cotton...' : 'E.g.: plastic, steel, cotton...'}
-            value={material}
-            onChange={(e) => setMaterial(e.target.value)}
-            className="bg-background"
-          />
-        </div>
-        <div className="space-y-2">
-          <Label htmlFor={compact ? "function-compact" : "function"} className="text-sm text-muted-foreground flex items-center gap-2">
-            <span className="w-2 h-2 rounded-full bg-amber"></span>
-            {language === 'vi' ? 'Chức năng/Công dụng' : 'Function/Feature'}
-          </Label>
-          <Input
-            id={compact ? "function-compact" : "function"}
-            placeholder={language === 'vi' ? 'VD: làm mát, vận chuyển...' : 'E.g.: cooling, transport...'}
-            value={functionFeature}
-            onChange={(e) => setFunctionFeature(e.target.value)}
-            className="bg-background"
-          />
-        </div>
+    <form onSubmit={handleSubmit} className="w-full max-w-2xl mx-auto space-y-4">
+      {/* Main keyword search */}
+      <div className="space-y-2">
+        <Label htmlFor="keyword" className="text-sm text-muted-foreground">
+          {language === 'vi' ? 'Mô tả hàng hóa' : 'Goods Description'}
+        </Label>
+        <Input
+          id="keyword"
+          type="text"
+          value={keyword}
+          onChange={(e) => setKeyword(e.target.value)}
+          placeholder={language === 'vi' ? 'Nhập từ khóa mô tả hàng hóa...' : 'Enter goods description...'}
+          className="h-14 text-base bg-card border-border shadow-card rounded-xl focus-visible:ring-2 focus-visible:ring-primary transition-shadow"
+        />
       </div>
-    </div>
+
+      {/* Material/Composition field */}
+      <div className="space-y-2">
+        <Label htmlFor="material" className="text-sm text-muted-foreground flex items-center gap-2">
+          <span className="w-2 h-2 rounded-full bg-ocean"></span>
+          {language === 'vi' ? 'Thành phần/Chất liệu' : 'Material/Composition'}
+        </Label>
+        <Input
+          id="material"
+          placeholder={language === 'vi' ? 'VD: nhựa, thép, cotton...' : 'E.g.: plastic, steel, cotton...'}
+          value={material}
+          onChange={(e) => setMaterial(e.target.value)}
+          className="h-14 text-base bg-card border-border shadow-card rounded-xl focus-visible:ring-2 focus-visible:ring-primary transition-shadow"
+        />
+      </div>
+
+      {/* Function/Feature field */}
+      <div className="space-y-2">
+        <Label htmlFor="function" className="text-sm text-muted-foreground flex items-center gap-2">
+          <span className="w-2 h-2 rounded-full bg-amber"></span>
+          {language === 'vi' ? 'Chức năng/Công dụng' : 'Function/Feature'}
+        </Label>
+        <Input
+          id="function"
+          placeholder={language === 'vi' ? 'VD: làm mát, vận chuyển...' : 'E.g.: cooling, transport...'}
+          value={functionFeature}
+          onChange={(e) => setFunctionFeature(e.target.value)}
+          className="h-14 text-base bg-card border-border shadow-card rounded-xl focus-visible:ring-2 focus-visible:ring-primary transition-shadow"
+        />
+      </div>
+
+      {/* Search button */}
+      <Button
+        type="submit"
+        size="lg"
+        className="w-full h-14 rounded-xl font-semibold shadow-soft hover:shadow-glow transition-all duration-300"
+      >
+        {language === 'vi' ? 'Tìm kiếm' : 'Search'}
+      </Button>
+    </form>
   );
 });
 
@@ -85,7 +112,7 @@ const Search = () => {
   const [loadError, setLoadError] = useState<string | null>(null);
   const [language, setLanguage] = useState<SearchLanguage>('vi');
   const [matchType, setMatchType] = useState<SearchMatchType>('tokens');
-  const [showAdvanced, setShowAdvanced] = useState(false);
+  const [keyword, setKeyword] = useState('');
   const [material, setMaterial] = useState('');
   const [functionFeature, setFunctionFeature] = useState('');
   const [searchResults, setSearchResults] = useState<{
@@ -108,15 +135,28 @@ const Search = () => {
       });
   }, []);
 
-  const handleSearch = (keyword: string) => {
+  const handleSearch = () => {
+    if (!keyword.trim()) return;
     const results = advancedSearchHSData(hsData, {
-      keyword,
+      keyword: keyword.trim(),
       material: material.trim() || undefined,
       functionFeature: functionFeature.trim() || undefined,
       language,
       matchType,
     });
-    setSearchResults({ ...results, keyword, matchType });
+    setSearchResults({ ...results, keyword: keyword.trim(), matchType });
+  };
+
+  const handleQuickSearch = (term: string) => {
+    setKeyword(term);
+    const results = advancedSearchHSData(hsData, {
+      keyword: term,
+      material: material.trim() || undefined,
+      functionFeature: functionFeature.trim() || undefined,
+      language,
+      matchType,
+    });
+    setSearchResults({ ...results, keyword: term, matchType });
   };
 
   const handleLanguageChange = (newLanguage: SearchLanguage) => {
@@ -149,10 +189,10 @@ const Search = () => {
 
   const handleReset = () => {
     setSearchResults(null);
+    setKeyword('');
     setMatchType('tokens');
     setMaterial('');
     setFunctionFeature('');
-    setShowAdvanced(false);
   };
 
   if (isLoading) {
@@ -201,12 +241,12 @@ const Search = () => {
         {!searchResults ? (
           /* Landing View */
           <div className="max-w-4xl mx-auto pt-4 md:pt-8">
-            {/* Language Toggle & Match Options & Search Box */}
+            {/* Language Toggle & Match Options & Search Fields */}
             <div className="mb-12 animate-fade-up">
               <LanguageToggle language={language} onLanguageChange={handleLanguageChange} />
               
               {/* Match Type Options */}
-              <div className="flex items-center justify-center gap-6 mb-4">
+              <div className="flex items-center justify-center gap-6 mb-6">
                 <span className="text-sm text-muted-foreground">Kiểu tìm kiếm:</span>
                 <RadioGroup
                   value={matchType}
@@ -224,35 +264,15 @@ const Search = () => {
                 </RadioGroup>
               </div>
 
-              <SearchBox onSearch={handleSearch} />
-
-              {/* Advanced Search Toggle */}
-              <div className="flex justify-center mt-4">
-                <Button
-                  variant="ghost"
-                  size="sm"
-                  onClick={() => setShowAdvanced(!showAdvanced)}
-                  className={cn(
-                    "gap-2 text-muted-foreground hover:text-primary transition-colors",
-                    showAdvanced && "text-primary"
-                  )}
-                >
-                  <Sparkles className="w-4 h-4" />
-                  {language === 'vi' ? 'Thêm thông tin hàng hóa' : 'Advanced Search'}
-                  <ChevronDown className={cn(
-                    "w-4 h-4 transition-transform duration-200",
-                    showAdvanced && "rotate-180"
-                  )} />
-                </Button>
-              </div>
-
-              <AdvancedSearchFields
-                showAdvanced={showAdvanced}
+              <SearchFields
                 language={language}
+                keyword={keyword}
+                setKeyword={setKeyword}
                 material={material}
                 setMaterial={setMaterial}
                 functionFeature={functionFeature}
                 setFunctionFeature={setFunctionFeature}
+                onSearch={handleSearch}
               />
             </div>
 
@@ -269,7 +289,7 @@ const Search = () => {
                 ).map((term) => (
                   <button
                     key={term}
-                    onClick={() => handleSearch(term)}
+                    onClick={() => handleQuickSearch(term)}
                     className="inline-flex items-center gap-1 px-4 py-2 rounded-full bg-secondary text-secondary-foreground text-sm font-medium hover:bg-primary hover:text-primary-foreground transition-colors"
                   >
                     {term}
@@ -299,7 +319,7 @@ const Search = () => {
               <LanguageToggle language={language} onLanguageChange={handleLanguageChange} />
               
               {/* Match Type Options */}
-              <div className="flex items-center justify-center gap-6 mb-4">
+              <div className="flex items-center justify-center gap-6 mb-6">
                 <span className="text-sm text-muted-foreground">Kiểu tìm kiếm:</span>
                 <RadioGroup
                   value={matchType}
@@ -317,36 +337,15 @@ const Search = () => {
                 </RadioGroup>
               </div>
 
-              <SearchBox onSearch={handleSearch} initialValue={searchResults.keyword} />
-
-              {/* Advanced Search Toggle */}
-              <div className="flex justify-center mt-4">
-                <Button
-                  variant="ghost"
-                  size="sm"
-                  onClick={() => setShowAdvanced(!showAdvanced)}
-                  className={cn(
-                    "gap-2 text-muted-foreground hover:text-primary transition-colors",
-                    showAdvanced && "text-primary"
-                  )}
-                >
-                  <Sparkles className="w-4 h-4" />
-                  {language === 'vi' ? 'Thêm thông tin hàng hóa' : 'Advanced Search'}
-                  <ChevronDown className={cn(
-                    "w-4 h-4 transition-transform duration-200",
-                    showAdvanced && "rotate-180"
-                  )} />
-                </Button>
-              </div>
-
-              <AdvancedSearchFields
-                compact
-                showAdvanced={showAdvanced}
+              <SearchFields
                 language={language}
+                keyword={keyword}
+                setKeyword={setKeyword}
                 material={material}
                 setMaterial={setMaterial}
                 functionFeature={functionFeature}
                 setFunctionFeature={setFunctionFeature}
+                onSearch={handleSearch}
               />
             </div>
 
