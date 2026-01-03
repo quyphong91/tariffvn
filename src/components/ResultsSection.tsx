@@ -46,6 +46,15 @@ export const ResultsSection = memo(function ResultsSection({ headings, detailed,
     }
   };
 
+  // Calculate max score per heading (4-digit code) from detailed results
+  const headingMaxScores = detailed.reduce((acc, result) => {
+    const headingCode = result.item.hsCode?.substring(0, 4) || result.parents[0]?.hsCode?.substring(0, 4) || '';
+    if (headingCode) {
+      acc[headingCode] = Math.max(acc[headingCode] || 0, result.score || 0);
+    }
+    return acc;
+  }, {} as Record<string, number>);
+
   // Group headings by first 2 digits (Chapter)
   const groupedHeadings = headings.reduce((acc, heading) => {
     const chapter = heading.hsCode.substring(0, 2);
@@ -235,6 +244,7 @@ export const ResultsSection = memo(function ResultsSection({ headings, detailed,
                       keyword={keyword}
                       material={material}
                       functionFeature={functionFeature}
+                      maxScore={headingMaxScores[heading.hsCode]}
                     />
                   ))}
                 </div>
