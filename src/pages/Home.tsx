@@ -20,7 +20,7 @@ const Home = () => {
               Tra cứu HS code <span className="text-gradient"> nhanh chóng </span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto animate-fade-up" style={{ animationDelay: "100ms" }}>
-              HSTC là công cụ hỗ trợ bạn tra cứu mã số HS code dựa trên mô tả của hàng hoá
+              HSTC là công cụ hỗ trợ tra cứu mã số HS code nhanh chóng và toàn diện tích hợp các thông tin về chú giải
             </p>
 
             {/* CTA Button */}
@@ -38,7 +38,7 @@ const Home = () => {
             <div className="mt-8 max-w-2xl mx-auto animate-fade-up" style={{ animationDelay: "300ms" }}>
               <div className="p-4 rounded-xl bg-muted/50 border border-border">
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  Bạn nên tham khảo thêm các Chú giải và Tuyển tập ý kiến phân loại sau khi lọc các mã HS code dựa trên mô tả để xác định mã HS code phù hợp nhất với hàng hoá.
+                  Lưu ý: Các kết quả tìm kiếm của công cụ chỉ mang tính chất hỗ trợ tra cứu và tham khảo, không có giá trị pháp lý. Hiện page cũng đang thu thập và xây dựng dữ liệu về các kết quả phân tích phân loại từ cơ quan Hải quan để các bạn có thêm nguồn thông tin để tham khảo.
                 </p>
               </div>
             </div>
@@ -66,7 +66,7 @@ const Home = () => {
             />
             <FeatureCard
               title="Quy tắc phân loại hàng hóa và xác định HS code"
-              description="6 Quy tắc tổng quát giải thích cách xác định HS code và phân loại hàng hoá theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam"
+              description="6 Quy tắc tổng quát giải thích cách xác định HS code và phân loại hàng hoá"
               icon={Scale}
               to="/gri-rules"
               iconBgClass="bg-primary/10"
