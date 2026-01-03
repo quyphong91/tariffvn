@@ -28,11 +28,11 @@ function getRankingLevel(score?: number): 'high' | 'medium' | 'low' | null {
 function getRankingColor(level: 'high' | 'medium' | 'low' | null): string {
   switch (level) {
     case 'high':
-      return 'bg-green-500'; // Green for best matches
+      return 'bg-red-500'; // Red for best matches
     case 'medium':
       return 'bg-amber-500'; // Amber for medium matches
     case 'low':
-      return 'bg-blue-400'; // Blue for lower matches
+      return 'bg-gray-400'; // Gray for lower matches
     default:
       return '';
   }
