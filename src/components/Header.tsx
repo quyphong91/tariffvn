@@ -18,9 +18,6 @@ export const Header = () => {
 
         {/* Buy Me a Coffee */}
         <div className="flex items-center gap-3">
-          <span className="hidden md:inline text-sm text-muted-foreground">
-            Nếu thấy hữu ích thì thỉnh thoảng mua cà phê cho page nhé
-          </span>
           <a
             href="https://buymeacoffee.com/zephr"
             target="_blank"
