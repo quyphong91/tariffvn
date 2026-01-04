@@ -148,11 +148,17 @@ export function searchTariffData(
   const trimmed = keyword.trim().toLowerCase();
   if (!trimmed) return [];
 
-  // Find matching items first
+  // Exact match logic - HS code must start with the search term, or description must contain exact phrase
   const matchedItems = data.filter(item => {
-    const hsMatch = item.hsCode.toLowerCase().includes(trimmed);
+    // For HS code: exact match (starts with the search term)
+    const hsCodeClean = item.hsCode.replace(/\./g, '').toLowerCase();
+    const searchClean = trimmed.replace(/\./g, '');
+    const hsMatch = hsCodeClean.startsWith(searchClean) || item.hsCode.toLowerCase().startsWith(trimmed);
+    
+    // For description: exact phrase match (not token-based)
     const vnMatch = item.descriptionVN.toLowerCase().includes(trimmed);
     const enMatch = item.descriptionEN.toLowerCase().includes(trimmed);
+    
     return hsMatch || vnMatch || enMatch;
   });
 
