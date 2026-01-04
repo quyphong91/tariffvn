@@ -15,24 +15,6 @@ export const Header = () => {
             <span className="text-xs text-muted-foreground">Công cụ tra cứu HS code</span>
           </div>
         </Link>
-
-        {/* Buy Me a Coffee */}
-        <div className="flex items-center gap-3">
-          <a
-            href="https://buymeacoffee.com/zephr"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Button
-              variant="outline"
-              size="sm"
-              className="gap-2 border-amber/50 text-amber hover:bg-amber/10 hover:text-orange"
-            >
-              <Coffee className="w-4 h-4" />
-              <span className="hidden sm:inline">Tặng cà phê cho page</span>
-            </Button>
-          </a>
-        </div>
       </div>
     </header>
   );
