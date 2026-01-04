@@ -1,9 +1,9 @@
-import { HSItem, SearchLanguage, getDescription } from "@/data/hsData";
+import { HSItem, SearchLanguage, getDescription, SearchMatchType } from "@/data/hsData";
 import { NoteMatch } from "@/utils/searchNotes";
 import { HSCodeBadge } from "./HSCodeBadge";
 import { ChevronRight, FileText, BookOpen, Sparkles, ExternalLink } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { highlightText } from "@/utils/highlight";
+import { highlightText, HighlightMatchType } from "@/utils/highlight";
 
 interface DetailCardProps {
   item: HSItem;
@@ -15,6 +15,7 @@ interface DetailCardProps {
   noteMatches?: NoteMatch[];
   material?: string;
   functionFeature?: string;
+  matchType?: SearchMatchType;
 }
 
 
@@ -37,7 +38,7 @@ function getChapterFromHsCode(hsCode: string): string {
   return cleaned.substring(0, 2);
 }
 
-function EvidenceChip({ match, keywords }: { match: NoteMatch; keywords: string[] }) {
+function EvidenceChip({ match, keywords, matchType = 'tokens' }: { match: NoteMatch; keywords: string[]; matchType?: SearchMatchType }) {
   const isSEN = match.source === 'sen';
   const Icon = isSEN ? FileText : BookOpen;
   const chapterNumber = getChapterFromHsCode(match.hsCode);
@@ -67,14 +68,14 @@ function EvidenceChip({ match, keywords }: { match: NoteMatch; keywords: string[
           <ExternalLink className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
         </div>
         <p className="text-xs leading-relaxed line-clamp-2">
-          {highlightText(match.snippet, keywords)}
+          {highlightText(match.snippet, keywords, matchType)}
         </p>
       </div>
     </a>
   );
 }
 
-export function DetailCard({ item, parents, index, keyword, language, score, noteMatches, material, functionFeature }: DetailCardProps) {
+export function DetailCard({ item, parents, index, keyword, language, score, noteMatches, material, functionFeature, matchType = 'tokens' }: DetailCardProps) {
   const allItems = [...parents, item];
   const headingCode = parents.length > 0 ? parents[0].hsCode : item.hsCode;
   const isHighScore = score !== undefined && score > 80;
@@ -127,7 +128,7 @@ export function DetailCard({ item, parents, index, keyword, language, score, not
                 level !== 0 && (isMatch ? "text-foreground" : "text-muted-foreground")
               )}
             >
-            {isMatch ? highlightText(description, allKeywords) : description}
+              {isMatch ? highlightText(description, allKeywords, matchType) : description}
             </span>
           </div>
         );
@@ -139,7 +140,7 @@ export function DetailCard({ item, parents, index, keyword, language, score, not
           <div className="text-xs font-medium text-muted-foreground mb-2">Bằng chứng từ chú giải:</div>
           <div className="grid gap-2 md:grid-cols-2">
             {noteMatches.slice(0, 4).map((match, idx) => (
-              <EvidenceChip key={idx} match={match} keywords={allKeywords} />
+              <EvidenceChip key={idx} match={match} keywords={allKeywords} matchType={matchType} />
             ))}
           </div>
         </div>
