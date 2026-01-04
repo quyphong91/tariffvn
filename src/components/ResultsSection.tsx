@@ -1,4 +1,4 @@
-import { HSItem, SearchLanguage, getDescription, SearchResultItem } from "@/data/hsData";
+import { HSItem, SearchLanguage, getDescription, SearchResultItem, SearchMatchType } from "@/data/hsData";
 import { chapterNames } from "@/data/chapterNames";
 import { HeadingCard } from "./HeadingCard";
 import { DetailCard } from "./DetailCard";
@@ -7,7 +7,7 @@ import { Button } from "./ui/button";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "./ui/collapsible";
 import { useEffect, useState, memo } from "react";
 import { Link } from "react-router-dom";
-import { highlightText } from "@/utils/highlight";
+import { highlightText, HighlightMatchType } from "@/utils/highlight";
 
 interface ResultsSectionProps {
   headings: HSItem[];
@@ -16,9 +16,10 @@ interface ResultsSectionProps {
   language: SearchLanguage;
   material?: string;
   functionFeature?: string;
+  matchType?: SearchMatchType;
 }
 
-export const ResultsSection = memo(function ResultsSection({ headings, detailed, keyword, language, material, functionFeature }: ResultsSectionProps) {
+export const ResultsSection = memo(function ResultsSection({ headings, detailed, keyword, language, material, functionFeature, matchType = 'tokens' }: ResultsSectionProps) {
   const [showFloatingButton, setShowFloatingButton] = useState(false);
   const [allExpanded, setAllExpanded] = useState(true);
   const [openChapters, setOpenChapters] = useState<Record<string, boolean>>({});
@@ -245,6 +246,7 @@ export const ResultsSection = memo(function ResultsSection({ headings, detailed,
                       material={material}
                       functionFeature={functionFeature}
                       maxScore={headingMaxScores[heading.hsCode]}
+                      matchType={matchType}
                     />
                   ))}
                 </div>
@@ -299,7 +301,7 @@ export const ResultsSection = memo(function ResultsSection({ headings, detailed,
                     </span>
                     {headingDescription && (
                       <span className="text-sm font-semibold text-muted-foreground line-clamp-1">
-                        {highlightText(headingDescription, [keyword, material, functionFeature])}
+                        {highlightText(headingDescription, [keyword, material, functionFeature], matchType)}
                       </span>
                     )}
                     <span className="text-xs text-muted-foreground shrink-0">
@@ -321,6 +323,7 @@ export const ResultsSection = memo(function ResultsSection({ headings, detailed,
                         noteMatches={result.noteMatches}
                         material={material}
                         functionFeature={functionFeature}
+                        matchType={matchType}
                       />
                     ))}
                   </div>
@@ -340,7 +343,8 @@ export const ResultsSection = memo(function ResultsSection({ headings, detailed,
     prevProps.keyword === nextProps.keyword &&
     prevProps.language === nextProps.language &&
     prevProps.material === nextProps.material &&
-    prevProps.functionFeature === nextProps.functionFeature
+    prevProps.functionFeature === nextProps.functionFeature &&
+    prevProps.matchType === nextProps.matchType
   );
 });
 

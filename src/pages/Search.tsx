@@ -376,6 +376,7 @@ const Search = () => {
               language={language}
               material={material}
               functionFeature={functionFeature}
+              matchType={searchResults.matchType}
             />
           </div>
         )}

@@ -1,7 +1,7 @@
-import { HSItem, SearchLanguage, getDescription } from "@/data/hsData";
+import { HSItem, SearchLanguage, getDescription, SearchMatchType } from "@/data/hsData";
 import { HSCodeBadge } from "./HSCodeBadge";
 import { FileText } from "lucide-react";
-import { highlightText } from "@/utils/highlight";
+import { highlightText, HighlightMatchType } from "@/utils/highlight";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "./ui/tooltip";
 
 interface HeadingCardProps {
@@ -12,6 +12,7 @@ interface HeadingCardProps {
   material?: string;
   functionFeature?: string;
   maxScore?: number;
+  matchType?: SearchMatchType;
 }
 
 // Ranking thresholds based on scoring system
@@ -51,7 +52,7 @@ function getRankingLabel(level: 'high' | 'medium' | 'low' | null): string {
   }
 }
 
-export function HeadingCard({ item, index, language, keyword, material, functionFeature, maxScore }: HeadingCardProps) {
+export function HeadingCard({ item, index, language, keyword, material, functionFeature, maxScore, matchType = 'tokens' }: HeadingCardProps) {
   const handleClick = () => {
     const element = document.getElementById(`detail-${item.hsCode}`);
     if (element) {
@@ -93,7 +94,7 @@ export function HeadingCard({ item, index, language, keyword, material, function
             <HSCodeBadge code={item.hsCode} level={item.level} />
           </div>
           <p className="text-foreground font-medium leading-relaxed">
-            {highlightText(description, [keyword, material, functionFeature])}
+            {highlightText(description, [keyword, material, functionFeature], matchType)}
           </p>
         </div>
       </div>
