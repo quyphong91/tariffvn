@@ -66,8 +66,7 @@ const SearchFields = memo(function SearchFields({
 
       {/* Material/Composition field */}
       <div className="space-y-2">
-        <Label htmlFor="material" className="text-sm text-muted-foreground flex items-center gap-2">
-          <span className="w-2 h-2 rounded-full bg-ocean"></span>
+        <Label htmlFor="material" className="text-sm text-muted-foreground">
           {language === 'vi' ? 'Thành phần/Chất liệu' : 'Material/Composition'}
         </Label>
         <Input
@@ -81,8 +80,7 @@ const SearchFields = memo(function SearchFields({
 
       {/* Function/Feature field */}
       <div className="space-y-2">
-        <Label htmlFor="function" className="text-sm text-muted-foreground flex items-center gap-2">
-          <span className="w-2 h-2 rounded-full bg-amber"></span>
+        <Label htmlFor="function" className="text-sm text-muted-foreground">
           {language === 'vi' ? 'Chức năng/Công dụng' : 'Function/Feature'}
         </Label>
         <Input
