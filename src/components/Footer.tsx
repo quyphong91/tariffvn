@@ -75,7 +75,7 @@ export const Footer = () => {
           </Dialog>
         </div>
         <p className="mt-4 text-xs text-muted-foreground/60">
-          © 2025 Tra cứu HS code. Dữ liệu tham khảo từ Danh mục hàng hóa xuất khẩu nhập khẩu Việt Nam theo Thông tư 31/2022/TT-BTC.
+          © 2026 HSTC. Dữ liệu tham khảo từ Danh mục hàng hóa xuất khẩu nhập khẩu Việt Nam theo Thông tư 31/2022/TT-BTC.
         </p>
       </div>
     </footer>
