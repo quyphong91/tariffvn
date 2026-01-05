@@ -319,11 +319,6 @@ const TariffLookup = () => {
           {/* Results Section */}
           {hasSearched && (
             <div className="space-y-4">
-              <div className="flex items-center justify-between">
-                <p className="text-sm text-muted-foreground">
-                  Tìm thấy <span className="font-semibold text-foreground">{searchResults.length}</span> kết quả
-                </p>
-              </div>
 
               {searchResults.length === 0 ? (
                 <Card>
