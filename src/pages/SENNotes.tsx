@@ -264,7 +264,7 @@ const SENNotes = () => {
           
           {/* External link */}
           <a
-            href="https://drive.google.com/drive/folders/1Rht9vq4N0n4FkopMyEZlGzOTAFcKLaEC?usp=sharing"
+            href="https://docs.google.com/document/d/1QQnA_PCmJDmmbZaghnrTdgsVqNt-NDNy/edit"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-secondary text-secondary-foreground hover:bg-secondary/80 transition-colors"
