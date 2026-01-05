@@ -36,20 +36,20 @@ const WCOCompendium = () => {
               <Globe className="w-8 h-8 text-orange" />
             </div>
             <h2 className="text-xl font-semibold text-foreground mb-4">
-              Nội dung đang được cập nhật
+              Vui lòng xem bản PDF
             </h2>
             <p className="text-muted-foreground mb-6 max-w-lg mx-auto">
-              Các ý kiến phân loại (Classification Opinions) của WCO sẽ được cập nhật trong thời gian tới. Đây là nguồn tham khảo quan trọng cho các hàng hoá mới, phức tạp khi phân loại.
+              Do dữ liệu về tuyển tập gồm nhiều hình ảnh minh họa, vui lòng xem bản PDF để đảm bảo chất lượng nội dung tốt nhất.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
-                href="https://www.wcoomd.org/en/topics/nomenclature/instrument-and-tools/tools-to-assist-with-the-classification-in-the-hs/compendium.aspx"
+                href="https://drive.google.com/drive/u/2/folders/1w8exi_B7ns4bTqZdf3l066eiT6qlP9NN"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-secondary text-secondary-foreground hover:bg-secondary/80 transition-colors"
               >
                 <ExternalLink className="w-4 h-4" />
-                Tuyển tập tại trang web chính thức của WCO
+                Xem Tuyển tập ý kiến phân loại WCO
               </a>
               <Link
                 to="/search"
