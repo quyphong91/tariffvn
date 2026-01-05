@@ -93,7 +93,7 @@ export function DetailCard({ item, parents, index, keyword, language, score, not
       {isHighScore && (
         <div className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-amber/20 to-ocean/20 border-b border-border">
           <Sparkles className="w-4 h-4 text-amber" />
-          <span className="text-xs font-medium text-foreground">Kết quả phù hợp nhất</span>
+          <span className="text-xs font-medium text-foreground">Kết quả chứa nhiều từ khoá phù hợp</span>
           {score !== undefined && (
             <span className="ml-auto text-xs text-muted-foreground">Điểm: {score}</span>
           )}
