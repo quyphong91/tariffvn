@@ -234,6 +234,9 @@ const TariffLookup = () => {
             <h1 className="text-2xl md:text-3xl font-bold text-foreground mb-2">
               Tra cứu thuế nhập khẩu
             </h1>
+            <p className="text-sm text-primary font-medium mb-1">
+              (Đã cập nhật biểu thuế 2026 theo Chi cục Hải quan Khu vực VIII)
+            </p>
             <p className="text-muted-foreground">
               Tìm kiếm theo mã HS Code (8 chữ số) hoặc mô tả hàng hóa
             </p>
