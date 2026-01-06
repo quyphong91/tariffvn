@@ -1,4 +1,5 @@
 import { useState, useEffect, useMemo, useCallback } from "react";
+import { useSearchParams } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -46,6 +47,7 @@ import { useIsMobile } from "@/hooks/use-mobile";
 import { cn } from "@/lib/utils";
 
 const TariffLookup = () => {
+  const [searchParams] = useSearchParams();
   const [data, setData] = useState<TariffItem[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -57,14 +59,27 @@ const TariffLookup = () => {
   );
   const [activeMarket, setActiveMarket] = useState("default");
   const [copiedCode, setCopiedCode] = useState<string | null>(null);
+  const [initialSearchDone, setInitialSearchDone] = useState(false);
   const isMobile = useIsMobile();
 
+  // Get query param from URL
+  const queryFromUrl = searchParams.get('q');
   useEffect(() => {
     loadTariffData()
-      .then(setData)
+      .then((loadedData) => {
+        setData(loadedData);
+        // If there's a query param in URL, set it and trigger search after data loads
+        if (queryFromUrl && !initialSearchDone) {
+          setSearchQuery(queryFromUrl);
+          const results = searchTariffData(loadedData, queryFromUrl);
+          setSearchResults(results);
+          setHasSearched(true);
+          setInitialSearchDone(true);
+        }
+      })
       .catch((err) => setError(err.message))
       .finally(() => setLoading(false));
-  }, []);
+  }, [queryFromUrl, initialSearchDone]);
 
   const handleSearch = useCallback(() => {
     if (!searchQuery.trim()) {

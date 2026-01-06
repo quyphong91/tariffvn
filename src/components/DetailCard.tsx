@@ -1,9 +1,11 @@
 import { HSItem, SearchLanguage, getDescription, SearchMatchType } from "@/data/hsData";
 import { NoteMatch } from "@/utils/searchNotes";
 import { HSCodeBadge } from "./HSCodeBadge";
-import { ChevronRight, FileText, BookOpen, Sparkles, ExternalLink } from "lucide-react";
+import { ChevronRight, FileText, BookOpen, Sparkles, ExternalLink, Calculator } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { highlightText, HighlightMatchType } from "@/utils/highlight";
+import { useNavigate } from "react-router-dom";
+import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 
 interface DetailCardProps {
   item: HSItem;
@@ -76,6 +78,7 @@ function EvidenceChip({ match, keywords, matchType = 'tokens' }: { match: NoteMa
 }
 
 export function DetailCard({ item, parents, index, keyword, language, score, noteMatches, material, functionFeature, matchType = 'tokens' }: DetailCardProps) {
+  const navigate = useNavigate();
   const allItems = [...parents, item];
   const headingCode = parents.length > 0 ? parents[0].hsCode : item.hsCode;
   const isHighScore = score !== undefined && score > 80;
@@ -83,6 +86,15 @@ export function DetailCard({ item, parents, index, keyword, language, score, not
   // Combine all keywords for highlighting
   const allKeywords = [keyword, material, functionFeature].filter(Boolean) as string[];
 
+  // Handle click to navigate to tariff lookup with the HS code
+  const handleTariffLookup = (hsCode: string, e: React.MouseEvent) => {
+    e.stopPropagation();
+    if (hsCode) {
+      // Remove dots from HS code for search
+      const cleanCode = hsCode.replace(/\./g, '');
+      navigate(`/tariff-lookup?q=${encodeURIComponent(cleanCode)}`);
+    }
+  };
   return (
     <div
       id={`detail-${headingCode}`}
@@ -107,15 +119,19 @@ export function DetailCard({ item, parents, index, keyword, language, score, not
         const indent = Math.min(level, 4);
         const description = getDescription(rowItem, language);
 
+        const canLookupTariff = rowItem.hsCode && (level === 0 || rowItem.hsCode.replace(/\./g, '').length === 8);
+
         return (
           <div
             key={rowItem.hsCode + idx}
             className={cn(
               "flex items-center gap-3 px-4 py-3 border-b border-border/50 last:border-b-0 transition-colors",
               getLevelStyles(level),
-              isMatch && "ring-2 ring-inset ring-accent/50"
+              isMatch && "ring-2 ring-inset ring-accent/50",
+              canLookupTariff && "group cursor-pointer hover:bg-accent/10"
             )}
             style={{ paddingLeft: `${1 + indent * 1.25}rem` }}
+            onClick={canLookupTariff ? (e) => handleTariffLookup(rowItem.hsCode, e) : undefined}
           >
             {idx > 0 && (
               <ChevronRight className={cn("w-4 h-4 flex-shrink-0", level === 0 ? "text-primary-foreground/70" : "text-muted-foreground")} />
@@ -130,6 +146,26 @@ export function DetailCard({ item, parents, index, keyword, language, score, not
             >
               {isMatch ? highlightText(description, allKeywords, matchType) : description}
             </span>
+            {canLookupTariff && (
+              <Tooltip>
+                <TooltipTrigger asChild>
+                  <button
+                    onClick={(e) => handleTariffLookup(rowItem.hsCode, e)}
+                    className={cn(
+                      "p-1.5 rounded-md opacity-0 group-hover:opacity-100 transition-opacity",
+                      level === 0 
+                        ? "hover:bg-primary-foreground/20 text-primary-foreground" 
+                        : "hover:bg-accent text-muted-foreground hover:text-foreground"
+                    )}
+                  >
+                    <Calculator className="w-4 h-4" />
+                  </button>
+                </TooltipTrigger>
+                <TooltipContent>
+                  <p>Tra cứu thuế suất</p>
+                </TooltipContent>
+              </Tooltip>
+            )}
           </div>
         );
       })}
