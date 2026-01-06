@@ -21,7 +21,7 @@ export const Header = () => {
           <img src={logo} alt="Logo" className="w-10 h-10 rounded-lg object-cover" />
           <div>
             <h1 className="text-lg font-bold text-foreground leading-none">HSTC</h1>
-            <span className="text-xs text-muted-foreground">Công cụ tra cứu HS Code nhanh và toàn diện</span>
+            <span className="text-xs text-muted-foreground">Công cụ tra cứu HS code</span>
           </div>
         </Link>
 
