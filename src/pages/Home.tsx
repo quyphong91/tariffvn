@@ -95,7 +95,7 @@ const Home = () => {
           <div className="max-w-3xl mx-auto">
             <div className="p-6 rounded-xl bg-muted/30 border border-border">
               <p className="text-sm text-muted-foreground leading-relaxed text-center">
-                HSTC là dự án cá nhân nhằm cung cấp công cụ miễn phí về tra cứu HS và biểu thuế cho các anh chị em công tác trong lĩnh vực xuất nhập khẩu. Dự án hiện vẫn đang được tiếp tục phát triển và hoàn thiện nhằm đem lại chất lượng và trải nghiệm tốt nhất cho người dùng. Trong quá trình phát triển và hoàn thiện, dự án không tránh khỏi các lỗi và sự cố không mong muốn. Nếu có bất kỳ lỗi phát sinh hoặc đóng góp ý kiến, vui lòng gửi ý kiến đến email: <a href="mailto:hscodetracuu@gmail.com" className="text-primary hover:underline font-medium">hscodetracuu@gmail.com</a>. Trân trọng.
+                HSTC là dự án cá nhân nhằm cung cấp công cụ miễn phí về tra cứu HS Code và biểu thuế nhập khẩu cho các anh chị em công tác trong lĩnh vực xuất nhập khẩu. Dự án hiện vẫn đang được tiếp tục phát triển và hoàn thiện nhằm đem lại chất lượng và trải nghiệm tốt nhất cho người dùng. Trong quá trình phát triển và hoàn thiện, dự án không tránh khỏi các lỗi và sự cố không mong muốn. Nếu có bất kỳ lỗi phát sinh hoặc đóng góp ý kiến, vui lòng gửi ý kiến đến email: <a href="mailto:hscodetracuu@gmail.com" className="text-primary hover:underline font-medium">hscodetracuu@gmail.com</a>. Trân trọng.
               </p>
             </div>
           </div>
