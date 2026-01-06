@@ -17,10 +17,10 @@ const Home = () => {
           <div className="max-w-4xl mx-auto text-center">
             {/* Main Description */}
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 animate-fade-up">
-              Tra cứu HS code <span className="text-gradient"> nhanh chóng </span>
+              Tra cứu HS Code <span className="text-gradient"> nhanh và toàn diện </span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto animate-fade-up" style={{ animationDelay: "100ms" }}>
-              HSTC là công cụ hỗ trợ tra cứu mã số HS code nhanh chóng và toàn diện tích hợp các thông tin về chú giải
+              HSTC là công cụ hỗ trợ tra cứu mã số HS Code nhanh và toàn diện, tích hợp các thông tin về chú giải và biểu thuế nhập khẩu 
             </p>
 
             {/* CTA Button */}
@@ -33,15 +33,6 @@ const Home = () => {
                 </Button>
               </Link>
             </div>
-
-            {/* Note */}
-            <div className="mt-8 max-w-2xl mx-auto animate-fade-up" style={{ animationDelay: "300ms" }}>
-              <div className="p-4 rounded-xl bg-muted/50 border border-border">
-                <p className="text-sm text-muted-foreground leading-relaxed">
-                  Lưu ý: Các kết quả tìm kiếm của công cụ chỉ mang tính chất hỗ trợ tra cứu và tham khảo, không có giá trị pháp lý. Hiện page cũng đang thu thập và xây dựng dữ liệu về các kết quả phân tích phân loại từ cơ quan Hải quan để các bạn có thêm nguồn thông tin để tham khảo.
-                </p>
-              </div>
-            </div>
           </div>
         </section>
 
@@ -49,38 +40,35 @@ const Home = () => {
         <section className="container mx-auto px-4 py-8 border-t border-border/50">
           <div className="text-center mb-12">
             <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
-              Tài liệu tham khảo
+              Tài liệu tham khảo và công cụ hỗ trợ khác
             </h2>
-            <p className="text-muted-foreground max-w-2xl mx-auto">
-              Các nguồn tài liệu hỗ trợ việc tra cứu HS code và phân loại hàng hoá theo Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam
-            </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
             <FeatureCard
-              title="Tra cứu biểu thuế suất nhập khẩu 2026"
-              description="Tra cứu thuế suất nhập khẩu theo mã HS, bao gồm MFN và các FTA: EVFTA, CPTPP, RCEP, ACFTA..."
+              title="Tra cứu biểu thuế nhập khẩu"
+              description="Tra cứu thuế biểu thuế nhập khẩu mới nhất năm 2026 cập nhật theo biểu thuế xuất nhập khẩu 2026 của Chi cục Hải quan Khu vực VIII"
               icon={Calculator}
               to="/tariff-lookup"
               iconBgClass="bg-amber/20"
             />
             <FeatureCard
               title="Quy tắc phân loại hàng hóa và xác định HS code"
-              description="6 Quy tắc tổng quát giải thích cách xác định HS code và phân loại hàng hoá"
+              description="6 quy tắc tổng quát giải thích việc phân loại hàng hóa theo Danh mục HS Code"
               icon={Scale}
               to="/gri-rules"
               iconBgClass="bg-primary/10"
             />
             <FeatureCard
-              title="Chú giải phân loại và xác định HS code"
-              description="Chú giải chi tiết theo Chương và Nhóm hàng trong Biểu thuế"
+              title="Chú giải chi tiết Danh mục HS Code theo phiên bản 2022"
+              description="Chú giải chi tiết theo Chương và Nhóm hàng trong Danh mục HS code"
               icon={BookOpen}
               to="/chapter-notes"
               iconBgClass="bg-ocean-light/30"
             />
             <FeatureCard
-              title="Chú giải bổ sung SEN"
-              description="Chú giải bổ sung (Selective Explanatory Notes) cho một số loại hàng hoá"
+              title="Chú giải bổ sung SEN 2022"
+              description="Chú giải SEN được xây dựng như một công cụ hỗ trợ các nước thành viên ASEAN để phân loại hàng hóa một số mặt hàng cụ thể được chi tiết ở cấp độ 8 số trong Danh mục AHTN"
               icon={FileText}
               to="/sen-notes"
               iconBgClass="bg-amber/20"
