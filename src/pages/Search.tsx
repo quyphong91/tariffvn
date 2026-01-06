@@ -304,7 +304,7 @@ const Search = () => {
             >
               <div className="p-4 rounded-xl bg-muted/50 border border-border text-center">
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  Bạn nên tham khảo thêm các Chú giải và tuyển tập ý kiến phân loại sau khi lọc các mã HS code dựa trên mô tả để xác định mã HS code phù hợp nhất với hàng hoá.
+                  Lưu ý: Các kết quả tìm kiếm của công cụ chỉ mang tính chất hỗ trợ tra cứu và tham khảo, không có giá trị pháp lý.
                 </p>
               </div>
             </div>
