@@ -53,7 +53,7 @@ const Home = () => {
               iconBgClass="bg-amber/20"
             />
             <FeatureCard
-              title="Quy tắc phân loại hàng hóa và xác định HS code"
+              title="Quy tắc phân loại hàng hóa và xác định HS Code"
               description="6 quy tắc tổng quát giải thích việc phân loại hàng hóa theo Danh mục HS Code"
               icon={Scale}
               to="/gri-rules"
@@ -61,7 +61,7 @@ const Home = () => {
             />
             <FeatureCard
               title="Chú giải chi tiết Danh mục HS Code theo phiên bản 2022"
-              description="Chú giải chi tiết theo Chương và Nhóm hàng trong Danh mục HS code"
+              description="Chú giải chi tiết theo Chương và Nhóm hàng trong Danh mục HS Code"
               icon={BookOpen}
               to="/chapter-notes"
               iconBgClass="bg-ocean-light/30"
@@ -75,7 +75,7 @@ const Home = () => {
             />
             <FeatureCard
               title="Tuyển tập ý kiến phân loại hàng hóa của WCO"
-              description="Các quyết định phân loại HS code của Tổ chức Hải quan Thế giới cho các hàng hoá mới hoặc phức tạp"
+              description="Các quyết định phân loại HS Code của Tổ chức Hải quan Thế giới cho các hàng hoá mới hoặc phức tạp"
               icon={Globe}
               to="/wco-compendium"
               iconBgClass="bg-orange/20"
