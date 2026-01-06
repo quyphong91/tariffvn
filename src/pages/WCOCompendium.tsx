@@ -55,7 +55,7 @@ const WCOCompendium = () => {
                 to="/search"
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
               >
-                Truy cập công cụ Tra cứu HS code
+                Truy cập công cụ Tra cứu HS Code
               </Link>
             </div>
           </div>
