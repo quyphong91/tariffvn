@@ -25,7 +25,7 @@ const WCOCompendium = () => {
             Tuyển tập ý kiến phân loại của WCO
           </h1>
           <p className="text-lg text-muted-foreground">
-            Compendium of Classification Opinions - Tập hợp các quyết định phân loại chính thức của Ủy ban HS thuộc Tổ chức Hải quan Thế giới.
+            WCO Compendium of Classification Opinions - Tập hợp các quyết định phân loại chính thức của Ủy ban HS thuộc Tổ chức Hải quan Thế giới.
           </p>
         </div>
 
@@ -55,7 +55,7 @@ const WCOCompendium = () => {
                 to="/search"
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
               >
-                Tra cứu HS code
+                Truy cập công cụ Tra cứu HS code
               </Link>
             </div>
           </div>
