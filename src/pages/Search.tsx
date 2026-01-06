@@ -52,14 +52,14 @@ const SearchFields = memo(function SearchFields({
       {/* Main keyword search */}
       <div className="space-y-2">
         <Label htmlFor="keyword" className="text-sm text-muted-foreground">
-          {language === 'vi' ? 'Mô tả hàng hóa' : 'Goods Description'}
+          {language === 'vi' ? 'Mô tả hàng hóa' : 'Mô tả hàng hóa'}
         </Label>
         <Input
           id="keyword"
           type="text"
           value={keyword}
           onChange={(e) => setKeyword(e.target.value)}
-          placeholder={language === 'vi' ? 'Nhập từ khóa mô tả hàng hóa...' : 'Enter goods description...'}
+          placeholder={language === 'vi' ? 'Nhập từ khóa mô tả hàng hóa...' : 'Nhập từ khóa mô tả hàng hóa...'}
           className="h-14 text-base bg-card border-border shadow-card rounded-xl focus-visible:ring-2 focus-visible:ring-primary transition-shadow"
         />
       </div>
@@ -67,7 +67,7 @@ const SearchFields = memo(function SearchFields({
       {/* Material/Composition field */}
       <div className="space-y-2">
         <Label htmlFor="material" className="text-sm text-muted-foreground">
-          {language === 'vi' ? 'Thành phần/Chất liệu' : 'Material/Composition'}
+          {language === 'vi' ? 'Thành phần/Chất liệu' : 'Thành phần/Chất liệu'}
         </Label>
         <Input
           id="material"
@@ -81,7 +81,7 @@ const SearchFields = memo(function SearchFields({
       {/* Function/Feature field */}
       <div className="space-y-2">
         <Label htmlFor="function" className="text-sm text-muted-foreground">
-          {language === 'vi' ? 'Chức năng/Công dụng' : 'Function/Feature'}
+          {language === 'vi' ? 'Chức năng/Công dụng' : 'Chức năng/Công dụng'}
         </Label>
         <Input
           id="function"
@@ -98,7 +98,7 @@ const SearchFields = memo(function SearchFields({
         size="lg"
         className="w-full h-14 rounded-xl font-semibold shadow-soft hover:shadow-glow transition-all duration-300"
       >
-        {language === 'vi' ? 'Tìm kiếm' : 'Search'}
+        {language === 'vi' ? 'Tra cứu' : 'Tra cứu'}
       </Button>
     </form>
   );
@@ -198,7 +198,7 @@ const Search = () => {
       <div className="min-h-screen bg-gradient-hero flex items-center justify-center">
         <div className="text-center">
           <Loader2 className="w-12 h-12 text-primary animate-spin mx-auto mb-4" />
-          <p className="text-muted-foreground">Đang tải dữ liệu biểu thuế...</p>
+          <p className="text-muted-foreground">Chào mừng đến với công cụ...</p>
         </div>
       </div>
     );
