@@ -58,7 +58,7 @@ const Home = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
             <FeatureCard
-              title="Tra cứu thuế nhập khẩu"
+              title="Tra cứu biểu thuế suất nhập khẩu 2026"
               description="Tra cứu thuế suất nhập khẩu theo mã HS, bao gồm MFN và các FTA: EVFTA, CPTPP, RCEP, ACFTA..."
               icon={Calculator}
               to="/tariff-lookup"
