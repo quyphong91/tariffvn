@@ -29,7 +29,7 @@ export const blogPosts: BlogPost[] = [
     title: "Mã HS Code là gì? Tổng quan về Hệ thống hài hòa (HS)",
     date: "2026-01-07",
     excerpt: "Bài viết cung cấp thông tin tổng quan về hệ thống mã HS Code, cấu trúc mã và vai trò quan trọng của nó trong hoạt động xuất nhập khẩu và hải quan.",
-    coverImage: "/placeholder.svg",
+    coverImage: "/tong-quan-hs-code.png",
     content: `
 ## 1. Mã HS Code là gì?
 
@@ -86,7 +86,7 @@ Việc đánh số cho Chương, Nhóm, Phân nhóm theo quy tắc sau:
 - **Nhóm (Heading):** 4 mã số (VD: 0301)
 - **Phân nhóm (Subheading):** 6 mã số (VD: 030111)
 
-![Cấu trúc mã HS minh họa](https://lh3.googleusercontent.com/rd-gg-dl/ABS2GSn7MnagLPHw5pfqMJqD79RCBgMzDG-3oByhRsIoko0cxy5jmnATV0IaYSnw4s2F992liNMkkDfk49oMaKIE5L0LvFl4igYzPKsvyUstDfINB8dQacvSNbvIrBToDu0PEt_SWrwxvyjEiC9u6Jmajsd6zoL2c-_XucA1EJOvyaUA0AKTsSMNk59oyxlXNCShMuu3zWEpyrT_YxsqbnhctfR7IAPVoCmqv_WgHNfxHIptrmtXcmWCDUji1WlYHd9F1rnFt8dZyCKHC0jtcr3NHFjqsAvxI7vjtVnFVDG0347nSgG_R0nAc73IBRd2744FH6Y1e5Jch3jgO4zSIG8AO7gLuqedxfIw6SVIVf74Cqt_-bLBoOm8zxIE_QpraH9aL7E2PURmJgOu2fYiBwNcWgaRrujkGHV9KDoN1pB5eZGDV7AiyT59A8aMzk4bSgrhQjyWA_9kUhmg6qmGwlS4GH2ZykALwW7QnwdWRhiBX6j1svH9pn6Uqz_PK286TI5S1dK8iFs905Wu1veBuNvu1IQGEcJ_ANuF0g8BiOnJBfM9IiLNiKOKhOvije8ijyhSiSmXn32UVHNOS1bMyZp9nMMzifam9_0k0gJ6LVJR2LHRuV7VlA5dA8DPBmYfryx6X5rkV1bBzHJGYMS0mE7jaJV48M1MqlKaGWLxYqu4Ro4DeOZFXHM3XjHE1SbWugHGoauqUv3f-1UaQROee5iPsm5dGG3rQBzbKYMC_Ts7S6MCrv40HEDDFiln_vVOWGVD1Uetd3U3OeEJGCjhavnmHnVx7lUh9uggRiOncagzp64g5mLNiftC5ojvr6xxl4fh4htTT4sKGkH9bBK5sBgMacP8cV5n2q61XRT6TYxcuhL7osJtbmuUF3FIWmX_8i0Fqn6EPbtssQ9QIt0HKR5Bh3jUSU9LNTwP29qUbh9lnESwfN5p3Y_a7ocGb6SbLCDYe-NVk9S4S-tWqNWJqn2y5l61kXI9W_5Iu4TkuTb5XMsG6PrQ7M6taklbp_pL2nKNPhHlOdychE1T_2HyBzrIzhz9BCxVmh7ZFpiG60bUiQi2NDNBT-cyJTEMq_9ns1qEunMWwSdGeQjN8EdspWAnKCzRu6aDdN3CDGjoTwwvYciw9_pfknlJwvENB_-a-d8NbefHkecJzSvLbI5LooDCLQMg0JZEyU9bWaM40fAT8Lw6Mksww_62RqlNCw9xD_8St0vQHdZ7N5-3bvbjdKUtF4Z4MAU=s1024-rj)
+![Cấu trúc mã HS minh họa](/tong-quan-hs-code.png)
 
 Như vậy, theo quy định của Công Ước, các nước tham gia phải đảm bảo việc tuân thủ danh mục hệ thống mã HS Code của mình ở **cấp độ 6 mã số**.
 
