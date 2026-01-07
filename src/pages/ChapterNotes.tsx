@@ -75,7 +75,7 @@ const ChapterNotes = () => {
     <>
       <Helmet>
         <link rel="canonical" href={canonicalUrl} />
-        <title>Chú giải phân loại HS Code theo Chương và Nhóm | TracuuHS</title>
+        <title>Chú giải phân loại HS Code theo Chương và Nhóm | HSTC</title>
         <meta name="description" content="Chú giải chi tiết Explanatory Notes của Hệ thống hài hoà HS giúp giải thích phạm vi và nội dung của từng Chương, Nhóm trong Biểu thuế." />
       </Helmet>
       <div className="min-h-screen bg-gradient-hero">
@@ -100,7 +100,7 @@ const ChapterNotes = () => {
                 Chú giải phân loại theo Chương và Nhóm
               </h1>
               <p className="text-lg text-muted-foreground">
-                Chú giải chi tiết (Explanatory Notes) của Hệ thống hài hoà HS giúp giải thích phạm vi và nội dung của từng Chương, Nhóm trong Biểu thuế.
+                Chú giải chi tiết (Explanatory Notes) của Hệ thống hài hoà HS Code giúp giải thích phạm vi và nội dung của từng Chương, Nhóm trong Danh mục hàng hóa.
               </p>
             </div>
           </div>
