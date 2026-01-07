@@ -145,7 +145,7 @@ const ChapterNoteFullAll = () => {
     <>
       <Helmet>
         <link rel="canonical" href={canonicalUrl} />
-        <title>Chú giải đầy đủ toàn bộ các Chương | TracuuHS</title>
+        <title>Chú giải đầy đủ toàn bộ các Chương | HSTC</title>
         <meta name="description" content="Chú giải song ngữ Việt - Anh đầy đủ cho tất cả 97 Chương trong Danh mục HS Code." />
       </Helmet>
       <div className="min-h-screen bg-gradient-hero">
