@@ -128,7 +128,7 @@ export function DetailCard({ item, parents, index, keyword, language, score, not
               "flex items-center gap-3 px-4 py-3 border-b border-border/50 last:border-b-0 transition-colors",
               getLevelStyles(level),
               isMatch && "ring-2 ring-inset ring-accent/50",
-              canLookupTariff && level === 0 && "group cursor-pointer hover:bg-primary-foreground/15",
+              canLookupTariff && level === 0 && "group cursor-pointer hover:bg-[#023047]",
               canLookupTariff && level !== 0 && "group cursor-pointer hover:bg-accent/10"
             )}
             style={{ paddingLeft: `${1 + indent * 1.25}rem` }}
