@@ -25,98 +25,80 @@ export interface BlogPost {
 export const blogPosts: BlogPost[] = [
   {
     id: "1",
-    slug: "huong-dan-phan-loai-hang-hoa-theo-hs-code",
-    title: "Hướng dẫn phân loại hàng hóa theo mã HS Code",
-    date: "2024-12-28",
-    excerpt: "Tìm hiểu các bước cơ bản để xác định mã HS Code chính xác cho hàng hóa xuất nhập khẩu tại Việt Nam.",
+    slug: "ma-hs-code-la-gi-tong-quan-he-thong-hai-hoa",
+    title: "Mã HS Code là gì? Tổng quan về Hệ thống hài hòa (HS)",
+    date: "2026-01-07",
+    excerpt: "Bài viết cung cấp thông tin tổng quan về hệ thống mã HS Code, cấu trúc mã và vai trò quan trọng của nó trong hoạt động xuất nhập khẩu và hải quan.",
     coverImage: "/placeholder.svg",
     content: `
-## Giới thiệu về mã HS Code
+## 1. Mã HS Code là gì?
 
-Mã HS (Harmonized System) là hệ thống mã số hàng hóa quốc tế được sử dụng để phân loại hàng hóa trong thương mại quốc tế. Việc xác định đúng mã HS Code là **vô cùng quan trọng** vì nó ảnh hưởng trực tiếp đến:
+**Mã HS Code** là mã số mang tính chất xác định và phân loại cho hàng hóa trong *Hệ thống hài hòa mô tả và mã hóa hàng hóa*.
 
-- Thuế suất nhập khẩu/xuất khẩu
-- Các thủ tục hải quan
-- Ưu đãi theo các Hiệp định thương mại tự do (FTA)
+Hệ thống hài hòa mô tả và mã hóa hàng hóa là thuật ngữ được dịch ra từ thuật ngữ đầy đủ trong tiếng Anh là **"Harmonized Commodity Description and Coding System"**. Trong thực tế, thuật ngữ tiếng Anh này thường được gọi tắt là "Harmonized Systems", "HS" hoặc "HS Code".
 
-## Các bước phân loại hàng hóa
+Hệ thống mã HS Code là một danh mục gồm khoảng **5.000 phân nhóm hàng hóa** khác nhau. Mỗi phân nhóm được xác định bằng một mã sáu chữ số, được sắp xếp theo cấu trúc mang tính hệ thống và hỗ trợ bởi các quy tắc rõ ràng để đạt được sự phân loại thống nhất.
 
-### Bước 1: Xác định bản chất hàng hóa
+**Ví dụ:** Mã HS Code sáu chữ số \`030111\` dùng để xác định và phân loại cho mặt hàng "Cá sống ở nước ngọt dùng để làm cá cảnh". Trong hệ thống mã HS Code, mặt hàng này được trình bày như sau:
 
-Trước tiên, bạn cần hiểu rõ:
-- Thành phần cấu tạo của hàng hóa
-- Công dụng chính
-- Nguyên liệu sản xuất
+- **0301**: Cá sống
+  - **Cá cảnh:**
+    - **030111**: Cá nước ngọt
 
-### Bước 2: Tham khảo Danh mục HS
+Hệ thống mã HS Code hiện đang được sử dụng chủ yếu cho hoạt động xuất nhập khẩu.
 
-Sử dụng công cụ tra cứu để tìm các mã HS phù hợp dựa trên mô tả hàng hóa.
+## 2. Tại sao lại cần có hệ thống mã HS Code?
 
-### Bước 3: Áp dụng 6 Quy tắc tổng quát (GRI)
+Nếu mỗi nhóm hàng hóa không được mã hóa một cách hệ thống và có quy tắc, sẽ rất khó khăn trong công tác thống kê và quản lý hàng hóa dựa trên mô tả của hàng hóa do có thể có nhiều cách mô tả hàng hóa khác nhau cho cùng một mặt hàng.
 
-Các quy tắc GRI giúp xác định mã HS chính xác khi có nhiều lựa chọn:
+Chẳng hạn, đối với mặt hàng cá cảnh trong ví dụ tại Mục 1 nêu trên, có thể có nhiều mô tả hàng hóa khác nhau cho cùng mặt hàng này như: *cá sống làm cảnh, cá cảnh sống, cá cảnh, cá làm cảnh, v.v.*
 
-1. **Quy tắc 1**: Phân loại theo tiêu đề các Chương, Nhóm
-2. **Quy tắc 2**: Hàng hóa chưa hoàn chỉnh hoặc hỗn hợp
-3. **Quy tắc 3**: Hàng hóa thuộc nhiều nhóm
-4. **Quy tắc 4**: Phân loại theo hàng hóa tương tự
-5. **Quy tắc 5**: Bao bì và hộp đựng
-6. **Quy tắc 6**: So sánh các phân nhóm
+Do đó, để tạo thuận lợi trong công tác thống kê và quản lý hàng hóa, đặc biệt là trong hoạt động xuất nhập khẩu giữa các quốc gia khác nhau, một danh mục hàng hóa được mã hóa một cách hệ thống, có quy tắc để các bên khác nhau có thể cùng sử dụng chung một cách hài hòa là thực sự quan trọng và cần thiết.
 
-## Lưu ý quan trọng
+Đó là lý do cho sự ra đời của hệ thống mã HS Code cũng như tên gọi đầy đủ của nó: **"Hệ thống hài hòa mô tả và mã hóa hàng hóa"**.
 
-> Việc phân loại sai mã HS có thể dẫn đến phạt hành chính và truy thu thuế. Hãy tham khảo ý kiến chuyên gia khi cần thiết.
+## 3. Công ước quốc tế về Hệ thống hài hòa
 
-## Kết luận
+Hệ thống mã HS Code được ra đời theo **Công Ước Quốc Tế Về Hệ Thống Hài Hòa Mô Tả Và Mã Hóa Hàng Hóa** (International Convention on the Harmonized Commodity Description and Coding System) do Hội đồng hợp tác Hải quan (nay là **WCO - Tổ chức Hải quan Thế giới**) thông qua ngày 14/06/1983, với mục đích chính là:
 
-Phân loại hàng hóa theo mã HS Code đòi hỏi kiến thức và kinh nghiệm. Sử dụng các công cụ tra cứu và tài liệu tham khảo để đảm bảo độ chính xác.
-    `.trim()
-  },
-  {
-    id: "2",
-    slug: "cap-nhat-bieu-thue-2025",
-    title: "Cập nhật Biểu thuế nhập khẩu năm 2025",
-    date: "2024-12-25",
-    excerpt: "Tổng hợp các thay đổi quan trọng trong Biểu thuế nhập khẩu ưu đãi năm 2025 theo các FTA.",
-    coverImage: "/placeholder.svg",
-    content: `
-## Các thay đổi chính trong Biểu thuế 2025
+- Thúc đẩy thương mại quốc tế.
+- Thúc đẩy công tác thu thập, so sánh và phân tích dữ liệu thống kê về thương mại quốc tế.
+- Giảm thiểu chi phí phát sinh từ việc mô tả lại, phân loại lại và mã hóa lại hàng hóa khi chúng di chuyển từ hệ thống phân loại này sang hệ thống phân loại khác.
+- Tạo điều kiện thuận lợi cho việc chuẩn hóa chứng từ thương mại và việc truyền tải dữ liệu.
 
-Năm 2025 đánh dấu nhiều thay đổi quan trọng trong chính sách thuế nhập khẩu của Việt Nam, đặc biệt liên quan đến các Hiệp định thương mại tự do (FTA).
+Một trong các nội dung quan trọng của Công Ước là việc quy định các nước tham gia Công Ước phải:
 
-### 1. EVFTA - Hiệp định với EU
+1. Sử dụng tất cả các tên và mã số của Nhóm (Heading) và Phân nhóm (Subheading) của Hệ thống hài hòa mà không thêm bớt hoặc sửa đổi.
+2. Áp dụng các Quy tắc phân loại và tất cả các Chú giải Phần (Section), Chương (Chapter) và Phân nhóm (Subheading) mà không sửa đổi phạm vi.
+3. Áp dụng thứ tự số học của hệ thống mã HS Code.
 
-Theo lộ trình cam kết, nhiều mặt hàng sẽ được **cắt giảm thuế suất** xuống 0%:
+Bạn có thể tham khảo [toàn bộ Công Ước tại đây](https://www.wcoomd.org/-/media/wco/public/global/pdf/topics/nomenclature/instruments-and-tools/hs-convention/hs-convention_en.pdf?la=en).
 
-- Máy móc, thiết bị công nghiệp
-- Một số loại nông sản
-- Dược phẩm và thiết bị y tế
+## 4. Cấu trúc hệ thống mã HS Code
 
-### 2. CPTPP - Hiệp định Đối tác Toàn diện và Tiến bộ
+Hiện nay, danh mục hệ thống mã HS Code gồm **21 Phần (Section), 97 Chương (Chapter), 1.228 Nhóm (Heading), 4.084 Phân nhóm (Subheading)**.
 
-Các thay đổi đáng chú ý:
+Bạn có thể tham khảo [cấu trúc danh mục chi tiết tại đây](/chapter-notes).
 
-| Nhóm hàng | Thuế suất 2024 | Thuế suất 2025 |
-|-----------|----------------|----------------|
-| Ô tô nguyên chiếc | 50% | 45% |
-| Linh kiện điện tử | 5% | 0% |
-| Thực phẩm chế biến | 15% | 10% |
+Việc đánh số cho Chương, Nhóm, Phân nhóm theo quy tắc sau:
 
-### 3. RCEP
+- **Chương (Chapter):** 2 mã số (VD: 03)
+- **Nhóm (Heading):** 4 mã số (VD: 0301)
+- **Phân nhóm (Subheading):** 6 mã số (VD: 030111)
 
-Hiệp định RCEP tiếp tục có hiệu lực với các đối tác ASEAN, Trung Quốc, Nhật Bản, Hàn Quốc, Úc và New Zealand.
+![Cấu trúc mã HS minh họa](https://lh3.googleusercontent.com/rd-gg-dl/ABS2GSn7MnagLPHw5pfqMJqD79RCBgMzDG-3oByhRsIoko0cxy5jmnATV0IaYSnw4s2F992liNMkkDfk49oMaKIE5L0LvFl4igYzPKsvyUstDfINB8dQacvSNbvIrBToDu0PEt_SWrwxvyjEiC9u6Jmajsd6zoL2c-_XucA1EJOvyaUA0AKTsSMNk59oyxlXNCShMuu3zWEpyrT_YxsqbnhctfR7IAPVoCmqv_WgHNfxHIptrmtXcmWCDUji1WlYHd9F1rnFt8dZyCKHC0jtcr3NHFjqsAvxI7vjtVnFVDG0347nSgG_R0nAc73IBRd2744FH6Y1e5Jch3jgO4zSIG8AO7gLuqedxfIw6SVIVf74Cqt_-bLBoOm8zxIE_QpraH9aL7E2PURmJgOu2fYiBwNcWgaRrujkGHV9KDoN1pB5eZGDV7AiyT59A8aMzk4bSgrhQjyWA_9kUhmg6qmGwlS4GH2ZykALwW7QnwdWRhiBX6j1svH9pn6Uqz_PK286TI5S1dK8iFs905Wu1veBuNvu1IQGEcJ_ANuF0g8BiOnJBfM9IiLNiKOKhOvije8ijyhSiSmXn32UVHNOS1bMyZp9nMMzifam9_0k0gJ6LVJR2LHRuV7VlA5dA8DPBmYfryx6X5rkV1bBzHJGYMS0mE7jaJV48M1MqlKaGWLxYqu4Ro4DeOZFXHM3XjHE1SbWugHGoauqUv3f-1UaQROee5iPsm5dGG3rQBzbKYMC_Ts7S6MCrv40HEDDFiln_vVOWGVD1Uetd3U3OeEJGCjhavnmHnVx7lUh9uggRiOncagzp64g5mLNiftC5ojvr6xxl4fh4htTT4sKGkH9bBK5sBgMacP8cV5n2q61XRT6TYxcuhL7osJtbmuUF3FIWmX_8i0Fqn6EPbtssQ9QIt0HKR5Bh3jUSU9LNTwP29qUbh9lnESwfN5p3Y_a7ocGb6SbLCDYe-NVk9S4S-tWqNWJqn2y5l61kXI9W_5Iu4TkuTb5XMsG6PrQ7M6taklbp_pL2nKNPhHlOdychE1T_2HyBzrIzhz9BCxVmh7ZFpiG60bUiQi2NDNBT-cyJTEMq_9ns1qEunMWwSdGeQjN8EdspWAnKCzRu6aDdN3CDGjoTwwvYciw9_pfknlJwvENB_-a-d8NbefHkecJzSvLbI5LooDCLQMg0JZEyU9bWaM40fAT8Lw6Mksww_62RqlNCw9xD_8St0vQHdZ7N5-3bvbjdKUtF4Z4MAU=s1024-rj)
 
-## Lưu ý khi áp dụng
+Như vậy, theo quy định của Công Ước, các nước tham gia phải đảm bảo việc tuân thủ danh mục hệ thống mã HS Code của mình ở **cấp độ 6 mã số**.
 
-Để được hưởng ưu đãi thuế quan theo FTA, doanh nghiệp cần:
+Danh mục này được sửa đổi bổ sung **5 năm 1 lần**. Phiên bản hiện tại là phiên bản 2022 (có hiệu lực từ 01/01/2022).
 
-1. Có **Chứng nhận xuất xứ (C/O)** hợp lệ
-2. Đáp ứng quy tắc xuất xứ của từng Hiệp định
-3. Khai báo đúng mã HS Code
+## 5. Danh mục hàng hóa xuất nhập khẩu Việt Nam
 
-## Tham khảo thêm
+Việt Nam đã tham gia và áp dụng đầy đủ Công Ước từ năm 1998. Do đó, hệ thống mã HS Code của Việt Nam sẽ tuân thủ theo hệ thống quy tắc, chú giải và sắp xếp ở cấp độ Phân nhóm (6 chữ số).
 
-Sử dụng công cụ [Tra cứu thuế nhập khẩu](/tariff-lookup) để xem chi tiết thuế suất cho từng mã HS.
+Ngoài ra, Việt Nam cũng tham gia **Danh mục Biểu thuế hài hòa ASEAN (AHTN)**. Danh mục AHTN 2022 được các nước ASEAN xây dựng chi tiết ở cấp độ **8 số**.
+
+Hiện nay, Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam được quy định tại **Thông tư 31/2022/TT-BTC** ngày 08/6/2022, có hiệu lực thi hành kể từ ngày 01/12/2022.
     `.trim()
   }
 ];
