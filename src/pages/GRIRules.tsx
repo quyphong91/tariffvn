@@ -1,9 +1,12 @@
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Home, ChevronRight } from "lucide-react";
+import { useCanonicalUrl } from "@/hooks/useCanonicalUrl";
 
 const GRIRules = () => {
+  const canonicalUrl = useCanonicalUrl();
   const rules = [
     {
       id: "1",
@@ -68,8 +71,14 @@ const GRIRules = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-hero">
-      <Header />
+    <>
+      <Helmet>
+        <link rel="canonical" href={canonicalUrl} />
+        <title>Quy tắc phân loại hàng hóa GRI | TracuuHS</title>
+        <meta name="description" content="6 Quy tắc tổng quát giải thích việc phân loại hàng hóa theo Danh mục HS code Việt Nam dựa trên Hệ thống hài hòa của WCO." />
+      </Helmet>
+      <div className="min-h-screen bg-gradient-hero">
+        <Header />
 
       <main className="container mx-auto px-4 py-8">
         {/* Breadcrumb */}
@@ -129,8 +138,9 @@ const GRIRules = () => {
         </div>
       </main>
 
-      <Footer />
-    </div>
+        <Footer />
+      </div>
+    </>
   );
 };
 

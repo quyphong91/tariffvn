@@ -8,13 +8,16 @@ import { Calendar, ArrowRight } from "lucide-react";
 import { getAllPosts } from "@/data/blogData";
 import { format } from "date-fns";
 import { vi } from "date-fns/locale";
+import { useCanonicalUrl } from "@/hooks/useCanonicalUrl";
 
 const NewsList = () => {
+  const canonicalUrl = useCanonicalUrl();
   const posts = getAllPosts();
 
   return (
     <>
       <Helmet>
+        <link rel="canonical" href={canonicalUrl} />
         <title>Tin tức & Bài viết | TracuuHS</title>
         <meta
           name="description"

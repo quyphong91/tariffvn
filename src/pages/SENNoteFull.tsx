@@ -1,6 +1,8 @@
 import { useParams, Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import { Header } from "@/components/Header";
 import { Home, ChevronLeft, Search, ToggleLeft, ToggleRight } from "lucide-react";
+import { useCanonicalUrl } from "@/hooks/useCanonicalUrl";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useState, useRef, useEffect, useMemo } from "react";
@@ -8,6 +10,7 @@ import { getSENChapterDetail, SENNoteRow } from "@/data/senNoteDetailData";
 import { cn } from "@/lib/utils";
 
 const SENNoteFull = () => {
+  const canonicalUrl = useCanonicalUrl();
   const { chapterNumber } = useParams<{ chapterNumber: string }>();
   const chapter = parseInt(chapterNumber || "1");
   const chapterData = getSENChapterDetail(chapter);
@@ -99,8 +102,14 @@ const SENNoteFull = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-hero">
-      <Header />
+    <>
+      <Helmet>
+        <link rel="canonical" href={canonicalUrl} />
+        <title>Chú giải SEN Chương {chapter} | TracuuHS</title>
+        <meta name="description" content={`Chú giải SEN song ngữ Việt - Anh cho Chương ${chapter} trong Danh mục AHTN.`} />
+      </Helmet>
+      <div className="min-h-screen bg-gradient-hero">
+        <Header />
 
       <main className="flex-1 px-2 md:px-4 py-8">
         {/* Breadcrumb */}
@@ -272,9 +281,10 @@ const SENNoteFull = () => {
               </p>
             </div>
           </div>
-        )}
-      </main>
-    </div>
+          )}
+        </main>
+      </div>
+    </>
   );
 };
 

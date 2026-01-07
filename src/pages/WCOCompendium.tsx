@@ -1,11 +1,21 @@
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Home, Globe, ExternalLink } from "lucide-react";
+import { useCanonicalUrl } from "@/hooks/useCanonicalUrl";
 
 const WCOCompendium = () => {
+  const canonicalUrl = useCanonicalUrl();
   return (
-    <div className="min-h-screen bg-gradient-hero">
+    <>
+      <Helmet>
+        <link rel="canonical" href={canonicalUrl} />
+        <title>Tuyển tập ý kiến phân loại WCO | TracuuHS</title>
+        <meta name="description" content="WCO Compendium of Classification Opinions - Tập hợp các quyết định phân loại chính thức của Ủy ban HS thuộc Tổ chức Hải quan Thế giới." />
+      </Helmet>
+      <div className="min-h-screen bg-gradient-hero">
+        <Header />
       <Header />
 
       <main className="container mx-auto px-4 py-8">
@@ -109,8 +119,9 @@ const WCOCompendium = () => {
         </div>
       </main>
 
-      <Footer />
-    </div>
+        <Footer />
+      </div>
+    </>
   );
 };
 

@@ -1,8 +1,10 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Home, BookOpen, ChevronDown, ChevronRight, Globe, FileText, ExternalLink } from "lucide-react";
+import { useCanonicalUrl } from "@/hooks/useCanonicalUrl";
 import { Button } from "@/components/ui/button";
 import { chapterNotesData, getSectionNote, ChapterNote, HeadingNote } from "@/data/chapterNotesData";
 import {
@@ -14,6 +16,7 @@ import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const ChapterNotes = () => {
+  const canonicalUrl = useCanonicalUrl();
   const [expandedSections, setExpandedSections] = useState<number[]>([]);
   const [expandedChapters, setExpandedChapters] = useState<number[]>([]);
   const [expandedHeadings, setExpandedHeadings] = useState<string[]>([]);
@@ -69,8 +72,14 @@ const ChapterNotes = () => {
 
 
   return (
-    <div className="min-h-screen bg-gradient-hero">
-      <Header />
+    <>
+      <Helmet>
+        <link rel="canonical" href={canonicalUrl} />
+        <title>Chú giải phân loại HS Code theo Chương và Nhóm | TracuuHS</title>
+        <meta name="description" content="Chú giải chi tiết Explanatory Notes của Hệ thống hài hoà HS giúp giải thích phạm vi và nội dung của từng Chương, Nhóm trong Biểu thuế." />
+      </Helmet>
+      <div className="min-h-screen bg-gradient-hero">
+        <Header />
 
       <main className="container mx-auto px-4 py-8">
         {/* Breadcrumb */}
@@ -321,8 +330,9 @@ const ChapterNotes = () => {
 
       </main>
 
-      <Footer />
-    </div>
+        <Footer />
+      </div>
+    </>
   );
 };
 

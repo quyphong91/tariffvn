@@ -1,6 +1,7 @@
 import { useState, useEffect, useMemo, useCallback } from "react";
 import { useSearchParams } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
+import { useCanonicalUrl } from "@/hooks/useCanonicalUrl";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Input } from "@/components/ui/input";
@@ -47,6 +48,7 @@ import { useIsMobile } from "@/hooks/use-mobile";
 import { cn } from "@/lib/utils";
 
 const TariffLookup = () => {
+  const canonicalUrl = useCanonicalUrl();
   const [searchParams] = useSearchParams();
   const [data, setData] = useState<TariffItem[]>([]);
   const [loading, setLoading] = useState(true);
@@ -234,6 +236,7 @@ const TariffLookup = () => {
   return (
     <>
       <Helmet>
+        <link rel="canonical" href={canonicalUrl} />
         <title>{seoTitle}</title>
         <meta name="description" content={seoDescription} />
         <meta property="og:title" content={seoTitle} />

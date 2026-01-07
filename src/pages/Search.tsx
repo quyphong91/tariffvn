@@ -1,9 +1,11 @@
 import { useState, useEffect, memo } from "react";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import { ResultsSection } from "@/components/ResultsSection";
 import { LanguageToggle } from "@/components/LanguageToggle";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { useCanonicalUrl } from "@/hooks/useCanonicalUrl";
 import { 
   loadHSData, 
   advancedSearchHSData, 
@@ -105,6 +107,7 @@ const SearchFields = memo(function SearchFields({
 });
 
 const Search = () => {
+  const canonicalUrl = useCanonicalUrl();
   const [hsData, setHsData] = useState<HSItem[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [loadError, setLoadError] = useState<string | null>(null);
@@ -222,8 +225,14 @@ const Search = () => {
 
 
   return (
-    <div className="min-h-screen bg-gradient-hero">
-      <Header />
+    <>
+      <Helmet>
+        <link rel="canonical" href={canonicalUrl} />
+        <title>Công cụ tra cứu HS Code | TracuuHS</title>
+        <meta name="description" content="Tra cứu mã HS Code theo mô tả hàng hóa, chất liệu và chức năng. Hỗ trợ tìm kiếm bằng tiếng Việt và tiếng Anh." />
+      </Helmet>
+      <div className="min-h-screen bg-gradient-hero">
+        <Header />
 
       <main className="container mx-auto px-4 py-8">
         {/* Breadcrumb */}
@@ -382,8 +391,9 @@ const Search = () => {
         )}
       </main>
 
-      <Footer />
-    </div>
+        <Footer />
+      </div>
+    </>
   );
 };
 

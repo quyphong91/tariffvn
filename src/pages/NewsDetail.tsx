@@ -11,8 +11,10 @@ import { format } from "date-fns";
 import { vi } from "date-fns/locale";
 import { useState } from "react";
 import { toast } from "sonner";
+import { useCanonicalUrl } from "@/hooks/useCanonicalUrl";
 
 const NewsDetail = () => {
+  const canonicalUrl = useCanonicalUrl();
   const { slug } = useParams<{ slug: string }>();
   const navigate = useNavigate();
   const [copied, setCopied] = useState(false);
@@ -66,6 +68,7 @@ const NewsDetail = () => {
   return (
     <>
       <Helmet>
+        <link rel="canonical" href={canonicalUrl} />
         <title>{post.title} | TracuuHS</title>
         <meta name="description" content={post.excerpt} />
         <meta property="og:title" content={`${post.title} | TracuuHS`} />

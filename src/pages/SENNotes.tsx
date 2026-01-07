@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Home, FileText, ExternalLink, Eye } from "lucide-react";
+import { useCanonicalUrl } from "@/hooks/useCanonicalUrl";
 import { Button } from "@/components/ui/button";
 import {
   Accordion,
@@ -238,9 +240,17 @@ const senNotesData = [
 ];
 
 const SENNotes = () => {
+  const canonicalUrl = useCanonicalUrl();
+
   return (
-    <div className="min-h-screen bg-gradient-hero">
-      <Header />
+    <>
+      <Helmet>
+        <link rel="canonical" href={canonicalUrl} />
+        <title>Chú giải bổ sung SEN ASEAN | TracuuHS</title>
+        <meta name="description" content="Selective Explanatory Notes (SEN) - Chú giải bổ sung của ASEAN hỗ trợ phân loại hàng hóa theo Danh mục AHTN." />
+      </Helmet>
+      <div className="min-h-screen bg-gradient-hero">
+        <Header />
 
       <main className="container mx-auto px-4 py-8">
         {/* Breadcrumb */}
@@ -344,7 +354,8 @@ const SENNotes = () => {
       </main>
 
       <Footer />
-    </div>
+      </div>
+    </>
   );
 };
 
