@@ -105,7 +105,7 @@ const ChapterNoteFull = () => {
     <>
       <Helmet>
         <link rel="canonical" href={canonicalUrl} />
-        <title>Chú giải đầy đủ Chương {chapter} | TracuuHS</title>
+        <title>Chú giải đầy đủ Chương {chapter} | HSTC</title>
         <meta name="description" content={`Chú giải song ngữ Việt - Anh đầy đủ cho Chương ${chapter} trong Danh mục HS Code.`} />
       </Helmet>
       <div className="min-h-screen bg-gradient-hero">
