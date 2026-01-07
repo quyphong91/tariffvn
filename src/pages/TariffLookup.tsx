@@ -181,15 +181,15 @@ const TariffLookup = () => {
   // Dynamic SEO
   const seoTitle = useMemo(() => {
     if (!hasSearched || !searchQuery.trim()) {
-      return "Tra cứu thuế nhập khẩu theo HS Code | TracuuHS";
+      return "Tra cứu thuế nhập khẩu theo HS Code | HSTC";
     }
     const isHsCode = /^\d+$/.test(searchQuery.trim());
     if (isHsCode) {
       const firstResult = searchResults[0];
       const desc = firstResult?.descriptionVN?.slice(0, 50) || "";
-      return `Thuế nhập khẩu mã HS ${searchQuery}${desc ? ` - ${desc}` : ""} | TracuuHS`;
+      return `Thuế nhập khẩu mã HS ${searchQuery}${desc ? ` - ${desc}` : ""} | HSTC`;
     }
-    return `Tra cứu thuế nhập khẩu ${searchQuery} | TracuuHS`;
+    return `Tra cứu thuế nhập khẩu ${searchQuery} | HSTC`;
   }, [hasSearched, searchQuery, searchResults]);
 
   const seoDescription = useMemo(() => {
@@ -253,10 +253,10 @@ const TariffLookup = () => {
               Tra cứu thuế biểu thuế nhập khẩu 2026
             </h1>
             <p className="text-sm text-primary font-medium mb-1">
-              (Đã cập nhật theo biểu thuế xuất nhập khẩu 2026 của Chi cục Hải quan Khu vực VIII)
+              (Đã cập nhật theo biểu thuế xuất nhập khẩu 2026 của Chi cục Hải quan Khu vực VIII ngày 7/1/2026)
             </p>
             <p className="text-muted-foreground">
-              Tìm kiếm theo mã HS Code (8 chữ số) hoặc mô tả hàng hóa
+              Tìm kiếm theo mã HS Code hoặc mô tả hàng hóa
             </p>
           </div>
 

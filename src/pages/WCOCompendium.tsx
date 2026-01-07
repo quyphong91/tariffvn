@@ -11,7 +11,7 @@ const WCOCompendium = () => {
     <>
       <Helmet>
         <link rel="canonical" href={canonicalUrl} />
-        <title>Tuyển tập ý kiến phân loại WCO | TracuuHS</title>
+        <title>Tuyển tập ý kiến phân loại WCO | HSTC</title>
         <meta name="description" content="WCO Compendium of Classification Opinions - Tập hợp các quyết định phân loại chính thức của Ủy ban HS thuộc Tổ chức Hải quan Thế giới." />
       </Helmet>
       <div className="min-h-screen bg-gradient-hero">
@@ -53,7 +53,7 @@ const WCOCompendium = () => {
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
-                href="https://drive.google.com/drive/u/2/folders/1w8exi_B7ns4bTqZdf3l066eiT6qlP9NN"
+                href="https://drive.google.com/file/d/1ytmOVkB-X5DuKDUP2Ibq0uVbG1z69oHc/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-secondary text-secondary-foreground hover:bg-secondary/80 transition-colors"

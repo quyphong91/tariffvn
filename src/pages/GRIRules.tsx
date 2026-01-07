@@ -74,8 +74,8 @@ const GRIRules = () => {
     <>
       <Helmet>
         <link rel="canonical" href={canonicalUrl} />
-        <title>Quy tắc phân loại hàng hóa GRI | TracuuHS</title>
-        <meta name="description" content="6 Quy tắc tổng quát giải thích việc phân loại hàng hóa theo Danh mục HS code Việt Nam dựa trên Hệ thống hài hòa của WCO." />
+        <title>Quy tắc phân loại hàng hóa GRI | HSTC</title>
+        <meta name="description" content="6 quy tắc tổng quát giải thích việc phân loại hàng hóa theo Danh mục HS Code." />
       </Helmet>
       <div className="min-h-screen bg-gradient-hero">
         <Header />

@@ -228,7 +228,7 @@ const Search = () => {
     <>
       <Helmet>
         <link rel="canonical" href={canonicalUrl} />
-        <title>Công cụ tra cứu HS Code | TracuuHS</title>
+        <title>Công cụ tra cứu HS Code | HSTC</title>
         <meta name="description" content="Tra cứu mã HS Code theo mô tả hàng hóa, chất liệu và chức năng. Hỗ trợ tìm kiếm bằng tiếng Việt và tiếng Anh." />
       </Helmet>
       <div className="min-h-screen bg-gradient-hero">
@@ -242,7 +242,7 @@ const Search = () => {
             Trang chủ
           </Link>
           <span className="mx-2 text-muted-foreground">/</span>
-          <span className="text-sm text-foreground">Công cụ tra cứu HS code</span>
+          <span className="text-sm text-foreground">Công cụ tra cứu HS Code</span>
         </div>
 
         {!searchResults ? (

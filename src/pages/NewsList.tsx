@@ -18,12 +18,12 @@ const NewsList = () => {
     <>
       <Helmet>
         <link rel="canonical" href={canonicalUrl} />
-        <title>Tin tức & Bài viết | TracuuHS</title>
+        <title>Tin tức & Bài viết | HSTC</title>
         <meta
           name="description"
           content="Cập nhật tin tức, hướng dẫn phân loại hàng hóa, biểu thuế và các thay đổi chính sách liên quan đến mã HS Code tại Việt Nam."
         />
-        <meta property="og:title" content="Tin tức & Bài viết | TracuuHS" />
+        <meta property="og:title" content="Tin tức & Bài viết | HSTC" />
         <meta
           property="og:description"
           content="Cập nhật tin tức, hướng dẫn phân loại hàng hóa, biểu thuế và các thay đổi chính sách liên quan đến mã HS Code."

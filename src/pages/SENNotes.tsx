@@ -246,7 +246,7 @@ const SENNotes = () => {
     <>
       <Helmet>
         <link rel="canonical" href={canonicalUrl} />
-        <title>Chú giải bổ sung SEN ASEAN | TracuuHS</title>
+        <title>Chú giải bổ sung SEN ASEAN | HSTC</title>
         <meta name="description" content="Selective Explanatory Notes (SEN) - Chú giải bổ sung của ASEAN hỗ trợ phân loại hàng hóa theo Danh mục AHTN." />
       </Helmet>
       <div className="min-h-screen bg-gradient-hero">

@@ -69,7 +69,7 @@ const NewsDetail = () => {
     <>
       <Helmet>
         <link rel="canonical" href={canonicalUrl} />
-        <title>{post.title} | TracuuHS</title>
+        <title>{post.title} | HSTC</title>
         <meta name="description" content={post.excerpt} />
         <meta property="og:title" content={`${post.title} | TracuuHS`} />
         <meta property="og:description" content={post.excerpt} />
