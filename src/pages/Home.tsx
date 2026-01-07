@@ -38,7 +38,7 @@ const Home = () => {
               <Link to="/search">
                 <Button size="lg" className="gap-2 bg-navy hover:bg-navy/90 text-primary-foreground px-8 py-6 text-lg">
                   <Search className="w-5 h-5" />
-                  Truy cập công cụ tra cứu HS code
+                  Truy cập công cụ tra cứu HS Code
                   <ArrowRight className="w-5 h-5" />
                 </Button>
               </Link>
