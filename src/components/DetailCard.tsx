@@ -4,7 +4,7 @@ import { HSCodeBadge } from "./HSCodeBadge";
 import { ChevronRight, FileText, BookOpen, Sparkles, ExternalLink, Calculator } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { highlightText, HighlightMatchType } from "@/utils/highlight";
-import { useNavigate } from "react-router-dom";
+// No longer need useNavigate - using window.open for new tab
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 
 interface DetailCardProps {
@@ -78,7 +78,6 @@ function EvidenceChip({ match, keywords, matchType = 'tokens' }: { match: NoteMa
 }
 
 export function DetailCard({ item, parents, index, keyword, language, score, noteMatches, material, functionFeature, matchType = 'tokens' }: DetailCardProps) {
-  const navigate = useNavigate();
   const allItems = [...parents, item];
   const headingCode = parents.length > 0 ? parents[0].hsCode : item.hsCode;
   const isHighScore = score !== undefined && score > 80;
@@ -86,13 +85,14 @@ export function DetailCard({ item, parents, index, keyword, language, score, not
   // Combine all keywords for highlighting
   const allKeywords = [keyword, material, functionFeature].filter(Boolean) as string[];
 
-  // Handle click to navigate to tariff lookup with the HS code
+  // Handle click to open tariff lookup in new tab with the HS code
   const handleTariffLookup = (hsCode: string, e: React.MouseEvent) => {
     e.stopPropagation();
     if (hsCode) {
       // Remove dots from HS code for search
       const cleanCode = hsCode.replace(/\./g, '');
-      navigate(`/tariff-lookup?q=${encodeURIComponent(cleanCode)}`);
+      // Open in new tab using hash router format
+      window.open(`/#/tariff-lookup?q=${encodeURIComponent(cleanCode)}`, '_blank');
     }
   };
   return (
