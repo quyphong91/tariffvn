@@ -1,6 +1,8 @@
 import { useParams, Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import { Header } from "@/components/Header";
 import { Home, ChevronLeft, Search, ToggleLeft, ToggleRight } from "lucide-react";
+import { useCanonicalUrl } from "@/hooks/useCanonicalUrl";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useState, useRef, useEffect, useMemo } from "react";
@@ -8,6 +10,7 @@ import { getChapterFullDetail, NoteRow } from "@/data/chapterFullDetailData";
 import { cn } from "@/lib/utils";
 
 const ChapterNoteFull = () => {
+  const canonicalUrl = useCanonicalUrl();
   const { chapterNumber } = useParams<{ chapterNumber: string }>();
   const chapter = parseInt(chapterNumber || "1");
   const chapterData = getChapterFullDetail(chapter);
@@ -99,8 +102,14 @@ const ChapterNoteFull = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-hero">
-      <Header />
+    <>
+      <Helmet>
+        <link rel="canonical" href={canonicalUrl} />
+        <title>Chú giải đầy đủ Chương {chapter} | TracuuHS</title>
+        <meta name="description" content={`Chú giải song ngữ Việt - Anh đầy đủ cho Chương ${chapter} trong Danh mục HS Code.`} />
+      </Helmet>
+      <div className="min-h-screen bg-gradient-hero">
+        <Header />
 
       <main className="mx-auto px-2 md:px-4 py-8">
         {/* Breadcrumb */}
@@ -275,9 +284,10 @@ const ChapterNoteFull = () => {
               </p>
             </div>
           </div>
-        )}
-      </main>
-    </div>
+          )}
+        </main>
+      </div>
+    </>
   );
 };
 

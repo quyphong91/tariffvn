@@ -1,14 +1,24 @@
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { FeatureCard } from "@/components/FeatureCard";
 import { Button } from "@/components/ui/button";
 import { Search, BookOpen, FileText, Scale, Globe, ArrowRight, Calculator, Newspaper } from "lucide-react";
+import { useCanonicalUrl } from "@/hooks/useCanonicalUrl";
 
 
 const Home = () => {
+  const canonicalUrl = useCanonicalUrl();
+
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-hero">
+    <>
+      <Helmet>
+        <link rel="canonical" href={canonicalUrl} />
+        <title>Tra cứu HS Code nhanh và toàn diện | TracuuHS</title>
+        <meta name="description" content="HSTC là công cụ hỗ trợ tra cứu mã số HS code nhanh và toàn diện, tích hợp các thông tin về chú giải và biểu thuế nhập khẩu." />
+      </Helmet>
+      <div className="min-h-screen flex flex-col bg-gradient-hero">
       <Header />
 
       <main className="flex-1 flex flex-col">
@@ -104,7 +114,8 @@ const Home = () => {
       </main>
 
       <Footer />
-    </div>
+      </div>
+    </>
   );
 };
 
