@@ -44,15 +44,20 @@ function EvidenceChip({ match, keywords, matchType = 'tokens' }: { match: NoteMa
   const isSEN = match.source === 'sen';
   const Icon = isSEN ? FileText : BookOpen;
   const chapterNumber = getChapterFromHsCode(match.hsCode);
-  const targetUrl = isSEN 
-    ? `/#/sen-notes/full/${chapterNumber}`
-    : `/#/chapter-notes/full/${chapterNumber}`;
+  const targetPath = isSEN 
+    ? `/sen-notes/full/${chapterNumber}`
+    : `/chapter-notes/full/${chapterNumber}`;
+  
+  const handleClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    // Use window.open with proper hash format for HashRouter
+    window.open(`${window.location.origin}${window.location.pathname}#${targetPath}`, '_blank');
+  };
   
   return (
     <a
-      href={targetUrl}
-      target="_blank"
-      rel="noopener noreferrer"
+      href={`#${targetPath}`}
+      onClick={handleClick}
       className={cn(
         "flex items-start gap-2 p-3 rounded-lg text-sm border transition-all cursor-pointer group",
         isSEN 
