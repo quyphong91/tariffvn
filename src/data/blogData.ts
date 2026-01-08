@@ -105,7 +105,7 @@ Hiện nay, Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam đư�
     id: "2",
     slug: "tong-hop-so-sanh-thay-doi-thu-tuc-hai-quan-thong-tu-121-2025",
     title: "Tổng hợp và so sánh chi tiết những thay đổi về thủ tục hải quan tại Thông tư 121/2025/TT-BTC",
-    date: "2025-12-18",
+    date: "2026-1-8",
     excerpt: "Cùng điểm qua những thay đổi đáng chú ý cũng như chi tiết của các thay đổi về tục hải quan tại Thông tư 121/2025/TT-BTC vừa mới ban hành ngày 18/12/2025.",
     coverImage: "/cap-nhat-thong-tu-121-2025-TT-BTC.png",
     content: `
