@@ -100,6 +100,43 @@ Ngoài ra, Việt Nam cũng tham gia **Danh mục Biểu thuế hài hòa ASEAN 
 
 Hiện nay, Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam được quy định tại **Thông tư 31/2022/TT-BTC** ngày 08/6/2022, có hiệu lực thi hành kể từ ngày 01/12/2022.
     `.trim()
+  },
+  {
+    id: "2",
+    slug: "tong-hop-so-sanh-thay-doi-thu-tuc-hai-quan-thong-tu-121-2025",
+    title: "Tổng hợp và so sánh chi tiết những thay đổi về thủ tục hải quan tại Thông tư 121/2025/TT-BTC",
+    date: "2025-12-18",
+    excerpt: "Cùng điểm qua những thay đổi đáng chú ý cũng như chi tiết của các thay đổi về tục hải quan tại Thông tư 121/2025/TT-BTC vừa mới ban hành ngày 18/12/2025.",
+    coverImage: "/cap-nhat-thong-tu-121-2025-TT-BTC.png",
+    content: `
+## 1. Những thay đổi đáng chú ý
+
+Vào ngày 18/12/2025, Bộ Tài chính đã ban hành **Thông tư 121/2025/TT-BTC** sửa đổi, bổ sung một số điều tại Thông tư số 38/2015/TT-BTC ngày 25/3/2015 về thủ tục hải quan; kiểm tra, giám sát hải quan; thuế xuất khẩu, thuế nhập khẩu và quản lý thuế đối với hàng hoá xuất khẩu, nhập khẩu đã được sửa đổi, bổ sung bởi Thông tư 39/2018/TT-BTC ngày 20/4/2018.
+
+Thông tư này có nhiều điểm mới về thủ tục hải quan đáng lưu ý như:
+
+- Loại bỏ những nội dung không còn phù hợp với thực tiễn và tạo sự đồng bộ trong áp dụng pháp luật, giúp đơn giản hóa thủ tục hành chính, giảm bớt rủi ro chồng chéo.
+- Có thể thực hiện khai báo và nộp hồ sơ theo hình thức điện tử, giảm hồ sơ giấy, rút ngắn thời gian xử lý và nâng cao tính minh bạch.
+- Được phép khai bổ sung linh hoạt hơn.
+- Bổ sung hình thức tham vấn giá qua hệ thống.
+- Sửa đổi các mẫu Báo cáo quyết toán (Mẫu số 15, Mẫu số 15a, Mẫu số 16).
+
+## 2. So sánh chi tiết những thay đổi về thủ tục hải quan
+
+Để các bạn có thông tin chi tiết hơn về các thay đổi của Thông tư 121, **HSTC** đã tổng hợp bảng so sánh đối chiếu thay đổi của Thông tư 121 so với các Thông tư trước đó.
+
+Vui lòng truy cập vào link sau để xem và tải file chi tiết: 
+[Xem và tải file chi tiết tại Google Drive](https://drive.google.com/file/d/1dGgrYA3Bck8H_1LS4N_6VGXVASTt1X_S/view?usp=sharing)
+
+## 3. Văn bản hợp nhất Thông tư 121/2025/TT-BTC, 39/2018/TT-BTC và 38/2015/TT-BTC
+
+Thông tư 121 chỉ sửa đổi và bổ sung thêm nội dung của các Thông tư trước đó là Thông tư 39/2018/TT-BTC ngày 20/4/2018 và Thông tư số 38/2015/TT-BTC ngày 25/3/2015, do đó, sẽ hơi khó khăn trong việc tham khảo và đọc hiểu toàn bộ thủ tục hải quan liên quan. Vì vậy, sẽ thuận tiện hơn cho việc tham khảo luật khi đọc Văn bản hợp nhất của 03 Thông tư này.
+
+Vui lòng truy cập vào link sau để xem và tải file Văn bản hợp nhất của 3 Thông tư:
+[Xem và tải Văn bản hợp nhất tại đây](https://docs.google.com/document/d/1nHAxDElcPUSkxw1UP5-HhwKzQEcdJBef/edit?usp=sharing&ouid=103268199599416497285&rtpof=true&sd=true)
+
+> **Lưu ý:** Văn bản hợp nhất chỉ nhằm mục đích tham khảo và không có giá trị pháp lý. Khi trích dẫn các văn bản pháp luật để làm việc với các cơ quan chức năng, các bạn lưu ý trích dẫn đúng các điều khoản cụ thể tại các Thông tư tương ứng thay vì các điều khoản tại Văn bản hợp nhất.
+    `.trim()
   }
 ];
 
