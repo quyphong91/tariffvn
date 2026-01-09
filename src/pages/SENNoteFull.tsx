@@ -105,8 +105,11 @@ const SENNoteFull = () => {
     <>
       <Helmet>
         <link rel="canonical" href={canonicalUrl} />
-        <title>Chú giải SEN Chương {chapter} | HSTC</title>
-        <meta name="description" content={`Chú giải SEN song ngữ Việt - Anh cho Chương ${chapter} trong Danh mục AHTN.`} />
+        <title>{`Chú giải SEN Chương ${chapter} | HSTC`}</title>
+        <meta
+          name="description"
+          content={`Chú giải SEN song ngữ Việt - Anh cho Chương ${chapter} trong Danh mục AHTN.`}
+        />
       </Helmet>
       <div className="min-h-screen bg-gradient-hero">
         <Header />
