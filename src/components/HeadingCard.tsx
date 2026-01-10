@@ -31,7 +31,7 @@ function getRankingColor(level: 'high' | 'medium' | 'low' | null): string {
     case 'high':
       return 'bg-red-500'; // Red for best matches
     case 'medium':
-      return 'bg-amber-500'; // Amber for medium matches
+      return 'bg-amber'; // Amber for medium matches (using design system token)
     case 'low':
       return 'bg-gray-400'; // Gray for lower matches
     default:
