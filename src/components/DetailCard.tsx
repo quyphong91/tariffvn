@@ -4,7 +4,7 @@ import { HSCodeBadge } from "./HSCodeBadge";
 import { ChevronRight, FileText, BookOpen, Sparkles, ExternalLink, Calculator } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { highlightText, HighlightMatchType } from "@/utils/highlight";
-// No longer need useNavigate - using window.open for new tab
+// Using window.open with clean URLs for BrowserRouter
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 
 interface DetailCardProps {
@@ -50,13 +50,13 @@ function EvidenceChip({ match, keywords, matchType = 'tokens' }: { match: NoteMa
   
   const handleClick = (e: React.MouseEvent) => {
     e.preventDefault();
-    // Use window.open with proper hash format for HashRouter
-    window.open(`${window.location.origin}${window.location.pathname}#${targetPath}`, '_blank');
+    // Use clean URL for BrowserRouter
+    window.open(targetPath, '_blank');
   };
   
   return (
     <a
-      href={`#${targetPath}`}
+      href={targetPath}
       onClick={handleClick}
       className={cn(
         "flex items-start gap-2 p-3 rounded-lg text-sm border transition-all cursor-pointer group",
@@ -96,8 +96,8 @@ export function DetailCard({ item, parents, index, keyword, language, score, not
     if (hsCode) {
       // Remove dots from HS code for search
       const cleanCode = hsCode.replace(/\./g, '');
-      // Open in new tab using hash router format
-      window.open(`/#/tariff-lookup?q=${encodeURIComponent(cleanCode)}`, '_blank');
+      // Open in new tab using clean URL for BrowserRouter
+      window.open(`/tariff-lookup?q=${encodeURIComponent(cleanCode)}`, '_blank');
     }
   };
   return (
