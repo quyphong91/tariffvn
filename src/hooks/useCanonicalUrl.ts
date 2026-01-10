@@ -4,8 +4,7 @@ const BASE_URL = "https://tracuuhs.com";
 
 export function useCanonicalUrl(): string {
   const location = useLocation();
-  // For HashRouter, we use the hash path (without the #) as the canonical path
-  // The location.pathname gives us the path after the hash
+  // For BrowserRouter, location.pathname gives us the clean path directly
   return `${BASE_URL}${location.pathname === "/" ? "" : location.pathname}`;
 }
 
