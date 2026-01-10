@@ -392,7 +392,7 @@ const Search = () => {
             <span>Nhiều kết quả phù hợp</span>
         </span>
         <span className="inline-flex items-center gap-1">
-            <span className="block w-2.5 h-2.5 rounded-full bg-amber-500 shrink-0"></span> 
+            <span className="block w-2.5 h-2.5 rounded-full bg-amber shrink-0"></span> 
             <span>Vài kết quả phù hợp</span>
         </span>
         <span className="inline-flex items-center gap-1">
