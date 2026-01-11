@@ -45,6 +45,17 @@ const SearchFields = memo(function SearchFields({
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (keyword.trim()) {
+      // --- THÊM ĐOẠN TRACKING NÀY ĐỂ MONITOR TRONG GG TAG ---
+      if (typeof window !== 'undefined' && (window as any).gtag) {
+        (window as any).gtag('event', 'search', {
+          search_term: keyword,
+          material: material || '',
+          function_feature: functionFeature || '',
+          event_category: 'hs_lookup',
+          event_label: 'main_search_form'
+        });
+      }
+      // -------------------------------
       onSearch();
     }
   };
@@ -149,6 +160,15 @@ const Search = () => {
   };
 
   const handleQuickSearch = (term: string) => {
+    // --- THÊM ĐOẠN TRACKING NÀY ĐỂ MONITOR TRONG GG TAG---
+    if (typeof window !== 'undefined' && (window as any).gtag) {
+      (window as any).gtag('event', 'search', {
+        search_term: term,
+        event_category: 'hs_lookup',
+        event_label: 'quick_suggestion_click'
+      });
+    }
+    // -------------------------------
     setKeyword(term);
     const results = advancedSearchHSData(hsData, {
       keyword: term,
