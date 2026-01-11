@@ -45,17 +45,18 @@ const SearchFields = memo(function SearchFields({
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (keyword.trim()) {
-      // --- THÊM ĐOẠN TRACKING NÀY ĐỂ MONITOR TRONG GG TAG ---
-      if (typeof window !== 'undefined' && (window as any).gtag) {
-        (window as any).gtag('event', 'search', {
-          search_term: keyword,
-          material: material || '',
-          function_feature: functionFeature || '',
-          event_category: 'hs_lookup',
-          event_label: 'main_search_form'
-        });
-      }
-      // -------------------------------
+      // --- SỬA THÀNH DATA LAYER ĐỂ DÙNG VỚI GTM ---
+      if (typeof window !== 'undefined') {
+        (window as any).dataLayer = (window as any).dataLayer || [];
+        (window as any).dataLayer.push({
+        'event': 'custom_search',           // Tên sự kiện để GTM bắt
+        'search_term': keyword,             // Từ khóa
+        'material': material || '',         // Chất liệu
+        'function_feature': functionFeature || '', // Công dụng
+        'search_type': 'manual'             // Đánh dấu là người dùng tự gõ
+          });
+        }
+      // ---------------------------------------------
       onSearch();
     }
   };
@@ -160,15 +161,18 @@ const Search = () => {
   };
 
   const handleQuickSearch = (term: string) => {
-    // --- THÊM ĐOẠN TRACKING NÀY ĐỂ MONITOR TRONG GG TAG---
-    if (typeof window !== 'undefined' && (window as any).gtag) {
-      (window as any).gtag('event', 'search', {
-        search_term: term,
-        event_category: 'hs_lookup',
-        event_label: 'quick_suggestion_click'
-      });
-    }
-    // -------------------------------
+    // --- SỬA THÀNH DATA LAYER ĐỂ DÙNG VỚI GTM ---
+    if (typeof window !== 'undefined') {
+      (window as any).dataLayer = (window as any).dataLayer || [];
+      (window as any).dataLayer.push({
+        'event': 'custom_search',
+        'search_term': term,
+        'material': material || '',            // Gửi kèm các bộ lọc hiện tại nếu có
+        'function_feature': functionFeature || '',
+        'search_type': 'quick_suggestion'      // Đánh dấu là click gợi ý
+          });
+      }
+  // ---------------------------------------------
     setKeyword(term);
     const results = advancedSearchHSData(hsData, {
       keyword: term,
