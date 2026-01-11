@@ -30,16 +30,16 @@ const App = () => (
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/search" element={<Search />} />
-            <Route path="/gri-rules" element={<GRIRules />} />
-            <Route path="/chapter-notes" element={<ChapterNotes />} />
-            <Route path="/chapter-notes/full/:chapterNumber" element={<ChapterNoteFull />} />
-            <Route path="/chapter-notes/full-all" element={<ChapterNoteFullAll />} />
-            <Route path="/sen-notes" element={<SENNotes />} />
-            <Route path="/sen-notes/full/:chapterNumber" element={<SENNoteFull />} />
-            <Route path="/wco-compendium" element={<WCOCompendium />} />
-            <Route path="/tariff-lookup" element={<TariffLookup />} />
-            <Route path="/news" element={<NewsList />} />
-            <Route path="/news/:slug" element={<NewsDetail />} />
+            <Route path="/quy-tac-phan-loai-hs" element={<GRIRules />} />
+            <Route path="/chu-giai-hs" element={<ChapterNotes />} />
+            <Route path="/chu-giai-hs/full/:chapterNumber" element={<ChapterNoteFull />} />
+            <Route path="/chu-giai-hs/full-all" element={<ChapterNoteFullAll />} />
+            <Route path="/chu-giai-sen" element={<SENNotes />} />
+            <Route path="/chu-giai-sen/full/:chapterNumber" element={<SENNoteFull />} />
+            <Route path="/tuyen-tap-phan-loai-wco" element={<WCOCompendium />} />
+            <Route path="/tra-cuu-thue-nhap-khau" element={<TariffLookup />} />
+            <Route path="/tin-tuc" element={<NewsList />} />
+            <Route path="/tin-tuc/:slug" element={<NewsDetail />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>

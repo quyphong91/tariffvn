@@ -78,7 +78,7 @@ Bạn có thể tham khảo [toàn bộ Công Ước tại đây](https://www.wc
 
 Hiện nay, danh mục hệ thống mã HS Code gồm **21 Phần (Section), 97 Chương (Chapter), 1.228 Nhóm (Heading), 4.084 Phân nhóm (Subheading)**.
 
-Bạn có thể tham khảo [cấu trúc danh mục chi tiết tại đây](/chapter-notes).
+Bạn có thể tham khảo [cấu trúc danh mục chi tiết tại đây](/chu-giai-hs).
 
 Việc đánh số cho Chương, Nhóm, Phân nhóm theo quy tắc sau:
 

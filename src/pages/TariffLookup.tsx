@@ -49,7 +49,7 @@ import { cn } from "@/lib/utils";
 
 const TariffLookup = () => {
   const canonicalUrl = useCanonicalUrl();
-  const [searchParams] = useSearchParams();
+  const [searchParams, setSearchParams] = useSearchParams();
   const [data, setData] = useState<TariffItem[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -66,6 +66,8 @@ const TariffLookup = () => {
 
   // Get query param from URL
   const queryFromUrl = searchParams.get('q');
+
+  // Load data and restore search from URL on page load
   useEffect(() => {
     loadTariffData()
       .then((loadedData) => {
@@ -84,15 +86,20 @@ const TariffLookup = () => {
   }, [queryFromUrl, initialSearchDone]);
 
   const handleSearch = useCallback(() => {
-    if (!searchQuery.trim()) {
+    const trimmedQuery = searchQuery.trim();
+    if (!trimmedQuery) {
       setSearchResults([]);
       setHasSearched(false);
+      // Clear URL param when search is empty
+      setSearchParams({}, { replace: true });
       return;
     }
-    const results = searchTariffData(data, searchQuery);
+    // Update URL with search query
+    setSearchParams({ q: trimmedQuery }, { replace: true });
+    const results = searchTariffData(data, trimmedQuery);
     setSearchResults(results);
     setHasSearched(true);
-  }, [data, searchQuery]);
+  }, [data, searchQuery, setSearchParams]);
 
   const handleKeyPress = (e: React.KeyboardEvent) => {
     if (e.key === "Enter") {

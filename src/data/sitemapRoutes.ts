@@ -15,13 +15,13 @@ export interface SitemapRoute {
 export const staticRoutes: SitemapRoute[] = [
   { path: '/', priority: 1.0, changefreq: 'weekly' },
   { path: '/search', priority: 0.9, changefreq: 'weekly' },
-  { path: '/tariff-lookup', priority: 0.9, changefreq: 'monthly' },
-  { path: '/gri-rules', priority: 0.8, changefreq: 'monthly' },
-  { path: '/chapter-notes', priority: 0.8, changefreq: 'monthly' },
-  { path: '/chapter-notes/full-all', priority: 0.7, changefreq: 'monthly' },
-  { path: '/sen-notes', priority: 0.8, changefreq: 'monthly' },
-  { path: '/wco-compendium', priority: 0.7, changefreq: 'monthly' },
-  { path: '/news', priority: 0.8, changefreq: 'daily' },
+  { path: '/tra-cuu-thue-nhap-khau', priority: 0.9, changefreq: 'monthly' },
+  { path: '/quy-tac-phan-loai-hs', priority: 0.8, changefreq: 'monthly' },
+  { path: '/chu-giai-hs', priority: 0.8, changefreq: 'monthly' },
+  { path: '/chu-giai-hs/full-all', priority: 0.7, changefreq: 'monthly' },
+  { path: '/chu-giai-sen', priority: 0.8, changefreq: 'monthly' },
+  { path: '/tuyen-tap-phan-loai-wco', priority: 0.7, changefreq: 'monthly' },
+  { path: '/tin-tuc', priority: 0.8, changefreq: 'daily' },
 ];
 
 // Domain chính của website (thay đổi khi deploy)

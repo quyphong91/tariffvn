@@ -287,7 +287,7 @@ const ChapterNotes = () => {
                               {/* Full Notes Button */}
                               <div className="pt-4 border-t border-border/50">
                                 <Link
-                                  to={`/chapter-notes/full/${chapter.chapter}`}
+                                  to={`/chu-giai-hs/full/${chapter.chapter}`}
                                   target="_blank"
                                   rel="noopener noreferrer"
                                 >
@@ -313,7 +313,7 @@ const ChapterNotes = () => {
         <div className="max-w-5xl mx-auto mt-8 pt-6 border-t border-border">
           <div className="flex justify-center">
             <Link
-              to="/chapter-notes/full-all"
+              to="/chu-giai-hs/full-all"
               target="_blank"
               rel="noopener noreferrer"
             >
