@@ -98,13 +98,16 @@ Việt Nam đã tham gia và áp dụng đầy đủ Công Ước từ năm 1998
 
 Ngoài ra, Việt Nam cũng tham gia **Danh mục Biểu thuế hài hòa ASEAN (AHTN)**. Danh mục AHTN 2022 được các nước ASEAN xây dựng chi tiết ở cấp độ **8 số**.
 
-Hiện nay, Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam được quy định tại **Thông tư 31/2022/TT-BTC** ngày 08/6/2022, có hiệu lực thi hành kể từ ngày 01/12/2022.
+Hiện nay, Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam được quy định tại **Thông tư 31/2022/TT-BTC** ngày 08/6/2022, có hiệu lực thi hành kể từ ngày 01/12/2022. Các bạn có thể tìm hiểu thêm về Danh mục tại văn bản pháp lý này. 
+
+---
+**HSTC** là công cụ miễn phí hỗ trợ tra cứu mã số HS Code nhanh và toàn diện, tích hợp các thông tin về chú giải và biểu thuế nhập khẩu. [Truy cập công cụ tra cứu HS Code tại đây](https://tracuuhs.com/search) để trải nghiệm thử tính năng tra cứu.
     `.trim()
   },
   {
     id: "2",
     slug: "tong-hop-so-sanh-thay-doi-thu-tuc-hai-quan-thong-tu-121-2025",
-    title: "Tổng hợp và so sánh chi tiết những thay đổi về thủ tục hải quan tại Thông tư 121/2025/TT-BTC",
+    title: "Chi tiết những thay đổi về thủ tục hải quan tại Thông tư 121/2025/TT-BTC",
     date: "2026-1-8",
     excerpt: "Cùng điểm qua những thay đổi đáng chú ý cũng như chi tiết của các thay đổi về tục hải quan tại Thông tư 121/2025/TT-BTC vừa mới ban hành ngày 18/12/2025.",
     coverImage: "/cap-nhat-thong-tu-121-2025-TT-BTC.png",
@@ -136,6 +139,53 @@ Vui lòng truy cập vào link sau để xem và tải file Văn bản hợp nh�
 [Xem và tải Văn bản hợp nhất tại đây](https://docs.google.com/document/d/1nHAxDElcPUSkxw1UP5-HhwKzQEcdJBef/edit?usp=sharing&ouid=103268199599416497285&rtpof=true&sd=true)
 
 > **Lưu ý:** Văn bản hợp nhất chỉ nhằm mục đích tham khảo và không có giá trị pháp lý. Khi trích dẫn các văn bản pháp luật để làm việc với các cơ quan chức năng, các bạn lưu ý trích dẫn đúng các điều khoản cụ thể tại các Thông tư tương ứng thay vì các điều khoản tại Văn bản hợp nhất.
+
+---
+**HSTC** là công cụ miễn phí hỗ trợ tra cứu mã số HS Code nhanh và toàn diện, tích hợp các thông tin về chú giải và biểu thuế nhập khẩu. [Truy cập công cụ tra cứu HS Code tại đây](https://tracuuhs.com/search) để trải nghiệm thử tính năng tra cứu.
+ 
+    `.trim()
+  },
+  {
+    id: "3",
+    slug: "so-sanh-thay-doi-mau-so-01-to-khai-nhap-khau-thong-tu-121",
+    title: "Thay đổi về các chỉ tiêu thông tin của Tờ khai nhập khẩu điện tử theo Thông tư 121/2025/TT-BTC",
+    date: "2026-01-11",
+    excerpt: "Những thay đổi chi tiết về các chỉ tiêu thông tin của Mẫu số 01 – Tờ khai nhập khẩu điện tử theo Phụ lục I, Thông tư 121/2025/TT-BTC vừa mới ban hành ngày 18/12/2025.",
+    coverImage: "/cap-nhat-to-khai-nhap-khau-thong-tu-121-2025-TT-BTC.png",
+    content: `
+## 1. Tổng quan về các thay đổi
+
+Như đã thông tin ở bài viết trước đây, vào ngày 18/12/2025, Bộ Tài chính đã ban hành **Thông tư 121/2025/TT-BTC** (sau đây gọi tắt là Thông tư 121) sửa đổi, bổ sung một số điều tại Thông tư số 38/2015/TT-BTC ngày 25/3/2015 về thủ tục hải quan; kiểm tra, giám sát hải quan; thuế xuất khẩu, thuế nhập khẩu và quản lý thuế đối với hàng hoá xuất khẩu, nhập khẩu đã được sửa đổi, bổ sung bởi Thông tư 39/2018/TT-BTC ngày 20/4/2018.
+
+Bạn có thể tham khảo lại bài viết chi tiết về các thay đổi tại Thông tư 121 [tại đây](https://tracuuhs.com/news/tong-hop-so-sanh-thay-doi-thu-tuc-hai-quan-thong-tu-121-2025).
+
+Ngoài những sửa đổi, bổ sung tại nội dung của các điều luật, các biểu mẫu liên quan đến thủ tục hải quan cũng được sửa đổi, bổ sung tại các phụ lục đính kèm theo Thông tư 121.
+
+Tại **Phụ lục I của Thông tư 121**, Mẫu số 01 – Tờ khai nhập khẩu điện tử cũng được sửa đổi một số chỉ tiêu thông tin như:
+
+- Mã và tên người nhập khẩu, người xuất khẩu đối với trường hợp xuất nhập khẩu tại chỗ.
+- Thông tin liên quan đến giấy phép nhập khẩu.
+- Tổng trị giá hóa đơn thêm Incoterm DPU.
+- Chi tiết khai trị giá trong trường hợp người khai hải quan lựa chọn hình thức tham vấn giá gián tiếp.
+- Ghi chú trong trường hợp xuất nhập khẩu tại chỗ, hàng hóa tương tự với hàng hóa đang đợi kết quả phân tích phân loại.
+- Mô tả hàng hóa trong các trường hợp sản phẩm đặt gia công ở nước ngoài, nguyên liệu để gia công sản xuất hàng hóa xuất khẩu.
+
+**Lưu ý:** Thông tư 121 sẽ có hiệu lực kể từ ngày **01/02/2026**.
+
+## 2. So sánh chi tiết những thay đổi về các chỉ tiêu thông tin của Mẫu số 01 – Tờ khai nhập khẩu điện tử theo Thông tư 121
+
+Để các bạn có thông tin chi tiết hơn về các thay đổi của **Mẫu số 01 – Tờ khai nhập khẩu điện tử** theo Thông tư 121, **HSTC** đã tổng hợp bảng so sánh đối chiếu chi tiết các thay đổi của các chỉ tiêu thông tin tại Thông tư 121 so với các Thông tư trước đó.
+[Xem và tải file chi tiết hoàn toàn miễn phí tại Google Drive](https://drive.google.com/file/d/1g3nZBtWMeiaUwNs9j87pAtNPcA3beHx5/view?usp=sharing)
+
+Ngoài ra, để thuận tiện cho các bạn tham khảo toàn bộ các mục thông tin của Mẫu số 01 - Tờ khai nhập khẩu điện tử sau khi được sửa đổi bổ sung bởi Thông tư 121, HSTC cũng đã tổng hợp và hợp nhất toàn bộ thay đổi của Mẫu số 01 này.
+[Xem và tải file Mẫu số 01 hợp nhất hoàn toàn miễn phí tại Google Drive](https://drive.google.com/file/d/1IhV66033Qm0m-ENJROhWh8AmQLR125Sp/view?usp=sharing)  
+
+HSTC hy vọng rằng bảng so sánh chi tiết này sẽ giúp các bạn dễ nhớ các thay đổi hơn và phục vụ tốt hơn cho công việc hàng ngày của các bạn.
+
+Hãy tiếp tục đón chờ các bài viết tiếp theo của HSTC nhé.
+
+---
+**HSTC** là công cụ miễn phí hỗ trợ tra cứu mã số HS Code nhanh và toàn diện, tích hợp các thông tin về chú giải và biểu thuế nhập khẩu. [Truy cập công cụ tra cứu HS Code tại đây](https://tracuuhs.com/search) để trải nghiệm thử tính năng tra cứu.
     `.trim()
   }
 ];
