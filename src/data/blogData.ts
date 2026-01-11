@@ -100,6 +100,8 @@ Ngoài ra, Việt Nam cũng tham gia **Danh mục Biểu thuế hài hòa ASEAN 
 
 Hiện nay, Danh mục hàng hóa xuất khẩu, nhập khẩu Việt Nam được quy định tại **Thông tư 31/2022/TT-BTC** ngày 08/6/2022, có hiệu lực thi hành kể từ ngày 01/12/2022. Các bạn có thể tìm hiểu thêm về Danh mục tại văn bản pháp lý này. 
 
+Hãy follow [Facebook page](https://www.facebook.com/share/1GBqyDGvu3/) của HSTC để tiếp tục theo dõi các bài viết tiếp theo của HSTC nhé.
+
 ---
 **HSTC** là công cụ miễn phí hỗ trợ tra cứu mã số HS Code nhanh và toàn diện, tích hợp các thông tin về chú giải và biểu thuế nhập khẩu. [Truy cập công cụ tra cứu HS Code tại đây](https://tracuuhs.com/search) để trải nghiệm thử tính năng tra cứu.
     `.trim()
@@ -139,6 +141,8 @@ Vui lòng truy cập vào link sau để xem và tải file Văn bản hợp nh�
 [Xem và tải Văn bản hợp nhất tại đây](https://docs.google.com/document/d/1nHAxDElcPUSkxw1UP5-HhwKzQEcdJBef/edit?usp=sharing&ouid=103268199599416497285&rtpof=true&sd=true)
 
 > **Lưu ý:** Văn bản hợp nhất chỉ nhằm mục đích tham khảo và không có giá trị pháp lý. Khi trích dẫn các văn bản pháp luật để làm việc với các cơ quan chức năng, các bạn lưu ý trích dẫn đúng các điều khoản cụ thể tại các Thông tư tương ứng thay vì các điều khoản tại Văn bản hợp nhất.
+
+Hãy follow [Facebook page](https://www.facebook.com/share/1GBqyDGvu3/) của HSTC để tiếp tục theo dõi các bài viết tiếp theo của HSTC nhé.
 
 ---
 **HSTC** là công cụ miễn phí hỗ trợ tra cứu mã số HS Code nhanh và toàn diện, tích hợp các thông tin về chú giải và biểu thuế nhập khẩu. [Truy cập công cụ tra cứu HS Code tại đây](https://tracuuhs.com/search) để trải nghiệm thử tính năng tra cứu.
@@ -182,7 +186,7 @@ Ngoài ra, để thuận tiện cho các bạn tham khảo toàn bộ các mục
 
 HSTC hy vọng rằng bảng so sánh chi tiết này sẽ giúp các bạn dễ nhớ các thay đổi hơn và phục vụ tốt hơn cho công việc hàng ngày của các bạn.
 
-Hãy tiếp tục đón chờ các bài viết tiếp theo của HSTC nhé.
+Hãy follow [Facebook page](https://www.facebook.com/share/1GBqyDGvu3/) của HSTC để tiếp tục theo dõi các bài viết tiếp theo của HSTC nhé.
 
 ---
 **HSTC** là công cụ miễn phí hỗ trợ tra cứu mã số HS Code nhanh và toàn diện, tích hợp các thông tin về chú giải và biểu thuế nhập khẩu. [Truy cập công cụ tra cứu HS Code tại đây](https://tracuuhs.com/search) để trải nghiệm thử tính năng tra cứu.
