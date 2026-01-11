@@ -59,42 +59,42 @@ const Home = () => {
               title="Tra cứu biểu thuế nhập khẩu"
               description="Tra cứu thuế biểu thuế nhập khẩu mới nhất năm 2026 cập nhật theo biểu thuế xuất nhập khẩu 2026 của Chi cục Hải quan Khu vực VIII"
               icon={Calculator}
-              to="/tariff-lookup"
+              to="/tra-cuu-thue-nhap-khau"
               iconBgClass="bg-amber/20"
             />
             <FeatureCard
               title="Quy tắc phân loại hàng hóa và xác định HS Code"
               description="6 quy tắc tổng quát giải thích việc phân loại hàng hóa theo Danh mục HS Code"
               icon={Scale}
-              to="/gri-rules"
+              to="/quy-tac-phan-loai-hs"
               iconBgClass="bg-primary/10"
             />
             <FeatureCard
               title="Chú giải chi tiết Danh mục HS Code theo phiên bản 2022"
               description="Chú giải chi tiết theo Chương và Nhóm hàng trong Danh mục HS Code"
               icon={BookOpen}
-              to="/chapter-notes"
+              to="/chu-giai-hs"
               iconBgClass="bg-ocean-light/30"
             />
             <FeatureCard
               title="Chú giải bổ sung SEN 2022"
               description="Chú giải SEN được xây dựng như một công cụ hỗ trợ các nước thành viên ASEAN để phân loại hàng hóa một số mặt hàng cụ thể được chi tiết ở cấp độ 8 số trong Danh mục AHTN"
               icon={FileText}
-              to="/sen-notes"
+              to="/chu-giai-sen"
               iconBgClass="bg-amber/20"
             />
             <FeatureCard
               title="Tuyển tập ý kiến phân loại hàng hóa của WCO"
               description="Các quyết định phân loại HS Code của Tổ chức Hải quan Thế giới cho các hàng hoá mới hoặc phức tạp"
               icon={Globe}
-              to="/wco-compendium"
+              to="/tuyen-tap-phan-loai-wco"
               iconBgClass="bg-orange/20"
             />
             <FeatureCard
               title="Tin tức & Bài viết"
               description="Cập nhật thông tin mới nhất về HS Code, biểu thuế và chính sách hải quan"
               icon={Newspaper}
-              to="/news"
+              to="/tin-tuc"
               iconBgClass="bg-primary/15"
             />
           </div>

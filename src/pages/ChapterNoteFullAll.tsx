@@ -160,7 +160,7 @@ const ChapterNoteFullAll = () => {
             Trang chủ
           </Link>
           <span className="mx-2 text-muted-foreground">/</span>
-          <Link to="/chapter-notes" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+          <Link to="/chu-giai-hs" className="text-sm text-muted-foreground hover:text-primary transition-colors">
             Chú giải phân loại
           </Link>
           <span className="mx-2 text-muted-foreground">/</span>
@@ -169,7 +169,7 @@ const ChapterNoteFullAll = () => {
 
         {/* Back Button */}
         <div className="mb-6">
-          <Link to="/chapter-notes">
+          <Link to="/chu-giai-hs">
             <Button variant="outline" size="sm" className="gap-2">
               <ChevronLeft className="w-4 h-4" />
               Quay lại

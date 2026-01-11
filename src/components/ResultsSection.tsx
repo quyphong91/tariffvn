@@ -157,19 +157,19 @@ export const ResultsSection = memo(function ResultsSection({ headings, detailed,
       {/* Quick Access Buttons */}
       <div className="flex flex-wrap gap-3 p-4 bg-muted/30 rounded-lg border border-border">
         <span className="text-sm font-medium text-muted-foreground self-center mr-2">Tham khảo thêm:</span>
-        <Link to="/chapter-notes" target="_blank">
+        <Link to="/chu-giai-hs" target="_blank">
           <Button variant="outline" size="sm" className="gap-2">
             <BookOpen className="w-4 h-4" />
             Chú giải HS
           </Button>
         </Link>
-        <Link to="/sen-notes" target="_blank">
+        <Link to="/chu-giai-sen" target="_blank">
           <Button variant="outline" size="sm" className="gap-2">
             <FileText className="w-4 h-4" />
             Chú giải SEN
           </Button>
         </Link>
-        <Link to="/wco-compendium" target="_blank">
+        <Link to="/tuyen-tap-phan-loai-wco" target="_blank">
           <Button variant="outline" size="sm" className="gap-2">
             <Globe className="w-4 h-4" />
             Tuyển tập WCO

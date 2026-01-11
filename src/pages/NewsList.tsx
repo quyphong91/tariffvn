@@ -54,7 +54,7 @@ const NewsList = () => {
               {posts.map((post, index) => (
                 <Link
                   key={post.id}
-                  to={`/news/${post.slug}`}
+                  to={`/tin-tuc/${post.slug}`}
                   className="group block animate-fade-up"
                   style={{ animationDelay: `${index * 100}ms` }}
                 >

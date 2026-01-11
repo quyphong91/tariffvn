@@ -54,7 +54,7 @@ const NewsDetail = () => {
             <p className="text-muted-foreground">
               Bài viết bạn đang tìm không tồn tại hoặc đã bị xóa.
             </p>
-            <Button onClick={() => navigate("/news")}>
+            <Button onClick={() => navigate("/tin-tuc")}>
               <ArrowLeft className="w-4 h-4 mr-2" />
               Quay lại danh sách
             </Button>
@@ -86,7 +86,7 @@ const NewsDetail = () => {
             {/* Back Button */}
             <Button
               variant="ghost"
-              onClick={() => navigate("/news")}
+              onClick={() => navigate("/tin-tuc")}
               className="mb-6 -ml-2"
             >
               <ArrowLeft className="w-4 h-4 mr-2" />
@@ -225,7 +225,7 @@ const NewsDetail = () => {
                   {recentPosts.slice(0, 2).map((relatedPost) => (
                     <Link
                       key={relatedPost.id}
-                      to={`/news/${relatedPost.slug}`}
+                      to={`/tin-tuc/${relatedPost.slug}`}
                       className="group"
                     >
                       <Card className="h-full shadow-card hover:shadow-soft transition-all duration-300 group-hover:-translate-y-1">
