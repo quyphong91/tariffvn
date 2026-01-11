@@ -29,6 +29,7 @@ export const Header = () => {
         <Dialog>
           <DialogTrigger asChild>
             <Button
+              id="btn-open-donate-dialog"
               variant="outline"
               size="sm"
               className="gap-2 border-amber/50 text-amber hover:bg-amber/10 hover:text-orange"
@@ -51,6 +52,7 @@ export const Header = () => {
             <div className="grid gap-4 py-4">
               {/* Buy Me a Coffee Link */}
               <a
+                id="link-buymeacoffee-outbound"
                 href="https://buymeacoffee.com/zephr"
                 target="_blank"
                 rel="noopener noreferrer"
