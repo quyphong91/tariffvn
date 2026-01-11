@@ -122,7 +122,7 @@ const SENNoteFull = () => {
             Trang chủ
           </Link>
           <span className="mx-2 text-muted-foreground">/</span>
-          <Link to="/sen-notes" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+          <Link to="/chu-giai-sen" className="text-sm text-muted-foreground hover:text-primary transition-colors">
             Chú giải SEN
           </Link>
           <span className="mx-2 text-muted-foreground">/</span>
@@ -131,7 +131,7 @@ const SENNoteFull = () => {
 
         {/* Back Button */}
         <div className="mb-6">
-          <Link to="/sen-notes">
+          <Link to="/chu-giai-sen">
             <Button variant="outline" size="sm" className="gap-2">
               <ChevronLeft className="w-4 h-4" />
               Quay lại

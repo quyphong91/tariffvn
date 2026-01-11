@@ -317,7 +317,7 @@ const SENNotes = () => {
                               variant="outline"
                               size="sm"
                               className="gap-2 shrink-0"
-                              onClick={() => window.open(`/sen-notes/full/${chapterNum}`, '_blank')}
+                              onClick={() => window.open(`/chu-giai-sen/full/${chapterNum}`, '_blank')}
                             >
                               <Eye className="w-4 h-4" />
                               Xem chi tiết

@@ -45,8 +45,8 @@ function EvidenceChip({ match, keywords, matchType = 'tokens' }: { match: NoteMa
   const Icon = isSEN ? FileText : BookOpen;
   const chapterNumber = getChapterFromHsCode(match.hsCode);
   const targetPath = isSEN 
-    ? `/sen-notes/full/${chapterNumber}`
-    : `/chapter-notes/full/${chapterNumber}`;
+    ? `/chu-giai-sen/full/${chapterNumber}`
+    : `/chu-giai-hs/full/${chapterNumber}`;
   
   const handleClick = (e: React.MouseEvent) => {
     e.preventDefault();
@@ -97,7 +97,7 @@ export function DetailCard({ item, parents, index, keyword, language, score, not
       // Remove dots from HS code for search
       const cleanCode = hsCode.replace(/\./g, '');
       // Open in new tab using clean URL for BrowserRouter
-      window.open(`/tariff-lookup?q=${encodeURIComponent(cleanCode)}`, '_blank');
+      window.open(`/tra-cuu-thue-nhap-khau?q=${encodeURIComponent(cleanCode)}`, '_blank');
     }
   };
   return (
