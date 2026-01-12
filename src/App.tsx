@@ -29,7 +29,7 @@ const App = () => (
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/search" element={<Search />} />
+            <Route path="/tra-cuu-hs-code" element={<Search />} />
             <Route path="/quy-tac-phan-loai-hs" element={<GRIRules />} />
             <Route path="/chu-giai-hs" element={<ChapterNotes />} />
             <Route path="/chu-giai-hs/full/:chapterNumber" element={<ChapterNoteFull />} />
