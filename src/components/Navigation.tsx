@@ -66,7 +66,7 @@ export const DesktopNavigation = () => {
             : "text-muted-foreground hover:bg-secondary hover:text-foreground"
         )}
       >
-        Tra cứu HS
+        Tra cứu HS code
       </Link>
 
       <Link
@@ -78,7 +78,7 @@ export const DesktopNavigation = () => {
             : "text-muted-foreground hover:bg-secondary hover:text-foreground"
         )}
       >
-        Tra cứu thuế
+        Tra cứu thuế nhập khẩu
       </Link>
 
       {/* Documents Dropdown */}
