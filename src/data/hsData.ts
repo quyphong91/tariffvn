@@ -1,5 +1,5 @@
-import * as XLSX from 'xlsx';
 import { searchNotesAdvanced, NoteMatch } from '@/utils/searchNotes';
+import { parseFirstMarkdownTable } from '@/utils/markdownTable';
 
 export type SearchLanguage = 'vi' | 'en';
 // 'tokens' = token-based search (default), 'exact' = strict exact phrase match
@@ -34,6 +34,11 @@ export interface AdvancedSearchParams {
 let cachedData: HSItem[] | null = null;
 let loadingPromise: Promise<HSItem[]> | null = null;
 
+function parseLevel(value: string | undefined): number {
+  const n = value ? parseInt(value, 10) : 0;
+  return Number.isFinite(n) && !Number.isNaN(n) ? n : 0;
+}
+
 export async function loadHSData(): Promise<HSItem[]> {
   if (cachedData) {
     return cachedData;
@@ -45,35 +50,30 @@ export async function loadHSData(): Promise<HSItem[]> {
 
   loadingPromise = (async () => {
     try {
-      const response = await fetch('/data/HS_PBI_VN.xlsx');
-      const arrayBuffer = await response.arrayBuffer();
-      const workbook = XLSX.read(arrayBuffer, { type: 'array' });
-      const sheetName = workbook.SheetNames[0];
-      const worksheet = workbook.Sheets[sheetName];
-      const jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1 }) as unknown[][];
+      // Security hardening: avoid parsing XLSX in-browser via vulnerable dependency.
+      // We instead load a pre-extracted markdown table from /public.
+      const response = await fetch('/data/HS_PBI_VN.extracted.md');
+      const markdown = await response.text();
+      const rows = parseFirstMarkdownTable(markdown);
 
-      // Skip header row
+      // rows[0] is the header
       const items: HSItem[] = [];
-      for (let i = 1; i < jsonData.length; i++) {
-        const row = jsonData[i];
-        if (row && row.length >= 3) {
-          const level = typeof row[0] === 'number' ? row[0] : parseInt(String(row[0] || '0'), 10);
-          const hsCode = String(row[1] || '').trim();
-          const description = String(row[2] || '').trim();
-          const descriptionEN = row[3] ? String(row[3]).trim() : undefined;
+      for (let i = 1; i < rows.length; i++) {
+        const row = rows[i];
+        if (!row || row.length < 3) continue;
 
-          if (description) {
-            items.push({
-              level: isNaN(level) ? 0 : level,
-              hsCode,
-              description,
-              descriptionEN,
-              standard: row[4] ? String(row[4]) : undefined,
-              mfn: row[5] ? String(row[5]) : undefined,
-              vat: row[6] ? String(row[6]) : undefined,
-              note: row[30] ? String(row[30]) : undefined,
-            });
-          }
+        const level = parseLevel(row[0]);
+        const hsCode = (row[1] || '').trim();
+        const description = (row[2] || '').trim();
+        const descriptionEN = row[3] ? String(row[3]).trim() : undefined;
+
+        if (description) {
+          items.push({
+            level,
+            hsCode,
+            description,
+            descriptionEN,
+          });
         }
       }
 
