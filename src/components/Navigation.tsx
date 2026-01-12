@@ -26,7 +26,7 @@ const mainRoutes = [
 ];
 
 const documentRoutes = [
-  { path: "/quy-tac-phan-loai-hs", label: "Quy tắc phân loại HS (GIR)", icon: BookOpen },
+  { path: "/quy-tac-phan-loai-hs", label: "Quy tắc phân loại HS", icon: BookOpen },
   { path: "/chu-giai-hs", label: "Chú giải HS", icon: FileText },
   { path: "/chu-giai-sen", label: "Chú giải SEN", icon: FileText },
   { path: "/tuyen-tap-phan-loai-wco", label: "Tuyển tập phân loại WCO", icon: BookOpen },
