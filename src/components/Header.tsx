@@ -11,32 +11,45 @@ import {
 } from "@/components/ui/dialog";
 import logo from "@/assets/Logo.png";
 import donationQr from "@/assets/donation-qr.jpg";
+import { DesktopNavigation, MobileNavigation } from "./Navigation";
 
 export const Header = () => {
   return (
     <header className="border-b border-border/50 bg-card/80 backdrop-blur-sm sticky top-0 z-50">
-      <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-        {/* Logo and Site Name */}
-        <Link to="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-          <img src={logo} alt="Logo" className="w-10 h-10 rounded-lg object-cover" />
-          <div>
-            <h1 className="text-lg font-bold text-foreground leading-none">HSTC</h1>
-            <span className="text-xs text-muted-foreground">Công cụ tra cứu HS Code</span>
+      <div className="container mx-auto px-4 py-3 flex items-center justify-between gap-4">
+        {/* Left: Mobile Menu + Logo */}
+        <div className="flex items-center gap-2">
+          {/* Mobile hamburger menu - only visible on mobile */}
+          <div className="md:hidden">
+            <MobileNavigation />
           </div>
-        </Link>
+          
+          {/* Logo and Site Name */}
+          <Link to="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+            <img src={logo} alt="Logo" className="w-9 h-9 rounded-lg object-cover" />
+            <div className="hidden sm:block">
+              <h1 className="text-base font-bold text-foreground leading-none">HSTC</h1>
+              <span className="text-xs text-muted-foreground">Tra cứu HS Code</span>
+            </div>
+          </Link>
+        </div>
 
-        {/* Donation Button */}
+        {/* Center: Desktop Navigation - only visible on desktop */}
+        <div className="hidden md:flex flex-1 justify-center">
+          <DesktopNavigation />
+        </div>
+
+        {/* Right: Donation Button */}
         <Dialog>
           <DialogTrigger asChild>
             <Button
               id="btn-open-donate-dialog"
               variant="outline"
               size="sm"
-              className="gap-2 border-amber/50 text-amber hover:bg-amber/10 hover:text-orange"
+              className="gap-2 border-amber/50 text-amber hover:bg-amber/10 hover:text-orange shrink-0"
             >
               <Coffee className="w-4 h-4" />
-              <span className="hidden sm:inline">Tặng cà phê cho page</span>
-              <span className="sm:hidden">Donate</span>
+              <span className="hidden sm:inline">Ủng hộ</span>
             </Button>
           </DialogTrigger>
           <DialogContent className="sm:max-w-md">
