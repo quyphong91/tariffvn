@@ -1,4 +1,4 @@
-import * as XLSX from 'xlsx';
+import { parseFirstMarkdownTable } from '@/utils/markdownTable';
 
 export interface TariffItem {
   level: number;
@@ -73,6 +73,15 @@ export const MARKET_FILTERS: MarketFilter[] = [
 let cachedTariffData: TariffItem[] | null = null;
 let loadingPromise: Promise<TariffItem[]> | null = null;
 
+function s(v: string | undefined): string {
+  return (v ?? '').trim();
+}
+
+function parseLevel(value: string | undefined): number {
+  const n = value ? parseInt(value, 10) : 0;
+  return Number.isFinite(n) && !Number.isNaN(n) ? n : 0;
+}
+
 export async function loadTariffData(): Promise<TariffItem[]> {
   if (cachedTariffData) {
     return cachedTariffData;
@@ -84,49 +93,48 @@ export async function loadTariffData(): Promise<TariffItem[]> {
 
   loadingPromise = (async () => {
     try {
-      const response = await fetch('/data/Tariff.xlsx');
-      const arrayBuffer = await response.arrayBuffer();
-      const workbook = XLSX.read(arrayBuffer, { type: 'array' });
-      const sheetName = workbook.SheetNames[0];
-      const worksheet = workbook.Sheets[sheetName];
-      const jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1 }) as unknown[][];
+      // Security hardening: avoid parsing XLSX in-browser via vulnerable dependency.
+      // We instead load a pre-extracted markdown table from /public.
+      const response = await fetch('/data/Tariff.extracted.md');
+      const markdown = await response.text();
+      const rows = parseFirstMarkdownTable(markdown);
 
       const items: TariffItem[] = [];
-      // Skip header row
-      for (let i = 1; i < jsonData.length; i++) {
-        const row = jsonData[i];
-        if (row && row.length >= 3) {
-          const level = typeof row[0] === 'number' ? row[0] : parseInt(String(row[0] || '0'), 10);
-          const hsCode = String(row[1] || '').trim();
-          const descriptionVN = String(row[2] || '').trim();
-          const descriptionEN = String(row[3] || '').trim();
+      // rows[0] is header
+      for (let i = 1; i < rows.length; i++) {
+        const row = rows[i];
+        if (!row || row.length < 4) continue;
 
-          if (descriptionVN || descriptionEN) {
-            items.push({
-              level: isNaN(level) ? 0 : level,
-              hsCode,
-              descriptionVN,
-              descriptionEN,
-              standard: String(row[4] || ''),
-              mfn: String(row[5] || ''),
-              acfta: String(row[6] || ''),
-              atiga: String(row[7] || ''),
-              ajcep: String(row[8] || ''),
-              vjepa: String(row[9] || ''),
-              akfta: String(row[10] || ''),
-              aanzfta: String(row[11] || ''),
-              aifta: String(row[12] || ''),
-              vkfta: String(row[13] || ''),
-              vcfta: String(row[14] || ''),
-              vnEaeu: String(row[15] || ''),
-              cptpp: String(row[16] || ''),
-              ahkfta: String(row[17] || ''),
-              evfta: String(row[18] || ''),
-              ukvfta: String(row[19] || ''),
-              vifta: String(row[20] || ''),
-              rcepAF: String(row[21] || ''),
-            });
-          }
+        const level = parseLevel(row[0]);
+        const hsCode = s(row[1]);
+        const descriptionVN = s(row[2]);
+        const descriptionEN = s(row[3]);
+
+        if (descriptionVN || descriptionEN) {
+          items.push({
+            level,
+            hsCode,
+            descriptionVN,
+            descriptionEN,
+            standard: s(row[4]),
+            mfn: s(row[5]),
+            acfta: s(row[6]),
+            atiga: s(row[7]),
+            ajcep: s(row[8]),
+            vjepa: s(row[9]),
+            akfta: s(row[10]),
+            aanzfta: s(row[11]),
+            aifta: s(row[12]),
+            vkfta: s(row[13]),
+            vcfta: s(row[14]),
+            vnEaeu: s(row[15]),
+            cptpp: s(row[16]),
+            ahkfta: s(row[17]),
+            evfta: s(row[18]),
+            ukvfta: s(row[19]),
+            vifta: s(row[20]),
+            rcepAF: s(row[21]),
+          });
         }
       }
 
