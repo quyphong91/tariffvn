@@ -19,6 +19,12 @@ import { Button } from "@/components/ui/button";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
+import { toast } from "sonner";
+
+// Input validation constants
+const MAX_KEYWORD_LENGTH = 200;
+const MAX_MATERIAL_LENGTH = 100;
+const MAX_FUNCTION_LENGTH = 100;
 
 // Search fields component - now always visible
 interface SearchFieldsProps {
@@ -42,23 +48,61 @@ const SearchFields = memo(function SearchFields({
   setFunctionFeature,
   onSearch,
 }: SearchFieldsProps) {
+  const handleKeywordChange = (value: string) => {
+    if (value.length <= MAX_KEYWORD_LENGTH) {
+      setKeyword(value);
+    }
+  };
+
+  const handleMaterialChange = (value: string) => {
+    if (value.length <= MAX_MATERIAL_LENGTH) {
+      setMaterial(value);
+    }
+  };
+
+  const handleFunctionChange = (value: string) => {
+    if (value.length <= MAX_FUNCTION_LENGTH) {
+      setFunctionFeature(value);
+    }
+  };
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (keyword.trim()) {
-      // --- SỬA THÀNH DATA LAYER ĐỂ DÙNG VỚI GTM ---
-      if (typeof window !== 'undefined') {
-        (window as any).dataLayer = (window as any).dataLayer || [];
-        (window as any).dataLayer.push({
-        'event': 'custom_search',           // Tên sự kiện để GTM bắt
-        'search_term': keyword,             // Từ khóa
-        'material': material || '',         // Chất liệu
-        'function_feature': functionFeature || '', // Công dụng
-        'search_type': 'manual'             // Đánh dấu là người dùng tự gõ
-          });
-        }
-      // ---------------------------------------------
-      onSearch();
+    const trimmedKeyword = keyword.trim();
+    const trimmedMaterial = material.trim();
+    const trimmedFunction = functionFeature.trim();
+
+    if (!trimmedKeyword) {
+      return;
     }
+
+    // Validate input lengths
+    if (trimmedKeyword.length > MAX_KEYWORD_LENGTH) {
+      toast.error(`Từ khóa tìm kiếm không được vượt quá ${MAX_KEYWORD_LENGTH} ký tự`);
+      return;
+    }
+    if (trimmedMaterial.length > MAX_MATERIAL_LENGTH) {
+      toast.error(`Chất liệu không được vượt quá ${MAX_MATERIAL_LENGTH} ký tự`);
+      return;
+    }
+    if (trimmedFunction.length > MAX_FUNCTION_LENGTH) {
+      toast.error(`Chức năng không được vượt quá ${MAX_FUNCTION_LENGTH} ký tự`);
+      return;
+    }
+
+    // --- SỬA THÀNH DATA LAYER ĐỂ DÙNG VỚI GTM ---
+    if (typeof window !== 'undefined') {
+      (window as any).dataLayer = (window as any).dataLayer || [];
+      (window as any).dataLayer.push({
+        'event': 'custom_search',
+        'search_term': trimmedKeyword,
+        'material': trimmedMaterial || '',
+        'function_feature': trimmedFunction || '',
+        'search_type': 'manual'
+      });
+    }
+    // ---------------------------------------------
+    onSearch();
   };
 
   return (
@@ -72,8 +116,9 @@ const SearchFields = memo(function SearchFields({
           id="keyword"
           type="text"
           value={keyword}
-          onChange={(e) => setKeyword(e.target.value)}
+          onChange={(e) => handleKeywordChange(e.target.value)}
           placeholder={language === 'vi' ? 'Nhập từ khóa mô tả hàng hóa...' : 'Nhập từ khóa mô tả hàng hóa...'}
+          maxLength={MAX_KEYWORD_LENGTH}
           className="h-14 text-base bg-card border-border shadow-card rounded-xl focus-visible:ring-2 focus-visible:ring-primary transition-shadow"
         />
       </div>
@@ -87,7 +132,8 @@ const SearchFields = memo(function SearchFields({
           id="material"
           placeholder={language === 'vi' ? 'VD: nhựa, thép, cotton...' : 'E.g.: plastic, steel, cotton...'}
           value={material}
-          onChange={(e) => setMaterial(e.target.value)}
+          onChange={(e) => handleMaterialChange(e.target.value)}
+          maxLength={MAX_MATERIAL_LENGTH}
           className="h-14 text-base bg-card border-border shadow-card rounded-xl focus-visible:ring-2 focus-visible:ring-primary transition-shadow"
         />
       </div>
@@ -101,7 +147,8 @@ const SearchFields = memo(function SearchFields({
           id="function"
           placeholder={language === 'vi' ? 'VD: làm mát, vận chuyển...' : 'E.g.: cooling, transport...'}
           value={functionFeature}
-          onChange={(e) => setFunctionFeature(e.target.value)}
+          onChange={(e) => handleFunctionChange(e.target.value)}
+          maxLength={MAX_FUNCTION_LENGTH}
           className="h-14 text-base bg-card border-border shadow-card rounded-xl focus-visible:ring-2 focus-visible:ring-primary transition-shadow"
         />
       </div>

@@ -47,6 +47,9 @@ import {
 import { useIsMobile } from "@/hooks/use-mobile";
 import { cn } from "@/lib/utils";
 
+// Input validation constant
+const MAX_SEARCH_LENGTH = 200;
+
 const TariffLookup = () => {
   const canonicalUrl = useCanonicalUrl();
   const [searchParams, setSearchParams] = useSearchParams();
@@ -85,6 +88,12 @@ const TariffLookup = () => {
       .finally(() => setLoading(false));
   }, [queryFromUrl, initialSearchDone]);
 
+  const handleSearchQueryChange = (value: string) => {
+    if (value.length <= MAX_SEARCH_LENGTH) {
+      setSearchQuery(value);
+    }
+  };
+
   const handleSearch = useCallback(() => {
     const trimmedQuery = searchQuery.trim();
     if (!trimmedQuery) {
@@ -94,6 +103,13 @@ const TariffLookup = () => {
       setSearchParams({}, { replace: true });
       return;
     }
+    
+    // Validate input length
+    if (trimmedQuery.length > MAX_SEARCH_LENGTH) {
+      toast.error(`Từ khóa tìm kiếm không được vượt quá ${MAX_SEARCH_LENGTH} ký tự`);
+      return;
+    }
+    
     // Update URL with search query
     setSearchParams({ q: trimmedQuery }, { replace: true });
     const results = searchTariffData(data, trimmedQuery);
@@ -277,8 +293,9 @@ const TariffLookup = () => {
                   <Input
                     placeholder="Nhập mã HS hoặc tên hàng hóa..."
                     value={searchQuery}
-                    onChange={(e) => setSearchQuery(e.target.value)}
+                    onChange={(e) => handleSearchQueryChange(e.target.value)}
                     onKeyPress={handleKeyPress}
+                    maxLength={MAX_SEARCH_LENGTH}
                     className="pl-10"
                   />
                 </div>
