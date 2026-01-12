@@ -35,7 +35,7 @@ const Home = () => {
 
             {/* CTA Button */}
             <div className="animate-fade-up" style={{ animationDelay: "200ms" }}>
-              <Link to="/search">
+              <Link to="/tra-cuu-hs-code">
                 <Button size="lg" className="gap-2 bg-navy hover:bg-navy/90 text-primary-foreground px-8 py-6 text-lg">
                   <Search className="w-5 h-5" />
                   Truy cập công cụ tra cứu HS Code

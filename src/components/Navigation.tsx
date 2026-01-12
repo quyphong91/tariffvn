@@ -21,7 +21,7 @@ import { cn } from "@/lib/utils";
 
 const mainRoutes = [
   { path: "/", label: "Trang chủ", icon: Home },
-  { path: "/search", label: "Tra cứu HS Code", icon: Search },
+  { path: "/tra-cuu-hs-code", label: "Tra cứu HS Code", icon: Search },
   { path: "/tra-cuu-thue-nhap-khau", label: "Tra cứu thuế nhập khẩu", icon: Calculator },
 ];
 
@@ -58,10 +58,10 @@ export const DesktopNavigation = () => {
 
       {/* Search Tools */}
       <Link
-        to="/search"
+        to="/tra-cuu-hs-code"
         className={cn(
           "px-3 py-2 rounded-md text-sm font-medium transition-colors",
-          isActive("/search")
+          isActive("/tra-cuu-hs-code")
             ? "bg-primary/10 text-primary"
             : "text-muted-foreground hover:bg-secondary hover:text-foreground"
         )}
