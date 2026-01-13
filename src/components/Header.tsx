@@ -26,7 +26,15 @@ export const Header = () => {
           
           {/* Logo and Site Name */}
           <Link to="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-            <img src={logo} alt="Logo" className="w-9 h-9 rounded-lg object-cover" />
+            <img 
+              src={logo} 
+              alt="Logo" 
+              width={36}
+              height={36}
+              fetchPriority="high"
+              decoding="async"
+              className="w-9 h-9 rounded-lg object-cover" 
+            />
             <div className="hidden sm:block">
               <h1 className="text-base font-bold text-foreground leading-none">HSTC</h1>
               <span className="text-xs text-muted-foreground">Tra cứu HS Code</span>
