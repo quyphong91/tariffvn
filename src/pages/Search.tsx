@@ -438,9 +438,42 @@ const Search = () => {
               </div>
             </div>
 
-            {/* Description Text Box */}
+            {/* Guidance Box - Landing Page */}
             <div
               className="mt-8 max-w-2xl mx-auto animate-fade-up"
+              style={{ animationDelay: "150ms" }}
+            >
+              <div className="p-4 rounded-xl bg-muted/50 border border-border">
+                <h3 className="font-semibold text-foreground mb-3">Hướng dẫn cách xem kết quả tra cứu:</h3>
+                <ul className="text-sm text-muted-foreground space-y-2 list-disc list-inside">
+                  <li>Hãy xem qua trước kết quả thuộc phân cấp Nhóm để đánh giá sơ bộ các Nhóm có thể phù hợp, do Nhóm có mức độ tổng quát hơn</li>
+                  <li>
+                    Các Nhóm có chứa nhiều kết quả phù hợp với từ khoá được đánh dấu bằng dấu chấm màu dựa trên mức độ phù hợp để bạn tiện tham khảo:
+                    <div className="flex flex-wrap items-center gap-3 mt-2 ml-2 sm:inline-flex sm:mt-0">
+                      <span className="inline-flex items-center gap-1">
+                        <span className="block w-2.5 h-2.5 rounded-full bg-red-500 shrink-0"></span> 
+                        <span>Nhiều kết quả phù hợp</span>
+                      </span>
+                      <span className="inline-flex items-center gap-1">
+                        <span className="block w-2.5 h-2.5 rounded-full bg-amber shrink-0"></span> 
+                        <span>Vài kết quả phù hợp</span>
+                      </span>
+                      <span className="inline-flex items-center gap-1">
+                        <span className="block w-2.5 h-2.5 rounded-full bg-gray-400 shrink-0"></span> 
+                        <span>Ít kết quả phù hợp</span>
+                      </span>
+                    </div>
+                  </li>
+                  <li>Click vào từng Nhóm để đi đến các kết quả chi tiết của Nhóm đó ở phía dưới để đánh giá thêm</li>
+                  <li>Click vào các ô Chú giải bên dưới kết quả chi tiết để đi đến nội dung đầy đủ của Chú giải và tham khảo thêm</li>
+                  <li>Click vào biểu tượng "máy tính" ở từng kết quả chi tiết để tra cứu thuế nhập khẩu tương ứng</li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Description Text Box */}
+            <div
+              className="mt-6 max-w-2xl mx-auto animate-fade-up"
               style={{ animationDelay: "200ms" }}
             >
               <div className="p-4 rounded-xl bg-muted/50 border border-border text-center">
