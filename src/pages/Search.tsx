@@ -201,20 +201,28 @@ const Search = () => {
       });
   }, []);
 
-  // Handle initial search from URL query parameter
+  // Handle initial search from URL query parameters
   useEffect(() => {
     if (isLoading || initialSearchDone.current || hsData.length === 0) return;
     
     const queryFromUrl = searchParams.get('q');
+    const materialFromUrl = searchParams.get('material');
+    const functionFromUrl = searchParams.get('function');
+    
     if (queryFromUrl) {
-      const decodedQuery = decodeURIComponent(queryFromUrl);
+      const decodedQuery = decodeURIComponent(queryFromUrl).slice(0, MAX_KEYWORD_LENGTH);
+      const decodedMaterial = materialFromUrl ? decodeURIComponent(materialFromUrl).slice(0, MAX_MATERIAL_LENGTH) : '';
+      const decodedFunction = functionFromUrl ? decodeURIComponent(functionFromUrl).slice(0, MAX_FUNCTION_LENGTH) : '';
+      
       setKeyword(decodedQuery);
+      setMaterial(decodedMaterial);
+      setFunctionFeature(decodedFunction);
       
       // Perform the search
       const results = advancedSearchHSData(hsData, {
         keyword: decodedQuery,
-        material: undefined,
-        functionFeature: undefined,
+        material: decodedMaterial || undefined,
+        functionFeature: decodedFunction || undefined,
         language,
         matchType,
       });
@@ -223,20 +231,26 @@ const Search = () => {
     initialSearchDone.current = true;
   }, [isLoading, hsData, searchParams, language, matchType]);
 
-  // Update URL when searching
-  const updateUrlWithQuery = useCallback((query: string) => {
+  // Update URL when searching - includes all params
+  const updateUrlWithQuery = useCallback((query: string, mat?: string, func?: string) => {
+    const params: Record<string, string> = {};
     if (query.trim()) {
-      setSearchParams({ q: query.trim() }, { replace: true });
-    } else {
-      setSearchParams({}, { replace: true });
+      params.q = query.trim();
     }
+    if (mat?.trim()) {
+      params.material = mat.trim();
+    }
+    if (func?.trim()) {
+      params.function = func.trim();
+    }
+    setSearchParams(params, { replace: true });
   }, [setSearchParams]);
 
   const handleSearch = () => {
     if (!keyword.trim()) return;
     
-    // Update URL with query parameter
-    updateUrlWithQuery(keyword.trim());
+    // Update URL with all query parameters
+    updateUrlWithQuery(keyword.trim(), material.trim(), functionFeature.trim());
     
     const results = advancedSearchHSData(hsData, {
       keyword: keyword.trim(),
@@ -263,9 +277,8 @@ const Search = () => {
     // ---------------------------------------------
     setKeyword(term);
     
-    // Update URL with query parameter
-    updateUrlWithQuery(term);
-    
+    // Update URL with all query parameters
+    updateUrlWithQuery(term, material.trim(), functionFeature.trim());
     const results = advancedSearchHSData(hsData, {
       keyword: term,
       material: material.trim() || undefined,
