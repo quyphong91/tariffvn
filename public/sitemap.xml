@@ -49,19 +49,19 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://tracuuhs.com/news</loc>
-    <lastmod>2026-01-11</lastmod>
+    <loc>https://tracuuhs.com/tin-tuc</loc>
+    <lastmod>2026-01-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://tracuuhs.com/news/huong-dan-phan-loai-hang-hoa-theo-hs-code</loc>
+    <loc>https://tracuuhs.com/tin-tuc/huong-dan-phan-loai-hang-hoa-theo-hs-code</loc>
     <lastmod>2024-12-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://tracuuhs.com/news/cap-nhat-bieu-thue-2025</loc>
+    <loc>https://tracuuhs.com/tin-tuc/cap-nhat-bieu-thue-2025</loc>
     <lastmod>2024-12-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
