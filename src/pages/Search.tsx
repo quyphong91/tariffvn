@@ -1,12 +1,12 @@
-import { useState, useEffect, memo } from "react";
-import { Link } from "react-router-dom";
+import { useState, useEffect, memo, useCallback, useRef } from "react";
+import { Link, useSearchParams } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { ResultsSection } from "@/components/ResultsSection";
 import { LanguageToggle } from "@/components/LanguageToggle";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { useCanonicalUrl } from "@/hooks/useCanonicalUrl";
-import { 
+import { getCanonicalUrl } from "@/hooks/useCanonicalUrl";
+import {
   loadHSData, 
   advancedSearchHSData, 
   HSItem, 
@@ -166,7 +166,9 @@ const SearchFields = memo(function SearchFields({
 });
 
 const Search = () => {
-  const canonicalUrl = useCanonicalUrl();
+  // Always use clean canonical URL without query params for SEO
+  const canonicalUrl = getCanonicalUrl("/tra-cuu-hs-code");
+  const [searchParams, setSearchParams] = useSearchParams();
   const [hsData, setHsData] = useState<HSItem[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [loadError, setLoadError] = useState<string | null>(null);
@@ -181,7 +183,11 @@ const Search = () => {
     keyword: string;
     matchType: SearchMatchType;
   } | null>(null);
+  
+  // Track if we've handled the initial URL query
+  const initialSearchDone = useRef(false);
 
+  // Load HS data on mount
   useEffect(() => {
     loadHSData()
       .then(data => {
@@ -195,8 +201,43 @@ const Search = () => {
       });
   }, []);
 
+  // Handle initial search from URL query parameter
+  useEffect(() => {
+    if (isLoading || initialSearchDone.current || hsData.length === 0) return;
+    
+    const queryFromUrl = searchParams.get('q');
+    if (queryFromUrl) {
+      const decodedQuery = decodeURIComponent(queryFromUrl);
+      setKeyword(decodedQuery);
+      
+      // Perform the search
+      const results = advancedSearchHSData(hsData, {
+        keyword: decodedQuery,
+        material: undefined,
+        functionFeature: undefined,
+        language,
+        matchType,
+      });
+      setSearchResults({ ...results, keyword: decodedQuery, matchType });
+    }
+    initialSearchDone.current = true;
+  }, [isLoading, hsData, searchParams, language, matchType]);
+
+  // Update URL when searching
+  const updateUrlWithQuery = useCallback((query: string) => {
+    if (query.trim()) {
+      setSearchParams({ q: query.trim() }, { replace: true });
+    } else {
+      setSearchParams({}, { replace: true });
+    }
+  }, [setSearchParams]);
+
   const handleSearch = () => {
     if (!keyword.trim()) return;
+    
+    // Update URL with query parameter
+    updateUrlWithQuery(keyword.trim());
+    
     const results = advancedSearchHSData(hsData, {
       keyword: keyword.trim(),
       material: material.trim() || undefined,
@@ -214,13 +255,17 @@ const Search = () => {
       (window as any).dataLayer.push({
         'event': 'custom_search',
         'search_term': term,
-        'material': material || '',            // Gửi kèm các bộ lọc hiện tại nếu có
+        'material': material || '',
         'function_feature': functionFeature || '',
-        'search_type': 'quick_suggestion'      // Đánh dấu là click gợi ý
-          });
-      }
-  // ---------------------------------------------
+        'search_type': 'quick_suggestion'
+      });
+    }
+    // ---------------------------------------------
     setKeyword(term);
+    
+    // Update URL with query parameter
+    updateUrlWithQuery(term);
+    
     const results = advancedSearchHSData(hsData, {
       keyword: term,
       material: material.trim() || undefined,
@@ -265,6 +310,8 @@ const Search = () => {
     setMatchType('tokens');
     setMaterial('');
     setFunctionFeature('');
+    // Clear URL query parameter
+    setSearchParams({}, { replace: true });
   };
 
   if (isLoading) {
