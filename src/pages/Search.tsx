@@ -361,7 +361,7 @@ const Search = () => {
         <link rel="canonical" href={canonicalUrl} />
         <title>Công cụ tra cứu HS Code | HSTC</title>
         <meta name="description" content="Tra cứu mã HS Code nhanh theo mô tả hàng hóa, chất liệu và chức năng. Hỗ trợ tìm kiếm bằng tiếng Việt và tiếng Anh." />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="noindex, follow" />
       </Helmet>
       <div className="min-h-screen bg-gradient-hero">
         <Header />
