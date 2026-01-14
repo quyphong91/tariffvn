@@ -44,6 +44,7 @@ import {
   MARKET_FILTERS,
   TaxColumn,
 } from "@/data/tariffData";
+import { loadSpecialisedProceduresData } from "@/data/specialisedProceduresData";
 import { useIsMobile } from "@/hooks/use-mobile";
 import { cn } from "@/lib/utils";
 
@@ -65,6 +66,8 @@ const TariffLookup = () => {
   const [activeMarket, setActiveMarket] = useState("default");
   const [copiedCode, setCopiedCode] = useState<string | null>(null);
   const [initialSearchDone, setInitialSearchDone] = useState(false);
+  const [showPolicy, setShowPolicy] = useState(false);
+  const [policyData, setPolicyData] = useState<Map<string, string>>(new Map());
   const isMobile = useIsMobile();
 
   // Get query param from URL
@@ -72,9 +75,10 @@ const TariffLookup = () => {
 
   // Load data and restore search from URL on page load
   useEffect(() => {
-    loadTariffData()
-      .then((loadedData) => {
+    Promise.all([loadTariffData(), loadSpecialisedProceduresData()])
+      .then(([loadedData, proceduresMap]) => {
         setData(loadedData);
+        setPolicyData(proceduresMap);
         // If there's a query param in URL, set it and trigger search after data loads
         if (queryFromUrl && !initialSearchDone) {
           setSearchQuery(queryFromUrl);
@@ -324,6 +328,19 @@ const TariffLookup = () => {
                       {market.label}
                     </Badge>
                   ))}
+                  {/* Policy Toggle */}
+                  <Badge
+                    variant={showPolicy ? "default" : "outline"}
+                    className={cn(
+                      "cursor-pointer transition-colors",
+                      showPolicy
+                        ? "bg-amber-600 text-white hover:bg-amber-700"
+                        : "border-amber-600 text-amber-700 hover:bg-amber-50"
+                    )}
+                    onClick={() => setShowPolicy(!showPolicy)}
+                  >
+                    📋 Chính sách mặt hàng
+                  </Badge>
                 </div>
 
                 {/* Column Toggle Dropdown */}
@@ -431,6 +448,15 @@ const TariffLookup = () => {
                             </div>
                           ))}
                         </div>
+                        {/* Policy column for mobile */}
+                        {showPolicy && item.hsCode && policyData.get(item.hsCode) && (
+                          <div className="pt-2 border-t">
+                            <p className="text-xs font-medium text-amber-700 mb-1">📋 Chính sách mặt hàng:</p>
+                            <p className="text-xs text-muted-foreground whitespace-pre-wrap">
+                              {policyData.get(item.hsCode)}
+                            </p>
+                          </div>
+                        )}
                       </CardContent>
                     </Card>
                   ))}
@@ -454,6 +480,11 @@ const TariffLookup = () => {
                               {col.shortLabel}
                             </TableHead>
                           ))}
+                          {showPolicy && (
+                            <TableHead className="min-w-[200px] font-semibold text-amber-700">
+                              📋 Chính sách mặt hàng
+                            </TableHead>
+                          )}
                           <TableHead className="w-[60px]"></TableHead>
                         </TableRow>
                       </TableHeader>
@@ -483,6 +514,15 @@ const TariffLookup = () => {
                                 {item[col.key] || "-"}
                               </TableCell>
                             ))}
+                            {showPolicy && (
+                              <TableCell className="text-xs text-muted-foreground max-w-[300px]">
+                                {item.hsCode && policyData.get(item.hsCode) ? (
+                                  <span className="whitespace-pre-wrap">
+                                    {policyData.get(item.hsCode)}
+                                  </span>
+                                ) : "-"}
+                              </TableCell>
+                            )}
                             <TableCell>
                               <Button
                                 variant="ghost"
