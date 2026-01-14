@@ -9,7 +9,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import logo from "@/assets/Logo.png";
+import logo from "@/assets/logo-small.webp";
 import donationQr from "@/assets/donation-qr.jpg";
 import { DesktopNavigation, MobileNavigation } from "./Navigation";
 
