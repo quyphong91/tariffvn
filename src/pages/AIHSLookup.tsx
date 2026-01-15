@@ -50,7 +50,7 @@ const AIHSLookup = () => {
                   <div className="flex gap-3">
                     <AlertTriangle className="w-5 h-5 text-amber-600 dark:text-amber-400 flex-shrink-0 mt-0.5" />
                     <p className="text-sm text-amber-800 dark:text-amber-200">
-                      <strong>Lưu ý quan trọng:</strong> Kết quả tra cứu HS Code bằng HSTC AI chỉ mang tính chất 
+                      <strong>Lưu ý quan trọng:</strong> Mô tả hàng hóa sẽ được chia sẻ ẩn danh trên trang chủ để cộng đồng cùng tham khảo. Vui lòng không nhập thông tin bí mật kinh doanh. Kết quả tra cứu HS Code bằng HSTC AI chỉ mang tính chất 
                       tham khảo ban đầu và không thay thế các quyết định chính thức 
                       của cơ quan hải quan cũng như ý kiến từ chuyên gia. Vui lòng xác minh lại mã HS Code với các nguồn chính thức 
                       trước khi sử dụng cho mục đích khai báo hải quan.
