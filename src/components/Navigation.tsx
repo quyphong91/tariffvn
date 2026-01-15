@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, ChevronDown, Search, BookOpen, FileText, Calculator, Newspaper, Home } from "lucide-react";
+import { Menu, ChevronDown, Search, BookOpen, FileText, Calculator, Newspaper, Home, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   Sheet,
@@ -23,6 +23,7 @@ const mainRoutes = [
   { path: "/", label: "Trang chủ", icon: Home },
   { path: "/tra-cuu-hs-code", label: "Tra cứu HS Code", icon: Search },
   { path: "/tra-cuu-thue-nhap-khau", label: "Tra cứu thuế nhập khẩu", icon: Calculator },
+  { path: "/ai-tra-cuu-hs", label: "AI Tra cứu", icon: Sparkles, badge: "Beta" },
 ];
 
 const documentRoutes = [
@@ -79,6 +80,20 @@ export const DesktopNavigation = () => {
         )}
       >
         Tra cứu thuế nhập khẩu
+      </Link>
+
+      {/* AI Tra cứu */}
+      <Link
+        to="/ai-tra-cuu-hs"
+        className={cn(
+          "px-3 py-2 rounded-md text-sm font-medium transition-colors inline-flex items-center gap-1.5",
+          isActive("/ai-tra-cuu-hs")
+            ? "bg-primary/10 text-primary"
+            : "text-muted-foreground hover:bg-secondary hover:text-foreground"
+        )}
+      >
+        AI Tra cứu
+        <span className="px-1.5 py-0.5 text-[10px] font-medium bg-purple-100 text-purple-800 dark:bg-purple-900/50 dark:text-purple-200 rounded">Beta</span>
       </Link>
 
       {/* Documents Dropdown */}
