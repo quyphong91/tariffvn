@@ -16,6 +16,7 @@ import WCOCompendium from "./pages/WCOCompendium";
 import TariffLookup from "./pages/TariffLookup";
 import NewsList from "./pages/NewsList";
 import NewsDetail from "./pages/NewsDetail";
+import AIHSLookup from "./pages/AIHSLookup";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -38,6 +39,7 @@ const App = () => (
             <Route path="/chu-giai-sen/full/:chapterNumber" element={<SENNoteFull />} />
             <Route path="/tuyen-tap-phan-loai-wco" element={<WCOCompendium />} />
             <Route path="/tra-cuu-thue-nhap-khau" element={<TariffLookup />} />
+            <Route path="/ai-tra-cuu-hs" element={<AIHSLookup />} />
             <Route path="/tin-tuc" element={<NewsList />} />
             <Route path="/tin-tuc/:slug" element={<NewsDetail />} />
             <Route path="*" element={<NotFound />} />

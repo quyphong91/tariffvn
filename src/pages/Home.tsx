@@ -4,7 +4,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { FeatureCard } from "@/components/FeatureCard";
 import { Button } from "@/components/ui/button";
-import { Search, BookOpen, FileText, Scale, Globe, ArrowRight, Calculator, Newspaper } from "lucide-react";
+import { Search, BookOpen, FileText, Scale, Globe, ArrowRight, Calculator, Newspaper, Sparkles } from "lucide-react";
 import { useCanonicalUrl } from "@/hooks/useCanonicalUrl";
 
 
@@ -55,6 +55,13 @@ const Home = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
+            <FeatureCard
+              title="Tra cứu HS Code bằng AI (Beta)"
+              description="Gửi yêu cầu tra cứu HS Code và nhận kết quả phân tích từ AI. Dịch vụ miễn phí, giới hạn số lượt mỗi ngày."
+              icon={Sparkles}
+              to="/ai-tra-cuu-hs"
+              iconBgClass="bg-purple-500/20"
+            />
             <FeatureCard
               title="Tra cứu biểu thuế nhập khẩu"
               description="Tra cứu thuế biểu thuế nhập khẩu mới nhất năm 2026 cập nhật theo biểu thuế xuất nhập khẩu 2026 của Chi cục Hải quan Khu vực VIII"

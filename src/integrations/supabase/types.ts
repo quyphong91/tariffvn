@@ -14,13 +14,51 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      hs_requests: {
+        Row: {
+          admin_note: string | null
+          ai_response: string | null
+          created_at: string
+          function_use: string | null
+          hs_code: string | null
+          id: string
+          material: string | null
+          product_description: string
+          product_name: string
+          status: string | null
+        }
+        Insert: {
+          admin_note?: string | null
+          ai_response?: string | null
+          created_at?: string
+          function_use?: string | null
+          hs_code?: string | null
+          id?: string
+          material?: string | null
+          product_description: string
+          product_name: string
+          status?: string | null
+        }
+        Update: {
+          admin_note?: string | null
+          ai_response?: string | null
+          created_at?: string
+          function_use?: string | null
+          hs_code?: string | null
+          id?: string
+          material?: string | null
+          product_description?: string
+          product_name?: string
+          status?: string | null
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
     }
     Functions: {
-      [_ in never]: never
+      get_today_request_count: { Args: never; Returns: number }
     }
     Enums: {
       [_ in never]: never

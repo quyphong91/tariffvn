@@ -16,6 +16,7 @@ export const staticRoutes: SitemapRoute[] = [
   { path: '/', priority: 1.0, changefreq: 'weekly' },
   { path: '/tra-cuu-hs-code', priority: 0.9, changefreq: 'weekly' },
   { path: '/tra-cuu-thue-nhap-khau', priority: 0.9, changefreq: 'monthly' },
+  { path: '/ai-tra-cuu-hs', priority: 0.8, changefreq: 'daily' },
   { path: '/quy-tac-phan-loai-hs', priority: 0.8, changefreq: 'monthly' },
   { path: '/chu-giai-hs', priority: 0.8, changefreq: 'monthly' },
   { path: '/chu-giai-hs/full-all', priority: 0.7, changefreq: 'monthly' },
