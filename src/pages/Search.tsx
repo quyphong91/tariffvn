@@ -470,7 +470,27 @@ const Search = () => {
                 </ul>
               </div>
             </div>
-
+            
+            {/* --- ĐOẠN CODE MỚI CẦN THÊM VÀO ĐÂY --- */}
+            <div
+              className="mt-6 max-w-2xl mx-auto animate-fade-up flex flex-col items-center text-center gap-3"
+              style={{ animationDelay: "175ms" }}
+            >
+              <p className="text-sm text-foreground">
+                Bạn có thể tham khảo quy trình tra cứu và xác định mã HS Code đầy đủ theo quy định pháp luật tại bài viết dưới đây
+              </p>
+              <Link to="/tin-tuc/huong-dan-cach-tra-cuu-va-xac-dinh-ma-hs-code">
+                <Button 
+                  variant="outline" 
+                  className="rounded-full border-primary/50 text-primary hover:bg-primary hover:text-white transition-all duration-300"
+                >
+                  Xem hướng dẫn quy trình
+                  <ArrowRight className="w-4 h-4 ml-2" />
+                </Button>
+              </Link>
+            </div>
+            {/* -------------------------------------- */}
+                        
             {/* Description Text Box */}
             <div
               className="mt-6 max-w-2xl mx-auto animate-fade-up"
