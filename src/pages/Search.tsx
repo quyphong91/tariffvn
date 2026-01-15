@@ -471,7 +471,7 @@ const Search = () => {
               </div>
             </div>
             
-            {/* --- ĐOẠN CODE MỚI CẦN THÊM VÀO ĐÂY --- */}
+            {/* --- Tariff classification process guidance --- */}
             <div
               className="mt-6 max-w-2xl mx-auto animate-fade-up flex flex-col items-center text-center gap-3"
               style={{ animationDelay: "175ms" }}

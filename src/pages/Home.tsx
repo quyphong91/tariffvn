@@ -56,7 +56,7 @@ const Home = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
             <FeatureCard
-              title="Tra cứu HS Code bằng AI (Beta)"
+              title="HSTC AI - Tra cứu HS Code bằng AI (Beta)"
               description="Gửi yêu cầu tra cứu HS Code và nhận kết quả phân tích từ AI. Dịch vụ miễn phí, giới hạn số lượt mỗi ngày."
               icon={Sparkles}
               to="/ai-tra-cuu-hs"

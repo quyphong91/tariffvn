@@ -17,7 +17,7 @@ const AIHSLookup = () => {
   return (
     <>
       <Helmet>
-        <title>Tra cứu HS Code bằng AI | HSTC</title>
+        <title>Tra cứu HS Code bằng HSTC AI | HSTC</title>
         <meta 
           name="description" 
           content="Gửi yêu cầu tra cứu HS Code và nhận kết quả phân tích từ AI. Dịch vụ miễn phí giúp xác định mã HS Code phù hợp cho hàng hóa xuất nhập khẩu." 
@@ -41,8 +41,8 @@ const AIHSLookup = () => {
                   Tra cứu HS Code bằng HSTC AI
                 </h1>
                 <p className="text-lg text-muted-foreground mb-6">
-                  Mô tả sản phẩm của bạn và nhận đề xuất mã HS Code từ AI. 
-                  Dịch vụ miễn phí, giới hạn số lượt mỗi ngày.
+                  Mô tả sản phẩm của bạn và nhận đề xuất mã HS Code từ HSTC AI. 
+                  Do giới hạn về chi phí và đang trong giai đoạn thử nghiệm, số lượt truy vấn sẽ được giới hạn mỗi ngày.
                 </p>
                 
                 {/* Disclaimer */}
@@ -50,9 +50,9 @@ const AIHSLookup = () => {
                   <div className="flex gap-3">
                     <AlertTriangle className="w-5 h-5 text-amber-600 dark:text-amber-400 flex-shrink-0 mt-0.5" />
                     <p className="text-sm text-amber-800 dark:text-amber-200">
-                      <strong>Lưu ý quan trọng:</strong> Kết quả tra cứu HS Code bằng AI chỉ mang tính chất 
-                      tham khảo ban đầu và không thay thế ý kiến chuyên gia hoặc quyết định chính thức 
-                      của cơ quan Hải quan. Vui lòng xác minh lại mã HS Code với các nguồn chính thức 
+                      <strong>Lưu ý quan trọng:</strong> Kết quả tra cứu HS Code bằng HSTC AI chỉ mang tính chất 
+                      tham khảo ban đầu và không thay thế các quyết định chính thức 
+                      của cơ quan hải quan cũng như ý kiến từ chuyên gia. Vui lòng xác minh lại mã HS Code với các nguồn chính thức 
                       trước khi sử dụng cho mục đích khai báo hải quan.
                     </p>
                   </div>

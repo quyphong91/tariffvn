@@ -23,7 +23,7 @@ const mainRoutes = [
   { path: "/", label: "Trang chủ", icon: Home },
   { path: "/tra-cuu-hs-code", label: "Tra cứu HS Code", icon: Search },
   { path: "/tra-cuu-thue-nhap-khau", label: "Tra cứu thuế nhập khẩu", icon: Calculator },
-  { path: "/ai-tra-cuu-hs", label: "AI Tra cứu", icon: Sparkles, badge: "Beta" },
+  { path: "/ai-tra-cuu-hs", label: "HSTC AI", icon: Sparkles, badge: "Beta" },
 ];
 
 const documentRoutes = [
@@ -92,7 +92,7 @@ export const DesktopNavigation = () => {
             : "text-muted-foreground hover:bg-secondary hover:text-foreground"
         )}
       >
-        AI Tra cứu
+        HSTC AI
         <span className="px-1.5 py-0.5 text-[10px] font-medium bg-purple-100 text-purple-800 dark:bg-purple-900/50 dark:text-purple-200 rounded">Beta</span>
       </Link>
 
