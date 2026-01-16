@@ -17,6 +17,8 @@ import TariffLookup from "./pages/TariffLookup";
 import NewsList from "./pages/NewsList";
 import NewsDetail from "./pages/NewsDetail";
 import AIHSLookup from "./pages/AIHSLookup";
+import AdminLogin from "./pages/AdminLogin";
+import AdminPanel from "./pages/AdminPanel";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -42,6 +44,8 @@ const App = () => (
             <Route path="/ai-tra-cuu-hs" element={<AIHSLookup />} />
             <Route path="/tin-tuc" element={<NewsList />} />
             <Route path="/tin-tuc/:slug" element={<NewsDetail />} />
+            <Route path="/admin/login" element={<AdminLogin />} />
+            <Route path="/admin" element={<AdminPanel />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
