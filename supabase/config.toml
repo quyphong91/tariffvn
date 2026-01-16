@@ -1,1 +1,4 @@
 project_id = "vmeviaxdzfsawwawbgbh"
+
+[functions.telegram-notify]
+verify_jwt = false
