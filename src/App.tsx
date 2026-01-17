@@ -19,6 +19,7 @@ import NewsDetail from "./pages/NewsDetail";
 import AIHSLookup from "./pages/AIHSLookup";
 import AdminLogin from "./pages/AdminLogin";
 import AdminPanel from "./pages/AdminPanel";
+import AdminArticleCreate from "./pages/AdminArticleCreate";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -46,6 +47,7 @@ const App = () => (
             <Route path="/tin-tuc/:slug" element={<NewsDetail />} />
             <Route path="/admin/login" element={<AdminLogin />} />
             <Route path="/admin" element={<AdminPanel />} />
+            <Route path="/admin/articles/create" element={<AdminArticleCreate />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>

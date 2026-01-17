@@ -9,7 +9,8 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Card, CardContent } from '@/components/ui/card';
-import { Loader2, LogOut, Search, Shield, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Loader2, LogOut, Search, Shield, ChevronLeft, ChevronRight, Plus, Newspaper } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const AdminPanel = () => {
   const [page, setPage] = useState(1);
@@ -81,10 +82,18 @@ const AdminPanel = () => {
                   <p className="text-xs text-muted-foreground">{user.email}</p>
                 </div>
               </div>
-              <Button variant="outline" size="sm" onClick={handleSignOut}>
-                <LogOut className="w-4 h-4 mr-2" />
-                Đăng xuất
-              </Button>
+              <div className="flex items-center gap-2">
+                <Button variant="default" size="sm" asChild>
+                  <Link to="/admin/articles/create">
+                    <Plus className="w-4 h-4 mr-2" />
+                    Thêm bài viết
+                  </Link>
+                </Button>
+                <Button variant="outline" size="sm" onClick={handleSignOut}>
+                  <LogOut className="w-4 h-4 mr-2" />
+                  Đăng xuất
+                </Button>
+              </div>
             </div>
           </div>
         </header>
