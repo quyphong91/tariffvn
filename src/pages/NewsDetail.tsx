@@ -5,13 +5,13 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { ArrowLeft, Calendar, Share2, Copy, Check } from "lucide-react";
-import { getPostBySlug, getRecentPosts } from "@/data/blogData";
+import { ArrowLeft, Calendar, Share2, Check, Loader2 } from "lucide-react";
 import { format } from "date-fns";
 import { vi } from "date-fns/locale";
 import { useState } from "react";
 import { toast } from "sonner";
 import { useCanonicalUrl } from "@/hooks/useCanonicalUrl";
+import { useArticleBySlug, usePublishedArticles } from "@/hooks/useArticles";
 
 const NewsDetail = () => {
   const canonicalUrl = useCanonicalUrl();
@@ -19,16 +19,19 @@ const NewsDetail = () => {
   const navigate = useNavigate();
   const [copied, setCopied] = useState(false);
 
-  const post = slug ? getPostBySlug(slug) : undefined;
-  const recentPosts = getRecentPosts(3).filter(p => p.slug !== slug);
+  const { data: article, isLoading, error } = useArticleBySlug(slug);
+  const { data: allArticles } = usePublishedArticles();
+  
+  // Get related articles (exclude current)
+  const relatedArticles = allArticles?.filter(a => a.slug !== slug).slice(0, 2) || [];
 
   const handleShare = async () => {
     const url = window.location.href;
     if (navigator.share) {
       try {
         await navigator.share({
-          title: post?.title,
-          text: post?.excerpt,
+          title: article?.title,
+          text: article?.summary || "",
           url,
         });
       } catch {
@@ -42,7 +45,21 @@ const NewsDetail = () => {
     }
   };
 
-  if (!post) {
+  // Loading state
+  if (isLoading) {
+    return (
+      <div className="min-h-screen flex flex-col bg-gradient-hero">
+        <Header />
+        <main className="flex-1 flex items-center justify-center">
+          <Loader2 className="w-8 h-8 animate-spin text-primary" />
+        </main>
+        <Footer />
+      </div>
+    );
+  }
+
+  // Not found state
+  if (error || !article) {
     return (
       <div className="min-h-screen flex flex-col bg-gradient-hero">
         <Header />
@@ -69,13 +86,13 @@ const NewsDetail = () => {
     <>
       <Helmet>
         <link rel="canonical" href={canonicalUrl} />
-        <title>{`${post.title} | HSTC`}</title>
-        <meta name="description" content={post.excerpt} />
-        <meta property="og:title" content={`${post.title} | TracuuHS`} />
-        <meta property="og:description" content={post.excerpt} />
-        <meta property="og:image" content={post.coverImage} />
+        <title>{`${article.title} | HSTC`}</title>
+        <meta name="description" content={article.summary || ""} />
+        <meta property="og:title" content={`${article.title} | TracuuHS`} />
+        <meta property="og:description" content={article.summary || ""} />
+        <meta property="og:image" content={article.image_url || ""} />
         <meta property="og:type" content="article" />
-        <meta property="article:published_time" content={post.date} />
+        <meta property="article:published_time" content={article.published_at} />
       </Helmet>
 
       <div className="min-h-screen flex flex-col bg-gradient-hero">
@@ -98,14 +115,14 @@ const NewsDetail = () => {
               {/* Header */}
               <header className="space-y-4">
                 <h1 className="text-3xl md:text-4xl font-bold text-foreground leading-tight">
-                  {post.title}
+                  {article.title}
                 </h1>
 
                 <div className="flex flex-wrap items-center gap-4 text-muted-foreground">
                   <div className="flex items-center gap-2">
                     <Calendar className="w-4 h-4" />
-                    <time dateTime={post.date}>
-                      {format(new Date(post.date), "dd MMMM, yyyy", { locale: vi })}
+                    <time dateTime={article.published_at}>
+                      {format(new Date(article.published_at), "dd MMMM, yyyy", { locale: vi })}
                     </time>
                   </div>
 
@@ -126,13 +143,15 @@ const NewsDetail = () => {
               </header>
 
               {/* Cover Image */}
-              <div className="aspect-video rounded-xl overflow-hidden bg-muted">
-                <img
-                  src={post.coverImage}
-                  alt={post.title}
-                  className="w-full h-full object-cover"
-                />
-              </div>
+              {article.image_url && (
+                <div className="aspect-video rounded-xl overflow-hidden bg-muted">
+                  <img
+                    src={article.image_url}
+                    alt={article.title}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              )}
 
               {/* Content */}
               <Card className="shadow-card">
@@ -208,7 +227,7 @@ const NewsDetail = () => {
                         ),
                       }}
                     >
-                      {post.content}
+                      {article.content || ""}
                     </ReactMarkdown>
                   </div>
                 </CardContent>
@@ -216,31 +235,31 @@ const NewsDetail = () => {
             </article>
 
             {/* Related Posts */}
-            {recentPosts.length > 0 && (
+            {relatedArticles.length > 0 && (
               <section className="mt-12 space-y-6">
                 <h2 className="text-2xl font-bold text-foreground">
                   Bài viết khác
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  {recentPosts.slice(0, 2).map((relatedPost) => (
+                  {relatedArticles.map((relatedArticle) => (
                     <Link
-                      key={relatedPost.id}
-                      to={`/tin-tuc/${relatedPost.slug}`}
+                      key={relatedArticle.id}
+                      to={`/tin-tuc/${relatedArticle.slug}`}
                       className="group"
                     >
                       <Card className="h-full shadow-card hover:shadow-soft transition-all duration-300 group-hover:-translate-y-1">
                         <CardContent className="p-4 space-y-2">
                           <div className="flex items-center gap-2 text-sm text-muted-foreground">
                             <Calendar className="w-3.5 h-3.5" />
-                            <time dateTime={relatedPost.date}>
-                              {format(new Date(relatedPost.date), "dd/MM/yyyy")}
+                            <time dateTime={relatedArticle.published_at}>
+                              {format(new Date(relatedArticle.published_at), "dd/MM/yyyy")}
                             </time>
                           </div>
                           <h3 className="font-semibold text-foreground line-clamp-2 group-hover:text-primary transition-colors">
-                            {relatedPost.title}
+                            {relatedArticle.title}
                           </h3>
                           <p className="text-sm text-muted-foreground line-clamp-2">
-                            {relatedPost.excerpt}
+                            {relatedArticle.summary}
                           </p>
                         </CardContent>
                       </Card>

@@ -3,16 +3,15 @@ import { Helmet } from "react-helmet-async";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { Calendar, ArrowRight } from "lucide-react";
-import { getAllPosts } from "@/data/blogData";
+import { Calendar, ArrowRight, Loader2 } from "lucide-react";
 import { format } from "date-fns";
 import { vi } from "date-fns/locale";
 import { useCanonicalUrl } from "@/hooks/useCanonicalUrl";
+import { usePublishedArticles } from "@/hooks/useArticles";
 
 const NewsList = () => {
   const canonicalUrl = useCanonicalUrl();
-  const posts = getAllPosts();
+  const { data: articles, isLoading, error } = usePublishedArticles();
 
   return (
     <>
@@ -44,17 +43,33 @@ const NewsList = () => {
             </p>
           </div>
 
+          {/* Loading State */}
+          {isLoading && (
+            <div className="flex justify-center py-16">
+              <Loader2 className="w-8 h-8 animate-spin text-primary" />
+            </div>
+          )}
+
+          {/* Error State */}
+          {error && (
+            <div className="text-center py-16">
+              <p className="text-destructive">Có lỗi xảy ra khi tải bài viết.</p>
+            </div>
+          )}
+
           {/* Posts Grid */}
-          {posts.length === 0 ? (
+          {!isLoading && !error && articles?.length === 0 && (
             <div className="text-center py-16">
               <p className="text-muted-foreground">Chưa có bài viết nào.</p>
             </div>
-          ) : (
+          )}
+
+          {!isLoading && !error && articles && articles.length > 0 && (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-              {posts.map((post, index) => (
+              {articles.map((article, index) => (
                 <Link
-                  key={post.id}
-                  to={`/tin-tuc/${post.slug}`}
+                  key={article.id}
+                  to={`/tin-tuc/${article.slug}`}
                   className="group block animate-fade-up"
                   style={{ animationDelay: `${index * 100}ms` }}
                 >
@@ -62,8 +77,8 @@ const NewsList = () => {
                     {/* Cover Image */}
                     <div className="aspect-video bg-muted overflow-hidden">
                       <img
-                        src={post.coverImage}
-                        alt={post.title}
+                        src={article.image_url || "/placeholder.svg"}
+                        alt={article.title}
                         className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                       />
                     </div>
@@ -72,19 +87,19 @@ const NewsList = () => {
                       {/* Date Badge */}
                       <div className="flex items-center gap-2 text-sm text-muted-foreground">
                         <Calendar className="w-4 h-4" />
-                        <time dateTime={post.date}>
-                          {format(new Date(post.date), "dd MMMM, yyyy", { locale: vi })}
+                        <time dateTime={article.published_at}>
+                          {format(new Date(article.published_at), "dd MMMM, yyyy", { locale: vi })}
                         </time>
                       </div>
 
                       {/* Title */}
                       <h2 className="text-lg font-semibold text-foreground line-clamp-2 group-hover:text-primary transition-colors">
-                        {post.title}
+                        {article.title}
                       </h2>
 
                       {/* Excerpt */}
                       <p className="text-sm text-muted-foreground line-clamp-3">
-                        {post.excerpt}
+                        {article.summary}
                       </p>
 
                       {/* Read More */}
