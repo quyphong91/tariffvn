@@ -254,7 +254,7 @@ Như đã giải thích ở bài viết trước đây, **Danh mục mã HS Code
 
 ![Cấu trúc mã HS Code minh họa](/cau-truc-hs-code.png)
 
-Bạn có thể tham khảo lại bài viết chi tiết về Danh mục mã HS Code [tại bài viết này](https://tracuuhs.com/tin-tuc/ma-hs-code-la-gi-tong-quan-he-thong-hai-hoa).
+Bạn có thể tham khảo lại bài viết chi tiết về Danh mục mã HS Code [tại bài viết này](/tin-tuc/ma-hs-code-la-gi-tong-quan-he-thong-hai-hoa).
 
 Việc **xác định đúng mã số HS Code** là công việc cực kỳ quan trọng trong hoạt động xuất nhập khẩu vì mã số HS Code là cơ sở để tính thuế, thực hiện các chính sách quản lý hàng hóa và quản lý chuyên ngành khác. Các sai sót trong việc xác định mã HS Code có thể tiềm ẩn các rủi ro cực kỳ lớn và dẫn đến số tiền thuế bị truy thu cực kỳ cao do thường dẫn đến chênh lệch về thuế suất.
 
@@ -465,7 +465,89 @@ Hiện nay, với sự phát triển của công nghệ AI, HSTC nhận thấy c
 
 Tuy nhiên, dù sử dụng công cụ AI nào hoặc kết quả như thế nào, bạn nên áp dụng các bước theo quy định pháp luật như trình bày ở trên kết hợp với sự hỗ trợ bởi các công cụ tra cứu (chẳng hạn của HSTC) để xác định được mã HS Code phù hợp nhất.
 
-Hy vọng bài viết này sẽ giúp ích được các bạn trong công việc hàng ngày. 
+Hy vọng bài viết này sẽ giúp ích được các bạn trong công việc hàng ngày.
+
+---
+**HSTC** là công cụ miễn phí hỗ trợ tra cứu mã số HS Code nhanh và toàn diện, tích hợp các thông tin về chú giải và biểu thuế nhập khẩu. [Truy cập công cụ tra cứu HS Code tại đây](https://tracuuhs.com/search) để trải nghiệm thử tính năng tra cứu.
+    `.trim()
+  },
+  {
+    id: "6",
+    slug: "thay-doi-ve-ho-so-hai-quan-theo-thong-tu-121-2025",
+    title: "Thay đổi về hồ sơ hải quan theo Thông tư 121/2025",
+    date: "2026-01-17",
+    excerpt: "Điểm qua các thay đổi trong bộ hồ sơ hải quan xuất nhập khẩu theo Thông tư 121/2025.",
+    coverImage: "/thay-doi-ho-so-hai-quan-121.png",
+    content: `
+Vào ngày 18/12/2025, Bộ Tài chính đã ban hành **Thông tư 121/2025/TT-BTC** sửa đổi, bổ sung một số điều tại Thông tư số 38/2015/TT-BTC ngày 25/3/2015 về thủ tục hải quan; kiểm tra, giám sát hải quan; thuế xuất khẩu, thuế nhập khẩu và quản lý thuế đối với hàng hoá xuất khẩu, nhập khẩu đã được sửa đổi, bổ sung bởi Thông tư 39/2018/TT-BTC ngày 20/4/2018.
+
+Thông tư 121 đã sửa đổi bổ sung một số điểm tại **Điều 16 - Hồ sơ hải quan**. Cùng điểm qua các điểm thay đổi đáng lưu ý nhé.
+
+## 1. Hồ sơ hải quan đối với hàng hóa xuất khẩu
+
+Đối với hồ sơ hải quan của hàng hóa xuất khẩu, Thông tư 121 có các thay đổi đáng lưu ý sau:
+
+- **Bổ sung trường hợp không phải nộp hóa đơn thương mại** khi doanh nghiệp đã xuất hóa đơn thương mại điện thử theo quy định tại các Nghị định về hóa đơn của Chính phủ. Quy định cụ thể tại Thông tư 121 như sau:
+
+> “b) Hóa đơn thương mại hoặc chứng từ có giá trị tương đương trong trường hợp người mua phải thanh toán cho người bán.
+>
+> Trường hợp hóa đơn thương mại được cấp dưới dạng điện tử theo quy định tại điểm 2a Điều 8 Nghị định 123/2020/NĐ-CP ngày 19/10/2020 được sửa đổi, bổ sung bởi khoản 5 Điều 1 Nghị định 70/2025/NĐ-CP ngày 20/3/2025 của Chính phủ trước thời điểm khai báo hải quan thì người khai hải quan không phải nộp cho cơ quan hải quan khi làm thủ tục hải quan;”
+
+- **Bỏ quy định về bảng kê lâm sản đối với gỗ nguyên liệu xuất khẩu** tại Điểm c của Thông tư trước đó. Tuy nhiên, theo thông tin tại Tờ trình về việc soạn thảo Thông tư 121, việc bãi bỏ quy định này không phải là bãi bỏ yêu cầu về nộp Bảng kê lâm sản mà thực chất Bảng kê lâm sản cũng như các chứng từ chuyên ngành khác được gộp chung vào điểm 1d để đảm bảo bao quát được cả các chứng từ do cơ quan quản lý chuyên ngành yêu cầu trong hồ sơ hải quan. Quy định tại Điểm 1d như sau:
+
+> “d) Giấy thông báo miễn kiểm tra hoặc giấy thông báo kết quả kiểm tra chuyên ngành hoặc chứng từ khác theo quy định của pháp luật (sau đây gọi tắt là Giấy chứng nhận kiểm tra chuyên ngành)”.
+
+- **Bổ sung quy định về việc nộp giấy chứng nhận đăng ký quyền xuất khẩu của thương nhân nước ngoài không có hiện diện tại Việt Nam**, trong trường hợp hàng hóa xuất khẩu của thương nhân nước ngoài. Quy định cụ thể tại Thông tư 121 như sau:
+
+> “g) Đối với hàng hóa xuất khẩu của thương nhân nước ngoài không có hiện diện tại Việt Nam thực hiện quyền xuất khẩu: Giấy chứng nhận đăng ký quyền xuất khẩu của thương nhân nước ngoài không có hiện diện tại Việt Nam do Bộ Công Thương cấp”
+
+- **Bổ sung quy định về việc nộp Giấy chứng nhận đầu tư đối với doanh nghiệp FDI** thực hiện quyền xuất khẩu. Tuy nhiên các chứng từ này chỉ phải nộp một lần cho một cơ quan hải quan. Quy định cụ thể tại Thông tư 121 như sau:
+
+> “h) Đối với doanh nghiệp có vốn đầu tư nước ngoài thực hiện quyền xuất khẩu: Giấy chứng nhận đầu tư về hoạt động mua bán hàng hóa và các hoạt động liên quan đến mua bán hàng hóa của thương nhân có vốn đầu tư nước ngoài có đăng ký quyền xuất khẩu; Trường hợp không phải thực hiện cấp Giấy chứng nhận đầu tư thì nộp chứng từ tương đương. Trường hợp thực hiện thủ tục hải quan tại cùng một cơ quan hải quan thì người khai hải quan chỉ phải nộp các chứng từ quy định tại điểm g và điểm h khoản này lần đầu khi làm thủ tục hải quan.”
+
+## 2. Hồ sơ hải quan đối với hàng hóa nhập khẩu
+
+Đối với hồ sơ hải quan của hàng hóa nhập khẩu, Thông tư 121 có các thay đổi đáng lưu ý sau:
+
+- **Làm rõ các thông tin cơ bản của vận đơn** hoặc các chứng từ vận tải có giá trị tương đương: tên, địa chỉ người gửi hàng, người nhận hàng; tên hàng, số lượng, trọng lượng; địa điểm xếp hàng lên phương tiện, địa điểm dỡ hàng; số hiệu phương tiện vận chuyển; tên người vận chuyển, thời gian, địa điểm phát hành chứng từ vận tải. Quy định cụ thể tại Thông tư 121 như sau:
+
+> “c) Vận đơn hoặc các chứng từ vận tải khác có giá trị tương đương **(có các thông tin cơ bản sau: tên, địa chỉ người gửi hàng, người nhận hàng; tên hàng, số lượng, trọng lượng; địa điểm xếp hàng lên phương tiện, địa điểm dỡ hàng; số hiệu phương tiện vận chuyển; tên người vận chuyển, thời gian, địa điểm phát hành chứng từ vận tải)** đối với trường hợp hàng hóa vận chuyển bằng đường biển, đường hàng không, đường sắt, đường thủy nội địa, vận tải đa phương thức theo quy định của pháp luật (trừ hàng hoá nhập khẩu qua cửa khẩu biên giới đường bộ, hàng hóa gửi qua dịch vụ bưu chính, chuyển phát nhanh, hàng hoá mua bán giữa khu phi thuế quan và nội địa, hàng hóa nhập khẩu do người nhập cảnh mang theo đường hành lý) (sau đây gọi tắt là vận đơn)”
+
+- **Bỏ quy định về bảng kê lâm sản đối với gỗ nguyên liệu nhập khẩu**. Tuy nhiên, theo thông tin tại Tờ trình về việc soạn thảo Thông tư 121, tương tự như trường hợp xuất khẩu, việc bãi bỏ quy định này không phải là bãi bỏ yêu cầu về nộp Bảng kê lâm sản mà thực chất để đảm bảo bao quát được cả các chứng từ do cơ quan quản lý chuyên ngành yêu cầu trong hồ sơ hải quan.
+
+- **Bổ sung quy định về giấy chứng nhận đăng ký quyền nhập khẩu của thương nhân nước ngoài không có hiện diện tại Việt Nam**, trong trường hợp hàng hóa nhập khẩu của thương nhân nước ngoài. Quy định cụ thể tại Thông tư 121 như sau:
+
+> “l) Đối với hàng hóa nhập khẩu của thương nhân nước ngoài không có hiện diện tại Việt Nam thực hiện quyền nhập khẩu: Giấy chứng nhận đăng ký quyền xuất khẩu, nhập khẩu của thương nhân nước ngoài không có hiện diện tại Việt Nam do Bộ Công Thương cấp”
+
+- **Bổ sung quy định về việc nộp Giấy chứng nhận đầu tư đối với doanh nghiệp FDI** thực hiện quyền nhập khẩu. Tuy nhiên các chứng từ này chỉ phải nộp một lần cho một cơ quan hải quan. Quy định cụ thể tại Thông tư 121 như sau:
+
+> “m) Đối với doanh nghiệp có vốn đầu tư nước ngoài thực hiện quyền nhập khẩu: Giấy chứng nhận đầu tư về hoạt động mua bán hàng hóa và các hoạt động liên quan đến mua bán hàng hóa của thương nhân có vốn đầu tư nước ngoài có đăng ký quyền xuất khẩu, quyền nhập khẩu; Trường hợp không phải thực hiện cấp Giấy chứng nhận đầu tư thì nộp chứng từ tương đương.
+>
+> Trường hợp thực hiện thủ tục hải quan tại cùng một cơ quan hải quan thì người khai hải quan chỉ phải nộp các chứng từ quy định tại điểm l và điểm m khoản này lần đầu khi làm thủ tục hải quan. Người khai phải khai tại ô “Số giấy phép” trên tờ khai hải quan điện tử đối với các chứng từ nêu tại điểm l, điểm m khoản này.”
+
+## 3. Lưu giữ hồ sơ hải quan
+
+Thông tư 121 bổ sung thêm quy định đáng lưu ý đối với chứng từ dưới dạng điện tử, cụ thể, người khai hải quan phải lưu bản điện tử của chứng từ ở dạng này theo quy định của Luật Giao dịch điện tử.
+
+Theo quy định liên quan tại **Điều 13, Luật Giao dịch điện tử số 20/2023/QH15** ngày 22/6/2023:
+
+> “**Điều 13. Hình thức lưu trữ thông điệp dữ liệu**
+>
+> 1. Trường hợp pháp luật yêu cầu văn bản, chứng từ, hồ sơ, tài liệu hoặc thông tin phải được lưu trữ thì văn bản, chứng từ, hồ sơ, tài liệu hoặc thông tin đó có thể được lưu trữ dưới dạng thông điệp dữ liệu khi đáp ứng đủ các yêu cầu sau đây:
+> a) Thông tin trong thông điệp dữ liệu đó có thể truy cập và sử dụng được để tham chiếu;
+> b) Thông tin trong thông điệp dữ liệu đó được lưu trong chính khuôn dạng được khởi tạo, gửi, nhận hoặc trong khuôn dạng cho phép thể hiện chính xác thông tin đó;
+> c) Thông điệp dữ liệu đó được lưu trữ theo một cách thức nhất định cho phép xác định nguồn gốc khởi tạo, người gửi, người nhận, thời gian gửi, nhận thông điệp dữ liệu.
+>
+> 2. Trừ trường hợp pháp luật có quy định khác, cơ quan, tổ chức, cá nhân được lựa chọn lưu trữ văn bản, chứng từ, hồ sơ, tài liệu hoặc thông tin dưới dạng văn bản giấy hoặc lưu trữ dưới dạng thông điệp dữ liệu khi thông điệp dữ liệu đáp ứng các yêu cầu quy định tại khoản 1 Điều này.
+>
+> 3. Nội dung, thời hạn lưu trữ đối với thông điệp dữ liệu được thực hiện theo quy định của pháp luật về lưu trữ và quy định khác của pháp luật có liên quan. Việc lưu trữ thông điệp dữ liệu có giá trị như lưu trữ văn bản giấy.”
+
+Dựa vào quy định nêu trên, các bạn cần lưu ý thêm các yêu cầu đối với chứng từ điện tử như quy định tại Điểm 1 nêu trên để đảm bảo tuân thủ pháp luật.
+
+HSTC sẽ tiếp tục cập nhật thêm các điểm mới đáng lưu ý của Thông tư 121/2025. Hãy cùng theo dõi và chờ đón nhé.
+
+Tham khảo toàn bộ các thay đổi tại Thông tư 121/2025 [ở bài viết này](/tin-tuc/so-sanh-thay-doi-mau-so-01-to-khai-nhap-khau-thong-tu-121). 
+
 ---
 **HSTC** là công cụ miễn phí hỗ trợ tra cứu mã số HS Code nhanh và toàn diện, tích hợp các thông tin về chú giải và biểu thuế nhập khẩu. [Truy cập công cụ tra cứu HS Code tại đây](https://tracuuhs.com/search) để trải nghiệm thử tính năng tra cứu.
     `.trim()
