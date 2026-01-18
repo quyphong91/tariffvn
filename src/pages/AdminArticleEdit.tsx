@@ -6,6 +6,7 @@ import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import { ImageUpload } from "@/components/admin/ImageUpload";
 import { Label } from "@/components/ui/label";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Switch } from "@/components/ui/switch";
@@ -280,28 +281,12 @@ const AdminArticleEdit = () => {
                     />
                   </div>
 
-                  {/* Image URL */}
-                  <div className="space-y-2">
-                    <Label htmlFor="imageUrl">URL ảnh bìa</Label>
-                    <Input
-                      id="imageUrl"
-                      value={imageUrl}
-                      onChange={(e) => setImageUrl(e.target.value)}
-                      placeholder="https://example.com/image.png hoặc /image.png"
-                    />
-                    {imageUrl && (
-                      <div className="mt-2 aspect-video max-w-xs rounded-lg overflow-hidden bg-muted">
-                        <img
-                          src={imageUrl}
-                          alt="Preview"
-                          className="w-full h-full object-cover"
-                          onError={(e) => {
-                            (e.target as HTMLImageElement).src = "/placeholder.svg";
-                          }}
-                        />
-                      </div>
-                    )}
-                  </div>
+                  {/* Image Upload */}
+                  <ImageUpload
+                    value={imageUrl}
+                    onChange={setImageUrl}
+                    label="Ảnh bìa"
+                  />
 
                   {/* Content */}
                   <div className="space-y-2">
