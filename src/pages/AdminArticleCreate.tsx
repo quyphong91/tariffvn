@@ -6,6 +6,8 @@ import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import { ImageUpload } from "@/components/admin/ImageUpload";
+import { MarkdownEditor } from "@/components/admin/MarkdownEditor";
 import { Label } from "@/components/ui/label";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Switch } from "@/components/ui/switch";
@@ -178,44 +180,18 @@ const AdminArticleCreate = () => {
                     />
                   </div>
 
-                  {/* Image URL */}
-                  <div className="space-y-2">
-                    <Label htmlFor="imageUrl">URL ảnh bìa</Label>
-                    <Input
-                      id="imageUrl"
-                      value={imageUrl}
-                      onChange={(e) => setImageUrl(e.target.value)}
-                      placeholder="https://example.com/image.png hoặc /image.png"
-                    />
-                    {imageUrl && (
-                      <div className="mt-2 aspect-video max-w-xs rounded-lg overflow-hidden bg-muted">
-                        <img
-                          src={imageUrl}
-                          alt="Preview"
-                          className="w-full h-full object-cover"
-                          onError={(e) => {
-                            (e.target as HTMLImageElement).src = "/placeholder.svg";
-                          }}
-                        />
-                      </div>
-                    )}
-                  </div>
+                  {/* Image Upload */}
+                  <ImageUpload
+                    value={imageUrl}
+                    onChange={setImageUrl}
+                    label="Ảnh bìa"
+                  />
 
                   {/* Content */}
-                  <div className="space-y-2">
-                    <Label htmlFor="content">Nội dung (Markdown)</Label>
-                    <Textarea
-                      id="content"
-                      value={content}
-                      onChange={(e) => setContent(e.target.value)}
-                      placeholder="Viết nội dung bài viết với Markdown..."
-                      rows={15}
-                      className="font-mono text-sm"
-                    />
-                    <p className="text-sm text-muted-foreground">
-                      Hỗ trợ Markdown: **in đậm**, *in nghiêng*, ## Tiêu đề, - Danh sách, [Link](url)
-                    </p>
-                  </div>
+                  <MarkdownEditor
+                    value={content}
+                    onChange={setContent}
+                  />
 
                   {/* Published */}
                   <div className="flex items-center gap-3">
