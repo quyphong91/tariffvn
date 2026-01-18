@@ -3570,6 +3570,9 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     ]
   },
 
+  // ------------------------------------------------------------
+  // CHAPTER 15 REVISED
+  // ------------------------------------------------------------
     {
     chapterNumber: 15,
     titleVi: 'CHƯƠNG 15: CHẤT BÉO VÀ DẦU CÓ NGUỒN GỐC TỪ ĐỘNG VẬT, THỰC VẬT HOẶC VI SINH VẬT VÀ CÁC SẢN PHẨM TÁCH TỪ CHÚNG; CHẤT BÉO ĂN ĐƯỢC ĐÃ CHẾ BIẾN; CÁC LOẠI SÁP ĐỘNG VẬT HOẶC THỰC VẬT',
@@ -6128,7 +6131,7 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
   },
 
   // ------------------------------------------------------------
-  // CHAPTERS 27
+  // CHAPTER 27
   // ------------------------------------------------------------
   {
     chapterNumber: 27,
@@ -7900,7 +7903,7 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
   },
 
   // ------------------------------------------------------------
-  // CHAPTER 31
+  // CHAPTER 31 - NG
   // ------------------------------------------------------------
   {
     chapterNumber: 31,

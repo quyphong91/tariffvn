@@ -8090,7 +8090,7 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
   },
 
 // ------------------------------------------------------------
-  // CHAPTER 31
+  // CHAPTER 31 - NG
   // ------------------------------------------------------------
   {
     chapterNumber: 31,
