@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { ImageUpload } from "@/components/admin/ImageUpload";
+import { MarkdownEditor } from "@/components/admin/MarkdownEditor";
 import { Label } from "@/components/ui/label";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Switch } from "@/components/ui/switch";
@@ -187,20 +188,10 @@ const AdminArticleCreate = () => {
                   />
 
                   {/* Content */}
-                  <div className="space-y-2">
-                    <Label htmlFor="content">Nội dung (Markdown)</Label>
-                    <Textarea
-                      id="content"
-                      value={content}
-                      onChange={(e) => setContent(e.target.value)}
-                      placeholder="Viết nội dung bài viết với Markdown..."
-                      rows={15}
-                      className="font-mono text-sm"
-                    />
-                    <p className="text-sm text-muted-foreground">
-                      Hỗ trợ Markdown: **in đậm**, *in nghiêng*, ## Tiêu đề, - Danh sách, [Link](url)
-                    </p>
-                  </div>
+                  <MarkdownEditor
+                    value={content}
+                    onChange={setContent}
+                  />
 
                   {/* Published */}
                   <div className="flex items-center gap-3">
