@@ -446,7 +446,7 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
 
       { 
         type: 'list', 
-        vi: '0105.13 - - Vịt', 
+        vi: '0105.13 - - Vịt, ngan', 
         en: '0105.13 - - Ducks' 
       },
 
@@ -898,6 +898,7 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
         en: 'The pig fat of this heading is restricted to fat free of lean meat; such fat falls in the heading even if suitable only for industrial use. Meat in forms commonly eaten as such is excluded (heading 02.03 or 02.10 as the case may be, for example, streaky pork and similar meals interlarded with a high proportion of fat, and fat with an adhering layer of meat).' 
       },
       { type: 'paragraph', vi: 'Đặc biệt nhóm này bao gồm mỡ chủ yếu ở xung quanh những bộ phận nội tạng của lợn mà khi được nấu chảy hoặc chiết xuất cách khác thì được phân loại vào nhóm 15.01 .', en: 'This heading includes, in particular, the fat found mainly round the pig’s viscera and which, when rendered, or otherwise extracted, is classified in heading 15.01.' },
+      { type: 'paragraph', vi: 'Mỡ của gia cầm nuôi hoặc hoang (ví dụ của ngỗng), chưa nấu chảy hoặc chưa chiết xuất cách khác, cũng thuộc nhóm này; khi được nấu chảy hoặc chiết xuất cách khác thì chúng bị loại trừ (nhóm 15.01).', en: 'Fat of domestic or wild poultry (e.g., of geese), not rendered or otherwise extracted, also falls in the heading; when rendered or otherwise extracted it is excluded (heading 15.01).' },
       { type: 'paragraph', vi: 'Mỡ của những động vật có vú ở biển bị loại trừ ( Chương 15 ).', en: 'Fat from marine mammals is excluded (Chapter 15).' },
 
       { type: 'heading', vi: '02.10 - Thịt và phụ phẩm dạng thịt ăn được sau giết mổ, muối, ngâm nước muối, làm khô hoặc hun khói; bột mịn và bột thô ăn được làm từ thịt hoặc phụ phẩm dạng thịt sau giết mổ.', en: '02.10 - Meat and edible meat offal, salted, in brine, dried or smoked; edible flours and meals of meat or meat offal.' },
@@ -1380,7 +1381,7 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
       { type: 'list', vi: '(b) hàm lượng chất khô, tối thiểu là 70% nhưng không quá 85%, tính theo trọng lượng; và', en: '(b) a dry matter content, by weight, of at least 70 % but not exceeding 85 %; and' },
       { type: 'list', vi: '(c) sản phẩm được đóng khuôn hoặc có thể được đóng khuôn.', en: '(c) they are moulded or capable of being moulded.' },
       { type: 'paragraph', vi: '5.- Chương này không bao gồm:', en: '5.- This Chapter does not cover:' },
-      { type: 'list', vi: '(a) Công trùng không còn sống, không thích hợp sử dụng cho người (nhóm 05.11);', en: '(a) Non-living insects, unfit for human consumption (heading 05.11);' },
+      { type: 'list', vi: '(a) Côn trùng không còn sống, không thích hợp sử dụng cho người (nhóm 05.11);', en: '(a) Non-living insects, unfit for human consumption (heading 05.11);' },
       { type: 'list', vi: '(b) Các sản phẩm thu được từ whey, có hàm lượng lactoza khan chiếm trên 95%, tính theo trọng lượng ở thể khô (nhóm 17.02);', en: '(b) Products obtained from whey, containing by weight more than 95 % lactose, expressed as anhydrous lactose, calculated on the dry matter (heading 17.02);' },
       { type: 'list', vi: '(c) Các sản phẩm thu được từ sữa bằng cách thay thế một hoặc nhiều thành phần tự nhiên của sữa (ví dụ, chất béo butyric) bởi chất khác (ví dụ, chất béo oleic) (nhóm 19.01 hoặc 21.06); hoặc', en: '(c) Products obtained from milk by replacing one or more of its natural constituents (for example, butyric fats) by another substance (for example, oleic fats) (heading 19.01 or 21.06); or' },
       { type: 'list', vi: '(d) Các albumin (kể cả dịch cô đặc từ hai hay nhiều whey protein, có hàm lượng whey protein chiếm trên 80% tính theo trọng lượng ở thể khô) (nhóm 35.02) hoặc globulin (nhóm 35.04).', en: '(d) Albumins (including concentrates of two or more whey proteins, containing by weight more than 80 % whey proteins, calculated on the dry matter) (heading 35.02) or globulins (heading 35.04).' },
@@ -1537,7 +1538,7 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
       { type: 'heading', vi: '04.10 - Côn trùng và sản phẩm ăn được gốc động vật, chưa được chi tiết hoặc ghi ở nơi khác.', en: '04.10. Insects and other edible products of animal origin, not elsewhere specified or included.' },
       { type: 'list', vi: '0410.10 - Côn trùng', en: '0410.10 - Insects' },
       { type: 'list', vi: '0410.90 - Loại khác', en: '0410.90 - Other' },
-      { type: 'paragraph', vi: 'Nhóm này bao gồm côn trùng (như đã định nghĩa tại Chú giải 6 Chương này) và các sản phẩm ăn được gốc động vật khác thích hợp dùng làm thức ăn cho người, chưa được chi tiết hoặc chưa được ghi ở nơi khác trong Danh mục. Tuy nhiên, các loại côn trùng không còn sống không thích hợp dùng làm thức ăn cho người (kể cả bột mịn và bột thô của chúng) được phân loại và nhóm 05.11', en: 'This heading covers insects (as defined in Note 6 to this Chapter) and other products of animal origin suitable for human consumption, not specified or included elsewhere in the Nomenclature. However, non-living insects unfit for human consumption (including flours and meals thereof) are classified in heading 05.11.' },
+      { type: 'paragraph', vi: 'Nhóm này bao gồm côn trùng (như đã định nghĩa tại Chú giải 6 Chương này) và các sản phẩm ăn được gốc động vật khác thích hợp dùng làm thức ăn cho người, chưa được chi tiết hoặc chưa được ghi ở nơi khác trong Danh mục. Tuy nhiên, các loại côn trùng không còn sống không thích hợp dùng làm thức ăn cho người (kể cả bột mịn và bột thô của chúng) được phân loại vào nhóm 05.11', en: 'This heading covers insects (as defined in Note 6 to this Chapter) and other products of animal origin suitable for human consumption, not specified or included elsewhere in the Nomenclature. However, non-living insects unfit for human consumption (including flours and meals thereof) are classified in heading 05.11.' },
       { type: 'paragraph', vi: 'Nhóm này bao gồm:', en: 'It includes :' },
       { type: 'list', vi: '(1) Trứng rùa. Trứng của rùa sông hoặc rùa biển; có thể sống, làm khô hoặc bảo quản cách khác.', en: '(1) Turtles\' eggs . These are eggs laid by river or marine turtles; they may be fresh, dried or otherwise preserved.' },
       { type: 'paragraph', vi: 'Loại trừ dầu làm từ trứng rùa ( nhóm 15.06 ).', en: 'Turtle-egg oil is excluded (heading 15.06 ).' },
@@ -1722,116 +1723,115 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
   },
 
   // ------------------------------------------------------------
-  // CHAPTER 6
+  // CHAPTER 6 - ORIGIN VERSION
   // ------------------------------------------------------------
-  {
-    chapterNumber: 6,
-    titleVi: 'CHƯƠNG 6: CÂY SỐNG VÀ CÁC LOẠI CÂY TRỒNG KHÁC; CỦ, RỄ VÀ LOẠI TƯƠNG TỰ; CÀNH HOA VÀ CÀNH LÁ TRANG TRÍ',
-    titleEn: 'CHAPTER 6: LIVE TREES AND OTHER PLANTS; BULBS, ROOTS AND THE LIKE; CUT FLOWERS AND ORNAMENTAL FOLIAGE',
-    content: [
-      { type: 'heading', vi: 'Phần II: CÁC SẢN PHẨM THỰC VẬT', en: 'Section II VEGETABLE PRODUCTS' },
-      { type: 'heading', vi: 'Chú giải.', en: 'Note.' },
-      { 
-        type: 'paragraph', 
-        vi: '1. - Trong Phần này khái niệm “viên” có nghĩa là những sản phẩm được liên kết bằng cách nén trực tiếp hoặc thêm chất dính với hàm lượng không quá 3% tính theo trọng lượng.', 
-        en: '1.- In this Section the term “pellets” means products which have been agglomerated either directly by compression or by the addition of a binder in a proportion not exceeding 3 % by weight.' 
-      },
-      { type: 'heading', vi: 'Chương 6: Cây sống và các loại cây trồng khác; củ, rễ và loại tương tự; cành hoa và cành lá trang trí', en: 'Chapter 6: Live trees and other plants; bulbs, roots and the like; cut flowers and ornamental foliage' },
-      { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
-      { 
-        type: 'paragraph', 
-        vi: '1.- Ngoài phần 2 của tên nhóm 06.01, Chương này chỉ bao gồm cây sống và các sản phẩm (kể cả cây giống từ hạt) thường được cung cấp bởi người trồng hoa hoặc người làm vườn ươm cây để trồng hay trang trí; tuy nhiên Chương này không bao gồm khoai tây, hành tây, hành, hẹ, tỏi hoặc các sản phẩm khác thuộc Chương 7.', 
-        en: '1.- Subject to the second part of heading 06.01, this Chapter covers only live trees and goods (including seedling vegetables) of a kind commonly supplied by nursery gardeners or florists for planting or for ornamental use; nevertheless it does not include potatoes, onions, shallots, garlic or other products of Chapter 7.' 
-      },
-      { 
-        type: 'paragraph', 
-        vi: '2.- Khi xem xét một mặt hàng nào đó trong nhóm 06.03 hoặc 06.04 phải coi các bó, lẵng hoa, vòng hoa và các sản phẩm tương tự như các loại hoa hoặc cành lá thuộc 2 nhóm trên nhưng không tính đến các phụ kiện bằng chất liệu khác. Tuy nhiên, các nhóm này không bao gồm các tác phẩm ghép hoặc các họa tiết trang trí tương tự thuộc nhóm 97.01.', 
-        en: '2.- Any reference in heading 06.03 or 06.04 to goods of any kind shall be construed as including a reference to bouquets, floral baskets, wreaths and similar articles made wholly or partly of goods of that kind, account not being taken of accessories of other materials. However, these headings do not include collages or similar decorative plaques of heading 97.01.' 
-      },
+{
+  chapterNumber: 6,
+  titleVi: 'CHƯƠNG 6: CÂY SỐNG VÀ CÁC LOẠI CÂY TRỒNG KHÁC; CỦ, RỄ VÀ LOẠI TƯƠNG TỰ; CÀNH HOA VÀ CÀNH LÁ TRANG TRÍ',
+  titleEn: 'CHAPTER 6: LIVE TREES AND OTHER PLANTS; BULBS, ROOTS AND THE LIKE; CUT FLOWERS AND ORNAMENTAL FOLIAGE',
+  content: [
+    { type: 'heading', vi: 'Phần II: CÁC SẢN PHẨM THỰC VẬT', en: 'Section II VEGETABLE PRODUCTS' },
+    { type: 'heading', vi: 'Chú giải.', en: 'Note.' },
+    { 
+      type: 'paragraph', 
+      vi: '1. - Trong Phần này khái niệm “viên” có nghĩa là những sản phẩm được liên kết bằng cách nén trực tiếp hoặc thêm chất dính với hàm lượng không quá 3% tính theo trọng lượng.', 
+      en: '1.- In this Section the term “pellets” means products which have been agglomerated either directly by compression or by the addition of a binder in a proportion not exceeding 3 % by weight.' 
+    },
+    { type: 'heading', vi: 'Chương 6: Cây sống và các loại cây trồng khác; củ, rễ và loại tương tự; cành hoa và cành lá trang trí', en: 'Chapter 6: Live trees and other plants; bulbs, roots and the like; cut flowers and ornamental foliage' },
+    { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
+    { 
+      type: 'paragraph', 
+      vi: '1.- Ngoài phần 2 của tên nhóm 06.01, Chương này chỉ bao gồm cây sống và các sản phẩm (kể cả cây giống từ hạt) thường được cung cấp bởi người trồng hoa hoặc người làm vườn ươm cây để trồng hay trang trí; tuy nhiên Chương này không bao gồm khoai tây, hành tây, hành, hẹ, tỏi hoặc các sản phẩm khác thuộc Chương 7.', 
+      en: '1.- Subject to the second part of heading 06.01, this Chapter covers only live trees and goods (including seedling vegetables) of a kind commonly supplied by nursery gardeners or florists for planting or for ornamental use; nevertheless it does not include potatoes, onions, shallots, garlic or other products of Chapter 7.' 
+    },
+    { 
+      type: 'paragraph', 
+      vi: '2.- Khi xem xét một mặt hàng nào đó trong nhóm 06.03 hoặc 06.04 phải kể đến những mặt hàng như lẵng hoa, bó hoa, vòng hoa và các sản phẩm tương tự được làm toàn bộ hoặc một phần bằng các vật liệu nêu trong nhóm, không tính đến những đồ phụ trợ làm bằng vật liệu khác. Tuy nhiên, các nhóm này không bao gồm các tác phẩm ghép hay phù điêu trang trí tương tự thuộc nhóm 97.01.', 
+      en: '2.- Any reference in heading 06.03 or 06.04 to goods of any kind shall be construed as including a reference to bouquets, floral baskets, wreaths and similar articles made wholly or partly of goods of that kind, account not being taken of accessories of other materials. However, these headings do not include collages or similar decorative plaques of heading 97.01.' 
+    },
 
-      { type: 'heading', vi: 'TỔNG QUÁT', en: 'GENERAL' },
-      { 
-        type: 'paragraph', 
-        vi: 'Chương này bao gồm tất cả các loại thực vật sống, thường được cung cấp bởi các người làm vườn ươm (bao gồm cả nghề trồng hoa) hoặc những người trồng hoa, để phù hợp cho mục đích trồng trọt hoặc trang trí, và cũng bao gồm cả cây rau giống (cây giống rau). Tuy nhiên, các loại củ, thân củ, rễ củ, thân dạng củ, thân rễ của khoai tây, hành tây, hành, hẹ, tỏi và các sản phẩm khác thuộc Chương 7 được loại trừ khỏi Chương này.', 
-        en: 'This Chapter covers all living plants, of a kind commonly supplied by nursery gardeners (including horticulturists) or florists, which are in a condition suitable for planting or for ornamental purposes, and also includes seedling vegetables. Bulbs, corms, tubers, tuberous roots, rhizomes and crowns, of potatoes, onions, shallots, garlic and other products of Chapter 7 are, however, excluded from this Chapter.' 
-      },
-      { type: 'paragraph', vi: 'Chương này cũng bao gồm:', en: 'The Chapter also covers :' },
-      { type: 'list', vi: '(1) rễ cây nấm (nấm myxen).', en: '(1) Mushroom spawn.' },
-      { type: 'list', vi: '(2) Cành hoa, và cành lá, lá..., dùng để trang trí.', en: '(2) Cut flowers, and foliage, leaves, etc., for ornamental purposes.' },
+    { type: 'heading', vi: 'TỔNG QUÁT', en: 'GENERAL' },
+    { 
+      type: 'paragraph', 
+      vi: 'Chương này bao gồm tất cả các cây sống thuộc loại được người làm vườn ươm cây (kể cả người làm vườn) hoặc người trồng hoa cung cấp, trong điều kiện thích hợp dùng để trồng hoặc trang trí, kể cả thân và rễ của cây diếp xoắn (trừ các loại rễ thuộc nhóm 12.12) ngay cả khi những sản phẩm này thường không được cung cấp bởi những người làm vườn ươm cây hoặc người trồng hoa. Ngoài những loại khác, những sản phẩm này bao gồm từ cây lớn, cây bụi và bụi cây cho đến cây rau giống từ hạt, kể cả cây thuốc.', 
+      en: 'This Chapter covers all living plants, of a kind commonly supplied by nursery gardeners (including horticulturists) or florists, which are in a condition suitable for planting or for ornamental purposes, and also includes seedling vegetables. Bulbs, corms, tubers, tuberous roots, rhizomes and crowns, of potatoes, onions, shallots, garlic and other products of Chapter 7 are, however, excluded from this Chapter.' 
+    },
+    { 
+      type: 'paragraph', 
+      vi: 'Chương này không bao gồm hạt và quả, hoặc một số loại thân củ và củ (khoai tây, hành tây, hành, hẹ và tỏi) mà không thể phân biệt giữa loại dùng làm thực phẩm và loại dùng để trồng.',
+      en: 'The Chapter does not include seeds and fruit, or certain tubers and bulbs (potatoes, onions, shallots and garlic) for which it is not possible to make a distinction between the kinds used as food and those for planting.'
+    },
+    { type: 'paragraph', vi: 'Chương này cũng bao gồm:', en: 'The Chapter also covers :' },
+    { type: 'list', vi: '(1) Hoa và nụ hoa cắt rời, cành, lá, nhánh và các phần khác của cây, tươi, khô, nhuộm, tẩy, thấm tẩm hoặc xử lý cách khác để trang trí.', en: '(1) Cut flowers and flower buds, foliage, branches and other parts of plants, fresh, dried, dyed, bleached, impregnated or otherwise prepared for ornamental purposes.' },
+    { type: 'list', vi: '(2) Bó hoa, vòng hoa, lẵng hoa và sản phẩm tương tự thường được người trồng hoa cung cấp.', en: '(2) Bouquets, wreaths, floral baskets and similar florists\' wares.' },
 
-      { type: 'heading', vi: '06.01 - Củ, thân củ, rễ củ, thân dạng củ và thân rễ, ở dạng ngủ, dạng sinh trưởng hoặc dạng hoa; cây và rễ rau diếp xoăn (chicory), trừ các loại rễ thuộc nhóm 12.12.', en: '06.01 - Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower; chicory plants and roots other than roots of heading 12.12.' },
-      { type: 'paragraph', vi: '0601.10 - Củ, thân củ, rễ củ, thân dạng củ và thân rễ, ở dạng ngủ', en: '0601.10 - Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant' },
-      { type: 'paragraph', vi: '0601.20 - Củ, thân củ, rễ củ, thân dạng củ và thân rễ, ở dạng sinh trưởng hoặc dạng hoa; cây và rễ rau diếp xoăn (chicory)', en: '0601.20 - Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, in growth or in flower; chicory plants and roots' },
-      { 
-        type: 'paragraph', 
-        vi: 'Nhóm này bao gồm củ, thân củ, rễ củ, thân dạng củ và thân rễ, ở dạng ngủ, dạng sinh trưởng hoặc dạng hoa, của loại thực vật mà bộ phận sinh trưởng ở trên mặt đất chết đi, nhưng rễ vẫn tiếp tục sống dưới mặt đất, hoặc thực vật thuộc loại này nhưng bộ phận sinh trưởng ở trên mặt đất không bị chết đi.', 
-        en: 'This heading includes bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower, whether or not presented in pots, boxes, etc., of plants in which the aerial vegetative portion dies off but the underground portion remains alive, or plants in which the aerial portion does not die off.' 
-      },
-      { 
-        type: 'paragraph', 
-        vi: 'Những sản phẩm trên bao gồm: Amaryllis (huệ tây đỏ), anemone (cây cỏ chân ngỗng), begonia (thu hải đường), canna (cây dong riềng), chionodoxa, convallaria (hoa lan chuông), crocus (cây nghệ tây), cyclamen (cây anh thảo), dahlia (cây thược dược), eremurus, freesia (cây lan nam phi), fritillaria (cây bối mẫu), galanthus (cây giọt tuyết), gladiolus (cây lay-ơn), gloxinia, hyacinthus (cây lan dạ hương), iris (cây diên vĩ), lilium (cây loa kèn), montbretia (cây lay-ơn montbretia), narcissus (cây thuỷ tiên), ornithogalum (cây sao bethlehem), oxalis (cây chua me đất), polianthes (cây huệ), ranunculus (cây mao lương), richardia, tigridia, tulipa (cây tulip).', 
-        en: 'These products include those of the following plants : Amaryllis, anemone, begonia, canna, chionodoxa, convallaria (lily of the valley), crocus, cyclamen, dahlia, eremurus, freesia, fritillaria, galanthus (snow-drop), gladiolus, gloxinia, hyacinthus, iris, lilium, montbretia, narcissus, ornithogalum, oxalis, polianthes (tuberose), ranunculus, richardia, tigridia, tulipa.' 
-      },
-      { type: 'paragraph', vi: 'Nhóm này cũng bao gồm củ, thân củ, rễ củ, thân dạng củ và thân rễ của các loại cây (ví dụ cây măng tây và cây đại hoàng - rhubarb) không dùng để trang trí.', en: 'The heading also includes bulbs, corms, tubers, tuberous roots, rhizomes and crowns of plants (e.g., asparagus, rhubarb) not used for ornamental purposes.' },
-      { type: 'paragraph', vi: 'Nhóm này cũng bao gồm rễ cây măng tây (Asparagus crowns) và rễ cây đại hoàng (Rhubarb crowns).', en: 'The heading also covers asparagus crowns and rhubarb crowns.' },
-      { type: 'paragraph', vi: 'Nhóm này cũng bao gồm cả cây và rễ rau diếp xoăn (chicory) (ngoại trừ rễ rau diếp xoăn thuộc nhóm 12.12). Rễ rau diếp xoăn thuộc nhóm này có thể chưa được rang và chưa làm khô.', en: 'The heading also covers chicory plants and roots other than roots of heading 12.12. Chicory roots of this heading may be unroasted and undried.' },
-      { type: 'paragraph', vi: 'Nhóm này không bao gồm cây giống, củ hoặc thân củ, củ khoai tây, củ hành, củ hẹ, củ tỏi đã đề cập trong Chương 7.', en: 'This heading excludes certain bulbs, tubers, tuberous roots, corms, crowns and rhizomes (e.g., onions, shallots, garlic, potatoes), which are classified in Chapter 7.' },
-      { type: 'paragraph', vi: 'Nhóm này cũng không bao gồm cây rau diếp xoăn (chicory) đã rang hoặc các sản phẩm thay thế cà phê rang khác (nhóm 21.01).', en: 'The heading also excludes roasted chicory roots and other roasted coffee substitutes (heading 21.01).' },
+    { type: 'heading', vi: '06.01 - Củ, thân củ, rễ củ, thân ống và thân rễ, ở dạng ngủ, dạng sinh trưởng hoặc ở dạng hoa; cây và rễ rau diếp xoăn, trừ các loại rễ thuộc nhóm 12.12.', en: '06.01 - Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower; chicory plants and roots other than roots of heading 12.12.' },
+    { type: 'paragraph', vi: '0601.10 - Củ, thân củ, rễ củ, thân ống và thân rễ, ở dạng ngủ', en: '0601.10 - Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant' },
+    { type: 'paragraph', vi: '0601.20 - Củ, thân củ, rễ củ, thân ống, thân rễ, dạng sinh trưởng hoặc dạng hoa; cây và rễ rau diếp xoăn', en: '0601.20 - Bulbs, tubers, tuberous roots, corms, crowns and rhizomes, in growth or in flower; chicory plants and roots' },
+    { 
+      type: 'paragraph', 
+      vi: 'Ngoài những loại khác, nhóm này có thể kể đến những loại củ, v.v… có hay không ở trong bình, chậu, hộp, v.v… của các cây thuộc các loài sau:', 
+      en: 'This heading includes bulbs, tubers, tuberous roots, corms, crowns and rhizomes, dormant, in growth or in flower, whether or not presented in pots, boxes, etc., of plants in which the aerial vegetative portion dies off but the underground portion remains alive, or plants in which the aerial portion does not die off.' 
+    },
+    { 
+      type: 'paragraph', 
+      vi: 'Cây hoa loa kèn, cỏ chân ngỗng (các loài có củ), cây thu hải đường, cây chuối hoa, chionodoxa, cây linh lan (cây hoa lan chuông), cây nghệ tây, cây hoa anh thảo, cây hoa thược dược, eremurus, freesia, cây bối mẫu, cây hoa tuyết, cây hoa dơn (cây hoa lay ơn), gloxinia, cây lan dạ hương, cây hoa diên vĩ, cây hoa ly (cây loa kèn), cây nghệ hương, cây thuỷ tiên, ornithogalum, cây chua me đất, cây hoa huệ, cây mao lương, richardia, tigridia, cây hoa tulíp.', 
+      en: 'These products include those of the following plants : Amaryllis, anemone, begonia, canna, chionodoxa, convallaria (lily of the valley), crocus, cyclamen, dahlia, eremurus, freesia, fritillaria, galanthus (snow-drop), gladiolus, gloxinia, hyacinthus, iris, lilium, montbretia, narcissus, ornithogalum, oxalis, polianthes (tuberose), ranunculus, richardia, tigridia, tulipa.' 
+    },
+    { type: 'paragraph', vi: 'Nhóm này cũng bao gồm củ v.v..... của các cây không dùng để trang trí (ví dụ thân rễ cây đại hoàng) và thân rễ cây măng tây.', en: 'The heading also includes bulbs, corms, tubers, tuberous roots, rhizomes and crowns of plants (e.g., asparagus, rhubarb) not used for ornamental purposes.' },
+    { type: 'paragraph', vi: 'Tuy nhiên, nhóm này không bao gồm một số củ, thân củ, rễ củ, thân ống và thân rễ (ví dụ: hành tây, hành, hẹ, tỏi, khoai tây và a-ti-sô Jerusalem) thuộc Chương 7 và thân rễ của gừng (nhóm 09.10).', en: 'The heading excludes, however, certain bulbs, tubers, tuberous roots, corms, crowns and rhizomes (e.g., onions, shallots, garlic, potatoes, Jerusalem artichokes) of Chapter 7, and ginger rhizomes (heading 09.10).' },
+    { type: 'paragraph', vi: 'Thân và rễ rau diếp xoăn cũng thuộc nhóm này. Tuy nhiên, nhóm này loại trừ rễ rau diếp xoăn chưa rang thuộc loài Cichorium intybus sativum (nhóm 12.12).', en: 'Chicory plants and roots are also covered by this heading. However, unroasted chicory roots, of the variety Cichorium intybus sativum, are excluded (heading 12.12).' },
 
-      { type: 'heading', vi: '06.02 - Cây sống loại khác (kể cả rễ), cành giâm và cành ghép; rễ cây nấm (nấm myxen).', en: '06.02 - Other live plants (including their roots), cuttings and slips; mushroom spawn.' },
-      { type: 'list', vi: '0602.10 - Cành giâm và cành ghép chưa có rễ', en: '0602.10 - Unrooted cuttings and slips' },
-      { type: 'list', vi: '0602.20 - Cây (loại cây thân gỗ hoặc thân thảo), loại cho quả hoặc hạt thực phẩm, đã hoặc chưa ghép', en: '0602.20 - Trees, shrubs and bushes, grafted or not, of kinds which bear edible fruit or nuts' },
-      { type: 'list', vi: '0602.30 - Cây đỗ quyên (Rhododendrons) và cây đỗ quyên (Azaleas), đã hoặc chưa ghép', en: '0602.30 - Rhododendrons and azaleas, grafted or not' },
-      { type: 'list', vi: '0602.40 - Hoa hồng, đã hoặc chưa ghép', en: '0602.40 - Roses, grafted or not' },
-      { type: 'paragraph', vi: '- Loại khác:', en: '- Other:' },
-      { type: 'list', vi: '0602.90 - - Loại khác', en: '0602.90 - - Other' },
-      { 
-        type: 'paragraph', 
-        vi: 'Nhóm này bao gồm tất cả các cây sống và các loại rễ cây, cành giâm và cành ghép, rễ nấm (nấm myxen) khác, chưa được phân loại trong nhóm 06.01. Các loại cây sống được phân loại trong nhóm này, bất kể là chúng có được trồng trong chậu, hộp, v.v... hay không.', 
-        en: 'This heading covers all live plants and roots thereof, cuttings and slips, mushroom spawn, not included in heading 06.01. The heading includes such plants, roots, cuttings and slips, whether or not presented in pots, boxes, etc.' 
-      },
-      { type: 'paragraph', vi: 'Nhóm này bao gồm:', en: 'This heading includes:' },
-      { type: 'list', vi: '(1) Cây (thân gỗ, thân thảo và cây bụi) và cây bụi nhỏ, dùng để trang trí hoặc dùng cho các mục đích khác (ví dụ: dùng trong nông nghiệp, trồng rừng).', en: '(1) Trees, shrubs and bushes of all kinds (forest, fruit, ornamental, etc.), including stocks for grafting.' },
-      { type: 'list', vi: '(2) Cây dùng để ghép.', en: '(2) Plants for grafting.' },
-      { type: 'list', vi: '(3) Cành ghép và cành giâm chưa có rễ.', en: '(3) Unrooted cuttings and slips.' },
-      { type: 'list', vi: '(4) Cây giống (cây ươm), trừ cây rau diếp xoăn (nhóm 06.01).', en: '(4) Seedlings, other than those of chicory (heading 06.01).' },
-      { type: 'list', vi: '(5) Rễ nấm (nấm myxen), bao gồm sợi nấm (sợi sinh dưỡng của nấm) đã phát triển, trồng trên đất, rơm rạ, phân, ngũ cốc, mùn cưa, hoặc trên các chất liệu tương tự khác, hoặc được nuôi cấy trong ống nghiệm.', en: '(5) Mushroom spawn, consisting of mushroom mycelium (vegetative growth) mixed with manure, soil, straw, cereal, sawdust or other similar substances, or grown on a sterile medium.' },
-      { type: 'paragraph', vi: 'Nhóm này không bao gồm:', en: 'The heading excludes:' },
-      { type: 'list', vi: '(a) Củ, thân củ, rễ củ, thân dạng củ và thân rễ của nhóm 06.01.', en: '(a) Bulbs, corms, tubers, tuberous roots, rhizomes and crowns of heading 06.01.' },
-      { type: 'list', vi: '(b) Khoai tây (nhóm 07.01).', en: '(b) Potatoes (heading 07.01).' },
-      { type: 'list', vi: '(c) Hành, hẹ, tỏi (nhóm 07.03).', en: '(c) Onions, shallots, garlic (heading 07.03).' },
-      { type: 'list', vi: '(d) Gừng (nhóm 09.10).', en: '(d) Ginger (heading 09.10).' },
+    { type: 'heading', vi: '06.02 - Cây sống khác (kể cả rễ), cành giâm và cành ghép; hệ sợi nấm (+).', en: '06.02 - Other live plants (including their roots), cuttings and slips; mushroom spawn.' },
+    { type: 'list', vi: '0602.10 - Cành giâm và cành ghép không có rễ', en: '0602.10 - Unrooted cuttings and slips' },
+    { type: 'list', vi: '0602.20 - Cây, cây bụi, đã hoặc không ghép cành, thuộc loại có quả hoặc quả hạch (nuts) ăn được', en: '0602.20 - Trees, shrubs and bushes, grafted or not, of kinds which bear edible fruit or nuts' },
+    { type: 'list', vi: '0602.30 - Cây đỗ quyên và cây azalea (cây khô - họ đỗ quyên), đã hoặc không ghép cành', en: '0602.30 - Rhododendrons and azaleas, grafted or not' },
+    { type: 'list', vi: '0602.40 - Cây hoa hồng, đã hoặc không ghép cành', en: '0602.40 - Roses, grafted or not' },
+    { type: 'paragraph', vi: '- Loại khác:', en: '- Other:' },
+    { type: 'list', vi: '0602.90 - - Loại khác', en: '0602.90 - - Other' },
+    { 
+      type: 'paragraph', 
+      vi: 'Nhóm này bao gồm:', 
+      en: 'This heading covers all live plants and roots thereof, cuttings and slips, mushroom spawn, not included in heading 06.01. The heading includes such plants, roots, cuttings and slips, whether or not presented in pots, boxes, etc.' 
+    },
+    { type: 'list', vi: '(1) Cây, cây bụi và bụi cây các loại (cây rừng, cây ăn quả, cây cảnh v.v...), kể cả thân/gốc dùng để ghép.', en: '(1) Trees, shrubs and bushes of all kinds (forest, fruit, ornamental, etc.), including stocks for grafting.' },
+    { type: 'list', vi: '(2) Cây và cây giống các loại để cấy trồng, trừ những loại thuộc nhóm 06.01.', en: '(2) Plants for grafting.' },
+    { type: 'list', vi: '(3) Rễ sống của cây.', en: '(3) Live roots of plants.' },
+    { type: 'list', vi: '(4) Cành giâm chưa mọc rễ; cành ghép (mắt ghép hoặc chồi); cành giâm và chồi gốc.', en: '(4) Unrooted cuttings; slips (grafts or scions); runners and shoots.' },
+    { type: 'list', vi: '(5) Hệ sợi nấm gồm đám thể sợi nấm, đã hoặc chưa trộn đất hoặc chất thực vật.', en: '(5) Mushroom spawn, consisting of mushroom plant threads (mycelium) whether or not mixed with soil or vegetable matter.' },
+    { type: 'paragraph', vi: 'Các loại cây, cây bụi, bụi cây và cây con khác thuộc nhóm này có thể ở dạng rễ trần hoặc rễ trong bầu đất, hoặc trồng trong bình, bao, giỏ, chậu hoặc bao bì tương tự.', en: 'The trees, shrubs, bushes and other plants covered by this heading may be presented with their roots bare or balled, or planted in pots, tubs, boxes or the like.' },
+    { type: 'paragraph', vi: 'Nhóm này không bao gồm rễ củ (ví dụ thược dược, nhóm 06.01) và rễ rau diếp xoăn nhóm 06.01 hoặc 12.12.', en: 'The heading excludes tuberous roots (e.g., dahlias, heading 06.01) and chicory roots of heading 06.01 or 12.12.' },
 
-      { type: 'heading', vi: '06.03 - Cành hoa và nụ hoa, dùng để làm bó hoa hoặc để trang trí, tươi, khô, đã nhuộm, tẩy, thấm tẩm hoặc xử lý cách khác.', en: '06.03 - Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared.' },
-      { type: 'paragraph', vi: '- Tươi:', en: '- Fresh:' },
-      { type: 'list', vi: '0603.11 - - Hoa hồng', en: '0603.11 - - Roses' },
-      { type: 'list', vi: '0603.12 - - Hoa cẩm chướng', en: '0603.12 - - Carnations' },
-      { type: 'list', vi: '0603.13 - - Hoa lan', en: '0603.13 - - Orchids' },
-      { type: 'list', vi: '0603.14 - - Hoa cúc', en: '0603.14 - - Chrysanthemums' },
-      { type: 'list', vi: '0603.15 - - Hoa ly (Lilium spp.)', en: '0603.15 - - Lilies (Lilium spp.)' },
-      { type: 'list', vi: '0603.19 - - Loại khác', en: '0603.19 - - Other' },
-      { type: 'list', vi: '0603.90 - Loại khác', en: '0603.90 - Other' },
-      { 
-        type: 'paragraph', 
-        vi: 'Nhóm này bao gồm không những hoa và nụ hoa đã cắt cành, mà còn gồm cả bó hoa, vòng hoa, lẵng hoa và các sản phẩm tương tự (ví dụ, hoa cài áo), kết hợp với hoa hoặc nụ hoa. Miễn là các sản phẩm này giữ được tính chất cơ bản của các sản phẩm trồng hoa, nhóm này vẫn bao gồm các sản phẩm đó ngay cả khi chúng có chứa phụ kiện bằng chất liệu khác (ruy băng, giấy trang trí, v.v...).', 
-        en: 'This heading covers not only cut flowers and flower buds, but also bouquets, wreaths, floral baskets and similar articles incorporating flowers or flower buds. Provided that such bouquets, etc., have the essential character of florists\' wares, they remain in the heading even if they contain accessories of other materials (ribbons, paper trimmings, etc.).' 
-      },
-      { type: 'paragraph', vi: 'Cành hoa và nụ hoa của các loài cây (như cây keo, cây mimosa) mà lá và hoa hoặc nụ của chúng dùng để trang trí thì được phân loại trong nhóm này. Nếu chỉ có cành lá không có hoa và nụ thì được phân loại trong nhóm 06.04.', en: 'Cut branches of trees, shrubs or bushes (e.g., magnolia, certain types of roses) which bear flowers or flower buds are classified in this heading. Branches which do not bear flowers or flower buds fall in heading 06.04.' },
-      { type: 'paragraph', vi: 'Nhóm này không bao gồm hoa, cánh hoa và nụ hoa của các loại cây chủ yếu dùng để làm nước hoa, dược phẩm, thuốc trừ sâu, thuốc diệt nấm hoặc các mục đích tương tự (nhóm 12.11) hoặc các tác phẩm ghép và các họa tiết trang trí tương tự của nhóm 97.01.', en: 'The heading excludes flowers, flower petals and buds of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes (heading 12.11) and collages and similar decorative plaques of heading 97.01.' },
+    { type: 'heading', vi: '06.03 - Cành hoa và nụ hoa dùng làm hoa bó hoặc để trang trí, tươi, khô, đã nhuộm, tẩy, thấm tẩm hoặc xử lý cách khác.', en: '06.03 - Cut flowers and flower buds of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared.' },
+    { type: 'paragraph', vi: '- Tươi:', en: '- Fresh:' },
+    { type: 'list', vi: '0603.11 - - Hoa hồng', en: '0603.11 - - Roses' },
+    { type: 'list', vi: '0603.12 - - Hoa cẩm chướng', en: '0603.12 - - Carnations' },
+    { type: 'list', vi: '0603.13 - - Phong lan', en: '0603.13 - - Orchids' },
+    { type: 'list', vi: '0603.14 - - Hoa cúc', en: '0603.14 - - Chrysanthemums' },
+    { type: 'list', vi: '0603.15 - - Họ hoa ly (Lilium spp.)', en: '0603.15 - - Lilies (Lilium spp.)' },
+    { type: 'list', vi: '0603.19 - - Loại khác', en: '0603.19 - - Other' },
+    { type: 'list', vi: '0603.90 - Loại khác', en: '0603.90 - Other' },
+    { 
+      type: 'paragraph', 
+      vi: 'Nhóm này bao gồm không chỉ hoa và nụ hoa cắt đơn giản mà cả bó hoa, vòng hoa, lẵng hoa và sản phẩm tương tự có gắn hoa hoặc nụ hoa (ví dụ những bó hoa nhỏ, hoa cài khuyết áo). Nếu bó hoa như vậy vẫn giữ được đặc tính cơ bản của những sản phẩm của người làm hoa thì chúng vẫn ở trong nhóm này ngay cả khi chúng có chứa các đồ phụ trợ làm bằng vật liệu khác (ruy băng, hình cắt tỉa bằng giấy,v.v…).', 
+      en: 'This heading covers not only cut flowers and flower buds, but also bouquets, wreaths, floral baskets and similar articles incorporating flowers or flower buds. Provided that such bouquets, etc., have the essential character of florists\' wares, they remain in the heading even if they contain accessories of other materials (ribbons, paper trimmings, etc.).' 
+    },
+    { type: 'paragraph', vi: 'Cành cắt từ cây, cây bụi và bụi cây, nếu mang hoa và nụ (như cành mộc lan và một số cành hồng), được coi như cành hoa và nụ hoa của nhóm này.', en: 'Cut branches of trees, shrubs or bushes (e.g., magnolia, certain types of roses) which bear flowers or flower buds are classified in this heading. Branches which do not bear flowers or flower buds fall in heading 06.04.' },
+    { type: 'paragraph', vi: 'Nhóm này loại trừ hoa, cánh hoa và nụ hoa dùng chủ yếu để chế nước hoa, dùng trong bào chế dược phẩm, hoặc làm thuốc trừ sâu, thuốc trừ nấm hoặc các mục đích tương tự, miễn là chúng ở dạng không thích hợp để làm hoa bó hoặc để trang trí (nhóm 12.11). Nhóm này cũng loại trừ các tác phẩm ghép và phù điêu trang trí tương tự thuộc nhóm 97.01.', en: 'The heading excludes flowers, flower petals and buds of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes (heading 12.11) and collages and similar decorative plaques of heading 97.01.' },
 
-      { type: 'heading', vi: '06.04 - Cành lá, lá, cành và các bộ phận khác của cây, không có hoa hoặc nụ hoa, và các loại cỏ, rêu và địa y, dùng để làm bó hoa hoặc để trang trí, tươi, khô, đã nhuộm, tẩy, thấm tẩm hoặc xử lý cách khác.', en: '06.04 - Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, being goods of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared.' },
-      { type: 'list', vi: '0604.20 - Tươi', en: '0604.20 - Fresh' },
-      { type: 'list', vi: '0604.90 - Loại khác', en: '0604.90 - Other' },
-      { 
-        type: 'paragraph', 
-        vi: 'Nhóm này bao gồm cành lá, lá, cành cây và các bộ phận khác của cây (trừ hoa và nụ hoa thuộc nhóm 06.03), và các loại cỏ, rêu và địa y, với điều kiện là chúng phù hợp để làm bó hoa hoặc dùng để trang trí. Các sản phẩm này có thể ở dạng bó, lẵng hoa, vòng hoa và các sản phẩm tương tự. Miễn là các sản phẩm này giữ được tính chất cơ bản của các sản phẩm trồng hoa, nhóm này vẫn bao gồm các sản phẩm đó ngay cả khi chúng có chứa phụ kiện bằng chất liệu khác (ruy băng, khung dây, v.v...).', 
-        en: 'This heading covers foliage, branches and other parts of plants (other than flowers and flower buds of heading 06.03), and grasses, mosses and lichens, provided they are suitable for bouquets or for ornamental purposes. These goods may be in the form of bouquets, wreaths, floral baskets and similar articles. Provided that such bouquets, etc., have the essential character of florists\' wares, they remain in the heading even if they contain accessories of other materials (ribbons, wire frames, etc.).' 
-      },
-      { type: 'paragraph', vi: 'Những sản phẩm thuộc nhóm này có thể mang các loại quả trang trí, nhưng nếu chúng gắn hoa hoặc nụ hoa thì chúng bị loại trừ (nhóm 06.03).', en: 'Goods of this heading may bear decorative fruits, but if they incorporate flowers or flower buds they are excluded (heading 06.03).' },
-      { type: 'paragraph', vi: 'Nhóm này bao gồm cây noel tự nhiên, miễn là chúng rõ ràng không thích hợp để trồng lại (ví dụ, rễ bị cưa, rễ bị làm chín trong nước sôi).', en: 'The heading covers natural Christmas trees, provided that they are clearly unfit for replanting (e.g., root sawn off, root killed by immersion in boiling water).' },
-      { type: 'paragraph', vi: 'Nhóm này cũng loại trừ những cây con và các bộ phận của chúng (bao gồm cả cỏ, rêu và địa y) chủ yếu dùng làm nước hoa, trong bào chế dược phẩm, hoặc làm thuốc trừ sâu, thuốc trừ nấm hoặc các mục đích tương tự (nhóm 12.11) hoặc để tết bện (nhóm 14.01), miễn là chúng ở dạng không thích hợp để làm bó hoa hoặc để trang trí. Nhóm này cũng loại trừ những tác phẩm ghép và phù điêu trang trí tương tự của nhóm 97.01.', en: 'The heading also excludes plants and parts of plants (including grasses, mosses and lichens) of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes (heading 12.11) or for plaiting (heading 14.01), provided that, in the condition in which they are presented, they are not suitable for bouquets or for ornamental purposes. It also excludes collages and similar decorative plaques of heading 97.01.' }
-    ]
-  },
+    { type: 'heading', vi: '06.04 - Tán lá, cành và các phần khác của cây, không có hoa hoặc nụ hoa, các loại cỏ, rêu và địa y, phù hợp để bó hoa hoặc trang trí, tươi, khô, đã nhuộm, tẩy, thấm tẩm hoặc xử lý cách khác.', en: '06.04 - Foliage, branches and other parts of plants, without flowers or flower buds, and grasses, mosses and lichens, being goods of a kind suitable for bouquets or for ornamental purposes, fresh, dried, dyed, bleached, impregnated or otherwise prepared.' },
+    { type: 'list', vi: '0604.20 - Tươi', en: '0604.20 - Fresh' },
+    { type: 'list', vi: '0604.90 - Loại khác', en: '0604.90 - Other' },
+    { 
+      type: 'paragraph', 
+      vi: 'Nhóm này bao gồm không chỉ tán lá, cành,... mà còn cả bó, vòng, lẵng hoa và sản phẩm tương tự có gắn tán lá hoặc các phần khác của cây, cây bụi, bụi cây hoặc các cây con khác hoặc có gắn cỏ, rêu hoặc địa y. Với điều kiện là những bó hoa,... như vậy vẫn giữ được đặc tính cơ bản của những sản phẩm của người làm hoa thì chúng vẫn ở trong nhóm này ngay cả khi chúng có chứa các đồ phụ trợ làm bằng chất liệu khác (ruy băng, khung thép,...).', 
+      en: 'This heading covers foliage, branches and other parts of plants (other than flowers and flower buds of heading 06.03), and grasses, mosses and lichens, provided they are suitable for bouquets or for ornamental purposes. These goods may be in the form of bouquets, wreaths, floral baskets and similar articles. Provided that such bouquets, etc., have the essential character of florists\' wares, they remain in the heading even if they contain accessories of other materials (ribbons, wire frames, etc.).' 
+    },
+    { type: 'paragraph', vi: 'Những sản phẩm thuộc nhóm này có thể mang các loại quả trang trí, nhưng nếu chúng gắn hoa hoặc nụ hoa thì chúng bị loại trừ (nhóm 06.03).', en: 'Goods of this heading may bear decorative fruits, but if they incorporate flowers or flower buds they are excluded (heading 06.03).' },
+    { type: 'paragraph', vi: 'Nhóm này bao gồm cây noel tự nhiên, miễn là chúng rõ ràng không thích hợp để trồng lại (ví dụ, rễ bị cưa, rễ bị làm chín trong nước sôi).', en: 'The heading covers natural Christmas trees, provided that they are clearly unfit for replanting (e.g., root sawn off, root killed by immersion in boiling water).' },
+    { type: 'paragraph', vi: 'Nhóm này cũng loại trừ những cây con và các bộ phận của chúng (bao gồm cả cỏ, rêu và địa y) chủ yếu dùng làm nước hoa, trong bào chế dược phẩm, hoặc làm thuốc trừ sâu, thuốc trừ nấm hoặc các mục đích tương tự (nhóm 12.11) hoặc để tết bện (nhóm 14.01), miễn là chúng ở dạng không thích hợp để làm bó hoa hoặc để trang trí. Nhóm này cũng loại trừ những tác phẩm ghép và phù điêu trang trí tương tự của nhóm 97.01.', en: 'The heading also excludes plants and parts of plants (including grasses, mosses and lichens) of a kind used primarily in perfumery, in pharmacy or for insecticidal, fungicidal or similar purposes (heading 12.11) or for plaiting (heading 14.01), provided that, in the condition in which they are presented, they are not suitable for bouquets or for ornamental purposes. It also excludes collages and similar decorative plaques of heading 97.01.' }
+  ]
+},
 
   // ------------------------------------------------------------
   // CHAPTER 7
@@ -1942,7 +1942,7 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
       { type: 'heading', vi: '07.06 - Cà rốt, củ cải, củ dền làm sa- lát, diếp củ (salsify), cần củ (celeriac), củ cải ri (radish) và các loại củ rễ ăn được tương tự, tươi hoặc ướp lạnh.', en: '07.06 - Carrots, turnips, salad beetroot, salsify, celeriac, radishes and similar edible roots, fresh or chilled.' },
       { type: 'list', vi: '0706.10 - Cà rốt và củ cải', en: '0706.10 - Carrots and turnips' },
       { type: 'list', vi: '0706.90 - Loại khác', en: '0706.90 - Other' },
-      { type: 'paragraph', vi: 'Những loại rễ củ tươi hoặc ướp lạnh thuộc nhóm này bao gồm: Cà rốt, củ cải, củ dền làm sa- lát, diếp củ, cần củ (cần có rễ giống củ cải hoặc cần tây Đức), củ cải ri (radish), diếp củ đen (scorzonera), củ cải ngựa, rễ củ a-ti-sô Trung Quốc (Stachys afffinis), củ ngưu bàng (Arcticum lappa) và củ cải vàng (Pastinaca sativa). Những sản phẩm này vẫn ở trong nhóm này cho dù đã hoặc chưa cắt bỏ lá.', en: 'The fresh or chilled roots of this heading include carrots, turnips, salad beetroot (salad beets), salsify, celeriac (turnip-rooted or German celery), radishes, scorzonera, horseradish, Chinese artichokes ( Stachys afffinis ), burdock (Arctium lappa) and parsnips (Pastinaca saliva). These products remain in this heading whether or not their tops have been removed.' },
+      { type: 'paragraph', vi: 'Những loại rễ củ tươi hoặc ướp lạnh thuộc nhóm này bao gồm: Cà rốt, củ cải, củ dền làm sa- lát, diếp củ, cần củ (cần có rễ giống củ cải hoặc cần tây Đức), củ cải ri (radish), diếp củ đen (scorzonera), củ cải ngựa, rễ củ a-ti-sô Trung Quốc (Stachys affinis), củ ngưu bàng (Arctium lappa) và củ cải vàng (Pastinaca sativa). Những sản phẩm này vẫn ở trong nhóm này cho dù đã hoặc chưa cắt bỏ lá.', en: 'The fresh or chilled roots of this heading include carrots, turnips, salad beetroot (salad beets), salsify, celeriac (turnip-rooted or German celery), radishes, scorzonera, horseradish, Chinese artichokes ( Stachys afffinis ), burdock (Arctium lappa) and parsnips (Pastinaca saliva). These products remain in this heading whether or not their tops have been removed.' },
       { type: 'paragraph', vi: 'Nhóm này không bao gồm :', en: 'The heading excludes :' },
       { type: 'list', vi: '(a) Cần tây thuộc nhóm 07.09.', en: '(a) Celery of heading 07.09 .' },
       { type: 'list', vi: '(b) Rễ cây ngưu bàng bảo quản tạm thời (nhóm 07.11).', en: '(b) Provisionally preserved roots of burdock ( heading 07.11 ).' },
@@ -1957,7 +1957,7 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
       { type: 'list', vi: '0708.90 - Các loại rau đậu khác', en: '0708.90 - Other leguminous vegetables' },
       { type: 'paragraph', vi: 'Các loại rau đậu thuộc nhóm này bao gồm:', en: 'The leguminous vegetables of this heading include :' },
       { type: 'list', vi: '(1) Đậu Hà Lan (Pisum sativum), gồm cả đậu Hà Lan hạt xanh hoặc đậu làm thức ăn cho gia súc.', en: '(1) Peas ( Pisum sativum ), including green peas and fodder peas.' },
-      { type: 'list', vi: '(2) Đậu hạt (Vigna spp., Phaasseolus spp) gồm cả đậu Lima hoặc đậu bơ, đậu xanh, đậu ăn được cả vỏ (rất đa dạng như là đậu lửa, đậu Pháp, đậu tây, đậu dây, đậu sáp hoặc đậu ngủ) và đậu bò (kể cả loại có chấm đen).', en: '(2) Beans ( Phaseolus spp.. Vigna spp. ), which include Lima or butter beans, mung beans, beans in edible pods (variously known as kidney beans, French beans, runner beans, string beans, wax beans or snap beans) and cowpeas (including black eye).' },
+      { type: 'list', vi: '(2) Đậu hạt (Vigna spp., Phasseolus spp) gồm cả đậu Lima hoặc đậu bơ, đậu xanh, đậu ăn được cả vỏ (rất đa dạng như là đậu lửa, đậu Pháp, đậu tây, đậu dây, đậu sáp hoặc đậu ngủ) và đậu bò (kể cả loại có chấm đen).', en: '(2) Beans ( Phaseolus spp.. Vigna spp. ), which include Lima or butter beans, mung beans, beans in edible pods (variously known as kidney beans, French beans, runner beans, string beans, wax beans or snap beans) and cowpeas (including black eye).' },
       { type: 'list', vi: '(3) Đậu tằm (Vicia faba var. major), đậu ngựa (Vicia faba var. equina hoặc var.minor) và đậu dạ hương (Dolichos lablab L.).', en: '(3) Broad beans ( Vicia faba var. major ), horse beans ( Vicia faba var. equina hoặc var.minor ) and hyacinth beans ( Dolichos lablab L. ).' },
       { type: 'list', vi: '(4) Đậu Hà Lan loại nhỏ (garbanzos).', en: '(4) Chickpeas (garbanzos).' },
       { type: 'list', vi: '(5) Đậu lăng.', en: '(5) Lentils.' },
@@ -2076,7 +2076,7 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
       { type: 'list', vi: '0714.10 - Sắn', en: '0714.10 - Manioc (cassava)' },
       { type: 'list', vi: '0714.20 - Khoai lang', en: '0714.20 - Sweet potatoes' },
       { type: 'list', vi: '0714.30 - Củ từ, khoai mỡ, khoai tím (Dioscorea spp.)', en: '0714.30 - Yams ( Dioscorea spp. )' },
-      { type: 'list', vi: '0714.40 - Khoai sọ, khoai môn (Colacasia spp.)', en: '0714.40 - Taro ( Colacasia spp. )' },
+      { type: 'list', vi: '0714.40 - Khoai sọ, khoai môn (Colocasia spp.)', en: '0714.40 - Taro ( Colocasia spp. )' },
       { type: 'list', vi: '0714.50 - Khoai sáp, khoai mùng ( Xanthosoma spp. )', en: '0714.50 - Yautia ( Xanthosoma spp. )' },
       { type: 'list', vi: '0714.90 - Loại khác', en: '0714.90 - Other' },
       { type: 'paragraph', vi: 'Nhóm này bao gồm các loại củ và rễ có hàm lượng tinh bột hoặc hàm lượng inulin cao và vì vậy được sử dụng để chế biến thành thực phẩm hoặc các sản phẩm công nghiệp; nó cũng bao gồm lõi cây cọ sago. Trong một vài trường hợp, các loại củ và rễ này cũng được sử dụng trực tiếp cho người và động vật.', en: 'This heading covers tubers and roots with high starch or inulin content and which are therefore used for manufacturing food or industrial products; it also covers sago pith. In some cases, the tubers and roots are also used directly for human or animal consumption.' },
@@ -2783,7 +2783,7 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
       { type: 'paragraph', vi: 'Nhóm này bao gồm:', en: 'This heading covers:' },
       { type: 'list', vi: '(1) Ngũ cốc xay hoặc vỡ mảnh (thí dụ, lúa đại mạch hoặc yến mạch), thu được từ quá trình nghiền hoặc cán hạt ngũ cốc nguyên dạng (đã hoặc chưa xay bỏ vỏ) hoặc các loại hạt ngũ cốc đã qua nghiền thô hoặc các sản phẩm được nêu trong Mục (2) và (3) dưới đây và nêu trong Mục (2) đến (5) của Chú giải nhóm 10.06.', en: '(1) Rolled or flaked grain (e.g., barley or oats), obtained by crushing or rolling the whole grain (whether or not dehulled) or kibbled grain or the products described in Items (2) and (3) below and in Items (2) to (5) of the Explanatory Note to heading 10.06.' },
       { type: 'paragraph', vi: 'Trong quá trình chế biến này, hạt ngũ cốc thông thường được hấp hoặc được nghiền trong các máy cán nóng.', en: 'In this process, the grain is usually steam-heated or rolled between heated rollers.' },
-      { type: 'paragraph', vi: 'Các loại thực phẩm ăn sáng chế biến từ “Mảnh ngô” (conrn flakes) đã được nấu chín sẵn sàng cho sử dụng và vì vậy, cũng như các sản phẩm ngũ cốc được nấu chín tương tự, thuộc nhóm 19.04 .', en: 'Breakfast foods of the “corn flakes” type are cooked preparations ready for consumption and therefore fall, like similar cooked cereals, in heading 19.04 .' },
+      { type: 'paragraph', vi: 'Các loại thực phẩm ăn sáng chế biến từ “Mảnh ngô” (corn flakes) đã được nấu chín sẵn sàng cho sử dụng và vì vậy, cũng như các sản phẩm ngũ cốc được nấu chín tương tự, thuộc nhóm 19.04 .', en: 'Breakfast foods of the “corn flakes” type are cooked preparations ready for consumption and therefore fall, like similar cooked cereals, in heading 19.04 .' },
       { type: 'list', vi: '(2) Yến mạch, kiều mạch và kê đã được xay bỏ vỏ ngoài nhưng còn vỏ lụa.', en: '(2) Oats, buckwheat and millet from which the husk but not the pericarp has been removed.' },
       { type: 'paragraph', vi: 'Tuy nhiên, nhóm này không bao gồm loại hạt yến mạch trong tình trạng tự nhiên không có vỏ trấu, miễn là chúng chưa qua bất kỳ quá trình chế biến nào trừ đập hoặc sàng sẩy ( nhóm 10.04 ).', en: 'However, the heading does not cover oats which in their natural state have no husk or hull, provided they have not undergone any process other than threshing or winnowing ( heading 10.04 ).' },
       { type: 'list', vi: '(3) Các hạt đã được xay xát hoặc chế biến cách khác để loại bỏ một phần hoặc toàn bộ vỏ ngoài và phần vỏ lụa (lớp vỏ mỏng nằm dưới vỏ).', en: '(3) Grain which has been hulled or otherwise worked to remove wholly or partly the pericarp (the skin beneath the husk).' },
@@ -2855,7 +2855,7 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
       { type: 'paragraph', vi: 'Tinh bột , về tính chất hóa học là các carbohydrate, có trong các tế bào của các sản phẩm rau. Nguồn quan trọng chủ yếu của tinh bột là các loại hạt ngũ cốc (ví dụ như ngô, lúa mỳ và gạo), một số loại địa y nhất định, một số loại thân rễ củ và rễ củ (khoai tây, sắn, dong...) và lõi cọ sago.', en: 'Starches , which chemically are carbohydrates, are contained in the cells of many vegetable products. The most important sources of starch are the cereal grains (e.g., maize (corn), wheat and rice), certain lichens, certain tubers and roots (potato, manioc, arrowroot, etc.) and the pith of the sago palm.' },
       { type: 'paragraph', vi: 'Tinh bột là bột trắng không mùi gồm các hạt nguyên chất dễ vỡ vụn khi lấy ngón tay bóp. Cùng với iốt tinh bột thường có màu xanh da trời sẫm ( trừ các loại tinh bột amylopectin, có màu nâu đỏ). Quan sát dưới kính hiển vi dưới ánh sáng phân cực, các hạt li ti hiện ra dưới dạng dấu thập đen rất đặc trưng. Không tan trong nước lạnh, nhưng, nếu nước nóng trên nhiệt độ hồ hoá (60°C với hầu hết các loại tinh bột), tinh bột bị phá vỡ và trở thành bột nhão.', en: 'Starches are white odourless powders composed of fine grains which crackle when rubbed between the lingers. They generally give an intense dark blue colour with iodine ( except amylopectin starches, where the colour is reddish brown). Viewed under the microscope in polarised light the grains display characteristic dark polarisation crosses. They are insoluble in cold water, but, if heated in water to above their gelatinisation temperature (about 60 °C for most starches), the grains break up and a starch paste is formed.' },
       { type: 'paragraph', vi: 'Tinh bột thương phẩm gồm nhiều loại được phân loại ở các nhóm khác, như tinh bột biến tính, tinh bột sấy hoà tan, dextrin, malto-dextrin, dextrose và glucoza. Tinh bột cũng được sử dụng rộng rãi trong công nghiệp, đặc biệt là công nghiệp thực phẩm, giấy, chuyển đổi giấy và dệt.', en: 'Starches are commercially processed to give a wide range of products classified under other headings, e.g., modified starch, roasted soluble starch, dextrin, malto-dextrin, dextrose, glucose. They are also used as such in a wide variety of industries, especially the food, paper, paper converting and textile industries.' },
-      { type: 'paragraph', vi: 'Nhóm này cũng bao gồm cả inulin ; nó có thành phần hoá học tương tự với tinh bột tuy nhiên khi cho vào iốt không đổi màu thành xanhmà có màu nâu vàng nhạt. Inulin được chiết xuất từ a-ti-sô Jerusalem, củ thược dược và rễ rau diếp xoăn. Khi thuỷ phân lâu trong nước sôi sẽ tạo thành fructose (laevulose).', en: 'The heading also includes inulin ; this is chemically similar to starch but gives a light yellowish-brown coloration with iodine instead of blue. It is extracted from Jerusalem artichokes, dahlia roots and chicory roots. When hydroliscd by long boiling in water it forms fructose (laevulose).' },
+      { type: 'paragraph', vi: 'Nhóm này cũng bao gồm cả inulin ; nó có thành phần hoá học tương tự với tinh bột tuy nhiên khi cho vào iốt không đổi màu thành xanh mà có màu nâu vàng nhạt. Inulin được chiết xuất từ a-ti-sô Jerusalem, củ thược dược và rễ rau diếp xoăn. Khi thuỷ phân lâu trong nước sôi sẽ tạo thành fructose (laevulose).', en: 'The heading also includes inulin ; this is chemically similar to starch but gives a light yellowish-brown coloration with iodine instead of blue. It is extracted from Jerusalem artichokes, dahlia roots and chicory roots. When hydroliscd by long boiling in water it forms fructose (laevulose).' },
       { type: 'paragraph', vi: 'Ngoài các loại khác , nhóm này không bao gồm :', en: 'This heading excludes , inter alia :' },
       { type: 'list', vi: '(a) Chế phẩm tinh bột thuộc nhóm 19.01 .', en: '(a) Starch preparations of heading 19.01 .' },
       { type: 'list', vi: '(b) Tinh bột sắn và các sản phẩm thay thế chế biến từ tinh bột (xem Chú giải nhóm 19.03 ).', en: '(b) Tapioca and substitutes therefore prepared from starches (sec the Explanatory Note to heading 19.03 ).' },
@@ -3409,7 +3409,7 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
       { type: 'paragraph', vi: '(i) Xirô đã pha hương liệu có chứa các chiết xuất từ thực vật ( nhóm 21.06 ).', en: '(i) Flavoured syrups containing vegetable extracts ( heading 21.06 ).' },
       { type: 'paragraph', vi: '(ii) Chế phẩm dùng trong sản xuất đồ uống. Các chế phẩm này được thu từ việc trộn các chiết xuất thực vật thuộc nhóm này với axit lactic, axit tartaric, axit citric, axit phosphoric, chất bảo quản, chất tạo bọt, nước hoa quả...và đôi khi với tinh dầu. Chế phẩm trên thường được phân loại vào nhóm 21.06 hoặc 33.02 .', en: '(ii) Preparations used for making beverages . These preparations are obtained by compounding vegetable extracts of this heading with lactic acid, tartaric acid, citric acid, phosphoric acid, preserving agents, foaming agents, fruit juices, etc., and sometimes with essential oils. The preparations thus obtained are generally classified in heading 21.06 or 33.02 .' },
       { type: 'paragraph', vi: '(iii) Chế phẩm dược (một số được biết đến như “cồn thuốc”) gồm các hợp chất của các chiết xuất thực vật với các sản phẩm khác (ví dụ, chế phẩm bao gồm hợp chất của các chiết xuất capsicum, cồn của nhựa thông, long não và methyl salixylate, hoặc các hợp chất của cồn thuốc phiện, dầu cây hồi, long não và axit benzoic) ( nhóm 30.03 hoặc nhóm 30.04 ).', en: '(iii) Medicinal preparations (some of which are also known as “ tinctures” consisting of mixtures of vegetable extracts with other products (e.g., preparations which consist of a mixture of extract of capsicum, spirits of turpentine, camphor and methyl salicylate, or of a mixture of tincture of opium, anise oil, camphor and benzoic acid) ( heading 30.03 or 30.04 ).' },
-      { type: 'paragraph', vi: '(iv) Các sản phẩm trung gian dùng cho quá trình sản xuất thuốc trừ sâu , bao gồm chiết xuất từ loài hoa kim cúc được pha loãng bằng cách bổ sung thêm dầu khoáng với hàm lượng kim cúc dưới 2%, hoặc với các chất khác như synergist (ví dụ, Piper onyl butoxide.) được thêm vào ( nhóm 38.08 ).', en: '(iv) Intermediate products for the manufacture of insecticides , consisting of pyrethrum extracts diluted by addition of mineral oil in such quantities that the pyrethrins content is less than 2 %, or with other substances such as synergists (e.g., pipcronyl butoxide) added ( heading 38.08 ).' },
+      { type: 'paragraph', vi: '(iv) Các sản phẩm trung gian dùng cho quá trình sản xuất thuốc trừ sâu , bao gồm chiết xuất từ loài hoa kim cúc được pha loãng bằng cách bổ sung thêm dầu khoáng với hàm lượng kim cúc dưới 2%, hoặc với các chất khác như synergist (ví dụ, Piperonyl butoxide.) được thêm vào ( nhóm 38.08 ).', en: '(iv) Intermediate products for the manufacture of insecticides , consisting of pyrethrum extracts diluted by addition of mineral oil in such quantities that the pyrethrins content is less than 2 %, or with other substances such as synergists (e.g., pipcronyl butoxide) added ( heading 38.08 ).' },
       { type: 'paragraph', vi: 'Nhóm này cũng không bao gồm các chiết xuất từ thực vật đã được trộn hoặc pha (mà không thêm các chất khác) cho mục đích phòng hoặc chữa bệnh. Những hợp chất này, và các chiết xuất hợp chất thuốc tương tự thu được từ quá trình xử lý hợp chất của các loại cây, được phân loại vào nhóm 30.03 hay 30.04 . Nhóm sau (30.04) cũng bao gồm cả các chiết xuất thực vật bằng phương pháp đơn giản (dù được hay chưa được chuẩn hóa hoặc được hòa tan trong dung môi bất kỳ) khi được đóng gói thành liều lượng để dùng cho việc phòng và chữa bệnh hoặc thành các dạng hoặc đóng gói để bán lẻ cho cùng mục đích nêu trên.', en: 'The heading also excludes vegetable extracts which have been mixed or compounded (without the addition of other substances) for therapeutic or prophylactic purposes. Such mixtures, and similar medicinal compound extracts made by treating a mixture of plants, are classified in heading 30.03 or 30.04 . That latter heading also covers simple vegetable extracts (whether or not standardised or dissolved in any solvent) when put up in measured doses for therapeutic or prophylactic purposes or in forms or packings for retail sale for such purposes.' },
       { type: 'paragraph', vi: 'Nhóm này không bao gồm tinh dầu, chất tựa nhựa và nhựa dầu đã chiết ( nhóm 33.01 ). Tinh dầu (có thể cũng thu được từ việc chiết xuất dung môi) khác với các chiết xuất được phân loại trong nhóm này bởi vì chúng chủ yếu bao gồm các thành phần chất thơm dễ bay hơi. Chất tựa nhựa khác với chiết xuất trong nhóm này vì chúng thu được bằng cách chiết xuất các nguyên liệu nhựa cây từ thực vật không có tế bào tự nhiên hoặc nguyên liệu giống nhựa cây từ động vật thông qua dung môi hữu cơ hoặc chất lưu siêu hạn (ví dụ, khí cacbonic dưới áp suất). Nhựa dầu đã chiết khác với các chiết xuất thuộc nhóm này vì chúng (1) thu được từ các chất thực vật thô có tế bào tự nhiên (hầu hết là cây gia vị hoặc cây có chất thơm), hoặc bằng cách chiết xuất dung môi hữu cơ hoặc bằng cách chiết xuất chất lưu tới hạn, và (2) bao gồm các thành phần thơm dễ bay hơi cùng với các hương liệu không bay hơi, quyết định mùi hoặc vị đặc trưng của cây gia vị hoặc cây có mùi thơm.', en: 'The heading excludes essential oils, resinoids and extracted oleoresins ( heading 33.01 ). Essential oils (which may also be obtained by solvent extraction) differ from the extracts classified under this heading in that they are essentially composed of volatile odoriferous substances. Resinoids differ from the extracts of this heading in that they are obtained by the organic solvent or super-critical fluid (e.g., carbon dioxide gas under pressure) extraction of dried natural non-cellular vegetable or animal resinous materials. Extracted oleoresins differ from the extracts provided for in this heading in that they (1) are obtained from natural cellular raw plant materials (almost always spices or aromatic plants), either by organic solvent extraction or by super-critical fluid extraction, and (2) contain volatile odoriferous principles together with non-volatile flavouring principles, which define the characteristic odour or flavour of the spice or aromatic plant.' },
       { type: 'paragraph', vi: 'Nhóm này cũng không bao gồm các sản phẩm thực vật sau đây, mà được phân loại vào các nhóm chi tiết hơn tại Danh mục:', en: 'The heading further excludes the following vegetable products, classified under more specific headings of the Nomenclature :' },
@@ -3559,7 +3559,7 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
       { type: 'list', vi: '(4) Xơ mướp (loofah), còn gọi là bọt biển thực vật, do màng sợi của một loại họ bầu bí lai ( Luffa cylindrica ) tạo thành.', en: '(4) Loofah , also known as vegetable sponge, composed of the cellular tissue of a variety of gourd ( Luffa cylindrica ).' },
       { type: 'paragraph', vi: 'Loại trừ bọt biển có gốc động vật ( nhóm 05.11 ).', en: 'Sponges of animal origin are excluded ( heading 05.11 ).' },
       { type: 'list', vi: '(5) Bột quả dừa ngà , bột quả cọ đum, bột vỏ trái dừa hoặc tương tự.', en: '(5) Flours of corozo, of doum palm “nuts”, of coconut shell or the like.' },
-      { type: 'list', vi: '(6) Cây địa y (trừ loại sử dụng để nhuộm (xem Mục (A)(7)), làm dược liệu hoặc trang trí). Thạch rau câu, carrageenan và chất làm đặc, làm dày tự nhiên khác được chiết xuất từ nguyên liệu thực vật bị loại trừ ( nhóm 13.02 ). Tảo biển và tảo khác thuộc nhóm 12.12 và tảo đơn bào đã chết ( nhóm 21.02 ) cũng bị loại trừ .', en: '(6) Lichens (but not those used for dyeing (see Item (A) (7)), medicinal or ornamental purposes). Agar-agar, carrageenan and other natural mucilages and thickeners extracted from vegetable materials are excluded ( heading 13.02 ). Seaweeds and other algae of heading 12.12 and dead unicellular algae ( heading 21.02 ) are also excluded.' },
+      { type: 'list', vi: '(6) Cây địa y (trừ loại sử dụng để nhuộm (xem Mục (B)(7)), làm dược liệu hoặc trang trí). Thạch rau câu, carrageenan và chất làm đặc, làm dày tự nhiên khác được chiết xuất từ nguyên liệu thực vật bị loại trừ ( nhóm 13.02 ). Tảo biển và tảo khác thuộc nhóm 12.12 và tảo đơn bào đã chết ( nhóm 21.02 ) cũng bị loại trừ .', en: '(6) Lichens (but not those used for dyeing (see Item (A) (7)), medicinal or ornamental purposes). Agar-agar, carrageenan and other natural mucilages and thickeners extracted from vegetable materials are excluded ( heading 13.02 ). Seaweeds and other algae of heading 12.12 and dead unicellular algae ( heading 21.02 ) are also excluded.' },
       { type: 'list', vi: '(7) Ngọn lắc gai , kể cả loại đã chế biến dùng trong hồ vải, nhưng chưa đóng khuôn.', en: '(7) Teazle-heads , including those prepared for use in textile finishing, but unmounted.' },
       { type: 'list', vi: '(8) Giấy làm từ rơm rạ (rice paper) Nhật bản được chế biến từ việc cắt lát các lõi của một số cây bản địa sống ở vùng Viễn Đông. Các sản phẩm này dùng làm hoa giả, màu nước...', en: '(8) Japanese rice paper (so-called) made by slicing the pith of certain trees indigenous to the Far East. It is used for making artificial flowers, for paintings, etc.' },
       { type: 'paragraph', vi: 'Các lá giấy gạo này vẫn được phân loại vào nhóm này ngay cả khi được cán phẳng trên bề mặt và được cắt thành hình chữ nhật (kể cả hình vuông).', en: 'Sheets of this rice paper remain classified in this heading whether or not they have been calendered to level their surface or have been cut to rectangular (including square) shape.' },
@@ -3570,10 +3570,7 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     ]
   },
 
-  // ------------------------------------------------------------
-  // CHAPTER 15
-  // ------------------------------------------------------------
-  {
+    {
     chapterNumber: 15,
     titleVi: 'CHƯƠNG 15: CHẤT BÉO VÀ DẦU CÓ NGUỒN GỐC TỪ ĐỘNG VẬT, THỰC VẬT HOẶC VI SINH VẬT VÀ CÁC SẢN PHẨM TÁCH TỪ CHÚNG; CHẤT BÉO ĂN ĐƯỢC ĐÃ CHẾ BIẾN; CÁC LOẠI SÁP ĐỘNG VẬT HOẶC THỰC VẬT',
     titleEn: 'CHAPTER 15: ANIMAL, VEGETABLE OR MICROBIAL FATS AND OILS AND THEIR CLEAVAGE PRODUCTS; PREPARED EDIBLE FATS; ANIMAL OR VEGETABLE WAXES',
@@ -3621,6 +3618,11 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
         type: 'paragraph', 
         vi: 'Trừ dầu cá nhà táng và dầu jojoba, chất béo và dầu thực vật hoặc động vật là este của glycerin với axit béo (như axit palmitic, stearic và oleic).', 
         en: 'With the exception of sperm oil and jojoba oil, animal, vegetable or microbial fats and oils are esters of glycerol with fatty acids (such as palmitic, stearic and oleic acids).' 
+      },
+      {
+        type: 'paragraph',
+        vi: 'Chúng có thể ở thể rắn hoặc lỏng, nhưng tất cả đều nhẹ hơn nước. Để khá lâu ngoài không khí chúng bị ôi do hiện tượng thuỷ phân và oxy hoá. Khi bị nóng chúng phân huỷ, bốc mùi hắc, khó chịu. Chúng không tan hoàn toàn trong nước, nhưng tan hoàn toàn trong diethyl ether, carbon disulphide, carbon tetrachloride, benzene v.v... Dầu của cây thầu dầu tan trong cồn, nhưng những loại dầu và chất béo khác từ động vật hoặc thực vật chỉ tan rất ít trong cồn.',
+        en: 'They may be solid or fluid, but are all lighter than water. On fairly long exposure to air they become rancid owing to hydrolysis and oxidation. When heated they decompose, giving off an acrid, irritating odour. They are all insoluble in water, but soluble in diethyl ether, carbon disulphide, carbon tetrachloride, benzene, etc. Castor oil is soluble in alcohol, but other animal or vegetable fats and oils are only very slightly soluble in alcohol.'
       },
       { 
         type: 'paragraph', 
@@ -3675,6 +3677,11 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
       { type: 'list', vi: '1502.10 - Mỡ (tallow)', en: '1502.10 - Tallow' },
       { type: 'list', vi: '1502.90 - Loại khác', en: '1502.90 - Other' },
       { type: 'paragraph', vi: 'Nhóm này bao gồm mỡ ở các bộ phận nội tạng và cơ của động vật họ trâu bò, cừu hoặc dê và chủ yếu từ động vật họ trâu bò. Mỡ này có thể chưa tinh chế (tươi, ướp lạnh hoặc đông lạnh), ướp muối, ngâm nước muối, làm khô, hun khói hoặc ở dạng mỡ nấu chảy (tallow). Quá trình nấu chảy được sử dụng cũng như quá trình nấu chảy được nêu tại nhóm 15.01. Nhóm này cũng bao gồm mỡ được ép hoặc đã chiết xuất bằng dung môi.', en: 'This heading covers the fat surrounding the viscera and muscles of bovine animals, sheep or goats, that from bovine animals being the most important. This fat may be raw (fresh, chilled or frozen), salted, in brine, dried, smoked or in the form of rendered fat (tallow). The rendering processes used are the same as those for obtaining the fats of heading 15.01. The heading also covers fats obtained by pressing or solvent- extraction.' },
+      {
+        type: 'paragraph',
+        vi: '“Premier jus ” (oleo stock) là mỡ có chất lượng cao nhất, thu được bằng cách nấu chảy ở nhiệt độ thấp (ví dụ: 50oC đến 55oC). Nó là sản phẩm rắn màu trắng, nhờn hoặc hơi vàng, có mùi mỡ tallow, gần như không vị, cấu tạo tinh thể, khi để lâu bị hỏng và tạo hạt.',
+        en: '“ Premier jus ” (oleo stock) is the highest grade fat, obtained by rendering at a low temperature (e.g., 50 °C to 55 °C). It is a white, greasy or yellowish solid, with a tallow odour and practically tasteless; it is of crystalline structure, but becomes granular on rolling.'
+      },
       { type: 'paragraph', vi: 'Nhóm này không bao gồm :', en: 'The heading excludes :' },
       { type: 'list', vi: '(a) Oleostearin, dầu oleo và dầu mỡ (dầu tallow) ( nhóm 15.03 ).', en: '(a) Oleostearin, oleo-oil and tallow oil ( heading 15.03 ).' },
       { type: 'list', vi: '(b) Mỡ của các loại ngựa ( nhóm 15.06 ).', en: '(b) Fat obtained from horses ( heading 15.06 ).' },
@@ -3683,7 +3690,11 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
       { type: 'list', vi: '(e) Một số chất béo thực vật, gọi là "tallow thực vật", ví dụ, tallow thực vật Trung Quốc (chất béo thực vật chiết từ hạt stillingia) và "tallow Borneo" (chất béo thực vật chiết từ nhiều cây ở Indonesia) ( nhóm 15.15 ).', en: '(c) Certain vegetable fats known as “vegetable tallows”, e.g., “Chinese vegetable tallow” (stillingia fat) and “Borneo tallow” ( heading 15.15 ).' },
 
       { type: 'heading', vi: '15.03 - Stearin mỡ lợn, dầu mỡ lợn, oleostearin, dầu oleo và dầu tallow, chưa nhũ hoá hoặc chưa pha trộn hoặc chưa chế biến cách khác.', en: '15.03 - Lard stearin, lard oil, oleostearin, oleo-oil and tallow oil, not emulsified or mixed or otherwise prepared.' },
-      { type: 'paragraph', vi: 'Stearin từ mỡ lá và mỡ khổ của lợn là phần mỡ cứng màu trắng còn lại sau khi ép mỡ lá và mỡ khổ của lợn hoặc ép mỡ lợn đã nấu chảy khác. Nhóm này bao gồm cả dạng ăn được và không ăn được.', en: 'Lard stearin is the solid white fat left after lard or other rendered pig fat has been pressed. The heading covers both the edible and inedible forms.' },
+      { 
+        type: 'paragraph', 
+        vi: 'Stearin từ mỡ lá và mỡ khổ của lợn là phần mỡ cứng màu trắng còn lại sau khi ép mỡ lá và mỡ khổ của lợn hoặc ép mỡ lợn đã nấu chảy khác. Nhóm này bao gồm cả dạng ăn được và không ăn được. Trong các quá trình chế biến này, mỡ lá và mỡ khổ hoặc mỡ tallow được giữ trong thùng ủ nóng trong 3 tới 4 ngày làm cho các cấu trúc tinh thể của stearin mỡ lá và mỡ khổ hoặc của oleostearin được hình thành.', 
+        en: 'Lard stearin is the solid white fat left after lard or other rendered pig fat has been pressed. The heading covers both the edible and inedible forms. In these processes, the lard or tallow is maintained in heated tanks for three or four days, causing the stearin or oleostearin to crystallise.' 
+      },
       { type: 'paragraph', vi: 'Dầu từ mỡ lá và mỡ khổ của lợn là sản phẩm thu được bằng việc ép lạnh mỡ lá và mỡ khổ của lợn hoặc ép mỡ lợn đã nấu chảy khác.', en: 'Lard oil is a product obtained by the cold pressing of lard or other rendered pig fat.' },
       { type: 'paragraph', vi: 'Dầu oleo (ăn được) là mỡ trắng hoặc hơi vàng, rắn, có mùi nhẹ của mỡ tallow và có vị dễ chịu, có cấu trúc tinh thể nhưng có thể có dạng hạt sau khi cán hoặc làm láng.', en: 'Oleo-oil (edible) is a white or yellowish solid fat of soft consistency with a faint smell of tallow and an agreeable flavour. It is crystalline but may become granular on rolling or smoothing.' },
       { type: 'paragraph', vi: 'Dầu tallow (dầu oleo không ăn được) là chất lỏng hơi vàng, có mùi của mỡ tallow, và rất dễ bị ôi khi để ngoài không khí.', en: 'Tallow oil (inedible oleo-oil) is a yellowish liquid, smells of tallow, and turns rancid very easily when exposed to air.' },
@@ -3722,6 +3733,11 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
       { type: 'list', vi: '1507.10 - Dầu thô, đã hoặc chưa khử chất nhựa', en: '1507.10 - Crude oil, whether or not degummed' },
       { type: 'list', vi: '1507.90 - Loại khác', en: '1507.90 - Other' },
       { type: 'paragraph', vi: 'Dầu đậu tương thu được bằng cách chiết xuất từ hạt đậu tương ( Glycine max ), bằng cách ép thuỷ lực hoặc bằng ép dầu bật ra (expeller presses), hoặc bằng dung môi.', en: 'Soya-bean oil is obtained by extraction from the seeds of the soya bean ( Glycine max ), using hydraulic or expeller presses, or solvents.' },
+      {
+        type: 'paragraph',
+        vi: 'Tuy nhiên, lecithin của dầu đậu tương (thường thu được trong quá trình tinh chế, và được dùng làm chất nhũ hoá, chống oxy hoá...) được phân loại trong nhóm 29.23.',
+        en: 'Soy-bean lecithin (generally obtained during the refining process, and used as an emulsifying agent, antioxidant, etc.) is, however, classified in heading 29.23.'
+      },
       { type: 'heading', vi: 'Chú giải phân nhóm.', en: 'Subheading Explanatory Note.' },
       { type: 'paragraph', vi: 'Phân nhóm 1507.10', en: 'Subheading 1507.10' },
       { 
@@ -3767,7 +3783,12 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
       { type: 'heading', vi: '15.11 - Dầu cọ và các phần phân đoạn của dầu cọ, đã hoặc chưa tinh chế, nhưng không thay đổi về mặt hóa học (+).', en: '15.11 - Palm oil and its fractions, whether or not refined, but not chemically modified (+)' },
       { type: 'list', vi: '1511.10 - Dầu thô', en: '1511.10 - Crude oil' },
       { type: 'list', vi: '1511.90 - Loại khác', en: '1511.90 - Other' },
-      { type: 'paragraph', vi: 'Dầu cọ là một loại chất béo thực vật thu được từ cơm của quả cọ dầu. Nguồn gốc chủ yếu từ cây cọ dầu châu Phi ( Elacis guineensis ) mọc tự nhiên ở vùng Châu Phi nhiệt đới.', en: 'Palm oil is a vegetable fat obtained from the pulp of the fruits of oil palms. The main source is the African oil palm ( Elaeis guineensis ) which is native to tropical Africa.' },
+      { type: 'paragraph', vi: 'Dầu cọ là một loại chất béo thực vật thu được từ cơm của quả cọ dầu. Nguồn gốc chủ yếu từ cây cọ dầu châu Phi ( Elaeis guineensis ) mọc tự nhiên ở vùng Châu Phi nhiệt đới.', en: 'Palm oil is a vegetable fat obtained from the pulp of the fruits of oil palms. The main source is the African oil palm ( Elaeis guineensis ) which is native to tropical Africa.' },
+      {
+        type: 'paragraph',
+        vi: 'Trong những cây cọ dầu khác, cũng có thể kể tới loại Elacis melanococa (thường gọi là noli palm) và những loại cọ khác thuộc loài Acrocimia, như A.lasiospatha và A.sclerocarpa (thường gọi là moca-ya palm, dừa dùi cui...) ở Nam Mỹ; và dừa dầu (thuộc loài Astrocaryum), như cây cọ A.vulgare và cây cọ A.tucuma, cũng ở Nam Mỹ.',
+        en: 'Other oil palms include the Elaeis melanococca (sometimes called noli palm) and various species of Acrocomia, such as A. lasiospatha and A. sclerocarpa (sometimes called macaw-fat tree, gru-gru palm, etc.) of South America; and the Astrocaryum vulgare and A. tucuma, also of South America.'
+      },
       { type: 'paragraph', vi: 'Nhóm này không bao gồm dầu hạt cọ, dầu ba-ba-su ( nhóm 15.13 ).', en: 'This heading does not cover palm kernel oil or babassu oil ( heading 15.13 ).' },
 
       { type: 'heading', vi: '15.12 - Dầu hạt hướng dương, dầu cây rum hoặc dầu hạt bông và các phần phân đoạn của chúng, đã hoặc chưa tinh chế, nhưng không thay đổi về mặt hóa học (+).', en: '15.12 - Sunflower-seed, safflower or cotton-seed oil and fractions thereof, whether or not refined, but not chemically modified (+).' },
@@ -3806,6 +3827,26 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
       { type: 'list', vi: '1515.60 - Chất béo và dầu vi sinh vật và các phần phân đoạn của chúng', en: '1515.60 - Microbial fats and oils and their fractions' },
       { type: 'list', vi: '1515.90 - Loại khác', en: '1515.90 - Other' },
       { type: 'paragraph', vi: '(5) Chất béo và dầu vi sinh vật, còn được gọi là dầu đơn bào (SCO), thu được bằng cách chiết xuất lipid từ các vi sinh vật có dầu như nấm (bao gồm cả nấm men), vi khuẩn và vi tảo.', en: '(5) Microbial fats and oils , also known as single cell oils (SCOs), are obtained by extracting lipids from oleaginous microorganisms such as fungi (including yeasts), bacteria and microalgae.' },
+      {
+        type: 'paragraph',
+        vi: '(6) Tallow thực vật (Tallow Borneo), thu được từ hạt của những loại cây có dầu (ví dụ, Shorea spp.). Dầu Tallow Borneo là loại chất béo rắn, có cấu trúc tinh thể ở dạng hạt, màu trắng hoặc xanh hơi vàng và có mùi gần giống bơ cacao. Dầu tallow thực vật Trung Quốc thu được từ hạt Stillingia (Stillingia sebifera) là chất béo rắn, dạng sáp, có màu trắng và mùi thơm.',
+        en: '(6) Vegetable tallows (Borneo tallow, etc.), obtained from the seeds of certain oleaginous trees (e.g., Shorea spp.). Borneo tallow is a white or yellowish-green solid fat with a crystalline, granular structure and an odour resembling that of cocoa butter. Chinese vegetable tallow, obtained from the seeds of the Stillingia sebifera, is a hard, waxy, white fat with an aromatic odour.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(7) Dầu hạt trẩu (dầu China-wood) và các loại dầu tung khác (ví dụ, từ cây Aleurites fordii hoặc Aleurites montana). Dầu hạt trẩu được chiết xuất từ hạt trẩu có màu từ vàng đến nâu sẫm, khô rất nhanh và có mùi đặc trưng.',
+        en: '(7) Tung oil (China-wood oil) and other tung oils (e.g., from Aleurites fordii or Aleurites montana). Tung oil is obtained from the seeds of the tung tree; it is yellow to dark brown in colour, dries very rapidly and has a characteristic odour.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(8) Dầu Oiticica, là loại dầu khô, được chiết xuất từ hạt cây Licania rigida.',
+        en: '(8) Oiticica oil. A drying oil obtained from the seeds of the Licania rigida.'
+      },
+      {
+        type: 'paragraph',
+        vi: '(9) Dầu và sáp cây sim (myrtle wax), được chiết xuất từ nhiều loại cây sim khác nhau (Myrica gale, Myrica cerifera, Myrica pensylvanica...). Chúng là loại sáp rắn, màu vàng xanh với mùi thơm đặc trưng; chúng có thể được thu hoạch bằng phương pháp chiết dung môi hoặc đun sôi trong nước.',
+        en: '(9) Myrtle wax, extracted from the berries of various myrtle bushes (Myrica gale, Myrica cerifera, Myrica pensylvanica, etc.). It is a hard, greenish-yellow wax with a characteristic odour; it may be obtained by solvent extraction or by boiling in water.'
+      },
 
       { type: 'heading', vi: '15.16 - Chất béo và dầu động vật, thực vật hoặc vi sinh vật và các phần phân đoạn của chúng, đã qua hydro hóa, este hóa liên hợp, tái este hóa hoặc elaiđin hóa toàn bộ hoặc một phần, đã hoặc chưa tinh chế, nhưng chưa chế biến thêm.', en: '15.16 - Animal, vegetable or microbial fat and oils and their fractions, partly or wholly hydrogenated, inter-esterified, re-esterified or elaidinised, whether or not refined, but not further prepared.' },
       { type: 'list', vi: '1516.10 - Mỡ và dầu động vật và các phần phân đoạn của chúng', en: '1516.10 - Animal fats and oils and their fractions' },
@@ -3826,7 +3867,11 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
       { type: 'paragraph', vi: 'Sáp thực vật thuộc nhóm này có thể ở dạng thô hoặc tinh chế, đã tẩy trắng hoặc pha màu, đã hoặc chưa thành khối, thanh v.v.', en: 'The heading covers vegetable waxes, crude or refined, bleached or coloured, whether or not in cakes, sticks, etc.' },
 
       { type: 'heading', vi: '15.22 - Chất nhờn; bã, cặn còn lại sau quá trình xử lý các chất béo hoặc sáp động vật hoặc thực vật.', en: '15.22 - Degras; residues resulting from the treatment of fatty substances or animal or vegetable waxes.' },
-      { type: 'paragraph', vi: '(A) Chất nhờn.', en: '(A) Degras.' },
+      { 
+        type: 'paragraph', 
+        vi: '(A) Chất nhờn. Chất nhờn tự nhiên (moellen) là chất bã của quá trình xử lý da (da linh dương v.v...) bằng dầu cá (dầu cá voi, dầu gan cá v.v...) hoặc hỗn hợp của dầu cá và chất béo khác. Chất nhờn nhân tạo bao gồm chủ yếu là dầu cá bị oxy hoá, nhũ hoá hoặc có thể là hỗn hợp của những loại trên với các chất khác (ví dụ: mỡ lông, mỡ tallow, dầu nhựa thông), hoặc hỗn hợp của nhựa cây và dầu béo.', 
+        en: '(A) Degras. Natural degras (moellon) is a residue of the treatment of chamois leather with fish oil (whale oil, cod-liver oil, etc.) or with mixtures of fish oil and other fats. Artificial degras consists essentially of oxidised, emulsified fish oil, or of mixtures of these oils with other substances (e.g., wool grease, tallow, rosin oil), or of mixtures of rosin and fatty oils.' 
+      },
       { type: 'paragraph', vi: '(B) Phế thải có từ xử lý chất béo hoặc sáp động vật hoặc thực vật.', en: '(B) Residues resulting from the treatment of fatty substances or animal or vegetable waxes.' },
       { type: 'paragraph', vi: 'Nhóm này bao gồm:', en: 'This heading covers, inter alia :' },
       { type: 'list', vi: '(1) Cặn dầu. Phế thải dầu hoặc nhầy có từ lọc dầu.', en: '(1) Oil foots and dregs. Oily or mucilaginous residues resulting from the purification of oils.' },
@@ -3954,7 +3999,7 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
       { type: 'paragraph', vi: 'Nhóm này gồm:', en: 'The heading includes:' },
       { type: 'list', vi: '(1) Sản phẩm chiết xuất từ thịt. Các sản phẩm này là các chất cô đặc thường được chiết ra bằng cách luộc hay hấp thịt dưới áp suất và cô đặc lượng chất lỏng thu được sau khi đã loại bỏ chất béo bằng cách lọc hoặc li tâm. Các sản phẩm chiết xuất có thể ở dạng lỏng hay đặc tuỳ theo mức độ cô đặc.', en: '(1) Meat extracts. These are concentrates generally obtained by boiling or steaming meat under pressure and concentrating the resultant liquid after removal of the fat by filtration or centrifuging. These extracts may be solid or liquid according to the degree of concentration.' },
       { type: 'list', vi: '(2) Nước thịt ép thu được bằng cách ép thịt sống.', en: '(2) Meat juices obtained by pressing raw meat.' },
-      { type: 'list', vi: '(3) Chiết xuất từ cá hoặc động vật giáp xác, động vật thân mềm hoặc động vật thủy sinh không xương sống khác. Chiết xuất từ cá thu được, ví dụ, bằng cách cô đặc nước tinh chiết từ thịt của cá trích nước lạnh hoặc các loại cá khác hoặc từ bột thô của cá (đã hoặc không khử chất béo); trong quá trình sản xuất, tất cả hoặc một phần của các chất có mùi tanh cá (ví dụ, vị trimethilamine trong trường hợp cá biển) có thể bị khử và vì vậy các sản phẩm chiết xuất này có các đặc tính giống với đặc tính của thịt chiết xuất.', en: '(3) Extracts of fish or of crustaceans, molluscs or other aquatic invertebrates. Extracts of fish are obtained, e.g., by concentrating water extracts of the flesh of herring or other fish or made from fish meal (whether or not defatted); during the production all or part of the constituents which give the fishy taste (e.g., trimethylamine in the case of sea fish) may be eliminated and such extracts therefore have characteristics similar to those of meat extracts.' },
+      { type: 'list', vi: '(3) Chiết xuất từ cá hoặc động vật giáp xác, động vật thân mềm hoặc động vật thủy sinh không xương sống khác. Chiết xuất từ cá thu được, ví dụ, bằng cách cô đặc nước tinh chiết từ thịt của cá trích nước lạnh hoặc các loại cá khác hoặc từ bột thô của cá (đã hoặc không khử chất béo); trong quá trình sản xuất, tất cả hoặc một phần của các chất có mùi tanh cá (ví dụ, vị trimethylamine trong trường hợp cá biển) có thể bị khử và vì vậy các sản phẩm chiết xuất này có các đặc tính giống với đặc tính của thịt chiết xuất.', en: '(3) Extracts of fish or of crustaceans, molluscs or other aquatic invertebrates. Extracts of fish are obtained, e.g., by concentrating water extracts of the flesh of herring or other fish or made from fish meal (whether or not defatted); during the production all or part of the constituents which give the fishy taste (e.g., trimethylamine in the case of sea fish) may be eliminated and such extracts therefore have characteristics similar to those of meat extracts.' },
       { type: 'list', vi: '(4) Nước ép thu được từ việc ép cá, động vật giáp xác, động vật thân mềm hoặc động vật thủy sinh không xương sống khác còn ở dạng thịt sống.', en: '(4) Juices obtained by pressing raw fish or crustaceans, molluscs or other aquatic invertebrates.' },
       { type: 'paragraph', vi: 'Tất cả các sản phẩm này có thể chứa muối hoặc các chất khác được bổ sung một lượng vừa đủ để đảm bảo cho việc bảo quản.', en: 'All these products may contain salt or other substances added in sufficient quantities to ensure their preservation.' },
       { type: 'paragraph', vi: 'Các chiết xuất này được dùng để chế biến một số chế phẩm thực phẩm như súp (cô đặc hay không cô đặc) và nước xốt. Nước ép chủ yếu dùng làm thức ăn kiêng.', en: 'Extracts are used for making certain food preparations such as soups (whether or not concentrated) and sauces. Juices are used mainly as dietetic foods.' },
@@ -4023,7 +4068,7 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
   },
 
   // ------------------------------------------------------------
-  // CHAPTER 17
+  // CHAPTER 17 - ORIGIN VERSION
   // ------------------------------------------------------------
   {
     chapterNumber: 17,
@@ -4031,99 +4076,119 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     titleEn: 'CHAPTER 17: SUGARS AND SUGAR CONFECTIONERY',
     content: [
       { type: 'heading', vi: 'Chú giải.', en: 'Note.' },
-      { type: 'paragraph', vi: '1.- Chương này không bao gồm:', en: '1.- This Chapter does not cover :' },
-      { type: 'list', vi: '(a) Chất chiết xuất từ cây cam thảo (không được đóng gói như mứt kẹo) chứa không quá 10% hàm lượng đường sucroza tính theo trọng lượng (nhóm 13.02).', en: '(a) Liquorice extract containing more than 10 % by weight of sucrose or put up as confectionery (heading 13.02).' },
-      { type: 'list', vi: '(b) Chế phẩm đường chứa cacao (nhóm 18.06). (Với mục đích này bơ cacao không được coi như cacao).', en: '(b) Sugar preparations containing cocoa (heading 18.06). (For this purpose cocoa butter is not regarded as cocoa.)' },
-      { type: 'list', vi: '(c) Các chế phẩm dùng làm thức ăn được làm ngọt như rau, quả, vỏ trái cây... được bảo quản bằng đường (nhóm 20.06) và mứt, thạch trái cây... (nhóm 20.07).', en: '(c) Sweetened food preparations such as vegetables, fruit, fruit peel, etc., preserved by sugar (heading 20.06) and jams, fruit jellies, etc. (heading 20.07).' },
-      { type: 'list', vi: '(d) Kẹo, kẹo cao su và các sản phẩm tương tự (đặc biệt là dùng cho người bệnh đái tháo đường) có chứa chất làm ngọt tổng hợp (ví dụ, chất sorbitol) thay thế đường; bột nhão từ đường, có thêm chất béo với tỉ lệ tương đối lớn và, đôi khi, có sữa hoặc quả hạch (nut) không dùng trực tiếp làm mứt, kẹo (nhóm 21.06).', en: '(d) Sweets, gums and the like (for diabetics, in particular) containing synthetic sweetening agents (e.g., sorbitol) instead of sugar; pastes with a basis of sugar, containing added fat in a relatively large proportion and, sometimes, milk or nuts, not suitable for transformation directly into sugar confectionery (heading 21.06).' },
-      { type: 'list', vi: '(e) Dược phẩm hoặc các sản phẩm khác thuộc Chương 30.', en: '(e) Medicaments or other products of Chapter 30.' },
-      { type: 'heading', vi: 'Chú giải phân nhóm.', en: 'Subheading Note.' },
+      { type: 'paragraph', vi: '1.- Chương này không bao gồm:', en: '1.- This Chapter does not cover:' },
+      { type: 'list', vi: '(a) Các loại kẹo đường chứa ca cao (nhóm 18.06);', en: '(a) Sugar confectionery containing cocoa (heading 18.06);' },
+      { type: 'list', vi: '(b) Các loại đường tinh khiết về mặt hoá học (trừ sucroza, lactoza, maltoza, glucoza và fructoza) hoặc các sản phẩm khác của nhóm 29.40; hoặc', en: '(b) Chemically pure sugars (other than sucrose, lactose, maltose, glucose and fructose) or other products of heading 29.40; or' },
+      { type: 'list', vi: '(c) Thuốc hoặc các sản phẩm khác của Chương 30.', en: '(c) Medicaments or other products of Chapter 30.' },
+      { type: 'heading', vi: 'Chú giải phân nhóm.', en: 'Subheading Notes.' },
       { 
         type: 'paragraph', 
-        vi: '1.- Theo mục đích của các phân nhóm 1701.12, 1701.13 và 1701.14, khái niệm "đường thô" có nghĩa là các loại đường có hàm lượng đường sucroza ở thể khô dưới 99,5% tính theo chỉ số phân cực.', 
-        en: '1.- For the purposes of subheadings 1701.12, 1701.13 and 1701.14, “ raw sugar ” means sugar whose content of sucrose by weight, in the dry state, corresponds to a polarimeter reading of less than 99.5 °.' 
+        vi: '1.- Theo mục đích của các phân nhóm 1701.12, 1701.13 và 1701.14, khái niệm "đường thô" có nghĩa là các loại đường có hàm lượng sucroza tính theo khối lượng, ở thể khô, tương ứng với kết quả dưới 99,5° trên phân cực kế.', 
+        en: '1.- For the purposes of subheadings 1701.12, 1701.13 and 1701.14, “raw sugar” means sugar whose content of sucrose by weight, in the dry state, corresponds to a polarimeter reading of less than 99.5°.' 
       },
       { 
         type: 'paragraph', 
-        vi: '2.- Phân nhóm 1701.13 chỉ bao gồm đường mía thu được nhưng không qua quá trình ly tâm, có hàm lượng đường sucroza tính theo trọng lượng, ở thể khô, tương đương với chỉ số phân cực từ 69 độ đến dưới 93 độ. Sản phẩm chỉ chứa các vi tinh thể anhedral tự nhiên, có hình dáng không đồng đều, không quan sát được bằng mắt thường, được bao phủ bởi tàn dư của mật mía và các thành phần khác của cây mía.', 
-        en: '2.- Subheading 1701.13 covers only cane sugar obtained without centrifugation, whose content of sucrose by weight, in the dry state, corresponds to a polarimeter reading of 69° or more but less than 93°. The product contains only natural anhedral microcrystals, of irregular shape, not visible to the naked eye, which are surrounded by residues of molasses and other constituents of sugar cane.' 
+        vi: '2.- Phân nhóm 1701.13 chỉ bao gồm đường mía, thu được không qua quá trình ly tâm, trong đó hàm lượng đường sucroza tính theo khối lượng, ở thể khô, tương ứng với kết quả trên phân cực kế từ 69° đến dưới 93°. Sản phẩm này chỉ chứa các vi tinh thể anhedran tự nhiên, có hình dạng không đều, không thể quan sát được bằng mắt thường, được bao phủ bằng phế liệu từ mật mía và các thành phần khác của cây mía đường.', 
+        en: '2.- Subheading 1701.13 covers only cane sugar obtained without centrifugation, whose content of sucrose by weight, in the dry state, corresponds to a polarimeter reading of 69 ° or more but less than 93°. The product contains only natural anhedral microcrystals, of irregular shape, not visible to the naked eye. which are surrounded by residues of molasses and other constituents of sugar cane.' 
       },
 
       { type: 'heading', vi: 'TỔNG QUÁT', en: 'GENERAL' },
-      { type: 'paragraph', vi: 'Chương này bao gồm đường các loại, xi rô đường và kẹo đường, trừ các loại kẹo đường có chứa ca cao (Chương 18), các loại rau quả ngọt, (Chương 20) và chế phẩm đường làm ngọt nhân tạo (Chương 21).', en: 'This Chapter covers sugars, sugar syrups and sugar confectionery, other than sugar confectionery containing cocoa (Chapter 18), sweetened vegetables, fruit, etc. (Chapter 20) and artificial sweetening preparations (Chapter 21).' },
-      { type: 'paragraph', vi: 'Chương này cũng không bao gồm:', en: 'It also excludes :' },
-      { type: 'list', vi: '(a) Các loại đường tinh khiết về mặt hoá học khác với đường sucroza, lactose, maltoza, glucoza và fructoza (nhóm 29.40).', en: '(a) Chemically pure sugars (other than sucrose, lactose, maltose, glucose and fructose) (heading 29.40).' },
-      { type: 'list', vi: '(b) Các loại dược phẩm có chứa đường (Chương 30).', en: '(b) Medicaments containing sugar (Chapter 30).' },
+      { type: 'paragraph', vi: 'Chương này không chỉ gồm các loại đường (ví dụ, sucroza, lactoza, maltose, glucoza và fructoza), mà còn gồm xirô đường, mật ong nhân tạo, đường caramen, mật đường từ quá trình chiết xuất hoặc tinh chế đường và kẹo đường. Đường và mật đường ở dạng rắn thuộc Chương này có thể pha thêm hương liệu hoặc chất màu (ví dụ, axit citric hoặc vani) hoặc chất làm ngọt nhân tạo (ví dụ, aspartame hoặc stevia), miễn là chúng giữ được đặc tính nguyên bản là đường hoặc mật đường.', en: 'This Chapter covers not only sugars as such (e.g., sucrose, lactose, maltose, glucose and fructose), but also sugar syrups, artificial honey, caramel, molasses resulting from the extraction or refining of sugar and sugar confectionery. Solid sugar and molasses of this Chapter may contain added colouring matter, flavouring matter (e.g., citric acid or vanilla) or artificial sweeteners (e.g., aspartame or stevia), as long as they retain their original character as sugar or molasses.' },
+      { type: 'paragraph', vi: 'Chương này không bao gồm :', en: 'The Chapter does not include :' },
+      { type: 'list', vi: '(a) Kẹo đường có pha cacao hoặc sôcôla ( trừ sôcôla trắng) ở bất kỳ tỷ lệ nào và bột cacao được làm ngọt ( nhóm 18.06 ).', en: '(a) Sugar confectionery containing cocoa or chocolate ( other than white chocolate) in any proportion, anti sweetened cocoa powders (heading 18.06).' },
+      { type: 'list', vi: '(b) Chế phẩm thực phẩm được làm ngọt của các Chương 19, Chương 20, Chương 21 hoặc Chương 22 .', en: '(b) Sweetened food preparations of Chapter 19, 20, 21 or 22 .' },
+      { type: 'list', vi: '(c) Thức ăn gia súc được làm ngọt ( nhóm 23.09 ).', en: '(c) Sweetened forage ( heading 23.09 ).' },
+      { type: 'list', vi: '(d) Đường tinh khiết về mặt hoá học (trừ đường sucroza, lactoza, maltose, glucoza và fructoza), và dạng dung dịch có nước của chúng ( nhóm 29.40 ).', en: '(d) Chemically pure sugars (other than sucrose, lactose, maltose, glucose and fructose), and aqueous solutions thereof ( heading 29.40 ).' },
+      { type: 'list', vi: '(e) Dược phẩm có đường ( Chương 30 ).', en: '(e) Medicaments containing sugar ( Chapter 30 ).' },
 
-      { type: 'heading', vi: '17.01 - Đường mía hoặc đường củ cải và đường sucroza tinh khiết về mặt hoá học, ở thể rắn.', en: '17.01 - Cane or beet sugar and chemically pure sucrose, in solid form.' },
+      { type: 'heading', vi: '17.01 - Đường mía hoặc đường củ cải và đường sucroza tinh khiết về mặt hoá học, ở thể rắn (+).', en: '17.01 - Cane or beet sugar and chemically pure sucrose, in solid form (+).' },
       { type: 'paragraph', vi: '- Đường thô chưa pha thêm hương liệu hoặc chất màu:', en: '- Raw sugar not containing added flavouring or colouring matter:' },
       { type: 'list', vi: '1701.12 - - Đường củ cải', en: '1701.12 - - Beet sugar' },
-      { type: 'list', vi: '1701.13 - - Đường mía đã được nêu trong Chú giải phân nhóm 2 của Chương này', en: '1701.13 - - Cane sugar specified in Subheading Note 2 to this Chapter' },
-      { type: 'list', vi: '1701.14 - - Đường mía khác', en: '1701.14 - - Other cane sugar' },
+      { type: 'list', vi: '1701.13 - - Đường mía đã nêu trong Chú giải phân nhóm 2 của Chương này', en: '1701.13 - - Cane sugar specified in Subheading Note 2 to this Chapter' },
+      { type: 'list', vi: '1701.14 - - Các loại đường mía khác', en: '1701.14 - - Other cane sugar' },
       { type: 'paragraph', vi: '- Loại khác:', en: '- Other:' },
-      { type: 'list', vi: '1701.91 - - Có pha thêm hương liệu hoặc chất màu', en: '1701.91 - - Containing added flavouring or colouring matter' },
+      { type: 'list', vi: '1701.91 - - Đã pha thêm hương liệu hoặc chất màu', en: '1701.91 - - Containing added flavouring or colouring matter' },
       { type: 'list', vi: '1701.99 - - Loại khác', en: '1701.99 - - Other' },
-      { type: 'paragraph', vi: 'Đường mía có nguồn gốc từ nước ép cây mía; đường củ cải lấy từ nước ép của củ cải đường. Những loại đường này đều là đường sucroza tinh khiết về mặt hoá học.', en: 'Cane sugar is derived from the juice of the sugar cane stalks; beet sugar is obtained from the juice of the sugar beet. Both are chemically pure sucrose.' },
-      { type: 'paragraph', vi: 'Nhóm này bao gồm các loại đường ở dạng rắn (kể cả dạng bột), cho dù ở dạng thô hay dạng tinh chế.', en: 'The heading covers these sugars whether in the form of raw or refined sugars, provided they are in solid form (including powder).' },
-      { type: 'paragraph', vi: 'Đường thô thuộc nhóm này bao gồm loại đường màu nâu theo khái niệm chuyên môn, có được do đun sôi nước ép, chất lỏng mẹ hoặc các loại sản phẩm xi rô tự nhiên khác của quá trình sản xuất đường. Tạp chất của loại đường này làm cho nó có mầu nâu. Hàm lượng sucroza tính theo trọng lượng ở thể khô, tương ứng với chỉ số phân cực dưới 99,5 độ (xem Chú giải phân nhóm 1 của Chương này). Đường thô thường dùng để chế biến thêm thành đường tinh khiết, nhưng cũng có thể dùng cho người ăn.', en: 'The raw sugars of this heading include brown sugars of a trade type such as those consisting of soft, rather clustered, crystals, obtained by boiling down the mother liquors or other natural syrups remaining after the production of white sugar or, more rarely, produced directly from the juices. Their impurity content gives them a colour varying from pale yellow to brown. Their content of sucrose by weight, in the dry state, corresponds to a polarimeter reading of less than 99.5 ° (see Subheading Note 1). Raw sugars are usually destined for further processing into refined sugar, but can be consumed as such.' },
-      { type: 'paragraph', vi: 'Đường mía đã tinh chế và đường củ cải cũng thuộc nhóm này bao gồm đường ở dạng kẹo trắng hoặc kẹo đường nâu, ở dạng tinh thể rời, dạng cục, khối, côn, thanh,... Nó cũng bao gồm đường kẹo, bao gồm các tinh thể lớn hình thành do sự kết tinh chậm của xi rô đường đậm đặc.', en: 'The refined cane or beet sugars falling in this heading include soft (or castor) sugar, candy sugar and loaf sugar, whether in lumps, cubes, ingots, bars, sticks, etc. The heading includes candy sugar consisting of large crystals formed by slow crystallisation of sufficiently concentrated sugar syrups.' },
-      { type: 'paragraph', vi: 'Ngoài ra, nhóm này cũng bao gồm đường sucroza tinh khiết về mặt hoá học, ở thể rắn, bất kể nguồn gốc của chúng là gì. Đường sucroza (trừ đường sucroza tinh khiết về mặt hoá học) thu được từ các nguồn gốc khác ngoài cây mía hoặc củ cải đường (như đường thốt nốt, đường từ cây cọ, cây phong, lúa miến,...) thuộc nhóm 17.02.', en: 'The heading further includes chemically pure sucrose in solid form, whatever its origin. Sucrose (other than chemically pure sucrose) obtained from sources other than the sugar cane or sugar beet (e.g., from the sugar maple, from sorghum, from palms) is excluded (heading 17.02).' },
-      { type: 'paragraph', vi: 'Nhóm này không bao gồm các loại đường ở dạng lỏng như nước đường hoặc xi rô (nhóm 17.02).', en: 'The heading does not include sugars in the form of liquid, such as water solutions or syrups (heading 17.02).' },
+      { type: 'paragraph', vi: 'Đường mía thu được từ nước ép của thân cây mía. Đường củ cải thu được từ nước ép được chiết xuất từ củ cây củ cải đường.', en: 'Cane sugar is derived from the juices of the sugar cane stalk. Beet sugar is derived from the juices obtained by extraction from the root of the sugar beet.' },
+      { 
+        type: 'paragraph', 
+        vi: 'Đường mía hoặc đường củ cải thô hoặc chưa tinh luyện có dạng kết tinh hoặc ở thể rắn khác màu nâu, màu sắc thay đổi do hàm lượng của tạp chất. Hàm lượng đường sucroza tính theo trọng lượng, ở thể khô dưới 99,5° đọc kết quả tương ứng trên phân cực kế (xem Chú giải phân nhóm 1). Các loại đường này thường được dùng để tinh chế thành các sản phẩm đường tinh luyện. Tuy nhiên, đường thô cũng có thể có độ tinh khiết ở mức độ cao phù hợp cho người sử dụng mà không cần tinh chế.', 
+        en: 'Raw or crude cane or beet sugars occur in the form of brown crystals or other solid forms, the colour being due to the presence of impurities. Their sucrose content by weight, in the dry state, corresponds to a polarimeter reading of less than 99.5° (see Subheading Note 1). They are generally destined for processing into refined sugar products. Raw sugar may, however, be of such a high degree of purity that it is suitable for human consumption without refining.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: 'Đường tinh luyện của mía hoặc của củ cải đường được sản xuất bằng cách tinh chế đường thô. Chúng được sản xuất dưới dạng tinh thể màu trắng và được đưa ra thị trường ở nhiều mức độ tinh khiết khác nhau hoặc dưới dạng viên, bánh, miếng hoặc thanh hoặc các mảnh được đúc, cưa hoặc cắt.', 
+        en: 'Refined cane or beet sugars are produced by the further processing of raw sugar. They are generally produced as a white crystalline substance which is marketed in various degrees of fineness or in the form of small cubes, loaves, slabs, or sticks or regularly moulded, sawn or cut pieces.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: 'Ngoài các loại đường thô hoặc tinh luyện nêu trên, nhóm này cũng bao gồm đường nâu có chứa đường trắng trộn với một lượng nhỏ, ví dụ, đường caramel hay nước mật, và các viên đường gồm các tinh thể đông kết lớn được sản xuất bằng quá trình đông kết chậm của dung dịch đường cô đặc.', 
+        en: 'In addition to the raw or refined sugars mentioned above, this heading covers brown sugar consisting of white sugar mixed with small quantities of, e.g., caramel or molasses, and sugar candy consisting of large crystals produced by slow crystallisation of concentrated solutions of sugar.' 
+      },
+      { type: 'paragraph', vi: 'Lưu ý rằng đường của mía và của củ cải đường thuộc nhóm này chỉ khi ở thể rắn (kể cả bột); các loại đường này có thể đã được thêm hương liệu hoặc chất màu.', en: 'It should be noted that cane and beet sugar fall in this heading only when in the solid form (including powders); such sugar may contain added flavouring or colouring matter.' },
+      { type: 'paragraph', vi: 'Xirô đường mía và đường củ cải, bao gồm các dung dịch có nước của đường, được phân loại vào nhóm 17.02 khi không được thêm chất hương liệu hoặc chất màu và ngược lại thì thuộc nhóm 21.06 .', en: 'Sugar syrups of cane or beet sugar, consisting of aqueous solutions of sugars, are classified in heading 17.02 when not containing added flavouring or colouring matter and otherwise in heading 21.06.' },
+      { type: 'paragraph', vi: 'Ngoài ra, nhóm này không bao gồm các chế phẩm ở thể rắn (kể cả hạt nhỏ hoặc bột) mà đã mất đặc tính của đường, loại sử dụng để làm đồ uống ( nhóm 21.06 ).', en: 'The heading further excludes preparations in solid form (including granules or powders) which have lost the character of sugar, of a kind used for making beverages ( heading 21.06 ).' },
+      { type: 'paragraph', vi: 'Nhóm này cũng bao gồm đường sucroza tinh khiết về mặt hóa học ở thể rắn, bất kể nguồn gốc của chúng. Đường sucroza (không kể đường sucroza tinh khiết về mặt hoá học) thu được từ các nguồn gốc khác không phải là mía hoặc củ cải đường bị loại trừ ( nhóm 17.02 ).', en: 'The heading also includes chemically pure sucrose in solid form, whatever its origin. Sucrose (other than chemically pure sucrose) obtained from sources other than sugar cane or sugar beet is excluded ( heading 17.02 ).' },
 
-      { type: 'heading', vi: '17.02 - Đường khác, kể cả đường lactoza, maltoza, glucoza và fructoza (levuloza) tinh khiết về mặt hoá học, ở thể rắn; xi rô đường chưa pha thêm hương liệu hoặc chất màu; mật ong nhân tạo, đã hoặc chưa pha trộn với mật ong tự nhiên; caramen.', en: '17.02 - Other sugars, including chemically pure lactose, maltose, glucose and fructose, in solid form; sugar syrups not containing added flavouring or colouring matter; artificial honey, whether or not mixed with natural honey; caramel.' },
-      { type: 'paragraph', vi: '- Lactoza và xi rô lactoza:', en: '- Lactose and lactose syrup :' },
-      { type: 'list', vi: '1702.11 - - Chứa từ 99% trở lên hàm lượng lactoza, được tính theo trọng lượng lactoza khan, tính trên sản phẩm khô', en: '1702.11 - - Containing by weight 99 % or more lactose, expressed as anhydrous lactose, calculated on the dry matter' },
+      { type: 'heading', vi: '17.02 - Đường khác, kể cả đường lactoza, mantoza, glucoza và fructoza, tinh khiết về mặt hoá học, ở thể rắn; xirô đường chưa pha thêm hương liệu hoặc chất màu; mật ong nhân tạo, đã hoặc chưa pha trộn với mật ong tự nhiên; đường caramen.', en: '17.02 - Other sugars, including chemically pure lactose, maltose, glucose and fructose, in solid form; sugar syrups not containing added flavouring or colouring matter; artificial honey, whether or not mixed with natural honey; caramel.' },
+      { type: 'paragraph', vi: '- Lactoza và xirô lactoza:', en: '- Lactose and lactose syrup:' },
+      { type: 'list', vi: '1702.11 - - Có hàm lượng lactoza khan từ 99% trở lên, tính theo khối lượng chất khô', en: '1702.11 - - Containing by weight 99 % or more lactose, expressed as anhydrous lactose, calculated on the dry matter' },
       { type: 'list', vi: '1702.19 - - Loại khác', en: '1702.19 - - Other' },
-      { type: 'list', vi: '1702.20 - Đường và xi rô từ cây phong (maple)', en: '1702.20 - Maple sugar and maple syrup' },
-      { type: 'list', vi: '1702.30 - Glucoza và xi rô glucoza, không chứa fructoza hoặc có chứa dưới 20% hàm lượng fructoza tính theo trọng lượng ở thể khô', en: '1702.30 - Glucose and glucose syrup, not containing fructose or containing in the dry state less than 20 % by weight of fructose' },
-      { type: 'list', vi: '1702.40 - Glucoza và xi rô glucoza, có chứa từ 20% đến dưới 50% hàm lượng fructoza tính theo trọng lượng ở thể khô', en: '1702.40 - Glucose and glucose syrup, containing in the dry state at least 20 % but less than 50 % by weight of fructose' },
+      { type: 'list', vi: '1702.20 - Đường từ cây thích (maple) và xirô từ cây thích', en: '1702.20 - Maple sugar and maple syrup' },
+      { type: 'list', vi: '1702.30 - Glucoza và xirô glucoza, không chứa hoặc có chứa hàm lượng fructoza dưới 20% tính theo khối lượng ở thể khô', en: '1702.30 - Glucose and glucose syrup, not containing fructose or containing in the dry state less than 20 % by weight of fructose' },
+      { type: 'list', vi: '1702.40 - Glucoza và xirô glucoza, chứa hàm lượng fructoza ít nhất là 20% nhưng dưới 50% tính theo khối lượng ở thể khô, trừ đường nghịch chuyển', en: '1702.40 - Glucose and glucose syrup, containing in the dry state at least 20 % but less than 50 % by weight of fructose, excluding invert sugar' },
       { type: 'list', vi: '1702.50 - Fructoza tinh khiết về mặt hoá học', en: '1702.50 - Chemically pure fructose' },
-      { type: 'list', vi: '1702.60 - Fructoza và xi rô fructoza khác, có chứa trên 50% hàm lượng fructoza tính theo trọng lượng ở thể khô, trừ đường nghịch chuyển', en: '1702.60 - Other fructose and fructose syrup, containing in the dry state more than 50 % by weight of fructose, excluding invert sugar' },
-      { type: 'list', vi: '1702.90 - Loại khác, kể cả đường nghịch chuyển và loại đường khác và xi rô đường pha trộn có chứa 50% hàm lượng fructoza tính theo trọng lượng ở thể khô', en: '1702.90 - Other, including invert sugar and other sugar and sugar syrup blends containing in the dry state 50 % by weight of fructose' },
-      { type: 'paragraph', vi: 'Nhóm này bao gồm các loại đường khác, ở thể rắn, xi rô đường, mật ong nhân tạo và caramen.', en: 'This heading covers other sugars in solid form, sugar syrups and artificial honey and caramel.' },
-      { type: 'paragraph', vi: '(A) Các loại đường khác.', en: '(A) Other sugars.' },
-      { type: 'paragraph', vi: 'Phần này bao gồm đường (trừ đường thuộc nhóm 17.01 và lactose, maltose, glucose và fructose tinh khiết về mặt hoá học) ở thể rắn (kể cả bột), cho dù có chứa hương liệu hoặc chất màu.', en: 'This group covers sugars (other than sugars of heading 17.01 and chemically pure lactose, maltose, glucose and fructose) in solid form (including powder), whether or not containing added flavouring or colouring matter.' },
-      { type: 'paragraph', vi: 'Các loại đường chính thuộc nhóm này bao gồm:', en: 'The principal sugars of this heading are :' },
-      { type: 'list', vi: '(1) Lactose (đường sữa), (C12H22O11), được lấy từ nước sữa (whey).', en: '(1) Lactose (milk sugar) (C12H22O11), which occurs in milk and is obtained from whey.' },
-      { type: 'paragraph', vi: 'Nhóm này bao gồm cả lactoza thương phẩm và lactoza tinh khiết về mặt hóa học.', en: 'This heading covers both commercial and chemically pure lactose.' },
-      { type: 'list', vi: '(2) Đường nghịch chuyển, có nguồn gốc từ sucroza do thuỷ phân và bao gồm hỗn hợp của glucoza và fructoza với tỷ lệ bằng nhau.', en: '(2) Invert sugar, which is derived from sucrose by hydrolysis and consists of equal parts of glucose and fructose.' },
-      { type: 'list', vi: '(3) Sucroza, lấy từ các nguồn gốc khác không phải là từ cây mía hay củ cải đường (ví dụ, đường thốt nốt, đường cọ, đường từ cây phong, lúa miến).', en: '(3) Sucrose, obtained from sources other than the sugar cane or sugar beet (e.g., sugar maple, sorghum, palms).' },
-      { type: 'list', vi: '(4) Maltoza (C12H22O11), được sản xuất trong công nghiệp bằng cách thuỷ phân tinh bột bởi enzym mạch nha. Nó được sản xuất ở dạng bột kết tinh trắng. Nó được sử dụng trong công nghiệp sản xuất bia, làm bánh và sản xuất kẹo đường.', en: '(4) Maltose (C12H22O11), which is produced industrially by the hydrolysis of starch with malt diastase. It is produced as a white crystalline powder. It is used in the brewing industry, in baking and in the manufacture of sugar confectionery.' },
-      { type: 'list', vi: '(5) Glucoza, ở dạng tự nhiên có trong hoa quả và mật ong. Cùng với lượng nước giống nhau nó cũng có trong đường chuyển hóa và cũng có dạng glucoside trong thực vật...', en: '(5) Glucose, which occurs naturally in fruits and honey. In equal parts with fructose it constitutes invert sugar. It also occurs combined in the form of glucosides in the vegetable kingdom...' },
-      { type: 'list', vi: '(6) Fructoza (C6H12O6), có số lượng lớn trong hoa quả ngọt và trong mật ong trộn với glucoza. Trong công nghiệp, nó được sản xuất từ glucoza, đường mía hoặc từ inulin.', en: '(6) Fructose (C6H12O6), which is present in large quantities with glucose in sweet fruits and honey. Industrially it is produced from technical glucose (corn syrup), from sucrose or by hydrolysis of inulin.' },
-      { type: 'paragraph', vi: '(B) Xi rô đường.', en: '(B) Sugar syrups.' },
-      { type: 'paragraph', vi: 'Nhóm này bao gồm xi rô của tất cả các loại đường (kể cả xi rô lactoza và xi rô nước của đường sucroza, glucoza và fructoza...), miễn là chúng không được pha thêm hương liệu hoặc chất màu.', en: 'This heading covers syrups of all sugars (including lactose syrups and aqueous solutions other than aqueous solutions of chemically pure sugars) provided they do not contain added flavouring or colouring matter.' },
-      { type: 'paragraph', vi: 'Ngoài những xi rô được nói ở trên, nhóm này còn bao gồm:', en: 'In addition to the syrups referred to above, this heading includes :' },
-      { type: 'list', vi: '(1) Xi rô đơn, là dung dịch nước của đường sucroza, bao gồm cả đường mía và đường củ cải.', en: '(1) Simple syrups, which are aqueous solutions of sucrose, including cane or beet sugar syrups.' },
-      { type: 'list', vi: '(2) Xi rô "butter" (loại có vị bơ), là sản phẩm không có hương liệu hoặc chất màu dùng trong sản xuất kẹo, kẹo bơ... gồm một hỗn hợp của đường, nước, bơ (dưới 15%), và các chất khác (muối...).', en: '(2) “ Butter ” syrups, products containing neither added flavouring nor colouring matter, which are used in confectionery, etc., consisting of a mixture of sugar, water, butter (less than 15 %), etc.' },
-      { type: 'list', vi: '(3) Xi rô "vàng" (table molasses), là sản phẩm không có hương liệu hoặc chất màu dùng trong sản xuất kẹo, các sản phẩm tráng miệng... gồm một hỗn hợp của đường sucroza và đường nghịch chuyển.', en: '(3) Golden syrup (table molasses), a product containing neither added flavouring nor colouring matter, used for culinary purposes (as a substitute for honey) and in the manufacture of confectionery, consisting of a concentrated solution of sucrose and invert sugar.' },
-      { type: 'paragraph', vi: '(C) Mật ong nhân tạo.', en: '(C) Artificial honey.' },
-      { type: 'paragraph', vi: 'Mật ong nhân tạo là hỗn hợp của đường nghịch chuyển, sucroza và nước. Nó cũng thường có màu vàng nhạt và cũng có thể được trộn với mật ong tự nhiên. Nó được phân loại ở nhóm này.', en: 'Artificial honey is a mixture of invert sugar, sucrose and water. It is usually coloured yellow and is sometimes mixed with natural honey. It is classified in this heading.' },
-      { type: 'paragraph', vi: '(D) Caramen.', en: '(D) Caramel.' },
-      { type: 'paragraph', vi: 'Caramen là một sản phẩm không kết tinh màu nâu có mùi thơm, thu được từ việc đun nóng đường.', en: 'Caramel is a brown non-crystalline substance with an aromatic odour, obtained by heating sugars.' },
+      { type: 'list', vi: '1702.60 - Fructoza và xirô fructoza khác, chứa hàm lượng fructoza trên 50% tính theo trọng lượng ở thể khô, trừ đường nghịch chuyển', en: '1702.60 - Other fructose and fructose syrup, containing in the dry state more than 50 % by weight of fructose, excluding invert sugar' },
+      { type: 'list', vi: '1702.90 - Loại khác, kể cả đường nghịch chuyển và đường khác và hỗn hợp xirô đường có chứa hàm lượng fructoza là 50% tính theo khối lượng ở thể khô', en: '1702.90 - Other, including invert sugar and other sugar and sugar syrup blends containing in the dry state 50 % by weight of fructose' },
+      { type: 'paragraph', vi: 'Nhóm này bao gồm các loại đường khác ở thể rắn, xirô đường cũng như mật ong nhân tạo và đường caramen.', en: 'This heading covers other sugars in solid form, sugar syrups and also artificial honey and caramel.' },
+      { type: 'paragraph', vi: '(A) CÁC LOẠI ĐƯỜNG KHÁC', en: '(A) OTHER SUGARS' },
+      { type: 'paragraph', vi: 'Phần này bao gồm đường, trừ đường thuộc nhóm 17.01 hoặc đường tinh khiết về mặt hoá học thuộc nhóm 29.40 , ở thể rắn (kể cả dạng bột), đã hoặc chưa được thêm hương liệu hoặc chất màu. Các loại đường chủ yếu thuộc nhóm này là:', en: 'This part covers sugars, other than sugars of heading 17.01 or chemically pure sugars of heading 29.40 , in solid form (including powders), whether or not containing added flavouring or colouring matter. The principal sugars of this heading are:' },
+      { type: 'list', vi: '(1) Đường lactoza (còn gọi là đường sữa) (C12H22O11), đường này có trong sữa và được sản xuất ở quy mô thương mại từ nước sữa (whey).', en: '(1) Lactose (also known as milk sugar) (C12H22O11), which occurs in milk and is produced commercially from whey.' },
+      { type: 'list', vi: '(2) Đường nghịch chuyển , thành phần chính của mật ong tự nhiên. Được chế biến ở quy mô thương mại bằng sự thủy phân đường sucroza tinh chế hoà tan và bao gồm tỷ lệ đường glucoza và fructoza bằng nhau tính theo trọng lượng.', en: '(2) Invert sugar , the main constituent of natural honey. It is usually prepared commercially by the hydrolysis of refined sucrose solutions and consists of equal proportions by weight of glucose and fructose.' },
+      { type: 'list', vi: '(3) Đường glucoza , thường có tự nhiên trong trái cây và trong mật ong. Đường glucoza cùng với tỉ lệ bằng đường fructoza thì tạo thành đường nghịch chuyển.', en: '(3) Glucose , which occurs naturally in fruits and honey. Together with an equal part of fructose it constitutes invert sugar.' },
+      { type: 'list', vi: '(4) Đường fructoza (C6H12O6) có nhiều, với glucoza, trong các loại quả ngọt và trong mật ong.', en: '(4) Fructose (C6H12O6) which is present in large quantities, with glucose, in sweet fruits and in honey.' },
+      { type: 'list', vi: '(5) Đường sucroza, thu được từ các nguồn không phải là củ cải đường và mía đường. Quan trọng nhất là đường từ cây thích , thu được từ nhựa của cây thích...', en: '(5) Sucrose sugars , obtained from sources other than the sugar beet and the sugar cane. The most important is maple sugar, obtained from the sap of varieties of the maple tree...' },
+      { type: 'list', vi: '(6) Đường malto- dextrin (hoặc dextri-maltoses ), thu được theo quy trình sản xuất tương tự đường glucoza thương phẩm.', en: '(6) Malto-dextrins (or dextri-maltoses ), obtained by the same process as commercial glucose.' },
+      { type: 'list', vi: '(7) Đường maltoza (C12H22O11) được sản xuất ở quy mô công nghiệp từ sự thủy phân tinh bột với chất diastase của malt và được sản xuất ở dạng bột kết tinh có màu trắng.', en: '(7) Maltose (C12H22O11) which is produced industrially from starch by hydrolysis with malt diastase and is produced in the form of a white crystalline powder.' },
+      { type: 'paragraph', vi: '(B) XIRÔ ĐƯỜNG', en: '(B) SUGAR SYRUPS' },
+      { type: 'paragraph', vi: 'Phần này gồm các loại xirô của tất cả các loại đường (kể cả xirô lactoza cũng như các dung dịch chứa nước trừ dung dịch chứa nước của đường tinh khiết về mặt hoá học thuộc nhóm 29.40 ), với điều kiện chưa được thêm hương liệu hoặc chất màu (xem phần Chú giải của nhóm 21.06). Ngoài xirô được đề cập ở phần A trên đây (tức là xirô glucoza (tinh bột)), xirô fructoza, xirô malto-dextrin, xirô đường nghịch chuyển cũng như xirô sucroza), nhóm này gồm:', en: 'This part covers syrups of all sugars (including lactose syrups and aqueous solutions other than aqueous solutions of chemically pure sugars of heading 29.40 ), provided they do not contain added flavouring or colouring matter (see Explanatory Note to heading 21.06).' },
+      { type: 'list', vi: '(1) Xirô đường (simple syrup) thu được từ sự hoà tan các loại đường của Chương này trong nước.', en: '(1) Simple syrups obtained by dissolving sugars of this Chapter in water.' },
+      { type: 'list', vi: '(2) Nước ép và xirô thu được trong quá trình chiết xuất đường từ mía đường, củ cải đường.... Các loại nước này có thể chứa tạp chất như: chất pectin, chất albuminoidal, muối khoáng …', en: '(2) Juices and syrups obtained during the extraction of sugars from sugar beet, sugar cane. etc. These may contain pectin, albuminoidal substances, mineral salts, etc., as impurities.' },
+      { type: 'list', vi: '(3) Xirô vàng , dùng làm đồ uống hoặc làm thức ăn có chứa đường sucroza và đường nghịch chuyển.', en: '(3) Golden syrup , a table or culinary syrup containing sucrose and invert sugar.' },
+      { type: 'paragraph', vi: '(C) MẬT ONG NHÂN TẠO', en: '(C) ARTIFICIAL HONEY' },
+      { type: 'paragraph', vi: 'Thuật ngữ “mật ong nhân tạo” dùng cho các hỗn hợp pha trộn đường sucroza, đường glucoza hoặc đường nghịch chuyển, thường đã thêm hương liệu hoặc chất màu và chế biến để giống mật ong tự nhiên. Nhóm này cũng bao gồm cả các hỗn hợp pha trộn mật ong tự nhiên với mật ong nhân tạo.', en: 'The term “artificial honey” applies to mixtures based on sucrose, glucose or invert sugar, generally flavoured or coloured and prepared to imitate natural honey. Mixtures of natural and artificial honey are also included in this heading.' },
+      { type: 'paragraph', vi: '(D) ĐƯỜNG CARAMEN', en: '(D) CARAMEL' },
+      { type: 'paragraph', vi: 'Đường caramen là chất có màu nâu, không kết tinh được và có mùi thơm. Nó có thể ở dạng chất lỏng ít nhiều giống như xirô, hoặc dạng rắn, thường ở dạng bột.', en: 'Caramel is a brown non-crystallisable substance with an aromatic odour. It may be in the form either of a more or less syrupy liquid or of a solid, usually a powder.' },
 
-      { type: 'heading', vi: '17.03 - Mật thu được từ quá trình chiết xuất hoặc tinh chế đường.', en: '17.03 - Molasses resulting from the extraction or refining of sugar.' },
+      { type: 'heading', vi: '17.03 - Mật thu được từ chiết xuất hoặc tinh chế đường (+).', en: '17.03 - Molasses resulting from the extraction or refining of sugar (+).' },
       { type: 'list', vi: '1703.10 - Mật mía', en: '1703.10 - Cane molasses' },
       { type: 'list', vi: '1703.90 - Loại khác', en: '1703.90 - Other' },
-      { type: 'paragraph', vi: 'Nhóm này chỉ bao gồm mật được thu từ việc chiết xuất hoặc tinh chế đường. Mật thường là sản phẩm phụ của quá trình sản xuất hoặc tinh chế đường củ cải hoặc đường mía. Nó là một dung dịch đặc sẫm màu, thường có mùi đặc biệt, có một lượng lớn đường không thể kết tinh được.', en: 'This heading covers only molasses resulting from the extraction or refining of sugar. It is usually obtained as a by-product of the extraction or refining of beet or cane sugar. It is a brownish or blackish viscous substance, usually with a specific smell, containing a considerable proportion of sugar which cannot readily be crystallised.' },
-      { type: 'paragraph', vi: 'Mật của nhóm này có thể được khử màu, khử mùi và lọc sạch để dùng làm thức ăn cho người hoặc dùng để sản xuất nước xốt, mật đường,... Nó cũng có thể được dùng làm thức ăn gia súc hoặc để cất rượu rum hay êtylic.', en: 'The molasses of this heading may be decolourised, sweetened or concentrated. It is used as a foodstuff, in the manufacture of table molasses (golden syrup), sauces, rum, ethyl alcohol, cattle feed, etc.' },
+      { type: 'paragraph', vi: 'Các loại mật thuộc nhóm này chỉ thu được từ kết quả của việc chiết xuất hoặc tinh chế đường. Mật thu được thường là sản phẩm phụ thông thường từ việc chiết xuất hoặc tinh chế đường mía hoặc đường củ cải hoặc từ việc sản xuất đường fructoza từ ngô. Đó là chất nhớt có màu nâu hoặc hơi đen chứa một lượng đáng kể đường không thể dễ dàng làm kết tinh. Tuy nhiên, nó có thể được làm thành bột.', en: 'Molasses of this heading is obtained only as a result of the extraction or refining of sugar. It is most commonly obtained as a normal by-product resulting from the extraction or refining of beet or cane sugar or from the production of fructose from maize (corn). It Is a brown or blackish viscous substance containing an appreciable amount of sugar which cannot readily be crystallised. However, it may be powdered.' },
+      { type: 'paragraph', vi: 'Mật củ cải đường thu được như ở trên thường không ăn được, nhưng một số dạng đã qua tinh chế của mật mía và mật ngô thích hợp dùng làm thức ăn cho người và được bán như là mật đường hoặc như xirô để ăn. Công dụng chủ yếu của các loại mật là dùng làm nguyên liệu thô để chưng cất rượu và đồ uống có cồn (ví dụ, rượu rum chế biến từ mật mía đường), hoặc chế biến thức ăn cho gia súc hay các chất thay thế cà phê. Nó cũng đôi khi được dùng để chiết xuất đường.', en: 'Beet sugar molasses is not normally eaten as such, but certain refined forms of sugar cane molasses and com molasses are suitable for human consumption and are sold as treacle or as table syrups. The main uses of molasses are as the raw material from which alcohols and alcoholic beverages are distilled (e.g., rum from sugar cane molasses), in the preparation of cattle foods and coffee substitutes. It is also sometimes used for the extraction of sugar.' },
+      { type: 'paragraph', vi: 'Các loại mật thuộc nhóm này có thể bị khử màu, tạo màu hoặc tạo mùi.', en: 'Molasses of this heading may be decolourised, coloured or flavoured.' },
 
       { type: 'heading', vi: '17.04 - Các loại kẹo đường (kể cả sô cô la trắng), không chứa ca cao.', en: '17.04 - Sugar confectionery (including white chocolate), not containing cocoa.' },
       { type: 'list', vi: '1704.10 - Kẹo cao su, đã hoặc chưa bọc đường', en: '1704.10 - Chewing gum, whether or not sugar-coated' },
       { type: 'list', vi: '1704.90 - Loại khác', en: '1704.90 - Other' },
-      { type: 'paragraph', vi: 'Nhóm này bao gồm các sản phẩm kẹo đường ở dạng rắn hoặc bán rắn, thông thường thích hợp để ăn trực tiếp. Kẹo đường là chế phẩm từ đường được bán trên thị trường, có thể chứa các chất làm ngọt khác (ví dụ: glucoza, fructoza, lactoza, trehaloza hoặc các loại đường tổng hợp).', en: 'This heading covers sugar confectionery in solid or semi-solid form, generally suitable for immediate consumption. Sugar confectionery means preparations based on sugar which are sold as confectionery; it includes also confectionery containing other sweeteners (e.g., glucose, fructose, lactose, trehalose or synthetic sweeteners).' },
-      { type: 'paragraph', vi: 'Nhóm này bao gồm các sản phẩm như:', en: 'The heading includes, inter alia :' },
-      { type: 'list', vi: '(1) Kẹo cao su (đã hoặc chưa ngọt).', en: '(1) Gum containing sugar (chewing gum, etc.).' },
-      { type: 'list', vi: '(2) Kẹo ngọt (gồm kẹo làm từ bột đường đun sôi như kẹo cứng, caramen, kẹo nuga, kẹo mềm (fondants), kẹo ngậm ho, kẹo bạc hà,...)', en: '(2) Sweets (including boiled sweets), caramels, cachous, candies, nougat, fondants, sugared almonds, turkish delight.' },
-      { type: 'list', vi: '(3) Các chế phẩm từ bột nhào đường, bột nhào hạt nhân, bột nhào hạnh nhân, bột nhào quả persipan (hạt mơ, mận,...), bột nhào lạc, được dùng để sản xuất kẹo đường.', en: '(3) Preparations of sugar, gum and other ingredients (marzipan, nougat, etc.) used for making confectionery.' },
-      { type: 'list', vi: '(4) Các loại mứt, thạch trái cây và bột nhão từ quả ở dạng kẹo đường.', en: '(4) Jams, fruit jellies, fruit pastes, etc., in the form of sugar confectionery.' },
-      { type: 'list', vi: '(5) Sô cô la trắng; gồm đường, bơ ca cao, sữa bột và hương liệu, nhưng không chứa ca cao ít béo.', en: '(5) White chocolate, composed of sugar, cocoa butter, milk powder and flavouring, but containing no more than traces of cocoa.' },
-      { type: 'list', vi: '(6) Các chế phẩm chiết xuất từ cam thảo (dạng bánh, thỏi, thỏi nhỏ,...) chứa trên 10% trọng lượng sucroza. (Nếu dưới 10% thì thuộc nhóm 13.02).', en: '(6) Liquorice extract preparations (cakes, blocks, sticks, pastilles, etc.) containing more than 10 % by weight of sucrose. (If containing 10 % or less, heading 13.02).' },
-      { type: 'paragraph', vi: 'Nhóm này không bao gồm :', en: 'The heading excludes :' },
-      { type: 'list', vi: '(a) Kẹo đường có chứa ca cao (nhóm 18.06).', en: '(a) Sugar confectionery containing cocoa (heading 18.06).' },
-      { type: 'list', vi: '(b) Các chế phẩm làm ngọt nhân tạo (nhóm 21.06).', en: '(b) Artificial sweetening preparations (heading 21.06).' },
-      { type: 'list', vi: '(c) Các chế phẩm dùng cho người bệnh đái tháo đường (nhóm 21.06).', en: '(c) Preparations for diabetics (heading 21.06).' },
-      { type: 'list', vi: '(d) Dược phẩm có chứa đường (Chương 30).', en: '(d) Medicaments containing sugar (Chapter 30).' }
+      { type: 'paragraph', vi: 'Nhóm này bao gồm hầu hết các chế phẩm đường có trên thị trường ở thể rắn hoặc thể bán rắn, thường thích hợp để sử dụng ngay và gọi chung là mứt kẹo, bánh kẹo hoặc kẹo .', en: 'This heading covers most of the sugar preparations which are marketed in a solid or semi-solid form, generally suitable for immediate consumption and collectively referred to as sweetmeats, confectionery or candies.' },
+      { type: 'paragraph', vi: 'Nhóm này có thể kể đến:', en: 'It includes, inter alia :' },
+      { type: 'list', vi: '(1) Kẹo cao su có đường (kể cả kẹo cao su được làm ngọt và các loại tương tự).', en: '(1) Gums containing sugar (including sweetened chewing gum and the like).' },
+      { type: 'list', vi: '(2) Kẹo cứng (kể cả kẹo có chiết xuất từ malt).', en: '(2) Boiled sweets (including those containing malt extract).' },
+      { type: 'list', vi: '(3) Caramen, kẹo cao su (cachou), kẹo đường, kẹo nougat, kẹo mềm (fondant), kẹo hạnh nhân, kẹo Turkish delight.', en: '(3) Caramels, cachous, candies, nougat, fondants, sugared almonds, Turkish delight.' },
+      { type: 'list', vi: '(4) Bánh hạnh nhân.', en: '(4) Marzipan.' },
+      { type: 'list', vi: '(5) Các chế phẩm ở dạng kẹo viên ngậm hoặc kẹo chống ho đã đóng gói, chủ yếu làm bằng đường...', en: '(5) Preparations put up as throat pastilles or cough drops, consisting essentially of sugars...' },
+      { type: 'list', vi: '(6) Sôcôla trắng gồm đường, bơ cacao, sữa bột và hương liệu, nhưng chứa một lượng rất ít cacao (bơ cacao không coi như cacao).', en: '(6) White chocolate composed of sugar, cocoa butter, milk powder and flavouring agents, but not containing more than mere traces of cocoa (cocoa butter is not regarded as cocoa).' },
+      { type: 'list', vi: '(7) Chiết xuất từ cam thảo (bánh, khối, que, viên...) chứa trên 10% trọng lượng là đường sucroza. Tuy nhiên, khi được đóng gói ở dạng kẹo (có hoặc không có hương liệu), chiết xuất cam thảo thuộc nhóm này không tính đến tỷ lệ đường.', en: '(7) Liquorice extract (cakes, blocks, sticks, pastilles, etc.) containing more than 10 % by weight of sucrose. When put up (i.e., prepared) as confectionery, however, (flavoured or not), liquorice extract falls in the heading irrespective of the proportion of sugar.' },
+      { type: 'list', vi: '(8) Thạch trái cây và bột trái cây nhão được đóng gói ở dạng kẹo đường.', en: '(8) Fruit jellies and fruit pastes put up in the form of sugar confectionery.' },
+      { 
+        type: 'paragraph', 
+        vi: '(9) Bột nhão từ đường và chứa một ít hoặc không có chất béo và thích hợp không những dùng trực tiếp làm mứt kẹo của nhóm này, mà còn làm nhân của các sản phẩm thuộc nhóm này hoặc các nhóm khác, ví dụ:', 
+        en: '(9) Pastes based on sugar and containing little or no added fat and suitable for transformation directly into sugar confectionery of this heading, but also used as a filling for products of this or other headings, for example:' 
+      },
+      { type: 'list', vi: '(a) Bột nhão làm kẹo frondant được chế biến từ đường sucroza, xirô sucroza hoặc xirô glucoza hoặc xirô đường nghịch chuyển có hoặc không có hương liệu, dùng sản xuất kẹo mềm (fondant), và làm nhân trong kẹo hoặc sôcôla...', en: '(a) Fondant pastes prepared from sucrose, sucrose or glucose syrup or invert sugar syrup with or without flavouring, used for making fondants, as a filling for sweets or chocolates, etc.' },
+      { type: 'list', vi: '(b) Bột nhão làm kẹo nougat, là hỗn hợp có khí của đường, nước và chất tạo keo (ví dụ, lòng trắng trứng) và đôi khi thêm một lượng nhỏ chất béo, có hoặc không có thêm quả hạch (nut), quả hoặc các sản phẩm thực vật khác, dùng để sản xuất kẹo nougat và làm nhân trong sôcôla, ...', en: '(b) Nougat pastes, being aerated mixtures of sugar, water and colloidal materials (e.g., egg white) and sometimes with a small quantity of added fat, with or without the addition of nuts, fruits or other suitable vegetable products, used for making nougat, as filling for chocolates, etc.' },
+      { type: 'list', vi: '(c) Bột hạnh nhân nhão, chế biến chủ yếu từ hạnh nhân và đường, dùng chủ yếu để sản xuất bánh hạnh nhân.', en: '(c) Almond pastes, prepared mainly from almonds and sugar, used essentially for making marzipan.' },
+      { type: 'list', vi: '(10) Các chế phẩm làm từ mật ong tự nhiên được đóng gói dưới dạng kẹo đường (ví dụ: “halva”).', en: '(10) Preparations based on natural honey put up in the form of sugar confectionery (e.g., “halva”).' }
     ]
   },
 
@@ -4583,7 +4648,7 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
       { type: 'list', vi: '(c) Loại không khí , nhằm loại bỏ oxy vì khí này ảnh hưởng xấu đến màu và mùi vị của sản phẩm.', en: '(c) De-aeration , to eliminate oxygen which would spoil the colour and flavour.' },
       { type: 'list', vi: '(d) Đồng nhất hoá , trong trường hợp một số loại nước ép thu được từ các loại quả có nhiều thịt (cà chua, đào, ...).', en: '(d) Homogenisation , in the case of certain juices obtained from very fleshy fruits (tomatoes, peaches, etc.).' },
       { type: 'list', vi: '(e) Tiệt trùng, nhằm tránh việc lên men. Công đoạn này có thể được tiến hành theo nhiều phương thức, ví dụ: tiệt trùng theo phương pháp pasteur kéo dài hoặc chớp nhoáng (flash pasteurisation), tiệt trùng bằng điện trong những máy có gắn các điện cực, tiệt trùng bằng phương pháp lọc, bảo quản bằng áp lực carbon dioxide, bảo quản lạnh, tiệt trùng bằng phương pháp hoá học (bằng dùng chất sulphur dioxide, benzoate natri...), xử lý bằng tia cực tím hoặc chất trao đổi ion.', en: '(e) Sterilisation , to prevent fermentation. Various methods may be employed, for example, pasteurisation (prolonged or “flash”), electric sterilisation in machines fitted with electrodes, sterilisation by filtration, preservation under pressure using carbon dioxide, refrigeration, chemical sterilisation (e.g., by means of sulphur dioxide, sodium benzoate), treatment with ultra-violet rays or ion exchangers.' },
-      { type: 'paragraph', vi: 'Nhờ qua các khâu xử lý trên, các loại nước ép quả, nước ép rau sẽ có dạng lỏng trong, chưa lên men. Tuy nhiên, đối với một số loại nước ép (đặc biệt là loại được ép từ các loại quả nhiều thịt như mơ, đào và cà chua (vẫn còn phần nhỏ thịt quả bị vẩn hoặc bị lắng đọng.', en: 'As a result of these various treatments the fruit or vegetable juices may consist of clear, unfermented liquids. Certain juices, however (in particular those obtained from pulpy fruits such as apricots, peaches and tomatoes) still contain part of the pulp in finely divided form, either in suspension or as a deposit.' },
+      { type: 'paragraph', vi: 'Nhờ qua các khâu xử lý trên, các loại nước ép quả, nước ép rau sẽ có dạng lỏng trong, chưa lên men. Tuy nhiên, đối với một số loại nước ép (đặc biệt là loại được ép từ các loại quả nhiều thịt như mơ, đào và cà chua) vẫn còn phần nhỏ thịt quả bị vẩn hoặc bị lắng đọng.', en: 'As a result of these various treatments the fruit or vegetable juices may consist of clear, unfermented liquids. Certain juices, however (in particular those obtained from pulpy fruits such as apricots, peaches and tomatoes) still contain part of the pulp in finely divided form, either in suspension or as a deposit.' },
       { type: 'paragraph', vi: 'Nhóm này cũng bao gồm các loại nước ép, tương đối hiếm trong thực tế, thu được từ các loại quả khô với điều kiện là những loại quả này có chứa nước quả khi còn tươi. Ví dụ như trường hợp của “nước ép mận khô”, được chiết xuất từ mận khô bằng cách làm nóng với nước trong nhiều giờ trong máy khuếch tán. Tuy nhiên, nhóm này không bao gồm các sản phẩm ở dạng lỏng, thu được từ quá trình làm nóng trong nước các loại quả tươi hay khô (ví dụ, quả cây bách xù, hoa hồng dại) mà hầu như không còn nước quả; các sản phẩm như vậy thường được phân loại thuộc nhóm 21.06 .', en: 'The heading also includes juices, relatively few in practice, obtained from dried fruits provided that they are of a kind which contain juice when fresh. One example is “prune juice”, extracted from prunes by heating with water for several hours in diffusers. The heading does not , however, cover the more or less liquid products obtained by the heating in water of fresh or dried fruits (e.g., juniper berries, rose hips) which contain practically no juice: such products are generally classified in heading 21.06 .' },
       { type: 'paragraph', vi: 'Các loại nước ép của nhóm này có thể có dạng cô đặc (đã hoặc chưa đông lạnh) hoặc dạng kết tinh hoặc dạng bột , với điều kiện là, đối với trường hợp bột hoặc dạng kết tinh, chúng hòa tan hoặc hầu như tan hết trong nước. Các sản phẩm này thường thu được bằng các công đoạn xử lý qua nhiệt (không hoặc có chân không) hoặc lạnh (làm khô lạnh).', en: 'The juices of this heading may be concentrated (whether or not frozen) or in the form of crystals or powder provided, in the latter case, that they are entirely or almost entirely soluble in water. Such products are usually obtained by processes involving either heat (whether or not in a vacuum) or cold (lyophilisation).' },
       { type: 'paragraph', vi: 'Một số loại nước ép cô đặc có thể được phân biệt với các loại nước ép không cô đặc tương ứng dựa trên cơ sở trị giá Brix (xem Chú giải phân nhóm 3 của Chương này).', en: 'Certain concentrated juices can be distinguished from their corresponding non-concentrated juices on the basis of their Brix value (see Subheading Note 3 to this Chapter).' },
@@ -4980,7 +5045,7 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
 
       { type: 'heading', vi: '22.09 - Giấm và chất thay thế giấm làm từ axít axetíc.', en: '22.09 - Vinegar and substitutes for vinegar obtained from acetic acid.' },
       { type: 'paragraph', vi: '(I) GIẤM', en: '(I) VINEGAR' },
-      { type: 'paragraph', vi: 'Giấm là một chất lỏng axit thu được thu được bằng quá trình lên men axetic khi được để ra ngoài không khí và ở một nhiệt độ ổn định thông thường không vượt quá 20°c đến 30°c, của tất cả các loại chất lỏng có cồn hoặc của một số dung dịch có đường hoặc có tinh bột sau khi đã qua quá trình lên men rượu, dưới tác động của vi khuẩn giấm Mycoderma aceti hoặc acetobacter.', en: 'Vinegar is an acid liquid obtained by the acetic fermentation in the presence of air and at a constant temperature generally not exeeeding 20 °C to 30 °C, of alcoholic liquids of any source or of various sugar or starch solutions having undergone alcoholic fermentation, under the action of vinegar bacteria Mycoderma aceti or acetobacter.' },
+      { type: 'paragraph', vi: 'Giấm là một chất lỏng axit thu được bằng quá trình lên men axetic khi được để ra ngoài không khí và ở một nhiệt độ ổn định thông thường không vượt quá 20°c đến 30°c, của tất cả các loại chất lỏng có cồn hoặc của một số dung dịch có đường hoặc có tinh bột sau khi đã qua quá trình lên men rượu, dưới tác động của vi khuẩn giấm Mycoderma aceti hoặc acetobacter.', en: 'Vinegar is an acid liquid obtained by the acetic fermentation in the presence of air and at a constant temperature generally not exeeeding 20 °C to 30 °C, of alcoholic liquids of any source or of various sugar or starch solutions having undergone alcoholic fermentation, under the action of vinegar bacteria Mycoderma aceti or acetobacter.' },
       { type: 'paragraph', vi: 'Nhóm này bao gồm các loại giấm sau, được phân biệt theo nguồn gốc của chúng:', en: 'The heading includes the following varieties of vinegar, distinguished according to their origin:' },
       { type: 'list', vi: '(1) Giấm làm từ rượu vang . Đó là một dung dịch có màu vàng nhạt đến màu đỏ tuỳ theo loại rượu vang được chế biến; nó có một hương vị đặc biệt ( bouquet ) nhờ vào sự tồn tại, ví dụ, của các este có trong rượu vang.', en: '(1) Wine vinegar . This is pale yellow to red in colour according to the type of wine from which it is prepared; it has a special bouquet due to the presence, e.g., of wine esters.' },
       { type: 'list', vi: '(2) Giấm làm từ bia hoặc từ malt; giấm làm từ vang táo, vang lê hoặc từ các loại quả đã lên men khác . Các loại giấm này thường có màu vàng nhạt.', en: '(2) Beer or malt vinegar; cider, perry or other fermented fruit vinegars. These are generally yellowish in colour.' },
@@ -5184,7 +5249,7 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
       { type: 'list', vi: '(b) Các hỗn hợp đơn giản của hạt ngũ cốc ( Chương 10 ), của bột ngũ cốc hoặc của bột rau đậu ( Chương 11 ).', en: '(b) Simple mixtures of cereal grains ( Chapter 10 ), of cereal flours or of flours of leguminous vegetables ( Chapter 11 ).' },
       { type: 'list', vi: '(c) Các chế phẩm có thể được dùng để làm thức ăn chăn nuôi hoặc thức ăn cho người tuỳ theo bản chất, độ tinh khiết và tỉ lệ tương ứng của các thành phần, tuỳ theo điều kiện vệ sinh trong quá trình chế biến và nếu cần, tuỳ theo những chỉ dẫn được ghi trên bao bì hoặc tất cả các hướng dẫn sử dụng khác (chủ yếu phân loại vào các nhóm 19.01 và 21.06 ).', en: '(c) Preparations which, when account is taken, in particular, of the nature, purity and proportions of the ingredients, the hygiene requirements complied with during manufacture and, when appropriate, the indications given on the packaging or any other information concerning their use, can be used either for feeding animals or for human consumption ( headings 19.01 and 21.06 , in particular).' },
       { type: 'list', vi: '(d) Phế thải, phế liệu và sản phẩm phụ thực vật thuộc nhóm 23.08 .', en: '(d) Vegetable waste, residues and by-products of heading 23.08.' },
-      { type: 'list', vi: '(e) Vitamin, xác định hoặc không xác định về mặt hóa học hoặc pha trộn hóa học, trong dung môi hoặc không trong dung môi hoặc được làm ổn định bằng việc bổ sung các chất chống oxy hóa hoặc các chất chống vón, hoặc bằng cách hút bám trên một chất nền hoặc bằng cách phủ bảo vệ bằng, ví dụ, galetin, sáp, chất béo,..., với điều kiện số lượng các chất bổ sung, chất nền hoặc chất phủ không vượt quá yêu cầu bảo quản hoặc vận chuyển và với điều kiện các chất bổ sung, chất nền hoặc chất phủ không làm thay đổi đặc tính của vitamin và không biến chúng đặc biệt phục vụ cho một nhu cầu một nhu cầu cụ thể mà không dùng cho việc sử dụng chung ( nhóm 29.36 ).', en: '(e) Vitamins, whether or not chemically defined or intermixed, whether or not put up in any solvent or stabilisedby the addition of antioxidants or anticaking agents, by adsorption on a substrate or by applying a protective coating of, for example, gelatin, waxes, fats, etc., provided that the quantity of such additives, substrate or coating does not exceed that required for preservation or transport and provided that such additives, substrates or coating do not alter the character of the vitamins and do not render them particularly suitable for specific use rather than for general use ( heading 29.36 ).' },
+      { type: 'list', vi: '(e) Vitamin, xác định hoặc không xác định về mặt hóa học hoặc pha trộn hóa học, trong dung môi hoặc không trong dung môi hoặc được làm ổn định bằng việc bổ sung các chất chống oxy hóa hoặc các chất chống vón, hoặc bằng cách hút bám trên một chất nền hoặc bằng cách phủ bảo vệ bằng, ví dụ, gelatin, sáp, chất béo,..., với điều kiện số lượng các chất bổ sung, chất nền hoặc chất phủ không vượt quá yêu cầu bảo quản hoặc vận chuyển và với điều kiện các chất bổ sung, chất nền hoặc chất phủ không làm thay đổi đặc tính của vitamin và không biến chúng đặc biệt phục vụ cho một nhu cầu một nhu cầu cụ thể mà không dùng cho việc sử dụng chung ( nhóm 29.36 ).', en: '(e) Vitamins, whether or not chemically defined or intermixed, whether or not put up in any solvent or stabilisedby the addition of antioxidants or anticaking agents, by adsorption on a substrate or by applying a protective coating of, for example, gelatin, waxes, fats, etc., provided that the quantity of such additives, substrate or coating does not exceed that required for preservation or transport and provided that such additives, substrates or coating do not alter the character of the vitamins and do not render them particularly suitable for specific use rather than for general use ( heading 29.36 ).' },
       { type: 'list', vi: '(f) Các sản phẩm của Chương 29 .', en: '(f) Other products of Chapter 29 .' },
       { type: 'list', vi: '(g) Dược phẩm thuộc nhóm 30.03 và 30.04 .', en: '(g) Medicaments of heading 30.03 or 30.04 .' },
       { type: 'list', vi: '(h) Các chất protein thuộc Chương 35 .', en: '(h) Protein substances of Chapter 35 .' },
@@ -6223,7 +6288,7 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
       { type: 'list', vi: '(7) Dầu trắng.', en: '(7) White oils.' },
       { type: 'paragraph', vi: 'Nhóm này bao gồm các phân đoạn (phần cất) đã miêu tả ở trên, kể cả nếu như chúng được xử lý tiếp để loại bỏ tạp chất (ví dụ: xử lý với axit hoặc kiềm, với các dung môi chọn lọc, với kẽm chloride, với đất hấp thụ, ... hoặc bằng phương pháp tái chưng cất) với điều kiện là biện pháp xử lý này không tạo ra các hợp chất đã được xác định về hóa học riêng biệt ở trạng thái tinh khiết hoặc tinh khiết vì mục đích thương mại (Chương 29).', en: 'The heading covers fractions as described above, even if they have been further treated to eliminate impurities (e.g., treatment with acids or alkalis, with selective solvents, with zinc chloride, with absorbent earths, etc., or by re-distillation), provided this treatment does not produce separate chemically defined compounds in a pure or commercially pure state (Chapter 29).' },
       { type: 'list', vi: '(B) Các loại dầu tương tự mà trong đó trọng lượng các thành phần không thơm lớn hơn trọng lượng các thành phần thơm. Chúng có thể thu được từ việc chưng cất than đá ở nhiệt độ thấp, bằng việc hydro hóa hoặc bằng bất kỳ phương pháp khác (ví dụ: bằng quá trình cracking, reforming v.v).', en: '(B) Similar oils in which the weight of the non-aromatic constituents exceeds that of the aromatic constituents. They may be obtained by the low temperature distillation of coal, by hydrogenation or by any other process (e.g., by cracking, reforming, etc.).' },
-      { type: 'paragraph', vi: 'Nhóm này cũng bao gồm hỗn hợp alkylcne, được gọi là: tripropylene, tetrapropylene, di-isobutylene, tri-isobutylene ... Đây là những hỗn hợp của các hydrocarbon mạch thẳng chưa bão hòa (octylenes, nonylenes, các đồng đẳng và đồng phân của chúng...) và các hydrocarbon mạch thẳng bão hòa.', en: 'The heading includes mixed alkylenes, called tripropylene, tetrapropylene, di-isobutylene, tri-isobutylene, etc. These are mixtures of unsaturated acyclic hydrocarbons (octylenes, nonylenes, homologues and isomers thereof, etc.) and saturated acyclic hydrocarbons.' },
+      { type: 'paragraph', vi: 'Nhóm này cũng bao gồm hỗn hợp alkylene, được gọi là: tripropylene, tetrapropylene, di-isobutylene, tri-isobutylene ... Đây là những hỗn hợp của các hydrocarbon mạch thẳng chưa bão hòa (octylenes, nonylenes, các đồng đẳng và đồng phân của chúng...) và các hydrocarbon mạch thẳng bão hòa.', en: 'The heading includes mixed alkylenes, called tripropylene, tetrapropylene, di-isobutylene, tri-isobutylene, etc. These are mixtures of unsaturated acyclic hydrocarbons (octylenes, nonylenes, homologues and isomers thereof, etc.) and saturated acyclic hydrocarbons.' },
       { type: 'paragraph', vi: 'Chúng thu được hoặc bằng sự trùng hợp rất thấp của propylene, isobutylene hoặc của các hydrocarbon ethylenic khác hoặc bằng cách tách (ví dụ sự chưng cất phân đoạn) từ một số sản phẩm của quá trình cracking dầu khoáng.', en: 'They are obtained either by very low polymerisation of propylene, isobutylene or other ethylenic hydrocarbons or by separation (e.g., fractional distillation) from certain products of the cracking of mineral oils.' },
       { type: 'paragraph', vi: 'Các loại alkylene hỗn hợp chủ yếu được sử dụng trong tổng hợp hóa như làm dung môi hoặc như chất pha loãng. Bởi vì chỉ số octane của chúng cao, nên chúng cũng có thể được đưa vào dầu mỏ trắng cùng các chất phụ gia thích hợp.', en: 'Mixed alkylenes are mainly used in chemical synthesis, as solvents or as diluents. Because of their high octane rating, they can also be incorporated, with appropriate additives, in petroleum spirit.' },
       { type: 'paragraph', vi: 'Tuy nhiên, nhóm này không bao gồm các dầu polyolefins tổng hợp lỏng mà dưới 60% thể tích của chúng cất ở 300°C, sau khi chuyển đổi thành 1.013 milibar (101,3 kPa) khi sử dụng một phương pháp chưng cất giảm áp suất (Chương 39).', en: 'However, this heading does not include liquid synthetic polyolefins of which less than 60 % by volume distils at 300°C, after conversion to 1,013 millibars (101,3 kPa) when a reduced-pressure distillation method is used (Chapter 39).' },
@@ -6342,7 +6407,7 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
       { type: 'paragraph', vi: 'Hỗn hợp bitum của nhóm này bao gồm:', en: 'The bituminous mixtures of this heading include:' },
       { type: 'list', vi: '(1) Cut-backs (nhựa đường pha) thường chứa 60% hoặc hơn bitum hòa trong dung môi. Chúng được sử dụng cho rải mặt đường.', en: '(1) Cut-backs consisting generally of 60 % or more of bitumen with a solvent. They are used for road surfacing.' },
       { type: 'list', vi: '(2) Nhũ tương hoặc hỗn dịch huyền phù bền vững của atphalt, bitumen, hắc ín, nhựa hắc ín trong nước là dạng đặc biệt sử dụng trong rải đường.', en: '(2) Emulsions or stable suspensions of asphalt, bitumen, pitch or tar, in water, of the kinds used in particular for road surfacing.' },
-      { type: 'list', vi: '(3) Maltic asphalt và mattic bitum khác, cũng như các hỗn hợp có chứa bitum tương tự kết hợp các chất khoáng như cát và amiăng. Những chất này được sử dụng để bít trét, hoặc các vật liệu làm khuôn...', en: '(3) Mastics of asphalt and other bituminous mastics, as well as similar bituminous mixtures incorporating mineral substances such as sand or asbestos. These substances are used for caulking, as moulding materials, etc.' },
+      { type: 'list', vi: '(3) Mastic asphalt và mastic bitum khác, cũng như các hỗn hợp có chứa bitum tương tự kết hợp các chất khoáng như cát và amiăng. Những chất này được sử dụng để bít trét, hoặc các vật liệu làm khuôn...', en: '(3) Mastics of asphalt and other bituminous mastics, as well as similar bituminous mixtures incorporating mineral substances such as sand or asbestos. These substances are used for caulking, as moulding materials, etc.' },
       { type: 'paragraph', vi: 'Nhóm này được mở rộng cho các sản phẩm khi kết lại ở dạng khối ... loại tan chảy lại trước khi sử dụng, nhưng loại trừ các sản phẩm đã hoàn chỉnh có hình dạng thông thường (như đá lát mặt đường, các tấm và tấm lát ngói nhóm 68.07 ).', en: 'The heading extends to these products when agglomerated in blocks, etc., of the kind re-melted before use, but it excludes finished articles of regular shape (such as paving flagstones, sheets and tiles) ( heading 68.07 ).' },
       { type: 'paragraph', vi: 'Nhóm này cũng không bao gồm :', en: 'The heading also excludes :' },
       { type: 'list', vi: '(a) Đá dăm trộn hắc ín (đá nghiền với hắc ín) ( nhóm 25.17 ).', en: '(a) Tarred macadam (crushed stones mixed with tar) ( heading 25.17 ).' },
@@ -6358,7 +6423,7 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
   },
 
   // ------------------------------------------------------------
-  // CHAPTERS 28
+  // CHAPTER 28 - ORIGIN VERSION
   // ------------------------------------------------------------
   {
     chapterNumber: 28,
@@ -6367,7 +6432,7 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
     content: [
       { type: 'heading', vi: 'PHẦN VI: SẢN PHẨM CỦA NGÀNH CÔNG NGHIỆP HÓA CHẤT HOẶC CÁC NGÀNH CÔNG NGHIỆP LIÊN QUAN', en: 'SECTION VI: PRODUCTS OF THE CHEMICAL OR ALLIED INDUSTRIES' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
-      { type: 'paragraph', vi: '1.- (A) Các mặt hàng (trừ quặng phóng xạ) đáp ứng các mô tả trong nhóm 28.44 hoặc 28.45 phái được xếp vào các nhóm đó và không được đưa vào nhóm nào khác của Danh mục.', en: '1.- (A) Goods (other than radioactive ores) answering to a description in heading 28.44 or 28.45 are to be classified in those headings and in no other heading of the Nomenclature.' },
+      { type: 'paragraph', vi: '1.- (A) Các mặt hàng (trừ quặng phóng xạ) đáp ứng các mô tả trong nhóm 28.44 hoặc 28.45 phải được xếp vào các nhóm đó và không được đưa vào nhóm nào khác của Danh mục.', en: '1.- (A) Goods (other than radioactive ores) answering to a description in heading 28.44 or 28.45 are to be classified in those headings and in no other heading of the Nomenclature.' },
       { type: 'paragraph', vi: '(B) Theo Chú giải mục (A) trên, các mặt hàng đáp ứng các mô tả trong nhóm 28.43, 28.46 hoặc 28.52 được xếp vào các nhóm đó và không được đưa vào nhóm nào khác của Phần này.', en: '(B) Subject to paragraph (A) above, goods answering to a description in heading 28.43, 28.46 or 28.52 are to be classified in those headings and in no other heading of this Section.' },
       { type: 'paragraph', vi: '2.- Theo Chú giải 1 ở trên, các mặt hàng xếp vào các nhóm 30.04, 30.05, 30.06, 32.12, 33.03, 33.04, 33.05, 33.06, 33.07, 35.06, 37.07 hoặc 38.08 vì đã được đóng gói theo liều lượng hoặc đóng gói để bán lẻ được xếp vào các nhóm đó và không xếp vào bất cứ nhóm nào khác của Danh mục.', en: '2.- Subject to Note 1 above, goods classifiable in heading 30.04, 30.05, 30.06, 32.12, 33.03, 33.04, 33.05, 33.06, 33.07, 35.06, 37.07 or 38.08 by reason of being put up in measured doses or for retail sale are to be classified in those headings and in no other heading of the Nomenclature.' },
       { type: 'paragraph', vi: '3.- Các mặt hàng đóng gói thành bộ gồm từ hai hoặc nhiều phần cấu thành riêng biệt, trong đó một vài hoặc tất cả các phần cấu thành của các mặt hàng đó nằm trong Phần này và chúng được trộn với nhau để tạo ra một sản phẩm của Phần VI hoặc VII, phải được xếp vào nhóm phù hợp với sản phẩm đó, với điều kiện là các phần cấu thành phải:', en: '3.- Goods put up in sets consisting of two or more separate constituents, some or all of which fall in this Section and are intended to be mixed together to obtain a product of Section VI or VII, are to be classified in the heading appropriate to that product, provided that the constituents are:' },
@@ -6425,15 +6490,40 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
       { type: 'list', vi: '2801.10 - Clo', en: '2801.10 - Chlorine' },
       { type: 'list', vi: '2801.20 - Iot', en: '2801.20 - Iodine' },
       { type: 'list', vi: '2801.30 - Flo; brom', en: '2801.30 - Fluorine; bromine' },
+      { 
+        type: 'paragraph', 
+        vi: '(A) FLO. Flo là một chất khí màu vàng xanh nhạt, có vị cay; hít phải nó nguy hiểm vì nó gây tổn thương niêm mạc. Flo được bảo quản trong các bình thép chịu áp; là nguyên tố hoạt động rất mạnh, gây cháy các vật liệu hữu cơ – đặc biệt là gỗ, các loại chất béo và các loại vải.', 
+        en: '(A) FLUORINE. Fluorine is a faintly greenish-yellow gas with a pungent odour; it is dangerous to inhale as it irritates the mucous membranes and is corrosive. It is presented under pressure in steel containers; it is a very active element which ignites organic matter - in particular wood, fats and textiles.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: '(B) CLO. Clo là một chất khí màu vàng xanh nhạt, gây ngạt, ăn mòn, nặng hơn không khí 2,5 lần, hòa tan yếu trong nước và dễ hóa lỏng. Clo phá hủy các chất màu và các chất hữu cơ. Nó được sử dụng để tẩy trắng sợi có nguồn gốc thực vật (không phải nguồn gốc động vật), và trong chế biến bột giấy từ gỗ. Do có đặc tính khử trùng và kháng khuẩn, nó cũng được sử dụng để tiệt trùng nước.', 
+        en: '(B) CHLORINE. Chlorine is a greenish-yellow gas, suffocating, corrosive, two and a half times as dense as air, slightly soluble in water and readily liquefied. Chlorine destroys colouring and organic matter. It is used for bleaching vegetable (but not animal) fibres, and in the preparation of wood pulp. Because of its disinfecting and antiseptic properties, it is also used for sterilising (chlorinating) water.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: '(C) BROM. Brom là chất lỏng rất nặng (tỷ trọng 3.18 ở 0°C), có tính ăn mòn, màu hơi đỏ hoặc nâu tối, thậm chí cả khi lạnh, nó cũng bốc hơi ngạt màu đỏ, gây cay mắt. Khi tiếp xúc với brom, da bị cháy chuyển thành màu vàng, và nó đốt cháy các chất hữu cơ như mùn cưa.', 
+        en: '(C) BROMINE. It is a very dense (3.18 at 0°C), corrosive, reddish or dark brown liquid which, even when cold, gives off suffocating red fumes irritating to the eyes. It inflames the skin, turning it yellow, and ignites organic substances such as sawdust.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: '(D) IOT. Iốt là chất rắn rất nặng (tỷ trọng 4.95 ở 0°C), có mùi vị hơi giống cả clo và brom, nguy hiểm khi hít phải. Nó bị thăng hoa ở nhiệt độ phòng và làm cho tinh bột chuyển thành màu xanh. Khi tinh chế bằng phương pháp thăng hoa, sẽ thu được dạng phiến mỏng màu hơi xám lấp lánh, hoặc dạng tinh thể có ánh kim.', 
+        en: '(D) IODINE. It is a very dense solid (specific gravity 4.95 at 0°C), with an odour reminiscent of both chlorine and bromine; it is dangerous to inhale. It sublimes at room temperature and turns starch-paste blue. When purified by sublimation, it takes the form of brilliant, greyish flakes or crystals with a metallic glint.' 
+      },
 
       { type: 'heading', vi: '28.02 - Lưu huỳnh, thăng hoa hoặc kết tủa; lưu huỳnh dạng keo.', en: '28.02 - Sulphur, sublimed or precipitated; colloidal sulphur.' },
       { type: 'paragraph', vi: '(A) LƯU HUỲNH THĂNG HOA HOẶC KẾT TỦA', en: '(A) SUBLIMED OR PRECIPITATED SULPHUR' },
-      { type: 'paragraph', vi: 'Lưu huỳnh thăng hoa, hoặc hoa lưu huỳnh, thu được từ chưng cất chậm lưu huỳnh thô hoặc chưa tinh khiết, sau đó được ngưng tụ thành thể rắn (hoặc thăng hoa) như các hạt mịn nhẹ. Nó được dùng chủ yếu trong trồng nho, trong công nghiệp hóa học hoặc trong lưu hóa cao su hạng cao.', en: 'Sublimed sulphur, or flowers of sulphur, is obtained by slow distillation of crude or impure sulphur, followed by condensation in the solid form (or sublimation) as fine, very light particles. It is chiefly used in viticulture, in the chemical industry or for vulcanising high-grade rubber.' },
-      { type: 'paragraph', vi: 'Lưu huỳnh kết tủa được phân loại ở đây thường thu được bằng cách làm kết tủa dung dịch muối sulphua, hoặc polysulphua kim loại kiềm hoặc kim loại kiềm thổ, với axit clohydric. Nó là dạng hạt khá mịn và có màu vàng nhạt kém hơn so với lưu huỳnh thăng hoa; mùi của nó có phần tương tự mùi của hydro sulphua và nó biến đổi dần theo thời gian. Nó hầu như hoàn toàn được sử dụng trong y học.', en: 'The precipitated sulphur classified here is always obtained by precipitating a solution of a sulphide, or of an alkaline or alkaline-earth polysulphide, with hydrochloric acid. It is more finely divided and paler yellow than sublimed sulphur; its odour is somewhat similar to that of hydrogen sulphide and it deteriorates with age. Its uses are almost entirely medicinal.' },
+      { type: 'paragraph', vi: 'Lưu huỳnh thăng hoa, hoặc hoa lưu huỳnh, thu được từ chưng cất chậm lưu huỳnh thô hoặc chưa tinh khiết, sau đó được ngưng tụ thành thể rắn (hoặc thăng hoa) như các hạt mịn nhẹ.', en: 'Sublimed sulphur, or flowers of sulphur, is obtained by slow distillation of crude or impure sulphur, followed by condensation in the solid form (or sublimation) as fine, very light particles.' },
+      { type: 'paragraph', vi: 'Lưu huỳnh kết tủa được phân loại ở đây thường thu được bằng cách làm kết tủa dung dịch muối sulphua, hoặc polysulphua kim loại kiềm hoặc kim loại kiềm thổ, với axit clohydric. Nó là dạng hạt khá mịn và có màu vàng nhạt kém hơn so với lưu huỳnh thăng hoa.', en: 'The precipitated sulphur classified here is always obtained by precipitating a solution of a sulphide, or of an alkaline or alkaline-earth polysulphide, with hydrochloric acid. It is more finely divided and paler yellow than sublimed sulphur.' },
       { type: 'paragraph', vi: '(B) LƯU HUỲNH DẠNG KEO', en: '(B) COLLOIDAL SULPHUR' },
-      { type: 'paragraph', vi: 'Lưu huỳnh dạng keo được điều chế bằng cách cho hydro sulphua tác dụng với dung dịch dioxit lưu huỳnh có chứa gelatin. Nó cũng có thể thu được bằng cách cho axit khoáng tác dụng với natri thiosulphat, hoặc bằng phương pháp thu bột từ cathod. Lưu huỳnh dạng keo là bột trắng tạo dạng nhũ tương với nước; tuy nhiên nó có thể chỉ duy trì được ở trạng thái này nếu một chất keo bảo quản (albumin hoặc gelatin) được thêm vào, và thậm chí nó có thể chỉ tồn tại được trong khoảng thời gian hạn chế. Nhóm này bao gồm các dung dịch keo đã điều chế. Giống như tất cả các dạng keo phân tán, dạng lưu huỳnh phân tán có bề mặt tiếp xúc lớn cho việc hấp thụ và có thể thu hút chất màu; chúng cũng có tác dụng diệt trùng khá mạnh nên được sử dụng trong y học.', en: 'Colloidal sulphur is obtained by the action of hydrogen sulphide on a solution of sulphur dioxide containing gelatin. It may also be obtained by the action of mineral acid on sodium thiosulphate, or by cathodic pulverisation. Colloidal sulphur is a white powder which forms an emulsion with water; however it can be preserved in this state only if a protective colloid (albumin or gelatin) is added, and even then it can be kept for only a limited time. The heading includes this prepared colloidal solution. Like all colloidal dispersions, sulphur dispersions have a large surface for adsorption and can take up colouring matter; they are also very active antiseptics used internally in medicine.' },
+      { type: 'paragraph', vi: 'Lưu huỳnh dạng keo được điều chế bằng cách cho hydro sulphua tác dụng với dung dịch dioxit lưu huỳnh có chứa gelatin. Lưu huỳnh dạng keo là bột trắng tạo dạng nhũ tương với nước; tuy nhiên nó có thể chỉ duy trì được ở trạng thái này nếu một chất keo bảo quản (albumin hoặc gelatin) được thêm vào.', en: 'Colloidal sulphur is obtained by the action of hydrogen sulphide on a solution of sulphur dioxide containing gelatin. Colloidal sulphur is a white powder which forms an emulsion with water; however it can be preserved in this state only if a protective colloid (albumin or gelatin) is added.' },
 
       { type: 'heading', vi: '28.03 - Carbon (muội carbon và các dạng khác của carbon chưa được chi tiết hoặc ghi ở nơi khác).', en: '28.03 - Carbon (carbon blacks and other forms of carbon not elsewhere specified or included).' },
+      { 
+        type: 'paragraph', 
+        vi: 'Muội carbon thu được từ việc đốt cháy không hoàn toàn hoặc cracking (bằng cách gia nhiệt, bằng hồ quang điện hoặc bằng tia lửa điện) các chất hữu cơ giàu carbon, như: (1) Các loại khí tự nhiên như metan, các khí antraxen và axetylen (muội axetylen); (2) Naphthalen, các dạng nhựa, dầu (muội đèn). Muội carbon được sử dụng như một chất màu cho sản xuất sơn, mực in, xi đánh giày,..., trong sản xuất giấy than, và cũng được sử dụng như một tác nhân gia cố trong công nghiệp cao su.', 
+        en: 'Carbon black results from the incomplete combustion or cracking (by heating, by electric arc or by electric sparks) of organic substances rich in carbon, such as: (1) Natural gases such as methane, anthracenic gases and acetylene (Acetylene black); (2) Naphthalene, resins, oils (lamp black). Carbon black is used as a pigment for the manufacture of paint, printing ink, shoe-polish, etc., in making carbon paper, and as a reinforcing agent in the rubber industry.' 
+      },
 
       { type: 'heading', vi: '28.04 - Hydro, khí hiếm và các phi kim loại khác.', en: '28.04 - Hydrogen, rare gases and other non-metals.' },
       { type: 'list', vi: '2804.10 - Hydro', en: '2804.10 - Hydrogen' },
@@ -6449,6 +6539,11 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
       { type: 'list', vi: '2804.70 - Phospho', en: '2804.70 - Phosphorus' },
       { type: 'list', vi: '2804.80 - Arsen', en: '2804.80 - Arsenic' },
       { type: 'list', vi: '2804.90 - Selen', en: '2804.90 - Selenium' },
+      { 
+        type: 'paragraph', 
+        vi: 'Nhóm này bao gồm Hydro (được sử dụng để hydro hóa các loại dầu, cracking dầu mỏ, tổng hợp amoniac...), Khí hiếm (Heli, Neon, Argon, Krypton, Xenon), Nitơ, Oxy (cả ozon), Bo, Telu, Silic (quan trọng trong điện tử và luyện kim), Phospho (trắng và đỏ), Asen và Selen.', 
+        en: 'This heading covers Hydrogen (used for hydrogenating oils, cracking petroleum, ammonia synthesis...), Rare gases (Helium, Neon, Argon, Krypton, Xenon), Nitrogen, Oxygen (including ozone), Boron, Tellurium, Silicon (important in electronics and metallurgy), Phosphorus (white and red), Arsenic and Selenium.' 
+      },
 
       { type: 'heading', vi: '28.05 - Kim loại kiềm hoặc kim loại kiềm thổ; kim loại đất hiếm, scandi và ytri, đã hoặc chưa pha trộn hoặc tạo hợp kim với nhau; thủy ngân.', en: '28.05 - Alkali or alkaline-earth metals; rare-earth metals, scandium and yttrium, whether or not intermixed or interalloyed; mercury.' },
       { type: 'paragraph', vi: '- Kim loại kiềm hoặc kim loại kiềm thổ:', en: '- Alkali or alkaline-earth metals:' },
@@ -6457,6 +6552,11 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
       { type: 'list', vi: '2805.19 - - Loại khác', en: '2805.19 - - Other' },
       { type: 'list', vi: '2805.30 - Kim loại đất hiếm, scandi và ytri đã hoặc chưa pha trộn hoặc tạo hợp kim với nhau', en: '2805.30 - Rare-earth metals, scandium and yttrium whether or not intermixed or interalloyed' },
       { type: 'list', vi: '2805.40 - Thủy ngân', en: '2805.40 - Mercury' },
+      {
+        type: 'paragraph',
+        vi: '(A) Các kim loại kiềm: Liti, Natri, Kali, Rubidi, Xezi. Chúng mềm, khá nhẹ và phân hủy trong nước lạnh. (B) Kim loại kiềm thổ: Canxi, Stronti, Bari. (C) Kim loại đất hiếm: bao gồm các nguyên tố từ số 57 đến 71 (nhóm Lantan), Scandi và Ytri. "Mischmetal" là hợp kim phổ biến của chúng.',
+        en: '(A) Alkali metals: Lithium, Sodium, Potassium, Rubidium, Caesium. They are soft, light and decompose cold water. (B) Alkaline-earth metals: Calcium, Strontium, Barium. (C) Rare-earth metals: include elements 57 to 71 (Lanthanons), Scandium and Yttrium. "Mischmetal" is a common alloy of these.'
+      },
 
       { type: 'heading', vi: 'PHÂN CHƯƠNG II: AXIT VÔ CƠ VÀ CÁC HỢP CHẤT VÔ CƠ CÓ CHỨA OXY CỦA CÁC PHI KIM LOẠI', en: 'SUB-CHAPTER II: INORGANIC ACIDS AND INORGANIC OXYGEN COMPOUNDS OF NON-METALS' },
 
@@ -6689,6 +6789,11 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
       { type: 'list', vi: '2843.29 - - Loại khác', en: '2843.29 - - Other' },
       { type: 'list', vi: '2843.30 - Hợp chất vàng', en: '2843.30 - Gold compounds' },
       { type: 'list', vi: '2843.90 - Hợp chất khác; hỗn hống', en: '2843.90 - Other compounds; amalgams' },
+      { 
+        type: 'paragraph', 
+        vi: 'Hỗn hống là các hợp kim của kim loại với thủy ngân. Hỗn hống của kim loại quý (vàng, bạc) được phân loại ở đây. Hỗn hống có chứa cả kim loại quý và kim loại cơ bản cũng thuộc nhóm này (ví dụ: hỗn hống dùng trong nha khoa). Nhưng hỗn hống hoàn toàn của kim loại cơ bản bị loại trừ (thuộc nhóm 28.53).', 
+        en: 'Amalgams are alloys of metals with mercury. Amalgams of precious metals (gold, silver) are classified here. Amalgams containing both precious metals and base metals are also included (e.g., dental amalgams). However, amalgams wholly of base metals are excluded (heading 28.53).' 
+      },
 
       { type: 'heading', vi: '28.44 - Các nguyên tố hóa học phóng xạ và các đồng vị phóng xạ (kể cả các nguyên tố hóa học và các đồng vị có khả năng phân hạch hoặc làm giàu) và các hợp chất của chúng; hỗn hợp và các phế liệu có chứa các sản phẩm trên.', en: '28.44 - Radioactive chemical elements and radioactive isotopes (including the fissile or fertile chemical elements and isotopes) and their compounds; mixtures and residues containing these products.' },
       { type: 'list', vi: '2844.10 - Uranium tự nhiên và các hợp chất của nó; hợp kim, các chất tán xạ (kể cả gốm kim loại), sản phẩm gốm và hỗn hợp có chứa urani tự nhiên hoặc hợp chất urani tự nhiên', en: '2844.10 - Natural uranium and its compounds; alloys, dispersions (including cermets), ceramic products and mixtures containing natural uranium or natural uranium compounds' },
@@ -6728,17 +6833,105 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
       { type: 'heading', vi: '28.53 - Phosphua, đã hoặc chưa xác định về mặt hóa học, trừ phosphua sắt; các hợp chất vô cơ khác (bao gồm nước cất hoặc nước khử độ dẫn và các loại nước tinh khiết tương tự); khí hóa lỏng (đã hoặc chưa loại bỏ khí hiếm); khí nén; hỗn hống, trừ hỗn hống của kim loại quý.', en: '28.53 - Phosphides, whether or not chemically defined, excluding ferrophosphorus; other inorganic compounds (including distilled or conductivity water and water of similar purity); liquid air (whether or not rare gases have been removed); compressed air; amalgams, other than amalgams of precious metals.' },
       { type: 'list', vi: '2853.10 - Cyanogen chloride (chlorcyan)', en: '2853.10 - Cyanogen chloride (chlorcyan)' },
       { type: 'list', vi: '2853.90 - Loại khác', en: '2853.90 - Other' },
+      { 
+        type: 'paragraph', 
+        vi: 'Nhóm này bao gồm các hỗn hống của kim loại cơ bản (như hỗn hống natri, nhôm, đồng, kẽm, cadimi, antimon...). Hỗn hống có thể thu được bằng tác dụng trực tiếp của các kim loại này với thủy ngân; bằng điện phân các muối kim loại sử dụng một cathod thủy ngân. Natri hỗn hống được dùng để điều chế hydro; hỗn hống nhôm dùng làm tác nhân khử; hỗn hống đồng dùng trong nha khoa (trám răng).', 
+        en: 'This heading covers amalgams of base metals (e.g., sodium, aluminium, copper, zinc, cadmium, antimony amalgams). Amalgams may be obtained by the direct action of these metals on mercury, or by electrolysis of metal salts using a mercury cathode. Sodium amalgam is used for preparing hydrogen; aluminium amalgam as a reducing agent; copper amalgam in dentistry.' 
+      }
     ]
   },
 
   // ------------------------------------------------------------
-  // CHAPTER 29
+  // CHAPTER 29 - ORIGIN VERSION (FULL LEGAL TEXT)
   // ------------------------------------------------------------
   {
     chapterNumber: 29,
     titleVi: 'CHƯƠNG 29: HÓA CHẤT HỮU CƠ',
     titleEn: 'CHAPTER 29: ORGANIC CHEMICALS',
     content: [
+      { type: 'heading', vi: 'PHẦN VI: SẢN PHẨM CỦA NGÀNH CÔNG NGHIỆP HÓA CHẤT HOẶC CÁC NGÀNH CÔNG NGHIỆP LIÊN QUAN', en: 'SECTION VI: PRODUCTS OF THE CHEMICAL OR ALLIED INDUSTRIES' },
+      { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
+      { 
+        type: 'paragraph', 
+        vi: '1.- (A) Các mặt hàng (trừ quặng phóng xạ) đáp ứng các mô tả trong nhóm 28.44 hoặc 28.45 phái được xếp vào các nhóm đó và không được đưa vào nhóm nào khác của Danh mục.', 
+        en: '1.- (A) Goods (other than radioactive ores) answering to a description in heading 28.44 or 28.45 are to be classified in those headings and in no other heading of the Nomenclature.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: '(B) Theo Chú giải mục (A) trên, các mặt hàng đáp ứng các mô tả trong nhóm 28.43, 28.46 hoặc 28.52 được xếp vào các nhóm đó và không được đưa vào nhóm nào khác của Phần này.', 
+        en: '(B) Subject to paragraph (A) above, goods answering to a description in heading 28.43, 28.46 or 28.52 are to be classified in those headings and in no other heading of this Section.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: '2.- Theo Chú giải 1 ở trên, các mặt hàng xếp vào các nhóm 30.04, 30.05, 30.06, 32.12, 33.03, 33.04, 33.05, 33.06, 33.07, 35.06, 37.07 hoặc 38.08 vì đã được đóng gói theo liều lượng hoặc đóng gói để bán lẻ được xếp vào các nhóm đó và không xếp vào bất cứ nhóm nào khác của Danh mục.', 
+        en: '2.- Subject to Note 1 above, goods classifiable in heading 30.04, 30.05, 30.06, 32.12, 33.03, 33.04, 33.05, 33.06, 33.07, 35.06, 37.07 or 38.08 by reason of being put up in measured doses or for retail sale are to be classified in those headings and in no other heading of the Nomenclature.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: '3.- Các mặt hàng đóng gói thành bộ gồm từ hai hoặc nhiều phần cấu thành riêng biệt, trong đó một vài hoặc tất cả các phần cấu thành của các mặt hàng đó nằm trong Phần này và chúng được trộn với nhau để tạo ra một sản phẩm của Phần VI hoặc VII, phải được xếp vào nhóm phù hợp với sản phẩm đó, với điều kiện là các phần cấu thành phải:', 
+        en: '3.- Goods put up in sets consisting of two or more separate constituents, some or all of which fall in this Section and are intended to be mixed together to obtain a product of Section VI or VII, are to be classified in the heading appropriate to that product, provided that the constituents are:' 
+      },
+      { type: 'list', vi: '(a) theo cách thức đóng gói của chúng cho thấy rõ ràng là chúng được sử dụng cùng nhau mà không cần phải đóng gói lại;', en: '(a) having regard to the manner in which they are put up, clearly identifiable as being intended to be used together without first being repacked;' },
+      { type: 'list', vi: '(b) được trình bày cùng nhau; và', en: '(b) presented together; and' },
+      { type: 'list', vi: '(c) có thể nhận biết là chúng nhằm bổ sung cho nhau, thông qua bản chất hoặc tỷ lệ tương ứng của chúng trong sản phẩm.', en: '(c) identifiable, whether by their nature or by the relative proportions in which they are present, as being complementary one to another.' },
+      { 
+        type: 'paragraph', 
+        vi: '4.- Trường hợp sản phẩm đáp ứng mô tả tại một hoặc nhiều nhóm trong Phần VI do được mô tả theo tên hoặc nhóm chức và đáp ứng nhóm 38.27, thì sản phẩm đó được phân loại vào nhóm tương ứng theo tên hoặc nhóm chức và không phân loại vào nhóm 38.27.', 
+        en: '4.- Where a product answers to a description in one or more of the headings in Section VI by virtue of being described by name or function and also to heading 38.27, then it is classifiable in a heading that references the product by name or function and not under heading 38.27.' 
+      },
+
+      { type: 'heading', vi: 'KHÁI QUÁT CHUNG', en: 'GENERAL' },
+      { type: 'heading', vi: 'Chú giải 1.', en: 'Note 1.' },
+      { 
+        type: 'paragraph', 
+        vi: 'Theo các quy định của mục (A) của Chú giải này, tất cả các nguyên tố hóa học phóng xạ và các đồng vị phóng xạ, và các hợp chất của các nguyên tố và các chất đồng vị (có thể là vô cơ hoặc hữu cơ, và đã hoặc chưa được xác định về mặt hóa học), được phân loại ở nhóm 28.44, ngay cả khi chúng cũng có thể được phân loại vào nhóm khác của Danh mục. Ví dụ, glyxerin phóng xạ và natri clorua phóng xạ được phân loại vào nhóm 28.44 chứ không được phân loại vào nhóm 25.01 hoặc 29.05. Tương tự, trong mọi trường hợp ethyl alcohol phóng xạ, vàng phóng xạ và coban phóng xạ sẽ được phân loại trong nhóm 28.44. Tuy nhiên, cũng cần chú ý, các loại quặng phóng xạ được phân loại trong Phần V của Danh mục.', 
+        en: 'Under the provisions of paragraph (A) of this Note, all radioactive chemical elements and radioactive isotopes, and compounds of such elements and isotopes (whether inorganic or organic, and whether or not chemically defined), are classified under heading 28.44, even though they could also fall under some other heading of the Nomenclature. Thus, for example, radioactive sodium chloride and radioactive glycerol fall in heading 28.44 and not in heading 25.01 or 29.05. Similarly, radioactive ethyl alcohol, radioactive gold and radioactive cobalt are in all circumstances classified in heading 28.44. It should be noted, however, that radioactive ores are classified in Section V of the Nomenclature.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: 'Trong trường hợp các chất đồng vị không phóng xạ và các hợp chất của chúng, Chú giải quy định các chất này (ở dạng vô cơ hoặc hữu cơ, và đã hoặc chưa được xác định về mặt hóa học) được phân loại ở nhóm 28.45 và không được phân loại ở nơi nào khác trong Danh mục. Như vậy, các đồng vị của cacbon được phân loại vào nhóm 28.45 và không được phân loại vào nhóm 28.03.', 
+        en: 'In the case of non-radioactive isotopes and their compounds, the Note provides that these (whether inorganic or organic, and whether or not chemically defined) are classified in heading 28.45 and not elsewhere in the Nomenclature. Thus, the isotope of carbon is classified under heading 28.45 and not under heading 28.03.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: 'Mục (B) của Chú giải quy định các hàng hóa được mô tả trong nhóm 28.43, 28.46 hoặc 28.52 được phân loại vào bất kỳ nhóm nào phù hợp trong các nhóm đó và không được phân loại vào nhóm khác ở Phần VI, với điều kiện là chúng không phải là chất phóng xạ hoặc không ở dạng đồng vị (trong trường hợp chúng được phân loại trong nhóm 28.44 hoặc nhóm 28.45). Do đó, mục này của Chú giải quy định, ví dụ, bạc caseinat được phân loại vào nhóm 28.43 chứ không được phân loại vào nhóm 35.01, và nitrat bạc, ngay cả khi được đóng gói để bán lẻ để sử dụng trong chụp ảnh, được phân loại vào nhóm 28.43 chứ không phải ở nhóm 37.07.', 
+        en: 'Paragraph (B) of the Note provides that goods described in heading 28.43, 28.46 or 28.52 are to be classified under whichever of those headings is appropriate and under no other heading in Section VI, provided always they are not radioactive or in the form of isotopes (in which case they are classified in either heading 28.44 or heading 28.45). This paragraph of the Note provides, therefore, that, e.g., silver caseinate is classified in heading 28.43 and not in heading 35.01, and that silver nitrate, even when put up for retail sale ready for photographic use, is classified in heading 28.43 and not in heading 37.07.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: 'Tuy nhiên, cũng cần lưu ý các nhóm 28.43, 28.46 và 28.52 chỉ được ưu tiên hơn các nhóm khác trong Phần VI. Khi các hàng hóa được miêu tả trong nhóm 28.43, 28.46 hoặc 28.52 cũng được xếp vào các nhóm trong các Phần khác của Danh mục, việc phân loại các hàng hóa đó phụ thuộc vào việc áp dụng các Chú giải Phần hoặc Chương liên quan và các Quy tắc Tổng quát của Hệ thống Hài hòa. Theo đó, gadolinite, một hợp chất của kim loại đất hiếm và đã được nêu trong nhóm 28.46, vẫn được phân loại vào nhóm 25.30 bởi vì Chú giải 3 (a) của Chương 28 loại trừ tất cả sản phẩm khoáng của Phần V.', 
+        en: 'It should be noted, however, that headings 28.43, 28.46 and 28.52 take precedence only over the other headings in Section VI. Where goods described in heading 28.43, 28.46 or 28.52 are also covered by headings in other Sections of the Nomenclature, the classification of such goods is dependent on the application of any relevant Section or Chapter Notes and of the General Rules for the interpretation of the Harmonized System. Thus gadolinite, a compound of rare-earth metals and therefore covered by heading 28.46 is classified in heading 25.30 because Note 3 (a) to Chapter 28 excludes all mineral products of Section V.' 
+      },
+      { type: 'heading', vi: 'Chú giải 2.', en: 'Note 2.' },
+      { 
+        type: 'paragraph', 
+        vi: 'Chú giải Phần 2 quy định các hàng hóa (trừ các loại đã được miêu tả trong nhóm từ 28.43 đến 28.46 hoặc 28.52) đã được nêu trong các nhóm 30.04, 30.05, 30.06, 32.12, 33.03, 33.04, 33.05, 33.06, 33.07, 35.06, 37.07 hoặc 38.08 vì đã được đóng gói theo liều lượng định sẵn hoặc để bán lẻ, sẽ được phân loại vào các nhóm đó mặc dù chúng cũng có thể được phân loại vào một vài nhóm khác của Danh mục. Ví dụ, lưu huỳnh được đóng gói để bán lẻ để điều trị bệnh được phân loại trong nhóm 30.04 và không được phân loại vào nhóm 25.03 hoặc 28.02, và dextrin được đóng gói để bán lẻ như là một loại keo được phân loại vào nhóm 35.06 và không được phân loại vào nhóm 35.05.', 
+        en: 'Section Note 2 provides that goods (other than those described in heading 28.43 to 28.46 or 28.52) which are covered by heading 30.04, 30.05, 30.06, 32.12, 33.03, 33.04, 33.05, 33.06, 33.07, 35.06, 37.07 or 38.08 by reason of being put up in measured doses or for retail sale, are to be classified in those headings notwithstanding that they could also fall in some other heading of the Nomenclature. For example, sulphur put up for retail sale for therapeutic purposes is classified in heading 30.04 and not in heading 25.03 or 28.02, and dextrin put up for retail sale as a glue is classified in heading 35.06 and not in heading 35.05.' 
+      },
+      { type: 'heading', vi: 'Chú giải 3.', en: 'Note 3.' },
+      { 
+        type: 'paragraph', 
+        vi: 'Chú giải này liên quan đến phân loại của các sản phẩm được đóng gói thành bộ gồm hai hoặc nhiều thành phần riêng rẽ, một số hoặc tất cả các thành phần này được phân loại vào Phần VI. Tuy nhiên, Chú giải này được giới hạn bởi các bộ mà thành phần trong đó dự định được trộn cùng nhau để tạo ra một sản phẩm của Phần VI hoặc Phần VII. Những bộ sản phẩm đó sẽ được phân loại trong nhóm phù hợp với sản phẩm này với điều kiện là các bộ phận cấu thành phải đáp ứng các điều kiện từ mục (a) đến mục (c) của Chú giải.', 
+        en: 'This Note deals with the classification of goods put up in sets consisting of two or more separate constituents, some or all of which fall in Section VI. The Note is, however, limited to sets of which the constituents are intended to be mixed together to obtain a product of Section VI or VII. Such sets are to be classified in the heading appropriate to that product provided that the constituents meet conditions (a) to (c) of the Note.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: 'Ví dụ về các hàng hóa trong những bộ sản phẩm như vậy là xi măng gắn răng và chất hàn răng khác thuộc nhóm 30.06 và một số loại vec ni và sơn của các nhóm từ 32.08 đến 32.10 và các loại ma tít, v.v, của nhóm 32.14. Liên quan đến phân loại các hàng hóa được đóng gói mà không có chất làm tăng độ cứng cần thiết, - hãy tham khảo Chú giải Chi tiết Tổng quát của Chương 32 và Chú giải Chi tiết nhóm 32.14.', 
+        en: 'Examples of goods in such sets are dental cements and other dental fillings of heading 30.06 and certain varnishes and paints of headings 32.08 to 32.10 and mastics, etc., of heading 32.14. As regards the classification of goods put up without a necessary hardener, - see, in particular, General Explanatory Note to Chapter 32 and Explanatory Note to heading 32.14.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: 'Cần lưu ý rằng các hàng hóa được đóng gói thành bộ bao gồm hai hoặc nhiều thành phần riêng rẽ, một số hoặc tất cả các thành phần đó được xếp vào Phần VI, dự định được sử dụng lần lượt mà không cần trộn trước, sẽ không được phân loại theo Chú giải 3 của Phần này. Những hàng hóa được đóng gói để bán lẻ đó sẽ được phân loại khi áp dụng các Quy tắc Giải thích Tổng quát (thường là Quy tắc 3 (b)); trong trường hợp các sản phẩm đó không được đóng gói để bán lẻ thì các bộ phận cấu thành sẽ được phân loại riêng rẽ.', 
+        en: 'It should be noted that goods put up in sets consisting of two or more separate constituents, some or all of which fall in Section VI, intended to be used successively without prior mixing, are not covered by Note 3 to this Section. Such goods put up for retail sale are to be classified by application of the General Interpretative Rules (generally Rule 3 (b)); in the case of those not put up for retail sale the constituents are to be classified separately.' 
+      },
+      { type: 'heading', vi: 'Chú giải 4.', en: 'Note 4.' },
+      { 
+        type: 'paragraph', 
+        vi: 'Chú giải Phần 4 quy định rằng nhóm 38.27 không được ưu tiên hơn các nhóm khác trong Phần VI khi đề cập đến hàng hóa theo tên hoặc nhóm chức. Vì vậy, ví dụ, hàng hóa có thể thuộc loại đầu tiên của nhóm 38.14, như “hỗn hợp dung môi hữu cơ” và nhóm 38.27, sẽ được phân loại vào nhóm 38.14, mặc dù nội dung của các loại đầu tiên của nhóm 38.14 và nhóm 38.27 có cùng cụm từ “chưa được chi tiết hoặc ghi ở nơi khác”. Tuy nhiên, cần lưu ý rằng nhóm 38.27 được ưu tiên hơn nhóm 38.24 vì nhóm này không đề cập đến những hàng hóa đó theo tên hoặc nhóm chức.', 
+        en: 'Section Note 4 provides that heading 38.27 does not take precedence over other headings in Section VI that reference goods by name or function. Thus, for example, goods that could fall under the first category of headings 38.14. as “organic composite solvents” and heading 38.27, are to be classified under heading 38.14, even though the texts of both the first category of heading 38.14 and heading 38.27 have the same phrase “not elsewhere specified or included”. It should be noted, however, that heading 38.27 does take precedence over heading 38.24, as this heading does not reference such goods by name or function.' 
+      },
+
+      { type: 'heading', vi: 'Chương 29: Hóa chất hữu cơ', en: 'Chapter 29: Organic chemicals' },
       { type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
       { type: 'paragraph', vi: '1.- Trừ khi có yêu cầu khác, các nhóm thuộc Chương này chỉ bao gồm:', en: '1.- Except where the context otherwise requires, the headings of this Chapter apply only to:' },
       { type: 'list', vi: '(a) Các hợp chất hữu cơ đã được xác định về mặt hoá học riêng biệt, có hoặc không chứa tạp chất;', en: '(a) Separate chemically defined organic compounds, whether or not containing impurities:' },
@@ -6786,6 +6979,72 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
 
       { type: 'heading', vi: 'KHÁI QUÁT CHUNG', en: 'GENERAL' },
       { type: 'paragraph', vi: 'Theo quy tắc chung, Chương này giới hạn vào các hợp chất đã được xác định về mặt hóa học riêng biệt như theo các điều khoản của Chú giải 1 của Chương này.', en: 'As a general rule, this Chapter is restricted to separate chemically defined compounds, subject to the provisions of Note 1 to the Chapter.' },
+      { type: 'paragraph', vi: '(A) Những hợp chất đã được xác định về mặt hóa học', en: '(A) Chemically defined compounds' },
+      { type: 'paragraph', vi: 'Một hợp chất đã được xác định về mặt hóa học riêng biệt là một chất có một trạng thái phân tử (ví dụ, liên kết cộng hoá trị hay ion) có cấu trúc xác định, thành phần của chất này được xác định bởi tỷ lệ không đổi của các nguyên tố và có thể được biểu thị bởi một biểu đồ cấu trúc xác định. Trong một mạng tinh thể, trạng thái phân tử phụ thuộc vào sự lặp lại của mỗi thành phần.', en: 'A separate chemically defined compound is a substance which consists of one molecular species (e.g., covalent or ionic) whose composition is defined by a constant ratio of elements and can be represented by a definitive structural diagram. In a crystal lattice, the molecular species corresponds to the repeating unit cell.' },
+      { type: 'paragraph', vi: 'Những hợp chất đã được xác định về mặt hoá học riêng biệt chứa những chất khác có thể được cố ý thêm vào trong hoặc sau khi sản xuất chúng (kể cả quá trình tinh chế) bị loại trừ khỏi chương này. Theo đó, một sản phẩm, ví dụ, saccharin trộn với lactose để tạo nén một sản phẩm phù hợp với công dụng làm ngọt thì sẽ bị loại trừ (xem Chú giải Chi tiết nhóm 29.25)', en: 'Separate chemically defined compounds containing other substances deliberately added during or aller their manufacture (including purification) are excluded from this Chapter. Accordingly, a product consisting of saccharin mixed with lactose, for example, to render the product suitable for use as a sweetening agent is excluded (see Explanatory Note to heading 29.25)' },
+      { type: 'paragraph', vi: 'Những hợp chất đã được xác định về mặt hoá học riêng biệt của Chương này có thể có tạp chất (Chú giải 1 (a)). Một ngoại lệ đối với qui tắc này là nhóm 29.40, là nhóm đề cập đến các loại đường, giới hạn phạm vi của nhóm là các loại đường tinh khiết về mặt hóa học.', en: 'The separate chemically defined compounds of this Chapter may contain impurities (Note 1 (a)). An exception to this rule is created by the wording of heading 29.40 which, with regard to sugars, restricts the scope of the heading to chemically pure sugars.' },
+      { type: 'paragraph', vi: 'Thuật ngữ "tạp chất" áp dụng riêng cho các chất mà sự có mặt của chúng trong một hợp chất hóa học đơn lẻ là kết quả duy nhất và trực tiếp từ quá trình sản xuất (kể cả quá trình tinh chế). Những chất này có thể là kết quả của bất kỳ nhân tố nào liên quan đến quá trình sản xuất và chủ yếu là những nhân tố sau:', en: 'The term “impurities” applies exclusively to substances whose presence in the single chemical compound results solely and directly from the manufacturing process (including purification). These substances may result from any of the factors involved in the process and are principally the following:' },
+      { type: 'list', vi: '(a) Nguyên liệu ban đầu chưa chuyển đổi.', en: '(a) Unconverted starting materials.' },
+      { type: 'list', vi: '(b) Tạp chất có mặt trong nguyên liệu ban đầu.', en: '(b) Impurities present in the starting materials.' },
+      { type: 'list', vi: '(c) Thuốc thử được dùng trong quá trình sản xuất (kể cả quá trình tinh chế).', en: '(c) Reagents used in the manufacturing process (including purification).' },
+      { type: 'list', vi: '(d) Những sản phẩm phụ.', en: '(d) By-products.' },
+      { type: 'paragraph', vi: 'Tuy nhiên, cần phải chú ý, trong mọi trường hợp, những chất này không được xem là "tạp chất" theo Chú giải 1(a). Khi những chất này được cố ý để lại trong sản phẩm với mục đích là làm cho sản phẩm phù hợp với công dụng riêng hơn là công dụng chung, chúng không được xem như là những tạp chất cho phép. Ví dụ, một sản phẩm gồm metyl acetat có methanol được cố ý để lại với mục đích nâng cao tính phù hợp của nó như một dung môi, sẽ bị loại trừ (nhóm 38.14). Với những hợp chất cụ thể (ví dụ, etan, benzen, phenol, pyridin), có nhiều tiêu chuẩn tinh khiết đặc biệt được trình bày ở Chú giải Chi tiết nhóm 29.01, 29,02. 29.07, và 29.33.', en: 'It should be noted, however, that such substances are not in all cases regarded as “impurities” permitted under Note 1 (a). When such substances are deliberately left in the product with a view to rendering it particularly suitable for specific use rather than for general use, they are not regarded as permissible impurities. For example, a product consisting of methyl acetate with methanol deliberately left in with a view to improving its suitability as a solvent is excluded (heading 38.14). For certain compounds (e.g., ethane, benzene, phenol, pyridine), there are specific purity criteria, indicated in Explanatory Notes to headings 29.01.29.02. 29.07 and 29.33.' },
+      { type: 'paragraph', vi: 'Những hợp chất đã được xác định về mặt hóa học riêng biệt của Chương này có thể tan trong nước. Theo những đặc tính tương tự được nêu trong Chú giải Chi tiết Tổng quát của Chương 28, Chương này cũng bao gồm những dung dịch không chứa nước và cả hợp chất (hoặc những dung dịch của chúng) có bổ sung thêm chất ổn định, chất chống bụi hoặc chất màu. Ví dụ, styren có thêm teriary butylcatechol vẫn được phân loại vào nhóm 29.02. Những điều khoản trong Chú giải Chi tiết Tổng quát của Chương 28 đề cập đến sự bổ sung các chất ổn định, chất màu và chất chống bụi, với những sửa đổi thích đáng, áp dụng cho những hợp chất hóa học của Chương này. Tương tự như việc thêm vào các chất màu, những chất này cũng có thể thêm các chất có mùi thơm (ví dụ, bromomethane trong nhóm 29.03 được thêm vào hàm lượng nhỏ chloropicrin) hoặc chất gây nôn.', en: 'The separate chemically defined compounds of this Chapter may be dissolved in water. Subject to the same qualifications as those set out in the General Explanatory Note to Chapter 28, this Chapter also includes non-aqueous solutions and also compounds (or their solutions) with added stabilisers, antidusting agents or colouring substances. For example, styrene inhibited with tertian butylcatechol remains classified in heading 29.02. The provisions in the General Explanatory Note to Chapter 28 concerning the addition of stabilisers, antidusting agents and colouring substances apply, mutatis mutandis, to the chemical compounds of this Chapter. Subject to the same qualifications as those made in respect of colouring substances, these compounds may also contain added odoriferous substances (e.g., bromomethane of heading 29.03 to which small quantities of chloropicrin have been added) or an emetic.' },
+      { type: 'paragraph', vi: 'Chương này còn bao gồm cả hỗn hợp đồng phân của cùng một hợp chất hữu cơ cho dù chúng có hay không chứa tạp chất. Điều khoản này chỉ áp dụng cho hỗn hợp của những chất có cùng chức hóa học (hoặc những chức hóa học) và những hỗn hợp này hoặc cùng tồn tại trong hình thái tự nhiên hoặc thu được đồng thời trong cùng quá trình tổng hợp. Tuy nhiên, hỗn hợp của đồng phân hydrocacbon mạch thẳng (trừ những đồng phân lập thể), đã hoặc chưa bão hòa, bị loại trừ (Chương 27).', en: 'This Chapter further includes, whether or not they contain impurities, mixtures of isomers of the same organic compound. This provision applies only to mixtures of compounds having the same chemical function (or functions) and which either coexist in their natural form or are obtained simultaneously in the course of the same synthesis. Mixtures of acyclic hydrocarbon isomers (other than stereoisomers), whether or not saturated, are. however, excluded (Chapter 27).' },
+      { type: 'paragraph', vi: '(B) Sự khác nhau giữa các hợp chất của Chương 28 và các hợp chất của Chương 29', en: '(B) Distinction between the compounds of Chapter 28 and those of Chapter 29' },
+      { type: 'paragraph', vi: 'Các hợp chất hữu cơ của kim loại quý, nguyên tố phóng xạ, đồng vị phóng xạ, kim loại đất hiếm, scandium và yttrium, và các hợp chất khác có chứa carbon được liệt kê trong Phần (B) của Chú giải Tổng quát của Chương 28 được loại trừ khỏi Chương 29 (xem Chú giải 1 Phần VI và Chú giải 2 của Chương 28).', en: 'Organic compounds of precious metals, radioactive elements, isotopes, rare-earth metals, yttrium and scandium, and the other compounds containing carbon listed in Part (B) of the General Explanatory Note to Chapter 28 are excluded from Chapter 29 (see Note 1 to Section VI and Note 2 to Chapter 28).' },
+      { type: 'paragraph', vi: 'Các hợp chất hữu cơ - vô cơ, trừ các hợp chất được liệt kê trong Chú giải 2 của Chương 28, được xếp vào Chương 29.', en: 'Organo-inorganic compounds, other than those listed in Note 2 to Chapter 28, fall in Chapter 29.' },
+      { type: 'paragraph', vi: '(C) Các sản phẩm vẫn được phân loại vào Chương 29, thậm chí khi chúng không phải là những hợp chất đã được xác định về mặt hóa học riêng biệt', en: '(C) Products which remain classified in Chapter 29, even when they are not separate chemically defined compounds' },
+      { type: 'paragraph', vi: 'Có một số những ngoại lệ đối với Chương 29 được giới hạn cho các hợp chất đã được xác định về mặt hóa học riêng biệt. Những ngoại lệ này bao gồm những sản phẩm sau:', en: 'There are certain exceptions to the rule that Chapter 29 is limited to separate chemically defined compounds. These exceptions include the following products:' },
+      { type: 'list', vi: 'Nhóm 29.09 - Peroxit xeton.', en: 'Heading 29.09 - Ketone peroxides.' },
+      { type: 'list', vi: 'Nhóm 29.12 - Polymer vòng của aldehyt; paraformialdehyt.', en: 'Heading 29.12 - Cyclic polymers of aldehydes; paraformaldehyde.' },
+      { type: 'list', vi: 'Nhóm 29.19 - Lactophosphat.', en: 'Heading 29.19 - Lactophosphales.' },
+      { type: 'list', vi: 'Nhóm 29.23 - Lecithins và những phosphoaminolipid khác.', en: 'Heading 29.23 - Lecithins and other phosphoaminolipids.' },
+      { type: 'list', vi: 'Nhóm 29.34 - Các axit nucleic và các muối của chúng.', en: 'Heading 29.34 - Nucleic acids and their salts.' },
+      { type: 'list', vi: 'Nhóm 29.36 - Tiền vitamin và vitamin các loại (bao gồm cả dạng đậm đặc và pha trộn), có hoặc không có dung môi.', en: 'Heading 29.36 - Provitamins and vitamins (including concentrates and intermixtures), whether or not in a solvent.' },
+      { type: 'list', vi: 'Nhóm 29.37 - Các hormon.', en: 'Heading 29.37 - Hormones.' },
+      { type: 'list', vi: 'Nhóm 29.38 - Các glycosit và dẫn xuất của chúng.', en: 'Heading 29.38 - Glycosides and their derivatives.' },
+      { type: 'list', vi: 'Nhóm 29.39 - Alkaloid và các dẫn xuất của chúng.', en: 'Heading 29.39 - Alkaloids and their derivatives.' },
+      { type: 'list', vi: 'Nhóm 29.40 - Các ete đường, acetal đường và những este đường, và muối của chúng.', en: 'Heading 29.40 - Sugar ethers, sugar acetals and sugar esters, and their salts.' },
+      { type: 'list', vi: 'Nhóm 29.41- Các kháng sinh.', en: 'Heading 29.41 - Antibiotics.' },
+      { type: 'paragraph', vi: 'Chương này cũng bao gồm những muối diazonium (xem Phần (A) của Chú giải Chi tiết nhóm 29.27), những cặp đôi dùng cho những muối này và các amin có khả năng diazo hóa và muối của chúng, đã được pha loãng với, ví dụ như muối trung hòa đến nồng độ chuẩn nào đó. Những chất này được tạo nên để dùng cho việc sản xuất thuốc nhuộm azo. Chúng có thể ở dạng rắn hoặc dạng lỏng.', en: 'This Chapter also includes diazonium salts (see Part (A) of Explanatory Note to heading 29.27), couplers used for these salts and diazotisable amines and their salts, diluted with e.g., neutral salts to standard strengths. These are designed for the production of azo dyes. They may be solid or liquid.' },
+      { type: 'paragraph', vi: 'Chương này còn bao gồm các dẫn xuất pegylated (polyme polyethylene glycol (hoặc PEGs)) của các sản phẩm thuộc các nhóm từ 29.36 đến 29.39 và 29.41. Đối với các sản phẩm này, một dẫn xuất pegylated vẫn được phân loại trong cùng nhóm như dạng non- pegylated của nó. Tuy nhiên, các dẫn xuất pegylated của các sản phẩm của tất cả các nhóm khác của Chương 29 bị loại trừ (thường thuộc nhóm 39.07).', en: 'This Chapter further includes pegylated (polyethylene glycol (or PEGs) polymers) derivatives of products of headings 29.36 to 29.39 and 29.41. For these products, a pegylated derivative remains classified in the same heading as its non-pegylated form. However, pegylated derivatives of products of all other headings of Chapter 29 are excluded (generally heading 39.07).' },
+      { type: 'paragraph', vi: '(D) Một số hợp chất hữu cơ đã được xác định về mặt hóa học riêng biệt được loại khỏi Chương 29', en: '(D) Exclusion from Chapter 29 of certain separate chemically defined organic compounds' },
+      { type: 'paragraph', vi: '(1) Một số hợp chất hữu cơ đã được xác định về mặt hóa học riêng biệt luôn bị loại trừ khỏi Chương 29, thậm chí ngay cả khi ở dạng tinh khiết. Ngoài các hợp chất thuộc Chương 28 (xem Phần (B) của Chú giải Chi tiết Tổng quát Chương 28), các ví dụ về các hợp chất của loại này là:', en: 'Certain separate chemically defined organic compounds are always excluded from Chapter 29. even when they are pure. In addition to those which tall in Chapter 28 (see Part (B) of the General Explanatory Note to that Chapter), examples of compounds of this group are:' },
+      { type: 'list', vi: '(a) Sucroza ( nhóm 17.01 ); lactose, maltose, glucoza và fructoza ( nhóm 17.02 ).', en: '(a) Sucrose ( heading 17.01 ); lactose, maltose, glucose and fructose ( heading 17.02 ).' },
+      { type: 'list', vi: '(b) Cồn ethylic ( nhóm 22.07 hoặc 22.08 ).', en: '(b) Ethyl alcohol ( heading 22.07 or 22.08 ).' },
+      { type: 'list', vi: '(c) Metan và propan ( nhóm 27.11 ).', en: '(c) Methane and propane ( heading 27.11 ).' },
+      { type: 'list', vi: '(d) Các sản phẩm miễn dịch ( nhóm 30.02 ).', en: '(d) Immunological products ( heading 30.02 ).' },
+      { type: 'list', vi: '(e) Urê ( nhóm 31.02 hoặc 31.05 ).', en: '(e) Urea ( heading 31.02 or 31.05 ).' },
+      { type: 'list', vi: '(f) Chất màu có nguồn gốc từ động vật hoặc thực vật (ví dụ, chlorophyll) ( nhóm 32.03 ).', en: '(f) Colouring matter of animal or vegetable origin (e.g.. chlorophyll) ( heading 32.03 ).' },
+      { type: 'list', vi: '(g) Chất màu hữu cơ tổng hợp (bao gồm cả các thuốc màu), và những sản phẩm hữu cơ tổng hợp thuộc loại được sử dụng như các tác nhân tăng sáng huỳnh quang (ví dụ, các dẫn xuất stilbene nhất định) ( nhóm 32.04 ).', en: '(g) Synthetic organic colouring matter (including pigments), and synthetic organic products of a kind used as fluorescent brightening agents (e.g., certain stilbcnc derivatives) ( heading 32.04 ).' },
+      { type: 'paragraph', vi: '(2) Một số sản phẩm hữu cơ khác được xác định về mặt hóa học riêng biệt, đáng lẽ cũng có thể được phân loại vào Chương 29, có thể bị loại trừ khi chúng được tạo thành các dạng cụ thể, hoặc chúng đã trải qua một số quá trình xử lý nhất định mà thành phần hóa học của chúng không bị thay đổi. Ví dụ:', en: '(2) Certain other separate chemically defined organic products, which would otherwise have been classified in Chapter 29. may be excluded when put up in certain forms, or if they have been subjected to certain treatments which leave their chemical composition unchanged. Examples are:' },
+      { type: 'list', vi: '(a) Những sản phẩm phòng bệnh hoặc trị bệnh, được đóng gói thành những liều xác định hoặc ở dạng nhất định hoặc đóng gói bán lẻ ( nhóm 30.04 ).', en: '(a) Products for therapeutic or prophylactic uses, put up in measured doses or in forms or in packings for retail sale ( heading 30.04 ).' },
+      { type: 'list', vi: '(b) Những sản phẩm thuộc loại phát quang (ví dụ, salicylaldazine) được xử lý để trở thành chất phát quang ( nhóm 32.04 ).', en: '(b) Products of a kind used as luminophorcs (e.g., salicylaldazine) which have been treated to render them luminescent ( heading 32.04 ).' },
+      { type: 'list', vi: '(c) Thuốc nhuộm và chất màu khác đã làm thành dạng nhất định hoặc đóng gói để bán lẻ ( nhóm 32.12 ).', en: '(c) Dyes and other colouring matter put up in forms or packings for retail sale ( heading 32.12 ).' },
+      { type: 'list', vi: '(d) Nước thơm, mỹ phẩm hoặc các chế phẩm vệ sinh (ví dụ, axeton), được đóng gói để bán lẻ ( những nhóm từ 33.03 đến 33.07 ).', en: '(d) Perfumery, cosmetic or toilet preparations (e.g., acetone), put up in packings for retail sale for such use ( headings 33.03 to 33.07 ).' },
+      { type: 'list', vi: '(e) Những sản phẩm phù hợp dùng như keo dán hoặc chất kết dính, đóng gói để bán lẻ như là keo dán hoặc chất kết dính, với trọng lượng tịnh không quá 1 kg ( nhóm 35.06 ).', en: '(e) Products suitable lor use as glues or adhesives, put up for retail sale as glues or adhesives, not exceeding a net weight of 1 kg ( heading 35.06 ).' },
+      { type: 'list', vi: '(f) Những nhiên liệu rắn (như metaldehyde, hexamethylenetetamine) đã làm thành dạng nhất định dùng như nhiên liệu, và nhiên liệu lỏng hoặc hóa lỏng (ví dụ, butan lỏng) trong bình chứa với dạng dùng để nạp hoặc nạp lại các bật lửa hút thuốc hoặc tương tự và có dung tích không quá 300 cm3 ( nhóm 36.06 ).', en: '(f) Solid fuels (e.g.. metaldehyde, hexamethylenetetramine) put up in forms for use as fuels, and liquid or liquefied fuels (e.g., liquid butane) in containers of a kind used for filling or refilling cigarette or similar lighters and of a capacity not exceeding 300 cm3 ( heading 36.06 ).' },
+      { type: 'list', vi: '(g) Hydroquinone và những sản phẩm không pha trộn khác dùng cho ngành ảnh, được đóng gói với các tỷ lệ xác định hoặc được đóng gói để bán lẻ sẵn sàng cho sử dụng cho tạo ảnh ( nhóm 37.07 ).', en: '(g) Hydroquinone and other unmixed products for photographic uses, put up in measured portions or put up for retail sale in a form ready for photographic use ( heading 37.07 ).' },
+      { type: 'list', vi: '(h) Những chất khử trùng, những chất diệt côn trùng, v.v, được đóng gói như là miêu tả ở nhóm 38.08 .', en: '(h) Disinfectants, insecticides, etc., put up as described in heading 38.08.' },
+      { type: 'list', vi: '(ij) Những sản phẩm (ví dụ, carbon tetrachlroride) được nạp cho bình chữa cháy hoặc lựu đạn chữa cháy ( nhóm 38.13 ).', en: '(ij) Products (e.g., carbon tetrachloride) put up as charges for fire- extinguishers or put up in fire-extinguishing grenades ( heading 38.13 ).' },
+      { type: 'list', vi: '(k) Những chất tẩy mực (ví dụ, chloramines của nhóm 29.35 tan trong nước) được đóng gói để bán lẻ ( nhóm 38.24 ).', en: '(k) Ink removers (e.g., chloramines of heading 20.35 dissolved in water) put up in packings for retail sale ( heading 38.24 ).' },
+      { type: 'list', vi: '(l) Các bộ phận quang học (ví dụ, ethylenediamine tartrate) (n hóm 90.01 ).', en: '(l) Optical elements (e.g., ethylenediamine tartrate) ( heading 90.01 ).' },
+      { type: 'paragraph', vi: '(E) Các sản phẩm có khả năng được phân loại vào 2 hoặc nhiều nhóm của Chương 29 (Chú giải 3 của Chương)', en: '(E) Products potentially classifiable in two or more headings of Chapter 29 (Chapter Note 3)' },
+      { type: 'paragraph', vi: 'Những sản phẩm này được phân loại vào nhóm có số thứ tự cuối cùng trong số những nhóm có thể được áp dụng. Ví dụ, axit ascobic có thể được coi như là một lactone (nhóm 29.32) hoặc được coi như là một vitamin (nhóm 29.36); vì vậy nó sẽ được phân loại vào nhóm 29.36. Cũng lý do tương tự như vậy, allylestrenol được coi như là một rượu vòng (nhóm 29.06) nhưng cũng là một steroid với cấu trúc gonane không đổi, được dùng chủ yếu vì chức năng hormon của nó (nhóm 29.37), sẽ được xếp vào nhóm 29.37.', en: 'Such products are to be classified in the heading placed last in numerical order amongst those which could be applied. For example, ascorbic acid could be regarded as a lactone (heading 29.32) or as a vitamin (heading 29.36); it should therefore be classified in heading 29.36. For the same reason, allylestrenol which is a cyclic alcohol (heading 29.06) but also a steroid with unmodified gonane structure, used primarily tor its hormone function (heading 29.37), should fall in heading 29.37.' },
+      { type: 'paragraph', vi: 'Tuy nhiên, cần phải chú ý rằng, các chất được mô tả trong đoạn cuối của nhóm 29.40 đặc biệt loại trừ các sản phẩm của nhóm 29.37, 29.38 và 29.39.', en: 'It should, however, be noted that the last phrase of the text of heading 29.40 specifically excludes the products of headings 29.37.29.38 and 29.39.' },
+      { type: 'paragraph', vi: '(F) Các dẫn xuất halogen hóa, sulphonat hóa, nitrat hóa hoặc nitroso hóa và những hợp chất kết hợp của chúng; “chức oxy” đề cập trong nhóm 29.11, 29.12, 29.14, 29.18 and 29.22', en: '(F) Halogenated, sulphonated, nitrated or nitrosated derivatives and combinations thereof; the “oxygen function” referred to in headings 29.11, 29.12, 29.14, 29.18 and 29.22' },
+      { type: 'paragraph', vi: 'Một số nhóm của Chương 29 bao gồm các dẫn xuất halogen hóa, sulphonat hóa, nitrat hóa hoặc nitroso hóa. Các trường hợp như thế bao gồm các dẫn xuất kết hợp, ví dụ, các dẫn xuất sulphohalogenat hóa, nitrohalogenat hóa, nitrosullphonat hóa, nitrosulphohalogenat hóa,v.v.', en: 'Certain headings of Chapter 29 include references to halogenated. sulphonated, nitrated or nitrosated derivatives. Such references include compound derivatives, for example, sulphohalogenated, nitrohalogenated, nitrosulphonated, nitrosulphohalogenated. etc., derivatives.' },
+      { type: 'paragraph', vi: 'Theo mục đích của nhóm 29.29 thì các nhóm nitro và nitroso không được coi là các chức nitrogen.', en: 'Nitro and nitroso groups are not to be taken as nitrogen-functions for the purpose of heading 29.29.' },
+      { type: 'paragraph', vi: 'Các dẫn xuất halogen hóa, sulphonat hóa, nitrat hóa và nitroso hóa được hình thành bằng cách thay thế một hoặc nhiều nguyên tử hydro trong các hợp chất ban đầu bởi một hoặc nhiều nhóm halogen, sulfo (-SO3H), nitro (-NO2) hoặc nitroso (-NO) hoặc bằng bất kỳ sự kết hợp nào của chúng. Mỗi nhóm chức (ví dụ, aldehyde, axit cacboxylic, amin) được xem xét để phân loại sẽ được giữ nguyên trong các dẫn xuất này.', en: 'The halogenated, sulphonated, nitrated and nitrosated derivatives are formed by substitution of one or more hydrogen atoms in the parent compound by one or more halogens, sulpho (-SO3H), nitro (-NO2) or nitroso (-NO) groups or by any combination thereof. Any functional group (c.g.. aldehyde, carboxylic acid, amine) taken into consideration for classification should remain intact in such derivatives.' },
+      { type: 'paragraph', vi: 'Theo mục đích của đoạn cuối của Chú giải 4 và các nhóm 29.11, 29.12, 29.14, 29.18 và 29.22, “chức oxy” được đề cập trong nội dung của các nhóm này phải là nhóm chứa oxy hữu cơ đặc trưng được đề cập trong các nhóm từ 29.05 đến 29.20. Liên quan đến vấn đề này, các nhóm chức oxy được xem xét để phân loại cho các sản phẩm thuộc các nhóm 29.11, 29.12, 29.14 và 29.18 phải được giữ nguyên', en: 'For the purposes of the last paragraph of Note 4 and headings 29.11. 29.12, 29.14, 29.18 and 29.22. the “oxygen function” referred to in the texts of these headings should be the characteristic organic oxygen containing group referred to in headings 29.05 to 29.20. In this connection, the oxygen functional groups taken into consideration for classification of products in headings 29.11, 29.12, 29.14 and 29.18 should remain intact.' },
+      { type: 'paragraph', vi: '(G) Phân loại các este, các muối, các hợp chất phối trí và một vài halogenua', en: '(G) Classification of esters, salts, co-ordination compounds and certain halides' },
+      { type: 'paragraph', vi: '(1) Các este. Các este của hợp chất hữu cơ có chức axít nêu trong các Phân Chương từ I đến VII với những hợp chất hữu cơ của các Phân Chương này sẽ được phân loại vào cùng với hợp chất được phân loại vào nhóm có số thứ tự cuối trong các Phân chương này.', en: '(1) Esters. The esters of acid-function organic compounds of sub-Chapters I to VII with organic compounds of these sub-Chapters are to be classified with that compound which is classified in the heading which occurs last in numerical order in these sub-Chapters.' },
+      { type: 'paragraph', vi: 'Quy tắc này không áp dụng cho các este của các hợp chất có chức axít với ethyl alcohol vì hợp chất này không được phân loại vào Chương 29 . Những este như thế phải được phân loại cùng với các hợp chất có chức axít mà chúng tạo ra.', en: 'This rule cannot be applied to the esters of such acid-function compounds with ethyl alcohol since this compound is not classified in Chapter 29 . Such esters are to be classified with the acid- function compounds from which they are derived.' },
+      { type: 'paragraph', vi: 'Cần phải chú ý thêm rằng các este đường và muối của chúng được phân loại vào nhóm 29.40.', en: 'It should further be noted that sugar esters and their salts are classified in heading 29.40.' },
+      { type: 'paragraph', vi: '(2) Muối. Theo Chú giải 1 của Phần VI và Chú giải 2 của Chương 28: (a) Muối vô cơ của hợp chất hữu cơ như các hợp chất có chức axit-, phenol- hoặc enol- hoặc bazơ hữu cơ, của Phân Chương I đến X hoặc nhóm 29.42, phải được phân loại vào nhóm tương ứng với các hợp chất hữu cơ.', en: '(2) Salts. Subject to Note 1 to Section VI and Note 2 to Chapter 28: (a) Inorganic salts of organic compounds such as acid-, phenol- or enol-function organic compounds or organic bases, of sub-Chapters I to X or heading 29.42, are to be classified in the heading appropriate to the organic compound.' },
+      { type: 'paragraph', vi: '(b) Những muối được tạo thành giữa các hợp chất hữu cơ của các phân chương từ I tới X hoặc của nhóm 29.42 sẽ được xếp vào nhóm phù hợp với bazơ hoặc axit (kể cả hợp chất có chức phenol - hoặc enol -) tạo ra chúng, loại có số thứ tự sau cùng trong Chương.', en: '(b) Salts formed between organic compounds of sub-Chapters I to X or heading 29.42 are to be classified in the heading appropriate to the base or to the acid (including phenol- or enol- function compounds) from which they are formed, whichever occurs last in numerical order in the Chapter.' },
+      { type: 'paragraph', vi: '(3) Các hợp chất phối trí.', en: '(3) Co-ordination compounds .' },
 
       { type: 'heading', vi: 'PHÂN CHƯƠNG I: HYDROCARBON VÀ CÁC DẪN XUẤT HALOGEN HOÁ, SUNPHONAT HOÁ, NITRO HOÁ HOẶC NITROSO HOÁ CỦA CHÚNG', en: 'SUB-CHAPTER I: HYDROCARBONS AND THEIR HALOGENATED, SULPHONATED, NITRATED OR NITROSATED DERIVATIVES' },
 
@@ -6797,6 +7056,139 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
       { type: 'list', vi: '2901.23 - - Buten (butylen) và các đồng phân của nó', en: '2901.23 - - Butene (butylene) and isomers thereof' },
       { type: 'list', vi: '2901.24 - - 1,3- butadien và isopren', en: '2901.24 - - Buta-1,3-diene and isoprene' },
       { type: 'list', vi: '2901.29 - - Loại khác', en: '2901.29 - - Other' },
+      { 
+        type: 'paragraph', 
+        vi: 'Những hydrocarbon mạch hở là những hợp chất chỉ chứa cacbon và hydro mà không có mạch vòng trong cấu trúc của chúng. Chúng được phân làm hai loại:', 
+        en: 'Acyclic hydrocarbons are compounds containing only carbon and hydrogen which have no rings in their structure. They can be classified in two categories:' 
+      },
+      { type: 'paragraph', vi: '(A) Những hydrocarbon mạch hở no .', en: '(A) Saturated acyclic hydrocarbons' },
+      { type: 'paragraph', vi: '(B) Những hydrocarbon mạch hở chưa no.', en: '(B) Unsaturated acyclic hydrocarbons .' },
+      { type: 'heading', vi: '(A) NHỮNG HYDROCARBON MẠCH HỞ NO', en: '(A) SATURATED ACYCLIC HYDROCARBONS' },
+      { 
+        type: 'paragraph', 
+        vi: 'Những hydrocarbon mạch hở no hình thành một dãy đồng đẳng với cấu trúc cấu tạo chung (CnH2n+2). Chúng có nhiều trong tự nhiên và là thành phần chính của dầu mỏ.', 
+        en: 'These form a homologous series which may be represented by the general formula (CnH2n+2). They occur abundantly in nature and are the main components of petroleum oils.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: 'Hydrocarbon cơ bản là metan (CH4) với một nguyên tử cacbon. Metan và propan (C3H8) với 3 nguyên tử cacbon lại được phân loại vào nhóm 27.11 kể cả khi chúng là nguyên chất.', 
+        en: 'The basic hydrocarbon is methane (CH4) with one atom of carbon. Methane and also propane (C3H8) with three atoms of carbon are, however, classified in heading 27.11 even if they are pure.' 
+      },
+      { type: 'paragraph', vi: 'Những hydrocarbon mạch hở no trong nhóm này gồm:', en: 'The saturated acyclic hydrocarbons of this heading include:' },
+      { type: 'paragraph', vi: '(1) Etan (C2H6) có 2 nguyên tử cacbon.', en: '(1) Ethane (C2H6) with two atoms of carbon.' },
+      { 
+        type: 'paragraph', 
+        vi: 'Để được phân loại vào nhóm này, etan phải có độ tinh khiết từ 95% trở lên tính theo thể tích. Etan với độ tinh khiết thấp hơn bị loại trừ (nhóm 27.11).', 
+        en: 'To be classified in this heading, ethane must have a purity of 95 % or more by volume. Ethane of lower purity is excluded (heading 27.11)' 
+      },
+      { type: 'paragraph', vi: '(2) Butan (C4H10) có 4 nguyên tử cacbon.', en: '(2) Butanes (C4H10) with four atoms of carbon.' },
+      { type: 'paragraph', vi: '(3) Pentan có 5 nguyên tử cacbon.', en: '(3) Pentanes , with five atoms of carbon.' },
+      { type: 'paragraph', vi: '(4) Hexan - có 6 nguyên tử cacbon.', en: '(4) Hexanes , with six atoms of carbon.' },
+      { type: 'paragraph', vi: '(5) Heptan - có 7 nguyên tử cacbon.', en: '(5) Heptanes , with seven atoms of carbon.' },
+      { type: 'paragraph', vi: '(6) Octan - có 8 nguyên tử cacbon.', en: '(6) Octanes , with eight atoms of carbon.' },
+      { type: 'paragraph', vi: '(7) Nonan - có 9 nguyên tử cacbon.', en: '(7) Nonanes , with nine atoms of carbon.' },
+      { type: 'paragraph', vi: '(8) Decan - có 10 nguyên tử cacbon.', en: '(8) Decanes , with ten atoms of carbon.' },
+      { type: 'paragraph', vi: '(9) Pentadecan - có 15 nguyên tử cacbon.', en: '(9) Pentadecanes , with fifteen atoms of carbon.' },
+      { type: 'paragraph', vi: '(10) Triacontan - có 30 nguyên tử cacbon.', en: '(10) Triacontanes , with thirty atoms of carbon.' },
+      { type: 'paragraph', vi: '(11) Hexacontan - có 60 nguyên tử cacbon.', en: '(11) Hexacontanes , with sixty atoms of carbon.' },
+      { 
+        type: 'paragraph', 
+        vi: 'Các hydrocarbon no này tất cả đều không tan trong nước. Ở nhiệt độ và áp suất thường, những hydrocarbon có từ 4 nguyên tử cacbon trở xuống thì tồn tại ở dạng khí; những hydrocarbon có từ 5 đến 15 nguyên tử cacbon thì tồn tại ở dạng lỏng; hydrocarbon có số nguyên tử cacbon lớn hơn 15 thì thường tồn tại ở dạng rắn.', 
+        en: 'These saturated hydrocarbons are all insoluble in water. At normal temperature and pressure, such hydrocarbons containing up to four atoms of carbon are gaseous; those containing five to fifteen atoms of carbon are liquid; hydrocarbons with a greater number of carbon atoms are generally solid.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: 'Một hoặc nhiều nguyên tử hydro của các phân tử hydrocarbon này có thể được thay thế bằng các gốc alkyl (ví dụ, metyl, etyl, propyl); do đó isobutan (2-metylpropane, trimethylmethane) có công thức phân tử giống như một butan bình thường.', 
+        en: 'One or more of the hydrogen atoms in these hydrocarbon molecules may be replaced by alkyl radicals (e.g., methyl, ethyl, propyl); thus isobutane (2-methylpropane, trimethyl methane) has the same molecular formula as the normal butane.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: 'Trong công nghiệp và thương nghiệp, hydrocarbon quan trọng nhất của nhóm này là khí etan và khí butan chúng được khai thác từ dầu mỏ và khí tự nhiên.', 
+        en: 'In industry and commerce, the most important hydrocarbons of this heading are ethane and butane gases which are derived from petroleum oil and natural gas.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: 'Để được xếp vào nhóm này, những hydrocarbon mạch hở no này phải ở dạng những hợp chất đã được xác định về mặt hóa học riêng biệt, thu được bằng tinh chế dầu mỏ và khí tự nhiên hoặc bằng tổng hợp (đối với tiêu chuẩn tinh khiết cho etan, xem Mục (1) ở trên). Nhưng nhóm này loại trừ butan thô, khí dầu thô và những hydrocacbon khí thô tương tự thuộc nhóm 27.11 .', 
+        en: 'To fall in this heading, these saturated acyclic hydrocarbons must be in the form of separate chemically defined compounds, whether obtained by refining petroleum oils and natural gas or by synthesis (as regards the purity criterion for ethane, see Item (1) above). But the heading excludes crude butane, crude petroleum gases and similar crude gaseous hydrocarbons of heading 27.11' 
+      },
+      { type: 'heading', vi: '(B) HYDROCARBON MẠCH HỞ CHƯA NO', en: '(B) UNSATURATED ACYCLIC HYDROCARBONS' },
+      { 
+        type: 'paragraph', 
+        vi: 'Những hydrocarbon chưa no này bao gồm 2, 4, 6 ... và có ít nguyên tử hydro hơn hydrocacbon mạch hở no có cùng số nguyên tử cacbon. Loại này có liên kết đôi hoặc liên kết ba.', 
+        en: 'These unsaturatcd hydrocarbons contain two, four, six, etc., less atoms of hydrogen than saturated acyclic hydrocarbons having the same number of atoms of carbon. This involves the presence of double or triple bonds.' 
+      },
+      { type: 'paragraph', vi: '(1) Monoethylenic hydrocarbon .', en: '(I) Monoethylenic hydrocarbons.' },
+      { 
+        type: 'paragraph', 
+        vi: 'Những chất này là những đồng đẳng có công thức chung là CnH2n. Chúng có trong sản phẩm thu được từ các hợp chất hữu cơ bị phân hủy bởi nhiệt (khí than, các sản phẩm craking dầu mỏ,…); chúng cũng có thể được tạo thành bằng cách tổng hợp.', 
+        en: 'These constitute a homologous series represented by the general formula (CnH2n). They are found in the products obtained by thermal decomposition of numerous organic substances (coal gas, products of the cracking of petroleum oils, etc.); they may also be produced by synthesis.' 
+      },
+      { type: 'paragraph', vi: '(a) Những chất đầu tiên trong dãy đồng đẳng này là các khí bao gồm:', en: '(a) The first members of the scries are gaseous, these are:' },
+      { 
+        type: 'paragraph', 
+        vi: '(i) Etylene (ethene) (C2H4): Khí không màu, hơi có mùi giống ete và có tính gây mê mạnh. Dùng làm nguyên liệu để sản xuất nhiều hợp chất hữu cơ (ví dụ, etylen oxide, ethylbenzene, ethanol tổng hợp, polyethylene).', 
+        en: '(i) Ethylene (ethene) (C2H4): Colourless gas with a faint odour of ether and strong anaesthetic properties. Used in the preparation of a wide range of organic compounds (e.g.. ethylene oxide, ethylbenzene, synthetic ethanol, polyethylene).' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: 'Để được phân loại vào nhóm này, etylen phải có độ tinh khiết từ 95% trở lên tính theo thể tích. Etylen có độ tinh khiết thấp hơn thì bị loại trừ (nhóm 27.11).', 
+        en: 'To fall in this heading, ethylene must have a purity of 95 % or more by volume. Ethylene of lower purity is excluded (heading 27.11).' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: '(ii) Propene (propylene) (C3H6). Khí không màu, rất dễ cháy dùng như chất làm ngạt.', 
+        en: '(ii) Propene (propylene) (C3H6). Colourless, highly inflammable gas which is an asphyxiant.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: 'Để xếp vào nhóm này, propene (propylen) phải có độ tinh khiết từ 90% trở lên tính theo thể tích. Propylen có độ tinh khiết thấp hơn thì bị loại trừ (nhóm 27.11).', 
+        en: 'To fall in this heading, propene (propylene) must have a purity of 90 % or more by volume. Propylene of lower purity is excluded (heading 27.11).' 
+      },
+      { type: 'paragraph', vi: '(iii) Butenes (butylenes) (C4H8).', en: '(iii) Butenes (butylenes) (C4H8).' },
+      { 
+        type: 'paragraph', 
+        vi: 'Để xếp vào nhóm này, những hydrocarbon mạch hở chưa no này phải ở dạng những hợp chất đã được xác định về mặt hóa học riêng biệt. Nhưng nhóm này loại trừ những khí hydrocarbon thô của nhóm 27.11 .', 
+        en: 'To fall in this heading, these unsaturated acyclic hydrocarbons must be in the form of separate chemically defined compounds. But the heading excludes crude gaseous hydrocarbons of heading 27.11.' 
+      },
+      { type: 'paragraph', vi: 'Trong thương mại thông thường, tất cả các sản phẩm này ở dạng lỏng, nén áp suất.', en: 'In normal trade, all these products are in liquid form, under pressure.' },
+      { type: 'paragraph', vi: '(b) Monoethylenic hydrocarbon có chứa 5 đến 15 nguyên tử cacbon là chất lỏng. Quan trọng nhất là:', en: '(b) Monoethylenic hydrocarbons containing five to fifteen atoms of carbon are liquid. The most important include:' },
+      { type: 'paragraph', vi: '(i) Pentene (amylene).', en: '(i) Pentenes (amylenes).' },
+      { type: 'paragraph', vi: '(ii) Hexene .', en: '(ii) Hexenes.' },
+      { type: 'paragraph', vi: '(iii) Heptene .', en: '(iii) Heptenes.' },
+      { type: 'paragraph', vi: '(iv) Octene .', en: '(iv) Octenes.' },
+      { type: 'paragraph', vi: '(c) Những monoethylenic hydrocacbon có nhiều hơn 15 nguyên tử cacbon thì ở dạng rắn.', en: '(c) Those containing more than fifteen atoms of carbon are solids.' },
+      { type: 'paragraph', vi: '(2) Polyethylenic hydrocarbon .', en: '(2) Polyethylenic hydrocarbons .' },
+      { type: 'paragraph', vi: 'Là những chất có 2 hay nhiều liên kết đôi.', en: 'These constitute a series with two or more double bonds.' },
+      { type: 'paragraph', vi: 'Chúng bao gồm:', en: 'They include:' },
+      { type: 'paragraph', vi: '(a) Propadiene (Allene) (C3H4)', en: '(a) Propadiene (aliene) (C3H4)' },
+      { type: 'paragraph', vi: '(b) Buta-1,2-diene (1,2-butadiene, methylallenne) (C4H6)', en: '(b) Buta-1,2-diene (1,2-butadiene, methylallenne) (C4H6)' },
+      { type: 'paragraph', vi: '(c) Buta-1,3-diene (1,3-butadiene) (C4H6): chất khí không màu, dễ cháy và', en: '(c) Buta-1,3-diene (1,3-butadiene) (C4H6) a colourless, highly inflammable gas and' },
+      { type: 'paragraph', vi: '(d) 2-Methylbuta-1,3-diene (isoprene) (C5H8), chất lỏng không màu, rất dễ cháy.', en: '(d) 2-Methylbuta-1,3-diene (isoprene) (C5H8), a colourless, highly inflammable liquid.' },
+      { type: 'paragraph', vi: '(3) Dãy acetylene .', en: '(3) Acetylene series.' },
+      { 
+        type: 'paragraph', 
+        vi: 'Các hydrocarbon acetylenic chứa hoặc một liên kết 3 (mono-acetylene, công thức chung (CnH2n-2) hoặc nhiều hơn một liên kết 3 (polyacetylene).', 
+        en: 'Acetylenic hydrocarbons contain either one triple bond (monoacetylenes. general (CnH2n-2) or more than one triple bond (polyacetylenes).' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: 'Chất quan trọng nhất là acetylene (C2H2), khí không màu, có mùi đặc trưng. Từ acetylene, có một loạt các sản phẩm có thể được tổng hợp nên (ví dụ, axít acetic, axeton, isopren, axít chloroaxetic, etanol).', 
+        en: 'The most important product is acetylene (C2H2). a colourless gas with a characteristic odour. From acetylene a wide range of products can be synthesised (e.g., acetic acid, acetone, isoprene, chloroacetic acid, ethanol).' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: 'Khi chúng hòa tan trong aceton, được nén trong bình bằng thép đặc biệt, được đóng gói với diatomite, thì vẫn được phân loại vào nhóm này (xem Chú giải 1 (e) của Chương)', 
+        en: 'It is presented dissolved in acetone under pressure in special steel cylinders packed with diatomite. and remains classified under the heading (see Chapter Note 1 (e)).' 
+      },
+      { type: 'paragraph', vi: 'Những chất khác của dãy này là:', en: 'Other members of the series are:' },
+      { type: 'paragraph', vi: '(a) Propyne (allylene, methylacetylene).', en: '(a) Propyne (allylene, methylacetylene).' },
+      { type: 'paragraph', vi: '(b) Butyne (ethylacetylene).', en: '(b) Butyne (ethylacetylene).' },
+      { type: 'paragraph', vi: '(4) Những hydrocarbon ethylene- acetylene.', en: '(4) Ethylene- acetylene hydrocarbons.' },
+      { 
+        type: 'paragraph', 
+        vi: 'Đây là những hydrocarbon chứa cả liên kết etylenic và acetylenic trong phân tử. Chất quan trọng nhất là vinylacetylene (acetylene mà một nguyên tử hydro bị thay thế bởi một nhóm vinyl), và methylvinylacetylene (trong đó cả hai nguyên tử hydro đã bị thay thế - một nguyên tử hydro bị thay thế bởi 1 nhóm vinyl và nguyên tử hydro còn lại bị thay thế bởi 1 nhóm methyl).', 
+        en: 'These contain both cthylcnic and acetylenic bonds in their molecules. The most important of these are vinylacctylene (acetylene in which one hydrogen atom has been replaced by a vinyl group), and ethylvinylacetylene, (in which both hydrogen atoms have been replaced - one by a vinyl group and the other by a methyl group).' 
+      },
 
       { type: 'heading', vi: '29.02 - Hydrocarbon mạch vòng.', en: '29.02 - Cyclic hydrocarbons.' },
       { type: 'paragraph', vi: '- Cyclanes, cyclenes và cycloterpenes:', en: '- Cyclanes, cyclenes and cycloterpenes:' },
@@ -6805,15 +7197,189 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
       { type: 'list', vi: '2902.20 - Benzen', en: '2902.20 - Benzene' },
       { type: 'list', vi: '2902.30 - Toluen', en: '2902.30 - Toluene' },
       { type: 'paragraph', vi: '- Xylenes:', en: '- Xylenes:' },
-      { type: 'list', vi: '2902.41 - - o-Xylen', en: '2902.41 - - o-Xylene' },
-      { type: 'list', vi: '2902.42 - - m-Xylen', en: '2902.42 - - m-Xylene' },
-      { type: 'list', vi: '2902.43 - - p-Xylen', en: '2902.43 - - p-Xylene' },
+      { type: 'list', vi: '2902.41 - - o -Xylen', en: '2902.41 - - o -Xylene' },
+      { type: 'list', vi: '2902.42 - - m -Xylen', en: '2902.42 - - m -Xylene' },
+      { type: 'list', vi: '2902.43 - - p -Xylen', en: '2902.43 - - p -Xylene' },
       { type: 'list', vi: '2902.44 - - Hỗn hợp các đồng phân của xylen', en: '2902.44 - - Mixed xylene isomers' },
       { type: 'list', vi: '2902.50 - Styren', en: '2902.50 - Styrene' },
       { type: 'list', vi: '2902.60 - Etylbenzen', en: '2902.60 - Ethylbenzene' },
       { type: 'list', vi: '2902.70 - Cumen', en: '2902.70 - Cumene' },
       { type: 'list', vi: '2902.90 - Loại khác', en: '2902.90 - Other' },
-
+      { 
+        type: 'paragraph', 
+        vi: 'Hydrocarbon vòng là những hợp chất chỉ chứa cacbon và hydro trong thành phần và có ít nhất một vòng trong cấu trúc của chúng. Chúng được phân loại thành ba loại:', 
+        en: 'Cyclic hydrocarbons are compounds containing only carbon and hydrogen which have at least one ring in their structure. They can he classified in three categories:' 
+      },
+      { type: 'paragraph', vi: '(A) Những xyclan và xyclen .', en: '(A) Cyelanes and cyclenes.' },
+      { type: 'paragraph', vi: '(B) Những xycloterpen .', en: '(B) Cycloterpenes.' },
+      { type: 'paragraph', vi: '(C) Những hydrocarbon thơm .', en: '(C) Aromatic hydrocarbons.' },
+      { type: 'heading', vi: '(A) NHỮNG XYCLAN VÀ XYCLEN', en: '(A) CYCLANES AND CYCLENES' },
+      { 
+        type: 'paragraph', 
+        vi: 'Đó là những hydrocarbon vòng tương ứng với công thức chung CnH2n khi chúng là những xyclan đơn vòng no và công thức chung là CnH2n-x (x có thể là 2,4,6,...) khi chúng là các xyclan đa vòng hoặc khi chúng là các vòng không no (xyclen).', 
+        en: 'These are cyclic hydrocarbons which correspond to the general formula CnH2n when they are saturated monocyclic cyclanes and to the general formula CnH2n-x (in which x may he 2, 4, 6, etc.) when they are polycyclic cyclanes or when they are unsaturated (cyclenes).' 
+      },
+      { type: 'paragraph', vi: '(1) Những xyclan đơn vòng gồm có hydrocacbon polymetylen và naphthen tìm thấy trong một số loại dầu mỏ; ví dụ:', en: '(1) The monocyclic cyclanes include the polymethylene and naphthene hydrocarbons found in certain petroleum oils; examples are:' },
+      { type: 'paragraph', vi: '(a) Cyclopropane (C3H6) (khí).', en: '(a) Cyclopropane (C3H6) (gas).' },
+      { type: 'paragraph', vi: '(b) Cyclobutane (C4H8) (khí).', en: '(b) Cyclobutane ( C4H8) (gas).' },
+      { type: 'paragraph', vi: '(c) Cyclopentane (C5H10) (lỏng).', en: '(c) Cyclopentane (C5H10) (liquid).' },
+      { type: 'paragraph', vi: '(d) Cyclohexane (C6H12) (lỏng).', en: '(d) Cyclohexane (C6H12) (liquid).' },
+      { type: 'paragraph', vi: '(2) Những xyclan đa vòng gồm:', en: '(2) The polycyclic cyclanes include:' },
+      { 
+        type: 'paragraph', 
+        vi: '(a) Decahydronaphthalene (C10H18), dạng lỏng, không màu, được dùng làm dung môi cho sơn và sơn mài, cho đánh bóng,…', 
+        en: '(a) Decahydronaphthalene (C10H18), a colourless liquid used as a solvent for paints and lacquers, for polishes, etc.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: '(b) Những hợp chất có cầu nối như là 1,4,4a,5,6,7,8,8a-octahydro-exo-1,4-endo-5,8-dimethanonaphthalene(C12H16) từ chất này sản xuất được thuốc diệt côn trùng HEOD.', 
+        en: '(b) Bridge-linked compounds such as 1,4,4a,5,6,7,8,8a-octahydro-exo-1,4-endo-5,8-dimethanonaphthalene(C12H16) from which the pesticide HEOD is derived.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: '(c) Những hợp chất có cấu trúc "lồng" như là pentacyclo (5.2.1.02,6 .03,9. 05,8) decane (C10H12) từ chất này tạo ra công thức của dodecachloropentacyclo [5.2.1.02,6.03,9.05,8] decane.', 
+        en: '(c) Compounds with a “cage” structure such as pentacyclo (5.2.1.02,6 .03,9. 05,8) decane (C10H12) from which the formula of dodecachloropentacyclo [5.2.1.02,6.03,9.05,8] decane is derived.' 
+      },
+      { type: 'paragraph', vi: '(3) Những xyclen bao gồm:', en: '(3) The cyclenes include:' },
+      { type: 'paragraph', vi: '(a) Cyclobutene (C4H6), khí.', en: '(a) Cyclobutene (C4H6), gas.' },
+      { type: 'paragraph', vi: '(b) Cyclopentene (C5H8), lỏng.', en: '(b) Cyclopentene (C5H8), liquid.' },
+      { type: 'paragraph', vi: '(c) Cyclohexene (C6H10), lỏng', en: '(c) Cyclohexene (C6H10), liquid' },
+      { type: 'paragraph', vi: '(d) Cyclo - octaetraene (C8H8), lỏng', en: '(d) Cyclo - octaetraene (C8H8), liquid.' },
+      { type: 'paragraph', vi: '(e) Azulen (C10H8), rắn.', en: '(c) Azulen (C10H8), solid.' },
+      { type: 'paragraph', vi: 'Tuy nhiên, nhóm này không bao gồm caroten tổng hợp thuộc nhóm 32.04.', en: 'This heading does not , however, include synthetic carotenes which tall in heading 32.04' },
+      { type: 'heading', vi: '(B) XYCLOTERPEN', en: '(B) CYCLOTERPENES' },
+      { 
+        type: 'paragraph', 
+        vi: 'Những hydrocarbon này không khác về mặt cất trúc hóa học chung so với nhóm xyclen và có công thức chung (C5H8)n trong đó n có thể là 2 hoặc hơn. Chúng tồn tại trong tự nhiên ở các loài thực vật như chất lỏng có mùi thơm, dễ bay hơi, ví dụ:', 
+        en: 'These hydrocarbons do not differ in general chemical structure from the cyclene group and have the general formula (C5H8)n where n may be 2 or more. They occur naturally in the vegetable kingdom as odoriferous, volatile liquids, for example:' 
+      },
+      { type: 'paragraph', vi: '(1) Pinen , có thành phần trong nhựa thông, dầu gỗ thông, dầu quế,…; là chất lỏng không màu.', en: '(1) Pinene, a constituent of spirits of turpentine, pinewood oil, cinnamon oil, etc.; it is a colourless liquid.' },
+      { type: 'paragraph', vi: '(2) Camphen , có trong dầu nhục đậu khấu, dầu petitgrain,...', en: '(2) Camphene , contained in nutmeg oil, petitgrain oil, etc.' },
+      { 
+        type: 'paragraph', 
+        vi: '(3) Limonen* , tìm thấy trong tinh dầu chanh; dipenten là những hỗn hợp của đồng phân quang học của limonene. Dipenten thô bị loại trừ (nhóm 38.05).', 
+        en: '(3 ) Limonene *, found in citrus fruit oils; dipentene , being the mixed optical isomers of limonene. Crude dipentene is excluded (heading 38.05).' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: 'Nhóm này không bao gồm những tinh dầu ( nhóm 33.01 ), và gôm, gỗ hoặc sulphat turpentine và những loại dầu terpenic khác được tạo ra từ quá trình chưng cất hoặc xử lý khác của các gỗ thuộc loài cây lá kim ( nhóm 38.05 ).', 
+        en: 'This heading excludes essential oils (heading 33.01) , and gum, wood or sulphate turpentine and other terpcnic oils produced by the distillation or other treatment of coniferous woods (heading 38.05).' 
+      },
+      { type: 'heading', vi: '(C) HYDROCARBON THƠM', en: '(C ) AROMATIC HYDROCARBONS' },
+      { 
+        type: 'paragraph', 
+        vi: 'Những chất này gồm một hay nhiều vòng benzen liên kết hoặc không liên kết, benzen là một hydrocarbon gồm 6 nguyên tử cacbon và 6 nguyên tử hydro, chúng được sắp xếp trong 6 nhóm (CH) để tạo nên một vòng 6 cạnh.', 
+        en: 'These compounds contain one or more fused or unfused benzene rings, benzene being a hydrocarbon composed of 6 atoms of carbon and 6 atoms of hydrogen, arranged in 6 groups of (CH) to form a hexagonal ring.' 
+      },
+      { type: 'paragraph', vi: '(I) Những hydrocarbon chỉ có một vòng benzen . Nhóm này gồm benzen và các đồng đẳng của nó.', en: '(I) Hydrocarbons with only one benzene ring . These include benzene and its homologues.' },
+      { 
+        type: 'paragraph', 
+        vi: '(a) Benzen (C6H6) có trong khí than, trong dầu mỏ và sản phẩm dạng lỏng của quá trình chưng cất khô của rất nhiều hợp chất hữu cơ giàu cacbon (than, than non,…); cũng được điều chế bằng quá trình tổng hợp. Ở dạng tinh khiết, nó là chất lỏng không màu, linh động, khúc xạ, dễ bay hơi và dễ cháy, có mùi thơm. Chúng có thể hòa tan nhựa, chất béo, tinh dầu, cao su... Rất nhiều sản phẩm được tạo ra từ quá trình tổng hợp benzen.', 
+        en: '(a) Benzene (C6H6). Occurs in coal gas, in some petroleum oils, and in the liquid products of the dry distillation of numerous organic compounds rich in carbon (coal, lignite, etc.); also obtained synthetically. In the pure state, it is a colourless, mobile, retractive liquid, volatile and inflammable, with an aromatic odour. It readily dissolves resins, fats, essential oils, rubber, etc. Numerous products can be obtained from benzene synthesis.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: 'Để được xếp vào nhóm này, benzen phải tinh khiết từ 95% trở lên tính theo trọng lượng. Nếu độ tinh khiết thấp hơn thì sẽ bị loại trừ (nhóm 27.07).', 
+        en: 'To fall in this heading, benzene must have a purity of 95 % or more by weight. Benzene of lower purity is excluded (heading 27.07) .' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: '(b) Toluen (methylbenzen) (C6H5CH3). Là một dẫn xuất benzen trong đó một nguyên tử hydro được thay thế bằng một nhóm methyl. Thu được bằng quá trình chưng cất dầu hắc ín than đá nhẹ, hoặc bằng quá trình đóng vòng của hydrocarbon mạch hở. Là chất lỏng không màu, linh động, khúc xạ, dễ cháy, có mùi thơm giống benzen.', 
+        en: '(b) Toluene (methylbenzene) (C6H5CH3). A benzene derivative in which one atom of hydrogen has been replaced by a methyl group. Obtained by distilling light coal tar oil. or by cyclisation of acyclic hydrocarbons. Colourless, mobile, retractive, inflammable liquid, with an aromatic odour similar to that of benzene.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: 'Để được xếp ở nhóm này, toluen phải tinh khiết từ 95% trở lên tính theo trọng lượng. Nếu toluen ở độ tinh khiết thấp hơn thì sẽ bị loại trừ (nhóm 27.07).', 
+        en: 'To fall in this heading, toluene must have a purity of 95 % or more by weight. Toluene of lower purity is excluded (heading 27.07)' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: '(c) Xylene (dimethylbenzen) (C6H4(CH3)2)*. Là dẫn xuất benzen. trong đó 2 nguyên tử hydro được thay thế bằng 2 nhóm metyl. Có 3 đồng phân: o-xylene, m-xylene and p-xylene. Xylen là một chất lỏng trong suốt, dễ cháy và tìm thấy trong dầu hắc ín than đá nhẹ.', 
+        en: '(c) Xylenee (dimethylbenzene) (C6H4(CH3)2)*. A benzene derivative in which two atoms of hydrogen have been replaced by two methyI groups. There are three isomers: o-xylene, m-xylene and p-xylene. Xylene is a clear, inflammable liquid found in light coal tar oil.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: 'Để được xếp vào nhóm này, xylen phải chiếm từ 95% trở lên tính theo trọng lượng của mọi đồng phân xylene. Nếu xylen có độ tinh khiết nhỏ hơn 95% thì sẽ bị loại trừ (nhóm 27.07).', 
+        en: 'To fall in this heading, xylene must contain 95 % or more by weight of xylene isomers, all isomers being taken together. Xylene of lower purity is excluded (heading 27.07).' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: '(d) Những hydrocarbon thơm khác của nhóm này được tạo từ một vòng benzen và 1 hay nhiều mạch nhánh, đóng hoặc mở. Những hydrocacbon này bao gồm:', 
+        en: '(d) Other aromatic hydrocarbons of this group are formed by a ben/ene ring and one or more side chains, open or closed; these include:' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: '(1) Styrene (C6H5CH = CH2)*. Là chất lỏng không màu, nhờn được dùng chủ yếu trong quá trình sản xuất plastic (polystyren) và cao su tổng hợp.', 
+        en: '(1) Styrene (C6H5CH = CH2)*. A colourless, oily liquid used mainly in the preparation of plastics (polystyrene) and of synthetic rubber.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: '(2) Etylbenzen (C6H5.C2H5). Chất lỏng không màu, dễ bốc cháy, linh động, có trong hắc ín, thông thường được sản xuất từ etylen và benzen.', 
+        en: '(2) Etylbenzene (C6H5.C2H5). A colourless inflammable, mobile liquid, contained in coal tar, normally manufactured from benzene and ethylene.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: '(3) Cumen (C6H5CH (CH3)2). Chất lỏng không màu, có trong một số loại dầu mỏ. Dùng chủ yếu trong qúa trình sản xuất phenol, axeton α - metylstyren hoặc được dùng như một dung môi.', 
+        en: '(3) Cumene (C6H5CH (CH3)2). A colourless liquid found in certain petroleum oils. Used mainly in the production of phenol, acetone u - methylstyrene or as a solvent.' 
+      },
+      { type: 'paragraph', vi: '(4) p - Cymen (CH3C6H4CH(CH3)2)*. Tìm thấy nhiều trong một số loại tinh dầu. Là chất lỏng không màu với một mùi dễ chịu.', en: '(4) p - Cymen (CH3C6H4CH(CH3)2)*. Found abundantly in several essential oils. Colourless liquid vsilh an agreeable odour.' },
+      { type: 'paragraph', vi: 'p -cymene thô bị loại trừ (nhóm 38.05 ).', en: 'Crude p-cymene is excluded (heading 38.05).' },
+      { 
+        type: 'paragraph', 
+        vi: '(5) Tetrahydronaphthalene (tetralin) (C10H12). Được tạo thành từ một quá trình hydogen hóa xúc tác của naphtalen. Là chất lỏng không màu, với mùi giống terpen, được dùng như một dung môi,….', 
+        en: '(5) Tetrahydronaphthalene (tetralin) (C10H12). Obtained by the catalytic hydrogenation of naphthalene. Colourless liquid, with a terpenc-like odour, used as a solvent, etc.' 
+      },
+      { type: 'paragraph', vi: '(II) Các hydrocacbon với hai hoặc nhiều vòng benzen chưa liên kết với nhau ; gồm những chất sau:', en: '(II) Hydrocarbons with two or more unfused benzene rings; these include:' },
+      { 
+        type: 'paragraph', 
+        vi: '(a) Biphenyl (C6H5.C6H5). Là tinh thể trắng lấp lánh, có mùi dễ chịu; được dùng trong việc sản xuất các dẫn xuất clo hoá (chất hóa dẻo), như là chất làm nguội (riêng rẽ hoặc trộn với ete biphenyl), và như một chất điều tiết trong phản ứng hạt nhân.', 
+        en: '(a) Biphenyl (C6H5.C6H5). Sparkling white crystals with an agreeable odour; used in particular for the preparation of the chlorinated derivatives (plasticisers), as a coolant (alone or mixed with biphenyl ether), and as a moderator in nuclear reactors.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: '(b) Diphenylmethane (C6H5CH2C6H5). Một hydrocacbon với 2 vòng benzen liên kết bởi một nhóm metylen (CH2). Kết tinh hình kim, không màu, có mùi giống như mùi của hoa phong lữ; được dùng trong tổng hợp hữu cơ.', 
+        en: '(b) Diphenylmethane (C6H5CH2C6H5). A hydrocarbon with two benzene rings linked by a methylene group (CH2). Crystallises in colourless needles with a strong odour reminiscent of geraniums; used in organic sy nthesis.' 
+      },
+      { type: 'paragraph', vi: '(c) Triphenymethane (CH(C6H5)3). Là một metan có 3 nguyên tử hydro được thay thế bằng 3 vòng benzen.', en: '(c) Triphenylmethane (CH(C6H5)3). A methane with three atoms of hydrogen replaced by three benzene rings.' },
+      { type: 'paragraph', vi: '(d) Terphenyl. Hỗn hợp đồng phân terphenyl được dùng như một chất làm mát và như chất điều tiết phản ứng hạt nhân.', en: '(d) Terphenyls. The mixed terphenyl isomers are used as coolants and as moderators in nuclear reactors.' },
+      { type: 'paragraph', vi: '(III) Những hydrocarbon có 2 hay nhiều vòng benzen liên kết.', en: '(Ill) Hydrocarbons with two or more benzene rings fused.' },
+      { 
+        type: 'paragraph', 
+        vi: '(a) Naphtalen (C10H8). Là kết quả của sự kết hợp 2 vòng benzen. Có trong hắc ín than đá, trong dầu mỏ, trong khí than, trong hắc ín từ than non,... Kết tinh thành dạng vảy trắng mịn, với một mùi đặc trưng.', 
+        en: '(a) Naphthalene (C10H8). Results from the fusion of two benzene rings. It occurs in coal tar, in petroleum oils, in coal gas, in lignite tar, etc. It crystallises in fine white flakes, with a characteristic odour.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: 'Để được phân loại vào nhóm này, naphtalen phải có điểm kết tinh từ 79,4 ºC trở lên. Naphtalen có độ tinh khiết thấp hơn sẽ bị loại trừ ( nhóm 27.07 ).', 
+        en: 'To fall in this heading, naphthalene must have a crystallising point of 79.4 °C or more. Naphthalene of lower purity is excluded (heading 27.07).' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: '(b) Phenanthrene (C14H10). Là kết quả của sự kết hợp 3 vòng benzen. Là một trong những sản phẩm chưng cất hắc ín than đá; tinh thể mịn, không màu, phát quang.', 
+        en: '(b) Phenanthrene (C14H10). Results from the fusion of three benzene rings. One of the products of the distillation of coal tar; fine, colourless, fluorescent crystals.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: 'Phenanthrene chỉ được phân loại vào nhóm này khi là hợp chất đã được xác định về mặt hóa học riêng biệt ở trạng thái tinh khiết hoặc tinh khiết về mặt thương phẩm. Khi ở dạng thô, nó bị loại trừ (nhóm 27.07 ).', 
+        en: 'Phenanthrene falls here only when it is a separate chemically detlned compound in the pure or commercially pure state. When crude, it is excluded (heading 27.07).' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: '(c) Anthracene (C14H10). Cũng là kết quả của sự kết hợp ba vòng benzen và được tìm thấy trong hắc ín than đá. Là những tinh thể không màu hoặc bột màu vàng nhạt, và là chất phát quang màu xanh tía.', 
+        en: '(c) Anthracene (C14H10). Also results from the fusion of three benzene rings, and is found in coal tar. Colourless crystals or yellowish powder, and is purple-blue fluorescent.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: 'Để được phân loại vào nhóm này, anthracene phải có độ tinh khiết từ 90% trở lên tính theo trọng lượng. Với độ tinh khiết thấp hơn sẽ bị loại trừ (nhóm 27.07 ).', 
+        en: 'To fall in this heading, anthracene must have a purity of 90 % or more by weight. Anthracene of lower purity is excluded (heading 27.07).' 
+      },
+      { type: 'paragraph', vi: 'Nhóm này cũng gồm hydrocarbon sau:', en: 'This group also includes the following hydrocarbons:' },
+      { type: 'paragraph', vi: '(1) Acenaphthene .', en: '(1) Acenaphthene .' },
+      { type: 'paragraph', vi: '(2) Methylanthracenes .', en: '(2) Methylanthracenes .' },
+      { type: 'paragraph', vi: '(3) Fluorene .', en: '(3) Fluorene .' },
+      { type: 'paragraph', vi: '(4) Fluoranthene .', en: '(4) Fluoranthene .' },
+      { type: 'paragraph', vi: '(5) Pyrene .', en: '(5) Pyrene .' },
+      { type: 'paragraph', vi: 'Nhóm này không bao gồm dodecylbenzenes và nonylnaphthalenes là hỗn hợp alkylaren ( nhóm 38.17 ).', en: 'This heading excludes those dodccylbcn/encs and those nonylnaphthalencs which are mixed alkylarenes (heading 38.17).' },
       { type: 'heading', vi: '29.03 - Dẫn xuất halogen hóa của hydrocarbon.', en: '29.03 - Halogenated derivatives of hydrocarbons.' },
       { type: 'paragraph', vi: '- Dẫn xuất clo hoá của hydrocarbon mạch hở, no:', en: '- Saturated chlorinated derivatives of acyclic hydrocarbons:' },
       { type: 'list', vi: '2903.11 - - Clorometan (clorua metyl) và cloroetan (clorua etyl)', en: '2903.11 - - Chloromethane (methyl chloride) and chloroethane (ethyl chloride)' },
@@ -6821,13 +7387,13 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
       { type: 'list', vi: '2903.13 - - Cloroform (triclorometan)', en: '2903.13 - - Chloroform (trichloromethane)' },
       { type: 'list', vi: '2903.14 - - Cacbon tetraclorua', en: '2903.14 - - Carbon tetrachloride' },
       { type: 'list', vi: '2903.15 - - Etylen diclorua (ISO) (1,2- dicloetan)', en: '2903.15 - - Ethylene dichloride (ISO) (1,2-dichloroethane)' },
-      { type: 'list', vi: '2903.19 - - Loại khác', en: '2903.19 - - Other' },
+      { type: 'list', vi: '2903.19 - - Loại khác:', en: '2903.19 - - Other' },
       { type: 'paragraph', vi: '- Các dẫn xuất clo hoá chưa của hydrocarbon mạch hở, chưa no:', en: '- Unsaturated chlorinated derivatives of acyclic hydrocarbons:' },
       { type: 'list', vi: '2903.21 - - Vinyl clorua (cloroetylen)', en: '2903.21 - - Vinyl chloride (chloroethylene)' },
       { type: 'list', vi: '2903.22 - - Tricloroetylen', en: '2903.22 - - Trichloroethylene' },
       { type: 'list', vi: '2903.23 - - Tetracloroetylen (percloroetylen)', en: '2903.23 - - Tetrachlorocthylene (perchloroethylene)' },
       { type: 'list', vi: '2903.29 - - Loại khác', en: '2903.29 - - Other' },
-      { type: 'paragraph', vi: '- Các dẫn xuất flo hoá của hydrocarbon mạch hở, no:', en: '- Saturated fluorinated derivatives of acyclic hydrocarbons:' },
+      { type: 'paragraph', vi: '- Các dẫn xuất flo hoá của hydrocarbon mạch hở, no', en: '- Saturated fluorinated derivatives of acyclic hydrocarbons:' },
       { type: 'list', vi: '2903.41 - - Triflorometan (HFC-23)', en: '2903.41 - - Trifluoromethane (HFC-23)' },
       { type: 'list', vi: '2903.42 - - Diflorometan (HFC-32)', en: '2903.42 - - Difluoromethane (HFC-32)' },
       { type: 'list', vi: '2903.43 - - Florometan (HFC-41), 1,2-dinoroctan (HFC-152) và 1,1-difloroctan (HFC-152a)', en: '2903.43 - - Fluoromethane (HFC-41), 1,2-difluoroethane (HFC-152) and 1.1-difluoroethane (HFC-152a)' },
@@ -6865,7 +7431,197 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
       { type: 'list', vi: '2903.93 - - Pentachlorobenzene (ISO)', en: '2903.93 - - Pentachlorobenzene (ISO)' },
       { type: 'list', vi: '2903.94 - - Hexabromobiphenyls', en: '2903.94 - - Hexabromobiphenyls' },
       { type: 'list', vi: '2903.99 - - Loại khác', en: '2903.99 - - Other' },
-
+      { 
+        type: 'paragraph', 
+        vi: 'Chúng là những hợp chất được tạo thành do sự thay thế trong công thức cấu trúc của 1 hydrocacbon có 1 hoặc nhiều nguyên tử halogen (fluorine, chlorine, bromine, iodine) bằng 1 số lượng như thế của các nguyên tử hydro.', 
+        en: 'These are compounds obtained by the substitution in the structural formula of a hydrocarbon of one or more halogen atoms (fluorine, chlorine, bromine, iodine) for an equal number of hydrogen atoms.' 
+      },
+      { type: 'heading', vi: '(A) CÁC DẪN XUẤT CLO HÓA CỦA HYDROCACBON MẠCH HỞ, NO', en: '(A) SATURATED CHLORINATED DERIVATIVES OF ACYCLIC HYDROCARBONS' },
+      { 
+        type: 'paragraph', 
+        vi: '1) Clorometan (methyl clorua). Là chất khí không màu, thường ở dạng hóa lỏng đựng trong bình bằng thép. Được dùng như chất làm lạnh, như thuốc mê và trong tổng hợp hữu cơ.', 
+        en: '(1) Chloromethane (methyl chloride). Colourless gas, usually presented liquefied in steel cylinders. Used as a refrigerant, as an anaesthetic and in organic synthesis.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: '2) Diclorometan (methyllene chlorua). Là chất lỏng độc không màu, dễ bay hơi; được dùng trong tổng hợp hữu cơ.', 
+        en: '(2) Dichloromethane (methylene chloride). A toxic, colourless, volatile liquid; used in organic synthesis.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: '(3) Cloroform (tricholoromethane). Là chất lỏng, dễ bay hơi, không màu, có mùi đặc trưng; được dùng như thuốc mê, như một dung môi và được dùng trong tổng hợp hữu cơ.', 
+        en: '(3) Chloroform (trichloromethane). A colourless volatile liquid, with a characteristic odour; used as an anaesthetic, as a solvent and in organic synthesis.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: '(4) Carbon tetraclorua. Là chất lỏng không màu; được dùng để nạp vào bình chữa cháy, và dùng làm dung môi cho lưu huỳnh, dầu, chất béo, vecni, dầu mỏ, nhựa, ....', 
+        en: '(4) Carbon tetrachloride . Colourless liquid; used in fire-extinguishers, and as a solvent for sulphur, oils. fats, varnishes, petroleum, resins, etc.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: '(5) Cloroetan (etyl clorua). Dạng khí, khí hóa lỏng được đựng trong bình chứa đặc biệt; được dùng như một chất gây mê.', 
+        en: '(5) Chloroethane (ethyl chloride). Gaseous, liquefied in special containers; used as an anaesthetic.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: '(6) Etylen diclorua (ISO) (1,2 - dichloroetan). Chất lỏng, độc, không màu; được dùng như một dung môi.', 
+        en: '(6) Ethylene dichloride (ISO) (1.2-dichloroethane). Toxic, colourless liquid; used as a solvent.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: '(7) 1,2-Dicloropropan (propylendiclorua). Chất lỏng không màu, bền vững. Có mùi giống cloroform. Được dùng trong tổng hợp hữu cơ, và như một dung môi hòa tan cho chất béo, dầu, sáp, gôm và nhựa.', 
+        en: '(7) 1,2-Dichloropropane (propylene dichloride). Colourless, stable liquid. Chloroform-like odour. Used in organic synthesis, and as a solvent for fats, oils, waxes, gums and resins.' 
+      },
+      { type: 'paragraph', vi: '(8) Diclorobutan .', en: '(8) Dichlorobutanes.' },
+      { type: 'paragraph', vi: 'Nhóm này không bao gồm:', en: 'This heading excludes:' },
+      { 
+        type: 'paragraph', 
+        vi: '(a) Những cloroparafin nếu chúng là hỗn hợp của các dẫn xuất clo hoá; các cloroparafin rắn có đặc tính của sáp nhân tạo được phân loại vào nhóm 34.04 , còn cloroparafin lỏng được phân loại vào nhóm 38.24 .', 
+        en: '(a) Chloroparaffins if they are mixtures of chlorinated derivatives; solid chloroparaffins having the character of artificial waxes are classified in heading 34.04 , while liquid chloroparaffins are classified in heading 38.24.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: '(b) Những sản phẩm nạp cho bình chữa cháy hoặc lựu đạn chữa cháy, thuộc nhóm 38.13 .', 
+        en: '(b) Products put up as charges for fire-extinguishers or put up in fireextinguishing grenades, of heading 38.13.' 
+      },
+      { type: 'heading', vi: '(B) CÁC DẪN XUẤT CLO HÓA CỦA HYDROCARBON MẠCH HỞ, CHƯA NO', en: '(B) UNSATURATED CHLORINATED DERIVATIVES OF ACYCLIC HYDROCSRBONS' },
+      { 
+        type: 'paragraph', 
+        vi: '(1) Vinyl clorua (chloroethylene). Chất khí, có mùi cloroform; tồn tại ở dạng chất lỏng trong các bình chứa bằng thép; được dùng trong sản xuất poly(vinylclorua) của nhóm 39.04.', 
+        en: '(I) Vinyl chloride (chloroethylene). Gas with an odour of chloroform; presented in liquid form in dteel containers; used for the preparation of poly(vinyl chloride) of heading 39.04.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: '(2) Tricloroetylen . Là chất lỏng không màu, có mùi cloroform; làm dung môi cho vecni, dầu và chất béo; được dùng trong tổng hợp hữu cơ.', 
+        en: '(2) Trichloroethylene. Colourlcss liquid with an odour of chloroform; solvent for varnishes, oils and fats; used in organic synthesis.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: '(3) Tetracloroetylen (perchloroethylene); chất lỏng không màu được dùng như một dung môi lau khô.', 
+        en: '(3) Tetrachlorocthylene (perchloroethylene); colourless liquid used as a dry -cleaning solvent.' 
+      },
+      { type: 'paragraph', vi: '(4) Vinylidene chloride .', en: '(4) Vinylidene chloride.' },
+      { type: 'heading', vi: '(C) CÁC DẪN XUẤT FLO HÓA, CỦA HYDROCARBON MẠCH HỞ', en: '(C) SATURATED FLUORINATED DERIVATIVES OF ACYCLIC HYDROCARBONS' },
+      { 
+        type: 'paragraph', 
+        vi: 'Trong thương mại các chất trifluoromethane (HFC-23), difluoromethane (HFC-32), fluoromethane (HFC-41), 1,2- difluoroethane (HFC-152), 1,1-difluoroethane (HFC- 152a), pentafluoroethane (HFC-125), 1,1,1-trifluoroethane (HFC- 143a), 1,1,2-trifluoroethane (HFC-143), 1,1,1,2- tetrafluoroethane (HFC-134a), 1,1,2,2-tetrafluoroethane (HFC- 134), 1,1,1,2,3,3,3-heptafluoropropane (HFC-227ca), 1,1,1,2,2,3 hexafluoropropane (HFC-236cb), 1,1,1,2,3,3- hexafluoropropane (HFC-236ca), 1,1,1,3,3,3- hexafluoropropane (HFC-236fa), 1,1,1,3,3- pentafluoropropane (HFC-245fa), 1,1,2,2,3-pentafluoroprupane (HFC-245ca), 1,1,1,3,3-pentafluorobutane (HFC- 365mfc) and 1,1,1,2,2,3,4,5,5,5-decafluoropentane (HFC-43-10mee) được kiểm soát bởi Nghị định thư Montreal về các chất làm suy giảm tầng ôzôn theo Bản sửa đổi, bổ sung Kigali Amendment đối với Nghị định thư.', 
+        en: 'Trade in trifluoromethane (HFC-23), difluoromethane (HFC-32), fluoromethane (HFC-41), 1,2- difluoroethane (HFC-152), 1,1-difluoroethane (HFC- 152a), pentafluoroethane (HFC-125), 1,1,1-trifluoroethane (HFC-143a), 1,1,2-trifluoroethane (HFC-143), 1,1,1,2- tetrafluoroethane (HFC-134a), 1,1,2,2-tetrafluoroethane (HFC-134), 1,1,1,2,3,3,3-heptafluoropropane (HFC-227ca), 1,1,1,2,2,3 hexafluoropropane (HFC-236cb), 1,1,1,2,3,3- hexafluoropropane (HFC-236ca), 1,1,1,3,3,3- hexafluoropropane (HFC-236fa), 1,1,1,3,3- pentafluoropropane (HFC-245fa), 1,1,2,23-pentafluoroprupane (HFC-245ca), 1,1,1,3,3-pentafluorobutane (HFC- 365mfc) and 1,1,1,2,2,3,4,5,5,5-decafluoropentane (HFC-43-10mee) is controlled by the Montreal Protocol on Substances that Deplete the Ozone Layer under the Kigali Amendment to the Protocol.' 
+      },
+      { type: 'heading', vi: '(D) CÁC DẪN XUẤT FLO HÓA CHƯA NO CỦA HYDROCARBON MẠCH HỞ', en: '(D) UNSATURATED FLUORINATED DERIVATIVES OF ACYCLIC HYDROCARBONS' },
+      { 
+        type: 'paragraph', 
+        vi: '2,3,3,3-Tetrafluoropropene (HFO-1234yf), 1,3,3,3- tetrafluoropropene (HFO-1234ze) và (Z) -1,1,1,4,4,4- hexafluoro- 2 butene (HFO-1336mzz). Các Hydrofluoroolefin (HFOs) là các fluorocarbon chưa no (tức là, các phân tử có liên kết đôi giữa hai nguyên tử cacbon). Sự hiện diện của liên kết đôi làm cho phân tử có thời gian tồn tại trong khi quyền rất ngắn và chỉ số nóng lên toàn cầu (GWP) rất thấp. Phần lớn các HFO là các HFC chưa no và có chỉ số GWP nằm trong khỏang từ 4 đến và không được kiểm soát theo Nghị định thư Montreal. Ví dụ, HFO-1234yf, ngày càng được sử dụng nhiều trong điều hòa không khí di dụng, có chỉ số GWP là 4.', 
+        en: '2,3,3,3-Tetrafluoropropene (HFO-1234yf), 1,3,3,3- tetrafluoropropene (HFO-1234ze) và (Z) -1,1,1,4,4,4- hexafluoro- 2 butene (HFO-1336mzz). Hydrofluoroolefins (HFOs) are unsaturated fluorocarbons (i.e. molecules with a double bond between two carbon atoms). The presence of the double bond makes the molecule have a very short atmospheric life and a very low global warming potential (GWP). The majority of HFOs are unsaturated HFCs and have GWPs in the range of 4 to 9 and are not controlled under the Montreal Protocol. For example. HFO-1234yf, increasingly used in mobile air-conditioning has a GWP of 4.' 
+      },
+      { type: 'heading', vi: '(E) CÁC DẪN XUẤT BRÔM HÓA, IỐT HÓA CỦA HYDROCARBON MẠCH HỞ', en: '(E) BROMINATED OR IODINATED DERIVATIVES OF ACYCLIC HYDROCARBONS' },
+      { 
+        type: 'paragraph', 
+        vi: '(1) Bromometan (methyl bromua). Chất khí, hóa lỏng trong bình đựng đặc biệt; được dùng trong bình chữa cháy và được dùng như một chất làm lạnh.', 
+        en: '(1) Bromomethane (methyl bromide). Gaseous, liquefied in special containers; used in fire-extinguishers and as a refrigerant.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: '(2) Bromoetan (ethyl bromua). Chất lỏng không màu, mùi tương tự như mùi cloroform; được dùng trong tổng hợp hữu cơ.', 
+        en: '(2) Brumoethane (ethyl bromide). Colourless liquid with an odour similar to that of chloroform; used in organic synthesis.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: '(3) Bromoform . Chất lỏng không màu, có mùi đặc trưng; được dùng như thuốc an thần.', 
+        en: '(3) Bromoform . Colourless liquid with a characteristic odour; used as a sedative.' 
+      },
+      { type: 'paragraph', vi: '(4) Allyl bromua .', en: '(4) AllyI bromide.' },
+      { 
+        type: 'paragraph', 
+        vi: '(5) Iodometan (methyl iodua) và iodoetan (ethyl iodua). Chất lỏng, được dùng trong tổng hợp hữu cơ.', 
+        en: '(5) lodomethane (methyl iodide) and iodoctliane (ethyl iodide). Liquids, used in organic synthesis.' 
+      },
+      { type: 'paragraph', vi: '(6) Di-iodometan (methylen iodua).', en: '(6) Di-iodomethane (methylene iodide).' },
+      { 
+        type: 'paragraph', 
+        vi: '(7) Iodoform . Là chất bột màu vàng hoặc tinh thể màu vàng với mùi đặc trưng; được dùng trong ngành y như thuốc sát trùng.', 
+        en: '(7) Iodoform . Yellow powder or yellow crystals with a characteristic odour; used in medicine as an antiseptic.' 
+      },
+      { type: 'paragraph', vi: '(8) Allyl iodua (3-iodopropen).', en: '(8) Ally I iodide (3-iodopropene).' },
+      { 
+        type: 'paragraph', 
+        vi: 'Nhóm này không bao gồm những sản phẩm nạp bình chữa cháy hoặc lựu đạn chữa cháy của nhóm 38.13 .', 
+        en: 'This heading excludes products put up as charges for fire-extinguishers or put up in fire-extinguishing grenades, ol heading 38.13 .' 
+      },
+      { type: 'heading', vi: '(F) CÁC DẪN XUẤT HALOGEN HÓA CỦA HYDROCARBON MẠCH HỞ CHỨA HAI HAY NHIỀU HALOGEN KHÁC NHAU', en: '(F) HALOGENATED DERIVATIVES OF ACYCLIC HYDROCARBONS CONTAINING TWO OR MORE DIFFERENT HALOGENS' },
+      { 
+        type: 'paragraph', 
+        vi: 'Trong thương mại các chất chlorodifluoromethane (HCFC-22), dichlorotrifluoroethanes (HCFC-123) , dichlorofluoroethanes (HCFC-141, 141b) , chlorodifluoroethanes (HCFC-142,142b) , dichloropentafluoropropanes (HCFC-225, 225ca, 225cb) , bromochlorodifluoromethane (Halon-1211) , bromotrifluoromethane (Halon-1301) , dibromotetrafluoroethanes (Halon-2402) , trichlorofluoromethane (CFC-11) , dichlorodifluoromethane (CFC-12) , trichlorotrifluoroethanes (CFC-113) , dichlorotetrafluoroethanes (CFC-114) và chloropentafluoroethane (CFC-115) được kiểm soát bởi Nghị định thư Montreal về các chất làm suy giảm tầng ôzôn.', 
+        en: 'Trade in chlorodifluoromethane (HCFC-22), dichlorotrifluoroethanes (HCFC-123) , dichlorofluoroethanes (HCFC-141, 141b) , chlorodifluoroethanes (HCFC-142,142b) , dichloropentafluoropropanes (HCFC-225, 225ca, 225cb) , bromochlorodifluoromethane (Halon-1211) , bromotrifluoromethane (Halon-1301) , dibromotetrafluoroethanes (Halon-2402) , trichlorofluoromethane (CFC-11) , dichlorodifluoromethane (CFC-12) , trichlorotrifluoroethanes (CFC-113) , dichlorotetrafluoroethanes (CFC-114) and chloropentafluoroethane (CFC-115) is controlled by the Montreal Protocol on Substances that Deplete the Ozone Layer.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: 'Nhóm này không bao gồm những sản phẩm nạp cho bình chữa cháy hoặc lựu đạn chữa cháy, của nhóm 38.13 .', 
+        en: 'This heading excludes products put up as charges for fire-extinguishers or put up in fire-extinguishing grenades, of heading 38.13.' 
+      },
+      { type: 'heading', vi: '(G) DẪN XUẤT HALOGEN HÓA CỦA HYDROCARBON XYCLANIC, XYCLENIC HOẶC XYCLOTERPENIC', en: '(G) HALOGENATED DERIVATIVES OF CYCLANIC, CYCLENIC OR CYCLOTERPENIC HYDROCARBONS' },
+      { 
+        type: 'paragraph', 
+        vi: '(1) 1,2,3,4,5,6-Hexaclorocyclohexan (HCH (ISO)), bao gồm lindane (ISO, INN). Dạng bột hoặc vảy màu vàng nhạt hoặc trắng; là chất diệt côn trùng mạnh.', 
+        en: '(1) 1,2,3,4,5,6-Hexaclorocyclohexane (HCH (ISO)), including lindane (ISO, INN). White or yellowish powder or flakes; a very strong insecticide.' 
+      },
+      { type: 'paragraph', vi: '(2) Dẫn xuất halogen hóa của xyclopropan hoặc xyclobutan.', en: '(2) Halogenated derivatives of cyclopropane or cyclohutane.' },
+      { type: 'paragraph', vi: '(3) Octaclorotetrahydro-4,7-endometyleneindan , cũng là chất diệt côn trùng mạnh.', en: '(3) Octachlorotetruhydro-4,7-cndomethyleneindane , also a very strong insecticide.' },
+      { 
+        type: 'paragraph', 
+        vi: '4) Các dẫn xuất halogen hóa của hydrocarbon có cấu trúc lồng như dodecachloro-pentacyclo [5.2.1.02,6.03,9.05,8] decane.', 
+        en: '(4) Halogenated derivatives of “cage" structure hydrocarbons , such asdodecachloro- pentacyclo [5.2.1.02,6.03,9.05,8] decane.' 
+      },
+      { type: 'paragraph', vi: '(5) Các dẫn xuất halogen hóa của xycloterpen , như clorocamphene, bornyl clorua.', en: '(5) Halogenated derivatives of cycloterpenes, such as chlorocamphene, bomyl chloride.' },
+      { type: 'heading', vi: '(H) CÁC DẪN XUẤT HALOGEN HÓA CỦA HYDROCARBON THƠM', en: '(H) HALOGENATED DERIVATIVES OF AROMATIC HYDROCARBONS' },
+      { 
+        type: 'paragraph', 
+        vi: '(1) Clorobenzen . Là chất lỏng dễ cháy, với mùi thơm nhẹ; được dùng trong tổng hợp hữu cơ và cũng làm dung môi cho vecni, nhựa và bitum.', 
+        en: '(1) Chlorobenzene , Inflammable liquid with a slightly aromatic odour; used in organic synthesis and also as a solvent for varnishes, resins and bitumens.' 
+      },
+      { type: 'paragraph', vi: '(2) o - Diclorobenzen . Chất lỏng không màu.', en: '(2) o - Dichlorobenzene . Colourless liquid.' },
+      { type: 'paragraph', vi: '(3) m - Diclorobenzen . Chất lỏng không màu.', en: '(3) m - Dichlorobenzene . Colourless liquid.' },
+      { 
+        type: 'paragraph', 
+        vi: '(4) p - Diclorobenzen . Tinh thể trắng, được dùng chủ yếu như một chất diệt côn trùng, chất làm sạch không khí hoặc là chất trung gian trong sản xuất thuốc nhuộm.', 
+        en: '(4) p - Dichlorobenzene. White crystals, used mainly as an insecticide, an air freshener or as an intermediate in the manufacture of dyes.' 
+      },
+      { type: 'paragraph', vi: '(5) Hexachlorobenzene (ISO) và pentachlorobenzene (ISO) . Tinh thể hình kim màu trắng không tan trong nước.', en: '(5) Hexachlorobenzene (ISO) and pentachlorobenzene (ISO). White needles insoluble in water.' },
+      { 
+        type: 'paragraph', 
+        vi: '(6) DDT(ISO) (clofenotane (INN), 1,1,1-trichloro-2,2-bis(p-chlorophenyl) ethane hoặc dichlorodiphenyltrichloroethane)*. Tinh thể không màu hoặc bột trắng đến hơi trắng. Thuốc diệt côn trùng.', 
+        en: '(6) DDT(ISO) (clofenotane (INN), 1,1,1-trichloro-2,2-bis(p-chlorophenyl) ethane or dichlorodiphenyltrichloroethane)*. Colourless cry stals or white to slightly off-white powder. Insecticide.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: '(7) Benzyl clorua . Chất lòng không màu, có mùi dễ chịu, gây chảy nhiều nước mắt; được dùng trong tổng hợp hữu cơ.', 
+        en: '(7) Benzyl chloride. Colourless liquid with an agreeable odour, highly lachrymatory; used in organic synthesis.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: '(8) Monocloronaphtalen , dạng α (chất lỏng linh động) hoặc dạng  (những tinh thể dễ bay hơi). Chúng có mùi của naphtalen; được dùng trong tổng hợp hữu cơ, như chất hóa dẻo,...', 
+        en: '(8) M onochloronaphthalenes ,  (mobile liquid) or  (volatile crystals). They have an odour of naphthalene; used in organic synthesis, as plasticisers, etc.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: '(9) 1,4-Dicloronaphtalen , những tinh thể không màu óng ánh, và octacloronaphtalen , tinh thể có màu hơi vàng óng ánh, được dùng như chất diệt côn trùng.', 
+        en: '(9) 1,4-Dichloronaphthalene, brilliant colourless crystals, and octachloronaphthalene. brilliant yellowish crystals, used as insecticides.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: 'Các polycloronaphtalen ở dạng lỏng, được phân loại vào nhóm này nếu chúng không phải là hỗn hợp; nhưng nếu là hỗn hợp ở dạng rắn mang tính chất của sáp nhân tạo thì bị loại trừ (nhóm 34.04 ).', 
+        en: 'Liquid polychloronaphthalencs are classified in this heading if they are not mixtures; but those in the solid state which are mixtures having the character of artificial waxes are excluded ( heading 34.04 )' 
+      },
+      { type: 'paragraph', vi: '(10) Bromostyren .', en: '(10) Bromostyrene' },
+      { 
+        type: 'paragraph', 
+        vi: '(11) Hexabromobiphenyls* . Ví dụ điển hình là: 2.2\'.4.4\'.5.5\'-hexabromobiphenyl* và 3.3\'.4.4\'.5.5\'-hexabromobiphenyl. Chất rắn không màu tới màu trắng ngà.', 
+        en: '(11) Hexabromobiphenyls* . Typical examples are: 2.2\'.4.4\'.5.5\'-hexabromobiphenyl* and 3.3\'.4.4\'.5.5\'-hexabromobiphenyl-hexabromobiphenyl. Colourless to off-white solids.' 
+      },
+      { 
+        type: 'paragraph', 
+        vi: 'Nhóm này không bao gồm hỗn hợp các đồng phân hexabromobiphenyls ( nhóm 38.24 ). Nhóm này cũng không bao gồm polychlorobiphenyls là hỗn hợp của các dẫn xuất clo hóa; những chất này ở thể rắn có đặc tính của sáp nhân tạo thì thuộc nhóm 34.04 , và polychlorobiphenyls dạng lỏng phân loại vào nhóm 38.24', 
+        en: 'This heading excludes mixtures of isomers of hexabromobiphenyls ( heading 38.24 ). Ibis heading also excludes polychlorobiphenyls which are mixtures of chlorinated derivatives; those in the solid form having the character of artificial waxes fall in heading 34.04, and liquid polychlorobiphenyls are classified in heading 38.24.' 
+      },
       { type: 'heading', vi: '29.04 - Dẫn xuất sulphonat hoá, nitro hoá hoặc nitroso hoá của hydrocarbon, đã hoặc chưa halogen hóa.', en: '29.04 - Sulphonated, nitrated or nitrosated derivatives of hydrocarbons, whether or not halogenated.' },
       { type: 'list', vi: '2904.10 - Dẫn xuất chỉ chứa các nhóm sulpho, muối và các etyl este của chúng', en: '2904.10 - Derivatives containing only sulpho groups, their salts and ethyl esters' },
       { type: 'list', vi: '2904.20 - Dẫn xuất chỉ chứa các nhóm nitro hoặc các nhóm nitroso', en: '2904.20 - Derivatives containing only nitro or only nitroso groups' },
@@ -6879,35 +7635,44 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
       { type: 'paragraph', vi: '- Loại khác:', en: '- Other:' },
       { type: 'list', vi: '2904.91 - - Trichloronitromethane (chloropicrin)', en: '2904.91 - - Trichloronitromethane (chloropicrin)' },
       { type: 'list', vi: '2904.99 - - Loại khác', en: '2904.99 - - Other' },
-
-      { type: 'heading', vi: 'PHÂN CHƯƠNG II: RƯỢU VÀ CÁC DẪN XUẤT HALOGEN HOÁ, SULPHONAT HOÁ, NITRO HOÁ HOẶC NITROSO HOÁ CỦA CHÚNG', en: 'SUB-CHAPTER II: ALCOHOLS AND THEIR HALOCENATED, SULPHONATED, NITRATED OR NITROSATED DERIVATIVES' },
-
-      { type: 'heading', vi: '29.05 - Rượu mạch hở và các dẫn xuất halogen hóa, sulphonat hóa, nitro hóa hoặc nitroso hóa của chúng.', en: '29.05 - Acyclic alcohols and their halogenated, sulphonated, nitrated or nitrosated derivatives.' },
-      { type: 'paragraph', vi: '- Rượu no đơn chức (monohydric):', en: '- Saturated monohydric alcohols:' },
-      { type: 'list', vi: '2905.11 - - Metanol (rượu metylic)', en: '2905.11 - - Methanol (methyl alcohol)' },
-      { type: 'list', vi: '2905.12 - - Propan-1-ol (rượu propylic) và propan-2-ol (rượu isopropylic)', en: '2905.12 - - Propan-l-ol (propyl alcohol) and propan-2-ol (isopropyl alcohol)' },
-      { type: 'list', vi: '2905.13 - - Butan-1- ol (rượu n-butylic)', en: '2905.13 - - Bulan-l-ol (n-butyl alcohol)' },
-      { type: 'list', vi: '2905.14 - - Butanol khác', en: '2905.14 - - Other butanols' },
-      { type: 'list', vi: '2905.16 - - Octanol (rượu octylic) và đồng phân của nó.', en: '2905.16 - - Octanol (octyl alcohol) and isomers thereof' },
-      { type: 'list', vi: '2905.17 - - Dodecan-1-ol (rượu Laurylic), Hexadecan-1-ol (rượu xetylic) và octadecan-1-ol (rượu stearylic)', en: '2905.17 - - Dodecan-1 -ol (lauryl alcohol), hexadecan-1-ol (cetyl alcohol) and octadecan-1-ol (stearyl alcohol)' },
-      { type: 'list', vi: '2905.19 - - Loại khác', en: '2905.19 - - Other' },
-      { type: 'paragraph', vi: '- Rượu đơn chức chưa no:', en: '- Unsaturated monohydric alcohols:' },
-      { type: 'list', vi: '2905.22 - - Rượu tecpen mạch hở', en: '2905.22 - - Acyclic terpene alcohols ' },
-      { type: 'list', vi: '2905.29 - - Loại khác', en: '2905.29 - - Other' },
-      { type: 'paragraph', vi: '- Rượu hai chức:', en: '- Diols:' },
-      { type: 'list', vi: '2905.31 - - Etylen glycol (Ethanediol)', en: '2905.31 - - Ethylene glycol (ethanediol)' },
-      { type: 'list', vi: '2905.32 - - Propylen glycol (Propan-1,2-diol)', en: '2905.32 - - Propylene glycol (propane-1.2-diol)' },
-      { type: 'list', vi: '2905.39 - - Loại khác', en: '2905.39 - - Other' },
-      { type: 'paragraph', vi: '- Rượu đa chức khác:', en: '- Other polyhydric alcohols:' },
-      { type: 'list', vi: '2905.41 - - 2-Ethyl-2-(hydroxymetyl) propan-1,3-diol (trimetylolpropan)', en: '2905.41 - - 2-Ethyl-2-(hydroxymethyl) propane- 1.3-diol (trimethyloIpropane)' },
-      { type: 'list', vi: '2905.42 - - Pentaerythriol', en: '2905.42 - - Pentaerythritol' },
-      { type: 'list', vi: '2905.43 - - Mannitol', en: '2905.43 - - Mannitol' },
-      { type: 'list', vi: '2905.44 - - D-glucitol (sorbitol)', en: '2905.44 - - D-gludtoI (sorbitol)' },
-      { type: 'list', vi: '2905.45 - - Glyxerin', en: '2905.45 - - Glycerol' },
-      { type: 'list', vi: '2905.49 - - Loại khác', en: '2905.49 - - Other' },
-      { type: 'paragraph', vi: '- Dẫn xuất halogen hoá, sulphonat hoá, nitro hoá hoặc nitroso hoá của rượu mạch hở:', en: '- Halogenated, sulphonated, nitrated or nitrosated derivatives of acyclic alcohols:' },
-      { type: 'list', vi: '2905.51 - - Ethchlorvynol (INN)', en: '2905.51 - - Ethchlorvynol (INN)' },
-      { type: 'list', vi: '2905.59 - - Loại khác', en: '2905.59 - - Other' },
+      { type: 'heading', vi: '(A) CÁC DẪN XUẤT SULPHONAT HÓA', en: '(A) SULPHONATED DERIVATIVES' },
+      { 
+        type: 'paragraph', 
+        vi: 'Đây là những hydrocarbon mà một hay nhiều nguyên tử hydro của chúng được thay thế bằng số lượng các nhóm sulpho (-SO3H) tương ứng; chúng thường được gọi là axit sulphonic. Nhóm này còn bao gồm cả những muối và những etyl este của axit sulphonic (xem Chú giải 5 (B) của Chương này).', 
+        en: 'These are hydrocarbons in which one or more atoms of hydrogen have been replaced by a like number of sulpho group (-SO3H); they are generally called sulphonic acids. The heading also includes salts and ethyl esters of suIphonic acids (see Note 5 (B) to this Chapter).' 
+      },
+      { type: 'paragraph', vi: '(1) Các dẫn xuất sulphonat hóa của hydrocarbon mạch hở.', en: '(1) Sulphonated derivatives of acyclic hydrocarbons.' },
+      { type: 'paragraph', vi: '(a) Ethylenesulphonic axit*.', en: '(a) Ethylenesulphonic acid *.' },
+      { type: 'paragraph', vi: '(b) Ethansuphonic axit.', en: '(b) Ethanesulphonic acid.' },
+      { type: 'paragraph', vi: '(2) Các dẫn xuất sulphonat hóa của hydrocarbon vòng.', en: '(2) Sulphonated derivatives of cyclic hydrocarbons.' },
+      { type: 'paragraph', vi: '(a) Benzensulphonic axit', en: '(a) Benzenesulphonic acid.' },
+      { type: 'paragraph', vi: '(b) Các axit toluensulphonic (đôi khi gọi nhầm là những axit benzylsylphonic).', en: '(b) Toluenesulphonic acids (sometimes erroneously called benzylsulphonic acids).' },
+      { type: 'paragraph', vi: '(c) Các axit xylensulphonic.', en: '(c) Xylenesulphonic acids.' },
+      { type: 'paragraph', vi: '(d) Các axit benzendisulphonic.', en: '(d) Benzenedisulphonic acids.' },
+      { type: 'paragraph', vi: '(e) Các axít Naphthaensulphonic', en: '(e) Naphthalenesulphonic acids.' },
+      { type: 'heading', vi: '(B) CÁC DẪN XUẤT NITRO HÓA', en: '(B) NITRATED DERIVATIVES' },
+      { 
+        type: 'paragraph', 
+        vi: 'Đây là những hydrocarbon mà trong đó có 1 hay nhiều nguyên tử hydro được thay thế bởi một số lượng như thế các nhóm nitro (-NO2).', 
+        en: 'These are hydrocarbons in which one or more hydrogen atoms have been replaced by a like number of nitro groups (-NO2).' 
+      },
+      { type: 'paragraph', vi: '(1) Dẫn xuất nitro hóa của hydrocarbon mạch hở.', en: '(1) Nitrated derivatives of acyclic hydrocarbons.' },
+      { type: 'paragraph', vi: '(a) Nitrometan.', en: '(a) Nitromethane.' },
+      { type: 'paragraph', vi: '(b) Nitroetan.', en: '(b) Nitroethane.' },
+      { type: 'paragraph', vi: '(c) Nitropropan.', en: '(c) Nitropropane.' },
+      { type: 'paragraph', vi: '(d) Trinitrometan*,…', en: '(d) Trinitromethane*. etc.' },
+      { type: 'paragraph', vi: '(2) Các dẫn xuất nitro hóa của hydrocarbon vòng.', en: '(2) Nitrated derivatives of cyclic hydrocarbons.' },
+      { 
+        type: 'paragraph', 
+        vi: '(a) Nitrobenzene (dầu của mirbane). Là tinh thể vàng óng ánh hoặc chất lỏng có màu hơi vàng, nhờn, có mùi giống hạnh nhân đắng; được dùng trong công nghệ nước hoa, xà phòng, tổng hợp hữu cơ, như là một tác nhân biến tính,.…', 
+        en: '(a) Nitrobenzene (oil of mirbane). Shining yellow crystals or oily yellowish liquid, with the odour of bitter almonds; used in perfumery, in soap-making, in organic synthesis, as a denaturing agent, etc.' 
+      },
+      { type: 'paragraph', vi: '(b) m - Dinitrobenzene . Ở dạng vảy hoặc hình kim không màu; được dùng sản xuất chất nổ.', en: '(b) m - Dinitrobenzene . Colourless needles or flakes; used for the preparation of explosives.' },
+      { 
+        type: 'paragraph', 
+        vi: '(c) Nitrotoluene ( o-, m- và p-).', 
+        en: '(c) Nitrotoluene ( o-, m- and p-).' 
+      }
     ]
   },
 
@@ -7177,7 +7942,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
       { type: 'paragraph', vi: '(b) Phân bón gồm bất kỳ các loại nào đã mô tả trong mục (a) trên được pha trộn với nhau.', en: '(b) Fertilisers consisting of any of the goods described in (a) above mixed together.' },
       { type: 'paragraph', vi: '5. Amoni dihydroorthophosphat (monoamoni phosphat) và diamoni hydroorthophosphat (diamoni phosphat), tinh khiết hoặc không tinh khiết, và hỗn hợp của 2 loại đó, được xếp vào nhóm 31.05.', en: '5.- Ammonium dihydrogenorthophosphate (monoammonium phosphate) and diammonium hydrogen-orthophosphate (diammonium phosphate), whether or not pure, and intermixtures thereof, are to be classified in heading 31.05.' },
       { type: 'paragraph', vi: '6. Theo mục đích của nhóm 31.05, khái niệm "phân bón khác" chỉ áp dụng cho các sản phẩm được sử dụng như phân bón và chứa ít nhất một trong các nguyên tố cấu thành cơ bản của phân bón như nitơ, phospho hoặc kali.', en: '6.- For the purposes of heading 31.05, the term “ other fertilisers ” applies only to products of a kind used as fertilisers and containing, as an essential constituent, at least one of the fertilising elements nitrogen, phosphorus or potassium.' },
-
       { type: 'heading', vi: 'TỔNG QUÁT', en: 'GENERAL' },
       { type: 'paragraph', vi: 'Nhìn chung, chương này bao gồm hầu hết các sản phẩm sử dụng như phân bón tự nhiên hoặc phân bón nhân tạo.', en: 'This Chapter covers most products in general use as natural or artificial fertilisers.' },
       { type: 'paragraph', vi: 'Mặt khác, Chương này không bao gồm các sản phẩm nhằm cải thiện đất hơn là làm màu mỡ cho đất, như là:', en: 'On the other hand, the Chapter does not cover products which improve rather than fertilise the soil, such as:' },
@@ -7186,7 +7950,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
       { type: 'list', vi: '(c) Than bùn (nhóm 27.03).', en: '(c) Peat (heading 27.03).' },
       { type: 'paragraph', vi: 'Chương này cũng không bao gồm các chế phẩm vi chất dinh dưỡng được áp dụng cho hạt giống, cho tán lá hoặc đất để hỗ trợ cho sự nảy mầm và phát triển của cây. Chúng có thể chứa lượng nhỏ các nguyên tố của phân bón là nitơ, phốt pho và kali, nhưng không phải là thành phần cần thiết (ví dụ, nhóm 38.24).', en: 'This Chapter also excludes micronutrient preparations which are applied to seeds, to foliage or to soil to assist in seed germination and plant growth. They may contain small amounts of the fertilising elements nitrogen, phosphorus and potassium, but not as essential constituents (e.g., heading 38.24).' },
       { type: 'paragraph', vi: 'Nó cũng không bao gồm môi trường phát triển của thực vật như bầu đất, dựa trên than bùn, hoặc hỗn hợp than bùn và cát hoặc than bùn và đất sét (nhóm 27.03) và hỗn hợp của đất, cát, đất sét, v.v. (nhóm 38.24). Tất cả các sản phẩm này có thể chứa một lượng nhỏ các nguyên tố của phân bón là nitơ, phốt pho hoặc kali.', en: 'It also excludes prepared plant growing media such as potting soils, based on peat or mixtures of peat and sand or of peat and clay (heading 27.03) and mixtures of earth, sand, clay, etc. (heading 38.24). All these products may contain small quantities of the fertilising elements nitrogen, phosphorus or potassium.' },
-
       { type: 'heading', vi: '31.01 - Phân bón gốc thực vật hoặc động vật, đã hoặc chưa pha trộn với nhau hoặc qua xử lý hóa học; phân bón sản xuất bằng cách pha trộn hoặc xử lý hóa học các sản phẩm động vật hoặc thực vật.', en: '31.01 - Animal or vegetable fertilisers, whether or not mixed together or chemically treated; fertilisers produced by the mixing or chemical treatment of animal or vegetable products.' },
       { type: 'paragraph', vi: 'Nhóm này gồm có:', en: 'This heading covers:' },
       { type: 'list', vi: '(a) Các loại phân bón có nguồn gốc từ động vật hoặc thực vật, đã hoặc chưa pha trộn với nhau hoặc qua xử lý hóa học;', en: '(a) Animal or vegetable fertilisers, whether or not mixed together or chemically treated;' },
@@ -7210,7 +7973,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
       { type: 'list', vi: '(e) Hỗn hợp của phân bón tự nhiên của nhóm này với các chất hóa học làm phân bón (nhóm 31.05).', en: '(e) Mixtures of the natural fertilisers of this heading with chemical fertilising substances (heading 31.05).' },
       { type: 'list', vi: '(f) Hỗn hợp của bùn cống đã ổn định với nitrat kali hoặc amoni nitrat (nhóm 31.05).', en: '(f) Mixtures of stabilised sewage sludge with potassium or ammonium nitrate (heading 31.05).' },
       { type: 'list', vi: '(g) Da vụn và các phế liệu khác của da; bụi da, bột mịn và bột thô của da (nhóm 41.15).', en: '(g) Parings and other waste of leather; leather dust, powder and flour (heading 41.15).' },
-
       { type: 'heading', vi: '31.02 - Phân khoáng hoặc phân hóa học, có chứa nitơ.', en: '31.02 - Mineral or chemical fertilisers, nitrogenous.' },
       { type: 'list', vi: '3102.10 - Urê, có hoặc không ở trong dung dịch nước', en: '3102.10 - Urea, whether or not in aqueous solution' },
       { type: 'paragraph', vi: '- Amoni sulphat; muối kép và hỗn hợp của amoni sulphat và amoni nitrat:', en: '- Ammonium sulphate; double salts and mixtures of ammonium sulphate and ammonium nitrate:' },
@@ -7238,7 +8000,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
       { type: 'paragraph', vi: '(C) Phân bón chứa amoni clorua hoặc bất kỳ sản phẩm nào đã ghi trong phần (A) hoặc (B) trên đây trộn với đá phấn, thạch cao hoặc các chất vô cơ khác không phải chất phân bón (ví dụ, phân bón thu được bằng cách thêm amoni nitrat, bằng cách trộn những chất vô cơ không phải là chất phân bón đã nhắc đến ở trên).', en: '(C) Fertilisers consisting of ammonium chloride or of any of the goods referred to in paragraph (A) or (B) above mixed with chalk, gypsum or other inorganic non-fertilising substances (e.g., fertilisers obtained by adding to ammonium nitrate, by mixing or by support on, the above-mentioned inorganic non-fertilising substances).' },
       { type: 'paragraph', vi: '(D) Các loại phân bón dạng lỏng chứa amoni nitrat (tinh khiết hoặc không), hoặc của ure (tinh khiết hoặc không), hoặc hỗn hợp của các loại này, trong nước hoặc trong dung dịch amoniac.', en: '(D) Liquid fertilisers consisting of ammonium nitrate (whether or not pure), or of urea (whether or not pure), or of mixtures of those products, in an aqueous or ammoniacal solution.' },
       { type: 'paragraph', vi: 'Cần phải ghi nhớ rằng, ngược với trường hợp nêu trong phần (A) ở trên, các hỗn hợp nằm trong phần (B), (C) hoặc (D) được phân loại vào nhóm này chỉ khi được sử dụng như phân bón.', en: 'It should be noted that, contrary to the case of paragraph (A) above, mixtures falling in paragraph (B), (C) or (D) are classified in the heading only if of a kind used as fertilisers.' },
-
       { type: 'heading', vi: '31.03 - Phân khoáng hoặc phân hóa học, có chứa phosphat (phân lân).', en: '31.03 - Mineral or chemical fertilisers, phosphatic.' },
       { type: 'paragraph', vi: '- Supephosphat:', en: '- Superphosphates:' },
       { type: 'list', vi: '3103.11 - - Chứa diphosphorus pentaoxide (P2O5) từ 35% trở lên tính theo trọng lượng', en: '3103.11 - - Containing by weight 35 % or more of diphosphorus pentaoxide (P2O5)' },
@@ -7255,7 +8016,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
       { type: 'paragraph', vi: '(B) Phân bón chứa bất kỳ sản phẩm nào ghi trong phần (A) ở trên, nhưng không hạn chế lượng flo như đã ghi trong mục (A) (4) ở trên, được trộn với nhau (ví dụ, phân bón gồm có supephosphat trộn với canxi hydrogenorthophosphat).', en: '(B) Fertilisers consisting of any of the goods referred to in paragraph (A) above, but with no account being taken of the fluorine content limit as indicated in paragraph (A) (4) above, mixed together (e.g., a fertiliser consisting of superphosphates mixed with calcium hydrogenorthophosphate).' },
       { type: 'paragraph', vi: '(C) Những loại phân bón chứa bất kỳ những sản phẩm nào đã mô tả trong mục (A) và (B) ở trên, nhưng không tính đến việc giới hạn hàm lượng flo như đã ghi trong mục (A) (4) ở trên, đã được pha trộn với đá phấn, thạch cao hoặc các chất vô cơ khác không phải phân bón (ví dụ, các loại phân bón chứa supephosphat trộn với dolomit, hoặc supephosphat trộn với borac).', en: '(C) Fertilisers consisting of any of the products described in paragraph (A) or (B) above, but with no account being taken of the fluorine content limit as indicated in paragraph (A) (4) above, mixed with chalk, gypsum or other inorganic non-fertilising substances (e.g., fertilisers consisting of superphosphates mixed with dolomite, or of superphosphates mixed with borax).' },
       { type: 'paragraph', vi: 'Lưu ý rằng, trái ngược với trường hợp nêu trong phần (A) ở trên, các hỗn hợp đã được mô tả trong phần (B) hoặc (C) được phân loại vào nhóm này chỉ khi là loại được sử dụng như phân bón. Theo điều kiện này, các hỗn hợp có thể pha trộn theo bất cứ tỷ lệ nào và không hạn chế hàm lượng flo đã miêu tả trong phần (A) (4) ở trên.', en: 'It should be noted that, contrary to the case of paragraph (A) above, mixtures falling in paragraph (B) or (C) are classified in the heading only if of a kind used as fertilisers. Subject to this condition, the mixtures may be in any proportions and without regard for the fluorine content limit prescribed in paragraph (A) (4) above.' },
-
       { type: 'heading', vi: '31.04 - Phân khoáng hoặc phân hóa học, có chứa kali.', en: '31.04 - Mineral or chemical fertilisers, potassic.' },
       { type: 'list', vi: '3104.20 - Kali clorua', en: '3104.20 - Potassium chloride' },
       { type: 'list', vi: '3104.30 - Kali sulphat', en: '3104.30 - Potassium sulphate' },
@@ -7270,7 +8030,6 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
       { type: 'paragraph', vi: 'Mặt khác, nhóm này không bao gồm các sản phẩm chứa kali, đã hoặc chưa xác định về mặt hóa học (như carbonat kali thuộc nhóm 28.36), loại không được mô tả ở trên ngay cả khi được sử dụng làm phân bón.', en: 'On the other hand, the heading does not include potassic products, whether chemically defined (such as potassium carbonate of heading 28.36) or not, which are not described above, even if used as fertilisers.' },
       { type: 'paragraph', vi: '(B) Các loại phân bón của bất kỳ mặt hàng nào ghi trong phần (A) ở trên được trộn với nhau (như là, phân bón chứa hỗn hợp kali clorua và kali sulphat).', en: '(B) Fertilisers consisting of any of the goods referred to in paragraph (A) above mixed together (e.g., a fertiliser consisting of a mixture of potassium chloride and potassium sulphate).' },
       { type: 'paragraph', vi: 'Cần phải lưu ý rằng, trái ngược với trường hợp nêu trong phần (A) ở trên, các hỗn hợp đã được mô tả trong phần (B) được phân loại vào nhóm này chỉ khi là loại được sử dụng như phân bón.', en: 'It should be noted that, contrary to the case of paragraph (A) above, mixtures falling in paragraph (B) are classified in the heading only if of a kind used as fertilisers.' },
-
       { type: 'heading', vi: '31.05 - Phân khoáng hoặc phân hóa học chứa hai hoặc ba nguyên tố cấu thành phân bón là nitơ, phospho và ka li; phân bón khác; các mặt hàng của Chương này ở dạng viên (tablet) hoặc các dạng tương tự hoặc đóng gói với trọng lượng cả bì không quá 10 kg.', en: '31.05 - Mineral or chemical fertilisers containing two or three of the fertilising elements nitrogen, phosphorus and potassium; other fertilisers; goods of this Chapter in tablets or similar forms or in packages of a gross weight not exceeding 10 kg.' },
       { type: 'list', vi: '3105.10 - Các mặt hàng của Chương này ở dạng viên (tablet) hoặc các dạng tương tự hoặc đóng gói với trọng lượng cả bì không quá 10 kg', en: '3105.10 - Goods of this Chapter in tablets or similar forms or in packages of a gross weight not exceeding 10 kg' },
       { type: 'list', vi: '3105.20 - Phân khoáng hoặc phân hóa học có chứa ba nguyên tố cấu thành phân bón là nitơ, phospho và kali', en: '3105.20 - Mineral or chemical fertilisers containing the three fertilising elements nitrogen, phosphorus and potassium' },
