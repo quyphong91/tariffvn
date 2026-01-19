@@ -1,11 +1,10 @@
 import { useState, useEffect, memo, useCallback, useRef } from "react";
 import { Link, useSearchParams } from "react-router-dom";
-import { Helmet } from "react-helmet-async";
 import { ResultsSection } from "@/components/ResultsSection";
 import { LanguageToggle } from "@/components/LanguageToggle";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { getCanonicalUrl } from "@/hooks/useCanonicalUrl";
+import { SEOHead } from "@/components/SEOHead";
 import {
   loadHSData, 
   advancedSearchHSData, 
@@ -166,8 +165,6 @@ const SearchFields = memo(function SearchFields({
 });
 
 const Search = () => {
-  // Always use clean canonical URL without query params for SEO
-  const canonicalUrl = getCanonicalUrl("/tra-cuu-hs-code");
   const [searchParams, setSearchParams] = useSearchParams();
   const [hsData, setHsData] = useState<HSItem[]>([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -357,12 +354,12 @@ const Search = () => {
 
   return (
     <>
-      <Helmet>
-        <link rel="canonical" href={canonicalUrl} />
-        <title>Công cụ tra cứu HS Code | HSTC</title>
-        <meta name="description" content="Tra cứu mã HS Code nhanh theo mô tả hàng hóa, chất liệu và chức năng. Hỗ trợ tìm kiếm bằng tiếng Việt và tiếng Anh." />
-        <meta name="robots" content="noindex, follow" />
-      </Helmet>
+      <SEOHead
+        title="Công cụ tra cứu HS Code"
+        description="Tra cứu mã HS Code nhanh theo mô tả hàng hóa, chất liệu và chức năng. Hỗ trợ tìm kiếm bằng tiếng Việt và tiếng Anh."
+        url="https://tracuuhs.com/tra-cuu-hs-code"
+        noIndex={true}
+      />
       <div className="min-h-screen bg-gradient-hero">
         <Header />
 
