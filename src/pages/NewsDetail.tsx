@@ -1,20 +1,18 @@
 import { useParams, Link, useNavigate } from "react-router-dom";
-import { Helmet } from "react-helmet-async";
 import ReactMarkdown from "react-markdown";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { SEOHead } from "@/components/SEOHead";
 import { ArrowLeft, Calendar, Share2, Check, Loader2 } from "lucide-react";
 import { format } from "date-fns";
 import { vi } from "date-fns/locale";
 import { useState } from "react";
 import { toast } from "sonner";
-import { useCanonicalUrl } from "@/hooks/useCanonicalUrl";
 import { useArticleBySlug, usePublishedArticles } from "@/hooks/useArticles";
 
 const NewsDetail = () => {
-  const canonicalUrl = useCanonicalUrl();
   const { slug } = useParams<{ slug: string }>();
   const navigate = useNavigate();
   const [copied, setCopied] = useState(false);
@@ -84,16 +82,16 @@ const NewsDetail = () => {
 
   return (
     <>
-      <Helmet>
-        <link rel="canonical" href={canonicalUrl} />
-        <title>{`${article.title} | HSTC`}</title>
-        <meta name="description" content={article.summary || ""} />
-        <meta property="og:title" content={`${article.title} | TracuuHS`} />
-        <meta property="og:description" content={article.summary || ""} />
-        <meta property="og:image" content={article.image_url || ""} />
-        <meta property="og:type" content="article" />
-        <meta property="article:published_time" content={article.published_at} />
-      </Helmet>
+      <SEOHead
+        title={article.title}
+        description={article.summary || ""}
+        image={article.image_url || undefined}
+        type="article"
+        articleData={{
+          publishedTime: article.published_at,
+          modifiedTime: article.updated_at || undefined,
+        }}
+      />
 
       <div className="min-h-screen flex flex-col bg-gradient-hero">
         <Header />

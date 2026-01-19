@@ -1,23 +1,19 @@
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet-async";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { FeatureCard } from "@/components/FeatureCard";
 import { Button } from "@/components/ui/button";
+import { SEOHead } from "@/components/SEOHead";
 import { Search, BookOpen, FileText, Scale, Globe, ArrowRight, Calculator, Newspaper, Sparkles } from "lucide-react";
-import { useCanonicalUrl } from "@/hooks/useCanonicalUrl";
-
 
 const Home = () => {
-  const canonicalUrl = useCanonicalUrl();
-
   return (
     <>
-      <Helmet>
-        <link rel="canonical" href={canonicalUrl} />
-        <title>Tra cứu HS Code nhanh và toàn diện | HSTC</title>
-        <meta name="description" content="HSTC là công cụ hỗ trợ tra cứu mã số HS Code nhanh và toàn diện, tích hợp các thông tin về chú giải và biểu thuế nhập khẩu." />
-      </Helmet>
+      <SEOHead
+        title="Tra cứu HS Code nhanh và toàn diện"
+        description="HSTC là công cụ hỗ trợ tra cứu mã số HS Code nhanh và toàn diện, tích hợp các thông tin về chú giải và biểu thuế nhập khẩu."
+        isHomepage={true}
+      />
       <div className="min-h-screen flex flex-col bg-gradient-hero">
       <Header />
 

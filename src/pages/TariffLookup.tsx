@@ -1,8 +1,7 @@
 import { useState, useEffect, useMemo, useCallback } from "react";
 import { useSearchParams } from "react-router-dom";
-import { Helmet } from "react-helmet-async";
-import { useCanonicalUrl } from "@/hooks/useCanonicalUrl";
 import { Header } from "@/components/Header";
+import { SEOHead } from "@/components/SEOHead";
 import { Footer } from "@/components/Footer";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
@@ -52,7 +51,6 @@ import { cn } from "@/lib/utils";
 const MAX_SEARCH_LENGTH = 200;
 
 const TariffLookup = () => {
-  const canonicalUrl = useCanonicalUrl();
   const [searchParams, setSearchParams] = useSearchParams();
   const [data, setData] = useState<TariffItem[]>([]);
   const [loading, setLoading] = useState(true);
@@ -262,13 +260,10 @@ const TariffLookup = () => {
 
   return (
     <>
-      <Helmet>
-        <link rel="canonical" href={canonicalUrl} />
-        <title>{seoTitle}</title>
-        <meta name="description" content={seoDescription} />
-        <meta property="og:title" content={seoTitle} />
-        <meta property="og:description" content={seoDescription} />
-      </Helmet>
+      <SEOHead
+        title={seoTitle}
+        description={seoDescription}
+      />
 
       <div className="min-h-screen flex flex-col bg-gradient-hero">
         <Header />

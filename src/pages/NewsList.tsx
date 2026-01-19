@@ -1,33 +1,22 @@
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet-async";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
+import { SEOHead } from "@/components/SEOHead";
 import { Calendar, ArrowRight, Loader2 } from "lucide-react";
 import { format } from "date-fns";
 import { vi } from "date-fns/locale";
-import { useCanonicalUrl } from "@/hooks/useCanonicalUrl";
 import { usePublishedArticles } from "@/hooks/useArticles";
 
 const NewsList = () => {
-  const canonicalUrl = useCanonicalUrl();
   const { data: articles, isLoading, error } = usePublishedArticles();
 
   return (
     <>
-      <Helmet>
-        <link rel="canonical" href={canonicalUrl} />
-        <title>Tin tức & Bài viết | HSTC</title>
-        <meta
-          name="description"
-          content="Cập nhật tin tức, hướng dẫn phân loại hàng hóa, biểu thuế và các thay đổi chính sách liên quan đến mã HS Code tại Việt Nam."
-        />
-        <meta property="og:title" content="Tin tức & Bài viết | HSTC" />
-        <meta
-          property="og:description"
-          content="Cập nhật tin tức, hướng dẫn phân loại hàng hóa, biểu thuế và các thay đổi chính sách liên quan đến mã HS Code."
-        />
-      </Helmet>
+      <SEOHead
+        title="Tin tức & Bài viết"
+        description="Cập nhật tin tức, hướng dẫn phân loại hàng hóa, biểu thuế và các thay đổi chính sách liên quan đến mã HS Code tại Việt Nam."
+      />
 
       <div className="min-h-screen flex flex-col bg-gradient-hero">
         <Header />
