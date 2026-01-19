@@ -60,626 +60,119 @@ export const chapterFullDetailData: ChapterFullDetail[] = [
       },
       // END NOTE FOR SECTION I
 
-      { 
-        type: 'heading', 
-        vi: 'Chương 1: Động vật sống', 
-        en: 'Chapter 1: Live animals' 
-      },
-      
-      // NOTE FOR CHAPTER 1
-      { 
-        type: 'heading', 
-        vi: 'Chú giải Chương', 
-        en: 'Chapter Notes' 
-      },
-      
-      { 
-        type: 'paragraph', 
-        vi: '1. Chương này bao gồm tất cả các loại động vật sống trừ:', 
-        en: '1. This Chapter covers all live animals except :' 
-      },
-      
-      { 
-        type: 'list', 
-        vi: '(a) Cá và động vật giáp xác, động vật thân mềm và động vật thuỷ sinh không xương sống khác, thuộc nhóm 03.01, 03.06, 03.07 hoặc 03.08;', 
-        en: '(а) Fish and crustaceans, molluscs and other aquatic invertebrates, of heading 03.01, 03.06, 03.07 or 03.08;' 
-      },
-      
-      { 
-        type: 'list', 
-        vi: '(b) Vi sinh vật nuôi cấy và các sản phẩm khác thuộc nhóm 30.02; và', 
-        en: '(b) Cultures of micro-organisms and other products of heading 30.02; and' 
-      },
-      
-      { 
-        type: 'list', 
-        vi: '(c) Động vật thuộc nhóm 95.08.', 
-        en: '(c) Animals of heading 95.08.' 
-      },
-      // END NOTE FOR CHAPTER 1
-
-      // GENERAL NOTE FOR CHAPTER 1
-      { 
-        type: 'heading', 
-        vi: 'TỔNG QUÁT', 
-        en: 'GENERAL' 
-      },
-
-      { 
-        type: 'paragraph', 
-        vi: 'Chương này bao gồm tất cả các loại sinh vật sống (dùng làm thực phẩm hoặc có các mục đích khác) trừ:', 
-        en: 'This Chapter covers all living creatures (for food or other purposes) except :' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '(1) Cá và động vật giáp xác, động vật thân mềm và động vật thủy sinh không xương sống khác.', 
-        en: '(1) Fish and crustaceans, molluscs and other aquatic invertebrates.' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '(2) Vi sinh vật nuôi cấy và các sản phẩm khác thuộc nhóm 30.02 .', 
-        en: '(2) Cultures of micro-organisms and other products of heading 30.02.' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '(3) Bầy thú thuộc rạp xiếc, bầy thú hoặc động vật làm trò lưu động tương tự khác ( nhóm 95.08 ).', 
-        en: '(3) Animals forming part of circuses, menageries or other similar travelling animal shows (heading 95.08).' 
-      },
-
-      { 
-        type: 'paragraph', 
-        vi: 'Động vật, kể cả côn trùng, chết trên đường vận chuyển được phân loại vào các nhóm từ 02.01 đến 02.05, 02.07, 02.08 hoặc 04.10 nếu chúng là những động vật ăn được thích hợp dùng làm thức ăn cho người. Trong những trường hợp khác, chúng được phân loại vào nhóm 05.11 .', 
-        en: 'Animals, including insects, which die during transport are classified in headings 02.01 to 02.05, 02.07, 02.08 or 04.10 if they are edible animals fit for human consumption. In other cases, they are classified in heading 05.11 .' 
-      },
-      // END GENERAL NOTE FOR CHAPTER 1
-
-      // NOTE FOR HEADING 01.01
-      { 
-        type: 'heading', 
-        vi: '01.01 - Ngựa, lừa, la sống (+).', 
-        en: '01.01 - Live horses, asses, mules and hinnies (+).' 
-      },
-
-      { 
-        type: 'paragraph', 
-        vi: '- Ngựa:', 
-        en: '- Horses:' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '0101.21 - - Loại thuần chủng để nhân giống', 
-        en: '0101.21 - - Pure-bred breeding animals' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '0101.29 - - Loại khác', 
-        en: '0101.29 - - Other' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '0101.30 - Lừa', 
-        en: '0101.30 - Asses' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '0101.90 - Loại khác', 
-        en: '0101.90 - Other' 
-      },
-
-      { 
-        type: 'paragraph', 
-        vi: 'Nhóm này gồm các loại ngựa (ngựa cái, ngựa đực, ngựa thiến, ngựa con và ngựa nhỏ (pony)), lừa, la, nuôi hoặc hoang.', 
-        en: 'This heading covers horses (mares, stallions, geldings, foals and ponies), asses, mules and hinnies, whether domestic or wild. Mules are the hybrid offspring of the ass and the mare. The hinny is bred from the stallion and the ass.' 
-      },
-
-      { 
-        type: 'paragraph', 
-        vi: 'Con la (mule) là con lai giữa lừa đực và ngựa cái. Con la (hinny) là con lai giữa ngựa đực và lừa cái.', 
-        en: 'Mules are the hybrid offspring of the ass and the mare. The hinny is bred from the stallion and the ass.' 
-      },
-      // NOTE FOR SUBHEADING 0101.21
-      { 
-        type: 'heading', 
-        vi: 'Chú giải phân nhóm 0101.21', 
-        en: 'Subheading Explanatory Note 0101.21' 
-      },
-      
-      { 
-        type: 'paragraph', 
-        vi: 'Theo mục đích của phân nhóm 0101.21, thuật ngữ "loại thuần chủng để nhân giống” chỉ gồm những động vật giống được các cơ quan quốc gia có thẩm quyền công nhận là “thuần chủng”.', 
-        en: 'For the purposes of subheading 0101.21, the expression “pure-bred breeding animals” covers only those breeding animals which are regarded as “pure-bred” by the competent national authorities.' 
-      },
-      // END NOTE FOR SUBHEADING 0101.21
-      // END NOTE FOR HEADING 0101
-
-      // NOTE FOR HEADING 0102
-      { 
-        type: 'heading', 
-        vi: '01.02 - Động vật sống họ trâu bò (+).', 
-        en: '01.02 - Live bovine animals (+).' 
-      },
-
-      { 
-        type: 'paragraph', 
-        vi: '- Gia súc:', 
-        en: '- Cattle :' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '0102.21 - - Loại thuần chủng để nhân giống', 
-        en: '0102.21 - - Pure-bred breeding animals' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '0102.29 - - Loại khác', 
-        en: '0102.29 - - Other' 
-      },
-
-      { 
-        type: 'paragraph', 
-        vi: '- Trâu:', 
-        en: '- Buffalo :' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '0102.31 - - Loại thuần chủng để nhân giống', 
-        en: '0102.31 - - Pure-bred breeding animals' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '0102.39 - - Loại khác', 
-        en: '0102.39 - - Other' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '0102.90 - Loại khác', 
-        en: '0102.90 - Other' 
-      },
-
-      { 
-        type: 'paragraph', 
-        vi: 'Nhóm này bao gồm tất cả các loại trâu bò thuộc phân họ Bovinae, nuôi hoặc hoang và dù mục đích sử dụng thế nào (ví dụ: dự trữ, chăn nuôi, vỗ béo, nhân giống, làm thịt). Trong số đó có thể dẫn ra:', 
-        en: 'This heading covers all animals of the sub-family Bovinae, whether or not domestic and irrespective of their intended use (e.g., stock, raising, fattening, breeding, slaughter). These include, inter alia:' 
-      },
-
-      { type: 'paragraph', 
-        vi: '(1) Gia súc: Loại này bao gồm các động vật họ trâu bò thuộc giống Bos, được chia thành bốn phân giống: Bos, Bibos, Novibos và Poephagus. Có thể kể ra:', 
-        en: '(1) Cattle: This category covers bovine animals of the genus Bos, which is divided into four sub-genera: Bos, Bibos, Novibos and Poephagus. These include, inter alia:' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '(A) Bò thông thường (Bos taurus), bò Zebu hoặc bò có bướu (Bos indicus) và bò Watussi.', 
-        en: '(A) The common ox (Bos taurus), the Zebu or humped ox (Bos indicus) and the Watussi ox.' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '(B) Các loại bò Châu Á thuộc phân giống Bibos như bò tót rừng (Bos gaurus), bò tót nhà (Bos frontalis) và bò banteng (Bos Sondaicus hoặc Bos javanicus).', 
-        en: '(B) The Asiatic oxen of the sub-genus Bibos, such as the gaur (Bos gaurus), the gayal (Bos frontalis) and the banteng (Bos sondaicus or Bos javanicus).' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '(C) Các động vật thuộc phân giống Poephagus, như bò Tây Tạng (Bos grunniens).', 
-        en: '(C) Animals of the sub-genus Poephagus, such as the Tibetan yak (Bos grunniens).' 
-      },
-
-      { 
-        type: 'paragraph', 
-        vi: '(2) Trâu: loại này bao gồm các động vật thuộc giống Bubalus, Syncerus và Bison. Có thể kể ra:', 
-        en: '(2) Buffalo: This category covers animals of the genera Bubalus, Syncerus and Bison. These include, inter alia:' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '(A) Các động vật thuộc giống Bubalus, kể cả trâu Ấn Độ hoặc trâu nước (Bubalus bubalus), trâu Châu Á hoặc trâu arni (Bubalus arni) và trâu Anoa hoặc trâu lùn đồng bằng (Bubalus depressicornis hoặc Anoa depressicornis).', 
-        en: '(A) Animals of the genus Bubalus, including the Indian or water buffalo (Bubalus bubalus), the Asiatic buffalo or arni (Bubalus arni) and the Celebese anoa or pigmy buffalo (Bubalus depressicornis or Anoa depressicornis).' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '(B) Trâu Châu Phi thuộc giống Syncerus, như trâu rừng lùn (Syncerus nanus) và trâu rừng lớn Caffrarian (Syncerus caffer).', 
-        en: '(B) African buffaloes of the genus Syncerus, such as the dwarf buffalo (Syncerus nanus) and the large Caffrarian buffalo (Syncerus caffer).' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '(C) Động vật thuộc giống Bison, như bò rừng bizon Châu Mỹ (Bison Bison) hoặc “trâu” và bò rừng bizon Châu Âu (Bison bonasus).', 
-        en: '(C) Animals of the genus Bison. i.e., the American bison (Bison bison) or “buffalo” and the European bison (Bison bonasus).' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '(D) "Beeffalo" (con lai giữa bò rừng bizon và bò nuôi).', 
-        en: '(D) The Beeffalo (a cross between a bison and a domestic beef animal).' 
-      },
-
-      { 
-        type: 'paragraph', 
-        vi: '(3) Loại khác, kể cả linh dương bốn sừng (Tetracerus quadricornis) và linh dương sừng xoắn thuộc giống Taurotragus và Tragelaphus.', 
-        en: '(3) Other, including the four-horned antelope (Tetracerus quadricornis) and the spiral-horned antelopes of the genera Taurotragus and Tragelaphus.' 
-      },
-
-      // NOTE FOR SUBHEADING 0102.21 and 0102.31
-      { 
-        type: 'heading', 
-        vi: 'Chú giải phân nhóm 0102.21 và 0102.31', 
-        en: 'Subheading Explanatory Note 0101.21 and 0102.31' 
-      },
-      
-      { 
-        type: 'paragraph', 
-        vi: 'Theo mục đích của phân nhóm 0102.21 và 0102.31, thuật ngữ "loại thuần chủng để nhân giống” chỉ gồm những động vật giống được các cơ quan quốc gia có thẩm quyền công nhận là “thuần chủng”.', 
-        en: 'For the purposes of subheadings 0102.21 and 0102.31, the expression “pure-bred breeding animals" covers only those breeding animals which are regarded as “pure-bred ” by the competent national authorities.' 
-      },
-      // END NOTE FOR SUBHEADING 0102.21 and 0102.31
-      
-      // NOTE FOR HEADING 0103
-      { 
-        type: 'heading', 
-        vi: '01.03 - Lợn sống (+).', 
-        en: '01.03 - Live swine (+).' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '0103.10 - Loại thuần chủng để nhân giống', 
-        en: '0103.10 - Pure-bred breeding animals' 
-      },
-
-      { 
-        type: 'paragraph', 
-        vi: '- Loại khác:', 
-        en: '- Other:'
-      },
-
-      { 
-        type: 'list', 
-        vi: '0103.91 - - Trọng lượng dưới 50 kg', 
-        en: '0103.91 - - Weighing less than 50 kg' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '0103.92 - - Trọng lượng từ 50 kg trở lên', 
-        en: '0103.92 - - Weighing 50 kg or more' 
-      },
-
-      { 
-        type: 'paragraph', 
-        vi: 'Nhóm này gồm lợn nuôi và hoang (như lợn lòi).', 
-        en: 'This heading covers both domestic pigs and wild pigs (e.g., wild boars).' 
-      },
-      
-      // NOTE FOR SUBHEADING 0103.10
-      { 
-        type: 'heading', 
-        vi: 'Chú giải phân nhóm 0103.10', 
-        en: 'Subheading Explanatory Note 0103.10' 
-      },
-
-      { 
-        type: 'paragraph', 
-        vi: 'Theo mục đích của phân nhóm 0103.10, thuật ngữ "loại thuần chủng để nhân giống” chỉ gồm những động vật giống được các cơ quan quốc gia có thẩm quyền công nhận là “thuần chủng”.', 
-        en: 'For the purposes of subheading 0103.10, the expression “pure-bred breeding animals” covers only those breeding animals which are regarded as “pure-bred” by the competent national authorities.' 
-      },
-      // END NOTE FOR SUBHEADING 0103.10
-      
-      // NOTE FOR SUBHEADING 0103.91 and 0103.92
-      { 
-        type: 'heading', 
-        vi: 'Chú giải phân nhóm 0103.91 và 0103.92', 
-        en: 'Subheading Explanatory Notes 0103.91 and 0103.92' 
-      },
-
-      { 
-        type: 'paragraph', 
-        vi: 'Theo mục đích của các phân nhóm 0103.91 và 0103.92, các giới hạn trọng lượng được mô tả liên quan đến trọng lượng của mỗi con vật.', 
-        en: 'For the purposes of subheadings 0103.91 and 0103.92, the specified weight limits relate to the weight of each animal.' 
-      },
-      // END NOTE FOR SUBHEADING 0103.91 and 0103.92
-      // END NOTE FOR HEADING 0103
-
-      // NOTE FOR HEADING 0104
-      { 
-        type: 'heading', 
-        vi: '01.04 - Cừu, dê sống.', 
-        en: '01.04 - Live sheep and goats.' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '0104.10 - Cừu', 
-        en: '0104.10 - Sheep' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '0104.20 - Dê', 
-        en: '0104.20 - Goats' 
-      },
-
-      { 
-        type: 'paragraph', 
-        vi: 'Nhóm này bao gồm cừu nuôi hoặc hoang (cừu đực, cừu cái và cừu non), dê và dê con nuôi hoặc hoang.', 
-        en: 'This heading covers domestic or wild sheep (rams, ewes, and lambs) and domestic or wild goats and kids.' 
-      },
-      // END NOTE FOR HEADING 0104
-
-      // NOTE FOR HEADING 0105
-      { 
-        type: 'heading', 
-        vi: '01.05 - Gia cầm sống, gồm các loại gà thuộc loài Gallus domesticus, vịt, ngan, ngỗng, gà tây và gà lôi (+).', 
-        en: '01.05 - Live poultry , that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls (+)' 
-      },
-
-      { 
-        type: 'paragraph', 
-        vi: '- Loại trọng lượng không quá 185g:', 
-        en: '- Weighing not more than 185g:' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '0105.11 - - Gà thuộc loài Gallus domesticus', 
-        en: '0105.11 - - Fowls of the species Gallus domesticus' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '0105.12 - - Gà tây', 
-        en: '0105.12 - - Turkeys' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '0105.13 - - Vịt, ngan', 
-        en: '0105.13 - - Ducks' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '0105.14 - - Ngỗng', 
-        en: '0105.14 - - Geese' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '0105.15 - - Gà lôi', 
-        en: '0105.15 - - Guinea fowls' 
-      },
-
-      { 
-        type: 'paragraph', 
-        vi: '- Loại khác:', 
-        en: '- Other:' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '0105.94 - - Gà thuộc loài Gallus domesticus', 
-        en: '0105.94 - - Fowls of the species Gallus domesticus' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '0105.99 - - Loại khác', 
-        en: '0105.99 - - Other' 
-      },
-
-      { 
-        type: 'paragraph', 
-        vi: 'Nhóm này chỉ bao gồm các loại chim nuôi còn sống được chỉ rõ trong nhóm. Gà thuộc các loài Gallus domesticus gồm gà giò và gà trống thiến. Nhóm này không bao gồm các loại chim sống khác (vd, gà gô, gà lôi, chim bồ câu, vịt trời, ngỗng trời) (nhóm 01.06).', 
-        en: 'This heading covers only live domestic birds of the kinds specified in the heading. Fowls of the species Gallus domesticuss include chickens and capons. Other live birds (e.g., partridges, pheasants, pigeons, wild ducks, wild geese) are excluded (heading 01.06).' 
-      },
-
-      // NOTE FOR SUBHEADING 0105.11, 0105.12, 0105.13, 01015.14 and 0105.15
-      { 
-        type: 'heading', 
-        vi: 'Chú giải phân nhóm 0105.11, 0105.12, 0105.13, 0105.14, và 0105.15', 
-        en: 'Subheading Explanatory Notes 0105.11, 0105.12, 0105.13, 0105.14 and 0105.15' 
-      },
-
-      { 
-        type: 'paragraph', 
-        vi: 'Theo mục đích của các phân nhóm 0105.11, 0105.12, 0105.13, 0105.14 và 0105.15, giới hạn trọng lượng được mô tả liên quan đến trọng lượng của mỗi con chim.', 
-        en: 'For the purposes of subheadings 0105.11, 0105.12, 0105.13, 0105.14 and 0105.15, the specified weight limit relates to the weight of each bird.' 
-      },
-      // END NOTE FOR SUBHEADING 0105.11, 0105.12, 0105.13, 01015.14 and 0105.15
-      // END NOTE FOR HEADING 0105
-
-      // NOTE FOR HEADING 0106
-      { 
-        type: 'heading', 
-        vi: '01.06 - Động vật sống khác.', 
-        en: '01.06 - Other live animals.' 
-      },
-
-      { 
-        type: 'paragraph', 
-        vi: '- Động vật có vú:', 
-        en: '- Mammals:' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '0106.11 - - Bộ động vật linh trưởng', 
-        en: '0106.11 - - Primates' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '0106.12 - - Cá voi, cá heo chuột và cá heo (động vật có vú thuộc bộ cá voi Cetacea); lợn biển và cá nược (động vật có vú thuộc bộ Sirenia); hải cẩu, sư tử biển và hải mã (con moóc) (động vật có vú thuộc phân bộ Pinnipedia)', 
-        en: '0106.12 - - Whales, dolphins and porpoises (mammals of the order Cetacea): manatees and dugongs (mammals of the order Sirenia); seals, sea lions and walruses (mammals of the suborder Pinnipedia)' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '0106.13 - - Lạc đà và họ lạc đà (Camelidae)', 
-        en: '0106.13 - - Camels and other camelids (Camelidae)' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '0106.14 - - Thỏ (Rabbits và hares)', 
-        en: '0106.14 - - Rabbits and hares' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '0106.19 - - Loại khác', 
-        en: '0106.19 - - Other' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '0106.20 - Loài bò sát (kể cả rắn và rùa)', 
-        en: '0106.20 - Reptiles (including snakes and turtles)' 
-      },
-
-      { 
-        type: 'paragraph', 
-        vi: '- Các loại chim:', 
-        en: '- Birds:' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '0106.31 - - Chim săn mồi', 
-        en: '0106.31 - - Birds of prey' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '0106.32 - - Vẹt (kể cả vẹt lớn châu Mỹ (parrots), vẹt nhỏ đuôi dài (parakeets), vẹt đuôi dài và vẹt có mào)', 
-        en: '0106.32 - - Psittaciformes (including parrots, parakeets, macaws and cockatoos)' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '0106.33 - - Đà điểu; đà điểu châu Úc (Dromaius novaehollandiae)', 
-        en: '0106.33 - - Ostriches; emus (Dromaius novaehollandiae)' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '0106.39 - - Loại khác', 
-        en: '0106.39 - - Other' 
-      },
-
-      { 
-        type: 'paragraph', 
-        vi: '- Côn trùng:', 
-        en: '- Insects:' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '0106.41 - - Các loại ong', 
-        en: '0106.41 - - Bees' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '0106.49 - - Loại khác', 
-        en: '0106.49 - - Other' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '0106.90 - Loại khác', 
-        en: '0106.90 - Other' 
-      },
-
-      { 
-        type: 'paragraph', 
-        vi: 'Nhóm này có thể kể ra các động vật nuôi hoặc hoang sau:', 
-        en: 'This heading includes, inter alia, the following domestic or wild animals:' 
-      },
-
-      { 
-        type: 'paragraph', 
-        vi: '(A) Động vật có vú:', 
-        en: '(A) Mammals:' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '(1) Bộ động vật linh trưởng', 
-        en: '(1) Primates.' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '(2) Cá voi, cá nục heo và cá heo (động vật có vú thuộc bộ cá voi Cetacea); lợn biển và cá nược (động vật có vú thuộc bộ Sirenia); hải cẩu, sư tử biển và hải mã (con moóc) (động vật có vú thuộc phân bộ Pinnipedia)', 
-        en: '(2) Whales, dolphins and porpoises (mammals of the order Cetacea); manatees and dugongs (mammals of the order Sirenia); seals, sea lions and walruses (mammals of the suborder Pinnipedia).' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '(3) Loại khác (ví dụ: tuần lộc, mèo, chó, sư tử, hổ, gấu, voi, lạc đà (bao gồm lạc đà một bướu), ngựa vằn, thỏ, thỏ rừng, hươu nai, linh dương (trừ những động vật thuộc phân họ Bovinae), sơn dương, cáo, chồn vizon (mink) và những loại thú nuôi lấy lông khác).', 
-        en: '(3) Other (e.g., reindeer, cals, dogs, lions, tigers, bears, elephants, camels (including dromedaries), zebras, rabbits, hares, deer, antelope (other than those of the sub-family Bovinae), chamois, foxes, minks and other animals for fur farms).' 
-      },
-
-      { type: 'paragraph', 
-        vi: '(B) Loài bò sát (bao gồm cả rắn và rùa).', 
-        en: '(B) Reptiles (including snakes and turtles).' 
-      },
-
-      { 
-        type: 'paragraph', 
-        vi: '(C) Các loại chim:', 
-        en: '(C) Birds:' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '(1) Chim săn mồi.', 
-        en: '(1) Birds of prey.' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '(2) Vẹt (kể cả vẹt lớn châu Mỹ (parrots), vẹt nhỏ đuôi dài (parakeets), vẹt đuôi dài và vẹt có mào).', 
-        en: '(2) Psittaciformes (including parrots, parakeets, macaws and cockatoos).' 
-      },
-
-      { 
-        type: 'list', 
-        vi: '(3) Loại khác (ví dụ: gà gô, gà lôi, chim cút, chim dẽ gà, chim dẽ giun, chim bồ câu, gà gô trắng, chim sẻ rừng, vịt trời, ngỗng trời, chim hoét (thrushes), chim két, chim chiền chiện, chim họ sẻ, chim sẻ ngô, chim ruồi, công, thiên nga và những loại chim khác chưa được chi tiết trong nhóm 01.05).', 
-        en: '(3) Other (e.g., partridges, pheasants, quail, woodcocks, snipe, pigeons, grouse, ortolan, wild ducks, wild geese, thrushes, blackbirds, larks, finches, tits, humming birds, peacocks, swans and other birds not specified in heading 01.05).' 
-      },
-
-      { 
-        type: 'paragraph', 
-        vi: '(D) Côn trùng, ví dụ các loại ong (có hay không ở trong các thùng hoặc lồng hoặc tổ ong lưu động).', 
-        en: '(D) Insects, e.g., bees (whether or not in travelling boxes or cages or hives).'
-      },
-
-      { 
-        type: 'paragraph', 
-        vi: '(E) Loại khác, ví dụ các loại ếch.', 
-        en: '(E.) Other, e.g., frogs.' 
-      },
-
-      { 
-        type: 'paragraph', 
-        vi: 'Nhóm này không bao gồm bầy thú thuộc rạp xiếc, bầy thú hoặc động vật làm trò lưu động tương tự khác (nhóm 95.08).', 
-        en: 'This heading excludes animals forming part of circuses, menageries or other similar travelling animal shows (heading 95.08).' 
-      }
+      { type: 'heading', vi: 'Chương 1: ', en: 'Chapter 1 ' },
+{ type: 'heading', vi: 'Động vật sống', en: 'Live animals' },
+{ type: 'heading', vi: 'Chú giải.', en: 'Notes.' },
+{ type: 'paragraph', vi: '1. Chương này bao gồm tất cả các loại động vật sống trừ:', en: '1. This Chapter covers all live animals except:' },
+{ type: 'list', vi: '(a) Cá và động vật giáp xác, động vật thân mềm và động vật thuỷ sinh không xương sống khác, thuộc nhóm 03.01, 03.06, 03.07 hoặc 03.08;', en: '(а) Fish and crustaceans, molluscs and other aquatic invertebrates, of heading 03.01, 03.06. 03.07 or 03.08;'  },
+{ type: 'list', vi: '(b) Vi sinh vật nuôi cấy và các sản phẩm khác thuộc nhóm 30.02; và', en: '(b) Cultures of micro-organisms and other products of heading 30.02; and'  },
+{ type: 'list', vi: '(c) Động vật thuộc nhóm 95.08.', en: '(c) Animals of heading 95.08.'  },
+{ type: 'heading', vi: 'TỔNG QUÁT', en: 'GENERAL' },
+{ type: 'paragraph', vi: 'Chương này bao gồm tất cả các loại sinh vật sống (dùng làm thực phẩm hoặc có các mục đích khác) trừ:', en: 'This Chapter covers all living creatures (for food or other purposes) except:' },
+{ type: 'list', vi: '(1) Cá và động vật giáp xác, động vật thân mềm và động vật thủy sinh không xương sống khác.', en: '(1) Fish and crustaceans, molluscs and other aquatic invertebrates.'  },
+{ type: 'list', vi: '(2) Vi sinh vật nuôi cấy và các sản phẩm khác thuộc nhóm 30.02.', en: '(2) Cultures of micro-organisms and other products of heading 30.02.'  },
+{ type: 'list', vi: '(3) Bầy thú thuộc rạp xiếc, bầy thú hoặc động vật làm trò lưu động tương tự khác (nhóm 95.08).', en: '(3) Animals forming part of circuses, menageries or other similar travelling animal shows (heading 95.08).'  },
+{ type: 'paragraph', vi: 'Động vật, kể cả côn trùng, chết trên đường vận chuyển được phân loại vào các nhóm từ 02.01 đến 02.05, 02.07, 02.08 hoặc 04.10 nếu chúng là những động vật ăn được thích hợp dùng làm thức ăn cho người. Trong những trường hợp khác, chúng được phân loại vào nhóm 05.11.', en: 'Animals, including insects, which die during transport are classified in headings 02.01 to 02.05, 02.07, 02.08 or 04.10 if they are edible animals fit for human consumption. In other cases, they are classified in heading 05.11.' },
+{ type: 'heading', vi: '01.01 - Ngựa, lừa, la sống (+).', en: '01.01 - Live horses, asses, mules and hinnies (+).' },
+{ type: 'paragraph', vi: '- Ngựa:', en: '- Horses:' },
+{ type: 'list', vi: '0101.21 - - Loại thuần chủng để nhân giống', en: '0101.21 - - Pure-bred breeding animals'  },
+{ type: 'list', vi: '0101.29 - - Loại khác', en: '0101.29 - - Other'  },
+{ type: 'list', vi: '0101.30 - Lừa', en: '0101.30 - Asses'  },
+{ type: 'list', vi: '0101.90 - Loại khác', en: '0101.90 - Other'  },
+{ type: 'paragraph', vi: 'Nhóm này gồm các loại ngựa (ngựa cái, ngựa đực, ngựa thiến, ngựa con và ngựa nhỏ (pony)), lừa, la, nuôi hoặc hoang.', en: 'This heading covers horses (mares, stallions, geldings, foals and ponies), asses, mules and hinnies, whether domestic or wild.' },
+{ type: 'paragraph', vi: 'Con la (mule) là con lai giữa lừa đực và ngựa cái. Con la (hinny) là con lai giữa ngựa đực và lừa cái.', en: 'Mules are the hybrid offspring of the ass and the mare. The hinny is bred from the stallion and the ass.' },
+{ type: 'paragraph', vi: 'o', en: 'o' },
+{ type: 'paragraph', vi: 'o   o', en: 'o   o' },
+{ type: 'heading', vi: 'Chú giải phân nhóm. ', en: 'Subheading Explanatory Note.' },
+{ type: 'heading', vi: 'Phân nhóm 0101.21', en: 'Subheading 0101.21' },
+{ type: 'paragraph', vi: 'Theo mục đích của phân nhóm 0101.21, thuật ngữ "loại thuần chủng để nhân giống” chỉ gồm những động vật giống được các cơ quan quốc gia có thẩm quyền công nhận là “thuần chủng”.', en: 'For the purposes of subheading 0101.21, the expression “pure-bred breeding animals” covers only those breeding animals which are regarded as “pure-bred” by the competent national authorities.' },
+{ type: 'heading', vi: '01.02 - Động vật sống họ trâu bò (+).', en: '01.02 - Live bovine animals (+).' },
+{ type: 'paragraph', vi: '- Gia súc:', en: '- Cattle :' },
+{ type: 'list', vi: '0102.21 - - Loại thuần chủng để nhân giống', en: '0102.21 - - Pure-bred breeding animals'  },
+{ type: 'list', vi: '0102.29 - - Loại khác:', en: '0102.29 - - Other'  },
+{ type: 'paragraph', vi: '- Trâu:', en: '- Buffalo :' },
+{ type: 'list', vi: '0102.31 - - Loại thuần chủng để nhân giống', en: '0102.31 - - Pure-bred breeding animals'  },
+{ type: 'list', vi: '0102.39 - - Loại khác', en: '0102.39 - - Other'  },
+{ type: 'list', vi: '0102.90 - Loại khác', en: '0102.90 - Other'  },
+{ type: 'paragraph', vi: 'Nhóm này bao gồm tất cả các loại trâu bò thuộc phân họ Bovinae, nuôi hoặc hoang và dù mục đích sử dụng thế nào (ví dụ: dự trữ, chăn nuôi, vỗ béo, nhân giống, làm thịt). Trong số đó có thể dẫn ra:', en: 'This heading covers all animals of the sub-family Bovinae, whether or not domestic and irrespective of their intended use (e.g., stock, raising, fattening, breeding, slaughter). These include, inter alia :' },
+{ type: 'list', vi: '(1) Gia súc:', en: '(1) Cattle:'  },
+{ type: 'paragraph', vi: 'Loại này bao gồm các động vật họ trâu bò thuộc giống Bos, được chia thành bốn phân giống: Bos, Bibos, Novibos và Poephagus. Có thể kể ra:', en: 'This category covers bovine animals of the genus Bos, which is divided into four sub-genera: Bos, Bibos, Novibos and Poephagus. These include, inter alia:' },
+{ type: 'list', vi: '(A) Bò thông thường (Bos taurus), bò Zebu hoặc bò có bướu (Bos indicus) và bò Watussi. ', en: '(A) The common ox (Bos taurus), the Zebu or humped ox (Bos indicus) and the Watussi ox.'  },
+{ type: 'list', vi: '(B) Các loại bò Châu Á thuộc phân giống Bibos như bò tót rừng (Bos gaurus), bò tót nhà (Bos frontalis) và bò banteng (Bos Sondaicus hoặc Bos javanicus).', en: '(B) The Asiatic oxen of the sub-genus Bibos, such as the gaur (Bos gaurus), the gayal (Bos frontalis) and the banteng (Bos sondaicus or Bos javanicus).'  },
+{ type: 'list', vi: '(C) Các động vật thuộc phân giống Poephagus, như bò Tây Tạng (Bos grunniens). ', en: '(C) Animals of the sub-genus Poephagus, such as the Tibetan yak (Bos grunniens).'  },
+{ type: 'paragraph', vi: '(2) Trâu:', en: '(2) Buffalo:' },
+{ type: 'paragraph', vi: 'Loại này bao gồm các động vật thuộc giống Bubalus, Syncerus và Bison. Có thể kể ra:', en: 'This category covers animals of the genera Bubalus, Syncerus and Bison. These include, inter alia:' },
+{ type: 'list', vi: '(A) Các động vật thuộc giống Bubalus, kể cả trâu Ấn Độ hoặc trâu nước (Bubalus bubalus), trâu Châu Á hoặc trâu arni (Bubalus arni) và trâu Anoa hoặc trâu lùn đồng bằng (Bubalus depressicornis hoặc Anoa depressicornis).', en: '(A) Animals of the genus Bubalus, including the Indian or water buffalo (Bubalus bubalus), the Asiatic buffalo or arni (Bubalus arni) and the Celebese anoa or pigmy buffalo (Bubalus depressicornis or Anoa depressicornis).'  },
+{ type: 'list', vi: '(B) Trâu Châu Phi thuộc giống Syncerus, như trâu rừng lùn (Syncerus nanus) và trâu rừng lớn Caffrarian (Syncerus caffer).', en: '(B) African buffaloes of the genus Syncerus, such as the dwarf buffalo (Syncerus nanus) and the large Caffrarian buffalo (Syncerus caffer).'  },
+{ type: 'list', vi: '(C) Động vật thuộc giống Bison, như bò rừng bizon Châu Mỹ (Bison Bison) hoặc “trâu” và bò rừng bizon Châu Âu (Bison bonasus).', en: '(C) Animals of the genus Bison. i.e., the American bison (Bison bison) or “buffalo” and the European bison (Bison bonasus).'  },
+{ type: 'list', vi: '(D) "Beeffalo" (con lai giữa bò rừng bizon và bò nuôi).', en: '(D) The Beeffalo (a cross between a bison and a domestic beef animal).'  },
+{ type: 'paragraph', vi: '(3) Loại khác, kể cả linh dương bốn sừng (Tetracerus quadricornis) và linh dương sừng xoắn thuộc giống Taurotragus và Tragelaphus.', en: '(3) Other, including the four-horned antelope (Tetracerus quadricornis) and the spiral-horned antelopes of the genera Taurotragus and Tragelaphus.' },
+{ type: 'heading', vi: 'Chú giải phân nhóm.', en: 'Subheading Explanatory Note.' },
+{ type: 'heading', vi: 'Phân nhóm 0102.21 và 0102.31', en: 'Subheading 0102.21 and 0102.31' },
+{ type: 'paragraph', vi: 'Theo mục đích của phân nhóm 0102.21 và 0102.31, thuật ngữ "loại thuần chủng để nhân giống” chỉ gồm những động vật giống được các cơ quan quốc gia có thẩm quyền công nhận là “thuần chủng”.', en: 'For the purposes of subheadings 0102.21 and 0102.31, the expression “pure-bred breeding animals" covers only those breeding animals which are regarded as “pure-bred ” by the competent national authorities.' },
+{ type: 'heading', vi: '01.03 - Lợn sống (+).', en: '01.03 - Live swine (+).' },
+{ type: 'list', vi: '0103.10 - Loại thuần chủng để nhân giống', en: '0103.10 - Pure-bred breeding animals'  },
+{ type: 'paragraph', vi: '- Loại khác:', en: '- Other:' },
+{ type: 'list', vi: '0103.91 - - Trọng lượng dưới 50 kg', en: '0103.91 - - Weighing less than 50 kg'  },
+{ type: 'list', vi: '0103.92 - - Trọng lượng từ 50 kg trở lên', en: '0103.92 - - Weighing 50 kg or more'  },
+{ type: 'paragraph', vi: 'Nhóm này gồm lợn nuôi và hoang (như lợn lòi).', en: 'This heading covers both domestic pigs and wild pigs (e.g., wild boars).' },
+{ type: 'paragraph', vi: 'o', en: 'o' },
+{ type: 'paragraph', vi: 'o   o', en: 'o   o' },
+{ type: 'heading', vi: 'Chú giải phân nhóm', en: 'Subheading Explanatory Notes.' },
+{ type: 'heading', vi: 'Phân nhóm 0103.10', en: 'Subheading 0103.10' },
+{ type: 'paragraph', vi: 'Theo mục đích của phân nhóm 0103.10, thuật ngữ "loại thuần chủng để nhân giống” chỉ gồm những động vật giống được các cơ quan quốc gia có thẩm quyền công nhận là “thuần chủng”. ', en: 'For the purposes of subheading 0103.10, the expression “pure-bred breeding animals” covers only those breeding animals which are regarded as “pure-bred” by the competent national authorities.' },
+{ type: 'heading', vi: 'Phân nhóm 0103.91 và 0103.92', en: 'Subheadings 0103.91 and 0103.92' },
+{ type: 'paragraph', vi: 'Theo mục đích của các phân nhóm 0103.91 và 0103.92, các giới hạn trọng lượng được mô tả liên quan đến trọng lượng của mỗi con vật.', en: 'For the purposes of subheadings 0103.91 and 0103.92, the specified weight limits relate to the weight of each animal.' },
+{ type: 'heading', vi: '01.04 - Cừu, dê sống.', en: '01.04 - Live sheep and goats.' },
+{ type: 'list', vi: '0104.10 - Cừu', en: '0104.10 - Sheep'  },
+{ type: 'list', vi: '0104.20 - Dê', en: '0104.20 - Goats'  },
+{ type: 'paragraph', vi: 'Nhóm này bao gồm cừu nuôi hoặc hoang (cừu đực, cừu cái và cừu non), dê và dê con nuôi hoặc hoang.', en: 'This heading covers domestic or wild sheep (rams, ewes, and lambs) and domestic or wild goats and kids.' },
+{ type: 'heading', vi: '01.05 - Gia cầm sống, gồm các loại gà thuộc loài Gallus domesticus, vịt, ngan, ngỗng, gà tây và gà lôi (+).', en: '01.05 - Live poultry , that is to say, fowls of the species Gallus domesticus, ducks, geese, turkeys and guinea fowls (+).' },
+{ type: 'paragraph', vi: '- Loại trọng lượng không quá 185 g:', en: '- Weighing not more than 185 g :' },
+{ type: 'list', vi: '0105.11 - - Gà thuộc loài Gallus domesticus', en: '0105.11 - - Fowls of the species Gallus domesticus'  },
+{ type: 'list', vi: '0105.12 - - Gà tây', en: '0105.12 - - Turkeys'  },
+{ type: 'list', vi: '0105.13 - - Vịt, ngan', en: '0105.13 - - Ducks'  },
+{ type: 'list', vi: '0105.14 - - Ngỗng', en: '0105.14 - - Geese'  },
+{ type: 'list', vi: '0105.15 - - Gà lôi', en: '0105.15 - - Guinea fowls'  },
+{ type: 'paragraph', vi: '- Loại khác:', en: '- Other:' },
+{ type: 'list', vi: '0105.94 - - Gà thuộc loài Gallus domesticus', en: '0105.94 - - Fowls of the species Gallus domesticus'  },
+{ type: 'list', vi: '0105.99 - - Loại khác', en: '0105.99 - - Other'  },
+{ type: 'paragraph', vi: 'Nhóm này chỉ bao gồm các loại chim nuôi còn sống được chỉ rõ trong nhóm. Gà thuộc các loài Gallus domesticus gồm gà giò và gà trống thiến. Nhóm này không bao gồm các loại chim sống khác (vd, gà gô, gà lôi, chim bồ câu, vịt trời, ngỗng trời) (nhóm 01.06).', en: 'This heading covers only live domestic birds of the kinds specified in the heading. Fowls of the species Gallus domesticuss include chickens and capons. Other live birds (e.g., partridges, pheasants, pigeons, wild ducks, wild geese) are excluded (heading 01.06).' },
+{ type: 'paragraph', vi: 'o', en: 'o' },
+{ type: 'paragraph', vi: 'o   o', en: 'o   o' },
+{ type: 'heading', vi: 'Chú giải phân nhóm.', en: 'Subheading Explanatory Note.' },
+{ type: 'heading', vi: 'Phân nhóm 0105.11, 0105.12, 0105.13, 0105.14, và 0105.15', en: 'Subheadings 0105.11, 0105.12, 0105.13, 0105.14 and 0105.15' },
+{ type: 'paragraph', vi: 'Theo mục đích của các phân nhóm 0105.11, 0105.12, 0105.13, 0105.14 và 0105.15, giới hạn trọng lượng được mô tả liên quan đến trọng lượng của mỗi con chim.', en: 'For the purposes of subheadings 0105.11, 0105.12, 0105.13, 0105.14 and 0105.15, the specified weight limit relates to the weight of each bird.' },
+{ type: 'heading', vi: '01.06 - Động vật sống khác.', en: '01.06 - Other live animals.' },
+{ type: 'paragraph', vi: '- Động vật có vú:', en: '- Mammals :' },
+{ type: 'list', vi: '0106.11 - - Bộ động vật linh trưởng', en: '0106.11 - - Primates'  },
+{ type: 'list', vi: '0106.12 - - Cá voi, cá heo chuột và cá heo (động vật có vú thuộc bộ cá voi Cetacea); lợn biển và cá nược (động vật có vú thuộc bộ Sirenia); hải cẩu, sư tử biển và hải mã (con moóc) (động vật có vú thuộc phân bộ Pinnipedia)', en: '0106.12 - - Whales, dolphins and porpoises (mammals of the order Cetacea): manatees and dugongs (mammals of the order Sirenia); seals, sea lions and walruses (mammals of the suborder Pinnipedia)'  },
+{ type: 'list', vi: '0106.13 - - Lạc đà và họ lạc đà (Camelidae)', en: '0106.13 - - Camels and other camelids (Camelidae)'  },
+{ type: 'list', vi: '0106.14 - - Thỏ (Rabbits và hares)', en: '0106.14 - - Rabbits and hares'  },
+{ type: 'list', vi: '0106.19 - - Loại khác', en: '0106.19 - - Other'  },
+{ type: 'list', vi: '0106.20 - Loài bò sát (kể cả rắn và rùa)', en: '0106.20 - Reptiles (including snakes and turtles)'  },
+{ type: 'paragraph', vi: '- Các loại chim:', en: '- Birds:' },
+{ type: 'list', vi: '0106.31 - - Chim săn mồi', en: '0106.31 - - Birds of prey'  },
+{ type: 'list', vi: '0106.32 - - Vẹt (kể cả vẹt lớn châu Mỹ (parrots), vẹt nhỏ đuôi dài (parakeets), vẹt đuôi dài và vẹt có mào)', en: '0106.32 - - Psittaciformes (including parrots, parakeets, macaws and cockatoos)'  },
+{ type: 'list', vi: '0106.33 - - Đà điểu; đà điểu châu Úc (Dromaius novaehollandiae)', en: '0106.33 - - Ostriches; emus (Dromaius novaehollandiae)'  },
+{ type: 'list', vi: '0106.39 - - Loại khác', en: '0106.39 - - Other'  },
+{ type: 'paragraph', vi: '- Côn trùng:', en: '- Insects:' },
+{ type: 'list', vi: '0106.41 - - Các loại ong', en: '0106.41 - - Bees'  },
+{ type: 'list', vi: '0106.49 - - Loại khác', en: '0106.49 - - Other'  },
+{ type: 'list', vi: '0106.90 - Loại khác', en: '0106.90 - Other'  },
+{ type: 'paragraph', vi: 'Nhóm này có thể kể ra các động vật nuôi hoặc hoang sau:', en: 'This heading includes, inter alia, the following domestic or wild animals:' },
+{ type: 'paragraph', vi: '(A) Động vật có vú:', en: '(A) Mammals :' },
+{ type: 'list', vi: '(1) Bộ động vật linh trưởng', en: '(1) Primates.'  },
+{ type: 'list', vi: '(2) Cá voi, cá nục heo và cá heo (động vật có vú thuộc bộ cá voi Cetacea); lợn biển và cá nược (động vật có vú thuộc bộ Sirenia); hải cẩu, sư tử biển và hải mã (con moóc) (động vật có vú thuộc phân bộ Pinnipedia)', en: '(2) Whales, dolphins and porpoises (mammals of the order Cetacea); manatees and dugongs (mammals of the order Sirenia); seals, sea lions and walruses (mammals of the suborder Pinnipedia).'  },
+{ type: 'list', vi: '(3) Loại khác (ví dụ: tuần lộc, mèo, chó, sư tử, hổ, gấu, voi, lạc đà (bao gồm lạc đà một bướu), ngựa vằn, thỏ, thỏ rừng, hươu nai, linh dương (trừ những động vật thuộc phân họ Bovinae), sơn dương, cáo, chồn vizon (mink) và những loại thú nuôi lấy lông khác).', en: '(3) Other (e.g., reindeer, cals, dogs, lions, tigers, bears, elephants, camels (including dromedaries), zebras, rabbits, hares, deer, antelope (other than those of the sub-family Bovinae), chamois, foxes, minks and other animals for fur farms).'  },
+{ type: 'paragraph', vi: '(B) Loài bò sát (bao gồm cả rắn và rùa).', en: '(B) Reptiles (including snakes and turtles).' },
+{ type: 'paragraph', vi: '(C) Các loại chim: ', en: '(C) Birds:' },
+{ type: 'list', vi: '(1) Chim săn mồi.', en: '(1) Birds of prey.'  },
+{ type: 'list', vi: '(2) Vẹt (kể cả vẹt lớn châu Mỹ (parrots), vẹt nhỏ đuôi dài (parakeets), vẹt đuôi dài và vẹt có mào).', en: '(2) Psittaciformes (including parrots, parakeets, macaws and cockatoos).'  },
+{ type: 'list', vi: '(3) Loại khác (ví dụ: gà gô, gà lôi, chim cút, chim dẽ gà, chim dẽ giun, chim bồ câu, gà gô trắng, chim sẻ rừng, vịt trời, ngỗng trời, chim hoét (thrushes), chim két, chim chiền chiện, chim họ sẻ, chim sẻ ngô, chim ruồi, công, thiên nga và những loại chim khác chưa được chi tiết trong nhóm 01.05).', en: '(3) Other (e.g., partridges, pheasants, quail, woodcocks, snipe, pigeons, grouse, ortolan, wild ducks, wild geese, thrushes, blackbirds, larks, finches, tits, humming birds, peacocks, swans and other birds not specified in heading 01.05).'  },
+{ type: 'paragraph', vi: '(D) Côn trùng, ví dụ các loại ong (có hay không ở trong các thùng hoặc lồng hoặc tổ ong lưu động).', en: '(D) Insects, e.g., bees (whether or not in travelling boxes or cages or hives).' },
+{ type: 'paragraph', vi: '(E) Loại khác, ví dụ các loại ếch.', en: '(E.) Other, e.g., frogs.' },
+{ type: 'paragraph', vi: 'Nhóm này không bao gồm bầy thú thuộc rạp xiếc, bầy thú hoặc động vật làm trò lưu động tương tự khác (nhóm 95.08).', en: 'This heading excludes animals forming part of circuses, menageries or other similar travelling animal shows (heading 95.08).' }
     ]
   },
 
