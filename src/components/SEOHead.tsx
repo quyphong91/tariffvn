@@ -11,6 +11,11 @@ interface ArticleData {
   author?: string;
 }
 
+interface BreadcrumbItem {
+  name: string;
+  url: string;
+}
+
 interface SEOHeadProps {
   title: string;
   description: string;
@@ -20,6 +25,7 @@ interface SEOHeadProps {
   noIndex?: boolean;
   articleData?: ArticleData;
   isHomepage?: boolean;
+  breadcrumbs?: BreadcrumbItem[];
 }
 
 export function SEOHead({
@@ -31,6 +37,7 @@ export function SEOHead({
   noIndex = false,
   articleData,
   isHomepage = false,
+  breadcrumbs,
 }: SEOHeadProps) {
   const canonicalUrl = useCanonicalUrl();
   const pageUrl = url || canonicalUrl;
@@ -100,6 +107,20 @@ export function SEOHead({
       }
     : null;
 
+  // BreadcrumbList Schema
+  const breadcrumbSchema = breadcrumbs?.length
+    ? {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: breadcrumbs.map((item, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          name: item.name,
+          item: item.url,
+        })),
+      }
+    : null;
+
   return (
     <Helmet>
       {/* Basic Meta Tags */}
@@ -150,6 +171,13 @@ export function SEOHead({
       {type === "article" && newsArticleSchema && (
         <script type="application/ld+json">
           {JSON.stringify(newsArticleSchema)}
+        </script>
+      )}
+
+      {/* Breadcrumb Schema */}
+      {breadcrumbSchema && (
+        <script type="application/ld+json">
+          {JSON.stringify(breadcrumbSchema)}
         </script>
       )}
     </Helmet>
