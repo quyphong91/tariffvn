@@ -1,12 +1,17 @@
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet-async";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Home, ChevronRight } from "lucide-react";
-import { useCanonicalUrl } from "@/hooks/useCanonicalUrl";
+import { SEOHead } from "@/components/SEOHead";
+
+const BASE_URL = "https://tracuuhs.com";
 
 const GRIRules = () => {
-  const canonicalUrl = useCanonicalUrl();
+  const breadcrumbs = [
+    { name: "Trang chủ", url: BASE_URL },
+    { name: "Quy tắc phân loại", url: `${BASE_URL}/quy-tac-phan-loai-hs` },
+  ];
+
   const rules = [
     {
       id: "1",
@@ -72,24 +77,30 @@ const GRIRules = () => {
 
   return (
     <>
-      <Helmet>
-        <link rel="canonical" href={canonicalUrl} />
-        <title>Quy tắc phân loại hàng hóa GRI | HSTC</title>
-        <meta name="description" content="6 quy tắc tổng quát giải thích việc phân loại hàng hóa theo Danh mục HS Code." />
-      </Helmet>
+      <SEOHead
+        title="Quy tắc phân loại hàng hóa GRI"
+        description="6 quy tắc tổng quát giải thích việc phân loại hàng hóa theo Danh mục HS Code."
+        breadcrumbs={breadcrumbs}
+      />
       <div className="min-h-screen bg-gradient-hero">
         <Header />
 
       <main className="container mx-auto px-4 py-8">
         {/* Breadcrumb */}
-        <div className="mb-6">
-          <Link to="/" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
-            <Home className="w-4 h-4" />
-            Trang chủ
-          </Link>
-          <span className="mx-2 text-muted-foreground">/</span>
-          <span className="text-sm text-foreground">Quy tắc phân loại</span>
-        </div>
+        <nav aria-label="Breadcrumb" className="mb-6">
+          <ol className="flex items-center flex-wrap gap-1 text-sm text-muted-foreground">
+            <li className="flex items-center">
+              <Link to="/" className="flex items-center gap-1 hover:text-primary transition-colors">
+                <Home className="w-4 h-4" />
+                <span className="sr-only md:not-sr-only">Trang chủ</span>
+              </Link>
+            </li>
+            <li className="flex items-center">
+              <ChevronRight className="w-4 h-4 mx-1" />
+              <span className="text-foreground font-medium">Quy tắc phân loại</span>
+            </li>
+          </ol>
+        </nav>
 
         {/* Page Header */}
         <div className="max-w-4xl mx-auto mb-12">

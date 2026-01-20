@@ -1,10 +1,9 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet-async";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Home, BookOpen, ChevronDown, ChevronRight, Globe, FileText, ExternalLink } from "lucide-react";
-import { useCanonicalUrl } from "@/hooks/useCanonicalUrl";
+import { SEOHead } from "@/components/SEOHead";
 import { Button } from "@/components/ui/button";
 import { chapterNotesData, getSectionNote, ChapterNote, HeadingNote } from "@/data/chapterNotesData";
 import {
@@ -15,12 +14,18 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
+const BASE_URL = "https://tracuuhs.com";
+
 const ChapterNotes = () => {
-  const canonicalUrl = useCanonicalUrl();
   const [expandedSections, setExpandedSections] = useState<number[]>([]);
   const [expandedChapters, setExpandedChapters] = useState<number[]>([]);
   const [expandedHeadings, setExpandedHeadings] = useState<string[]>([]);
   const [language, setLanguage] = useState<"vi" | "en">("vi");
+
+  const breadcrumbs = [
+    { name: "Trang chủ", url: BASE_URL },
+    { name: "Chú giải phân loại", url: `${BASE_URL}/chu-giai-hs` },
+  ];
 
   const toggleSection = (section: number) => {
     setExpandedSections(prev =>
@@ -73,24 +78,30 @@ const ChapterNotes = () => {
 
   return (
     <>
-      <Helmet>
-        <link rel="canonical" href={canonicalUrl} />
-        <title>Chú giải phân loại HS Code theo Chương và Nhóm | HSTC</title>
-        <meta name="description" content="Chú giải chi tiết Explanatory Notes của Hệ thống hài hoà HS giúp giải thích phạm vi và nội dung của từng Chương, Nhóm trong Biểu thuế." />
-      </Helmet>
+      <SEOHead
+        title="Chú giải phân loại HS Code theo Chương và Nhóm"
+        description="Chú giải chi tiết Explanatory Notes của Hệ thống hài hoà HS giúp giải thích phạm vi và nội dung của từng Chương, Nhóm trong Biểu thuế."
+        breadcrumbs={breadcrumbs}
+      />
       <div className="min-h-screen bg-gradient-hero">
         <Header />
 
       <main className="container mx-auto px-4 py-8">
         {/* Breadcrumb */}
-        <div className="mb-6">
-          <Link to="/" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
-            <Home className="w-4 h-4" />
-            Trang chủ
-          </Link>
-          <span className="mx-2 text-muted-foreground">/</span>
-          <span className="text-sm text-foreground">Chú giải phân loại</span>
-        </div>
+        <nav aria-label="Breadcrumb" className="mb-6">
+          <ol className="flex items-center flex-wrap gap-1 text-sm text-muted-foreground">
+            <li className="flex items-center">
+              <Link to="/" className="flex items-center gap-1 hover:text-primary transition-colors">
+                <Home className="w-4 h-4" />
+                <span className="sr-only md:not-sr-only">Trang chủ</span>
+              </Link>
+            </li>
+            <li className="flex items-center">
+              <ChevronRight className="w-4 h-4 mx-1" />
+              <span className="text-foreground font-medium">Chú giải phân loại</span>
+            </li>
+          </ol>
+        </nav>
 
         {/* Page Header */}
         <div className="max-w-5xl mx-auto mb-8">
