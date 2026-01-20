@@ -5,12 +5,14 @@ import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { SEOHead } from "@/components/SEOHead";
-import { ArrowLeft, Calendar, Share2, Check, Loader2 } from "lucide-react";
+import { ArrowLeft, Calendar, Share2, Check, Loader2, ChevronRight, Home } from "lucide-react";
 import { format } from "date-fns";
 import { vi } from "date-fns/locale";
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { toast } from "sonner";
 import { useArticleBySlug, usePublishedArticles } from "@/hooks/useArticles";
+
+const BASE_URL = "https://tracuuhs.com";
 
 const NewsDetail = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -22,6 +24,16 @@ const NewsDetail = () => {
   
   // Get related articles (exclude current)
   const relatedArticles = allArticles?.filter(a => a.slug !== slug).slice(0, 2) || [];
+
+  // Breadcrumbs data - auto-updates when article changes
+  const breadcrumbs = useMemo(() => {
+    if (!article) return [];
+    return [
+      { name: "Trang chủ", url: BASE_URL },
+      { name: "Tin tức", url: `${BASE_URL}/tin-tuc` },
+      { name: article.title, url: `${BASE_URL}/tin-tuc/${article.slug}` },
+    ];
+  }, [article]);
 
   const handleShare = async () => {
     const url = window.location.href;
@@ -91,6 +103,7 @@ const NewsDetail = () => {
           publishedTime: article.published_at,
           modifiedTime: article.updated_at || undefined,
         }}
+        breadcrumbs={breadcrumbs}
       />
 
       <div className="min-h-screen flex flex-col bg-gradient-hero">
@@ -98,15 +111,35 @@ const NewsDetail = () => {
 
         <main className="flex-1 container mx-auto px-4 py-8">
           <div className="max-w-4xl mx-auto">
-            {/* Back Button */}
-            <Button
-              variant="ghost"
-              onClick={() => navigate("/tin-tuc")}
-              className="mb-6 -ml-2"
-            >
-              <ArrowLeft className="w-4 h-4 mr-2" />
-              Quay lại danh sách
-            </Button>
+            {/* Visual Breadcrumbs */}
+            <nav aria-label="Breadcrumb" className="mb-6">
+              <ol className="flex items-center flex-wrap gap-1 text-sm text-muted-foreground">
+                <li className="flex items-center">
+                  <Link
+                    to="/"
+                    className="flex items-center gap-1 hover:text-primary transition-colors"
+                  >
+                    <Home className="w-4 h-4" />
+                    <span className="sr-only md:not-sr-only">Trang chủ</span>
+                  </Link>
+                </li>
+                <li className="flex items-center">
+                  <ChevronRight className="w-4 h-4 mx-1" />
+                  <Link
+                    to="/tin-tuc"
+                    className="hover:text-primary transition-colors"
+                  >
+                    Tin tức
+                  </Link>
+                </li>
+                <li className="flex items-center">
+                  <ChevronRight className="w-4 h-4 mx-1" />
+                  <span className="text-foreground font-medium line-clamp-1 max-w-[200px] md:max-w-none">
+                    {article.title}
+                  </span>
+                </li>
+              </ol>
+            </nav>
 
             {/* Article */}
             <article className="space-y-6">
