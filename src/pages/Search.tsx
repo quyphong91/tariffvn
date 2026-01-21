@@ -355,12 +355,14 @@ const Search = () => {
   return (
     <>
       <SEOHead
-        title="Công cụ tra cứu HS Code"
-        description="Tra cứu mã HS Code nhanh theo mô tả hàng hóa, chất liệu và chức năng. Hỗ trợ tìm kiếm bằng tiếng Việt và tiếng Anh."
-        url="https://tracuuhs.com/tra-cuu-hs-code"
-        noIndex={true}
-      />
-      <div className="min-h-screen bg-gradient-hero">
+      title="Công cụ tra cứu HS Code"
+      description="Tra cứu mã HS Code nhanh theo mô tả hàng hóa, chất liệu và chức năng. Hỗ trợ tìm kiếm bằng tiếng Việt và tiếng Anh."
+      url="https://tracuuhs.com/tra-cuu-hs-code"
+      // 2. Nếu KHÔNG có query 'q' thì để Google index (noIndex = false)
+      // Nếu CÓ query 'q' (đang xem kết quả) thì chặn index (noIndex = true)
+      noIndex={hasSearchQuery} 
+    />
+    <div className="min-h-screen bg-gradient-hero">
         <Header />
 
       <main className="container mx-auto px-4 py-8">
