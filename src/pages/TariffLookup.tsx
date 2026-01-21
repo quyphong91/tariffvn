@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo, useCallback } from "react";
-import { useSearchParams } from "react-router-dom";
+import { useSearchParams, Link } from "react-router-dom";
 import { Header } from "@/components/Header";
 import { SEOHead } from "@/components/SEOHead";
 import { Footer } from "@/components/Footer";
@@ -33,6 +33,8 @@ import {
   Filter,
   RefreshCw,
   Check,
+  Home,
+  ChevronRight,
 } from "lucide-react";
 import { toast } from "sonner";
 import {
@@ -49,6 +51,7 @@ import { cn } from "@/lib/utils";
 
 // Input validation constant
 const MAX_SEARCH_LENGTH = 200;
+const BASE_URL = "https://tracuuhs.com";
 
 const TariffLookup = () => {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -224,6 +227,11 @@ const TariffLookup = () => {
     return `Tra cứu thuế nhập khẩu cho "${searchQuery}". Tìm thấy ${searchResults.length} kết quả. Xem thuế suất MFN, EVFTA, CPTPP, RCEP và các FTA khác.`;
   }, [hasSearched, searchQuery, searchResults.length]);
 
+  const breadcrumbs = useMemo(() => [
+    { name: "Trang chủ", url: `${BASE_URL}/` },
+    { name: "Tra cứu thuế nhập khẩu", url: `${BASE_URL}/tra-cuu-thue-nhap-khau` },
+  ], []);
+
   if (loading) {
     return (
       <div className="min-h-screen flex flex-col bg-gradient-hero">
@@ -263,12 +271,23 @@ const TariffLookup = () => {
       <SEOHead
         title={seoTitle}
         description={seoDescription}
+        breadcrumbs={breadcrumbs}
       />
 
       <div className="min-h-screen flex flex-col bg-gradient-hero">
         <Header />
 
         <main className="flex-1 container mx-auto px-4 py-6 space-y-6">
+          {/* Breadcrumbs */}
+          <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-sm text-muted-foreground">
+            <Link to="/" className="flex items-center gap-1 hover:text-primary transition-colors">
+              <Home className="w-4 h-4" />
+              <span>Trang chủ</span>
+            </Link>
+            <ChevronRight className="w-4 h-4" />
+            <span className="text-foreground font-medium">Tra cứu thuế nhập khẩu</span>
+          </nav>
+
           {/* Page Title */}
           <div className="text-center">
             <h1 className="text-2xl md:text-3xl font-bold text-foreground mb-2">
