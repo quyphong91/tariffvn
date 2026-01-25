@@ -2,17 +2,17 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { Home, BookOpen, ChevronDown, ChevronRight, Globe, ExternalLink } from "lucide-react";
+import { Home, ChevronDown, ChevronRight, Globe, ExternalLink, Loader2 } from "lucide-react";
 import { SEOHead } from "@/components/SEOHead";
 import { Button } from "@/components/ui/button";
 import { chapterNotesData, ChapterNote } from "@/data/chapterNotesData";
+import { useHSHeadings } from "@/hooks/useHSHeadings";
 import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
 } from "@/components/ui/collapsible";
 import { Badge } from "@/components/ui/badge";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const BASE_URL = "https://tracuuhs.com";
 
@@ -20,6 +20,9 @@ const ChapterNotes = () => {
   const [expandedSections, setExpandedSections] = useState<number[]>([]);
   const [expandedChapters, setExpandedChapters] = useState<number[]>([]);
   const [language, setLanguage] = useState<"vi" | "en">("vi");
+  
+  // Load all Level 0 headings dynamically from HS data source
+  const { getHeadingsForChapter, isLoading: isLoadingHeadings } = useHSHeadings();
 
   const breadcrumbs = [
     { name: "Trang chủ", url: BASE_URL },
@@ -210,22 +213,27 @@ const ChapterNotes = () => {
 
                         <CollapsibleContent>
                           <div className="mt-2 ml-4 space-y-2 border-l-2 border-primary/20 pl-4">
-                            {/* Headings - Simple list without collapsible content */}
-                            {chapter.headings.map((heading) => (
-                              <div
-                                key={heading.code}
-                                className="flex items-center gap-3 p-3 rounded-md border border-border/50 bg-card/50"
-                              >
-                                <Badge variant="outline" className="flex-shrink-0 font-mono text-xs">
-                                  {heading.code}
-                                </Badge>
-                                <span className="text-sm text-foreground">
-                                  {language === "vi" ? heading.titleVi : heading.titleEn}
-                                </span>
+                            {/* Headings - Dynamically loaded from HS data */}
+                            {isLoadingHeadings ? (
+                              <div className="flex items-center gap-2 p-3 text-muted-foreground">
+                                <Loader2 className="w-4 h-4 animate-spin" />
+                                <span className="text-sm">Đang tải danh sách nhóm...</span>
                               </div>
-                            ))}
-
-                            {/* Full Notes Button */}
+                            ) : (
+                              getHeadingsForChapter(chapter.chapter).map((heading) => (
+                                <div
+                                  key={heading.code}
+                                  className="flex items-start gap-3 p-3 rounded-md border border-border/50 bg-card/50"
+                                >
+                                  <Badge variant="outline" className="flex-shrink-0 font-mono text-xs">
+                                    {heading.code}
+                                  </Badge>
+                                  <span className="text-sm text-foreground">
+                                    {language === "vi" ? heading.titleVi : heading.titleEn}
+                                  </span>
+                                </div>
+                              ))
+                            )}
                             <div className="pt-3 mt-2">
                               <Link
                                 to={`/chu-giai-hs/full/${chapter.chapter}`}
