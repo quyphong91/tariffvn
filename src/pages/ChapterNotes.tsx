@@ -2,10 +2,10 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { Home, BookOpen, ChevronDown, ChevronRight, Globe, FileText, ExternalLink } from "lucide-react";
+import { Home, BookOpen, ChevronDown, ChevronRight, Globe, ExternalLink } from "lucide-react";
 import { SEOHead } from "@/components/SEOHead";
 import { Button } from "@/components/ui/button";
-import { chapterNotesData, getSectionNote, ChapterNote, HeadingNote } from "@/data/chapterNotesData";
+import { chapterNotesData, ChapterNote } from "@/data/chapterNotesData";
 import {
   Collapsible,
   CollapsibleContent,
@@ -19,7 +19,6 @@ const BASE_URL = "https://tracuuhs.com";
 const ChapterNotes = () => {
   const [expandedSections, setExpandedSections] = useState<number[]>([]);
   const [expandedChapters, setExpandedChapters] = useState<number[]>([]);
-  const [expandedHeadings, setExpandedHeadings] = useState<string[]>([]);
   const [language, setLanguage] = useState<"vi" | "en">("vi");
 
   const breadcrumbs = [
@@ -43,14 +42,6 @@ const ChapterNotes = () => {
     );
   };
 
-  const toggleHeading = (code: string) => {
-    setExpandedHeadings(prev =>
-      prev.includes(code)
-        ? prev.filter(c => c !== code)
-        : [...prev, code]
-    );
-  };
-
   // Group chapters by section
   const groupedBySection = chapterNotesData.reduce((acc, chapter) => {
     const section = chapter.section;
@@ -66,13 +57,11 @@ const ChapterNotes = () => {
   const expandAll = () => {
     setExpandedSections(allSections);
     setExpandedChapters(chapterNotesData.map(c => c.chapter));
-    setExpandedHeadings(chapterNotesData.flatMap(c => c.headings.map(h => h.code)));
   };
 
   const collapseAll = () => {
     setExpandedSections([]);
     setExpandedChapters([]);
-    setExpandedHeadings([]);
   };
 
 
@@ -167,7 +156,6 @@ const ChapterNotes = () => {
         <div className="max-w-5xl mx-auto space-y-6">
           {Object.entries(groupedBySection).map(([sectionNum, chapters]) => {
             const section = parseInt(sectionNum);
-            const sectionNote = getSectionNote(section);
             const firstChapter = chapters[0];
             const romanNumeral = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII", "XIII", "XIV", "XV", "XVI", "XVII", "XVIII", "XIX", "XX", "XXI"][section - 1] || section.toString();
 
@@ -196,123 +184,64 @@ const ChapterNotes = () => {
                 </CollapsibleTrigger>
 
                 <CollapsibleContent>
-                  <div className="mt-3 space-y-4 ml-2">
-                    {/* Section Note */}
-                    <div className="p-3 rounded-lg bg-muted/30 border-l-2 border-primary/30">
-                      <p className="text-sm text-muted-foreground leading-relaxed">
-                        {language === "vi" ? sectionNote.vi : sectionNote.en}
-                      </p>
-                    </div>
-
+                  <div className="mt-3 space-y-3 ml-2">
                     {/* Chapters in this Section */}
-                    <div className="space-y-3">
-                      {chapters.map((chapter) => (
-                        <Collapsible
-                          key={chapter.chapter}
-                          open={expandedChapters.includes(chapter.chapter)}
-                          onOpenChange={() => toggleChapter(chapter.chapter)}
-                        >
-                          <CollapsibleTrigger className="w-full">
-                            <div className="flex items-center gap-3 p-4 rounded-lg border border-border bg-card hover:bg-muted/50 transition-colors text-left">
-                              {expandedChapters.includes(chapter.chapter) ? (
-                                <ChevronDown className="w-5 h-5 text-primary flex-shrink-0" />
-                              ) : (
-                                <ChevronRight className="w-5 h-5 text-muted-foreground flex-shrink-0" />
-                              )}
-                              <Badge variant="secondary" className="flex-shrink-0">
-                                {language === "vi" ? `Chương ${chapter.chapter}` : `Chapter ${chapter.chapter}`}
-                              </Badge>
-                              <span className="font-medium text-foreground">
-                                {language === "vi" ? chapter.titleVi : chapter.titleEn}
-                              </span>
+                    {chapters.map((chapter) => (
+                      <Collapsible
+                        key={chapter.chapter}
+                        open={expandedChapters.includes(chapter.chapter)}
+                        onOpenChange={() => toggleChapter(chapter.chapter)}
+                      >
+                        <CollapsibleTrigger className="w-full">
+                          <div className="flex items-center gap-3 p-4 rounded-lg border border-border bg-card hover:bg-muted/50 transition-colors text-left">
+                            {expandedChapters.includes(chapter.chapter) ? (
+                              <ChevronDown className="w-5 h-5 text-primary flex-shrink-0" />
+                            ) : (
+                              <ChevronRight className="w-5 h-5 text-muted-foreground flex-shrink-0" />
+                            )}
+                            <Badge variant="secondary" className="flex-shrink-0">
+                              {language === "vi" ? `Chương ${chapter.chapter}` : `Chapter ${chapter.chapter}`}
+                            </Badge>
+                            <span className="font-medium text-foreground">
+                              {language === "vi" ? chapter.titleVi : chapter.titleEn}
+                            </span>
+                          </div>
+                        </CollapsibleTrigger>
+
+                        <CollapsibleContent>
+                          <div className="mt-2 ml-4 space-y-2 border-l-2 border-primary/20 pl-4">
+                            {/* Headings - Simple list without collapsible content */}
+                            {chapter.headings.map((heading) => (
+                              <div
+                                key={heading.code}
+                                className="flex items-center gap-3 p-3 rounded-md border border-border/50 bg-card/50"
+                              >
+                                <Badge variant="outline" className="flex-shrink-0 font-mono text-xs">
+                                  {heading.code}
+                                </Badge>
+                                <span className="text-sm text-foreground">
+                                  {language === "vi" ? heading.titleVi : heading.titleEn}
+                                </span>
+                              </div>
+                            ))}
+
+                            {/* Full Notes Button */}
+                            <div className="pt-3 mt-2">
+                              <Link
+                                to={`/chu-giai-hs/full/${chapter.chapter}`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              >
+                                <Button variant="outline" size="sm" className="gap-2">
+                                  <ExternalLink className="w-4 h-4" />
+                                  {language === "vi" ? "Xem chú giải đầy đủ" : "See Full Notes"}
+                                </Button>
+                              </Link>
                             </div>
-                          </CollapsibleTrigger>
-
-                          <CollapsibleContent>
-                            <div className="mt-2 ml-4 space-y-4 border-l-2 border-primary/20 pl-4">
-                              {/* Chapter Notes */}
-                              {(language === "vi" ? chapter.notesVi : chapter.notesEn).length > 0 && (
-                                <div className="p-4 rounded-lg bg-muted/30 border border-border/50">
-                                  <h4 className="text-sm font-semibold text-foreground mb-2 flex items-center gap-2">
-                                    <FileText className="w-4 h-4 text-primary" />
-                                    {language === "vi" ? "Chú giải" : "Notes"}
-                                  </h4>
-                                  <ul className="space-y-2 text-sm text-muted-foreground">
-                                    {(language === "vi" ? chapter.notesVi : chapter.notesEn).map((note, idx) => (
-                                      <li key={idx} className="leading-relaxed">
-                                        {note}
-                                      </li>
-                                    ))}
-                                  </ul>
-                                </div>
-                              )}
-
-                              {/* General Description */}
-                              <div className="p-4 rounded-lg bg-ocean-light/10 border border-ocean/20">
-                                <h4 className="text-sm font-semibold text-foreground mb-2">
-                                  {language === "vi" ? "Tổng quát" : "General"}
-                                </h4>
-                                <p className="text-sm text-muted-foreground leading-relaxed">
-                                  {language === "vi" ? chapter.generalVi : chapter.generalEn}
-                                </p>
-                              </div>
-
-                              {/* Headings */}
-                              <div className="space-y-2">
-                                <h4 className="text-sm font-semibold text-foreground mb-2">
-                                  {language === "vi" ? "Các nhóm trong chương" : "Headings in this chapter"}
-                                </h4>
-                                {chapter.headings.map((heading) => (
-                                  <Collapsible
-                                    key={heading.code}
-                                    open={expandedHeadings.includes(heading.code)}
-                                    onOpenChange={() => toggleHeading(heading.code)}
-                                  >
-                                    <CollapsibleTrigger className="w-full">
-                                      <div className="flex items-center gap-3 p-3 rounded-md border border-border/50 bg-card/50 hover:bg-muted/30 transition-colors text-left">
-                                        {expandedHeadings.includes(heading.code) ? (
-                                          <ChevronDown className="w-4 h-4 text-primary flex-shrink-0" />
-                                        ) : (
-                                          <ChevronRight className="w-4 h-4 text-muted-foreground flex-shrink-0" />
-                                        )}
-                                        <Badge variant="outline" className="flex-shrink-0 font-mono text-xs">
-                                          {heading.code}
-                                        </Badge>
-                                        <span className="text-sm text-foreground">
-                                          {language === "vi" ? heading.titleVi : heading.titleEn}
-                                        </span>
-                                      </div>
-                                    </CollapsibleTrigger>
-
-                                    <CollapsibleContent>
-                                      <div className="mt-1 ml-7 p-3 rounded-md bg-muted/20 border-l-2 border-amber/30">
-                                        <p className="text-sm text-muted-foreground leading-relaxed">
-                                          {language === "vi" ? heading.contentVi : heading.contentEn}
-                                        </p>
-                                      </div>
-                                    </CollapsibleContent>
-                                  </Collapsible>
-                                ))}
-                              </div>
-
-                              {/* Full Notes Button */}
-                              <div className="pt-4 border-t border-border/50">
-                                <Link
-                                  to={`/chu-giai-hs/full/${chapter.chapter}`}
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                >
-                                  <Button variant="outline" size="sm" className="gap-2">
-                                    <ExternalLink className="w-4 h-4" />
-                                    Xem chú giải đầy đủ
-                                  </Button>
-                                </Link>
-                              </div>
-                            </div>
-                          </CollapsibleContent>
-                        </Collapsible>
-                      ))}
-                    </div>
+                          </div>
+                        </CollapsibleContent>
+                      </Collapsible>
+                    ))}
                   </div>
                 </CollapsibleContent>
               </Collapsible>
