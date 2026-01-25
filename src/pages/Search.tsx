@@ -183,6 +183,9 @@ const Search = () => {
   
   // Track if we've handled the initial URL query
   const initialSearchDone = useRef(false);
+  
+  // Determine if there's an active search query for SEO purposes
+  const hasSearchQuery = searchParams.get('q') !== null;
 
   // Load HS data on mount
   useEffect(() => {
