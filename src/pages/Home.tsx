@@ -51,7 +51,7 @@ const Home = () => {
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             <FeatureCard
               title="HSTC AI"
               description="Gửi yêu cầu tra cứu HS Code và nhận kết quả phân tích từ AI. Dịch vụ miễn phí, giới hạn số lượt mỗi ngày."
@@ -67,13 +67,6 @@ const Home = () => {
               to="/tra-cuu-thue-nhap-khau"
               iconBgClass="bg-amber/20"
             />
-            <FeatureCard
-              title="Quy tắc phân loại HS"
-              description="6 quy tắc tổng quát giải thích việc phân loại hàng hóa theo Danh mục HS Code"
-              icon={Scale}
-              to="/quy-tac-phan-loai-hs"
-              iconBgClass="bg-primary/10"
-            />
           </div>
         </section>
 
@@ -87,6 +80,14 @@ const Home = () => {
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-7xl mx-auto">
+            <FeatureCard
+              title="Quy tắc phân loại HS"
+              description="6 quy tắc tổng quát giải thích việc phân loại hàng hóa"
+              icon={Scale}
+              to="/quy-tac-phan-loai-hs"
+              iconBgClass="bg-primary/10"
+              variant="compact"
+            />
             <FeatureCard
               title="Chú giải HS 2022"
               description="Chú giải chi tiết theo Chương và Nhóm hàng"
@@ -111,6 +112,19 @@ const Home = () => {
               iconBgClass="bg-orange/20"
               variant="compact"
             />
+          </div>
+        </section>
+
+        {/* News Section */}
+        <section className="container mx-auto px-4 py-8 border-t border-border/50">
+          <div className="mb-6">
+            <h2 className="text-lg font-semibold text-foreground flex items-center gap-2">
+              <Newspaper className="w-5 h-5 text-primary" />
+              Tin tức & Cập nhật
+            </h2>
+          </div>
+
+          <div className="max-w-md">
             <FeatureCard
               title="Tin tức"
               description="Cập nhật chính sách hải quan mới nhất"
