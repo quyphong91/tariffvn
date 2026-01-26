@@ -42,63 +42,82 @@ const Home = () => {
           </div>
         </section>
 
-        {/* Features / Bottom Section */}
+        {/* Primary Tools Section */}
         <section className="container mx-auto px-4 py-8 border-t border-border/50">
-          <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
-              Tài liệu tham khảo và công cụ hỗ trợ khác
+          <div className="mb-6">
+            <h2 className="text-lg font-semibold text-foreground flex items-center gap-2">
+              <Search className="w-5 h-5 text-primary" />
+              Công cụ tra cứu
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-7xl mx-auto">
             <FeatureCard
-              title="HSTC AI - Tra cứu HS Code bằng AI (Beta)"
+              title="HSTC AI"
               description="Gửi yêu cầu tra cứu HS Code và nhận kết quả phân tích từ AI. Dịch vụ miễn phí, giới hạn số lượt mỗi ngày."
               icon={Sparkles}
               to="/ai-tra-cuu-hs"
               iconBgClass="bg-purple-500/20"
+              badge="Beta"
             />
             <FeatureCard
               title="Tra cứu biểu thuế nhập khẩu"
-              description="Tra cứu thuế biểu thuế nhập khẩu mới nhất năm 2026 cập nhật theo biểu thuế xuất nhập khẩu 2026 của Chi cục Hải quan Khu vực VIII"
+              description="Tra cứu thuế biểu thuế nhập khẩu mới nhất năm 2026 cập nhật theo biểu thuế xuất nhập khẩu 2026"
               icon={Calculator}
               to="/tra-cuu-thue-nhap-khau"
               iconBgClass="bg-amber/20"
             />
             <FeatureCard
-              title="Quy tắc phân loại hàng hóa và xác định HS Code"
+              title="Quy tắc phân loại HS"
               description="6 quy tắc tổng quát giải thích việc phân loại hàng hóa theo Danh mục HS Code"
               icon={Scale}
               to="/quy-tac-phan-loai-hs"
               iconBgClass="bg-primary/10"
             />
+          </div>
+        </section>
+
+        {/* Reference Materials Section */}
+        <section className="container mx-auto px-4 py-8 border-t border-border/50">
+          <div className="mb-6">
+            <h2 className="text-lg font-semibold text-foreground flex items-center gap-2">
+              <BookOpen className="w-5 h-5 text-primary" />
+              Tài liệu tham khảo
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-7xl mx-auto">
             <FeatureCard
-              title="Chú giải chi tiết Danh mục HS Code theo phiên bản 2022"
-              description="Chú giải chi tiết theo Chương và Nhóm hàng trong Danh mục HS Code"
+              title="Chú giải HS 2022"
+              description="Chú giải chi tiết theo Chương và Nhóm hàng"
               icon={BookOpen}
               to="/chu-giai-hs"
               iconBgClass="bg-ocean-light/30"
+              variant="compact"
             />
             <FeatureCard
-              title="Chú giải bổ sung SEN 2022"
-              description="Chú giải SEN được xây dựng như một công cụ hỗ trợ các nước thành viên ASEAN để phân loại hàng hóa một số mặt hàng cụ thể được chi tiết ở cấp độ 8 số trong Danh mục AHTN"
+              title="Chú giải SEN"
+              description="Chú giải bổ sung ASEAN cấp 8 số"
               icon={FileText}
               to="/chu-giai-sen"
               iconBgClass="bg-amber/20"
+              variant="compact"
             />
             <FeatureCard
-              title="Tuyển tập ý kiến phân loại hàng hóa của WCO"
-              description="Các quyết định phân loại HS Code của Tổ chức Hải quan Thế giới cho các hàng hoá mới hoặc phức tạp"
+              title="Tuyển tập WCO"
+              description="Quyết định phân loại của Hải quan Thế giới"
               icon={Globe}
               to="/tuyen-tap-phan-loai-wco"
               iconBgClass="bg-orange/20"
+              variant="compact"
             />
             <FeatureCard
-              title="Tin tức & Bài viết"
-              description="Cập nhật thông tin mới nhất về HS Code, biểu thuế và chính sách hải quan"
+              title="Tin tức"
+              description="Cập nhật chính sách hải quan mới nhất"
               icon={Newspaper}
               to="/tin-tuc"
               iconBgClass="bg-primary/15"
+              variant="compact"
             />
           </div>
         </section>
