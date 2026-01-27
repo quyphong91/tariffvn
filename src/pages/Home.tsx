@@ -3,10 +3,17 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { FeatureCard } from "@/components/FeatureCard";
 import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { Skeleton } from "@/components/ui/skeleton";
 import { SEOHead } from "@/components/SEOHead";
-import { Search, BookOpen, FileText, Scale, Globe, ArrowRight, Calculator, Newspaper, Sparkles } from "lucide-react";
+import { Search, BookOpen, FileText, Scale, Globe, ArrowRight, Calculator, Newspaper, Sparkles, Calendar } from "lucide-react";
+import { usePublishedArticles } from "@/hooks/useArticles";
+import { format } from "date-fns";
+import { vi } from "date-fns/locale";
 
 const Home = () => {
+  const { data: articles, isLoading: articlesLoading } = usePublishedArticles();
+  const latestArticles = articles?.slice(0, 4) || [];
   return (
     <>
       <SEOHead
@@ -117,23 +124,83 @@ const Home = () => {
 
         {/* News Section */}
         <section className="container mx-auto px-4 py-8 border-t border-border/50">
-          <div className="mb-6">
+          <div className="mb-6 flex items-center justify-between">
             <h2 className="text-lg font-semibold text-foreground flex items-center gap-2">
               <Newspaper className="w-5 h-5 text-primary" />
               Tin tức & Cập nhật
             </h2>
+            <Link 
+              to="/tin-tuc" 
+              className="text-sm text-primary hover:underline flex items-center gap-1"
+            >
+              Xem tất cả
+              <ArrowRight className="w-4 h-4" />
+            </Link>
           </div>
 
-          <div className="max-w-md">
-            <FeatureCard
-              title="Tin tức"
-              description="Cập nhật chính sách hải quan mới nhất"
-              icon={Newspaper}
-              to="/tin-tuc"
-              iconBgClass="bg-primary/15"
-              variant="compact"
-            />
-          </div>
+          {/* Loading State */}
+          {articlesLoading && (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-7xl mx-auto">
+              {[...Array(4)].map((_, i) => (
+                <Card key={i} className="overflow-hidden">
+                  <Skeleton className="aspect-video w-full" />
+                  <CardContent className="p-4 space-y-2">
+                    <Skeleton className="h-4 w-24" />
+                    <Skeleton className="h-5 w-full" />
+                    <Skeleton className="h-4 w-3/4" />
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+          )}
+
+          {/* Articles Grid */}
+          {!articlesLoading && latestArticles.length > 0 && (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-7xl mx-auto">
+              {latestArticles.map((article) => (
+                <Link
+                  key={article.id}
+                  to={`/tin-tuc/${article.slug}`}
+                  className="group block"
+                >
+                  <Card className="h-full overflow-hidden shadow-sm hover:shadow-card hover:border-primary/30 transition-all duration-300 group-hover:-translate-y-1">
+                    <div className="aspect-video bg-muted overflow-hidden">
+                      <img
+                        src={article.image_url || "/placeholder.svg"}
+                        alt={article.title}
+                        className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                      />
+                    </div>
+                    <CardContent className="p-4 space-y-2">
+                      <div className="flex items-center gap-1.5 text-xs text-muted-foreground">
+                        <Calendar className="w-3 h-3" />
+                        <time dateTime={article.published_at}>
+                          {format(new Date(article.published_at), "dd/MM/yyyy", { locale: vi })}
+                        </time>
+                      </div>
+                      <h3 className="text-sm font-medium text-foreground line-clamp-2 group-hover:text-primary transition-colors">
+                        {article.title}
+                      </h3>
+                    </CardContent>
+                  </Card>
+                </Link>
+              ))}
+            </div>
+          )}
+
+          {/* Empty State */}
+          {!articlesLoading && latestArticles.length === 0 && (
+            <div className="max-w-md">
+              <FeatureCard
+                title="Tin tức"
+                description="Cập nhật chính sách hải quan mới nhất"
+                icon={Newspaper}
+                to="/tin-tuc"
+                iconBgClass="bg-primary/15"
+                variant="compact"
+              />
+            </div>
+          )}
         </section>
 
         {/* Personal Message Section */}
