@@ -54,7 +54,7 @@ const Home = () => {
           <div className="mb-6">
             <h2 className="text-lg font-semibold text-foreground flex items-center gap-2">
               <Search className="w-5 h-5 text-primary" />
-              Công cụ tra cứu
+              Công cụ tra cứu khác
             </h2>
           </div>
 
