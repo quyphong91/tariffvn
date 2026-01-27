@@ -34,17 +34,17 @@ export const FeatureCard = ({
           {/* Subtle gradient overlay on hover */}
           <div className="absolute inset-0 bg-gradient-to-br from-primary/0 via-transparent to-amber/0 group-hover:from-primary/5 group-hover:to-amber/5 transition-all duration-500 rounded-[10px]" />
           
-          <div className="relative flex flex-col">
-            <div className={cn(
-              "rounded-xl flex items-center justify-center transition-all duration-300 group-hover:scale-110 group-hover:shadow-glow flex-shrink-0",
-              iconBgClass,
-              "w-14 h-14 mb-4"
-            )}>
-              <Icon className="w-7 h-7 text-primary transition-colors duration-300" />
-            </div>
-            <div className="flex-1 min-w-0">
+          <div className="relative flex flex-col gap-3">
+            <div className="flex items-center gap-3">
+              <div className={cn(
+                "rounded-xl flex items-center justify-center transition-all duration-300 group-hover:scale-110 group-hover:shadow-glow flex-shrink-0",
+                iconBgClass,
+                "w-12 h-12"
+              )}>
+                <Icon className="w-6 h-6 text-primary transition-colors duration-300" />
+              </div>
               <div className="flex items-center gap-2 flex-wrap">
-                <h3 className="text-lg font-semibold text-foreground group-hover:text-primary transition-colors duration-300 mb-2">
+                <h3 className="text-lg font-semibold text-foreground group-hover:text-primary transition-colors duration-300">
                   {title}
                 </h3>
                 {badge && (
@@ -53,10 +53,10 @@ export const FeatureCard = ({
                   </span>
                 )}
               </div>
-              <p className="text-sm text-muted-foreground leading-relaxed">
-                {description}
-              </p>
             </div>
+            <p className="text-sm text-muted-foreground leading-relaxed">
+              {description}
+            </p>
           </div>
         </div>
       </Link>
