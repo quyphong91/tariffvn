@@ -78,9 +78,6 @@ export const Footer = () => {
         {/* Bottom Bar */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-muted-foreground/60">
           <p>© {currentYear} HSTC. Dữ liệu tham khảo từ Danh mục hàng hóa XNK Việt Nam theo Thông tư 31/2022/TT-BTC.</p>
-          <p>
-            Được phát triển với <Heart className="w-3 h-3 inline-block mx-1 text-red-400" /> cho cộng đồng XNK Việt Nam
-          </p>
         </div>
       </div>
     </footer>
