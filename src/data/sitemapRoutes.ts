@@ -24,6 +24,7 @@ export const staticRoutes: SitemapRoute[] = [
   { path: '/tuyen-tap-phan-loai-wco', priority: 0.7, changefreq: 'monthly' },
   { path: '/tin-tuc', priority: 0.8, changefreq: 'daily' },
   { path: '/gioi-thieu', priority: 0.6, changefreq: 'monthly' },
+  { path: '/chinh-sach-bao-mat', priority: 0.5, changefreq: 'yearly' },
 ];
 
 // Domain chính của website (thay đổi khi deploy)
