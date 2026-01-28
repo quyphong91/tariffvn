@@ -53,6 +53,9 @@ export const Footer = () => {
               <Link to="/gioi-thieu" className="text-sm text-muted-foreground hover:text-primary transition-colors">
                 Về HSTC
               </Link>
+              <Link to="/chinh-sach-bao-mat" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                Chính sách bảo mật
+              </Link>
               <a 
                 href="mailto:hscodetracuu@gmail.com" 
                 className="text-sm text-muted-foreground hover:text-primary transition-colors inline-flex items-center gap-1.5"
