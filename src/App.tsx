@@ -21,6 +21,7 @@ import AdminLogin from "./pages/AdminLogin";
 import AdminPanel from "./pages/AdminPanel";
 import AdminArticleCreate from "./pages/AdminArticleCreate";
 import AdminArticleEdit from "./pages/AdminArticleEdit";
+import AboutHSTC from "./pages/AboutHSTC";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -50,6 +51,7 @@ const App = () => (
             <Route path="/admin" element={<AdminPanel />} />
             <Route path="/admin/articles/create" element={<AdminArticleCreate />} />
             <Route path="/admin/articles/edit/:id" element={<AdminArticleEdit />} />
+            <Route path="/gioi-thieu" element={<AboutHSTC />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
