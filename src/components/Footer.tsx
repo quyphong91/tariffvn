@@ -64,12 +64,6 @@ export const Footer = () => {
                 hscodetracuu@gmail.com
               </a>
             </nav>
-            <div className="pt-2">
-              <p className="text-xs text-muted-foreground/80 leading-relaxed">
-                Nếu thấy hữu ích, thỉnh thoảng nhớ donate ủng hộ page nhé. Một ly cà phê cũng đủ thấy vui 
-                <Heart className="w-3 h-3 inline-block ml-1 text-red-400" />
-              </p>
-            </div>
           </div>
         </div>
 
@@ -78,6 +72,10 @@ export const Footer = () => {
         {/* Bottom Bar */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-muted-foreground/60">
           <p>© {currentYear} HSTC. Dữ liệu tham khảo từ Danh mục hàng hóa XNK Việt Nam theo Thông tư 31/2022/TT-BTC.</p>
+          <p className="text-xs text-muted-foreground/80 leading-relaxed">
+                Nếu thấy hữu ích, thỉnh thoảng nhớ donate ủng hộ page nhé. Một ly cà phê cũng đủ thấy vui 
+                <Heart className="w-3 h-3 inline-block ml-1 text-red-400" />
+              </p>
         </div>
       </div>
     </footer>
