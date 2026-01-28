@@ -61,6 +61,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://tracuuhs.com/gioi-thieu</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tracuuhs.com/chinh-sach-bao-mat</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://tracuuhs.com/tin-tuc/huong-dan-phan-loai-hang-hoa-theo-hs-code</loc>
     <lastmod>2024-12-28</lastmod>
     <changefreq>monthly</changefreq>

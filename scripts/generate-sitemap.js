@@ -15,17 +15,20 @@ const __dirname = path.dirname(__filename);
 // Domain chính của website
 const SITE_URL = 'https://tracuuhs.com';
 
-// Static routes
+// Static routes (Vietnamese localized paths)
 const staticRoutes = [
   { path: '/', priority: 1.0, changefreq: 'weekly' },
-  { path: '/search', priority: 0.9, changefreq: 'weekly' },
-  { path: '/tariff-lookup', priority: 0.9, changefreq: 'monthly' },
-  { path: '/gri-rules', priority: 0.8, changefreq: 'monthly' },
-  { path: '/chapter-notes', priority: 0.8, changefreq: 'monthly' },
-  { path: '/chapter-notes/full-all', priority: 0.7, changefreq: 'monthly' },
-  { path: '/sen-notes', priority: 0.8, changefreq: 'monthly' },
-  { path: '/wco-compendium', priority: 0.7, changefreq: 'monthly' },
-  { path: '/news', priority: 0.8, changefreq: 'daily' },
+  { path: '/tra-cuu-hs-code', priority: 0.9, changefreq: 'weekly' },
+  { path: '/tra-cuu-thue-nhap-khau', priority: 0.9, changefreq: 'monthly' },
+  { path: '/ai-tra-cuu-hs', priority: 0.8, changefreq: 'daily' },
+  { path: '/quy-tac-phan-loai-hs', priority: 0.8, changefreq: 'monthly' },
+  { path: '/chu-giai-hs', priority: 0.8, changefreq: 'monthly' },
+  { path: '/chu-giai-hs/full-all', priority: 0.7, changefreq: 'monthly' },
+  { path: '/chu-giai-sen', priority: 0.8, changefreq: 'monthly' },
+  { path: '/tuyen-tap-phan-loai-wco', priority: 0.7, changefreq: 'monthly' },
+  { path: '/tin-tuc', priority: 0.8, changefreq: 'daily' },
+  { path: '/gioi-thieu', priority: 0.6, changefreq: 'monthly' },
+  { path: '/chinh-sach-bao-mat', priority: 0.5, changefreq: 'yearly' },
 ];
 
 // Read blog posts from blogData.ts
@@ -33,7 +36,7 @@ function extractBlogSlugs() {
   const blogDataPath = path.resolve(__dirname, '../src/data/blogData.ts');
   const content = fs.readFileSync(blogDataPath, 'utf-8');
   
-  // Extract slugs using regex
+  // Extract slugs and dates using regex
   const slugRegex = /slug:\s*["']([^"']+)["']/g;
   const dateRegex = /date:\s*["']([^"']+)["']/g;
   
@@ -63,10 +66,10 @@ function generateSitemap() {
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 `;
 
-  // Add static routes
+  // Add static routes (clean URLs without hash)
   for (const route of staticRoutes) {
     xml += `  <url>
-    <loc>${SITE_URL}/#${route.path}</loc>
+    <loc>${SITE_URL}${route.path}</loc>
     <lastmod>${today}</lastmod>
     <changefreq>${route.changefreq}</changefreq>
     <priority>${route.priority}</priority>
@@ -74,10 +77,10 @@ function generateSitemap() {
 `;
   }
 
-  // Add blog posts
+  // Add blog posts (Vietnamese path: /tin-tuc/)
   for (const post of blogPosts) {
     xml += `  <url>
-    <loc>${SITE_URL}/#/news/${post.slug}</loc>
+    <loc>${SITE_URL}/tin-tuc/${post.slug}</loc>
     <lastmod>${post.date}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -89,7 +92,7 @@ function generateSitemap() {
   for (let i = 1; i <= 99; i++) {
     const chapterNum = i.toString().padStart(2, '0');
     xml += `  <url>
-    <loc>${SITE_URL}/#/chapter-notes/full/${chapterNum}</loc>
+    <loc>${SITE_URL}/chu-giai-hs/full/${chapterNum}</loc>
     <lastmod>${today}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -101,7 +104,7 @@ function generateSitemap() {
   for (let i = 1; i <= 99; i++) {
     const chapterNum = i.toString().padStart(2, '0');
     xml += `  <url>
-    <loc>${SITE_URL}/#/sen-notes/full/${chapterNum}</loc>
+    <loc>${SITE_URL}/chu-giai-sen/full/${chapterNum}</loc>
     <lastmod>${today}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
